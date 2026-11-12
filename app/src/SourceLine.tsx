@@ -35,7 +35,7 @@ export function SourceLine({ sources }: { sources: Brick['sources'] }) {
     <View style={styles.row}>
       {outlets.map((s) => (
         <View key={s.name} style={styles.outlet}>
-          <SourceLogo url={s.url} />
+          <SourceLogo url={s.site ?? s.url} />
           <Text style={styles.name}>{s.name}</Text>
         </View>
       ))}

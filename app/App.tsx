@@ -17,15 +17,16 @@ import { BrickPage } from './src/BrickPage';
 import { CalendarSheet } from './src/CalendarSheet';
 import { formatDate, toDateKey } from './src/dates';
 import { PrefsProvider, usePrefs } from './src/prefs';
-import { ProfileProvider, useProfile } from './src/profile';
+import { ProfileProvider, useProfile, useSaveQuiz } from './src/profile';
 import { profileLines } from './src/quiz';
 import { QuizScreen } from './src/QuizScreen';
 import { SettingsSheet } from './src/SettingsSheet';
 import { fonts, ThemeProvider, useAppFonts, useStyles, useTheme, type Palette } from './src/theme';
-import { LEGACY_IDS, TOPIC_GROUP_OF, TOPIC_ORDER } from './src/topics';
-import type { Brick, DailyBricks } from './src/types';
+import { FIXED_ORDER, LEGACY_IDS, topicGroup } from './src/topics';
+import type { Brick, CategoryBricks } from './src/types';
 import { useAccount, type Account } from './src/useAccount';
 import { useBricks, useEditionDates } from './src/useBricks';
+import { useLocalTopics } from './src/useLocalTopics';
 import { usePersonalized } from './src/usePersonalized';
 import { useStreak } from './src/useStreak';
 import { WelcomeScreen } from './src/WelcomeScreen';
@@ -42,11 +43,10 @@ const SAME_GROUP_PENALTY = 2;
 // 1. the best story from each kind you follow (top stories, politics, economy, sports),
 // 2. remaining spots go by importance, minus SAME_GROUP_PENALTY per story already taken
 //    from that kind. Shown most important first.
-function buildDeck(data: DailyBricks | null, topics: string[], perDay: number): BrickItem[] {
-  if (!data) return [];
+function buildDeck(categories: CategoryBricks[], topics: string[], perDay: number): BrickItem[] {
   type Candidate = BrickItem & { score: number; order: number; group: string };
   const candidates: Candidate[] = [];
-  for (const category of data.categories) {
+  for (const category of categories) {
     const id = LEGACY_IDS[category.id] ?? category.id;
     if (!topics.includes(id)) continue;
     category.bricks.forEach((brick, i) =>
@@ -56,8 +56,9 @@ function buildDeck(data: DailyBricks | null, topics: string[], perDay: number): 
         section: category.title,
         // Editions before importance scores existed: keep each topic's own ranking.
         score: brick.importance ?? 5 - i,
-        order: TOPIC_ORDER.indexOf(id) * 100 + i,
-        group: TOPIC_GROUP_OF[id] ?? id,
+        // Ties: your own places and teams first, then the order in Settings.
+        order: (FIXED_ORDER.indexOf(id) + 1) * 100 + i,
+        group: topicGroup(id),
       }),
     );
   }
@@ -112,12 +113,16 @@ function BrickDeck({ account, onSignOut }: { account: Account; onSignOut: () => 
   const [sheet, setSheet] = useState<'calendar' | 'settings' | null>(null);
   const listRef = useRef<FlatList<Page>>(null);
 
-  const { topics, perDay } = usePrefs();
+  const { topics, perDay, places, teams } = usePrefs();
   const { answers, personalize } = useProfile();
   const profile = useMemo(() => profileLines(answers), [answers]);
 
+  // The day's shared topics plus your own places and teams. Wait for those before picking
+  // the day's stories, so the deck doesn't reshuffle while you read.
+  const local = useLocalTopics(data?.date, topics, places, teams);
+  const deck = data && local.ready ? buildDeck([...data.categories, ...local.categories], topics, perDay) : [];
+
   // Swap in "Why it matters to you" lines written for this reader, once they arrive.
-  const deck = buildDeck(data, topics, perDay);
   const personal = usePersonalized(data?.date, deck.map((b) => b.brick.id), profile, personalize);
   const bricks: BrickItem[] = deck.map((b) =>
     personal[b.brick.id]
@@ -129,7 +134,7 @@ function BrickDeck({ account, onSignOut }: { account: Account; onSignOut: () => 
   const readCount = bricks.filter((b) => readIds.has(b.brick.id)).length;
 
   // Switching days or changing topics starts the deck from its first story.
-  const deckKey = `${data?.date}|${topics.join(',')}|${perDay}`;
+  const deckKey = `${data?.date}|${topics.join(',')}|${perDay}|${local.ready}`;
   useEffect(() => setIndex(0), [deckKey]);
 
   // Seeing a brick counts as reading it.
@@ -209,7 +214,8 @@ function BrickDeck({ account, onSignOut }: { account: Account; onSignOut: () => 
 
       {error && !data && <Text style={styles.message}>{error}</Text>}
       {!data && !error && <Text style={styles.message}>Loading stories…</Text>}
-      {data && bricks.length === 0 && (
+      {data && !local.ready && <Text style={styles.message}>Gathering news from your places and teams…</Text>}
+      {data && local.ready && bricks.length === 0 && (
         <View style={styles.empty}>
           <Text style={styles.message}>
             {topics.length === 0
@@ -306,12 +312,13 @@ function Root() {
   const { scheme } = useTheme();
   const { account, loading, signIn, signOut } = useAccount();
   const profile = useProfile();
+  const saveQuiz = useSaveQuiz();
   if (loading || !profile.loaded) return null;
 
   let screen;
   if (!account) screen = <WelcomeScreen onSignedIn={signIn} />;
   else if (profile.quizStatus === null)
-    screen = <QuizScreen initial={profile.answers} onDone={profile.saveAnswers} onSkip={profile.skipQuiz} />;
+    screen = <QuizScreen initial={profile.answers} onDone={saveQuiz} onSkip={profile.skipQuiz} />;
   else screen = <BrickDeck account={account} onSignOut={signOut} />;
 
   return (

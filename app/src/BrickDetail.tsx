@@ -66,7 +66,7 @@ export function BrickDetail({ brick, onClose }: Props) {
                 style={({ pressed }) => [styles.source, { opacity: pressed ? 0.6 : 1 }]}
               >
                 <View style={styles.sourceHead}>
-                  <SourceLogo url={s.url} size={16} />
+                  <SourceLogo url={s.site ?? s.url} size={16} />
                   <Text style={styles.sourceName}>{s.name}</Text>
                 </View>
                 <Text style={styles.sourceTitle}>{s.title} ↗</Text>

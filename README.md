@@ -1,38 +1,49 @@
 # NewsBrick
 
-Get caught up on the news in under 60 seconds, one "brick" at a time.
+Get caught up on the news in under 60 seconds, one "brick" at a time. For anyone, anywhere.
 
 ```
 GitHub Actions (daily, ~6am Central)
-  └─ backend/  fetch RSS feeds → remove repeats → Gemini writes bricks → data/latest.json (committed to the repo)
+  └─ backend/  world, region, US, and league feeds → Gemini writes bricks → data/ (committed)
                                                                               │
-iPhone (Expo Go) ── app/ downloads latest.json once, caches it on the phone ──┘
+Cloudflare Worker (on demand)                                                 │
+  └─ worker/   any place (Google News) or team (ESPN) → bricks, shared for the day
+               + "why it matters to you" lines from the reader's quiz answers  │
+                                                                              │
+Phone (home-screen web app) ── app/ ─────────────────────────────────────────┘
 ```
 
 ## Folders
 
 | Path | What it is |
 |---|---|
-| `backend/src/config.ts` | Categories, feeds, bricks per category, AI model, your reader profile |
-| `backend/src/fetchFeeds.ts` | Reads RSS feeds (headlines and short descriptions only) and removes exact repeats |
-| `backend/src/summarize.ts` | One Gemini call per category (free tier): picks top stories, merges duplicates, writes bricks |
-| `backend/src/run.ts` | The daily job. Writes `data/latest.json` |
-| `app/` | Expo (React Native) app |
-| `.github/workflows/daily-bricks.yml` | Runs the backend every morning for free |
+| `backend/src/config.ts` | Daily topics and their feeds (world, regions, US, sports leagues) |
+| `backend/src/fetchFeeds.ts` | Reads RSS feeds and ESPN (headlines, short descriptions, photos) and removes exact repeats |
+| `backend/src/summarize.ts` | One Gemini call per topic (free tier): picks top stories, merges duplicates, scores importance |
+| `backend/src/run.ts` | The daily job. Writes `data/latest.json`, `data/archive/`, `data/index.json` |
+| `worker/src/index.ts` | On-demand service: places, teams, team search, and personalized "why it matters" |
+| `shared/` | AI instructions and the league list, used by both the backend and the worker |
+| `app/` | Expo (React Native) app, published to GitHub Pages |
+| `.github/workflows/` | Daily stories job and app deploy |
 
 ## Commands
 
 ```bash
 # Backend (from backend/)
 npm install
-npm run dry-run        # no API key needed: tests feeds + output file
-npm run build-bricks   # real run: needs a free GEMINI_API_KEY in backend/.env
+npm run dry-run                                       # no API key needed: tests feeds + output file
+npm run build-bricks                                  # real run: needs a free GEMINI_API_KEY in backend/.env
+node --env-file=.env src/run.ts --only=top-world      # test a few topics; prints, never saves
+
+# Worker (from worker/)
+npx wrangler dev        # run locally (key in worker/.dev.vars)
+npx wrangler deploy     # publish
 
 # App (from app/)
 npm install
-npx expo start         # scan the QR code with your iPhone camera (Expo Go installed)
+npx expo start
 ```
 
 ## Source terms
 
-Only feed headlines and descriptions are used. Full articles are never fetched or republished. Every brick links to the original article and names its source.
+Only feed headlines, descriptions, and photos are used. Full articles are never fetched or republished. Every brick links to the original article and names its source.

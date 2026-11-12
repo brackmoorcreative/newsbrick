@@ -1,8 +1,9 @@
 import { useState } from 'react';
 import { Modal, Pressable, ScrollView, StyleSheet, Switch, Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
+import { PlacesSection, TeamsSection } from './PlacesTeams';
 import { usePrefs } from './prefs';
-import { useProfile } from './profile';
+import { useProfile, useSaveQuiz } from './profile';
 import { profileLines, QUESTIONS } from './quiz';
 import { QuizScreen } from './QuizScreen';
 import { STORIES_PER_DAY, TOPIC_GROUPS } from './topics';
@@ -28,6 +29,7 @@ export function SettingsSheet({ visible, account, streak, onSignOut, onClose }: 
   const { appearance, setAppearance } = useTheme();
   const { topics, toggleTopic, perDay, setPerDay } = usePrefs();
   const profile = useProfile();
+  const saveQuiz = useSaveQuiz();
   const [retaking, setRetaking] = useState(false);
   const answeredCount = profileLines(profile.answers).length;
   const who =
@@ -41,7 +43,7 @@ export function SettingsSheet({ visible, account, streak, onSignOut, onClose }: 
         <QuizScreen
           initial={profile.answers}
           onDone={(a) => {
-            profile.saveAnswers(a);
+            saveQuiz(a);
             setRetaking(false);
           }}
           onSkip={() => setRetaking(false)}
@@ -76,7 +78,10 @@ export function SettingsSheet({ visible, account, streak, onSignOut, onClose }: 
             <Text style={styles.outlineText}>{answeredCount ? 'Edit my answers' : 'Take the quiz'}</Text>
           </Pressable>
 
-          <Text style={styles.label}>Your topics</Text>
+          <PlacesSection />
+          <TeamsSection />
+
+          <Text style={styles.label}>Topics</Text>
           <Text style={styles.hint}>
             Each day you get the most important stories from everything you follow, so a quiet
             topic may not show up every day.

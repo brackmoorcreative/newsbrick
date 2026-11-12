@@ -42,7 +42,7 @@ export function WelcomeScreen({ onSignedIn }: Props) {
         <View style={styles.rule} />
         <Text style={styles.pitch}>Get caught up on the news in under 60 seconds a day.</Text>
         <Text style={styles.points}>
-          Politics, Missouri, the economy, and your teams, written in plain English.
+          Politics, the economy, sports, and your own city, from anywhere in the world, written in plain English.
         </Text>
       </View>
 

@@ -1,9 +1,8 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { useEffect, useState } from 'react';
-
-// The personalization service (see worker/). When it isn't set, stories keep the
+// The NewsBrick service (see worker/). When it isn't set, stories keep the
 // general "Why it matters" line.
-const SERVICE_URL = process.env.EXPO_PUBLIC_PERSONALIZE_URL;
+import { SERVICE_URL } from './useLocalTopics';
 
 // Small stable hash so a change to your answers asks for fresh lines.
 function hash(text: string): string {

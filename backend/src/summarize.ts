@@ -1,6 +1,7 @@
 import { ApiError, GoogleGenAI, type GenerateContentResponse } from "@google/genai";
 import { z } from "zod";
-import { MODELS, READER_PROFILE, type Category } from "./config.ts";
+import { BRICKS_SCHEMA, bricksPrompt, SYSTEM_PROMPT } from "../../shared/prompt.ts";
+import { MODELS, type Category } from "./config.ts";
 import type { FeedItem } from "./fetchFeeds.ts";
 
 export type Brick = {
@@ -13,43 +14,25 @@ export type Brick = {
   disagreement: string | null;
   importance: number; // 1-10 on one scale across every category; the app shows the top few
   image: string | null; // photo from the news feed, when it has one
-  sources: { name: string; title: string; url: string }[];
+  // site: the outlet's homepage, for its logo (Google News links go through news.google.com)
+  sources: { name: string; title: string; url: string; site?: string }[];
 };
 
-// The exact shape Gemini must return. Gemini is forced to answer in this JSON shape,
-// and Zod double-checks it before we use it.
-const BrickSchema = z.object({
-  sourceIds: z.array(z.number().int()).describe("IDs of every item that covers this story"),
-  importance: z.number().int().describe("1 to 10, using the shared importance scale"),
-  headline: z.string().describe("At most 10 words"),
-  summary: z.string().describe("2 to 3 short sentences, 5th grade reading level, at most 45 words"),
-  whyItMatters: z.string().describe("One sentence starting with 'You' or 'Your'"),
-  explainer: z.string().describe("Plain-English explanation, 80 to 140 words"),
-  keyTerms: z.array(z.object({ term: z.string(), definition: z.string() })),
-  disagreement: z.string().nullable().describe("One sentence if sources conflict, otherwise null"),
+// Zod double-checks the AI's answer against the shared shape (shared/prompt.ts) before we use it.
+const ResponseSchema = z.object({
+  bricks: z.array(
+    z.object({
+      sourceIds: z.array(z.number().int()),
+      importance: z.number().int(),
+      headline: z.string(),
+      summary: z.string(),
+      whyItMatters: z.string(),
+      explainer: z.string(),
+      keyTerms: z.array(z.object({ term: z.string(), definition: z.string() })),
+      disagreement: z.string().nullable(),
+    }),
+  ),
 });
-const ResponseSchema = z.object({ bricks: z.array(BrickSchema) });
-
-const SYSTEM_PROMPT = `You write "bricks" for NewsBrick, a daily news app. A brick is a tiny, neutral news card.
-
-Your reader is ${READER_PROFILE}.
-
-Rules:
-- Use ONLY facts stated in the provided items. Never add names, numbers, quotes, or events that are not in them. You may add widely known background (for example, what the Senate does) to explain terms.
-- Be strictly neutral. No adjectives that take sides, no speculation, no opinion. Attribute claims ("Republicans say...", "the White House says...").
-- Write the summary at a 5th grade reading level: short sentences, common words.
-- Skip opinion columns, podcasts, newsletters, quizzes, and live blogs.
-- When several items cover the same story, merge them into ONE brick and list all their IDs in sourceIds.
-- keyTerms: define 0 to 3 terms a 5th grader might not know (for example "filibuster", "continuing resolution"). Definitions are one short sentence.
-- disagreement: only when items state conflicting facts or meaningfully different accounts. Say what differs and who says what. Otherwise null.
-- whyItMatters: connect the story to the reader's life concretely (money, school, jobs, rights, Missouri). If the link is indirect, say so honestly instead of exaggerating. For sports, say what it means for the team's season or its fans instead.
-
-Importance scale. The app compares scores from every topic (world news, Missouri politics, sports, ...) to pick the reader's 5 stories of the day, so use this one scale, not a ranking within this list:
-- 9-10: history-making or affects most Americans right away (war breaks out, presidential election result, market crash, major Supreme Court ruling).
-- 7-8: big national or world news many people will talk about (major law passes, Fed changes interest rates, big election upsets), or Missouri news that directly changes the reader's taxes, school, or rights.
-- 5-6: notable news: important state or St. Louis government decisions, big business news, a championship or major playoff game.
-- 3-4: ordinary news: routine politics, regular-season games, trades, injuries.
-- 1-2: minor or niche items.`;
 
 // One quick attempt per model (timeout in milliseconds). Retrying is done by moving on
 // to the next model, which is much faster than waiting on a busy one.
@@ -70,13 +53,7 @@ export async function writeBricks(category: Category, items: FeedItem[]): Promis
     .map((item, i) => `[${i}] ${item.source} | ${item.title}\n${item.snippet}`)
     .join("\n\n");
 
-  const prompt = `Category: ${category.title}
-What belongs here: ${category.focus}
-
-Pick up to ${category.bricks} of the most important stories for this category, most important first. Ignore items that don't fit the category. If fewer stories fit, return fewer bricks (even zero) rather than stretching.
-
-Items:
-${itemList}`;
+  const prompt = bricksPrompt(category.title, category.focus, category.bricks, itemList);
 
   let response: GenerateContentResponse | undefined;
   let model = "";
@@ -88,7 +65,7 @@ ${itemList}`;
         config: {
           systemInstruction: SYSTEM_PROMPT,
           responseMimeType: "application/json",
-          responseJsonSchema: z.toJSONSchema(ResponseSchema),
+          responseJsonSchema: BRICKS_SCHEMA,
         },
       });
       modelOrder.splice(modelOrder.indexOf(model), 1);

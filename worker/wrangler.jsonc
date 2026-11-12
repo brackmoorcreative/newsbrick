@@ -1,5 +1,5 @@
 {
-  // NewsBrick's personalization service (Cloudflare Workers free tier).
+  // NewsBrick's on-demand service (Cloudflare Workers free tier).
   // Deploy: npx wrangler deploy   Secret: npx wrangler secret put GEMINI_API_KEY
   "name": "newsbrick-personalize",
   "main": "src/index.ts",
@@ -9,5 +9,8 @@
     "DATA_BASE_URL": "https://raw.githubusercontent.com/brackmoorcreative/newsbrick/main/data/",
     // Only the app (and local previews) may call this service from a browser.
     "ALLOWED_ORIGINS": "https://brackmoorcreative.github.io,http://localhost:8081,http://localhost:8790"
-  }
+  },
+  // Reader-added places and teams for today, shared by everyone. Replace the id with the
+  // one printed by: npx wrangler kv namespace create TOPICS
+  "kv_namespaces": [{ "binding": "TOPICS", "id": "REPLACE_WITH_KV_NAMESPACE_ID" }]
 }

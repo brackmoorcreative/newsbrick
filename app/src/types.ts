@@ -10,7 +10,8 @@ export type Brick = {
   disagreement: string | null;
   importance?: number; // 1-10, same scale across topics (missing in editions before Nov 12, 2026)
   image?: string | null; // photo from the news feed
-  sources: { name: string; title: string; url: string }[];
+  // site: the outlet's homepage, for its logo (Google News links go through news.google.com)
+  sources: { name: string; title: string; url: string; site?: string }[];
 };
 
 export type CategoryBricks = {

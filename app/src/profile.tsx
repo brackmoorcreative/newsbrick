@@ -1,5 +1,6 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { createContext, useContext, useEffect, useMemo, useState, type ReactNode } from 'react';
+import { usePrefs } from './prefs';
 import type { Answers } from './quiz';
 
 // Your quiz answers and whether "Why it matters to you" is personalized. Saved on the phone.
@@ -74,4 +75,15 @@ export function ProfileProvider({ children }: { children: ReactNode }) {
 
 export function useProfile(): ProfileValue {
   return useContext(ProfileContext);
+}
+
+// Saves quiz answers, and adds where you live to your places so its local news shows up.
+export function useSaveQuiz() {
+  const profile = useProfile();
+  const { places, addPlace } = usePrefs();
+  return (answers: Answers) => {
+    profile.saveAnswers(answers);
+    const home = typeof answers.home === 'string' ? answers.home.trim() : '';
+    if (home.length >= 2 && !places.some((p) => p.toLowerCase() === home.toLowerCase())) addPlace(home);
+  };
 }
