@@ -1,30 +1,353 @@
 {
   "version": 1,
   "date": "2026-11-11",
-  "generatedAt": "2026-11-12T03:29:54.637Z",
-  "model": "gemini-3.5-flash",
+  "generatedAt": "2026-11-12T05:12:43.941Z",
+  "model": "gemini-3.5-flash-lite, gemini-3.1-flash-lite",
   "categories": [
     {
-      "id": "us-politics",
-      "title": "US Politics & Government",
+      "id": "top-world",
+      "title": "Top Stories · World",
       "bricks": [
         {
-          "id": "us-politics-0",
-          "headline": "Democrat Scott Colom Wins Mississippi Senate Election",
-          "summary": "Democrat Scott Colom won a U.S. Senate election in Mississippi. He defeated Republican Senator Cindy Hyde-Smith. Colom is the state's first Black senator since Reconstruction.",
-          "whyItMatters": "Your future in finance could be shaped by which political party controls federal laws and economic policies in the U.S. Senate.",
-          "explainer": "Democrat Scott Colom won a U.S. Senate election in Mississippi, defeating incumbent Republican Sen. Cindy Hyde-Smith. Mississippi had not elected a Democrat to the U.S. Senate in more than forty years. The vote count took extra time due to absentee and provisional ballots in the closely contested race. Colom becomes the state's first Black U.S. senator since the post-Civil War Reconstruction era. The win provides a boost to the Democratic Party as it seeks a larger foothold in the American South and helps determine the size of the Democratic majority in the Senate.",
+          "id": "top-world-0",
+          "headline": "U.S. Charges Three Men Over Iran-Backed Terror Plots",
+          "summary": "Federal prosecutors charged three men with plotting attacks, including an assault on a U.K. air base used by U.S. jets. Due to security concerns from Iranian threats, U.S. Treasury Secretary Scott Bessent moved to a military base.",
+          "whyItMatters": "Your personal safety and travel plans could be affected if international security tensions escalate and prompt broader government or military alerts.",
+          "explainer": "Federal prosecutors in the United States have indicted three men accused of acting as Iran-backed operatives and conspiring to launch roughly 20 attacks, including a specific plot against the U.S. Air Force base at RAF Fairford in England. In response to heightened intelligence regarding security threats from Iran targeting American personnel, U.S. Treasury Secretary Scott Bessent and other administration officials have relocated to live on military bases. Meanwhile, an Iranian security official warned of further retaliation if the U.S. resumes airstrikes.",
+          "keyTerms": [],
+          "disagreement": null,
+          "importance": 8,
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/iran-1024x683.jpg",
+          "sources": [
+            {
+              "name": "PBS NewsHour",
+              "title": "Indictment sheds light on alleged Iran-backed plots across U.S. and Europe",
+              "url": "https://www.pbs.org/newshour/show/indictment-sheds-light-on-alleged-iran-backed-plots-across-u-s-and-europe"
+            },
+            {
+              "name": "PBS NewsHour",
+              "title": "AP report: Bessent moves to a military base over safety concerns",
+              "url": "https://www.pbs.org/newshour/world/ap-report-bessent-moves-to-a-military-base-over-safety-concerns"
+            },
+            {
+              "name": "BBC News",
+              "title": "Three Iran-backed suspects plotted attacks including RAF Fairford incident, US says",
+              "url": "https://www.bbc.co.uk/news/articles/c3rryrryk59zo?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "BBC News",
+              "title": "US Treasury Secretary Scott Bessent relocated after alleged Iranian threats",
+              "url": "https://www.bbc.co.uk/news/articles/cqr7gr0010r2o?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "NPR",
+              "title": "An Iran-backed trio is accused of plotting attacks on a U.K. base hosting U.S. jets",
+              "url": "https://www.npr.org/2026/11/10/nx-s1-6036786/uk-iran-airbase-russia-spy"
+            },
+            {
+              "name": "PBS NewsHour",
+              "title": "News Wrap: U.S. charges 3 with plotting attacks",
+              "url": "https://www.pbs.org/newshour/show/news-wrap-u-s-charges-3-with-plotting-attacks-at-air-base-and-jewish-communities"
+            },
+            {
+              "name": "PBS NewsHour",
+              "title": "U.S. charges 3 men with plotting terror attacks, including planned assault on UK airbase",
+              "url": "https://www.pbs.org/newshour/nation/u-s-charges-3-men-with-plotting-terror-attacks-including-planned-assault-on-uk-airbase"
+            }
+          ]
+        },
+        {
+          "id": "top-world-1",
+          "headline": "Russia and Ukraine Agree to Prisoner Exchange After Talks",
+          "summary": "Russia and Ukraine agreed to a large prisoner of war exchange following U.S.-mediated talks in Abu Dhabi. The discussions, which lasted nearly four hours, did not achieve a major breakthrough on ending the ongoing war.",
+          "whyItMatters": "Your future economic stability and global market prices can be influenced by major prolonged conflicts and ongoing diplomatic talks in Europe.",
+          "explainer": "Representatives from Russia and Ukraine met in Abu Dhabi for two days of U.S.-mediated negotiations aimed at ending Moscow's full-scale invasion, which has lasted nearly five years. While the talks concluded without a major breakthrough on a peace deal, both sides agreed to a large-scale exchange of prisoners of war, marking a significant humanitarian release. U.S. officials called the sessions constructive, with further diplomatic efforts scheduled with regional leaders.",
+          "keyTerms": [],
+          "disagreement": null,
+          "importance": 7,
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-10T084928Z_834195917_RC2WKOA4TVSC_RTRMADP_3_UKRAINE-CRISIS-TALKS-1024x692.jpg",
+          "sources": [
+            {
+              "name": "PBS NewsHour",
+              "title": "Russia and Ukraine agree to a large prisoner exchange as talks end with no major breakthrough",
+              "url": "https://www.pbs.org/newshour/world/russia-and-ukraine-agree-to-a-large-prisoner-exchange-as-talks-end-with-no-major-breakthrough"
+            },
+            {
+              "name": "BBC News",
+              "title": "Russia-Ukraine talks turn to post-war security but end without breakthrough",
+              "url": "https://www.bbc.co.uk/news/articles/ck792we7zrz4o?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "NPR",
+              "title": "Russia and Ukraine agree to a prisoner exchange as talks end with no big breakthrough",
+              "url": "https://www.npr.org/2026/11/11/g-s1-152954/russia-ukraine-war-talks"
+            },
+            {
+              "name": "PBS NewsHour",
+              "title": "Russia and Ukraine hold nearly 4 hours of U.S.-mediated talks in Abu Dhabi",
+              "url": "https://www.pbs.org/newshour/world/russia-and-ukraine-hold-nearly-4-hours-of-u-s-mediated-talks-in-abu-dhabi"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "top-us",
+      "title": "Top Stories · United States",
+      "bricks": [
+        {
+          "id": "top-us-0",
+          "headline": "Democrat Scott Colom Wins Senate Race in Mississippi",
+          "summary": "Democrat Scott Colom has defeated Republican incumbent Sen. Cindy Hyde-Smith in Mississippi. The victory makes Colom the state's first Black U.S. senator since Reconstruction and breaks a more than 40-year streak without a Democratic senator from the state.",
+          "whyItMatters": "Your vote and future representation matter, as shifts in the U.S. Senate can change federal laws that impact your student loans, taxes, and rights.",
+          "explainer": "Mississippi voters chose a new U.S. senator in an unusually close race that ended with a victory for Democrat Scott Colom over Republican Sen. Cindy Hyde-Smith. This marks the first time in more than forty years that Mississippi has elected a Democrat to the Senate, and makes Colom the state's first Black U.S. senator since the post-Civil War Reconstruction era. The win comes after a prolonged ballot counting process that kept the outcome uncertain for days after Election Day.",
           "keyTerms": [
             {
               "term": "Reconstruction",
-              "definition": "The period of rebuilding in the United States after the Civil War."
-            },
-            {
-              "term": "Absentee ballot",
-              "definition": "A paper ballot used to vote by mail or before Election Day."
+              "definition": "The period after the Civil War when the U.S. government worked to rebuild the South and integrate Black Americans into society."
             }
           ],
           "disagreement": null,
+          "importance": 8,
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/newswrap-6-1024x683.jpg",
+          "sources": [
+            {
+              "name": "PBS NewsHour",
+              "title": "News Wrap: Democrat Scott Colom defeats Mississippi Sen. Cindy Hyde-Smith",
+              "url": "https://www.pbs.org/newshour/show/news-wrap-democrat-scott-colom-defeats-mississippi-sen-cindy-hyde-smith"
+            },
+            {
+              "name": "NPR",
+              "title": "Democrat Scott Colom wins the closest Senate race in the country",
+              "url": "https://www.npr.org/2026/11/11/nx-s1-6037840/democrat-scott-colom-wins-the-closest-senate-race-in-the-country"
+            },
+            {
+              "name": "NPR",
+              "title": "Democrat Scott Colom wins Mississippi Senate race",
+              "url": "https://www.npr.org/2026/11/11/g-s1-151688/mississippi-senate-race-scott-colom"
+            },
+            {
+              "name": "PBS NewsHour",
+              "title": "Scott Colom wins Senate election in Mississippi",
+              "url": "https://www.pbs.org/newshour/politics/scott-colom-wins-senate-election-in-mississippi"
+            }
+          ]
+        },
+        {
+          "id": "top-us-1",
+          "headline": "White House Threatens Democrats Over Planned Investigations",
+          "summary": "The White House has warned incoming Democratic congressional leaders against investigating the Trump administration. The top White House lawyer claims that aggressive oversight may cross the line into criminal behavior.",
+          "whyItMatters": "Your government runs on a system of checks and balances where Congress watches over the executive branch, which affects how federal laws and tax dollars are managed.",
+          "explainer": "As Democrats prepare to take control of Congress, the White House issued a strong warning regarding planned investigations into the Trump administration. The top White House lawyer sent a letter to incoming House Oversight Committee leaders claiming that aggressive congressional oversight could amount to blatant criminality. This confrontation occurs alongside a wave of recent resignations within the Department of Justice, setting up a tense relationship between the executive branch and incoming lawmakers.",
+          "keyTerms": [
+            {
+              "term": "Oversight",
+              "definition": "The power of Congress to watch over the executive branch and investigate how laws are carried out."
+            }
+          ],
+          "disagreement": null,
+          "importance": 7,
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/doj-1024x683.jpg",
+          "sources": [
+            {
+              "name": "PBS NewsHour",
+              "title": "White House threatens Democrats over plans to investigate Trump officials",
+              "url": "https://www.pbs.org/newshour/show/white-house-threatens-democrats-over-plans-to-investigate-trump-officials"
+            },
+            {
+              "name": "PBS NewsHour",
+              "title": "Read the letter the White House's top lawyer sent Rep. Garcia over threats to investigate Trump",
+              "url": "https://www.pbs.org/newshour/politics/read-the-letter-the-white-houses-top-lawyer-sent-rep-garcia-over-threats-to-investigate-trump"
+            },
+            {
+              "name": "PBS NewsHour",
+              "title": "White House sends warning to Democrats about investigating the Trump administration",
+              "url": "https://www.pbs.org/newshour/politics/white-house-sends-warning-to-democrats-about-investigating-the-trump-administration"
+            }
+          ]
+        },
+        {
+          "id": "top-us-2",
+          "headline": "Russia and Ukraine Agree to Prisoner Exchange",
+          "summary": "Russia and Ukraine have agreed to a large prisoner exchange following U.S.-mediated talks in Abu Dhabi. The discussions concluded without a major breakthrough on ending the ongoing war.",
+          "whyItMatters": "Your global economy and gas prices are often impacted by major international conflicts like the war in Ukraine.",
+          "explainer": "Representatives from Russia, Ukraine, and the United States met for two days of talks in Abu Dhabi to discuss the ongoing conflict. While the discussions ended without a major breakthrough on ending the nearly five-year-old full-scale invasion, both sides agreed to a large exchange of prisoners of war. This marks a notable humanitarian release since the war began in 2022, though the core conflict remains unresolved.",
+          "keyTerms": [],
+          "disagreement": null,
+          "importance": 7,
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-10T084928Z_834195917_RC2WKOA4TVSC_RTRMADP_3_UKRAINE-CRISIS-TALKS-1024x692.jpg",
+          "sources": [
+            {
+              "name": "PBS NewsHour",
+              "title": "Russia and Ukraine agree to a large prisoner exchange as talks end with no major breakthrough",
+              "url": "https://www.pbs.org/newshour/world/russia-and-ukraine-agree-to-a-large-prisoner-exchange-as-talks-end-with-no-major-breakthrough"
+            },
+            {
+              "name": "NPR",
+              "title": "Russia and Ukraine agree to a prisoner exchange as talks end with no big breakthrough",
+              "url": "https://www.npr.org/2026/11/11/g-s1-152954/russia-ukraine-war-talks"
+            }
+          ]
+        },
+        {
+          "id": "top-us-3",
+          "headline": "U.S. Indicts Men Over Alleged Iran-Backed Plots",
+          "summary": "Federal prosecutors in New York have charged three men accused of conspiring to attack U.S. Air Force planes in England. Meanwhile, U.S. intelligence indicates Iran is stepping up efforts to target American personnel.",
+          "whyItMatters": "Your safety and national security can be directly affected by rising tensions and threats between the U.S. and foreign nations.",
+          "explainer": "Federal authorities in New York have filed indictments against three men accused of acting as Iran-backed operatives and conspiring to attack U.S. Air Force planes at a base in England. The arrests coincide with warnings from U.S. intelligence and Iran's top national security official regarding potential targets for American personnel. In response to safety concerns, reports indicate that U.S. officials are adjusting their deployment locations in the region.",
+          "keyTerms": [],
+          "disagreement": null,
+          "importance": 7,
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/iran-1024x683.jpg",
+          "sources": [
+            {
+              "name": "PBS NewsHour",
+              "title": "Indictment sheds light on alleged Iran-backed plots across U.S. and Europe",
+              "url": "https://www.pbs.org/newshour/show/indictment-sheds-light-on-alleged-iran-backed-plots-across-u-s-and-europe"
+            },
+            {
+              "name": "PBS NewsHour",
+              "title": "AP report: Bessent moves to a military base over safety concerns",
+              "url": "https://www.pbs.org/newshour/world/ap-report-bessent-moves-to-a-military-base-over-safety-concerns"
+            },
+            {
+              "name": "NPR",
+              "title": "House effectively ends Hegseth impeachment. And, 3 men accused of plotting U.K. attacks",
+              "url": "https://www.npr.org/2026/11/11/g-s1-152949/up-first-newsletter-pete-hegseth-jim-jordan-iran-backed-trio-us-bases"
+            }
+          ]
+        },
+        {
+          "id": "top-us-4",
+          "headline": "Historic Ocean Liner Sunk to Create Artificial Reef",
+          "summary": "The SS United States, once the world's fastest ocean liner, has been intentionally sunk off the Florida coast. The historic ship will now serve as a diving destination and a home for marine life.",
+          "whyItMatters": "Your entertainment and travel news choices often feature unique historical items like the preservation of this famous ocean liner.",
+          "explainer": "The SS United States, a historic vessel that once broke trans-Atlantic speed records, was intentionally sunk off the coast of the Florida panhandle. Rather than being scrapped, the massive ocean liner will find a new purpose underwater as a diving destination and an artificial reef to support marine life.",
+          "keyTerms": [],
+          "disagreement": null,
+          "importance": 3,
+          "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1594x844+0+0/resize/1594x844!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Faf%2F61%2F8fa3ea894189b27cb82be201214a%2Fscreenshot-2026-11-11-140451.png",
+          "sources": [
+            {
+              "name": "NPR",
+              "title": "World's fastest ocean liner is sunk to break another record: largest artificial reef",
+              "url": "https://www.npr.org/2026/11/11/nx-s1-6030853/ss-united-states-artificial-reef-sinking"
+            },
+            {
+              "name": "PBS NewsHour",
+              "title": "WATCH LIVE: SS United States, once world's fastest ocean liner, sinks to become reef off Florida",
+              "url": "https://www.pbs.org/newshour/nation/watch-live-ss-united-states-once-worlds-fastest-ocean-liner-sinks-to-become-reef-off-florida"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "politics-world",
+      "title": "Politics · World",
+      "bricks": [
+        {
+          "id": "politics-world-0",
+          "headline": "Russia and Ukraine Hold U.S.-Mediated Peace Talks",
+          "summary": "Russia and Ukraine held U.S.-mediated talks in Abu Dhabi to discuss ending the war and post-war security. Both sides agreed to a large prisoner of war release, though no major breakthrough on peace was reached.",
+          "whyItMatters": "You might see global market shifts and energy prices change as international peace talks progress.",
+          "explainer": "Delegates from Russia and Ukraine met for U.S.-mediated talks in Abu Dhabi to discuss ending the ongoing conflict and shaping a new security framework for Europe. While the discussions did not result in a final peace agreement, both sides agreed to carry out a large-scale exchange of prisoners of war. U.S. officials described the talks as productive, and further diplomatic meetings involving U.S. envoys are scheduled.",
+          "keyTerms": [],
+          "disagreement": null,
+          "importance": 9,
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-10T084928Z_834195917_RC2WKOA4TVSC_RTRMADP_3_UKRAINE-CRISIS-TALKS-1024x692.jpg",
+          "sources": [
+            {
+              "name": "PBS NewsHour",
+              "title": "Russia and Ukraine agree to a large prisoner exchange as talks end with no major breakthrough",
+              "url": "https://www.pbs.org/newshour/world/russia-and-ukraine-agree-to-a-large-prisoner-exchange-as-talks-end-with-no-major-breakthrough"
+            },
+            {
+              "name": "BBC News",
+              "title": "Russia-Ukraine talks turn to post-war security but end without breakthrough",
+              "url": "https://www.bbc.co.uk/news/articles/ck792we7zrz4o?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "NPR",
+              "title": "Russia and Ukraine agree to a prisoner exchange as talks end with no big breakthrough",
+              "url": "https://www.npr.org/2026/11/11/g-s1-152954/russia-ukraine-war-talks"
+            },
+            {
+              "name": "PBS NewsHour",
+              "title": "Russia and Ukraine hold nearly 4 hours of U.S.-mediated talks in Abu Dhabi",
+              "url": "https://www.pbs.org/newshour/world/russia-and-ukraine-hold-nearly-4-hours-of-u-s-mediated-talks-in-abu-dhabi"
+            }
+          ]
+        },
+        {
+          "id": "politics-world-1",
+          "headline": "U.S. Charges Three Men Over Iran-Backed Terror Plots",
+          "summary": "Federal prosecutors charged three men with plotting Iran-backed attacks, including a target on a U.K. airbase used by U.S. troops. Meanwhile, U.S. intelligence threats prompted security moves for American officials like Treasury Secretary Scott Bessent.",
+          "whyItMatters": "You may notice heightened security measures and foreign policy debates affecting government spending and global safety.",
+          "explainer": "The U.S. Department of Justice announced charges against three men accused of acting as Iran-backed operatives and planning close to twenty attacks, including a plot targeting RAF Fairford, a British air base used by U.S. military forces. Amid rising safety concerns, recent U.S. intelligence reports indicated that Iran has stepped up efforts to target American personnel. This threat level prompted adjustments, including Treasury Secretary Scott Bessent and other administration officials relocating to live on military bases.",
+          "keyTerms": [],
+          "disagreement": null,
+          "importance": 8,
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/iran-1024x683.jpg",
+          "sources": [
+            {
+              "name": "PBS NewsHour",
+              "title": "Indictment sheds light on alleged Iran-backed plots across U.S. and Europe",
+              "url": "https://www.pbs.org/newshour/show/indictment-sheds-light-on-alleged-iran-backed-plots-across-u-s-and-europe"
+            },
+            {
+              "name": "PBS NewsHour",
+              "title": "AP report: Bessent moves to a military base over safety concerns",
+              "url": "https://www.pbs.org/newshour/world/ap-report-bessent-moves-to-a-military-base-over-safety-concerns"
+            },
+            {
+              "name": "BBC News",
+              "title": "Three Iran-backed suspects plotted attacks including RAF Fairford incident, US says",
+              "url": "https://www.bbc.co.uk/news/articles/c3rryrryk59zo?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "BBC News",
+              "title": "US Treasury Secretary Scott Bessent relocated after alleged Iranian threats",
+              "url": "https://www.bbc.co.uk/news/articles/cqr7gr0010r2o?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "NPR",
+              "title": "House effectively ends Hegseth impeachment. And, 3 men accused of plotting U.K. attacks",
+              "url": "https://www.npr.org/2026/11/11/g-s1-152949/up-first-newsletter-pete-hegseth-jim-jordan-iran-backed-trio-us-bases"
+            },
+            {
+              "name": "NPR",
+              "title": "An Iran-backed trio is accused of plotting attacks on a U.K. base hosting U.S. jets",
+              "url": "https://www.npr.org/2026/11/10/nx-s1-6036786/uk-iran-airbase-russia-spy"
+            },
+            {
+              "name": "PBS NewsHour",
+              "title": "News Wrap: U.S. charges 3 with plotting attacks",
+              "url": "https://www.pbs.org/newshour/show/news-wrap-u-s-charges-3-with-plotting-attacks-at-air-base-and-jewish-communities"
+            },
+            {
+              "name": "PBS NewsHour",
+              "title": "U.S. charges 3 men with plotting terror attacks, including planned assault on UK airbase",
+              "url": "https://www.pbs.org/newshour/nation/u-s-charges-3-men-with-plotting-terror-attacks-including-planned-assault-on-uk-airbase"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "politics-us",
+      "title": "Politics · United States",
+      "bricks": [
+        {
+          "id": "politics-us-0",
+          "headline": "Democrat Scott Colom Wins Senate Seat in Mississippi",
+          "summary": "Democratic nominee Scott Colom defeated Republican Sen. Cindy Hyde-Smith in Mississippi. The tight race gives the state its first Black U.S. senator since Reconstruction.",
+          "whyItMatters": "Your understanding of national politics helps as shifts in the U.S. Senate change which party holds power and sets federal laws.",
+          "explainer": "Mississippi had not elected a Democrat to the U.S. Senate in more than forty years. After a prolonged vote counting process and a close race, Democrat Scott Colom secured the victory against incumbent Republican Sen. Cindy Hyde-Smith. The win is a major boost for the Democratic Party as it works to gain a stronger presence in the South, and it makes Colom the state's first Black U.S. senator since the post-Civil War Reconstruction era.",
+          "keyTerms": [],
+          "disagreement": null,
+          "importance": 8,
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/newswrap-6-1024x683.jpg",
           "sources": [
             {
               "name": "PBS NewsHour",
@@ -59,18 +382,15 @@
           ]
         },
         {
-          "id": "us-politics-1",
-          "headline": "White House Warns Democrats Against Investigating Trump Officials",
-          "summary": "The White House warned Democrats not to investigate the Trump administration. The top White House lawyer sent a letter to incoming House Oversight chair Rep. Robert Garcia. The lawyer claimed oversight investigations could cross into criminality.",
-          "whyItMatters": "You could see how congressional battles and government stability influence financial markets and national policy during your career.",
-          "explainer": "As Democrats prepare to take control of Congress, the White House sent a warning letter regarding planned congressional investigations into the Trump administration. The White House's top lawyer wrote to Representative Robert Garcia, who will chair the House Oversight Committee. The letter stated that aggressive oversight of the administration might cross the line into blatant criminality. Congressional oversight is a standard function where lawmakers examine federal agencies and officials. The warning comes during a wave of resignations inside the Justice Department, setting up potential legal and political conflicts between executive officials and incoming Democratic lawmakers in Congress.",
-          "keyTerms": [
-            {
-              "term": "Oversight",
-              "definition": "The review and monitoring of government agencies and officials by Congress."
-            }
-          ],
+          "id": "politics-us-1",
+          "headline": "White House Warns Democrats Over Investigating Trump Administration",
+          "summary": "The White House warned incoming Democratic congressional leaders against launching aggressive investigations into the Trump administration. The top White House lawyer claimed such oversight could cross into criminality.",
+          "whyItMatters": "You see how clashes between the White House and Congress can slow down government work and affect national policy.",
+          "explainer": "As Democrats prepare to take control of Congress, the White House has issued a stark warning regarding planned oversight and investigations into the Trump administration. The top White House lawyer sent a letter to incoming committee leaders arguing that aggressive probes into executive branch officials may cross the line into blatant criminality. This warning comes amid a wave of resignations within the Justice Department and sets the stage for high-stakes political battles in Washington.",
+          "keyTerms": [],
           "disagreement": null,
+          "importance": 7,
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/doj-1024x683.jpg",
           "sources": [
             {
               "name": "PBS NewsHour",
@@ -90,24 +410,16 @@
           ]
         },
         {
-          "id": "us-politics-2",
-          "headline": "House GOP Picks Jim Jordan while Impeachment Bid Fails",
-          "summary": "House Republicans chose Ohio Representative Jim Jordan as their next leader. Senate Republicans re-elected John Thune. Meanwhile, the House voted to stop an effort to impeach Defense Secretary Pete Hegseth.",
-          "whyItMatters": "Your taxes and financial regulations depend heavily on which leaders guide congressional committees and political parties.",
-          "explainer": "House Republicans chose Representative Jim Jordan of Ohio to serve as their next leader as the party prepares for life in the House minority. Jordan is a conservative lawmaker and vocal defender of Donald Trump. Over in the Senate, Republicans re-elected John Thune as their leader. At the same time, the House voted to quash an effort to impeach Defense Secretary Pete Hegseth, effectively ending the current impeachment push against him. Meanwhile, Representative Hakeem Jeffries is poised to become Speaker of the House as Democrats prepare to take power in the incoming congressional session.",
-          "keyTerms": [
-            {
-              "term": "Impeachment",
-              "definition": "A formal process where lawmakers charge a government official with misconduct."
-            }
-          ],
+          "id": "politics-us-2",
+          "headline": "House Rejects Hegseth Impeachment and Picks Jim Jordan as Leader",
+          "summary": "The House voted to reject an effort to impeach Defense Secretary Pete Hegseth. Meanwhile, House Republicans chose Jim Jordan to be their next leader.",
+          "whyItMatters": "Your daily news includes major leadership changes in Washington that shape how national defense and laws are handled.",
+          "explainer": "Power shifts in Washington continue as political parties reorganize for the upcoming congressional session. In the House, Republicans selected Ohio Rep. Jim Jordan to serve as their leader as they prepare to enter the minority. At the same time, the House voted to quash an ongoing effort to impeach Defense Secretary Pete Hegseth. Experts and military lawyers have been closely following the articles of impeachment filed against Hegseth, but the House ultimately voted to drop the effort for now.",
+          "keyTerms": [],
           "disagreement": null,
+          "importance": 6,
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/powershift-1024x683.jpg",
           "sources": [
-            {
-              "name": "NPR",
-              "title": "Who is Jim Jordan, the House Republicans' pick for minority leader?",
-              "url": "https://www.npr.org/2026/11/11/nx-s1-6037439/who-is-jim-jordan-the-house-republicans-pick-for-minority-leader"
-            },
             {
               "name": "NPR",
               "title": "House effectively ends Hegseth impeachment. And, 3 men accused of plotting U.K. attacks",
@@ -120,30 +432,22 @@
             },
             {
               "name": "PBS NewsHour",
-              "title": "'They want us to fight': Jeffries outlines priorities as Democrats prepare to take power",
-              "url": "https://www.pbs.org/newshour/show/they-want-us-to-fight-jeffries-outlines-priorities-as-democrats-prepare-to-take-power"
+              "title": "A breakdown of the impeachment articles filed against Pete Hegseth",
+              "url": "https://www.pbs.org/newshour/show/a-breakdown-of-the-impeachment-articles-filed-against-pete-hegseth"
             }
           ]
         },
         {
-          "id": "us-politics-3",
-          "headline": "Kennedy Relatives Sue to Stop Proposed Trump Arch",
-          "summary": "Nine members of the Kennedy family filed a lawsuit against President Donald Trump's planned arch. They say the arch would cast shadows over relatives' graves at Arlington National Cemetery. Trump suggested dedicating the arch to military veterans.",
-          "whyItMatters": "You may be interested in how federal court rulings affect public land use and national monuments near historical sites.",
-          "explainer": "Nine members of the Kennedy family joined lawsuits to stop President Donald Trump from building a towering monumental arch near Arlington National Cemetery. The family members argue that the proposed two hundred fifty foot arch would disrupt views and cast shadows over their ancestors' gravesites, including the grave of President John F. Kennedy. President Trump marked Veterans Day with a wreath-laying ceremony at the cemetery. During his remarks, Trump suggested that the arch he wants built in his honor would also be dedicated to the United States military and veterans who served in its ranks.",
-          "keyTerms": [
-            {
-              "term": "Arlington National Cemetery",
-              "definition": "A national military cemetery in Virginia where American veterans and leaders are buried."
-            }
-          ],
+          "id": "politics-us-3",
+          "headline": "Kennedy Family Sues to Block Trump's Proposed Arch",
+          "summary": "Nine members of the Kennedy family joined lawsuits to block President Trump's proposed 250-foot arch. They argue it would cast shadows over their ancestors' graves at Arlington National Cemetery.",
+          "whyItMatters": "Your public spaces and national monuments are subjects of legal disputes that highlight conflicts between presidential projects and family memorials.",
+          "explainer": "President Donald Trump used Veterans Day to suggest that a towering arch he wants to build might be dedicated to U.S. military veterans. However, the project faces legal hurdles. Nine descendants of President John F. Kennedy have joined lawsuits seeking to block the construction. The family argues that the 250-foot monumental arch would disrupt views and cast unwanted shadows over their relatives' gravesites at Arlington National Cemetery.",
+          "keyTerms": [],
           "disagreement": null,
+          "importance": 5,
+          "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4928x3280+0+0/resize/4928x3280!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fef%2F43%2F12c339b145589ddeb9b1b1023327%2Fgettyimages-186224659.jpg",
           "sources": [
-            {
-              "name": "PBS NewsHour",
-              "title": "Trump says the towering arch he wants to be build might be dedicated to military veterans",
-              "url": "https://www.pbs.org/newshour/politics/trump-says-the-towering-arch-he-wants-to-be-build-might-be-dedicated-to-military-veterans"
-            },
             {
               "name": "NPR",
               "title": "Kennedy relatives join the fight against Trump's arch, alleging harm to JFK's grave",
@@ -162,23 +466,1344 @@
           ]
         },
         {
-          "id": "us-politics-4",
-          "headline": "House Panel Releases Report on Jeffrey Epstein Failures",
-          "summary": "The House Oversight Committee released a report on Jeffrey Epstein. Lawmakers found that his crimes after 2005 could have been stopped. They blamed repeated failures by law enforcement and federal prosecutors.",
-          "whyItMatters": "You can see how federal oversight reports hold government agencies and federal law enforcement accountable for past failures.",
-          "explainer": "The Republican-led House Oversight Committee published a new report following an investigation into late convicted sex offender Jeffrey Epstein and his associates. The panel found that crimes committed by Epstein after 2005 could have been prevented. The report attributed the ongoing abuse to repeated failures by law enforcement officials and federal prosecutors who handled earlier cases. The congressional investigation examined how federal authorities interacted with Epstein and why law enforcement did not stop his actions sooner, highlighting structural flaws in federal prosecution and investigative processes over several years.",
-          "keyTerms": [
-            {
-              "term": "Prosecutor",
-              "definition": "A lawyer who conducts legal proceedings against someone accused of a crime."
-            }
-          ],
+          "id": "politics-us-4",
+          "headline": "Biden Says He Would Not Have Run If Diagnosed With Cancer",
+          "summary": "Former President Joe Biden stated he did not know he had cancer while in office. He said he would not have sought a second term in 2024 if he had already received the diagnosis.",
+          "whyItMatters": "Your historical perspective on past elections is shaped by how health issues and political decisions impact presidential campaigns.",
+          "explainer": "Former President Joe Biden revealed in a media interview that he was unaware he had cancer during his presidency. He stated that had he been diagnosed earlier, he would not have pursued a second term in the 2024 presidential race. During the same interview, Biden also reflected on the election cycle, downplaying the impact of his past debate performance.",
+          "keyTerms": [],
           "disagreement": null,
+          "importance": 6,
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-09-11T134045Z_879546487_RC20HNAWLJ9H_RTRMADP_3_USA-SEPT11-NEW-YORK-1024x683.jpg",
           "sources": [
             {
               "name": "PBS NewsHour",
-              "title": "4 key findings in the Jeffrey Epstein report from GOP-led House Oversight panel",
-              "url": "https://www.pbs.org/newshour/politics/4-key-findings-in-the-jeffrey-epstein-report-from-gop-led-house-oversight-panel"
+              "title": "Biden says he wouldn't have run for a second term in 2024 if he knew he had cancer",
+              "url": "https://www.pbs.org/newshour/politics/biden-says-he-wouldnt-have-run-for-a-second-term-in-2024-if-he-knew-he-had-cancer"
+            },
+            {
+              "name": "Politico",
+              "title": "Biden says he wouldn't have run in 2024 if he knew about his cancer",
+              "url": "https://www.politico.com/news/2026/11/11/biden-2024-cancer-diagnosis-debate-performance-01160750"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "politics-mo",
+      "title": "Politics · Missouri",
+      "bricks": [
+        {
+          "id": "politics-mo-0",
+          "headline": "Missouri Supreme Court Dismisses Challenge to Stadium Subsidy Law",
+          "summary": "The Missouri Supreme Court threw out a lawsuit challenging the state's stadium subsidy law. The court ruled the plaintiffs did not have the legal standing to sue.",
+          "whyItMatters": "Your state government handles laws that impact how tax dollars are spent on large public projects like sports stadiums.",
+          "explainer": "The Missouri Supreme Court voted 5-2 to reject a challenge to the state's stadium subsidy law. The lawsuit was filed by state Sen. Mike Moon and a conservative activist. They argued the law was unconstitutional. However, the high court agreed with a lower judge that the challengers lacked the legal standing to bring the case, meaning they were not the right parties to sue over this specific issue. The decision keeps the subsidy law in place.",
+          "keyTerms": [
+            {
+              "term": "legal standing",
+              "definition": "The legal right of a person or group to bring a case to court."
+            }
+          ],
+          "disagreement": null,
+          "importance": 6,
+          "image": "https://missouriindependent.com/wp-content/uploads/2025/02/020925Arrowhead4-1024x614.jpg",
+          "sources": [
+            {
+              "name": "Missouri Independent",
+              "title": "Missouri Supreme Court rejects challenge to stadium subsidy law on technical grounds",
+              "url": "https://missouriindependent.com/2026/11/10/missouri-supreme-court-rejects-challenge-to-stadium-subsidy-law-on-technical-grounds/"
+            }
+          ]
+        },
+        {
+          "id": "politics-mo-1",
+          "headline": "St. Louis Debates Data Center Fees Amid Conflicting Records",
+          "summary": "St. Louis is considering a new fee on data centers. City records contradict claims made by a local official about how much a license costs.",
+          "whyItMatters": "Your local St. Louis government decisions on business fees can affect the local economy and city budget.",
+          "explainer": "St. Louis leaders are reviewing a proposal to place a new fee on power-hungry data centers operating in the city. During the debate, Board of Aldermen President Megan Green pointed to claims that a data center paid $200 for a license. However, city records show the actual cost was $16,000. The discrepancy has highlighted issues with how the city tracks its records while officials try to figure out which facilities are already paying fees.",
+          "keyTerms": [],
+          "disagreement": null,
+          "importance": 5,
+          "image": "https://media.tegna-media.com/assets/KSDK/images/d91abd19-14fe-47ce-8064-700426c14780/20261112T021835/d91abd19-14fe-47ce-8064-700426c14780_750x422.jpg",
+          "sources": [
+            {
+              "name": "KSDK",
+              "title": "Data center shows it paid $16K for a license. A St. Louis report put the cost at $200",
+              "url": "https://www.ksdk.com/article/news/community/data-centers/data-center-shows-it-paid-16k-for-a-license-a-st-louis-report-put-the-cost-at-200/63-eeb00133-b19b-4ef6-a54e-5f13443672f5"
+            },
+            {
+              "name": "KSDK",
+              "title": "St. Louis wants data centers to pay up. First it has to figure out which ones already do.",
+              "url": "https://www.ksdk.com/article/news/local/st-louis-wants-data-centers-to-pay-up-first-it-has-to-figure-out-which-ones-already-do/63-abcf6903-33e8-498b-8b61-8da918b27e12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "politics-stl",
+      "title": "Politics · St. Louis",
+      "bricks": [
+        {
+          "id": "politics-stl-0",
+          "headline": "St. Louis Public Schools to close nine campuses",
+          "summary": "Saint Louis Public Schools will close nine campuses next year. Officials hope this saves money, but some votes were tabled, leaving the exact financial future unclear.",
+          "whyItMatters": "Your local public school district decisions can impact property values, community resources, and public education quality where you live.",
+          "explainer": "Saint Louis Public Schools is moving forward with a restructuring plan called 'Future Ready'. This plan means nine schools will close or be repurposed starting next year. The district hopes this will fix ongoing financial problems and save money. However, the school board tabled some votes on the changes, which leaves the total money saved and the true financial future of the district uncertain. The plan faced strong pushback from community members who worry about the changes.",
+          "keyTerms": [],
+          "disagreement": null,
+          "importance": 7,
+          "image": "https://media.tegna-media.com/assets/KSDK/images/23c54790-2365-4836-b4dd-c3cc138be435/20261112T042425/23c54790-2365-4836-b4dd-c3cc138be435_750x422.jpg",
+          "sources": [
+            {
+              "name": "KSDK",
+              "title": "St. Louis Public Schools financial woes uncertain following partial restructuring approval",
+              "url": "https://www.ksdk.com/article/news/education/st-louis-public-schools-financial-woes-uncertain-following-partial-restructuring-approval/63-3ff28bb0-ab23-4719-b36b-a92f6b11cae9"
+            },
+            {
+              "name": "KSDK",
+              "title": "St. Louis Public Schools to close 9 campuses in 'Future Ready' plan, despite pushback",
+              "url": "https://www.ksdk.com/article/news/local/st-louis-public-schools-close-9-campuses-future-ready-plan-despite-pushback/63-62a91b14-726f-444a-a50e-ff7bd4e1cad0"
+            }
+          ]
+        },
+        {
+          "id": "politics-stl-1",
+          "headline": "St. Louis data center fee faces record-keeping questions",
+          "summary": "A St. Louis report claimed a data center paid $200 for a license. City records show it actually paid $16,000, raising questions as officials debate a new fee.",
+          "whyItMatters": "Your city government relies on accurate tax and fee data to fund public services and decide how businesses are taxed in St. Louis.",
+          "explainer": "St. Louis city leaders are looking at putting a new fee on power-hungry data centers. Board of Aldermen President Megan Green used a city report to argue for the fee, claiming one data center only paid $200 for a license. But actual St. Louis city records show that same data center paid $16,000. This mismatch came to light during a committee hearing, highlighting messy city record-keeping just as officials try to figure out which data centers are already paying local fees.",
+          "keyTerms": [],
+          "disagreement": null,
+          "importance": 6,
+          "image": "https://media.tegna-media.com/assets/KSDK/images/d91abd19-14fe-47ce-8064-700426c14780/20261112T021835/d91abd19-14fe-47ce-8064-700426c14780_750x422.jpg",
+          "sources": [
+            {
+              "name": "KSDK",
+              "title": "Data center shows it paid $16K for a license. A St. Louis report put the cost at $200",
+              "url": "https://www.ksdk.com/article/news/community/data-centers/data-center-shows-it-paid-16k-for-a-license-a-st-louis-report-put-the-cost-at-200/63-eeb00133-b19b-4ef6-a54e-5f13443672f5"
+            },
+            {
+              "name": "KSDK",
+              "title": "St. Louis wants data centers to pay up. First it has to figure out which ones already do.",
+              "url": "https://www.ksdk.com/article/news/local/st-louis-wants-data-centers-to-pay-up-first-it-has-to-figure-out-which-ones-already-do/63-abcf6903-33e8-498b-8b61-8da918b27e12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "economy-world",
+      "title": "Economy · World",
+      "bricks": [
+        {
+          "id": "economy-world-0",
+          "headline": "Gasoline Prices Drop Below $4 a Gallon",
+          "summary": "The average price for a gallon of gas dropped below $4 this week. This is the first time prices have been this low in months.",
+          "whyItMatters": "Your daily commute and travel costs will be lower when you drive to campus or work.",
+          "explainer": "Gasoline prices in the United States have fallen below the $4 per gallon mark for the first time in several months. Drivers across the country have faced high fuel costs for a long time. This recent drop brings some financial relief to people who rely on cars every day to get to work, school, and run errands. Energy prices often go up and down based on global oil supplies and market demand. Analysts watch these changes closely to see if lower prices will stick around or if costs will rise again soon.",
+          "keyTerms": [],
+          "disagreement": null,
+          "importance": 7,
+          "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8054x5369+0+0/resize/8054x5369!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F0d%2Fb1%2F79ee5cd14420a25d6111b7bf6a03%2Fgettyimages-2248589851.jpg",
+          "sources": [
+            {
+              "name": "NPR",
+              "title": "Why is gasoline suddenly under $4 a gallon?",
+              "url": "https://www.npr.org/2026/11/11/nx-s1-6037588/gasoline-price-below-4-dollars-gallon"
+            }
+          ]
+        },
+        {
+          "id": "economy-world-1",
+          "headline": "Thousands Strike in Spain Over Housing and Living Costs",
+          "summary": "Tens of thousands of people joined a general strike in Spain. Workers and unions are protesting high housing costs and the rising cost of living.",
+          "whyItMatters": "Your understanding of global economic protests helps you see how inflation affects people around the world.",
+          "explainer": "Workers across Spain took part in the country's first general strike in fourteen years. The protests were organized by Spain's main labor unions to demand action on expensive housing and the high cost of living. Large crowds and clashes with authorities occurred in cities like Barcelona. Inflation and housing shortages have put heavy financial pressure on families and young adults in many parts of Europe, leading to widespread public frustration and organized labor actions.",
+          "keyTerms": [],
+          "disagreement": null,
+          "importance": 6,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c8f2/live/d0df2010-de11-11f1-a701-fddedf244c16.jpg",
+          "sources": [
+            {
+              "name": "BBC News",
+              "title": "Clashes erupt in Barcelona after thousands join Spain general strike",
+              "url": "https://www.bbc.co.uk/news/articles/cwvg25nypmrvo?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "BBC News",
+              "title": "Workers across Spain stage first general strike in 14 years",
+              "url": "https://www.bbc.co.uk/news/videos/c920xlpdl28eo?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "BBC News",
+              "title": "Protesters gather in Spain for first general strike in 14 years",
+              "url": "https://www.bbc.co.uk/news/videos/cwj0587gde88o?at_medium=RSS&at_campaign=rss"
+            }
+          ]
+        },
+        {
+          "id": "economy-world-2",
+          "headline": "Poundland Seeks Rescue Deal and More Time",
+          "summary": "Discount chain Poundland is working on a rescue deal to avoid administration. The company was given more time to find a buyer and protect itself from creditors.",
+          "whyItMatters": "Your finance studies benefit from looking at how struggling retail companies try to restructure debt and survive.",
+          "explainer": "The discount retail chain Poundland is facing serious financial trouble and has filed a notice of intention to appoint administrators. This legal step temporarily protects the company from its creditors while emergency talks continue. The firm is hoping to secure a rescue deal and find a new buyer to keep its business alive. Retail companies often struggle when consumer spending drops or debts grow too large to manage, leading to corporate restructurings or bankruptcy filings.",
+          "keyTerms": [],
+          "disagreement": null,
+          "importance": 5,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0a6e/live/a313f250-dd58-11f1-acd1-a78ce9f5fae0.jpg",
+          "sources": [
+            {
+              "name": "BBC News",
+              "title": "Poundland set for more time to secure a rescue deal as emergency talks continue",
+              "url": "https://www.bbc.co.uk/news/articles/c3702jjkez4ko?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "BBC News",
+              "title": "Poundland founder writes to King for help",
+              "url": "https://www.bbc.co.uk/news/videos/cm4gndjd4nnno?at_medium=RSS&at_campaign=rss"
+            }
+          ]
+        },
+        {
+          "id": "economy-world-3",
+          "headline": "ExxonMobil Considers Return to Venezuela",
+          "summary": "Oil giant ExxonMobil signed an agreement with the Venezuelan government. The company is looking at potential new business opportunities in the country.",
+          "whyItMatters": "Your tracking of energy markets helps you understand how major corporations shift operations based on geopolitical changes.",
+          "explainer": "ExxonMobil left Venezuela several years ago due to political and business conflicts. Now, the American oil company has signed a memorandum of understanding with the Venezuelan government and its state-owned oil company. This agreement allows ExxonMobil to explore potential energy opportunities in the country once again. Changes in international relations and global energy needs often lead major corporations to rethink where they do business.",
+          "keyTerms": [],
+          "disagreement": null,
+          "importance": 5,
+          "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/7495x4997+0+0/resize/7495x4997!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F53%2F3a%2F418c464b4264b79506fdcb0b8c92%2Fgettyimages-2254848439.jpg",
+          "sources": [
+            {
+              "name": "NPR",
+              "title": "Oil giant ExxonMobil left Venezuela years ago. Now it's considering a return",
+              "url": "https://www.npr.org/2026/11/11/nx-s1-5979080/exxonmobil-oil-mou-venezuela"
+            }
+          ]
+        },
+        {
+          "id": "economy-world-4",
+          "headline": "Claude Chatbot Maker Plans Stock Market Debut",
+          "summary": "The company behind the Claude chatbot is preparing for a stock market debut. It plans to offer shares at prices lower than expected.",
+          "whyItMatters": "Your interest in financial markets and technology investments makes tracking major initial public offerings useful for understanding tech valuations.",
+          "explainer": "The artificial intelligence company that makes the Claude chatbot is moving forward with its stock market debut. The firm will offer its shares at a price between $70 and $78. This valuation is lower than what many market watchers originally expected, even as the company faces warnings about artificial intelligence technology. Initial public offerings allow private companies to raise money from public investors by selling shares on stock exchanges, marking a major milestone for growing tech businesses.",
+          "keyTerms": [],
+          "disagreement": null,
+          "importance": 5,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/151a/live/19e16bc0-dd03-11f1-a701-fddedf244c16.jpg",
+          "sources": [
+            {
+              "name": "BBC News",
+              "title": "Claude chatbot maker set for $1.3tn stock market debut despite 'catastrophic' AI warning",
+              "url": "https://www.bbc.co.uk/news/articles/crpdgd723x2zo?at_medium=RSS&at_campaign=rss"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "economy-us",
+      "title": "Economy · United States",
+      "bricks": [
+        {
+          "id": "economy-us-0",
+          "headline": "U.S. Inflation Rises Higher Than Expected in October",
+          "summary": "Consumer prices rose 0.4% in October, pushed up by costs for food, energy, and housing. The hot inflation report makes it harder for the Federal Reserve to decide its next interest rate moves.",
+          "whyItMatters": "Your daily budget for food, gas, and rent faces more pressure as high inflation sticks around and influences future interest rates.",
+          "explainer": "Consumer prices across the United States increased more than expected in October, climbing by 0.4% for the month. This upward pressure was largely driven by rising costs for everyday essentials like food, energy, and housing, pushing the annual inflation rate toward an estimated 4%. These persistent price increases are forcing the Federal Reserve to carefully weigh its options as it decides whether to change interest rates. Economists and central bank officials are closely tracking these figures to see how much strain consumers are experiencing while trying to afford basic goods.",
+          "keyTerms": [],
+          "disagreement": null,
+          "importance": 8,
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/risingprices-1024x652.jpg",
+          "sources": [
+            {
+              "name": "CNBC",
+              "title": "Consumer prices rose 0.4% in October, more than expected, complicating Fed's inflation fight",
+              "url": "https://www.cnbc.com/2026/11/10/cpi-inflation-report-october-2026.html"
+            },
+            {
+              "name": "PBS NewsHour",
+              "title": "U.S. inflation report highlights strain of rising food, energy and housing costs",
+              "url": "https://www.pbs.org/newshour/show/u-s-inflation-report-highlights-strain-of-rising-food-energy-and-housing-costs"
+            },
+            {
+              "name": "PBS NewsHour",
+              "title": "Inflation runs hotter than expected as higher prices extend beyond the gas station",
+              "url": "https://www.pbs.org/newshour/economy/inflation-runs-hotter-than-expected-as-higher-prices-extend-beyond-the-gas-station"
+            }
+          ]
+        },
+        {
+          "id": "economy-us-1",
+          "headline": "Retail Sales Slow Down as High Prices Strain Consumers",
+          "summary": "Retail sales grew at their slowest pace in nearly a year during October. Data from the CNBC/NRF Retail Monitor shows shoppers are feeling the pinch from high prices.",
+          "whyItMatters": "Your own spending habits mirror broader national trends as higher costs make everyday purchases harder to maintain.",
+          "explainer": "Retail sales in the United States rose at their slowest pace in almost a year in October, according to the CNBC/NRF Retail Monitor. This slowdown suggests that American consumers are beginning to show real signs of financial strain after months of dealing with elevated inflation. While people are still spending money, they are doing so more cautiously as the cumulative impact of higher prices for goods and services weighs on household budgets across the country.",
+          "keyTerms": [],
+          "disagreement": null,
+          "importance": 7,
+          "image": null,
+          "sources": [
+            {
+              "name": "CNBC",
+              "title": "Consumers are showing signs of strain even as they keep spending, CNBC/NRF Retail Monitor shows",
+              "url": "https://www.cnbc.com/2026/11/11/october-retail-sales-cnbc-nrf-2026.html"
+            }
+          ]
+        },
+        {
+          "id": "economy-us-2",
+          "headline": "Average U.S. Gasoline Prices Dip Below $4 a Gallon",
+          "summary": "The average price for a gallon of gasoline dropped below $4 this week for the first time in months. Drivers are seeing a brief break at the pump.",
+          "whyItMatters": "Your weekly commute and road trips around Missouri will cost a bit less right now with gas prices under the $4 mark.",
+          "explainer": "The national average price for a gallon of gasoline fell below $4 this week, marking the first time in several months that fuel costs have dropped to this level. This dip provides a measure of financial relief for drivers who have faced steep transportation costs. However, experts note that energy markets fluctuate frequently, meaning it remains uncertain whether this lower price point will hold steady through the upcoming months.",
+          "keyTerms": [],
+          "disagreement": null,
+          "importance": 6,
+          "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8054x5369+0+0/resize/8054x5369!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F0d%2Fb1%2F79ee5cd14420a25d6111b7bf6a03%2Fgettyimages-2248589851.jpg",
+          "sources": [
+            {
+              "name": "NPR",
+              "title": "Why is gasoline suddenly under $4 a gallon?",
+              "url": "https://www.npr.org/2026/11/11/nx-s1-6037588/gasoline-price-below-4-dollars-gallon"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "economy-mo",
+      "title": "Economy · Missouri",
+      "bricks": [
+        {
+          "id": "economy-mo-0",
+          "headline": "Missouri Supreme Court upholds state stadium subsidy law",
+          "summary": "The Missouri Supreme Court threw out a challenge to the state stadium subsidy law. The court said the lawmakers and activist who sued lacked the legal standing to challenge it.",
+          "whyItMatters": "Your state tax dollars and local government spending can be used for stadium projects under laws upheld by the court.",
+          "explainer": "The Missouri Supreme Court issued a 5-2 decision rejecting a lawsuit that tried to block the state's stadium subsidy law. The judges ruled that two Republican lawmakers and a conservative activist did not have the right, known as legal standing, to challenge the law's constitutionality. This decision upholds an earlier ruling by a Cole County judge and keeps the current subsidy rules in place for Missouri.",
+          "keyTerms": [
+            {
+              "term": "legal standing",
+              "definition": "The legal right to bring a lawsuit to court based on having a direct stake in the issue."
+            },
+            {
+              "term": "subsidy",
+              "definition": "Money given by the government to help support a business or project."
+            }
+          ],
+          "disagreement": null,
+          "importance": 5,
+          "image": "https://missouriindependent.com/wp-content/uploads/2025/02/020925Arrowhead4-1024x614.jpg",
+          "sources": [
+            {
+              "name": "Missouri Independent",
+              "title": "Missouri Supreme Court rejects challenge to stadium subsidy law on technical grounds",
+              "url": "https://missouriindependent.com/2026/11/10/missouri-supreme-court-rejects-challenge-to-stadium-subsidy-law-on-technical-grounds/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "economy-stl",
+      "title": "Economy · St. Louis",
+      "bricks": [
+        {
+          "id": "economy-stl-0",
+          "headline": "St. Louis Public Schools to close nine campuses",
+          "summary": "Saint Louis Public Schools will close or change nine schools to save money. Some votes were tabled, leaving the school district's financial future unclear.",
+          "whyItMatters": "Your local tax dollars and community school options could shift as the district tries to fix its budget problems.",
+          "explainer": "Saint Louis Public Schools is moving forward with a restructuring plan called Future Ready. This plan will close or repurpose nine campuses in the district to help handle money troubles and optimize resources. The district faced pushback from the community regarding these changes. While some restructuring steps were approved, other votes were tabled by officials. Because of these delayed votes, the true financial future and the exact amount of money the district will save remain uncertain. Local families and taxpayers are watching closely to see how these adjustments will impact education quality and school property values in the area over the long term.",
+          "keyTerms": [],
+          "disagreement": null,
+          "importance": 6,
+          "image": "https://media.tegna-media.com/assets/KSDK/images/23c54790-2365-4836-b4dd-c3cc138be435/20261112T042425/23c54790-2365-4836-b4dd-c3cc138be435_750x422.jpg",
+          "sources": [
+            {
+              "name": "KSDK",
+              "title": "St. Louis Public Schools financial woes uncertain following partial restructuring approval",
+              "url": "https://www.ksdk.com/article/news/education/st-louis-public-schools-financial-woes-uncertain-following-partial-restructuring-approval/63-3ff28bb0-ab23-4719-b36b-a92f6b11cae9"
+            },
+            {
+              "name": "KSDK",
+              "title": "St. Louis Public Schools to close 9 campuses in 'Future Ready' plan, despite pushback",
+              "url": "https://www.ksdk.com/article/news/local/st-louis-public-schools-close-9-campuses-future-ready-plan-despite-pushback/63-62a91b14-726f-444a-a50e-ff7bd4e1cad0"
+            }
+          ]
+        },
+        {
+          "id": "economy-stl-1",
+          "headline": "St. Louis data center fee proposal brings record disputes",
+          "summary": "A proposed fee on power-hungry data centers in St. Louis led to a hearing. City records on what a data center paid did not match the data center's claims.",
+          "whyItMatters": "Your local government's ability to accurately track business taxes and fees affects city services and economic growth.",
+          "explainer": "The St. Louis Board of Aldermen held a hearing to discuss a new fee on data centers, which use large amounts of power. During the discussion, conflicting numbers emerged. Board of Aldermen President Megan Green used a city report to argue for the fee, claiming a data center paid $200 for a license. However, company records showed it actually paid $16,000. This discrepancy highlighted issues with the city's record-keeping as leaders try to figure out which data centers are operating and what they currently pay.",
+          "keyTerms": [],
+          "disagreement": null,
+          "importance": 5,
+          "image": "https://media.tegna-media.com/assets/KSDK/images/d91abd19-14fe-47ce-8064-700426c14780/20261112T021835/d91abd19-14fe-47ce-8064-700426c14780_750x422.jpg",
+          "sources": [
+            {
+              "name": "KSDK",
+              "title": "Data center shows it paid $16K for a license. A St. Louis report put the cost at $200",
+              "url": "https://www.ksdk.com/article/news/community/data-centers/data-center-shows-it-paid-16k-for-a-license-a-st-louis-report-put-the-cost-at-200/63-eeb00133-b19b-4ef6-a54e-5f13443672f5"
+            },
+            {
+              "name": "KSDK",
+              "title": "St. Louis wants data centers to pay up. First it has to figure out which ones already do.",
+              "url": "https://www.ksdk.com/article/news/local/st-louis-wants-data-centers-to-pay-up-first-it-has-to-figure-out-which-ones-already-do/63-abcf6903-33e8-498b-8b61-8da918b27e12"
+            }
+          ]
+        },
+        {
+          "id": "economy-stl-2",
+          "headline": "BJC Health to acquire St. Luke's hospital system",
+          "summary": "BJC Health is set to acquire St. Luke's. This follows St. Luke's closing its Des Peres Hospital last year, which cut over 300 jobs.",
+          "whyItMatters": "Your healthcare choices and local medical job market in the St. Louis area may change as major hospital networks merge.",
+          "explainer": "Healthcare provider BJC Health is moving forward with an acquisition of St. Luke's. This major business deal in the St. Louis medical sector comes roughly a year after St. Luke's shut down its hospital in Des Peres. That previous closure eliminated more than 300 jobs in the local economy. Mergers and acquisitions among large health systems often shift where patients receive care, change insurance network options, and impact employment opportunities for finance and healthcare professionals in the region.",
+          "keyTerms": [],
+          "disagreement": null,
+          "importance": 5,
+          "image": "https://media.tegna-media.com/assets/KSDK/images/dd303f40-180c-42a5-bb55-47746705064b/dd303f40-180c-42a5-bb55-47746705064b_750x422.jpg",
+          "sources": [
+            {
+              "name": "KSDK",
+              "title": "BJC Health to acquire St. Luke's soon. How will patients be affected?",
+              "url": "https://www.ksdk.com/article/news/health/bjc-health-to-acquire-st-lukes-soon-how-will-patients-be-affected/63-dc796af1-01fd-4068-b63d-a90f31ffc84a"
+            }
+          ]
+        },
+        {
+          "id": "economy-stl-3",
+          "headline": "Alaska Airlines ends St. Louis to Portland route",
+          "summary": "Alaska Airlines will permanently end its daily nonstop flight between St. Louis and Portland next year. The route had launched in May.",
+          "whyItMatters": "Your travel costs and flight options from St. Louis Lambert International Airport to the West Coast will be reduced.",
+          "explainer": "Alaska Airlines has decided to permanently cancel its direct flight route connecting St. Louis Lambert International Airport to Portland International Airport. The daily nonstop service had just started operating in May of this year. Because the route will not return next year, travelers looking to fly out to the Pacific Northwest will need to find connecting flights or alternative airlines, which could impact ticket prices and travel convenience for local residents and business flyers.",
+          "keyTerms": [],
+          "disagreement": null,
+          "importance": 4,
+          "image": "https://media.tegna-media.com/assets/KSDK/images/edd1c850-d9c8-4135-bf6e-d1c48355dc27/20260513T172303/edd1c850-d9c8-4135-bf6e-d1c48355dc27_750x422.jpg",
+          "sources": [
+            {
+              "name": "KSDK",
+              "title": "Alaska Airlines permanently ends a St. Louis route to the West Coast",
+              "url": "https://www.ksdk.com/article/news/local/alaska-airlines-permanently-ends-st-louis-route-portland/63-050840bc-d7f3-437c-90f7-a2d35e6e1eb3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-nfl",
+      "title": "Sports · NFL",
+      "bricks": [
+        {
+          "id": "sports-nfl-0",
+          "headline": "Former NFL coach Rex Ryan faces hit-and-run charges",
+          "summary": "Former NFL head coach Rex Ryan faces charges after allegedly hitting two pedestrians with his truck in Nashville and leaving the scene.",
+          "whyItMatters": "Your sports news covers prominent league figures, though this legal matter has no direct impact on your personal finances or studies.",
+          "explainer": "Former NFL head coach Rex Ryan is facing criminal charges in Nashville, Tennessee. Police reports state that he allegedly struck two pedestrians with his pickup truck and then drove away from the accident scene instead of stopping. Ryan is a well-known figure in professional football due to his past years leading multiple NFL teams from the sidelines and later working as a television analyst. Law enforcement officials are handling the ongoing investigation and the resulting charges as the legal process moves forward for the former coach.",
+          "keyTerms": [],
+          "disagreement": null,
+          "importance": 6,
+          "image": "https://a.espncdn.com/photo/2026/1111/r1744458_600x400_3-2.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Ex-NFL coach Rex Ryan facing charges after alleged hit-and-run",
+              "url": "https://www.espn.com/nfl/story/_/id/50453897/rex-ryan-facing-charges-alleged-hit-run"
+            }
+          ]
+        },
+        {
+          "id": "sports-nfl-1",
+          "headline": "Quarterback Kirk Cousins returns to the Minnesota Vikings",
+          "summary": "Quarterback Kirk Cousins is back with the Minnesota Vikings after a brief time away. He says a phone call with coach Kevin O'Connell helped convince him to approve the trade.",
+          "whyItMatters": "Your football entertainment choices may shift as veteran players move to new rosters during the middle of the NFL season.",
+          "explainer": "Quarterback Kirk Cousins has officially returned to the Minnesota Vikings via a trade after spending less than three years away from the franchise. Cousins stated that a direct phone call with Vikings coach Kevin O'Connell played a major role in convincing him to waive any hesitations and approve the trade back to Minnesota. He expressed enthusiasm about rejoining an organization and a metropolitan area where he already feels a strong sense of familiarity with the staff and the surrounding community. Analysts are currently evaluating whether the veteran passer can immediately improve the team's offensive performance.",
+          "keyTerms": [],
+          "disagreement": null,
+          "importance": 4,
+          "image": "https://a.espncdn.com/photo/2026/1109/r1743573_608x342_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Kirk Cousins makes first comments on Minnesota trade at Great Clips",
+              "url": "https://www.espn.com/nfl/story/_/id/50455775/kirk-cousins-minnesota-trade-great-clips"
+            },
+            {
+              "name": "ESPN",
+              "title": "Kirk Cousins says call with Kevin O'Connell convinced him to OK Vikings trade",
+              "url": "https://www.espn.com/nfl/story/_/id/50455771/kirk-cousins-reintroduced-vikings-starting-qb"
+            }
+          ]
+        },
+        {
+          "id": "sports-nfl-2",
+          "headline": "Keenan Allen feels energized after trade to 49ers",
+          "summary": "Veteran wide receiver Keenan Allen says joining the San Francisco 49ers via trade gives him a new burst of energy on a contending team.",
+          "whyItMatters": "Your viewing habits for national televised games might change as star players relocate to competitive playoff contenders.",
+          "explainer": "Veteran wide receiver Keenan Allen recently spoke about his unexpected mid-season trade to the San Francisco 49ers. Although he admitted he did not anticipate changing teams, landing with a perennial playoff contender has left him feeling re-energized and excited for the remainder of the football year. The 49ers hope Allen's veteran leadership and pass-catching abilities will boost their offense as they push through the second half of the regular season toward the postseason bracket.",
+          "keyTerms": [],
+          "disagreement": null,
+          "importance": 3,
+          "image": "https://a.espncdn.com/photo/2026/0916/r1717521_600x400_3-2.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Veteran WR Keenan Allen feeling energized by trade to 49ers",
+              "url": "https://www.espn.com/nfl/story/_/id/50456881/veteran-wr-keenan-allen-feels-energized-trade-49ers"
+            }
+          ]
+        },
+        {
+          "id": "sports-nfl-3",
+          "headline": "Chiefs stick with kicker Harrison Butker",
+          "summary": "Coach Andy Reid says the Kansas City Chiefs will keep using struggling kicker Harrison Butker for their upcoming game against the Falcons.",
+          "whyItMatters": "Your regional sports interest in nearby Kansas City teams involves watching how coaches manage players through slumps.",
+          "explainer": "The Kansas City Chiefs have decided to stick with veteran kicker Harrison Butker for their upcoming game against the Atlanta Falcons. Head coach Andy Reid announced the decision despite recent struggles from Butker on the field. Coaches often face tough choices regarding whether to bench struggling specialists or give them a chance to work through their mechanical issues in live games. The Chiefs are banking on Butker returning to his reliable form as they try to secure another victory.",
+          "keyTerms": [],
+          "disagreement": null,
+          "importance": 3,
+          "image": "https://a.espncdn.com/photo/2026/1111/r1744482_864x1296_2-3.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Chiefs sticking with struggling Harrison Butker as kicker this week",
+              "url": "https://www.espn.com/nfl/story/_/id/50454081/chiefs-sticking-harrison-butker-kicker-vs-falcons"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-nba",
+      "title": "Sports · NBA",
+      "bricks": [
+        {
+          "id": "sports-nba-0",
+          "headline": "Stephen Curry leaves game with injury",
+          "summary": "Golden State Warriors star Stephen Curry left Wednesday's game in Houston. He was ruled out due to right abdominal soreness.",
+          "whyItMatters": "Your favorite team's playoff chances and game tickets can change fast when star players get hurt.",
+          "explainer": "In professional basketball, injuries to star players can completely change how a team performs. Golden State Warriors guard Stephen Curry had to leave a game against the Houston Rockets because of pain in his right abdomen. Abdominal injuries can sideline players for multiple games while they heal, forcing coaches to adjust their game plans and rely more heavily on bench players. Fans tracking the team's playoff race will need to watch injury reports closely to see how long Curry might be out.",
+          "keyTerms": [],
+          "disagreement": null,
+          "importance": 4,
+          "image": "https://a.espncdn.com/photo/2026/1112/r1744674_600x400_3-2.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Stephen Curry exits vs. Rockets, ruled out with abdominal soreness",
+              "url": "https://www.espn.com/nba/story/_/id/50458218/curry-exits-vs-rockets-ruled-abdominal-soreness"
+            }
+          ]
+        },
+        {
+          "id": "sports-nba-1",
+          "headline": "Utah Jazz star Lauri Markkanen out with hand fracture",
+          "summary": "Utah Jazz star Lauri Markkanen has a fractured right hand. Sources say he will miss at least one month of games.",
+          "whyItMatters": "Your sports viewing habits might shift when top players miss extended time with injuries.",
+          "explainer": "Injuries are a major challenge for professional sports teams trying to win games and make the playoffs. Utah Jazz forward Lauri Markkanen suffered a non-displaced fracture in his right hand. Team sources report that he will be sidelined for at least one month. Losing a star player for several weeks forces a team to alter its offensive strategy and give more playing time to younger or less experienced bench players, which can hurt their chances in the standings.",
+          "keyTerms": [],
+          "disagreement": null,
+          "importance": 4,
+          "image": "https://a.espncdn.com/photo/2025/1105/r1571351_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Sources: Jazz star Lauri Markkanen out at least 1 month with fractured hand",
+              "url": "https://www.espn.com/nba/story/_/id/50454130/sources-jazz-star-lauri-markkanen-least-1-month"
+            }
+          ]
+        },
+        {
+          "id": "sports-nba-2",
+          "headline": "Mason Plumlee signs with Sacramento Kings",
+          "summary": "Veteran center Mason Plumlee is joining the Sacramento Kings. He is entering his 14th season in the NBA.",
+          "whyItMatters": "Your team's roster moves affect how well they compete and how much excitement you see on the court.",
+          "explainer": "Basketball teams often sign veteran players to add depth and leadership to their rosters. Mason Plumlee, who is starting his 14th season in the league, is signing a deal with the Sacramento Kings. Representatives shared the news with sports media. Bringing in a veteran gives the team an experienced option at the center position, which can help stabilize the lineup during difficult stretches in a long, grueling regular season.",
+          "keyTerms": [],
+          "disagreement": null,
+          "importance": 3,
+          "image": "https://a.espncdn.com/photo/2025/0614/r1506639_600x400_3-2.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Veteran center Mason Plumlee signing with Kings",
+              "url": "https://www.espn.com/nba/story/_/id/50457114/veteran-center-mason-plumlee-signing-sacramento-kings"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-mlb",
+      "title": "Sports · MLB",
+      "bricks": [
+        {
+          "id": "sports-mlb-0",
+          "headline": "Pitchers Win Cy Young Awards",
+          "summary": "Jacob Misiorowski and Cam Schlittler won the Cy Young Awards. Both pitchers took every first-place vote after great seasons.",
+          "whyItMatters": "Your local team might face these star pitchers next season if they play the Brewers or Yankees.",
+          "explainer": "The Cy Young Award is given each year to the best pitchers in Major League Baseball. One pitcher wins in the American League, and one wins in the National League. For the 2026 season, Jacob Misiorowski of the Milwaukee Brewers and Cam Schlittler of the New York Yankees won the awards. Both players did something rare by getting every single first-place vote from the writers who choose the winners. This shows they had total control on the mound all year long.",
+          "keyTerms": [],
+          "disagreement": null,
+          "importance": 3,
+          "image": "https://a.espncdn.com/photo/2026/1109/misiorowski-schlitter-cy-awards-3x2.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Brewers' Misiorowski, Yanks' Schlittler crowned unanimous Cy Young winners",
+              "url": "https://www.espn.com/mlb/story/_/id/50456772/brewers-misiorowski-yanks-schlittler-unanimous-cy-young-winners"
+            }
+          ]
+        },
+        {
+          "id": "sports-mlb-1",
+          "headline": "Managers Win Top Awards",
+          "summary": "Pat Murphy of the Brewers won the National League Manager of the Year award. Will Venable of the White Sox won the American League award.",
+          "whyItMatters": "Your favorite baseball teams are shaped by how well their managers lead the clubhouse.",
+          "explainer": "Major League Baseball gives out Manager of the Year awards to the skippers who do the best job leading their teams. Pat Murphy of the Milwaukee Brewers won the National League honor for the third year in a row. He is the first manager to win three straight times in that league. Will Venable of the Chicago White Sox won the award for the American League.",
+          "keyTerms": [],
+          "disagreement": null,
+          "importance": 3,
+          "image": "https://a.espncdn.com/photo/2026/1029/r1738044_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Brewers' Murphy 3-peats as top NL manager; White Sox's Venable wins AL honors",
+              "url": "https://www.espn.com/mlb/story/_/id/50447635/brewers-pat-murphy-white-sox-venable-win-top-manager-awards"
+            }
+          ]
+        },
+        {
+          "id": "sports-mlb-2",
+          "headline": "Baseball Great Bob Boone Dies",
+          "summary": "Bob Boone has died at age 78. He was a great catcher, won seven Gold Gloves, and played in a famous baseball family.",
+          "whyItMatters": "You can look back at sports history to see how multi-generation families shape the game today.",
+          "explainer": "Bob Boone passed away at 78 years old. He was a star catcher for the Philadelphia Phillies and helped them win their first World Series title. Over his long career, he won seven Gold Glove awards for his great defense. He was also part of the first three-generation family in Major League Baseball history, as his father and his sons also played in the big leagues.",
+          "keyTerms": [],
+          "disagreement": null,
+          "importance": 4,
+          "image": "https://a.espncdn.com/photo/2026/1110/r1744049_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Bob Boone, part of MLB's 1st 3-generation family, dies at 78",
+              "url": "https://www.espn.com/mlb/story/_/id/50442954/bob-boone-part-mlb-1st-3-generation-family-dies-78"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-nhl",
+      "title": "Sports · NHL",
+      "bricks": [
+        {
+          "id": "sports-nhl-0",
+          "headline": "Flyers Say Matvei Michkov Has Not Requested a Trade",
+          "summary": "Philadelphia Flyers coach Rick Tocchet and team sources say winger Matvei Michkov has not asked for a trade. Team officials were surprised by talk that he wanted to play elsewhere.",
+          "whyItMatters": "Your sports entertainment could change if a star player leaves a team you watch.",
+          "explainer": "The Philadelphia Flyers have addressed rumors surrounding winger Matvei Michkov. Team coach Rick Tocchet stated that Michkov has not asked the organization for a trade. Additional sources confirmed that the Flyers have not received a formal trade request. Team leaders were reportedly surprised to hear that the player might want to play elsewhere. Such trade rumors are common in professional sports, but coaches and team sources often step in to clarify whether a player intends to stay with their current club.",
+          "keyTerms": [],
+          "disagreement": null,
+          "importance": 3,
+          "image": "https://a.espncdn.com/photo/2026/1111/r1744292_600x400_3-2.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Matvei Michkov didn't ask Flyers for trade, Rick Tocchet says",
+              "url": "https://www.espn.com/nhl/story/_/id/50454698/matvei-michkov-ask-flyers-trade-rick-tocchet-says"
+            },
+            {
+              "name": "ESPN",
+              "title": "Sources: Flyers have not received formal trade request from Matvei Michkov",
+              "url": "https://www.espn.com/nhl/story/_/id/50448279/flyers-not-received-formal-trade-request-matvei-michkov"
+            }
+          ]
+        },
+        {
+          "id": "sports-nhl-1",
+          "headline": "Connor Hellebuyck Booed in Winnipeg Return",
+          "summary": "Goaltender Connor Hellebuyck was booed during a pregame warmup in Winnipeg. He returned with the New Jersey Devils after being traded, though he did not play in the game.",
+          "whyItMatters": "Your understanding of fan reactions helps show how loyal sports towns treat players who leave.",
+          "explainer": "Connor Hellebuyck experienced a hostile reception from fans when he returned to Winnipeg. The goaltender was traded to the New Jersey Devils and took the ice for a pregame warmup ahead of Tuesday night's game. Even though he did not play in the matchup, the hometown crowd made their feelings known by booing him. Player movement is a normal part of the NHL, but fans often react strongly when a notable player departs for a new team.",
+          "keyTerms": [],
+          "disagreement": null,
+          "importance": 3,
+          "image": "https://a.espncdn.com/photo/2026/1111/r1744352_600x400_3-2.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Connor Hellebuyck booed pregame in Winnipeg return as Jets go on to beat Devils",
+              "url": "https://www.espn.com/nhl/story/_/id/50449980/connor-hellebuyck-booed-pregame-winnipeg-return-jets-go-beat-devils"
+            }
+          ]
+        },
+        {
+          "id": "sports-nhl-2",
+          "headline": "Senators Forward Nick Cousins Out With Injury",
+          "summary": "Ottawa Senators forward Nick Cousins will miss a week to 10 days. He was hurt after a legal hit by Washington Capitals defenseman Jakob Chychrun.",
+          "whyItMatters": "Your fantasy hockey roster or favorite team's lineup might suffer when key players face sudden injuries.",
+          "explainer": "Ottawa Senators forward Nick Cousins is sidelined for seven to 10 days following a physical play on the ice. The injury came after a thunderous hit delivered by Washington Capitals defenseman Jakob Chychrun during a Tuesday night game. League officials ruled the hit as entirely legal, meaning no penalties or discipline were handed down for the play. Injuries are a constant challenge for NHL teams, forcing coaches to adjust their lineups while players recover.",
+          "keyTerms": [],
+          "disagreement": null,
+          "importance": 3,
+          "image": "https://a.espncdn.com/photo/2026/1111/r1744432_600x400_3-2.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Senators' Cousins out 7-10 days after legal hit from Caps' Chychrun",
+              "url": "https://www.espn.com/nhl/story/_/id/50452880/hit-capitals-chychrun-senators-cousins-deemed-clean"
+            }
+          ]
+        },
+        {
+          "id": "sports-nhl-3",
+          "headline": "Evander Kane Signs to Play in KHL",
+          "summary": "Winger Evander Kane has signed a deal to play in Russia for the rest of the KHL season. He will play for HC Sibir Novosibirsk.",
+          "whyItMatters": "Your awareness of international hockey leagues keeps you informed on where veteran players continue their careers.",
+          "explainer": "Veteran winger Evander Kane has chosen a new path for the remainder of the hockey season. At 35 years old, he signed a deal to play in Russia for the Kontinental Hockey League. He is set to join the team HC Sibir Novosibirsk. The move sends the veteran player overseas for league action rather than participating in North American professional play for the rest of the year.",
+          "keyTerms": [],
+          "disagreement": null,
+          "importance": 2,
+          "image": "https://a.espncdn.com/photo/2026/0211/r1613719_600x400_3-2.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Canucks winger Evander Kane signs deal for rest of KHL season",
+              "url": "https://www.espn.com/nhl/story/_/id/50444087/canucks-winger-evander-kane-signs-rest-khl-season"
+            }
+          ]
+        },
+        {
+          "id": "sports-nhl-4",
+          "headline": "NHL General Managers Discuss Technology Use",
+          "summary": "NHL general managers met in Toronto to discuss ways technology can help on-ice officials. The annual fall meeting followed Hockey Hall of Fame weekend.",
+          "whyItMatters": "Your favorite games might have better referee calls in the future if new technology is adopted.",
+          "explainer": "National Hockey League general managers gathered for their annual fall meeting in Toronto. The meeting took place right after the Hockey Hall of Fame weekend festivities. Leaders used the time to discuss ways that technology and other tools could help on-ice officials do their jobs better. Sports leagues continually look at new innovations to improve the accuracy of calls and reduce human error during fast-paced games.",
+          "keyTerms": [],
+          "disagreement": null,
+          "importance": 2,
+          "image": "https://a.espncdn.com/photo/2026/1111/r1744273_600x600_1-1.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "NHL general managers discuss ways technology can help officials at fall meeting",
+              "url": "https://www.espn.com/nhl/story/_/id/50447631/gms-discussing-ways-technology-assist-nhl-officials"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-cfb",
+      "title": "Sports · College Football",
+      "bricks": [
+        {
+          "id": "sports-cfb-0",
+          "headline": "Georgia claims the top spot in CFP rankings",
+          "summary": "The Georgia Bulldogs are now number one in the latest College Football Playoff rankings. They took over the top spot after beating Ole Miss, while the former number one team, Miami, lost its first game.",
+          "whyItMatters": "Your college football Saturdays will feature higher stakes as the race for the national championship playoff bracket heats up.",
+          "explainer": "The College Football Playoff committee released its second top twenty-five rankings and bracket of the season. Georgia jumped into the number one position following a strong win against Ole Miss on the road. Meanwhile, Miami fell from the top spot after suffering its first loss of the season against Notre Dame. The rankings help determine which teams will play in the postseason tournament to decide the national champion.",
+          "keyTerms": [],
+          "disagreement": null,
+          "importance": 6,
+          "image": "https://a.espncdn.com/photo/2026/1111/r1744283_600x600_1-1.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Georgia jumps into CFP's top spot, followed by Utah, Alabama, UCLA",
+              "url": "https://www.espn.com/college-football/story/_/id/50448424/georgia-takes-cfp-top-spot-notre-dame-leaps-no-5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-cbb",
+      "title": "Sports · College Basketball",
+      "bricks": [
+        {
+          "id": "sports-cbb-0",
+          "headline": "UCSB Defeats Nevada 76-63 in College Basketball",
+          "summary": "C.J. Shaw scored 20 points to help UCSB beat Nevada. The final score was 76-63 on Wednesday.",
+          "whyItMatters": "Your local sports rooting interests are unaffected, as this game involves teams outside of Missouri.",
+          "explainer": "In college basketball action, the University of California, Santa Barbara defeated the University of Nevada by a final score of 76-63 on Wednesday. C.J. Shaw led the winning team with a total of 20 points. Regular season games like this one help teams build their records as they compete through the college basketball schedule.",
+          "keyTerms": [],
+          "disagreement": null,
+          "importance": 3,
+          "image": "https://s.espncdn.com/stitcher/sports/basketball/mens-college-basketball/events/401911454.png?templateId=espn.applewatch.awayhome.1",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "UCSB wins 76-63 over Nevada",
+              "url": "http://www.espn.com/ncb/recap?gameId=401911454"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-mls",
+      "title": "Sports · MLS",
+      "bricks": [
+        {
+          "id": "sports-mls-0",
+          "headline": "MLS Playoffs Face a Two-Week Break",
+          "summary": "The MLS regular season ended on Saturday. Teams now face a long wait of nearly two weeks before the playoffs start.",
+          "whyItMatters": "Your favorite teams face a long break that might change how well they play when the playoffs finally start.",
+          "explainer": "The Major League Soccer regular season wrapped up on Saturday. However, teams will not play their playoff matches for almost two weeks. This long pause gives players time to rest and heal from injuries. At the same time, coaches worry that hot teams might lose their momentum during the long wait before the postseason games begin.",
+          "keyTerms": [
+            {
+              "term": "Playoffs",
+              "definition": "A series of games played after the regular season to find the ultimate champion."
+            },
+            {
+              "term": "Momentum",
+              "definition": "The boost of energy and strength a team gets from winning games in a row."
+            }
+          ],
+          "disagreement": null,
+          "importance": 3,
+          "image": "https://a.espncdn.com/photo/2026/1110/r1744192_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Will MLS teams' regular-season momentum last the two weeks before the playoffs start?",
+              "url": "https://www.espn.com/soccer/story/_/id/50442984/will-mls-teams-regular-season-momentum-last-two-weeks-playoffs-start"
+            }
+          ]
+        },
+        {
+          "id": "sports-mls-1",
+          "headline": "Former MLS Forward Files Lawsuit",
+          "summary": "Former San Diego FC forward Cédric Bakambu has filed a housing discrimination lawsuit in federal court.",
+          "whyItMatters": "Your daily life is not directly changed by this legal case, but it involves an athlete from the league.",
+          "explainer": "Cédric Bakambu, who previously played as a forward for San Diego FC, has taken legal action. He filed a housing discrimination lawsuit in federal court. The court case involves claims of unfair treatment regarding housing. No other details about the lawsuit were provided in the report.",
+          "keyTerms": [
+            {
+              "term": "Federal court",
+              "definition": "A court that deals with laws made by the national government and the United States Constitution."
+            },
+            {
+              "term": "Lawsuit",
+              "definition": "A claim brought into a court of law so that a judge can decide on a legal dispute."
+            }
+          ],
+          "disagreement": null,
+          "importance": 2,
+          "image": "https://a.espncdn.com/photo/2026/0401/r1637033_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Ex-San Diego FC forward Cédric Bakambu files fair housing lawsuit",
+              "url": "https://www.espn.com/soccer/story/_/id/50432573/ex-san-diego-cedric-bakambu-files-fair-housing-lawsuit"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-epl",
+      "title": "Sports · Premier League",
+      "bricks": [
+        {
+          "id": "sports-epl-0",
+          "headline": "Manchester United Consider New Manager",
+          "summary": "Manchester United has contacted Mauricio Pochettino about becoming their new manager. This potential change has caused concern over the current treatment of coach Michael Carrick.",
+          "whyItMatters": "Your interest in international soccer rankings may be affected by how this major club performs throughout the season.",
+          "explainer": "Manchester United is currently looking for a new manager to lead their team. Reports indicate they have made contact with Mauricio Pochettino, who currently manages the United States men's national soccer team. To hire him, the club would need to pay a ten million dollar release clause. Meanwhile, Michael Carrick, the club's current coach, continues to lead training sessions while he waits to hear if he will remain in his position. Some former players have publicly criticized the club, calling the way they have handled the situation with Mr. Carrick disrespectful. This situation highlights the high-pressure environment of professional European soccer, where coaching changes are common and often highly public.",
+          "keyTerms": [
+            {
+              "term": "Release clause",
+              "definition": "A specific amount of money a club must pay to a coach or player's current team to let them leave early."
+            },
+            {
+              "term": "Manager",
+              "definition": "In soccer, this is the person responsible for leading the team, choosing players, and setting tactics."
+            }
+          ],
+          "disagreement": null,
+          "importance": 6,
+          "image": "https://a.espncdn.com/photo/2026/0526/r1664016_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Sources: Man United contact U.S. Soccer over Poch; Carrick meeting Thursday",
+              "url": "https://www.espn.com/soccer/story/_/id/50455598/man-united-us-soccer-pochettino-carrick"
+            },
+            {
+              "name": "ESPN",
+              "title": "Schmeichel blasts Man United's 'disrespectful' treatment of Carrick amid Pochettino links",
+              "url": "https://www.espn.com/soccer/story/_/id/50455118/manchester-united-michael-carrick-premier-league-peter-schmeichel-mauricio-pochettino"
+            },
+            {
+              "name": "ESPN",
+              "title": "Man United near Mauricio Pochettino deal, Michael Carrick awaits verdict - sources",
+              "url": "https://www.espn.com/soccer/story/_/id/50451384/michael-carrick-mauricio-pochettino-man-united"
+            }
+          ]
+        },
+        {
+          "id": "sports-epl-1",
+          "headline": "Zubimendi Denies Leaving Arsenal",
+          "summary": "Arsenal player Martin Zubimendi said he does not want to leave the team. He spoke out after reports claimed he might move to Atletico Madrid.",
+          "whyItMatters": "Your favorite soccer team's roster stability could impact their performance in upcoming league matches.",
+          "explainer": "Professional soccer teams often face rumors about players leaving during the mid-season transfer window. Recently, rumors suggested that Arsenal midfielder Martin Zubimendi was considering a move to the Spanish club Atletico Madrid. Mr. Zubimendi publicly denied these claims, stating he is not looking to leave Arsenal. Transfer windows are specific times of the year when teams can trade or sign players from other clubs. Keeping a stable roster is often a priority for teams hoping to win their league, so players frequently have to address rumors during these busy periods.",
+          "keyTerms": [
+            {
+              "term": "Transfer window",
+              "definition": "A set period of time during the year when soccer clubs can buy or trade players."
+            },
+            {
+              "term": "Midfielder",
+              "definition": "A player who works in the middle of the field to help both the offense and defense."
+            }
+          ],
+          "disagreement": null,
+          "importance": 3,
+          "image": "https://a.espncdn.com/photo/2026/1111/r1744385_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Arsenal's Martin Zubimendi denies wanting to leave amid Atlético Madrid links",
+              "url": "https://www.espn.com/soccer/story/_/id/50451966/arsenal-martin-zubimendi-atletico-madrid"
+            }
+          ]
+        },
+        {
+          "id": "sports-epl-2",
+          "headline": "Panel Says Liverpool Missed Penalty",
+          "summary": "An expert panel determined Liverpool should have received a penalty kick against Arsenal. The decision centered on a shirt-tug against player Alexander Isak.",
+          "whyItMatters": "Your understanding of league standings is shaped by match results, which can be influenced by referee decisions.",
+          "explainer": "In professional soccer, referees must make quick decisions during matches, but these calls are sometimes reviewed later by experts. A panel recently reviewed a match between Liverpool and Arsenal. The experts concluded that Liverpool should have been given a penalty kick after a player, Alexander Isak, had his shirt pulled during the game. A penalty kick is a free shot at the goal taken from a close spot when a foul occurs inside the penalty area. This finding does not change the final score of the match, but it shows how officiating decisions affect the outcomes of professional games.",
+          "keyTerms": [
+            {
+              "term": "Penalty kick",
+              "definition": "A free kick taken from a spot 12 yards from the goal after a foul by the defense."
+            },
+            {
+              "term": "Officiating",
+              "definition": "The act of enforcing the rules of a game by referees or judges."
+            }
+          ],
+          "disagreement": null,
+          "importance": 3,
+          "image": "https://a.espncdn.com/photo/2026/1101/r1739649_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Liverpool should have had penalty against Arsenal for Alexander Isak tug - panel",
+              "url": "https://www.espn.com/soccer/story/_/id/50451926/liverpool-penalty-arsenal-alexander-isak"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "team-mizzou-football",
+      "title": "Sports · Mizzou Football",
+      "bricks": [
+        {
+          "id": "team-mizzou-football-0",
+          "headline": "Mizzou Asks SEC to Review Fumble Call",
+          "summary": "Mizzou has asked the SEC to review referee calls from its recent 34-20 loss to Texas. The school is looking into several calls that went against the home team.",
+          "whyItMatters": "Your interest in Mizzou sports might be affected if official decisions change the results of future games.",
+          "explainer": "After a tough loss to Texas, the University of Missouri has officially asked the Southeastern Conference (SEC) to look at how the game was called. A 'formal review' is a process where league officials study the work of the referees from a specific game to see if mistakes were made. Mizzou believes that several calls made during the 34-20 game went against their team. This request does not change the score of the game, but it puts pressure on the conference to make sure future games are officiated more accurately. For fans, this shows the team is fighting for fairness in every play, which can change how a team performs throughout the rest of their season.",
+          "keyTerms": [
+            {
+              "term": "SEC",
+              "definition": "The Southeastern Conference is a group of universities that play sports against each other at a high level."
+            },
+            {
+              "term": "Formal Review",
+              "definition": "A step where league leaders check the work of referees after a game to see if they followed all the rules."
+            }
+          ],
+          "disagreement": null,
+          "importance": 5,
+          "image": "https://a.espncdn.com/photo/2026/1109/r1743738_600x600_1-1.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Missouri requests 'formal review' after disputed fumble call in loss to Texas",
+              "url": "https://www.espn.com/college-football/story/_/id/50436054/missouri-seeks-sec-review-disputed-fumble-call-loss"
+            }
+          ]
+        },
+        {
+          "id": "team-mizzou-football-1",
+          "headline": "Mizzou Coach Questions Need for Conferences",
+          "summary": "Mizzou head coach Eli Drinkwitz recently questioned if college conferences are still needed. He says conferences might not matter as much with the new 24-team playoff system coming soon.",
+          "whyItMatters": "Your school loyalty might change if the way college teams are grouped together completely shifts in the future.",
+          "explainer": "Mizzou football coach Eli Drinkwitz has joined other college coaches in asking if athletic conferences serve a real purpose anymore. A conference is a group of schools that play against each other in sports. In the past, winning a conference was the main way to get into a top bowl game. However, with the College Football Playoff (CFP) moving to a 24-team format next year, the importance of these groups is changing. Coach Drinkwitz suggests that if the playoffs are the main focus, the traditional conference setup might be outdated. This is a big debate in college sports that could lead to major changes in how your favorite teams play and travel each year.",
+          "keyTerms": [
+            {
+              "term": "Conference",
+              "definition": "A group of colleges that compete against one another in various sports."
+            },
+            {
+              "term": "CFP",
+              "definition": "The College Football Playoff is a tournament held to decide the national champion of college football."
+            }
+          ],
+          "disagreement": null,
+          "importance": 5,
+          "image": "https://a.espncdn.com/photo/2026/1110/r1744124_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Missouri's Eli Drinkwitz questions need for conferences in 24-team CFP era",
+              "url": "https://www.espn.com/college-football/story/_/id/50445136/eli-drinkwitz-questions-need-conferences-24-team-cfp"
+            }
+          ]
+        },
+        {
+          "id": "team-mizzou-football-2",
+          "headline": "Mizzou Faces No. 1 Georgia Soon",
+          "summary": "Mizzou prepares for its next SEC game against the top-ranked Georgia team. The game is set for November 14.",
+          "whyItMatters": "Your weekend plans or school spirit could be affected by how well the Tigers perform against a top national opponent.",
+          "explainer": "The Missouri Tigers are getting ready to play against the University of Georgia on November 14. Georgia is currently ranked as the number one team in the country, making this a very difficult challenge for Mizzou. With a current record of 6-3, Mizzou needs to play well to stay competitive in the SEC standings. These types of games are important for the team's ranking and their chances of making it into the postseason playoffs later this year. Fans are watching this game closely to see how Mizzou measures up against the best teams in the nation.",
+          "keyTerms": [],
+          "disagreement": null,
+          "importance": 4,
+          "image": "https://s.espncdn.com/stitcher/sports/football/college-football/events/401856883.png?templateId=espn.applewatch.awayhome.1",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "No. 1 Georgia meets Missouri in SEC action",
+              "url": "http://www.espn.com/ncf/preview?gameId=401856883"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "team-mizzou-basketball",
+      "title": "Sports · Mizzou Basketball",
+      "bricks": [
+        {
+          "id": "team-mizzou-basketball-0",
+          "headline": "Mizzou Beats SIU Edwardsville",
+          "summary": "The Mizzou Tigers basketball team defeated SIU Edwardsville 96-58 on Monday. Jason Crowe Jr. scored 34 points during the game, setting a new scoring record for a Mizzou freshman.",
+          "whyItMatters": "Your school's basketball performance can impact campus spirit and the atmosphere at Mizzou Arena games this season.",
+          "explainer": "The Missouri Tigers men's basketball team secured a decisive win against the SIU Edwardsville Cougars on Monday night with a final score of 96-58. This game featured a standout performance from freshman Jason Crowe Jr., who scored 34 points. By reaching this total, Crowe Jr. set a new program record for the most points scored in a single game by a freshman player for Mizzou. The victory brings the Tigers' current record to 2-1 for the early part of the season. These games help the team gain momentum as they progress through their schedule and prepare for more competitive conference matchups later in the year.",
+          "keyTerms": [
+            {
+              "term": "Freshman",
+              "definition": "A first-year student at a college or university."
+            },
+            {
+              "term": "Program",
+              "definition": "The entire group of players and coaches that make up a sports team at a school."
+            }
+          ],
+          "disagreement": null,
+          "importance": 4,
+          "image": "https://s.espncdn.com/stitcher/sports/basketball/mens-college-basketball/events/401921815.png?templateId=espn.applewatch.awayhome.1",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Jason Crowe Jr. sets Missouri single-game freshman scoring record in 96-58 rout of SIU Edwardsville",
+              "url": "http://www.espn.com/ncb/recap?gameId=401921815"
+            },
+            {
+              "name": "ESPN",
+              "title": "SIU-Edwardsville visits Missouri following Cobb's 20-point game",
+              "url": "http://www.espn.com/ncb/preview?gameId=401921815"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "team-blues",
+      "title": "Sports · St. Louis Blues",
+      "bricks": [
+        {
+          "id": "team-blues-0",
+          "headline": "Blues Defeat Red Wings 3-2",
+          "summary": "The St. Louis Blues beat the Detroit Red Wings on Tuesday night. Jimmy Snuggerud scored a goal and had an assist to help the team win. This victory ended a three-game losing streak for the Blues.",
+          "whyItMatters": "Your local team stopped their recent losing streak, which affects their standing within the Central Division.",
+          "explainer": "The St. Louis Blues entered Tuesday night looking to end a three-game losing streak. They faced the Detroit Red Wings, who play in the Atlantic Division. Jimmy Snuggerud played a major role in the game by scoring one goal and providing an assist. His goal in the third period served as the game-winner, bringing the final score to 3-2. This win provides a boost for the Blues as they continue their season in the Central Division. The game followed several days where the team struggled to find a win, making this a helpful result for their current season outlook and team morale.",
+          "keyTerms": [
+            {
+              "term": "Central Division",
+              "definition": "A group of NHL teams that play each other often during the regular season."
+            }
+          ],
+          "disagreement": null,
+          "importance": 3,
+          "image": "https://s.espncdn.com/stitcher/sports/hockey/nhl/events/401892687.png?templateId=espn.applewatch.awayhome.1",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Snuggerud's goal, assist help power the Blues to a 3-2 victory over the Red Wings",
+              "url": "http://www.espn.com/nhl/recap?gameId=401892687"
+            },
+            {
+              "name": "ESPN",
+              "title": "Blues bring 3-game losing streak into matchup against the Red Wings",
+              "url": "http://www.espn.com/nhl/preview?gameId=401892687"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "team-cardinals",
+      "title": "Sports · St. Louis Cardinals",
+      "bricks": [
+        {
+          "id": "team-cardinals-0",
+          "headline": "2026 MLB Award Winners Announced",
+          "summary": "Baseball players and managers are receiving their awards this week. These awards recognize the top performers from the 2026 season.",
+          "whyItMatters": "Your favorite team's success in future seasons depends on the talent of these top-rated players.",
+          "explainer": "Major League Baseball is currently holding its awards week to celebrate the achievements of players and managers from the 2026 season. These honors include accolades like the Most Valuable Player award, which recognizes the best individual contributor in each league. For fans in St. Louis, these awards provide a look at the league's top talent and help identify the players who might shape the competitive landscape of the sport in the years to come. Tracking these award winners is a common way for baseball followers to assess the current state of professional talent across all teams.",
+          "keyTerms": [
+            {
+              "term": "Most Valuable Player",
+              "definition": "An award given to the best player in a professional baseball league for that season."
+            }
+          ],
+          "disagreement": null,
+          "importance": 3,
+          "image": "https://a.espncdn.com/photo/2026/1109/mlb_awards_week_cr_16x9_new_608x342.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Who will win MVP? Picks, analysis for 2026 MLB awards week",
+              "url": "https://www.espn.com/mlb/story/_/id/50391276/2026-season-awards-mvp-cy-young-al-nl"
+            }
+          ]
+        },
+        {
+          "id": "team-cardinals-1",
+          "headline": "MLB Offseason Trades and Signings Begin",
+          "summary": "Major League Baseball teams are starting to trade players and sign new ones. This period allows teams to change their rosters before the next season starts.",
+          "whyItMatters": "Your view of the Cardinals' chances next year depends on how they improve their roster during this time.",
+          "explainer": "The MLB offseason is the time when teams make significant changes to their rosters. During this period, organizations participate in free agency, where they can sign players who are no longer under contract with another team. They can also trade players with other clubs to acquire different talent. For a college student interested in finance, these moves are similar to how a company might reorganize its workforce to improve performance. The Cardinals will be evaluating their needs to determine which players to pursue to help them compete in the upcoming season.",
+          "keyTerms": [
+            {
+              "term": "Free Agency",
+              "definition": "A period when players whose contracts have ended can sign with any team that wants them."
+            },
+            {
+              "term": "Roster",
+              "definition": "The list of players who are on a team and eligible to play in games."
+            }
+          ],
+          "disagreement": null,
+          "importance": 3,
+          "image": "https://a.espncdn.com/photo/2026/0802/r1696679_608x342_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "MLB free agency tracker: 2026-27 offseason trades, moves",
+              "url": "https://www.espn.com/mlb/story/_/id/50328768/free-agency-tracker-offseason-trades-moves-2026-2027"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "team-packers",
+      "title": "Sports · Green Bay Packers",
+      "bricks": [
+        {
+          "id": "team-packers-0",
+          "headline": "Jordan Love Leads Packers to Win Over Patriots",
+          "summary": "Packers quarterback Jordan Love threw for four touchdowns in a 45-27 victory against the Patriots. Teammates praised his performance following the game.",
+          "whyItMatters": "Your interest in the Packers depends on their win-loss record, which directly impacts their path to the playoffs.",
+          "explainer": "In a recent game against the New England Patriots, Green Bay Packers quarterback Jordan Love turned in a highly effective performance. He accounted for four total touchdowns, helping the team secure a 45-27 win. Following the game, members of the team described the performance as impressive, with some players noting it as one of the best games Love has played for the franchise. The Packers were also successful in forcing four turnovers from the Patriots during the contest, which played a major role in the lopsided final score. This win provides a boost for the team as they continue their season, contributing to the competitive standing of the NFC North division.",
+          "keyTerms": [],
+          "disagreement": null,
+          "importance": 5,
+          "image": "https://a.espncdn.com/photo/2026/1109/r1743436_600x400_3-2.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "'Balling' Jordan Love wows teammates with big performance at Patriots",
+              "url": "https://www.espn.com/nfl/story/_/id/50429190/balling-jordan-love-wows-teammates-big-performance-patriots"
+            },
+            {
+              "name": "ESPN",
+              "title": "Jordan Love accounts for 4 touchdowns, Packers force 4 turnovers in 45-27 win over Patriots",
+              "url": "http://www.espn.com/nfl/recap?gameId=401873049"
+            }
+          ]
+        },
+        {
+          "id": "team-packers-1",
+          "headline": "Packers RB Josh Jacobs Dealing With Broken Finger",
+          "summary": "Packers running back Josh Jacobs broke his finger during a game. He needs surgery and his availability for upcoming games is not yet certain.",
+          "whyItMatters": "Your fantasy football team or interest in the Packers may be affected by the availability of a key offensive player.",
+          "explainer": "Green Bay Packers running back Josh Jacobs sustained a fractured ring finger on his right hand. According to head coach Matt LaFleur, the injury occurred while Jacobs was attempting to stiff-arm a defender during a play. The player is now scheduled to undergo surgery to address the fracture. At this time, it is unclear if the injury will force him to miss future games, including the upcoming matchup against the Minnesota Vikings. The team has not ruled out placing him on injured reserve, a roster status that would keep him out for a minimum of four games, but his status for the immediate future remains officially uncertain.",
+          "keyTerms": [
+            {
+              "term": "Injured Reserve",
+              "definition": "A roster designation in the NFL for players who are unable to play due to injury for a significant amount of time."
+            }
+          ],
+          "disagreement": null,
+          "importance": 4,
+          "image": "https://a.espncdn.com/photo/2026/1104/r1741296_2_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Matt LaFleur: Packers' Josh Jacobs needs surgery on finger; IR not ruled out",
+              "url": "https://www.espn.com/nfl/story/_/id/50435349/packers-rb-josh-jacobs-needs-surgery-fractured-finger"
+            },
+            {
+              "name": "ESPN",
+              "title": "Packers' Josh Jacobs dealing with broken finger, status for Vikings tilt TBD",
+              "url": "https://www.espn.com/nfl/story/_/id/50429092/packers-josh-jacobs-dealing-fractured-finger"
+            }
+          ]
+        },
+        {
+          "id": "team-packers-2",
+          "headline": "NFC North Teams Hold Playoff Spots",
+          "summary": "The Packers, Bears, Lions, and Vikings are performing well this season. Combined, the four NFC North teams have a 25-8 record and each currently holds a spot in the playoffs.",
+          "whyItMatters": "Your experience following the NFL is shaped by how the Packers perform against their division rivals in the race for a postseason spot.",
+          "explainer": "The NFC North is currently one of the most competitive divisions in the NFL. The four teams that make up the division—the Green Bay Packers, Chicago Bears, Detroit Lions, and Minnesota Vikings—have collectively won 25 games while losing only eight. Because of this strong start to the season, all four teams currently hold positions that would qualify them for the playoffs if the season ended today. The competition within the division remains tight, and it is currently a central focus of analysts looking at which teams might represent the conference in the postseason.",
+          "keyTerms": [
+            {
+              "term": "NFC North",
+              "definition": "A division within the National Football Conference of the NFL consisting of four professional football teams."
+            }
+          ],
+          "disagreement": null,
+          "importance": 4,
+          "image": "https://a.espncdn.com/photo/2026/1109/r1743381_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Is the NFC North the best division ever? Sizing up wins for Packers, Lions, Bears",
+              "url": "https://www.espn.com/nfl/story/_/id/50422009/week-9-barnwell-nfc-north-packers-lions-bears-vikings"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "team-chiefs",
+      "title": "Sports · Kansas City Chiefs",
+      "bricks": [
+        {
+          "id": "team-chiefs-0",
+          "headline": "Patrick Mahomes Suffers Arm Injury in Chiefs Win",
+          "summary": "Quarterback Patrick Mahomes is day-to-day after hurting his throwing arm. He was injured during the team's recent win against the New York Jets.",
+          "whyItMatters": "Your interest in the team's success depends on the health of their star player.",
+          "explainer": "Kansas City Chiefs quarterback Patrick Mahomes suffered an injury to his throwing arm during a 35-12 victory over the New York Jets. Following the game, reports indicated the injury occurred during a strip-sack, a play where a defender hits the quarterback to force a fumble. Mahomes was seen favoring his arm as he left the field. Coach Andy Reid has categorized Mahomes as day-to-day, meaning the medical staff will monitor his progress closely before the next game. While the injury caused brief concern among fans at Arrowhead Stadium, Mahomes was able to finish the game. The team continues to assess his status to determine if he will be ready for the upcoming week.",
+          "keyTerms": [
+            {
+              "term": "Strip-sack",
+              "definition": "A defensive play where a player tackles the quarterback and knocks the football out of his hands."
+            },
+            {
+              "term": "Day-to-day",
+              "definition": "A term used by teams to show an injury is not long-term and is checked on every day."
+            }
+          ],
+          "disagreement": null,
+          "importance": 8,
+          "image": "https://a.espncdn.com/photo/2026/1109/r1743644_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Chiefs QB Patrick Mahomes day-to-day with elbow injury",
+              "url": "https://www.espn.com/nfl/story/_/id/50434564/chiefs-qb-patrick-mahomes-day-day-elbow-injury"
+            },
+            {
+              "name": "ESPN",
+              "title": "Chiefs' Patrick Mahomes brushes off injury scare during rout of Jets",
+              "url": "https://www.espn.com/nfl/story/_/id/50427266/chiefs-patrick-mahomes-brushes-injury-scare"
+            },
+            {
+              "name": "ESPN",
+              "title": "Kenneth Walker scores 3 TDs as the Chiefs roll past the woeful Jets 35-12 to end their 2-game skid",
+              "url": "http://www.espn.com/nfl/recap?gameId=401873045"
+            }
+          ]
+        },
+        {
+          "id": "team-chiefs-1",
+          "headline": "Chiefs Trade for Receiver Josh Downs",
+          "summary": "The Kansas City Chiefs acquired wide receiver Josh Downs in a trade with the Indianapolis Colts. The team hopes his speed will help their offense.",
+          "whyItMatters": "Your enjoyment of the Chiefs' games might increase as the team adds new talent to their offense.",
+          "explainer": "The Kansas City Chiefs completed a trade to acquire wide receiver Josh Downs from the Indianapolis Colts before the NFL trade deadline. The Chiefs' offense had been looking for more speed and playmaking ability at the wide receiver position. Experts suggest that Downs, known for his route-running skills, provides a necessary boost for quarterback Patrick Mahomes and the team's passing attack. Following the announcement, Downs expressed excitement about moving to Kansas City to join a team that is competing for the playoffs. This addition is viewed as a strategic effort to strengthen the roster for the remainder of the season.",
+          "keyTerms": [
+            {
+              "term": "Trade deadline",
+              "definition": "The final day during an NFL season when teams are allowed to trade players to one another."
+            },
+            {
+              "term": "Route-running",
+              "definition": "The skill a receiver uses to run specific paths to get open for a pass."
+            }
+          ],
+          "disagreement": null,
+          "importance": 6,
+          "image": "https://a.espncdn.com/photo/2026/1110/nfl_trade_16x9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Questions on 2026 NFL trade deadline deals: Does Kirk Cousins lift the Vikings?",
+              "url": "https://www.espn.com/nfl/story/_/id/50442897/2026-trade-deadline-barnwell-questions-cousins-downs"
+            },
+            {
+              "name": "ESPN",
+              "title": "2026 NFL trade deadline winners, losers: Kirk Cousins, Josh Downs, Bengals, more",
+              "url": "https://www.espn.com/nfl/story/_/id/50443388/2026-nfl-trade-deadline-winners-losers-best-worst-deals"
+            },
+            {
+              "name": "ESPN",
+              "title": "How Josh Downs fits with Patrick Mahomes and the Chiefs' offense",
+              "url": "https://www.espn.com/nfl/story/_/id/50448000/josh-downs-chiefs-trade-patrick-mahomes-offense-role"
+            },
+            {
+              "name": "ESPN",
+              "title": "NFL trade deadline grades: Deals for Kirk Cousins, Josh Downs, Ryan Neuzil",
+              "url": "https://www.espn.com/nfl/story/_/id/50043542/2026-trade-deadline-grades-latest-best-worst-deals"
+            },
+            {
+              "name": "ESPN",
+              "title": "Chiefs snag needed help at WR, trade for Colts' Josh Downs",
+              "url": "https://www.espn.com/nfl/story/_/id/50445576/chiefs-trade-colts-wr-josh-downs"
+            },
+            {
+              "name": "ESPN",
+              "title": "From 2-7 to 6-2: Josh Downs reacts to Chiefs trade with Vince Carter GIF",
+              "url": "https://www.espn.com/nfl/story/_/id/50446669/chiefs-josh-downs-trade-reaction-vince-carter-gif"
+            }
+          ]
+        },
+        {
+          "id": "team-chiefs-2",
+          "headline": "Chiefs Keep Kicker Harrison Butker Despite Misses",
+          "summary": "Coach Andy Reid announced that Harrison Butker will remain the team's kicker. This comes after Butker missed several field goals during the current season.",
+          "whyItMatters": "Your team's chance of winning close games relies heavily on the success of their kicker.",
+          "explainer": "Kansas City Chiefs kicker Harrison Butker has struggled recently, leading the NFL with seven missed field goal attempts this season. Despite these misses, coach Andy Reid confirmed that the team will keep Butker as their kicker for the upcoming game against the Atlanta Falcons. While there has been public discussion about his performance, Reid has not made a long-term decision regarding Butker's future with the team. For now, the Chiefs are choosing to stick with their current starter as they continue their season.",
+          "keyTerms": [],
+          "disagreement": null,
+          "importance": 5,
+          "image": "https://a.espncdn.com/photo/2026/1111/r1744482_864x1296_2-3.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Chiefs sticking with struggling Harrison Butker as kicker this week",
+              "url": "https://www.espn.com/nfl/story/_/id/50454081/chiefs-sticking-harrison-butker-kicker-vs-falcons"
+            },
+            {
+              "name": "ESPN",
+              "title": "Reid: No decision now on Harrison Butker's Chiefs future",
+              "url": "https://www.espn.com/nfl/story/_/id/50427823/reid-no-decision-harrison-butker-chiefs-future"
             }
           ]
         }
