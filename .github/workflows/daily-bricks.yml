@@ -1,0 +1,36 @@
+name: Daily bricks
+
+on:
+  schedule:
+    # 11:00 UTC = 5am Central in winter (CST), 6am in summer (CDT).
+    # GitHub can start scheduled jobs late, so this aims a little early.
+    - cron: "0 11 * * *"
+  workflow_dispatch: # adds a "Run workflow" button on GitHub for manual runs
+
+permissions:
+  contents: write # lets the job commit data/latest.json
+
+jobs:
+  build-bricks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+          cache: npm
+          cache-dependency-path: backend/package-lock.json
+      - run: npm ci
+        working-directory: backend
+      - run: npm run build-bricks
+        working-directory: backend
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
+      - name: Commit today's bricks
+        run: |
+          git config user.name "newsbrick-bot"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git diff --cached --quiet || git commit -m "Bricks for $(date -u +%F)"
+          git push

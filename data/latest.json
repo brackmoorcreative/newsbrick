@@ -1,0 +1,159 @@
+{
+  "version": 1,
+  "date": "2026-11-10",
+  "generatedAt": "2026-11-10T23:03:05.033Z",
+  "model": "gemini-3.5-flash-lite",
+  "categories": [
+    {
+      "id": "us-politics",
+      "title": "US Politics & Government",
+      "bricks": [
+        {
+          "id": "us-politics-0",
+          "headline": "House votes on impeaching Defense Secretary Pete Hegseth",
+          "summary": "Defense Secretary Pete Hegseth faces an impeachment push in the House led by Rep. Thomas Massie. Hegseth defends his actions and calls the move a policy disagreement.",
+          "whyItMatters": "Your tax dollars fund the military, and changes at the Pentagon can affect national security and defense jobs.",
+          "explainer": "The House of Representatives is holding a preliminary vote on whether to impeach Defense Secretary Pete Hegseth. The push was brought by outgoing Representative Thomas Massie, who pointed to Hegseth's handling of the war against Iran and other actions. Hegseth held a press conference to defend his record, stating that the impeachment push is simply about policy disagreements rather than high crimes. While the House is set to vote on the matter, removing a cabinet official through impeachment requires a trial and conviction in the Senate, making a complete removal difficult.",
+          "keyTerms": [
+            {
+              "term": "impeachment",
+              "definition": "A formal charge of wrongdoing against a government official by the House of Representatives."
+            }
+          ],
+          "disagreement": null,
+          "sources": [
+            {
+              "name": "PBS NewsHour",
+              "title": "WATCH LIVE: House expected to hold preliminary vote on Hegseth impeachment as GOP chooses Jordan for minority leader",
+              "url": "https://www.pbs.org/newshour/politics/watch-live-house-expected-to-hold-preliminary-vote-on-hegseth-impeachment-as-gop-chooses-next-leader"
+            },
+            {
+              "name": "PBS NewsHour",
+              "title": "WATCH: Hegseth says House impeachment push is about 'policy disagreements' not high crimes",
+              "url": "https://www.pbs.org/newshour/politics/watch-live-hegseth-holds-news-conference-as-house-impeachment-vote-looms"
+            },
+            {
+              "name": "NPR",
+              "title": "House set to vote to impeach Hegseth. And, SCOTUS allows border wall work to proceed",
+              "url": "https://www.npr.org/2026/11/10/g-s1-152777/up-first-newsletter-pete-hegseth-impeachment-trump-iran-nvidia-border-wall-texas"
+            },
+            {
+              "name": "NPR",
+              "title": "Former Pentagon spokesman on articles of impeachment filed against Hegseth",
+              "url": "https://www.npr.org/2026/11/10/nx-s1-6035039/former-pentagon-spokesman-on-articles-of-impeachment-filed-against-hegseth"
+            },
+            {
+              "name": "PBS NewsHour",
+              "title": "Hegseth faces impeachment push as Congress returns to Washington",
+              "url": "https://www.pbs.org/newshour/show/hegseth-faces-impeachment-push-as-congress-returns-to-washington"
+            },
+            {
+              "name": "PBS NewsHour",
+              "title": "WATCH: Rep. Massie speaks after filing Hegseth impeachment resolution",
+              "url": "https://www.pbs.org/newshour/politics/watch-live-rep-massie-speaks-after-filing-hegseth-impeachment-resolution"
+            },
+            {
+              "name": "PBS NewsHour",
+              "title": "WATCH: Hegseth announces he will hold news conference on impeachment threat to defend his record",
+              "url": "https://www.pbs.org/newshour/politics/watch-hegseth-announces-he-will-hold-news-conference-on-impeachment-threat-to-defend-his-record"
+            }
+          ]
+        },
+        {
+          "id": "us-politics-1",
+          "headline": "House Republicans elect Jim Jordan as minority leader",
+          "summary": "House Republicans chose Ohio Representative Jim Jordan to serve as their minority leader. He succeeds Mike Johnson as the top Republican in the chamber.",
+          "whyItMatters": "Your federal representatives in the House will be led by a new person who helps shape the party's agenda.",
+          "explainer": "Following recent midterm election losses, House Republicans held a secret ballot election and selected Ohio Representative Jim Jordan as their next leader. Jordan, who also serves as chairman of the House Judiciary Committee and helped found the ultra-conservative House Freedom Caucus, will step in as minority leader. He succeeds Mike Johnson, who decided to step down from his leadership role as the party prepares to be in the minority in the upcoming Congress.",
+          "keyTerms": [
+            {
+              "term": "minority leader",
+              "definition": "The floor leader for the political party that does not have the majority of seats in the House or Senate."
+            }
+          ],
+          "disagreement": null,
+          "sources": [
+            {
+              "name": "NPR",
+              "title": "House Republicans elect Jim Jordan as their next leader",
+              "url": "https://www.npr.org/2026/11/10/nx-s1-6035791/house-republicans-elect-jim-jordan-as-their-next-leader"
+            },
+            {
+              "name": "PBS NewsHour",
+              "title": "House Republicans pick Ohio Rep. Jim Jordan to lead them in the minority",
+              "url": "https://www.pbs.org/newshour/politics/house-republicans-pick-ohio-rep-jim-jordan-to-lead-them-in-the-minority"
+            },
+            {
+              "name": "NPR",
+              "title": "House GOP elects Jim Jordan as new leader as the party looks to rebuild from midterms",
+              "url": "https://www.npr.org/2026/11/10/nx-s1-6030988/gop-leadership-election-steve-scalise-jim-jordan"
+            }
+          ]
+        },
+        {
+          "id": "us-politics-2",
+          "headline": "Senate Republicans vote to keep John Thune as leader",
+          "summary": "Senate Republicans voted to keep South Dakota Senator John Thune as their leader after an election that cost them their majority.",
+          "whyItMatters": "Your senators vote on federal laws and judges, and their leadership choices affect how the Senate runs.",
+          "explainer": "Senate Republicans held three separate meetings to vent their frustrations and discuss their future after an election wipeout that cost them at least seven Senate seats and their majority control. Despite the steep losses, the caucus voted to keep South Dakota Senator John Thune as their leader. The group also engaged in robust conversations about their path forward in Washington.",
+          "keyTerms": [],
+          "disagreement": null,
+          "sources": [
+            {
+              "name": "PBS NewsHour",
+              "title": "Senate Republicans vote to keep Thune as leader after election wipeout",
+              "url": "https://www.pbs.org/newshour/politics/senate-republicans-vote-to-keep-thune-as-leader-after-election-wipeout"
+            },
+            {
+              "name": "PBS NewsHour",
+              "title": "WATCH LIVE: Senate considers bills on permitting, survivor justice as GOP reelects Thune",
+              "url": "https://www.pbs.org/newshour/politics/watch-live-senate-considers-bills-on-permitting-survivor-justice-as-gop-mulls-future-leadership"
+            }
+          ]
+        },
+        {
+          "id": "us-politics-3",
+          "headline": "Bernie Sanders objects to Chuck Schumer as Democratic leader",
+          "summary": "Senator Bernie Sanders stated he will not support Chuck Schumer for Senate Democratic leader. He called for change after the party's midterm victories.",
+          "whyItMatters": "Your federal lawmakers are shifting their internal power dynamics as they take control of Congress.",
+          "explainer": "Following the Democratic party's sweep to power in the midterm elections, Senator Bernie Sanders announced he will not support Chuck Schumer for Senate Democratic leader. Sanders stated that the time is now for change, setting up a confrontation within the party as it prepares to take control of the legislative chambers.",
+          "keyTerms": [],
+          "disagreement": null,
+          "sources": [
+            {
+              "name": "PBS NewsHour",
+              "title": "'The time is now for change.' Bernie Sanders won't support Schumer for Senate Democratic leader",
+              "url": "https://www.pbs.org/newshour/politics/the-time-is-now-for-change-bernie-sanders-wont-support-schumer-for-senate-democratic-leader"
+            }
+          ]
+        },
+        {
+          "id": "us-politics-4",
+          "headline": "California voters reject proposed tax on billionaires",
+          "summary": "California voters defeated a proposal that would have placed a one-time 5% tax on the wealth of residents worth over $1 billion.",
+          "whyItMatters": "Your state taxes and local ballot measures show how voters across the country feel about economic policies.",
+          "explainer": "Voters in California rejected a novel state ballot measure, Proposition 40, which would have imposed a one-time 5% tax on the net worth of individuals holding over $1 billion, including their ownership in companies. The proposal had divided Democrats and sparked debates among economists regarding how wealth taxes impact state economies and the billionaire tax movement.",
+          "keyTerms": [],
+          "disagreement": null,
+          "sources": [
+            {
+              "name": "PBS NewsHour",
+              "title": "California voters reject tax on net worth of billionaires",
+              "url": "https://www.pbs.org/newshour/politics/california-voters-reject-tax-on-net-worth-of-billionaires"
+            },
+            {
+              "name": "NPR",
+              "title": "Why did California's billionaire tax fail to surf the blue wave?",
+              "url": "https://www.npr.org/sections/planet-money/2026/11/10/g-s1-152755/why-did-californias-billionaire-tax-fail-to-surf-the-blue-wave"
+            },
+            {
+              "name": "NPR",
+              "title": "California voters defeat billionaire tax proposal that divided Democrats",
+              "url": "https://www.npr.org/2026/11/09/g-s1-151625/california-billionaire-tax-referendum"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

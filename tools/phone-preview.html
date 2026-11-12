@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>NewsBrick Phone Preview</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--
+  Shows the Expo web app (npx expo start --web) inside an iPhone 16 Pro-sized frame.
+  Open this file after the dev server is running on http://localhost:8081.
+-->
+<style>
+  :root {
+    --page: #d9d4cc;
+    --screen-bg: #FFFFFF;
+    --status-text: #121212;
+  }
+  * { box-sizing: border-box; }
+  /* The page never scrolls: the phone is scaled down to fit the window instead. */
+  html, body { height: 100%; overflow: hidden; }
+  body {
+    margin: 0; background: var(--page);
+    display: flex; align-items: center; justify-content: center;
+    font-family: -apple-system, "SF Pro Text", "Segoe UI", system-ui, sans-serif;
+  }
+  .stage { flex: none; transform-origin: center; }
+  .phone {
+    position: relative; width: 426px; height: 898px; padding: 12px;
+    border-radius: 68px; background: #1b1b1d;
+    box-shadow: 0 0 0 2px #3a3a3c, 0 0 0 4px #0d0d0e, 0 30px 80px rgba(0,0,0,.35);
+  }
+  /* side buttons */
+  .phone::before, .phone::after {
+    content: ""; position: absolute; width: 4px; background: #2c2c2e; border-radius: 2px;
+  }
+  .phone::before { left: -6px; top: 180px; height: 64px; box-shadow: 0 84px 0 #2c2c2e; }
+  .phone::after  { right: -6px; top: 230px; height: 100px; }
+  .screen {
+    position: relative; width: 402px; height: 874px; border-radius: 56px;
+    overflow: hidden; background: var(--screen-bg);
+  }
+  .status {
+    position: absolute; inset: 0 0 auto 0; height: 54px; z-index: 2;
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 6px 34px 0 46px; color: var(--status-text); background: var(--screen-bg);
+    font-weight: 600; font-size: 17px;
+  }
+  .icons { display: flex; gap: 6px; align-items: center; }
+  .island {
+    position: absolute; top: 11px; left: 50%; transform: translateX(-50%);
+    width: 124px; height: 36px; border-radius: 20px; background: #000; z-index: 3;
+  }
+  iframe {
+    position: absolute; top: 54px; left: 0; width: 402px; height: 820px; border: 0;
+    background: var(--screen-bg);
+  }
+  .home {
+    position: absolute; bottom: 8px; left: 50%; transform: translateX(-50%);
+    width: 140px; height: 5px; border-radius: 3px; background: var(--status-text);
+    opacity: .85; z-index: 2; pointer-events: none;
+  }
+</style>
+</head>
+<body>
+  <div class="stage" id="stage">
+  <div class="phone">
+    <div class="screen">
+      <div class="status">
+        <span id="clock">9:41</span>
+        <span class="icons" aria-hidden="true">
+          <svg width="18" height="12" viewBox="0 0 18 12" fill="currentColor"><rect x="0" y="8" width="3" height="4" rx="1"/><rect x="5" y="5.5" width="3" height="6.5" rx="1"/><rect x="10" y="3" width="3" height="9" rx="1"/><rect x="15" y="0" width="3" height="12" rx="1"/></svg>
+          <svg width="16" height="12" viewBox="0 0 16 12" fill="currentColor"><path d="M8 2.5c2.3 0 4.4.9 6 2.4l1.2-1.3A10.4 10.4 0 0 0 8 .7 10.4 10.4 0 0 0 .8 3.6L2 4.9a8.6 8.6 0 0 1 6-2.4Zm0 3.6c1.3 0 2.5.5 3.4 1.3l1.2-1.3A6.6 6.6 0 0 0 8 4.3a6.6 6.6 0 0 0-4.6 1.8l1.2 1.3c.9-.8 2.1-1.3 3.4-1.3Zm0 3.6c-.5 0-1 .2-1.3.6L8 11.6l1.3-1.3c-.3-.4-.8-.6-1.3-.6Z"/></svg>
+          <svg width="27" height="13" viewBox="0 0 27 13" fill="none"><rect x=".5" y=".5" width="23" height="12" rx="3.5" stroke="currentColor" opacity=".4"/><rect x="2" y="2" width="18" height="9" rx="2" fill="currentColor"/><path d="M25 4.5v4c.8-.3 1.3-1.1 1.3-2s-.5-1.7-1.3-2Z" fill="currentColor" opacity=".4"/></svg>
+        </span>
+      </div>
+      <div class="island"></div>
+      <iframe src="http://localhost:8081" title="NewsBrick app"></iframe>
+      <div class="home"></div>
+    </div>
+  </div>
+  </div>
+<!-- iPhone 16 Pro size (402 × 874). Needs `npx expo start --web` running. -->
+<script>
+  // Shrink the phone (never enlarge it) so it always fits in the window with a small margin.
+  const stage = document.getElementById('stage');
+  const fit = () => {
+    const scale = Math.min(1, (innerHeight - 32) / 906, (innerWidth - 32) / 438);
+    stage.style.transform = `scale(${scale})`;
+  };
+  fit(); addEventListener('resize', fit);
+
+  // The app reports light/dark (Settings > Appearance) so the status bar can match it.
+  addEventListener('message', (e) => {
+    const theme = e.data && e.data.newsbrickTheme;
+    if (theme !== 'light' && theme !== 'dark') return;
+    const root = document.documentElement.style;
+    root.setProperty('--screen-bg', theme === 'dark' ? '#121212' : '#FFFFFF');
+    root.setProperty('--status-text', theme === 'dark' ? '#EDEDED' : '#121212');
+  });
+
+  const clock = document.getElementById('clock');
+  const tick = () => clock.textContent = new Date().toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' }).replace(/\s?[AP]M/, '');
+  tick(); setInterval(tick, 30000);
+</script>
+</body>
+</html>
