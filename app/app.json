@@ -20,11 +20,20 @@
       "predictiveBackGestureEnabled": false
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/favicon.png",
+      "name": "NewsBrick",
+      "shortName": "NewsBrick",
+      "themeColor": "#FFFFFF",
+      "backgroundColor": "#FFFFFF",
+      "display": "standalone",
+      "orientation": "portrait"
     },
     "plugins": [
       "expo-font",
       "expo-apple-authentication"
-    ]
+    ],
+    "experiments": {
+      "baseUrl": "/newsbrick"
+    }
   }
 }

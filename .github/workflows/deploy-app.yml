@@ -1,0 +1,47 @@
+name: Deploy app
+
+# Builds the web version of the app and publishes it to GitHub Pages:
+#   https://brackmoorcreative.github.io/newsbrick/
+# On iPhone: open that link in Safari, tap Share > Add to Home Screen.
+# Runs when app code changes. The daily stories don't need a rebuild: the app downloads them.
+
+on:
+  push:
+    branches: [main]
+    paths: ["app/**", ".github/workflows/deploy-app.yml"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+          cache: npm
+          cache-dependency-path: app/package-lock.json
+      - run: npm ci
+        working-directory: app
+      - run: npx expo export --platform web
+        working-directory: app
+        env:
+          EXPO_PUBLIC_BRICKS_URL: https://raw.githubusercontent.com/${{ github.repository }}/main/data/latest.json
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: app/dist
+      - id: deployment
+        uses: actions/deploy-pages@v4

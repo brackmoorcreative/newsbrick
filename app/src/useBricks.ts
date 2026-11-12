@@ -9,7 +9,9 @@ const BASE_URL = LATEST_URL?.replace(/[^/]+$/, '') ?? '';
 const readKey = (date: string) => `bricks:read:${date}`;
 
 async function fetchJson<T>(url: string): Promise<T> {
-  const res = await fetch(url, { headers: { 'Cache-Control': 'no-cache' } });
+  // `cache: 'no-store'` skips the phone's HTTP cache without adding a request header.
+  // (A custom header makes browsers send a CORS preflight, which GitHub's raw server rejects.)
+  const res = await fetch(url, { cache: 'no-store' });
   if (!res.ok) throw new Error(`Server returned ${res.status}`);
   return (await res.json()) as T;
 }

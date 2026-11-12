@@ -22,7 +22,7 @@ export function SettingsSheet({ visible, account, streak, onSignOut, onClose }: 
   const { appearance, setAppearance } = useTheme();
   const who =
     account.provider === 'preview'
-      ? 'Preview mode (no account)'
+      ? 'No account. Your streak and settings are saved on this phone.'
       : `Signed in with Apple${account.name || account.email ? ` as ${account.name ?? account.email}` : ''}`;
 
   return (
@@ -65,7 +65,9 @@ export function SettingsSheet({ visible, account, streak, onSignOut, onClose }: 
         <Text style={styles.label}>Account</Text>
         <Text style={styles.body}>{who}</Text>
         <Pressable onPress={onSignOut} accessibilityRole="button" style={styles.signOut}>
-          <Text style={styles.signOutText}>Sign out</Text>
+          <Text style={styles.signOutText}>
+            {account.provider === 'preview' ? 'Back to welcome screen' : 'Sign out'}
+          </Text>
         </Pressable>
       </SafeAreaView>
     </Modal>

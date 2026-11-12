@@ -61,7 +61,8 @@ export function WelcomeScreen({ onSignedIn }: Props) {
           />
         )}
 
-        {/* Sign in with Apple only exists on iPhone. The browser preview gets a stand-in. */}
+        {/* Sign in with Apple only works in the native iPhone app. The home-screen web
+            version starts without an account; everything is still saved on the phone. */}
         {appleAvailable === false && (
           <Pressable
             onPress={() =>
@@ -70,7 +71,7 @@ export function WelcomeScreen({ onSignedIn }: Props) {
             accessibilityRole="button"
             style={styles.previewButton}
           >
-            <Text style={styles.previewText}>Continue in preview mode</Text>
+            <Text style={styles.previewText}>Get started</Text>
           </Pressable>
         )}
 
