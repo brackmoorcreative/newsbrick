@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "date": "2026-11-10",
-  "generatedAt": "2026-11-10T23:03:05.033Z",
-  "model": "gemini-3.5-flash-lite",
+  "date": "2026-11-11",
+  "generatedAt": "2026-11-12T03:29:54.637Z",
+  "model": "gemini-3.5-flash",
   "categories": [
     {
       "id": "us-politics",
@@ -10,146 +10,175 @@
       "bricks": [
         {
           "id": "us-politics-0",
-          "headline": "House votes on impeaching Defense Secretary Pete Hegseth",
-          "summary": "Defense Secretary Pete Hegseth faces an impeachment push in the House led by Rep. Thomas Massie. Hegseth defends his actions and calls the move a policy disagreement.",
-          "whyItMatters": "Your tax dollars fund the military, and changes at the Pentagon can affect national security and defense jobs.",
-          "explainer": "The House of Representatives is holding a preliminary vote on whether to impeach Defense Secretary Pete Hegseth. The push was brought by outgoing Representative Thomas Massie, who pointed to Hegseth's handling of the war against Iran and other actions. Hegseth held a press conference to defend his record, stating that the impeachment push is simply about policy disagreements rather than high crimes. While the House is set to vote on the matter, removing a cabinet official through impeachment requires a trial and conviction in the Senate, making a complete removal difficult.",
+          "headline": "Democrat Scott Colom Wins Mississippi Senate Election",
+          "summary": "Democrat Scott Colom won a U.S. Senate election in Mississippi. He defeated Republican Senator Cindy Hyde-Smith. Colom is the state's first Black senator since Reconstruction.",
+          "whyItMatters": "Your future in finance could be shaped by which political party controls federal laws and economic policies in the U.S. Senate.",
+          "explainer": "Democrat Scott Colom won a U.S. Senate election in Mississippi, defeating incumbent Republican Sen. Cindy Hyde-Smith. Mississippi had not elected a Democrat to the U.S. Senate in more than forty years. The vote count took extra time due to absentee and provisional ballots in the closely contested race. Colom becomes the state's first Black U.S. senator since the post-Civil War Reconstruction era. The win provides a boost to the Democratic Party as it seeks a larger foothold in the American South and helps determine the size of the Democratic majority in the Senate.",
           "keyTerms": [
             {
-              "term": "impeachment",
-              "definition": "A formal charge of wrongdoing against a government official by the House of Representatives."
+              "term": "Reconstruction",
+              "definition": "The period of rebuilding in the United States after the Civil War."
+            },
+            {
+              "term": "Absentee ballot",
+              "definition": "A paper ballot used to vote by mail or before Election Day."
             }
           ],
           "disagreement": null,
           "sources": [
             {
               "name": "PBS NewsHour",
-              "title": "WATCH LIVE: House expected to hold preliminary vote on Hegseth impeachment as GOP chooses Jordan for minority leader",
-              "url": "https://www.pbs.org/newshour/politics/watch-live-house-expected-to-hold-preliminary-vote-on-hegseth-impeachment-as-gop-chooses-next-leader"
-            },
-            {
-              "name": "PBS NewsHour",
-              "title": "WATCH: Hegseth says House impeachment push is about 'policy disagreements' not high crimes",
-              "url": "https://www.pbs.org/newshour/politics/watch-live-hegseth-holds-news-conference-as-house-impeachment-vote-looms"
+              "title": "News Wrap: Democrat Scott Colom defeats Mississippi Sen. Cindy Hyde-Smith",
+              "url": "https://www.pbs.org/newshour/show/news-wrap-democrat-scott-colom-defeats-mississippi-sen-cindy-hyde-smith"
             },
             {
               "name": "NPR",
-              "title": "House set to vote to impeach Hegseth. And, SCOTUS allows border wall work to proceed",
-              "url": "https://www.npr.org/2026/11/10/g-s1-152777/up-first-newsletter-pete-hegseth-impeachment-trump-iran-nvidia-border-wall-texas"
+              "title": "Democrat Scott Colom wins the closest Senate race in the country",
+              "url": "https://www.npr.org/2026/11/11/nx-s1-6037840/democrat-scott-colom-wins-the-closest-senate-race-in-the-country"
             },
             {
               "name": "NPR",
-              "title": "Former Pentagon spokesman on articles of impeachment filed against Hegseth",
-              "url": "https://www.npr.org/2026/11/10/nx-s1-6035039/former-pentagon-spokesman-on-articles-of-impeachment-filed-against-hegseth"
+              "title": "Democrat Scott Colom wins Mississippi Senate race",
+              "url": "https://www.npr.org/2026/11/11/g-s1-151688/mississippi-senate-race-scott-colom"
             },
             {
               "name": "PBS NewsHour",
-              "title": "Hegseth faces impeachment push as Congress returns to Washington",
-              "url": "https://www.pbs.org/newshour/show/hegseth-faces-impeachment-push-as-congress-returns-to-washington"
+              "title": "Scott Colom wins Senate election in Mississippi",
+              "url": "https://www.pbs.org/newshour/politics/scott-colom-wins-senate-election-in-mississippi"
+            },
+            {
+              "name": "Politico",
+              "title": "Mississippi elects Democrat Scott Colom to Senate in massive upset",
+              "url": "https://www.politico.com/news/2026/11/11/scott-colom-wins-mississippi-senate-01161555"
             },
             {
               "name": "PBS NewsHour",
-              "title": "WATCH: Rep. Massie speaks after filing Hegseth impeachment resolution",
-              "url": "https://www.pbs.org/newshour/politics/watch-live-rep-massie-speaks-after-filing-hegseth-impeachment-resolution"
-            },
-            {
-              "name": "PBS NewsHour",
-              "title": "WATCH: Hegseth announces he will hold news conference on impeachment threat to defend his record",
-              "url": "https://www.pbs.org/newshour/politics/watch-hegseth-announces-he-will-hold-news-conference-on-impeachment-threat-to-defend-his-record"
+              "title": "Mississippi voters reflect on surprising Senate race as count continues",
+              "url": "https://www.pbs.org/newshour/show/mississippi-voters-reflect-on-surprising-senate-race-as-count-continues"
             }
           ]
         },
         {
           "id": "us-politics-1",
-          "headline": "House Republicans elect Jim Jordan as minority leader",
-          "summary": "House Republicans chose Ohio Representative Jim Jordan to serve as their minority leader. He succeeds Mike Johnson as the top Republican in the chamber.",
-          "whyItMatters": "Your federal representatives in the House will be led by a new person who helps shape the party's agenda.",
-          "explainer": "Following recent midterm election losses, House Republicans held a secret ballot election and selected Ohio Representative Jim Jordan as their next leader. Jordan, who also serves as chairman of the House Judiciary Committee and helped found the ultra-conservative House Freedom Caucus, will step in as minority leader. He succeeds Mike Johnson, who decided to step down from his leadership role as the party prepares to be in the minority in the upcoming Congress.",
+          "headline": "White House Warns Democrats Against Investigating Trump Officials",
+          "summary": "The White House warned Democrats not to investigate the Trump administration. The top White House lawyer sent a letter to incoming House Oversight chair Rep. Robert Garcia. The lawyer claimed oversight investigations could cross into criminality.",
+          "whyItMatters": "You could see how congressional battles and government stability influence financial markets and national policy during your career.",
+          "explainer": "As Democrats prepare to take control of Congress, the White House sent a warning letter regarding planned congressional investigations into the Trump administration. The White House's top lawyer wrote to Representative Robert Garcia, who will chair the House Oversight Committee. The letter stated that aggressive oversight of the administration might cross the line into blatant criminality. Congressional oversight is a standard function where lawmakers examine federal agencies and officials. The warning comes during a wave of resignations inside the Justice Department, setting up potential legal and political conflicts between executive officials and incoming Democratic lawmakers in Congress.",
           "keyTerms": [
             {
-              "term": "minority leader",
-              "definition": "The floor leader for the political party that does not have the majority of seats in the House or Senate."
+              "term": "Oversight",
+              "definition": "The review and monitoring of government agencies and officials by Congress."
+            }
+          ],
+          "disagreement": null,
+          "sources": [
+            {
+              "name": "PBS NewsHour",
+              "title": "White House threatens Democrats over plans to investigate Trump officials",
+              "url": "https://www.pbs.org/newshour/show/white-house-threatens-democrats-over-plans-to-investigate-trump-officials"
+            },
+            {
+              "name": "PBS NewsHour",
+              "title": "Read the letter the White House's top lawyer sent Rep. Garcia over threats to investigate Trump",
+              "url": "https://www.pbs.org/newshour/politics/read-the-letter-the-white-houses-top-lawyer-sent-rep-garcia-over-threats-to-investigate-trump"
+            },
+            {
+              "name": "PBS NewsHour",
+              "title": "White House sends warning to Democrats about investigating the Trump administration",
+              "url": "https://www.pbs.org/newshour/politics/white-house-sends-warning-to-democrats-about-investigating-the-trump-administration"
+            }
+          ]
+        },
+        {
+          "id": "us-politics-2",
+          "headline": "House GOP Picks Jim Jordan while Impeachment Bid Fails",
+          "summary": "House Republicans chose Ohio Representative Jim Jordan as their next leader. Senate Republicans re-elected John Thune. Meanwhile, the House voted to stop an effort to impeach Defense Secretary Pete Hegseth.",
+          "whyItMatters": "Your taxes and financial regulations depend heavily on which leaders guide congressional committees and political parties.",
+          "explainer": "House Republicans chose Representative Jim Jordan of Ohio to serve as their next leader as the party prepares for life in the House minority. Jordan is a conservative lawmaker and vocal defender of Donald Trump. Over in the Senate, Republicans re-elected John Thune as their leader. At the same time, the House voted to quash an effort to impeach Defense Secretary Pete Hegseth, effectively ending the current impeachment push against him. Meanwhile, Representative Hakeem Jeffries is poised to become Speaker of the House as Democrats prepare to take power in the incoming congressional session.",
+          "keyTerms": [
+            {
+              "term": "Impeachment",
+              "definition": "A formal process where lawmakers charge a government official with misconduct."
             }
           ],
           "disagreement": null,
           "sources": [
             {
               "name": "NPR",
-              "title": "House Republicans elect Jim Jordan as their next leader",
-              "url": "https://www.npr.org/2026/11/10/nx-s1-6035791/house-republicans-elect-jim-jordan-as-their-next-leader"
-            },
-            {
-              "name": "PBS NewsHour",
-              "title": "House Republicans pick Ohio Rep. Jim Jordan to lead them in the minority",
-              "url": "https://www.pbs.org/newshour/politics/house-republicans-pick-ohio-rep-jim-jordan-to-lead-them-in-the-minority"
+              "title": "Who is Jim Jordan, the House Republicans' pick for minority leader?",
+              "url": "https://www.npr.org/2026/11/11/nx-s1-6037439/who-is-jim-jordan-the-house-republicans-pick-for-minority-leader"
             },
             {
               "name": "NPR",
-              "title": "House GOP elects Jim Jordan as new leader as the party looks to rebuild from midterms",
-              "url": "https://www.npr.org/2026/11/10/nx-s1-6030988/gop-leadership-election-steve-scalise-jim-jordan"
-            }
-          ]
-        },
-        {
-          "id": "us-politics-2",
-          "headline": "Senate Republicans vote to keep John Thune as leader",
-          "summary": "Senate Republicans voted to keep South Dakota Senator John Thune as their leader after an election that cost them their majority.",
-          "whyItMatters": "Your senators vote on federal laws and judges, and their leadership choices affect how the Senate runs.",
-          "explainer": "Senate Republicans held three separate meetings to vent their frustrations and discuss their future after an election wipeout that cost them at least seven Senate seats and their majority control. Despite the steep losses, the caucus voted to keep South Dakota Senator John Thune as their leader. The group also engaged in robust conversations about their path forward in Washington.",
-          "keyTerms": [],
-          "disagreement": null,
-          "sources": [
-            {
-              "name": "PBS NewsHour",
-              "title": "Senate Republicans vote to keep Thune as leader after election wipeout",
-              "url": "https://www.pbs.org/newshour/politics/senate-republicans-vote-to-keep-thune-as-leader-after-election-wipeout"
+              "title": "House effectively ends Hegseth impeachment. And, 3 men accused of plotting U.K. attacks",
+              "url": "https://www.npr.org/2026/11/11/g-s1-152949/up-first-newsletter-pete-hegseth-jim-jordan-iran-backed-trio-us-bases"
             },
             {
               "name": "PBS NewsHour",
-              "title": "WATCH LIVE: Senate considers bills on permitting, survivor justice as GOP reelects Thune",
-              "url": "https://www.pbs.org/newshour/politics/watch-live-senate-considers-bills-on-permitting-survivor-justice-as-gop-mulls-future-leadership"
+              "title": "House rejects Hegseth impeachment as GOP selects Jordan and Thune as leaders",
+              "url": "https://www.pbs.org/newshour/show/house-rejects-hegseth-impeachment-as-gop-selects-jordan-and-thune-as-leaders"
+            },
+            {
+              "name": "PBS NewsHour",
+              "title": "'They want us to fight': Jeffries outlines priorities as Democrats prepare to take power",
+              "url": "https://www.pbs.org/newshour/show/they-want-us-to-fight-jeffries-outlines-priorities-as-democrats-prepare-to-take-power"
             }
           ]
         },
         {
           "id": "us-politics-3",
-          "headline": "Bernie Sanders objects to Chuck Schumer as Democratic leader",
-          "summary": "Senator Bernie Sanders stated he will not support Chuck Schumer for Senate Democratic leader. He called for change after the party's midterm victories.",
-          "whyItMatters": "Your federal lawmakers are shifting their internal power dynamics as they take control of Congress.",
-          "explainer": "Following the Democratic party's sweep to power in the midterm elections, Senator Bernie Sanders announced he will not support Chuck Schumer for Senate Democratic leader. Sanders stated that the time is now for change, setting up a confrontation within the party as it prepares to take control of the legislative chambers.",
-          "keyTerms": [],
+          "headline": "Kennedy Relatives Sue to Stop Proposed Trump Arch",
+          "summary": "Nine members of the Kennedy family filed a lawsuit against President Donald Trump's planned arch. They say the arch would cast shadows over relatives' graves at Arlington National Cemetery. Trump suggested dedicating the arch to military veterans.",
+          "whyItMatters": "You may be interested in how federal court rulings affect public land use and national monuments near historical sites.",
+          "explainer": "Nine members of the Kennedy family joined lawsuits to stop President Donald Trump from building a towering monumental arch near Arlington National Cemetery. The family members argue that the proposed two hundred fifty foot arch would disrupt views and cast shadows over their ancestors' gravesites, including the grave of President John F. Kennedy. President Trump marked Veterans Day with a wreath-laying ceremony at the cemetery. During his remarks, Trump suggested that the arch he wants built in his honor would also be dedicated to the United States military and veterans who served in its ranks.",
+          "keyTerms": [
+            {
+              "term": "Arlington National Cemetery",
+              "definition": "A national military cemetery in Virginia where American veterans and leaders are buried."
+            }
+          ],
           "disagreement": null,
           "sources": [
             {
               "name": "PBS NewsHour",
-              "title": "'The time is now for change.' Bernie Sanders won't support Schumer for Senate Democratic leader",
-              "url": "https://www.pbs.org/newshour/politics/the-time-is-now-for-change-bernie-sanders-wont-support-schumer-for-senate-democratic-leader"
+              "title": "Trump says the towering arch he wants to be build might be dedicated to military veterans",
+              "url": "https://www.pbs.org/newshour/politics/trump-says-the-towering-arch-he-wants-to-be-build-might-be-dedicated-to-military-veterans"
+            },
+            {
+              "name": "NPR",
+              "title": "Kennedy relatives join the fight against Trump's arch, alleging harm to JFK's grave",
+              "url": "https://www.npr.org/2026/11/11/nx-s1-6037372/kennedys-trump-arch-lawsuit-jfk-grave-arlington-cemetery"
+            },
+            {
+              "name": "PBS NewsHour",
+              "title": "WATCH: Trump marks Veterans Day with wreath laying, remarks at Arlington National Cemetery",
+              "url": "https://www.pbs.org/newshour/politics/watch-live-trump-marks-veterans-day-with-wreath-laying-remarks-at-arlington-national-cemetery"
+            },
+            {
+              "name": "NPR",
+              "title": "Kennedys sue to block Trump's arch",
+              "url": "https://www.npr.org/2026/11/11/nx-s1-6036845/kennedys-sue-to-block-trumps-arch"
             }
           ]
         },
         {
           "id": "us-politics-4",
-          "headline": "California voters reject proposed tax on billionaires",
-          "summary": "California voters defeated a proposal that would have placed a one-time 5% tax on the wealth of residents worth over $1 billion.",
-          "whyItMatters": "Your state taxes and local ballot measures show how voters across the country feel about economic policies.",
-          "explainer": "Voters in California rejected a novel state ballot measure, Proposition 40, which would have imposed a one-time 5% tax on the net worth of individuals holding over $1 billion, including their ownership in companies. The proposal had divided Democrats and sparked debates among economists regarding how wealth taxes impact state economies and the billionaire tax movement.",
-          "keyTerms": [],
+          "headline": "House Panel Releases Report on Jeffrey Epstein Failures",
+          "summary": "The House Oversight Committee released a report on Jeffrey Epstein. Lawmakers found that his crimes after 2005 could have been stopped. They blamed repeated failures by law enforcement and federal prosecutors.",
+          "whyItMatters": "You can see how federal oversight reports hold government agencies and federal law enforcement accountable for past failures.",
+          "explainer": "The Republican-led House Oversight Committee published a new report following an investigation into late convicted sex offender Jeffrey Epstein and his associates. The panel found that crimes committed by Epstein after 2005 could have been prevented. The report attributed the ongoing abuse to repeated failures by law enforcement officials and federal prosecutors who handled earlier cases. The congressional investigation examined how federal authorities interacted with Epstein and why law enforcement did not stop his actions sooner, highlighting structural flaws in federal prosecution and investigative processes over several years.",
+          "keyTerms": [
+            {
+              "term": "Prosecutor",
+              "definition": "A lawyer who conducts legal proceedings against someone accused of a crime."
+            }
+          ],
           "disagreement": null,
           "sources": [
             {
               "name": "PBS NewsHour",
-              "title": "California voters reject tax on net worth of billionaires",
-              "url": "https://www.pbs.org/newshour/politics/california-voters-reject-tax-on-net-worth-of-billionaires"
-            },
-            {
-              "name": "NPR",
-              "title": "Why did California's billionaire tax fail to surf the blue wave?",
-              "url": "https://www.npr.org/sections/planet-money/2026/11/10/g-s1-152755/why-did-californias-billionaire-tax-fail-to-surf-the-blue-wave"
-            },
-            {
-              "name": "NPR",
-              "title": "California voters defeat billionaire tax proposal that divided Democrats",
-              "url": "https://www.npr.org/2026/11/09/g-s1-151625/california-billionaire-tax-referendum"
+              "title": "4 key findings in the Jeffrey Epstein report from GOP-led House Oversight panel",
+              "url": "https://www.pbs.org/newshour/politics/4-key-findings-in-the-jeffrey-epstein-report-from-gop-led-house-oversight-panel"
             }
           ]
         }
