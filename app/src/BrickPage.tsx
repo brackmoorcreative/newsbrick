@@ -1,15 +1,21 @@
-import { ScrollView, StyleSheet, Text, View } from 'react-native';
+import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { SourceLine } from './SourceLine';
 import { StoryImage } from './StoryImage';
 import type { Brick } from './types';
 import { fonts, useStyles, type Palette } from './theme';
 
-type Props = { brick: Brick; section: string; width: number; height: number; personalized?: boolean };
+type Props = {
+  brick: Brick;
+  section: string;
+  width: number;
+  height: number;
+  personalized?: boolean;
+  onOpen: () => void; // opens the full story
+};
 
-// One brick filling the screen: photo, outlets, and the whole story at a glance. (The
-// "Full story" button lives in the bottom bar so it's always visible.) The page gets an
-// exact height so a long story scrolls instead of being cut off.
-export function BrickPage({ brick, section, width, height, personalized }: Props) {
+// One brick filling the screen: photo, outlets, the story at a glance, and a Full story
+// button. The page gets an exact height so a long story scrolls instead of being cut off.
+export function BrickPage({ brick, section, width, height, personalized, onOpen }: Props) {
   const styles = useStyles(makeStyles);
 
   return (
@@ -30,6 +36,14 @@ export function BrickPage({ brick, section, width, height, personalized }: Props
           </View>
           <Text style={styles.boxText}>{brick.whyItMatters}</Text>
         </View>
+
+        <Pressable
+          onPress={onOpen}
+          accessibilityRole="button"
+          style={({ pressed }) => [styles.more, { opacity: pressed ? 0.6 : 1 }]}
+        >
+          <Text style={styles.moreText}>Full story ›</Text>
+        </Pressable>
       </ScrollView>
     </View>
   );
@@ -66,4 +80,13 @@ const makeStyles = (c: Palette) =>
     label: { fontFamily: fonts.label, fontSize: 14, color: c.text },
     tag: { fontFamily: fonts.label, fontSize: 12, color: c.accent },
     boxText: { fontFamily: fonts.body, fontSize: 18, lineHeight: 27, color: c.text },
+    more: {
+      marginTop: 16,
+      paddingVertical: 14,
+      borderWidth: 1.5,
+      borderColor: c.text,
+      borderRadius: 4,
+      alignItems: 'center',
+    },
+    moreText: { fontFamily: fonts.label, fontSize: 16, color: c.text },
   });

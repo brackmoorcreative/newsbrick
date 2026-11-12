@@ -243,6 +243,7 @@ function BrickDeck({ account, onSignOut }: { account: Account; onSignOut: () => 
               width={width}
               height={pageHeight}
               personalized={item.personalized}
+              onOpen={() => setOpen(item.brick)}
             />
           ) : (
             <View style={[styles.done, { width, height: pageHeight }]}>
@@ -266,17 +267,6 @@ function BrickDeck({ account, onSignOut }: { account: Account; onSignOut: () => 
           <Pressable onPress={() => goTo(index - 1)} disabled={index === 0} accessibilityRole="button" hitSlop={12}>
             <Text style={[styles.navText, index === 0 && styles.navDisabled]}>‹ Back</Text>
           </Pressable>
-          {current?.kind === 'brick' && (
-            // Always on screen, so the full story never depends on scrolling.
-            <Pressable
-              onPress={() => setOpen(current.brick)}
-              accessibilityRole="button"
-              hitSlop={8}
-              style={styles.fullButton}
-            >
-              <Text style={styles.fullText}>Full story</Text>
-            </Pressable>
-          )}
           {current?.kind === 'done' ? (
             <Pressable onPress={() => goTo(0)} accessibilityRole="button" hitSlop={12}>
               <Text style={styles.navText}>Start over</Text>
@@ -424,14 +414,6 @@ const makeStyles = (c: Palette) =>
     },
     navText: { fontFamily: fonts.label, fontSize: 16, color: c.text },
     navDisabled: { color: c.hairline },
-    fullButton: {
-      borderWidth: 1.5,
-      borderColor: c.text,
-      paddingVertical: 10.5,
-      paddingHorizontal: 18,
-      borderRadius: 4,
-    },
-    fullText: { fontFamily: fonts.label, fontSize: 16, color: c.text },
     nextButton: {
       backgroundColor: c.text,
       paddingVertical: 12,
