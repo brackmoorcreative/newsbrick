@@ -7,12 +7,34 @@ export type FeedItem = {
   url: string;
   snippet: string; // the feed's own short description, never the full article
   publishedAt: Date;
+  image?: string; // the photo the feed publishes with the story, if any
 };
 
-const parser = new Parser({
+// Feeds attach photos in different ways: <media:content>, <media:thumbnail>,
+// an image <enclosure>, or an <img> inside the item's HTML.
+type MediaTag = { $?: { url?: string; medium?: string; type?: string } };
+type RssExtras = { mediaContent?: MediaTag[]; mediaThumbnail?: MediaTag[]; contentEncoded?: string };
+
+const parser = new Parser<Record<string, unknown>, RssExtras>({
   timeout: 20_000,
   headers: { "User-Agent": "NewsBrick/0.1 (personal news digest; RSS reader)" },
+  customFields: {
+    item: [
+      ["media:content", "mediaContent", { keepArray: true }],
+      ["media:thumbnail", "mediaThumbnail", { keepArray: true }],
+      ["content:encoded", "contentEncoded"],
+    ],
+  },
 });
+
+function rssImage(item: Parser.Item & RssExtras): string | undefined {
+  const media = [...(item.mediaContent ?? []), ...(item.mediaThumbnail ?? [])]
+    .filter((m) => !m.$?.medium || m.$.medium === "image")
+    .map((m) => m.$?.url);
+  const enclosure = item.enclosure?.type?.startsWith("image") ? item.enclosure.url : undefined;
+  const inline = (item.contentEncoded ?? item.content ?? "").match(/<img[^>]+src=["']([^"']+)["']/i)?.[1];
+  return [...media, enclosure, inline].find((url) => url?.startsWith("https://"));
+}
 
 // Several categories share a feed (e.g. BBC World), so each URL is downloaded once per run.
 const cache = new Map<string, Promise<FeedItem[]>>();
@@ -32,6 +54,7 @@ async function fetchRss(source: Source): Promise<FeedItem[]> {
     url: item.link ?? "",
     snippet: clean(item.contentSnippet ?? item.content ?? "").slice(0, 500),
     publishedAt: new Date(item.isoDate ?? item.pubDate ?? 0),
+    image: rssImage(item),
   }));
 }
 
@@ -42,6 +65,7 @@ type EspnArticle = {
   description?: string;
   published?: string;
   links?: { web?: { href?: string } };
+  images?: { url?: string }[];
 };
 
 async function fetchEspn(source: Source): Promise<FeedItem[]> {
@@ -59,6 +83,7 @@ async function fetchEspn(source: Source): Promise<FeedItem[]> {
       url: a.links?.web?.href ?? "",
       snippet: clean(a.description ?? "").slice(0, 500),
       publishedAt: new Date(a.published ?? 0),
+      image: a.images?.find((img) => img.url?.startsWith("https://"))?.url,
     }));
 }
 

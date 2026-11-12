@@ -11,6 +11,8 @@ export type Brick = {
   explainer: string;
   keyTerms: { term: string; definition: string }[];
   disagreement: string | null;
+  importance: number; // 1-10 on one scale across every category; the app shows the top few
+  image: string | null; // photo from the news feed, when it has one
   sources: { name: string; title: string; url: string }[];
 };
 
@@ -18,6 +20,7 @@ export type Brick = {
 // and Zod double-checks it before we use it.
 const BrickSchema = z.object({
   sourceIds: z.array(z.number().int()).describe("IDs of every item that covers this story"),
+  importance: z.number().int().describe("1 to 10, using the shared importance scale"),
   headline: z.string().describe("At most 10 words"),
   summary: z.string().describe("2 to 3 short sentences, 5th grade reading level, at most 45 words"),
   whyItMatters: z.string().describe("One sentence starting with 'You' or 'Your'"),
@@ -39,15 +42,25 @@ Rules:
 - When several items cover the same story, merge them into ONE brick and list all their IDs in sourceIds.
 - keyTerms: define 0 to 3 terms a 5th grader might not know (for example "filibuster", "continuing resolution"). Definitions are one short sentence.
 - disagreement: only when items state conflicting facts or meaningfully different accounts. Say what differs and who says what. Otherwise null.
-- whyItMatters: connect the story to the reader's life concretely (money, school, jobs, rights, Missouri). If the link is indirect, say so honestly instead of exaggerating. For sports, say what it means for the team's season or its fans instead.`;
+- whyItMatters: connect the story to the reader's life concretely (money, school, jobs, rights, Missouri). If the link is indirect, say so honestly instead of exaggerating. For sports, say what it means for the team's season or its fans instead.
 
-// The free tier is sometimes busy (HTTP 503) or rate-limited (429): retry each model
-// once after 10s, then move on to the next model in MODELS.
+Importance scale. The app compares scores from every topic (world news, Missouri politics, sports, ...) to pick the reader's 5 stories of the day, so use this one scale, not a ranking within this list:
+- 9-10: history-making or affects most Americans right away (war breaks out, presidential election result, market crash, major Supreme Court ruling).
+- 7-8: big national or world news many people will talk about (major law passes, Fed changes interest rates, big election upsets), or Missouri news that directly changes the reader's taxes, school, or rights.
+- 5-6: notable news: important state or St. Louis government decisions, big business news, a championship or major playoff game.
+- 3-4: ordinary news: routine politics, regular-season games, trades, injuries.
+- 1-2: minor or niche items.`;
+
+// One quick attempt per model (timeout in milliseconds). Retrying is done by moving on
+// to the next model, which is much faster than waiting on a busy one.
 const ai = new GoogleGenAI({
   apiKey: process.env.GEMINI_API_KEY,
-  // timeout is in milliseconds: give up on a request that hangs instead of stalling the job.
-  httpOptions: { timeout: 90_000, retryOptions: { attempts: 2, initialDelay: 10 } },
+  httpOptions: { timeout: 60_000, retryOptions: { attempts: 1 } },
 });
+
+// Models in the order to try. Whichever answers moves to the front, so the rest of the
+// run skips models that are busy today.
+const modelOrder = [...MODELS];
 
 // Which model actually wrote today's bricks (saved in latest.json).
 export const modelsUsed = new Set<string>();
@@ -60,14 +73,14 @@ export async function writeBricks(category: Category, items: FeedItem[]): Promis
   const prompt = `Category: ${category.title}
 What belongs here: ${category.focus}
 
-Pick the ${category.bricks} most important stories for this category, ranked most important first. Importance = how much it matters to many people, plus how many outlets cover it. Ignore items that don't fit the category. If fewer stories fit, return fewer bricks (even zero) rather than stretching.
+Pick up to ${category.bricks} of the most important stories for this category, most important first. Ignore items that don't fit the category. If fewer stories fit, return fewer bricks (even zero) rather than stretching.
 
 Items:
 ${itemList}`;
 
   let response: GenerateContentResponse | undefined;
   let model = "";
-  for (model of MODELS) {
+  for (model of [...modelOrder]) {
     try {
       response = await ai.models.generateContent({
         model,
@@ -78,6 +91,8 @@ ${itemList}`;
           responseJsonSchema: z.toJSONSchema(ResponseSchema),
         },
       });
+      modelOrder.splice(modelOrder.indexOf(model), 1);
+      modelOrder.unshift(model);
       break;
     } catch (err) {
       // Busy, rate-limited, timed out, or model retired: try the next one.
@@ -104,12 +119,16 @@ ${itemList}`;
 
   return parsed.bricks
     .map((b, i) => {
-      // Links come from the feeds, never from the AI, so they can't be made up.
-      const sources = [...new Set(b.sourceIds)]
-        .filter((id) => id >= 0 && id < items.length)
-        .map((id) => ({ name: items[id].source, title: items[id].title, url: items[id].url }));
-      const { sourceIds, ...text } = b;
-      return { id: `${category.id}-${i}`, ...text, sources };
+      // Links and images come from the feeds, never from the AI, so they can't be made up.
+      const used = [...new Set(b.sourceIds)].filter((id) => id >= 0 && id < items.length).map((id) => items[id]);
+      const { sourceIds, importance, ...text } = b;
+      return {
+        id: `${category.id}-${i}`,
+        ...text,
+        importance: Math.min(10, Math.max(1, importance)),
+        image: used.find((item) => item.image)?.image ?? null,
+        sources: used.map((item) => ({ name: item.source, title: item.title, url: item.url })),
+      };
     })
     .filter((brick) => brick.sources.length > 0)
     .slice(0, category.bricks);
@@ -126,6 +145,8 @@ export function placeholderBricks(category: Category, items: FeedItem[]): Brick[
     explainer: "[Dry run: the AI writes this explanation in a real run.]",
     keyTerms: [],
     disagreement: null,
+    importance: 5 - i,
+    image: item.image ?? null,
     sources: [{ name: item.source, title: item.title, url: item.url }],
   }));
 }

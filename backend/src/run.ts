@@ -25,20 +25,34 @@ const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
 
 const output: { id: string; title: string; bricks: Brick[] }[] = [];
 
-for (const [i, category] of categories.entries()) {
+async function runCategory(category: (typeof CATEGORIES)[number]): Promise<boolean> {
   console.log(`\n${category.title}`);
   try {
     // Newest 60 items is plenty to pick from and keeps each AI request small.
     const items = (await fetchCategory(category.sources, category.maxAgeHours)).slice(0, 60);
     if (items.length === 0) throw new Error("no recent items from any source");
-    if (!dryRun && i > 0) await sleep(PAUSE_MS);
+    if (!dryRun) await sleep(PAUSE_MS);
     const bricks = dryRun ? placeholderBricks(category, items) : await writeBricks(category, items);
-    console.log(`  -> ${bricks.length} bricks`);
+    console.log(`  -> ${bricks.length} bricks (${bricks.filter((b) => b.image).length} with images)`);
     output.push({ id: category.id, title: category.title, bricks });
+    return true;
   } catch (err) {
     console.error(`  FAILED: ${err instanceof Error ? err.message : err}`);
+    return false;
   }
 }
+
+const failed: typeof categories = [];
+for (const category of categories) {
+  if (!(await runCategory(category))) failed.push(category);
+}
+// Busy spells on the free tier usually pass in a minute, so give failures one more try.
+if (failed.length && !dryRun) {
+  console.log(`\nRetrying ${failed.length} failed categories in 30s...`);
+  await sleep(30_000);
+  for (const category of failed) await runCategory(category);
+}
+output.sort((a, b) => CATEGORIES.findIndex((c) => c.id === a.id) - CATEGORIES.findIndex((c) => c.id === b.id));
 
 // Don't overwrite yesterday's good file with an empty one. (exitCode instead of
 // process.exit() lets Node close network handles cleanly, avoiding a crash on Windows.)
@@ -49,7 +63,7 @@ if (output.every((c) => c.bricks.length === 0)) {
   // A partial test run must never replace the full edition.
   for (const c of output) {
     console.log(`\n== ${c.title}`);
-    for (const b of c.bricks) console.log(`- ${b.headline} [${b.sources.map((s) => s.name).join(", ")}]`);
+    for (const b of c.bricks) console.log(`- [${b.importance}] ${b.headline}${b.image ? " (photo)" : ""}`);
   }
   console.log("\n(--only test run: nothing saved)");
 } else {

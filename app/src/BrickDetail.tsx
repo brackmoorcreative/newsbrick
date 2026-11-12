@@ -1,5 +1,7 @@
 import { Linking, Modal, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
+import { SourceLogo } from './SourceLine';
+import { StoryImage } from './StoryImage';
 import type { Brick } from './types';
 import { fonts, useStyles, type Palette } from './theme';
 
@@ -24,6 +26,7 @@ export function BrickDetail({ brick, onClose }: Props) {
         </View>
         {brick && (
           <ScrollView contentContainerStyle={styles.content} showsVerticalScrollIndicator={false}>
+            <StoryImage uri={brick.image} style={styles.image} />
             <Text style={styles.headline}>{brick.headline}</Text>
             <Text style={styles.summary}>{brick.summary}</Text>
 
@@ -62,7 +65,10 @@ export function BrickDetail({ brick, onClose }: Props) {
                 accessibilityRole="link"
                 style={({ pressed }) => [styles.source, { opacity: pressed ? 0.6 : 1 }]}
               >
-                <Text style={styles.sourceName}>{s.name}</Text>
+                <View style={styles.sourceHead}>
+                  <SourceLogo url={s.url} size={16} />
+                  <Text style={styles.sourceName}>{s.name}</Text>
+                </View>
                 <Text style={styles.sourceTitle}>{s.title} ↗</Text>
               </Pressable>
             ))}
@@ -105,6 +111,8 @@ const makeStyles = (c: Palette) =>
       paddingVertical: 12,
       gap: 4,
     },
+    sourceHead: { flexDirection: 'row', alignItems: 'center', gap: 6 },
     sourceName: { fontFamily: fonts.labelMedium, fontSize: 14, color: c.muted },
+    image: { marginBottom: 16 },
     sourceTitle: { fontFamily: fonts.body, fontSize: 18, lineHeight: 25, color: c.link },
   });

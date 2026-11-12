@@ -8,6 +8,8 @@ export type Brick = {
   explainer: string;
   keyTerms: { term: string; definition: string }[];
   disagreement: string | null;
+  importance?: number; // 1-10, same scale across topics (missing in editions before Nov 12, 2026)
+  image?: string | null; // photo from the news feed
   sources: { name: string; title: string; url: string }[];
 };
 

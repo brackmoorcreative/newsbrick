@@ -30,24 +30,35 @@ import { WelcomeScreen } from './src/WelcomeScreen';
 type BrickItem = { kind: 'brick'; brick: Brick; section: string };
 type Page = BrickItem | { kind: 'done' };
 
-// The followed topics, in Settings order, each capped at `perTopic` stories.
-function buildDeck(data: DailyBricks | null, topics: string[], perTopic: number): BrickItem[] {
+// The day's `perDay` most important stories across every followed topic, most important
+// first. Ties go to the topic listed first in Settings.
+function buildDeck(data: DailyBricks | null, topics: string[], perDay: number): BrickItem[] {
   if (!data) return [];
-  const byId = new Map(data.categories.map((c) => [LEGACY_IDS[c.id] ?? c.id, c]));
+  const candidates: (BrickItem & { score: number; order: number })[] = [];
+  for (const category of data.categories) {
+    const id = LEGACY_IDS[category.id] ?? category.id;
+    if (!topics.includes(id)) continue;
+    category.bricks.forEach((brick, i) =>
+      candidates.push({
+        kind: 'brick',
+        brick,
+        section: category.title,
+        // Editions before importance scores existed: keep each topic's own ranking.
+        score: brick.importance ?? 5 - i,
+        order: TOPIC_ORDER.indexOf(id) * 100 + i,
+      }),
+    );
+  }
+  candidates.sort((a, b) => b.score - a.score || a.order - b.order);
+
   const seen = new Set<string>(); // article links already shown
   const deck: BrickItem[] = [];
-  for (const id of TOPIC_ORDER) {
-    const category = byId.get(id);
-    if (!topics.includes(id) || !category) continue;
-    let count = 0;
-    for (const brick of category.bricks) {
-      if (count >= perTopic) break;
-      // The same story can appear under two topics (e.g. Top stories and Politics): show it once.
-      if (brick.sources.some((s) => seen.has(s.url))) continue;
-      brick.sources.forEach((s) => seen.add(s.url));
-      deck.push({ kind: 'brick', brick, section: category.title });
-      count++;
-    }
+  for (const { kind, brick, section } of candidates) {
+    if (deck.length >= perDay) break;
+    // The same story can appear under two topics (e.g. Top stories and Politics): show it once.
+    if (brick.sources.some((s) => seen.has(s.url))) continue;
+    brick.sources.forEach((s) => seen.add(s.url));
+    deck.push({ kind, brick, section });
   }
   return deck;
 }
@@ -69,15 +80,15 @@ function BrickDeck({ account, onSignOut }: { account: Account; onSignOut: () => 
   const [sheet, setSheet] = useState<'calendar' | 'settings' | null>(null);
   const listRef = useRef<FlatList<Page>>(null);
 
-  const { topics, perTopic } = usePrefs();
+  const { topics, perDay } = usePrefs();
 
-  const bricks = buildDeck(data, topics, perTopic);
+  const bricks = buildDeck(data, topics, perDay);
   const pages: Page[] = bricks.length ? [...bricks, { kind: 'done' }] : [];
   const current = pages[index];
   const readCount = bricks.filter((b) => readIds.has(b.brick.id)).length;
 
   // Switching days or changing topics starts the deck from its first story.
-  const deckKey = `${data?.date}|${topics.join(',')}|${perTopic}`;
+  const deckKey = `${data?.date}|${topics.join(',')}|${perDay}`;
   useEffect(() => setIndex(0), [deckKey]);
 
   // Seeing a brick counts as reading it.

@@ -94,5 +94,6 @@ export const DEFAULT_TOPICS = [
 // Editions saved before topics existed used this id for US politics.
 export const LEGACY_IDS: Record<string, string> = { 'us-politics': 'politics-us' };
 
-export const STORIES_PER_TOPIC = [2, 3, 5] as const;
-export type StoriesPerTopic = (typeof STORIES_PER_TOPIC)[number];
+// How many of the most important stories (across all followed topics) to show each day.
+export const STORIES_PER_DAY = [3, 5, 10] as const;
+export type StoriesPerDay = (typeof STORIES_PER_DAY)[number];

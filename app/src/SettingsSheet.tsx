@@ -1,7 +1,7 @@
 import { Modal, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { usePrefs } from './prefs';
-import { STORIES_PER_TOPIC, TOPIC_GROUPS } from './topics';
+import { STORIES_PER_DAY, TOPIC_GROUPS } from './topics';
 import type { Account } from './useAccount';
 import { fonts, useStyles, useTheme, type Appearance, type Palette } from './theme';
 
@@ -22,7 +22,7 @@ const APPEARANCES: { value: Appearance; label: string }[] = [
 export function SettingsSheet({ visible, account, streak, onSignOut, onClose }: Props) {
   const styles = useStyles(makeStyles);
   const { appearance, setAppearance } = useTheme();
-  const { topics, toggleTopic, perTopic, setPerTopic } = usePrefs();
+  const { topics, toggleTopic, perDay, setPerDay } = usePrefs();
   const who =
     account.provider === 'preview'
       ? 'No account. Your streak and settings are saved on this phone.'
@@ -40,7 +40,10 @@ export function SettingsSheet({ visible, account, streak, onSignOut, onClose }: 
 
         <ScrollView contentContainerStyle={styles.content} showsVerticalScrollIndicator={false}>
           <Text style={styles.label}>Your topics</Text>
-          <Text style={styles.hint}>Tap to follow or unfollow. New picks show up right away.</Text>
+          <Text style={styles.hint}>
+            Each day you get the most important stories from everything you follow, so a quiet
+            topic may not show up every day.
+          </Text>
           {TOPIC_GROUPS.map((group) => (
             <View key={group.title} style={styles.group}>
               <Text style={styles.groupTitle}>{group.title}</Text>
@@ -72,19 +75,19 @@ export function SettingsSheet({ visible, account, streak, onSignOut, onClose }: 
             </View>
           ))}
 
-          <Text style={styles.label}>Stories per topic</Text>
+          <Text style={styles.label}>Stories per day</Text>
           <View style={styles.segmented}>
-            {STORIES_PER_TOPIC.map((n) => {
-              const on = n === perTopic;
+            {STORIES_PER_DAY.map((n) => {
+              const on = n === perDay;
               return (
                 <Pressable
                   key={n}
-                  onPress={() => setPerTopic(n)}
+                  onPress={() => setPerDay(n)}
                   accessibilityRole="button"
                   accessibilityState={{ selected: on }}
                   style={[styles.segment, on && styles.segmentOn]}
                 >
-                  <Text style={[styles.segmentText, on && styles.segmentTextOn]}>Up to {n}</Text>
+                  <Text style={[styles.segmentText, on && styles.segmentTextOn]}>{n} stories</Text>
                 </Pressable>
               );
             })}
