@@ -16,16 +16,44 @@ import { BrickDetail } from './src/BrickDetail';
 import { BrickPage } from './src/BrickPage';
 import { CalendarSheet } from './src/CalendarSheet';
 import { formatDate, toDateKey } from './src/dates';
+import { PrefsProvider, usePrefs } from './src/prefs';
 import { SettingsSheet } from './src/SettingsSheet';
 import { fonts, ThemeProvider, useAppFonts, useStyles, useTheme, type Palette } from './src/theme';
-import type { Brick } from './src/types';
+import { LEGACY_IDS, TOPIC_ORDER } from './src/topics';
+import type { Brick, DailyBricks } from './src/types';
 import { useAccount, type Account } from './src/useAccount';
 import { useBricks, useEditionDates } from './src/useBricks';
 import { useStreak } from './src/useStreak';
 import { WelcomeScreen } from './src/WelcomeScreen';
 
 // Each page in the deck is a brick, plus a final "all caught up" page.
-type Page = { kind: 'brick'; brick: Brick; section: string } | { kind: 'done' };
+type BrickItem = { kind: 'brick'; brick: Brick; section: string };
+type Page = BrickItem | { kind: 'done' };
+
+// The followed topics, in Settings order, each capped at `perTopic` stories.
+function buildDeck(data: DailyBricks | null, topics: string[], perTopic: number): BrickItem[] {
+  if (!data) return [];
+  const byId = new Map(data.categories.map((c) => [LEGACY_IDS[c.id] ?? c.id, c]));
+  const seen = new Set<string>(); // article links already shown
+  const deck: BrickItem[] = [];
+  for (const id of TOPIC_ORDER) {
+    const category = byId.get(id);
+    if (!topics.includes(id) || !category) continue;
+    let count = 0;
+    for (const brick of category.bricks) {
+      if (count >= perTopic) break;
+      // The same story can appear under two topics (e.g. Top stories and Politics): show it once.
+      if (brick.sources.some((s) => seen.has(s.url))) continue;
+      brick.sources.forEach((s) => seen.add(s.url));
+      deck.push({ kind: 'brick', brick, section: category.title });
+      count++;
+    }
+  }
+  return deck;
+}
+
+// Above this many stories the per-story segments get too thin, so show one bar.
+const MAX_SEGMENTS = 12;
 
 function BrickDeck({ account, onSignOut }: { account: Account; onSignOut: () => void }) {
   const styles = useStyles(makeStyles);
@@ -41,15 +69,16 @@ function BrickDeck({ account, onSignOut }: { account: Account; onSignOut: () => 
   const [sheet, setSheet] = useState<'calendar' | 'settings' | null>(null);
   const listRef = useRef<FlatList<Page>>(null);
 
-  const bricks =
-    data?.categories.flatMap((c) =>
-      c.bricks.map((brick) => ({ kind: 'brick' as const, brick, section: c.title })),
-    ) ?? [];
+  const { topics, perTopic } = usePrefs();
+
+  const bricks = buildDeck(data, topics, perTopic);
   const pages: Page[] = bricks.length ? [...bricks, { kind: 'done' }] : [];
   const current = pages[index];
+  const readCount = bricks.filter((b) => readIds.has(b.brick.id)).length;
 
-  // Switching days starts the new edition from its first story.
-  useEffect(() => setIndex(0), [data?.date]);
+  // Switching days or changing topics starts the deck from its first story.
+  const deckKey = `${data?.date}|${topics.join(',')}|${perTopic}`;
+  useEffect(() => setIndex(0), [deckKey]);
 
   // Seeing a brick counts as reading it.
   useEffect(() => {
@@ -105,14 +134,20 @@ function BrickDeck({ account, onSignOut }: { account: Account; onSignOut: () => 
 
         {bricks.length > 0 && (
           <>
-            <View style={styles.segments}>
-              {bricks.map((b, i) => (
-                <View
-                  key={b.brick.id}
-                  style={[styles.segment, (readIds.has(b.brick.id) || i === index) && styles.segmentOn]}
-                />
-              ))}
-            </View>
+            {bricks.length <= MAX_SEGMENTS ? (
+              <View style={styles.segments}>
+                {bricks.map((b, i) => (
+                  <View
+                    key={b.brick.id}
+                    style={[styles.segment, (readIds.has(b.brick.id) || i === index) && styles.segmentOn]}
+                  />
+                ))}
+              </View>
+            ) : (
+              <View style={[styles.segments, styles.segment]}>
+                <View style={[styles.segmentOn, styles.fill, { width: `${(readCount / bricks.length) * 100}%` }]} />
+              </View>
+            )}
             <Text style={styles.counter}>
               {current?.kind === 'done' ? 'All caught up' : `Story ${index + 1} of ${bricks.length}`}
             </Text>
@@ -122,9 +157,21 @@ function BrickDeck({ account, onSignOut }: { account: Account; onSignOut: () => 
 
       {error && !data && <Text style={styles.message}>{error}</Text>}
       {!data && !error && <Text style={styles.message}>Loading stories…</Text>}
+      {data && bricks.length === 0 && (
+        <View style={styles.empty}>
+          <Text style={styles.message}>
+            {topics.length === 0
+              ? 'You aren’t following any topics yet.'
+              : 'No stories for your topics in this edition.'}
+          </Text>
+          <Pressable onPress={() => setSheet('settings')} accessibilityRole="button" style={styles.nextButton}>
+            <Text style={styles.nextText}>Choose topics</Text>
+          </Pressable>
+        </View>
+      )}
 
       <FlatList
-        key={data?.date} // fresh deck per day
+        key={deckKey} // fresh deck per day and per topic choice
         ref={listRef}
         data={pages}
         horizontal
@@ -229,7 +276,9 @@ export default function App() {
   return (
     <SafeAreaProvider>
       <ThemeProvider>
-        <Root />
+        <PrefsProvider>
+          <Root />
+        </PrefsProvider>
       </ThemeProvider>
     </SafeAreaProvider>
   );
@@ -271,6 +320,8 @@ const makeStyles = (c: Palette) =>
     segments: { flexDirection: 'row', gap: 4, marginTop: 14 },
     segment: { flex: 1, height: 4, borderRadius: 2, backgroundColor: c.hairline },
     segmentOn: { backgroundColor: c.text },
+    fill: { height: 4, borderRadius: 2 },
+    empty: { alignItems: 'center', gap: 4 },
     counter: {
       fontFamily: fonts.labelMedium,
       fontSize: 13,

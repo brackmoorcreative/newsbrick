@@ -39,13 +39,14 @@ Rules:
 - When several items cover the same story, merge them into ONE brick and list all their IDs in sourceIds.
 - keyTerms: define 0 to 3 terms a 5th grader might not know (for example "filibuster", "continuing resolution"). Definitions are one short sentence.
 - disagreement: only when items state conflicting facts or meaningfully different accounts. Say what differs and who says what. Otherwise null.
-- whyItMatters: connect the story to the reader's life concretely (money, school, jobs, rights, Missouri). If the link is indirect, say so honestly instead of exaggerating.`;
+- whyItMatters: connect the story to the reader's life concretely (money, school, jobs, rights, Missouri). If the link is indirect, say so honestly instead of exaggerating. For sports, say what it means for the team's season or its fans instead.`;
 
 // The free tier is sometimes busy (HTTP 503) or rate-limited (429): retry each model
 // once after 10s, then move on to the next model in MODELS.
 const ai = new GoogleGenAI({
   apiKey: process.env.GEMINI_API_KEY,
-  httpOptions: { retryOptions: { attempts: 2, initialDelay: 10 } },
+  // timeout is in milliseconds: give up on a request that hangs instead of stalling the job.
+  httpOptions: { timeout: 90_000, retryOptions: { attempts: 2, initialDelay: 10 } },
 });
 
 // Which model actually wrote today's bricks (saved in latest.json).
@@ -59,7 +60,7 @@ export async function writeBricks(category: Category, items: FeedItem[]): Promis
   const prompt = `Category: ${category.title}
 What belongs here: ${category.focus}
 
-Pick the ${category.bricks} most important stories for this category, ranked most important first. Importance = how much it affects many Americans, plus how many outlets cover it. Ignore items that don't fit the category.
+Pick the ${category.bricks} most important stories for this category, ranked most important first. Importance = how much it matters to many people, plus how many outlets cover it. Ignore items that don't fit the category. If fewer stories fit, return fewer bricks (even zero) rather than stretching.
 
 Items:
 ${itemList}`;
@@ -79,8 +80,9 @@ ${itemList}`;
       });
       break;
     } catch (err) {
-      // Busy, rate-limited, or model retired: try the next one. Anything else is a real bug.
-      if (err instanceof ApiError && [404, 429, 500, 503].includes(err.status)) {
+      // Busy, rate-limited, timed out, or model retired: try the next one.
+      // Anything else is a real bug.
+      if (err instanceof ApiError && [404, 429, 500, 503, 504].includes(err.status)) {
         console.warn(`  ${model}: unavailable (HTTP ${err.status}), trying next model`);
         continue;
       }

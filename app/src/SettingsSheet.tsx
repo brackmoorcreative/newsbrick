@@ -1,5 +1,7 @@
-import { Modal, Pressable, StyleSheet, Text, View } from 'react-native';
+import { Modal, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
+import { usePrefs } from './prefs';
+import { STORIES_PER_TOPIC, TOPIC_GROUPS } from './topics';
 import type { Account } from './useAccount';
 import { fonts, useStyles, useTheme, type Appearance, type Palette } from './theme';
 
@@ -20,6 +22,7 @@ const APPEARANCES: { value: Appearance; label: string }[] = [
 export function SettingsSheet({ visible, account, streak, onSignOut, onClose }: Props) {
   const styles = useStyles(makeStyles);
   const { appearance, setAppearance } = useTheme();
+  const { topics, toggleTopic, perTopic, setPerTopic } = usePrefs();
   const who =
     account.provider === 'preview'
       ? 'No account. Your streak and settings are saved on this phone.'
@@ -35,40 +38,93 @@ export function SettingsSheet({ visible, account, streak, onSignOut, onClose }: 
           </Pressable>
         </View>
 
-        <Text style={styles.label}>Appearance</Text>
-        <View style={styles.segmented}>
-          {APPEARANCES.map((a) => {
-            const on = a.value === appearance;
-            return (
-              <Pressable
-                key={a.value}
-                onPress={() => setAppearance(a.value)}
-                accessibilityRole="button"
-                accessibilityState={{ selected: on }}
-                style={[styles.segment, on && styles.segmentOn]}
-              >
-                <Text style={[styles.segmentText, on && styles.segmentTextOn]}>{a.label}</Text>
-              </Pressable>
-            );
-          })}
-        </View>
+        <ScrollView contentContainerStyle={styles.content} showsVerticalScrollIndicator={false}>
+          <Text style={styles.label}>Your topics</Text>
+          <Text style={styles.hint}>Tap to follow or unfollow. New picks show up right away.</Text>
+          {TOPIC_GROUPS.map((group) => (
+            <View key={group.title} style={styles.group}>
+              <Text style={styles.groupTitle}>{group.title}</Text>
+              {group.sections.map((section) => (
+                <View key={section.label ?? group.title}>
+                  {section.label && <Text style={styles.sectionLabel}>{section.label}</Text>}
+                  <View style={styles.chips}>
+                    {section.topics.map((t) => {
+                      const on = topics.includes(t.id);
+                      return (
+                        <Pressable
+                          key={t.id}
+                          onPress={() => toggleTopic(t.id)}
+                          accessibilityRole="checkbox"
+                          accessibilityState={{ checked: on }}
+                          accessibilityLabel={`${group.title}: ${t.label}`}
+                          style={[styles.chip, on && styles.chipOn]}
+                        >
+                          <Text style={[styles.chipText, on && styles.chipTextOn]}>
+                            {on ? '✓ ' : ''}
+                            {t.label}
+                          </Text>
+                        </Pressable>
+                      );
+                    })}
+                  </View>
+                </View>
+              ))}
+            </View>
+          ))}
 
-        {streak && (
-          <>
-            <Text style={styles.label}>Reading streak</Text>
-            <Text style={styles.body}>
-              {streak.count} {streak.count === 1 ? 'day' : 'days'} in a row · Best: {streak.best}
+          <Text style={styles.label}>Stories per topic</Text>
+          <View style={styles.segmented}>
+            {STORIES_PER_TOPIC.map((n) => {
+              const on = n === perTopic;
+              return (
+                <Pressable
+                  key={n}
+                  onPress={() => setPerTopic(n)}
+                  accessibilityRole="button"
+                  accessibilityState={{ selected: on }}
+                  style={[styles.segment, on && styles.segmentOn]}
+                >
+                  <Text style={[styles.segmentText, on && styles.segmentTextOn]}>Up to {n}</Text>
+                </Pressable>
+              );
+            })}
+          </View>
+
+          <Text style={styles.label}>Appearance</Text>
+          <View style={styles.segmented}>
+            {APPEARANCES.map((a) => {
+              const on = a.value === appearance;
+              return (
+                <Pressable
+                  key={a.value}
+                  onPress={() => setAppearance(a.value)}
+                  accessibilityRole="button"
+                  accessibilityState={{ selected: on }}
+                  style={[styles.segment, on && styles.segmentOn]}
+                >
+                  <Text style={[styles.segmentText, on && styles.segmentTextOn]}>{a.label}</Text>
+                </Pressable>
+              );
+            })}
+          </View>
+
+          {streak && (
+            <>
+              <Text style={styles.label}>Reading streak</Text>
+              <Text style={styles.body}>
+                {streak.count} {streak.count === 1 ? 'day' : 'days'} in a row · Best: {streak.best}
+              </Text>
+            </>
+          )}
+
+          <Text style={styles.label}>Account</Text>
+          <Text style={styles.body}>{who}</Text>
+          <Pressable onPress={onSignOut} accessibilityRole="button" style={styles.signOut}>
+            <Text style={styles.signOutText}>
+              {account.provider === 'preview' ? 'Back to welcome screen' : 'Sign out'}
             </Text>
-          </>
-        )}
-
-        <Text style={styles.label}>Account</Text>
-        <Text style={styles.body}>{who}</Text>
-        <Pressable onPress={onSignOut} accessibilityRole="button" style={styles.signOut}>
-          <Text style={styles.signOutText}>
-            {account.provider === 'preview' ? 'Back to welcome screen' : 'Sign out'}
-          </Text>
-        </Pressable>
+          </Pressable>
+        </ScrollView>
       </SafeAreaView>
     </Modal>
   );
@@ -76,16 +132,41 @@ export function SettingsSheet({ visible, account, streak, onSignOut, onClose }: 
 
 const makeStyles = (c: Palette) =>
   StyleSheet.create({
-    sheet: { flex: 1, backgroundColor: c.background, paddingHorizontal: 20 },
+    sheet: { flex: 1, backgroundColor: c.background },
     topBar: {
       flexDirection: 'row',
       justifyContent: 'space-between',
       alignItems: 'center',
       paddingVertical: 16,
+      paddingHorizontal: 20,
     },
     heading: { fontFamily: fonts.headline, fontSize: 24, color: c.text },
     done: { fontFamily: fonts.label, fontSize: 17, color: c.link },
+    content: { paddingHorizontal: 20, paddingBottom: 48 },
     label: { fontFamily: fonts.label, fontSize: 14, color: c.muted, marginTop: 28, marginBottom: 10 },
+    hint: { fontFamily: fonts.body, fontSize: 15, lineHeight: 22, color: c.muted, marginTop: -4 },
+    group: { marginTop: 18 },
+    groupTitle: { fontFamily: fonts.headline, fontSize: 19, color: c.text, marginBottom: 10 },
+    sectionLabel: {
+      fontFamily: fonts.labelMedium,
+      fontSize: 13,
+      color: c.muted,
+      textTransform: 'uppercase',
+      letterSpacing: 0.5,
+      marginTop: 4,
+      marginBottom: 8,
+    },
+    chips: { flexDirection: 'row', flexWrap: 'wrap', gap: 8, marginBottom: 6 },
+    chip: {
+      borderWidth: 1.5,
+      borderColor: c.hairline,
+      borderRadius: 18,
+      paddingVertical: 8,
+      paddingHorizontal: 14,
+    },
+    chipOn: { backgroundColor: c.text, borderColor: c.text },
+    chipText: { fontFamily: fonts.label, fontSize: 15, lineHeight: 20, color: c.text }, // fixed height so ✓ doesn't make chips taller
+    chipTextOn: { color: c.background },
     segmented: {
       flexDirection: 'row',
       borderWidth: 1.5,

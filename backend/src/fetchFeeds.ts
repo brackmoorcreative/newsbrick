@@ -14,24 +14,62 @@ const parser = new Parser({
   headers: { "User-Agent": "NewsBrick/0.1 (personal news digest; RSS reader)" },
 });
 
-export async function fetchSource(source: Source): Promise<FeedItem[]> {
-  const feed = await parser.parseURL(source.url);
-  const cutoff = Date.now() - MAX_AGE_HOURS * 60 * 60 * 1000;
+// Several categories share a feed (e.g. BBC World), so each URL is downloaded once per run.
+const cache = new Map<string, Promise<FeedItem[]>>();
 
-  return feed.items
-    .map((item) => ({
+function fetchSource(source: Source): Promise<FeedItem[]> {
+  if (!cache.has(source.url)) {
+    cache.set(source.url, source.type === "espn" ? fetchEspn(source) : fetchRss(source));
+  }
+  return cache.get(source.url)!;
+}
+
+async function fetchRss(source: Source): Promise<FeedItem[]> {
+  const feed = await parser.parseURL(source.url);
+  return feed.items.map((item) => ({
+    source: source.name,
+    title: clean(item.title ?? ""),
+    url: item.link ?? "",
+    snippet: clean(item.contentSnippet ?? item.content ?? "").slice(0, 500),
+    publishedAt: new Date(item.isoDate ?? item.pubDate ?? 0),
+  }));
+}
+
+// ESPN's news API returns JSON articles: headline, short description, link, publish date.
+type EspnArticle = {
+  type?: string;
+  headline?: string;
+  description?: string;
+  published?: string;
+  links?: { web?: { href?: string } };
+};
+
+async function fetchEspn(source: Source): Promise<FeedItem[]> {
+  const res = await fetch(source.url, {
+    headers: { "User-Agent": "NewsBrick/0.1" },
+    signal: AbortSignal.timeout(20_000), // never wait forever on one feed
+  });
+  if (!res.ok) throw new Error(`ESPN returned ${res.status}`);
+  const { articles = [] } = (await res.json()) as { articles?: EspnArticle[] };
+  return articles
+    .filter((a) => a.type !== "Media") // video clips only, no written story
+    .map((a) => ({
       source: source.name,
-      title: clean(item.title ?? ""),
-      url: item.link ?? "",
-      snippet: clean(item.contentSnippet ?? item.content ?? "").slice(0, 500),
-      publishedAt: new Date(item.isoDate ?? item.pubDate ?? 0),
-    }))
-    .filter((item) => item.title && item.url && item.publishedAt.getTime() >= cutoff);
+      title: clean(a.headline ?? ""),
+      url: a.links?.web?.href ?? "",
+      snippet: clean(a.description ?? "").slice(0, 500),
+      publishedAt: new Date(a.published ?? 0),
+    }));
 }
 
 // Fetch every source in parallel. One broken feed shouldn't sink the whole category.
-export async function fetchCategory(sources: Source[]): Promise<FeedItem[]> {
-  const results = await Promise.allSettled(sources.map(fetchSource));
+export async function fetchCategory(sources: Source[], maxAgeHours = MAX_AGE_HOURS): Promise<FeedItem[]> {
+  const cutoff = Date.now() - maxAgeHours * 60 * 60 * 1000;
+  const results = await Promise.allSettled(
+    sources.map(async (s) =>
+      (await fetchSource(s)).filter((item) => item.title && item.url && item.publishedAt.getTime() >= cutoff),
+    ),
+  );
   const items: FeedItem[] = [];
   results.forEach((result, i) => {
     if (result.status === "fulfilled") {
