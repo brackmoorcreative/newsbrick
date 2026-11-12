@@ -1,17 +1,19 @@
-import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
+import { ScrollView, StyleSheet, Text, View } from 'react-native';
 import type { Brick } from './types';
 import { fonts, useStyles, type Palette } from './theme';
 
-type Props = { brick: Brick; section: string; width: number; onOpen: () => void };
+type Props = { brick: Brick; section: string; width: number; height: number };
 
-// One brick filling the screen: the whole story at a glance, plus a button for more.
-export function BrickPage({ brick, section, width, onOpen }: Props) {
+// One brick filling the screen: the whole story at a glance. (The "Full story" button
+// lives in the bottom bar so it's always visible.) The page gets an exact height so a
+// long story scrolls instead of being cut off.
+export function BrickPage({ brick, section, width, height }: Props) {
   const styles = useStyles(makeStyles);
   // Each outlet once, even if it ran several articles on this story.
   const sourceNames = [...new Set(brick.sources.map((s) => s.name))].join(' · ');
 
   return (
-    <View style={{ width }}>
+    <View style={{ width, height }}>
       <ScrollView contentContainerStyle={styles.content} showsVerticalScrollIndicator={false}>
         <Text style={styles.section}>{section}</Text>
         <Text style={styles.headline}>{brick.headline}</Text>
@@ -23,14 +25,6 @@ export function BrickPage({ brick, section, width, onOpen }: Props) {
         </View>
 
         <Text style={styles.source}>{sourceNames}</Text>
-
-        <Pressable
-          onPress={onOpen}
-          accessibilityRole="button"
-          style={({ pressed }) => [styles.more, { opacity: pressed ? 0.6 : 1 }]}
-        >
-          <Text style={styles.moreText}>Read the full picture ›</Text>
-        </Pressable>
       </ScrollView>
     </View>
   );
@@ -64,13 +58,4 @@ const makeStyles = (c: Palette) =>
     label: { fontFamily: fonts.label, fontSize: 14, color: c.text, marginBottom: 6 },
     boxText: { fontFamily: fonts.body, fontSize: 18, lineHeight: 27, color: c.text },
     source: { fontFamily: fonts.labelMedium, fontSize: 14, color: c.muted, marginTop: 18 },
-    more: {
-      marginTop: 20,
-      paddingVertical: 14,
-      borderWidth: 1.5,
-      borderColor: c.text,
-      borderRadius: 4,
-      alignItems: 'center',
-    },
-    moreText: { fontFamily: fonts.label, fontSize: 16, color: c.text },
   });

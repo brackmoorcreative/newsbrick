@@ -36,6 +36,7 @@ function BrickDeck({ account, onSignOut }: { account: Account; onSignOut: () => 
   const editions = useEditionDates();
   const streak = useStreak();
   const [index, setIndex] = useState(0);
+  const [pageHeight, setPageHeight] = useState(0); // space between header and Back/Next bar
   const [open, setOpen] = useState<Brick | null>(null);
   const [sheet, setSheet] = useState<'calendar' | 'settings' | null>(null);
   const listRef = useRef<FlatList<Page>>(null);
@@ -128,6 +129,8 @@ function BrickDeck({ account, onSignOut }: { account: Account; onSignOut: () => 
         data={pages}
         horizontal
         pagingEnabled
+        style={styles.deck}
+        onLayout={(e) => setPageHeight(e.nativeEvent.layout.height)}
         showsHorizontalScrollIndicator={false}
         onScroll={onScroll}
         scrollEventThrottle={16}
@@ -139,10 +142,10 @@ function BrickDeck({ account, onSignOut }: { account: Account; onSignOut: () => 
               brick={item.brick}
               section={item.section}
               width={width}
-              onOpen={() => setOpen(item.brick)}
+              height={pageHeight}
             />
           ) : (
-            <View style={[styles.done, { width }]}>
+            <View style={[styles.done, { width, height: pageHeight }]}>
               <Text style={styles.doneCheck}>✓</Text>
               <Text style={styles.doneTitle}>You're all caught up.</Text>
               <Text style={styles.doneText}>
@@ -163,6 +166,17 @@ function BrickDeck({ account, onSignOut }: { account: Account; onSignOut: () => 
           <Pressable onPress={() => goTo(index - 1)} disabled={index === 0} accessibilityRole="button" hitSlop={12}>
             <Text style={[styles.navText, index === 0 && styles.navDisabled]}>‹ Back</Text>
           </Pressable>
+          {current?.kind === 'brick' && (
+            // Always on screen, so the full story never depends on scrolling.
+            <Pressable
+              onPress={() => setOpen(current.brick)}
+              accessibilityRole="button"
+              hitSlop={8}
+              style={styles.fullButton}
+            >
+              <Text style={styles.fullText}>Full story</Text>
+            </Pressable>
+          )}
           {current?.kind === 'done' ? (
             <Pressable onPress={() => goTo(0)} accessibilityRole="button" hitSlop={12}>
               <Text style={styles.navText}>Start over</Text>
@@ -265,6 +279,7 @@ const makeStyles = (c: Palette) =>
       textAlign: 'center',
     },
     message: { fontFamily: fonts.body, fontSize: 17, color: c.muted, margin: 24 },
+    deck: { flex: 1 },
     done: { flex: 1, alignItems: 'center', justifyContent: 'center', paddingHorizontal: 32 },
     doneCheck: { fontSize: 48, color: c.text },
     doneTitle: {
@@ -294,10 +309,18 @@ const makeStyles = (c: Palette) =>
     },
     navText: { fontFamily: fonts.label, fontSize: 16, color: c.text },
     navDisabled: { color: c.hairline },
+    fullButton: {
+      borderWidth: 1.5,
+      borderColor: c.text,
+      paddingVertical: 10.5,
+      paddingHorizontal: 18,
+      borderRadius: 4,
+    },
+    fullText: { fontFamily: fonts.label, fontSize: 16, color: c.text },
     nextButton: {
       backgroundColor: c.text,
       paddingVertical: 12,
-      paddingHorizontal: 28,
+      paddingHorizontal: 24,
       borderRadius: 4,
     },
     nextText: { fontFamily: fonts.label, fontSize: 16, color: c.background },
