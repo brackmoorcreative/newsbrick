@@ -1,0 +1,13 @@
+{
+  // NewsBrick's personalization service (Cloudflare Workers free tier).
+  // Deploy: npx wrangler deploy   Secret: npx wrangler secret put GEMINI_API_KEY
+  "name": "newsbrick-personalize",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-10-01",
+  "vars": {
+    // Where the daily stories live (the public GitHub data folder).
+    "DATA_BASE_URL": "https://raw.githubusercontent.com/brackmoorcreative/newsbrick/main/data/",
+    // Only the app (and local previews) may call this service from a browser.
+    "ALLOWED_ORIGINS": "https://brackmoorcreative.github.io,http://localhost:8081,http://localhost:8790"
+  }
+}

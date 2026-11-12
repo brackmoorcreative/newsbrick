@@ -97,3 +97,9 @@ export const LEGACY_IDS: Record<string, string> = { 'us-politics': 'politics-us'
 // How many of the most important stories (across all followed topics) to show each day.
 export const STORIES_PER_DAY = [3, 5, 10] as const;
 export type StoriesPerDay = (typeof STORIES_PER_DAY)[number];
+
+// Which kind of news each topic is ("Politics & government", "Sports", ...), used to keep
+// the day's stories balanced.
+export const TOPIC_GROUP_OF: Record<string, string> = Object.fromEntries(
+  TOPIC_GROUPS.flatMap((g) => g.sections.flatMap((s) => s.topics.map((t) => [t.id, g.title]))),
+);

@@ -1,6 +1,10 @@
-import { Modal, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
+import { useState } from 'react';
+import { Modal, Pressable, ScrollView, StyleSheet, Switch, Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { usePrefs } from './prefs';
+import { useProfile } from './profile';
+import { profileLines, QUESTIONS } from './quiz';
+import { QuizScreen } from './QuizScreen';
 import { STORIES_PER_DAY, TOPIC_GROUPS } from './topics';
 import type { Account } from './useAccount';
 import { fonts, useStyles, useTheme, type Appearance, type Palette } from './theme';
@@ -23,6 +27,9 @@ export function SettingsSheet({ visible, account, streak, onSignOut, onClose }: 
   const styles = useStyles(makeStyles);
   const { appearance, setAppearance } = useTheme();
   const { topics, toggleTopic, perDay, setPerDay } = usePrefs();
+  const profile = useProfile();
+  const [retaking, setRetaking] = useState(false);
+  const answeredCount = profileLines(profile.answers).length;
   const who =
     account.provider === 'preview'
       ? 'No account. Your streak and settings are saved on this phone.'
@@ -30,6 +37,16 @@ export function SettingsSheet({ visible, account, streak, onSignOut, onClose }: 
 
   return (
     <Modal visible={visible} animationType="slide" presentationStyle="pageSheet" onRequestClose={onClose}>
+      {retaking ? (
+        <QuizScreen
+          initial={profile.answers}
+          onDone={(a) => {
+            profile.saveAnswers(a);
+            setRetaking(false);
+          }}
+          onSkip={() => setRetaking(false)}
+        />
+      ) : (
       <SafeAreaView style={styles.sheet} edges={['bottom']}>
         <View style={styles.topBar}>
           <Text style={styles.heading}>Settings</Text>
@@ -39,6 +56,26 @@ export function SettingsSheet({ visible, account, streak, onSignOut, onClose }: 
         </View>
 
         <ScrollView contentContainerStyle={styles.content} showsVerticalScrollIndicator={false}>
+          <Text style={styles.label}>You</Text>
+          <View style={styles.switchRow}>
+            <View style={styles.switchText}>
+              <Text style={styles.body}>Personalize “Why it matters”</Text>
+              <Text style={styles.hint}>
+                {answeredCount
+                  ? `Written for you from ${answeredCount} of ${QUESTIONS.length} quiz answers.`
+                  : 'Take the quiz so each story explains what it means for your life.'}
+              </Text>
+            </View>
+            <Switch
+              value={profile.personalize}
+              onValueChange={profile.setPersonalize}
+              accessibilityLabel="Personalize why it matters"
+            />
+          </View>
+          <Pressable onPress={() => setRetaking(true)} accessibilityRole="button" style={styles.outline}>
+            <Text style={styles.outlineText}>{answeredCount ? 'Edit my answers' : 'Take the quiz'}</Text>
+          </Pressable>
+
           <Text style={styles.label}>Your topics</Text>
           <Text style={styles.hint}>
             Each day you get the most important stories from everything you follow, so a quiet
@@ -129,6 +166,7 @@ export function SettingsSheet({ visible, account, streak, onSignOut, onClose }: 
           </Pressable>
         </ScrollView>
       </SafeAreaView>
+      )}
     </Modal>
   );
 }
@@ -182,6 +220,17 @@ const makeStyles = (c: Palette) =>
     segmentText: { fontFamily: fonts.label, fontSize: 15, color: c.text },
     segmentTextOn: { color: c.background },
     body: { fontFamily: fonts.body, fontSize: 18, lineHeight: 26, color: c.text },
+    switchRow: { flexDirection: 'row', alignItems: 'center', gap: 12 },
+    switchText: { flex: 1, gap: 6 },
+    outline: {
+      marginTop: 14,
+      borderWidth: 1.5,
+      borderColor: c.text,
+      borderRadius: 6,
+      paddingVertical: 12,
+      alignItems: 'center',
+    },
+    outlineText: { fontFamily: fonts.label, fontSize: 16, color: c.text },
     signOut: { marginTop: 14, paddingVertical: 8, alignSelf: 'flex-start' },
     signOutText: { fontFamily: fonts.label, fontSize: 16, color: '#C0392B' },
   });

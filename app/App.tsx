@@ -1,6 +1,6 @@
 import { Ionicons } from '@expo/vector-icons';
 import { StatusBar } from 'expo-status-bar';
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import {
   FlatList,
   Pressable,
@@ -17,24 +17,35 @@ import { BrickPage } from './src/BrickPage';
 import { CalendarSheet } from './src/CalendarSheet';
 import { formatDate, toDateKey } from './src/dates';
 import { PrefsProvider, usePrefs } from './src/prefs';
+import { ProfileProvider, useProfile } from './src/profile';
+import { profileLines } from './src/quiz';
+import { QuizScreen } from './src/QuizScreen';
 import { SettingsSheet } from './src/SettingsSheet';
 import { fonts, ThemeProvider, useAppFonts, useStyles, useTheme, type Palette } from './src/theme';
-import { LEGACY_IDS, TOPIC_ORDER } from './src/topics';
+import { LEGACY_IDS, TOPIC_GROUP_OF, TOPIC_ORDER } from './src/topics';
 import type { Brick, DailyBricks } from './src/types';
 import { useAccount, type Account } from './src/useAccount';
 import { useBricks, useEditionDates } from './src/useBricks';
+import { usePersonalized } from './src/usePersonalized';
 import { useStreak } from './src/useStreak';
 import { WelcomeScreen } from './src/WelcomeScreen';
 
 // Each page in the deck is a brick, plus a final "all caught up" page.
-type BrickItem = { kind: 'brick'; brick: Brick; section: string };
+type BrickItem = { kind: 'brick'; brick: Brick; section: string; personalized?: boolean };
 type Page = BrickItem | { kind: 'done' };
 
-// The day's `perDay` most important stories across every followed topic, most important
-// first. Ties go to the topic listed first in Settings.
+// Each extra story from the same kind of news (politics, sports, ...) counts this much
+// less, so a second politics story has to be clearly more important to beat a sports one.
+const SAME_GROUP_PENALTY = 2;
+
+// The day's `perDay` stories across every followed topic, balanced across kinds of news:
+// 1. the best story from each kind you follow (top stories, politics, economy, sports),
+// 2. remaining spots go by importance, minus SAME_GROUP_PENALTY per story already taken
+//    from that kind. Shown most important first.
 function buildDeck(data: DailyBricks | null, topics: string[], perDay: number): BrickItem[] {
   if (!data) return [];
-  const candidates: (BrickItem & { score: number; order: number })[] = [];
+  type Candidate = BrickItem & { score: number; order: number; group: string };
+  const candidates: Candidate[] = [];
   for (const category of data.categories) {
     const id = LEGACY_IDS[category.id] ?? category.id;
     if (!topics.includes(id)) continue;
@@ -46,21 +57,42 @@ function buildDeck(data: DailyBricks | null, topics: string[], perDay: number): 
         // Editions before importance scores existed: keep each topic's own ranking.
         score: brick.importance ?? 5 - i,
         order: TOPIC_ORDER.indexOf(id) * 100 + i,
+        group: TOPIC_GROUP_OF[id] ?? id,
       }),
     );
   }
   candidates.sort((a, b) => b.score - a.score || a.order - b.order);
 
   const seen = new Set<string>(); // article links already shown
-  const deck: BrickItem[] = [];
-  for (const { kind, brick, section } of candidates) {
-    if (deck.length >= perDay) break;
-    // The same story can appear under two topics (e.g. Top stories and Politics): show it once.
-    if (brick.sources.some((s) => seen.has(s.url))) continue;
-    brick.sources.forEach((s) => seen.add(s.url));
-    deck.push({ kind, brick, section });
+  const perGroup = new Map<string, number>();
+  const picked: Candidate[] = [];
+  // The same story can appear under two topics (e.g. Top stories and Politics): show it once.
+  const isRepeat = (c: Candidate) => c.brick.sources.some((s) => seen.has(s.url));
+  const take = (c: Candidate) => {
+    picked.push(c);
+    c.brick.sources.forEach((s) => seen.add(s.url));
+    perGroup.set(c.group, (perGroup.get(c.group) ?? 0) + 1);
+  };
+
+  // 1. Best story of each kind (candidates are sorted, so the first match is the best).
+  for (const group of [...new Set(candidates.map((c) => c.group))]) {
+    if (picked.length >= perDay) break;
+    const best = candidates.find((c) => c.group === group && !isRepeat(c));
+    if (best) take(best);
   }
-  return deck;
+  // 2. Fill the rest by importance, with the same-kind penalty.
+  while (picked.length < perDay) {
+    const adjusted = (c: Candidate) => c.score - (perGroup.get(c.group) ?? 0) * SAME_GROUP_PENALTY;
+    const next = candidates
+      .filter((c) => !picked.includes(c) && !isRepeat(c))
+      .sort((a, b) => adjusted(b) - adjusted(a) || a.order - b.order)[0];
+    if (!next) break;
+    take(next);
+  }
+
+  return picked
+    .sort((a, b) => b.score - a.score || a.order - b.order)
+    .map(({ kind, brick, section }) => ({ kind, brick, section }));
 }
 
 // Above this many stories the per-story segments get too thin, so show one bar.
@@ -81,8 +113,17 @@ function BrickDeck({ account, onSignOut }: { account: Account; onSignOut: () => 
   const listRef = useRef<FlatList<Page>>(null);
 
   const { topics, perDay } = usePrefs();
+  const { answers, personalize } = useProfile();
+  const profile = useMemo(() => profileLines(answers), [answers]);
 
-  const bricks = buildDeck(data, topics, perDay);
+  // Swap in "Why it matters to you" lines written for this reader, once they arrive.
+  const deck = buildDeck(data, topics, perDay);
+  const personal = usePersonalized(data?.date, deck.map((b) => b.brick.id), profile, personalize);
+  const bricks: BrickItem[] = deck.map((b) =>
+    personal[b.brick.id]
+      ? { ...b, brick: { ...b.brick, whyItMatters: personal[b.brick.id] }, personalized: true }
+      : b,
+  );
   const pages: Page[] = bricks.length ? [...bricks, { kind: 'done' }] : [];
   const current = pages[index];
   const readCount = bricks.filter((b) => readIds.has(b.brick.id)).length;
@@ -201,6 +242,7 @@ function BrickDeck({ account, onSignOut }: { account: Account; onSignOut: () => 
               section={item.section}
               width={width}
               height={pageHeight}
+              personalized={item.personalized}
             />
           ) : (
             <View style={[styles.done, { width, height: pageHeight }]}>
@@ -269,14 +311,23 @@ function BrickDeck({ account, onSignOut }: { account: Account; onSignOut: () => 
   );
 }
 
+// First launch: sign in, then the "get to know you" quiz, then the news.
 function Root() {
   const { scheme } = useTheme();
   const { account, loading, signIn, signOut } = useAccount();
-  if (loading) return null;
+  const profile = useProfile();
+  if (loading || !profile.loaded) return null;
+
+  let screen;
+  if (!account) screen = <WelcomeScreen onSignedIn={signIn} />;
+  else if (profile.quizStatus === null)
+    screen = <QuizScreen initial={profile.answers} onDone={profile.saveAnswers} onSkip={profile.skipQuiz} />;
+  else screen = <BrickDeck account={account} onSignOut={signOut} />;
+
   return (
     <>
       <StatusBar style={scheme === 'dark' ? 'light' : 'dark'} />
-      {account ? <BrickDeck account={account} onSignOut={signOut} /> : <WelcomeScreen onSignedIn={signIn} />}
+      {screen}
     </>
   );
 }
@@ -288,7 +339,9 @@ export default function App() {
     <SafeAreaProvider>
       <ThemeProvider>
         <PrefsProvider>
-          <Root />
+          <ProfileProvider>
+            <Root />
+          </ProfileProvider>
         </PrefsProvider>
       </ThemeProvider>
     </SafeAreaProvider>

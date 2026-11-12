@@ -39,6 +39,8 @@ jobs:
         working-directory: app
         env:
           EXPO_PUBLIC_BRICKS_URL: https://raw.githubusercontent.com/${{ github.repository }}/main/data/latest.json
+          # The personalization service (worker/). Set as a repo variable; empty = feature off.
+          EXPO_PUBLIC_PERSONALIZE_URL: ${{ vars.PERSONALIZE_URL }}
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
         with:

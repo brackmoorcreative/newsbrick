@@ -4,12 +4,12 @@ import { StoryImage } from './StoryImage';
 import type { Brick } from './types';
 import { fonts, useStyles, type Palette } from './theme';
 
-type Props = { brick: Brick; section: string; width: number; height: number };
+type Props = { brick: Brick; section: string; width: number; height: number; personalized?: boolean };
 
 // One brick filling the screen: photo, outlets, and the whole story at a glance. (The
 // "Full story" button lives in the bottom bar so it's always visible.) The page gets an
 // exact height so a long story scrolls instead of being cut off.
-export function BrickPage({ brick, section, width, height }: Props) {
+export function BrickPage({ brick, section, width, height, personalized }: Props) {
   const styles = useStyles(makeStyles);
 
   return (
@@ -24,7 +24,10 @@ export function BrickPage({ brick, section, width, height }: Props) {
         <Text style={styles.summary}>{brick.summary}</Text>
 
         <View style={styles.box}>
-          <Text style={styles.label}>Why it matters to you</Text>
+          <View style={styles.labelRow}>
+            <Text style={styles.label}>Why it matters to you</Text>
+            {personalized && <Text style={styles.tag}>✦ Just for you</Text>}
+          </View>
           <Text style={styles.boxText}>{brick.whyItMatters}</Text>
         </View>
       </ScrollView>
@@ -59,6 +62,8 @@ const makeStyles = (c: Palette) =>
       marginTop: 12,
     },
     box: { backgroundColor: c.box, padding: 16, marginTop: 20, borderRadius: 4 },
-    label: { fontFamily: fonts.label, fontSize: 14, color: c.text, marginBottom: 6 },
+    labelRow: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', marginBottom: 6 },
+    label: { fontFamily: fonts.label, fontSize: 14, color: c.text },
+    tag: { fontFamily: fonts.label, fontSize: 12, color: c.accent },
     boxText: { fontFamily: fonts.body, fontSize: 18, lineHeight: 27, color: c.text },
   });
