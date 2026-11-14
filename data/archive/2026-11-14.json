@@ -1,0 +1,2533 @@
+{
+  "version": 1,
+  "date": "2026-11-14",
+  "generatedAt": "2026-11-14T17:02:55.636Z",
+  "model": "gemini-3.5-flash-lite, gemini-3.1-flash-lite",
+  "categories": [
+    {
+      "id": "top-world",
+      "title": "Top Stories · World",
+      "bricks": [
+        {
+          "id": "top-world-0",
+          "headline": "US Floats Ceding Land for NATO in Ukraine Peace Talks",
+          "summary": "Ukrainian President Zelenskyy says US envoys asked if Kyiv would give up the Donbas region in exchange for NATO membership. The proposal aims to end the ongoing war with Russia. Three people were also reported killed in Russia.",
+          "whyItMatters": "This potential peace deal could permanently change national borders and affect the safety and future of millions of people in Ukraine.",
+          "explainer": "Ukrainian President Volodymyr Zelenskyy revealed that United States officials have suggested a major shift in policy to help end the war with Russia. According to Zelenskyy, US envoys asked for the first time if Kyiv would be willing to cede the contested Donbas region to Moscow in exchange for full NATO membership. Joining the military alliance has been a primary goal for Ukraine as a defense against future Russian aggression. However, giving up sovereign territory is a deeply sensitive issue with massive implications for the country's future and regional stability.",
+          "keyTerms": [
+            {
+              "term": "NATO",
+              "definition": "An alliance of North American and European countries that agree to protect each other if attacked."
+            },
+            {
+              "term": "Donbas",
+              "definition": "An industrial region in eastern Ukraine that has been heavily contested during the war."
+            }
+          ],
+          "disagreement": null,
+          "importance": 9,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d028/live/47c10ab0-e013-11f1-b441-2b33b063138f.jpg",
+          "sources": [
+            {
+              "name": "BBC News",
+              "title": "US has floated Ukraine ceding Donbas for Nato membership, Zelensky says",
+              "url": "https://www.bbc.co.uk/news/articles/cwvg2l312ylqo?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "Al Jazeera",
+              "title": "Three killed in Russia as Ukraine claims US floated NATO membership option",
+              "url": "https://www.aljazeera.com/news/2026/11/14/three-killed-in-russia-as-ukraine-claims-us-floated-nato-membership-option?traffic_source=rss"
+            },
+            {
+              "name": "DW",
+              "title": "Ukraine: Zelenskyy says security deal could go to referendum",
+              "url": "https://www.dw.com/en/ukraine-zelenskyy-says-security-deal-could-go-to-referendum/a-79947535?maca=en-rss-en-world-4025-rdf"
+            }
+          ]
+        },
+        {
+          "id": "top-world-1",
+          "headline": "US, Russia, and China Plan Historic Meeting",
+          "summary": "The White House announced that the leaders of the US, Russia, and China plan to hold an unprecedented joint meeting in China. The talks will focus on reducing nuclear weapons and addressing international conflicts.",
+          "whyItMatters": "Discussions between the world's most powerful nuclear-armed nations directly impact global safety and international security.",
+          "explainer": "The White House announced that leaders from the United States, Russia, and China are planning an unprecedented trilateral meeting in China next week. According to a spokeswoman, US President Trump, Russian President Putin, and Chinese leader Xi Jinping will discuss major global security issues, including the reduction of nuclear weapons. The historic summit brings together three global superpowers whose diplomatic relations are critical to world peace and economic stability.",
+          "keyTerms": [
+            {
+              "term": "Trilateral",
+              "definition": "Involving three countries or parties."
+            }
+          ],
+          "disagreement": null,
+          "importance": 9,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/172e/live/be162960-dfc9-11f1-81be-1f9bcd2a4214.jpg",
+          "sources": [
+            {
+              "name": "BBC News",
+              "title": "Trump, Putin and Xi plan historic joint meeting in China next week, White House says",
+              "url": "https://www.bbc.co.uk/news/articles/ckz74jzpy18do?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "Al Jazeera",
+              "title": "Trump-Xi-Putin trilateral meeting at APEC: What to expect",
+              "url": "https://www.aljazeera.com/news/2026/11/14/trump-xi-putin-trilateral-meeting-at-apec-what-to-expect?traffic_source=rss"
+            }
+          ]
+        },
+        {
+          "id": "top-world-2",
+          "headline": "Italy Fines Meta Over User Photo Privacy",
+          "summary": "Italy's data regulator has fined tech giant Meta hundreds of millions of dollars. The company was accused of failing to properly inform about 20 million users that it accessed their personal photos.",
+          "whyItMatters": "This ruling impacts how major technology companies handle personal data and protects user privacy rights.",
+          "explainer": "Italy's data protection regulator has issued a massive fine against Meta, the parent company of Facebook and Instagram. The penalty, ranging between 805 million and 880 million euros, stems from accusations that Meta failed to inform roughly 20 million users about how it accessed their photos. Regulators pointed to a lack of cooperation from the tech giant and the sheer number of affected citizens as reasons for the record-high penalty.",
+          "keyTerms": [],
+          "disagreement": null,
+          "importance": 8,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d6be/live/f51842e0-e041-11f1-88e1-eb4e155225b3.jpg",
+          "sources": [
+            {
+              "name": "BBC News",
+              "title": "Italy fines Meta €805m over accessing users' photos",
+              "url": "https://www.bbc.co.uk/news/articles/cwn83gxemk35o?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "Al Jazeera",
+              "title": "Italy fines Meta $880m over photo privacy",
+              "url": "https://www.aljazeera.com/news/2026/11/14/italy-fines-meta-880m-over-photo-privacy?traffic_source=rss"
+            }
+          ]
+        },
+        {
+          "id": "top-world-3",
+          "headline": "US Air Travel Slows After Major Ground Stop",
+          "summary": "Thousands of flights were delayed or canceled across the United States after a nationwide Federal Aviation Administration ground stop. Officials blamed an aging air control system rather than a cyber-attack, causing international travel delays as well.",
+          "whyItMatters": "Flight ground stops disrupt travel plans for hundreds of thousands of people and highlight vulnerabilities in critical national infrastructure.",
+          "explainer": "Air travel across the United States suffered widespread chaos after the Federal Aviation Administration (FAA) ordered a four-hour nationwide ground stop. The emergency halt to departures grounded thousands of flights and caused heavy knock-on delays internationally, including flights bound for the US from Australia. US officials confirmed that the massive travel disruption was caused by an aging air traffic control system overloading rather than a malicious cyber-attack.",
+          "keyTerms": [],
+          "disagreement": null,
+          "importance": 8,
+          "image": "https://i.guim.co.uk/img/media/6934b82431c8fab49bd4a56b9baaca81b07d75ae/0_0_3333_2667/master/3333.jpg?width=140&quality=85&auto=format&fit=max&s=b2b556b1036b2ad108c6ca8de27291e7",
+          "sources": [
+            {
+              "name": "The Guardian",
+              "title": "US air travel slowly recovers from nationwide flight ground stop as chaos continues",
+              "url": "https://www.theguardian.com/world/2026/nov/14/faa-ground-stop-flights-resume-airport-chaos"
+            },
+            {
+              "name": "BBC News",
+              "title": "What we know about the ground stop and what to do if you're affected",
+              "url": "https://www.bbc.co.uk/news/articles/cqx2wyvyr3zzo?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "The Guardian",
+              "title": "US-bound flights out of Australia delayed after telecommunications outage grounded American planes",
+              "url": "https://www.theguardian.com/australia-news/2026/nov/14/us-bound-flights-out-of-australia-grounded-as-telecommunications-outage-affects-american-travel"
+            }
+          ]
+        },
+        {
+          "id": "top-world-4",
+          "headline": "Microsoft Restores Services After Global Outage",
+          "summary": "Microsoft announced that its global services are fully working again after a day-long outage. The massive software glitch severely disrupted business and government communications around the world.",
+          "whyItMatters": "Sudden technology failures can cost billions of dollars and cripple daily business and government operations worldwide.",
+          "explainer": "US software giant Microsoft confirmed that its services have been fully restored following a widespread global outage that lasted more than 24 hours. The glitch severely disrupted online communications, including Outlook, Teams, and Copilot, affecting businesses and governments worldwide. Experts warned that the disruption could cost billions of dollars, particularly in places like Australia, and highlighted how heavily modern economies rely on major foreign technology platforms.",
+          "keyTerms": [],
+          "disagreement": null,
+          "importance": 8,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5f18/live/9b3a5370-df98-11f1-a9ad-6774a3284d10.jpg",
+          "sources": [
+            {
+              "name": "DW",
+              "title": "Microsoft says all services working again",
+              "url": "https://www.dw.com/en/microsoft-says-all-services-working-again/a-79946887?maca=en-rss-en-world-4025-rdf"
+            },
+            {
+              "name": "BBC News",
+              "title": "Microsoft says services fully restored after day-long global outage",
+              "url": "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "The Guardian",
+              "title": "Microsoft ‘deeply sorry’ for global outage that could have billion-dollar impact on Australia",
+              "url": "https://www.theguardian.com/australia-news/2026/nov/14/microsoft-deeply-sorry-for-global-disruption-that-could-have-billion-dollar-impact-on-australia"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "politics-world",
+      "title": "Politics · World",
+      "bricks": [
+        {
+          "id": "politics-world-0",
+          "headline": "Microsoft restores services after global tech outage",
+          "summary": "A massive Microsoft outage disrupted governments, airlines, banks, and businesses worldwide. Officials said the issue was caused by an equipment overload rather than a cyber-attack. Services are now fully restored.",
+          "whyItMatters": "The outage caused widespread travel delays and financial losses, showing how much modern society depends on a few large technology companies.",
+          "explainer": "A major technical failure at Microsoft caused a global outage that lasted over 24 hours. The problem impacted essential services, including government offices, healthcare providers, and airports, leading to thousands of flight cancellations and delays. The Federal Aviation Administration (FAA) in the United States had to issue a nationwide ground stop for flights to ensure safety. Microsoft apologized for the incident, which experts believe may cause billions of dollars in losses for businesses. Officials clarified that the disruption was due to outdated equipment and software issues rather than a deliberate hack or cyber-attack. The event has prompted leaders to question the risks of relying heavily on single foreign technology providers for critical infrastructure.",
+          "keyTerms": [
+            {
+              "term": "Ground stop",
+              "definition": "An order that prevents airplanes from taking off or landing at an airport."
+            },
+            {
+              "term": "Cyber-attack",
+              "definition": "A deliberate attempt by someone to damage or steal data from a computer system."
+            }
+          ],
+          "disagreement": null,
+          "importance": 8,
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-13T111646Z_1024366302_RC2B6OA76YWD_RTRMADP_3_MICROSOFT-OUTAGES-1024x683.jpg",
+          "sources": [
+            {
+              "name": "PBS NewsHour",
+              "title": "Microsoft says services fully restored after global outage",
+              "url": "https://www.pbs.org/newshour/world/microsoft-says-services-fully-restored-after-global-outage"
+            },
+            {
+              "name": "The Guardian",
+              "title": "US air travel slowly recovers from nationwide flight ground stop as chaos continues",
+              "url": "https://www.theguardian.com/world/2026/nov/14/faa-ground-stop-flights-resume-airport-chaos"
+            },
+            {
+              "name": "BBC News",
+              "title": "What we know about the ground stop and what to do if you're affected",
+              "url": "https://www.bbc.co.uk/news/articles/cqx2wyvyr3zzo?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "DW",
+              "title": "Microsoft says all services working again",
+              "url": "https://www.dw.com/en/microsoft-says-all-services-working-again/a-79946887?maca=en-rss-en-world-4025-rdf"
+            },
+            {
+              "name": "BBC News",
+              "title": "Microsoft says services fully restored after day-long global outage",
+              "url": "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "The Guardian",
+              "title": "Microsoft ‘deeply sorry’ for global outage that could have billion-dollar impact on Australia",
+              "url": "https://www.theguardian.com/australia-news/2026/nov/14/microsoft-deeply-sorry-for-global-disruption-that-could-have-billion-dollar-impact-on-australia"
+            },
+            {
+              "name": "The Guardian",
+              "title": "US-bound flights out of Australia delayed after telecommunications outage grounded American planes",
+              "url": "https://www.theguardian.com/australia-news/2026/nov/14/us-bound-flights-out-of-australia-grounded-as-telecommunications-outage-affects-american-travel"
+            }
+          ]
+        },
+        {
+          "id": "politics-world-1",
+          "headline": "Zelensky says US proposed ceding land for NATO bid",
+          "summary": "President Zelenskyy said US envoys suggested Ukraine give up its Donbas region to secure NATO membership. This proposal comes as officials explore ways to end the ongoing war with Russia.",
+          "whyItMatters": "This potential trade-off could significantly change the future borders and national security of Ukraine.",
+          "explainer": "Ukrainian President Volodymyr Zelenskyy reported that American officials floated a plan to end the war with Russia by allowing Ukraine to cede, or give up, the Donbas region. In return, Ukraine would be granted entry into NATO, a military alliance that provides protection to member countries. This is the first time the Ukrainian leader has publicly discussed such a specific territorial trade-off proposed by US diplomats. The war has resulted in a high number of casualties, and leaders are seeking potential paths to peace. The suggestion of exchanging territory for international security guarantees remains a deeply sensitive and complex issue for the Ukrainian government.",
+          "keyTerms": [
+            {
+              "term": "Cede",
+              "definition": "To give up control of land or territory."
+            },
+            {
+              "term": "NATO",
+              "definition": "A group of countries that agree to protect each other if one of them is attacked."
+            }
+          ],
+          "disagreement": null,
+          "importance": 9,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d028/live/47c10ab0-e013-11f1-b441-2b33b063138f.jpg",
+          "sources": [
+            {
+              "name": "BBC News",
+              "title": "US has floated Ukraine ceding Donbas for Nato membership, Zelensky says",
+              "url": "https://www.bbc.co.uk/news/articles/cwvg2l312ylqo?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "Al Jazeera",
+              "title": "Three killed in Russia as Ukraine claims US floated NATO membership option",
+              "url": "https://www.aljazeera.com/news/2026/11/14/three-killed-in-russia-as-ukraine-claims-us-floated-nato-membership-option?traffic_source=rss"
+            },
+            {
+              "name": "DW",
+              "title": "Ukraine: Zelenskyy says security deal could go to referendum",
+              "url": "https://www.dw.com/en/ukraine-zelenskyy-says-security-deal-could-go-to-referendum/a-79947535?maca=en-rss-en-world-4025-rdf"
+            }
+          ]
+        },
+        {
+          "id": "politics-world-2",
+          "headline": "Italy fines Meta $880m over user photo privacy",
+          "summary": "Italian regulators fined the parent company of Facebook and Instagram, Meta, about $880 million. The company was accused of failing to inform 20 million users that it had accessed their photos.",
+          "whyItMatters": "This fine highlights growing government efforts to protect personal data and hold tech companies responsible for privacy violations.",
+          "explainer": "Italy's data protection regulator issued a massive fine of roughly 805 million euros against Meta, the owner of Facebook and Instagram. The regulator claims that Meta did not properly notify approximately 20 million users that the company was accessing their private photos. Beyond the large number of people impacted, regulators noted that Meta's refusal to cooperate during the investigation influenced the size of the penalty. This ruling is part of a larger international trend where governments are using strict fines to force social media companies to be more transparent about how they handle the data of everyday users.",
+          "keyTerms": [
+            {
+              "term": "Regulator",
+              "definition": "A government agency that makes and enforces rules for businesses."
+            }
+          ],
+          "disagreement": null,
+          "importance": 6,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d6be/live/f51842e0-e041-11f1-88e1-eb4e155225b3.jpg",
+          "sources": [
+            {
+              "name": "BBC News",
+              "title": "Italy fines Meta €805m over accessing users' photos",
+              "url": "https://www.bbc.co.uk/news/articles/cwn83gxemk35o?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "Al Jazeera",
+              "title": "Italy fines Meta $880m over photo privacy",
+              "url": "https://www.aljazeera.com/news/2026/11/14/italy-fines-meta-880m-over-photo-privacy?traffic_source=rss"
+            }
+          ]
+        },
+        {
+          "id": "politics-world-3",
+          "headline": "Myanmar airstrike kills 12 at displacement camp",
+          "summary": "A military airstrike in Myanmar's Rakhine state killed 12 people at a camp for displaced persons. The attack hit a location housing families who had already fled their homes due to conflict.",
+          "whyItMatters": "This attack highlights the high danger to civilians trapped in areas of ongoing military violence.",
+          "explainer": "In Myanmar, an airstrike conducted by the national military struck a camp where displaced people were living. Twelve individuals were killed in the incident. Such camps are typically set up to provide temporary shelter for civilians who have had to leave their homes because of intense fighting and regional conflict. The military in Myanmar has faced ongoing criticism for its tactics, and this event adds to the severe humanitarian concerns in the region, where thousands of people struggle to find safety and basic resources while violence continues.",
+          "keyTerms": [
+            {
+              "term": "Displacement camp",
+              "definition": "A temporary area created to provide shelter for people forced to flee their homes due to war or disaster."
+            }
+          ],
+          "disagreement": null,
+          "importance": 7,
+          "image": null,
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "title": "Myanmar airstrike kills 12 at displacement camp in Rakhine state",
+              "url": "https://www.aljazeera.com/video/newsfeed/2026/11/14/myanmar-airstrike-displacement-camp-rakhine?traffic_source=rss"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "economy-world",
+      "title": "Economy · World",
+      "bricks": [
+        {
+          "id": "economy-world-0",
+          "headline": "Global Microsoft Outage Disrupts Services",
+          "summary": "A major Microsoft outage caused global disruptions for businesses, schools, and government agencies. The tech company reported that services like Outlook and Teams are now restored. Officials warned that some systems remained unavailable even as operations began to normalize.",
+          "whyItMatters": "This disruption affects how millions of people work, learn, and access public services that rely on digital tools.",
+          "explainer": "Microsoft provides a suite of software tools widely used by organizations for email, calendars, and meetings. When these services go offline, it can stall daily operations for employees, students, and government offices that use them for communication. While the company has confirmed that its primary systems are fully restored, the outage highlights how dependent modern society has become on centralized cloud services. Any technical failure at a major provider can have a ripple effect, causing significant delays in everything from corporate decision-making to administrative tasks in the public sector.",
+          "keyTerms": [
+            {
+              "term": "Cloud storage",
+              "definition": "A way to save digital files on the internet instead of on your own computer."
+            },
+            {
+              "term": "Outage",
+              "definition": "A period when a service or machine stops working."
+            }
+          ],
+          "disagreement": null,
+          "importance": 8,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5f18/live/9b3a5370-df98-11f1-a9ad-6774a3284d10.jpg",
+          "sources": [
+            {
+              "name": "BBC News",
+              "title": "Microsoft says services fully restored after day-long global outage",
+              "url": "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "The Guardian",
+              "title": "Microsoft outage shakes up companies, schools and local governments across US",
+              "url": "https://www.theguardian.com/technology/2026/nov/13/microsoft-outage-shakes-up-companies-local-governments"
+            },
+            {
+              "name": "BBC News",
+              "title": "Why is Microsoft's outage lasting so long and will emails be lost?",
+              "url": "https://www.bbc.co.uk/news/articles/cwvg238zrnm5o?at_medium=RSS&at_campaign=rss"
+            }
+          ]
+        },
+        {
+          "id": "economy-world-1",
+          "headline": "US Home Sales Reach 16-Year Low",
+          "summary": "Existing home sales in the US dropped to a 16-year low in October. High mortgage rates and inflation are keeping many potential buyers out of the market. Prices for remaining homes saw a slight increase.",
+          "whyItMatters": "High interest rates make buying a home more expensive, limiting choices for families looking to move.",
+          "explainer": "The housing market is currently facing challenges due to high mortgage rates, which are the fees charged by banks to borrow money for a home purchase. When rates are high, the monthly cost of a home loan goes up, making it harder for everyday people to afford a mortgage. Because of this, fewer people are choosing to buy or sell homes. This reduction in activity has caused sales to fall to levels not seen since 2008. While demand is lower, the limited supply of houses on the market has kept the average sales price high.",
+          "keyTerms": [
+            {
+              "term": "Mortgage rate",
+              "definition": "The interest rate a bank charges for a loan used to buy a house."
+            },
+            {
+              "term": "Inflation",
+              "definition": "A general increase in prices over time, which makes your money buy less."
+            }
+          ],
+          "disagreement": null,
+          "importance": 8,
+          "image": "https://i.guim.co.uk/img/media/861fa365835f36d65c4fe3a0adf09f6b63ba43ad/142_0_2344_1875/master/2344.jpg?width=140&quality=85&auto=format&fit=max&s=8773e098930ce08aa711f613f70b46b6",
+          "sources": [
+            {
+              "name": "The Guardian",
+              "title": "Home sales hit 16-year low in October amid soaring mortgage rates",
+              "url": "https://www.theguardian.com/business/2026/nov/12/home-sales-october-low"
+            }
+          ]
+        },
+        {
+          "id": "economy-world-2",
+          "headline": "Global Oil Supply Increases to Surplus",
+          "summary": "The world has a surplus of oil for the first time since the start of the conflict in Iran. Experts say supply is now higher than demand by nearly 2 million barrels daily. This shift suggests the global energy market is rebalancing.",
+          "whyItMatters": "When oil supply is high, it can influence gas prices and heating costs for households worldwide.",
+          "explainer": "A surplus occurs when the world produces more oil than what is actually being bought and used. Recently, oil exports from the Gulf region recovered more quickly than the global demand for energy, leading to this imbalance. The International Energy Agency monitors these trends to understand how much energy is available for transportation, heating, and manufacturing. When supplies outpace demand, it often stabilizes or lowers costs for energy, which impacts the budgets of families who rely on fuel for their cars and homes.",
+          "keyTerms": [
+            {
+              "term": "Surplus",
+              "definition": "Having more of something than you currently need or can use."
+            },
+            {
+              "term": "Rebalancing",
+              "definition": "The process of a market returning to a state where supply and demand are equal."
+            }
+          ],
+          "disagreement": null,
+          "importance": 7,
+          "image": "https://i.guim.co.uk/img/media/5b2b569f416b13096426488b7fd081de3679354e/759_0_4585_3669/master/4585.jpg?width=140&quality=85&auto=format&fit=max&s=36a563ead8599d4104ca2e8aee341c08",
+          "sources": [
+            {
+              "name": "The Guardian",
+              "title": "Global oil supply returns to surplus for first time since start of Iran war, says IEA",
+              "url": "https://www.theguardian.com/business/2026/nov/13/global-oil-supply-returns-to-surplus-for-first-time-since-start-of-iran-war-says-iea"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "region-africa",
+      "title": "World · Africa",
+      "bricks": [
+        {
+          "id": "region-africa-0",
+          "headline": "Sudan fighting intensifies with drone strikes",
+          "summary": "Recent military gains by the Sudanese Armed Forces in Kordofan have shifted the battle against the Rapid Support Forces. However, deadly drone strikes on civilians in the region are causing high death tolls in areas once considered safe.",
+          "whyItMatters": "The escalation of drone warfare significantly increases risks to the lives and safety of civilians caught in the ongoing conflict.",
+          "explainer": "Sudan is currently experiencing a civil war between the Sudanese Armed Forces (SAF) and the Rapid Support Forces (RSF). Recent reports highlight that the SAF has seen strategic successes in the Kordofan region. At the same time, the use of unmanned aerial vehicles, or drones, has changed how the war is fought. These strikes are increasingly hitting civilian areas, such as busy transport hubs and marketplaces, leading to large numbers of deaths. For civilians, these attacks have made previously safe regions dangerous and unstable, significantly threatening their day-to-day safety and survival.",
+          "keyTerms": [
+            {
+              "term": "Unmanned Aerial Vehicle (UAV)",
+              "definition": "Commonly known as a drone, this is an aircraft that operates without a human pilot on board."
+            }
+          ],
+          "disagreement": null,
+          "importance": 8,
+          "image": "https://i.guim.co.uk/img/media/974b6f7ca0a4fbd079f213d18b942977d940fe21/0_0_3968_3173/master/3968.jpg?width=140&quality=85&auto=format&fit=max&s=e5e971bc7f54a8f2cbf68175583becdb",
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "title": "How SAF successes in Sudan’s Kordofan could turn tide against the RSF",
+              "url": "https://www.aljazeera.com/news/2026/11/14/how-saf-successes-in-sudans-kordofan-could-turn-tide-against-the-rsf?traffic_source=rss"
+            },
+            {
+              "name": "The Guardian",
+              "title": "Terror from the skies: drones are redefining warfare in Sudan, and massacring its civilians",
+              "url": "https://www.theguardian.com/world/2026/nov/14/drones-redefining-warfare-sudan-massacring-civilians"
+            }
+          ]
+        },
+        {
+          "id": "region-africa-1",
+          "headline": "South Sudan delays first national elections",
+          "summary": "South Sudan has officially postponed its first-ever national elections until February 11. The vote was originally planned for 2022 but has faced multiple delays.",
+          "whyItMatters": "The delay impacts the country's political transition and the ability of citizens to participate in choosing their government.",
+          "explainer": "South Sudan is a young nation that has been working toward holding its first national elections to establish a new democratic government. The election, which was supposed to happen as early as 2022, has been delayed several times due to various political and logistical challenges. The country's election commission recently confirmed that the new date for the vote is February 11. This postponement keeps the country's current political path in a state of transition, which affects how citizens interact with their leaders and how national policy decisions are made.",
+          "keyTerms": [],
+          "disagreement": null,
+          "importance": 7,
+          "image": null,
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "title": "South Sudan postpones first-ever national elections until February",
+              "url": "https://www.aljazeera.com/news/2026/11/14/south-sudan-postpones-first-ever-national-elections-until-february?traffic_source=rss"
+            }
+          ]
+        },
+        {
+          "id": "region-africa-2",
+          "headline": "Tensions rise over Uganda's political future",
+          "summary": "Rumors of a leadership succession in Uganda have increased after the president's son, a military general, made threats toward officials. These actions have fueled speculation about a potential shift in power.",
+          "whyItMatters": "Political instability or uncertainty about future leadership can impact national governance and the daily lives of citizens.",
+          "explainer": "In Uganda, recent public statements and military threats made by the president's 52-year-old son, who is also a general, have sparked widespread talk about a possible transfer of power. This situation is often called 'succession fever,' as it raises questions about who might lead the country next and how that power might be handed over. These developments have caused concern among some citizens and officials, as the rhetoric has included the arrest of other military leaders and threats against high-ranking government members. This creates uncertainty regarding the country's political stability.",
+          "keyTerms": [
+            {
+              "term": "Succession",
+              "definition": "The process of one person or group taking over a position from another person."
+            }
+          ],
+          "disagreement": null,
+          "importance": 6,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9975/live/51088590-df40-11f1-a48c-75dd2efdacb5.jpg",
+          "sources": [
+            {
+              "name": "BBC News",
+              "title": "Arrested generals and a threatened VP: President's son fuels Ugandan succession fever",
+              "url": "https://www.bbc.co.uk/news/articles/cmlydy0xw45wo?at_medium=RSS&at_campaign=rss"
+            }
+          ]
+        },
+        {
+          "id": "region-africa-3",
+          "headline": "Nigeria warns travelers about Ethiopia airport",
+          "summary": "Nigeria's foreign ministry is advising citizens to be careful when using Ethiopia's main airport in Addis Ababa. Several Nigerian travelers with health issues have died while passing through the high-altitude city.",
+          "whyItMatters": "This advice is meant to protect the health and safety of Nigerian travelers with existing medical conditions.",
+          "explainer": "Addis Ababa, the capital of Ethiopia, is located at a very high altitude, meaning the air is thinner than it is at sea level. The Nigerian foreign ministry issued a caution after six Nigerian citizens with underlying health conditions died while transiting through the city's airport this year. Thinner air can make it harder for people with certain heart or lung problems to breathe, which can lead to serious health emergencies. The government is asking travelers to be aware of these risks before planning their journeys through high-altitude locations.",
+          "keyTerms": [
+            {
+              "term": "Altitude",
+              "definition": "The height of an object or place above the level of the sea."
+            },
+            {
+              "term": "Transit",
+              "definition": "The act of passing through a place while on a journey to another destination."
+            }
+          ],
+          "disagreement": null,
+          "importance": 4,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/103b/live/ed70d6c0-e040-11f1-88e1-eb4e155225b3.jpg",
+          "sources": [
+            {
+              "name": "BBC News",
+              "title": "Nigeria cautions against travel via Ethiopia's main airport due to altitude",
+              "url": "https://www.bbc.co.uk/news/articles/cmz6qjpdy2wqo?at_medium=RSS&at_campaign=rss"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "region-asia",
+      "title": "World · Asia & Pacific",
+      "bricks": [
+        {
+          "id": "region-asia-0",
+          "headline": "Leaders to discuss global issues at APEC summit",
+          "summary": "Leaders from the U.S., China, and Russia are expected to meet at the APEC summit in China. They plan to talk about a nuclear treaty and ongoing international conflicts.",
+          "whyItMatters": "Decisions made by leaders of the world's most powerful nations can impact global stability and the safety of people everywhere.",
+          "explainer": "APEC stands for the Asia-Pacific Economic Cooperation, which is a group of countries that work together on trade and economic policies. A trilateral meeting involving the leaders of the United States, China, and Russia is highly significant because these nations play central roles in global security and the world economy. Discussions are expected to focus on a nuclear treaty and ongoing wars. Many observers are watching closely, concerned that these leaders might make major decisions about international territories or borders without involving other affected countries, a concern historically linked to past diplomatic meetings like the Yalta Conference.",
+          "keyTerms": [
+            {
+              "term": "APEC",
+              "definition": "A group of countries in the Pacific region that work together to help their economies grow."
+            },
+            {
+              "term": "Trilateral",
+              "definition": "Involving three parties or countries."
+            }
+          ],
+          "disagreement": null,
+          "importance": 9,
+          "image": "https://i.guim.co.uk/img/media/313e49f004e036f03234b3463d1a7fff49365024/536_0_5148_4119/master/5148.jpg?width=140&quality=85&auto=format&fit=max&s=aa8808f830d7f0fabe15cc8689a8e5de",
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "title": "Trump-Xi-Putin trilateral meeting at APEC: What to expect",
+              "url": "https://www.aljazeera.com/news/2026/11/14/trump-xi-putin-trilateral-meeting-at-apec-what-to-expect?traffic_source=rss"
+            },
+            {
+              "name": "The Guardian",
+              "title": "Yalta became a byword for betrayal. Will Trump, Xi and Putin enact another carve-up?",
+              "url": "https://www.theguardian.com/world/2026/nov/14/yalta-trump-xi-putin-china-apec"
+            }
+          ]
+        },
+        {
+          "id": "region-asia-1",
+          "headline": "Airstrike kills 12 at camp in Myanmar",
+          "summary": "A military airstrike hit a camp for displaced people in Myanmar's Rakhine state. Twelve people died in the attack.",
+          "whyItMatters": "This attack highlights the ongoing danger faced by civilians who have already been forced from their homes by violence.",
+          "explainer": "Myanmar has been experiencing significant internal conflict between the military and various opposing groups. Rakhine state has been a focus of this violence. A displacement camp is a temporary area where people live after fleeing their homes to escape war or fighting. When such areas are targeted by military airstrikes, it puts non-combatant lives at high risk and makes it harder for humanitarian aid to reach those in need of food and shelter.",
+          "keyTerms": [
+            {
+              "term": "Airstrike",
+              "definition": "An attack carried out by military aircraft using bombs or missiles."
+            },
+            {
+              "term": "Displaced",
+              "definition": "Forced to move from one's home, usually because of war or disaster."
+            }
+          ],
+          "disagreement": null,
+          "importance": 8,
+          "image": null,
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "title": "Myanmar airstrike kills 12 at displacement camp in Rakhine state",
+              "url": "https://www.aljazeera.com/video/newsfeed/2026/11/14/myanmar-airstrike-displacement-camp-rakhine?traffic_source=rss"
+            }
+          ]
+        },
+        {
+          "id": "region-asia-2",
+          "headline": "Bus crash in India kills at least 24",
+          "summary": "A bus and a truck collided in north-east India. At least 24 people died, including several college students.",
+          "whyItMatters": "This tragic event highlights road safety concerns in the region and has caused significant loss for the local community.",
+          "explainer": "Road accidents remain a major safety issue in many parts of India, often due to high traffic volume on busy highways. This collision between a bus and a truck resulted in the deaths of at least 24 people. Local officials have confirmed that the victims include students, which has added to the sorrow felt by the community. Investigations are typically launched after such incidents to determine if speeding, road conditions, or human error played a role in the crash.",
+          "keyTerms": [],
+          "disagreement": null,
+          "importance": 7,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d6d0/live/abb1cd00-df75-11f1-b844-3146c4983677.jpg",
+          "sources": [
+            {
+              "name": "BBC News",
+              "title": "At least 24 killed after bus collides with truck in north-east India",
+              "url": "https://www.bbc.co.uk/news/articles/c6r7g5lp1zrxo?at_medium=RSS&at_campaign=rss"
+            }
+          ]
+        },
+        {
+          "id": "region-asia-3",
+          "headline": "India's youth face uncertain future after protests",
+          "summary": "Young protesters in India who were active this summer are now facing a quiet winter. Many remain frustrated with the current situation as they wait for change.",
+          "whyItMatters": "The energy of youth movements can shape future government policies and social change, but these groups often face challenges in sustaining their influence.",
+          "explainer": "During the summer, a large wave of protests led by young people took place across India. These demonstrations were driven by social frustration and shared through online satire. As the weather changes and the movement becomes less active, these young activists are entering a period of uncertainty. They are still seeking results from their actions, but they face a difficult path in getting their concerns addressed by national leadership.",
+          "keyTerms": [
+            {
+              "term": "Gen Z",
+              "definition": "The generation of people born between the late 1990s and early 2010s."
+            },
+            {
+              "term": "Dissent",
+              "definition": "Public disagreement with government policies or actions."
+            }
+          ],
+          "disagreement": null,
+          "importance": 5,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9ca7/live/511b1870-df1a-11f1-8440-dbadd0414f54.jpg",
+          "sources": [
+            {
+              "name": "BBC News",
+              "title": "After a summer win, India's Gen Z protesters face a winter of uncertainty",
+              "url": "https://www.bbc.co.uk/news/articles/cq99e0z4vg1eo?at_medium=RSS&at_campaign=rss"
+            }
+          ]
+        },
+        {
+          "id": "region-asia-4",
+          "headline": "Eurovision Asia song contest starts in Thailand",
+          "summary": "The first Eurovision Asia song contest is taking place in Thailand this Saturday. Eleven countries are competing in the inaugural event.",
+          "whyItMatters": "This event creates a new platform for cultural exchange and entertainment across the Asia-Pacific region.",
+          "explainer": "Eurovision is a very popular international music competition that has been held in Europe for many years. Eurovision Asia is a new version of this event, adapted for the Asia-Pacific region. While it is smaller than the European version, it serves as a way for different countries to share their music and culture on a single stage. Fans look forward to the performances as a way to celebrate diversity and talent across the participating countries.",
+          "keyTerms": [],
+          "disagreement": null,
+          "importance": 3,
+          "image": "https://i.guim.co.uk/img/media/6b425f77cb4c022316c05847e86584ef3fd48573/0_1113_3842_3074/master/3842.jpg?width=140&quality=85&auto=format&fit=max&s=7f996aa7a6bd757098c9f26d9c6ceddc",
+          "sources": [
+            {
+              "name": "The Guardian",
+              "title": "Mesh masks, Nana’s lampshade and the other Beck: what to watch for at Eurovision Asia",
+              "url": "https://www.theguardian.com/tv-and-radio/2026/nov/14/eurovision-asia-bangkok-thailand"
+            },
+            {
+              "name": "BBC News",
+              "title": "Eurovision is finally coming to Asia - meet the stars gearing up to take the stage",
+              "url": "https://www.bbc.co.uk/news/articles/cw4gn0ky2pgdo?at_medium=RSS&at_campaign=rss"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "region-europe",
+      "title": "World · Europe",
+      "bricks": [
+        {
+          "id": "region-europe-0",
+          "headline": "Hungarian authorities seize $19.5m in corruption probe",
+          "summary": "Hungary's anti-corruption agency found and seized nearly $20 million in cash. The money was hidden in forests and other places during an investigation into a former government minister accused of taking bribes.",
+          "whyItMatters": "This case highlights efforts to address government corruption, which can affect how public money is spent on services and infrastructure.",
+          "explainer": "The investigation focuses on a former government minister who served under the country's previous leadership. Corruption involves the misuse of public office for private gain, often through bribes or theft. In this case, officials found large amounts of cash buried or hidden, which they say were tied to a bribe scheme involving a state transport company. Following a change in national leadership in April, the new government has launched a campaign to address corruption. Such investigations are important because public trust in government depends on the fair and honest management of tax money and state resources.",
+          "keyTerms": [
+            {
+              "term": "Corruption",
+              "definition": "The dishonest use of power by people in government to gain money or other benefits."
+            },
+            {
+              "term": "Bribe",
+              "definition": "Money or a gift given to someone in power to influence their actions."
+            }
+          ],
+          "disagreement": null,
+          "importance": 6,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/da9e/live/d437a0b0-e010-11f1-b884-a9f52ca7a4b1.jpg",
+          "sources": [
+            {
+              "name": "BBC News",
+              "title": "Hungarian authorities uncover $20m during probe of Orbán-era minister",
+              "url": "https://www.bbc.co.uk/news/articles/ckjwj03w4w0qo?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "The Guardian",
+              "title": "Hungary seizes $19.5m in cash found buried in forests amid graft inquiry",
+              "url": "https://www.theguardian.com/world/2026/nov/13/hungary-seizes-195m-in-cash-found-buried-in-forests-amid-graft-inquiry"
+            }
+          ]
+        },
+        {
+          "id": "region-europe-1",
+          "headline": "New airport-style checks coming to Eurotunnel",
+          "summary": "The Eurotunnel will introduce camera and fingerprint technology to speed up border crossings between the UK and France. The new system aims to prevent long delays for travelers moving between the two countries.",
+          "whyItMatters": "Travelers between the UK and EU will face different security procedures, which may change how quickly they can cross the border.",
+          "explainer": "The Eurotunnel connects the United Kingdom and France, allowing trains to travel under the sea. Currently, passport and identity checks can cause long queues and chaos for drivers. To fix this, the European Commission approved a new 'eagle eye' camera system, similar to those used in airports. This technology will scan fingerprints and faces, allowing people to verify their identity without having to leave their cars. This upgrade is part of a plan to keep cross-border travel running smoothly while maintaining necessary security measures at the border.",
+          "keyTerms": [
+            {
+              "term": "Eurotunnel",
+              "definition": "A rail tunnel under the English Channel that links the United Kingdom and France."
+            }
+          ],
+          "disagreement": null,
+          "importance": 5,
+          "image": "https://i.guim.co.uk/img/media/c36522e185fdfeb8b91004d73d5cc360a5eb2325/0_0_6830_5464/master/6830.jpg?width=140&quality=85&auto=format&fit=max&s=1e5d9d4359cc7e7c571d6edb15cdbf26",
+          "sources": [
+            {
+              "name": "The Guardian",
+              "title": "UK-EU breakthrough will allow airport-style checks at Eurotunnel to avoid border ‘chaos’",
+              "url": "https://www.theguardian.com/travel/2026/nov/14/eurotunnel-drive-in-fingerprint-trial-folkestone-calais-border"
+            }
+          ]
+        },
+        {
+          "id": "region-europe-2",
+          "headline": "Czechs protest government plans for public media",
+          "summary": "People in the Czech Republic are planning a large protest to protect public media. The government wants to cancel a mandatory fee that funds these news outlets, which critics fear will give politicians too much control over news reporting.",
+          "whyItMatters": "Independent news helps people stay informed; changes to how it is funded can impact the ability of news organizations to report without political pressure.",
+          "explainer": "Public media outlets are funded by the public, usually through a small fee paid by households, to ensure they remain neutral and independent from the government. The Czech government is considering plans to scrap this fee, leading to concerns that newsrooms could become reliant on government funding. Opponents of the plan say this change would make it easier for ministers to influence or control what journalists report. The upcoming protest reflects a growing debate in Europe about maintaining free and fair media in the face of changing government policies.",
+          "keyTerms": [
+            {
+              "term": "Public media",
+              "definition": "News and programming that is funded by the public rather than by private companies or the government."
+            }
+          ],
+          "disagreement": null,
+          "importance": 5,
+          "image": "https://i.guim.co.uk/img/media/e51adf4450bc0b1f7329f9b272cac15f1d82103c/395_0_3100_2480/master/3100.jpg?width=140&quality=85&auto=format&fit=max&s=41d554a7b9c18d8ecf9eef32cdffec74",
+          "sources": [
+            {
+              "name": "The Guardian",
+              "title": "Public media freedom has been eroded across central Europe. Now Czechs are rallying to protect theirs",
+              "url": "https://www.theguardian.com/world/2026/nov/14/protests-grow-czechia-changes-public-media-funding"
+            }
+          ]
+        },
+        {
+          "id": "region-europe-3",
+          "headline": "Turkey criticized over espionage accusations against activists",
+          "summary": "Turkey arrested an employee of a German foundation, raising concerns about government pressure on critics. This is part of a pattern of using espionage charges to target people who disagree with the administration.",
+          "whyItMatters": "The use of legal charges to target individuals can limit free speech and civil rights in a country.",
+          "explainer": "Espionage is the act of spying, usually to obtain secret information for another country. In Turkey, critics of the government say that authorities are using vague accusations of spying to arrest journalists, activists, and employees of international organizations. By labeling dissent as a national security threat, the government can keep these individuals in legal trouble for a long time. These tactics have drawn attention from international groups concerned about the shrinking space for political disagreement and the independence of the legal system in Turkey.",
+          "keyTerms": [
+            {
+              "term": "Espionage",
+              "definition": "The act of spying or secretly obtaining information to help a foreign government."
+            }
+          ],
+          "disagreement": null,
+          "importance": 4,
+          "image": null,
+          "sources": [
+            {
+              "name": "DW",
+              "title": "Espionage accusations: a pressure tactic for Turkish government critics",
+              "url": "https://www.dw.com/en/espionage-accusations-a-pressure-tactic-for-turkish-government-critics/a-79943768?maca=en-rss-en-world-4025-rdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "region-latam",
+      "title": "World · Latin America",
+      "bricks": [
+        {
+          "id": "region-latam-0",
+          "headline": "Pope Leo XIV Visits Peru on South American Tour",
+          "summary": "Pope Leo XIV is visiting Peru as part of an 11-day trip across South America. Residents in the city of Chiclayo, where he previously served as a bishop, gave him a warm welcome.",
+          "whyItMatters": "This visit brings attention to the region's religious community and highlights the long-standing personal ties between the Pope and the people of northern Peru.",
+          "explainer": "Pope Leo XIV, who is 71 years old, is currently on an 11-day tour of South America. His visit to Peru is particularly significant because he lived there for nearly a decade while serving as a bishop. During his time as a church leader in the city of Chiclayo, he was known to many local residents simply as 'Padre Roberto.' He became a familiar face in the community by walking the streets, participating in local traditions, and supporting citizens during difficult times, including the Covid-19 pandemic and various natural disasters. This trip comes shortly after the Pope underwent surgery for lung cancer. In preparation for his arrival, local residents decorated the city with colorful murals and banners to celebrate the return of a former leader they consider one of their own.",
+          "keyTerms": [
+            {
+              "term": "Bishop",
+              "definition": "A high-ranking religious official in the Catholic Church who oversees a large group of local churches."
+            },
+            {
+              "term": "Pontiff",
+              "definition": "Another title for the Pope, who is the head of the Catholic Church."
+            }
+          ],
+          "disagreement": null,
+          "importance": 5,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/566c/live/8649d9e0-df84-11f1-a8e2-5b59832bb2f1.jpg",
+          "sources": [
+            {
+              "name": "BBC News",
+              "title": "The Peruvian city that has embraced Pope Leo as one of its own",
+              "url": "https://www.bbc.co.uk/news/articles/cwg7l8n7dx5mo?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "The Guardian",
+              "title": "Pope Leo gets rapturous welcome on return to Peru: ‘This visit is like a big party’",
+              "url": "https://www.theguardian.com/world/2026/nov/12/pope-leo-peru-visit"
+            }
+          ]
+        },
+        {
+          "id": "region-latam-1",
+          "headline": "Migrant Caravan Travels Toward US Border From Mexico",
+          "summary": "A group of over one thousand migrants is currently traveling from southern Mexico toward the United States border. The movement follows recent political changes in the United States.",
+          "whyItMatters": "Large groups of migrants moving toward international borders often lead to policy debates and changes in how nations manage border security and human rights.",
+          "explainer": "A migrant caravan, which is a group of people traveling together for safety, has begun a journey from southern Mexico heading north toward the United States. The group consists of more than one thousand people. This movement of people has been noted following recent midterm election results in the United States. International news outlets report that such caravans are a common way for migrants to seek safety or better opportunities by traveling in larger numbers. As the group moves north, it draws attention to the ongoing challenges surrounding migration policy, border management, and the legal status of individuals seeking to enter a new country.",
+          "keyTerms": [
+            {
+              "term": "Migrant",
+              "definition": "A person who moves from one place to another, often to another country, to find work or better living conditions."
+            },
+            {
+              "term": "Midterm Election",
+              "definition": "An election held halfway through a president's term that decides who holds seats in the national legislature."
+            }
+          ],
+          "disagreement": null,
+          "importance": 5,
+          "image": null,
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "title": "Migrant caravan heads to US from Mexico after Democrats’ midterm win",
+              "url": "https://www.aljazeera.com/video/newsfeed/2026/11/14/migrant-caravan-heads-to-us-from-mexico-after-democrats-midterm-win?traffic_source=rss"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "region-mideast",
+      "title": "World · Middle East",
+      "bricks": [
+        {
+          "id": "region-mideast-0",
+          "headline": "Sudan war: Drones strike civilians as fighting shifts",
+          "summary": "Drone attacks in Sudan have killed many civilians, turning previously safe areas into battlegrounds. Meanwhile, government forces are gaining ground in Kordofan against the Rapid Support Forces, which may change the direction of the ongoing civil war.",
+          "whyItMatters": "The intensified fighting and use of drones create immediate safety threats for thousands of civilians and disrupt basic survival in the country.",
+          "explainer": "Sudan has been struggling with a violent conflict between the Sudanese Armed Forces (SAF) and the paramilitary Rapid Support Forces (RSF). Recently, the use of drones—unmanned aerial vehicles—has changed how the war is fought. These drones are striking crowded areas like marketplaces, which previously felt safer. Simultaneously, the SAF has reported military successes in the Kordofan region, suggesting that the balance of power might be shifting in favor of the government forces. For the people of Sudan, this means the conflict is becoming more unpredictable, widespread, and lethal as both sides use new technology to target each other while often hitting civilian locations.",
+          "keyTerms": [
+            {
+              "term": "Paramilitary",
+              "definition": "A group that acts like a professional army but is not part of a country's official military."
+            },
+            {
+              "term": "UAV",
+              "definition": "An unmanned aerial vehicle, commonly known as a drone."
+            }
+          ],
+          "disagreement": null,
+          "importance": 8,
+          "image": "https://i.guim.co.uk/img/media/974b6f7ca0a4fbd079f213d18b942977d940fe21/0_0_3968_3173/master/3968.jpg?width=140&quality=85&auto=format&fit=max&s=e5e971bc7f54a8f2cbf68175583becdb",
+          "sources": [
+            {
+              "name": "The Guardian",
+              "title": "Terror from the skies: drones are redefining warfare in Sudan, and massacring its civilians",
+              "url": "https://www.theguardian.com/world/2026/nov/14/drones-redefining-warfare-sudan-massacring-civilians"
+            },
+            {
+              "name": "Al Jazeera",
+              "title": "How SAF successes in Sudan’s Kordofan could turn tide against the RSF",
+              "url": "https://www.aljazeera.com/news/2026/11/14/how-saf-successes-in-sudans-kordofan-could-turn-tide-against-the-rsf?traffic_source=rss"
+            }
+          ]
+        },
+        {
+          "id": "region-mideast-1",
+          "headline": "Iran and US tensions rise following military site attacks",
+          "summary": "Iran claims it destroyed a US radar system in Bahrain after a US strike on an Iranian tower. Separately, the UN nuclear agency expressed worry because it cannot inspect a secret uranium plant in Iran.",
+          "whyItMatters": "Increasing hostility between the two nations threatens safety in the region and raises global concerns about nuclear weapons development.",
+          "explainer": "Tensions between Iran and the United States have worsened after a recent military exchange. Iran reported that its forces hit a US early-warning radar in Bahrain, calling it a response to an earlier American strike on a communications tower. This marks a rare direct confrontation between the two countries. In a separate development, international monitors are worried about Iran’s nuclear program. The UN nuclear watchdog has been unable to visit or inspect a uranium enrichment plant in Isfahan, despite requests. Because Iran has not allowed access to this site for over a year, experts fear the country may be hiding its progress toward building nuclear weapons.",
+          "keyTerms": [
+            {
+              "term": "Uranium enrichment",
+              "definition": "A process used to make fuel for nuclear reactors or, if taken further, material for nuclear weapons."
+            }
+          ],
+          "disagreement": null,
+          "importance": 8,
+          "image": "https://i.guim.co.uk/img/media/f76fa0a8488f1c05bc755c935f60793cc0caee3d/448_0_4480_3584/master/4480.jpg?width=140&quality=85&auto=format&fit=max&s=1827173b1be92a1da7873febef1104d0",
+          "sources": [
+            {
+              "name": "The Guardian",
+              "title": "Iran says it targeted US military radar in Bahrain in retaliatory strike",
+              "url": "https://www.theguardian.com/world/2026/nov/13/iran-us-radar-bahrain-sirik-hormuz"
+            },
+            {
+              "name": "BBC News",
+              "title": "UN watchdog 'increasingly concerned' over uninspected Iran nuclear site",
+              "url": "https://www.bbc.co.uk/news/articles/cm75261e3pdko?at_medium=RSS&at_campaign=rss"
+            }
+          ]
+        },
+        {
+          "id": "region-mideast-2",
+          "headline": "Israel's political climate faces internal tension",
+          "summary": "Israeli leaders are criticizing the current government's rhetoric toward Arab citizens. While Prime Minister Netanyahu faces potential leadership challenges, observers worry that the hardline policies he introduced may be difficult to reverse.",
+          "whyItMatters": "The political environment affects the rights and equality of citizens in Israel and shapes the country's future policies.",
+          "explainer": "In Israel, a debate is growing over the treatment of Arab citizens. Some politicians are speaking out against what they call racist campaigns meant to divide the country. Critics argue that these actions hurt the rights of Arab citizens, who make up a significant part of the population. Although there is political debate over whether the current prime minister will remain in power, some observers warn that the far-right policies put in place during his time in office have become deeply rooted. This suggests that even if the government changes, these controversial policies could remain in place for a long time, affecting daily life and social cohesion.",
+          "keyTerms": [
+            {
+              "term": "Delegitimisation",
+              "definition": "The act of trying to make a person or group seem wrong, fake, or unworthy of respect."
+            }
+          ],
+          "disagreement": null,
+          "importance": 7,
+          "image": "https://i.guim.co.uk/img/media/caafae25c0bca6314b12439ac03f6e61770f8341/308_0_3083_2466/master/3083.jpg?width=140&quality=85&auto=format&fit=max&s=94d792291c0caa876c75116721318aaf",
+          "sources": [
+            {
+              "name": "The Guardian",
+              "title": "Eisenkot condemns Netanyahu’s ‘racist’ campaign against Israel’s Arab citizens",
+              "url": "https://www.theguardian.com/world/2026/nov/13/eisenkot-accuses-netanyahu-of-racist-campaign-against-israels-arab-minority"
+            },
+            {
+              "name": "Al Jazeera",
+              "title": "Netanyahu may fall, but his far-right legacy in Israel is going nowhere",
+              "url": "https://www.aljazeera.com/news/2026/11/14/netanyahu-may-fall-but-his-far-right-legacy-in-israel-is-going-nowhere?traffic_source=rss"
+            }
+          ]
+        },
+        {
+          "id": "region-mideast-3",
+          "headline": "Iranian athlete on death row wins human rights prize",
+          "summary": "Mohammad Javad Vafaei Sani, a boxer in Iran, received a top human rights award while in prison. He has been sentenced to death and remains at risk for his political activities.",
+          "whyItMatters": "This case highlights ongoing concerns about human rights, legal justice, and the safety of political prisoners in Iran.",
+          "explainer": "Mohammad Javad Vafaei Sani is a professional boxer who is currently held in an Iranian prison. He is one of several athletes who face the death penalty due to their involvement in protests or political dissent. Despite being in custody and having received three death sentences, he has continued to speak out, vowing to fight for freedom. He was recently honored with a prestigious humanitarian award for his courage. This story reflects a larger tension in Iran, where the government frequently punishes those who challenge its authority, drawing attention from international human rights groups who argue that these trials are unfair.",
+          "keyTerms": [
+            {
+              "term": "Political prisoner",
+              "definition": "A person held in jail because their ideas or actions go against the government."
+            }
+          ],
+          "disagreement": null,
+          "importance": 5,
+          "image": "https://i.guim.co.uk/img/media/ae911a85a5e3f88e9b0812fc2e2ee4780633d4b5/0_1_2320_1856/master/2320.jpg?width=140&quality=85&auto=format&fit=max&s=b3984b367b1faf3a0bae461597f477ad",
+          "sources": [
+            {
+              "name": "The Guardian",
+              "title": "Boxer on death row in Iran vows ‘not to bow before oppression’ after winning rights prize",
+              "url": "https://www.theguardian.com/global-development/2026/nov/13/mohammad-javad-vafaei-sani-iran-boxer-death-row-magnitsky-award"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "top-us",
+      "title": "Top Stories · United States",
+      "bricks": [
+        {
+          "id": "top-us-0",
+          "headline": "FAA Grounds All U.S. Flights Over Tech Issues",
+          "summary": "The FAA issued a rare nationwide ground stop on Friday due to a major communications problem. Officials said the issue was caused by an equipment failure during a network update, not an attack. Thousands of flights were canceled across the country.",
+          "whyItMatters": "This disruption caused major travel delays for thousands of people and highlights how much our transportation depends on aging technology.",
+          "explainer": "The Federal Aviation Administration (FAA) is the government agency responsible for the safety of civil aviation in the U.S. A ground stop means that planes are not allowed to take off. Officials stated that a technical problem occurred during an update to a telecommunications network. This is the second time since the 2001 terrorist attacks that such a nationwide stop has happened. Many passengers were left waiting on planes or in terminals for hours without clear information. Experts noted that some of the systems used to manage air traffic are very old, making them prone to malfunctions during modern software upgrades. There is no evidence that this was a cyber-attack or an intentional act of sabotage.",
+          "keyTerms": [
+            {
+              "term": "FAA",
+              "definition": "The government agency that manages air travel and safety in the United States."
+            },
+            {
+              "term": "Ground stop",
+              "definition": "An order that prevents airplanes from taking off to keep the skies safe."
+            }
+          ],
+          "disagreement": null,
+          "importance": 8,
+          "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8091x5394+0+0/resize/8091x5394!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F9e%2F96%2Fe23d590f45f8bbd605875a794fb7%2Fgettyimages-2304485779.jpg",
+          "sources": [
+            {
+              "name": "NPR",
+              "title": "FAA blames Friday's ground stop on 'equipment issue' during telecoms network upgrade",
+              "url": "https://www.npr.org/2026/11/14/nx-s1-6040952/faa-ground-stop-airplane-travel"
+            },
+            {
+              "name": "PBS NewsHour",
+              "title": "Thousands of flights canceled as airlines work to recover from nationwide ground stop",
+              "url": "https://www.pbs.org/newshour/nation/thousands-of-flights-canceled-as-airlines-work-to-recover-from-nationwide-ground-stop"
+            },
+            {
+              "name": "BBC News",
+              "title": "What we know about the US ground stop and what to do if your flight is affected",
+              "url": "https://www.bbc.co.uk/news/articles/cqx2wyvyr3zzo?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "PBS NewsHour",
+              "title": "FAA issues rare nationwide ground stop due to 'extraordinary circumstances'",
+              "url": "https://www.pbs.org/newshour/show/faa-issues-rare-nationwide-ground-stop-due-to-extraordinary-circumstances"
+            },
+            {
+              "name": "PBS NewsHour",
+              "title": "WATCH: Homeland Security Secretary Mullin says FAA flight stoppage 'isn't another 9/11'",
+              "url": "https://www.pbs.org/newshour/nation/watch-homeland-security-secretary-mullin-says-faa-flight-stoppage-isnt-another-9-11"
+            },
+            {
+              "name": "NPR",
+              "title": "DHS head Markwayne Mullin says there is not a threat to the U.S. amid FAA ground stop",
+              "url": "https://www.npr.org/2026/11/13/nx-s1-6040418/dhs-head-markwayne-mullin-says-there-is-not-a-threat-to-the-u-s-amid-faa-ground-stop"
+            },
+            {
+              "name": "NPR",
+              "title": "Stuck on the tarmac without information: Travelers share their ground stop experiences",
+              "url": "https://www.npr.org/2026/11/13/nx-s1-6040397/stuck-on-the-tarmac-without-information-travelers-share-their-ground-stop-experiences"
+            },
+            {
+              "name": "PBS NewsHour",
+              "title": "FAA grounds all flights at U.S. airports due to air traffic control communications problems",
+              "url": "https://www.pbs.org/newshour/nation/faa-grounds-all-flights-at-u-s-airports-due-to-air-traffic-control-communications-problems"
+            }
+          ]
+        },
+        {
+          "id": "top-us-1",
+          "headline": "Global Microsoft Outage Disrupts Key Services",
+          "summary": "A massive Microsoft outage left governments, airlines, and banks struggling for hours on Friday. The company says the issue was caused by a technical failure rather than a cyber-attack. Most services are now back online.",
+          "whyItMatters": "The outage affected essential services like healthcare and banking, showing how deeply people rely on specific computer systems for daily life.",
+          "explainer": "Microsoft provides software used by businesses, hospitals, and governments around the world to communicate and store data. When a central part of their system fails, many other services stop working as well. In this case, programs like Outlook and Teams went offline, which stopped many people from being able to work or conduct business. Some airports and banks also reported problems, which caused delays in travel and financial transactions. Microsoft apologized for the error and spent the day working to restore systems. They explained that their older email systems are not built to 'fail fast,' which means they do not always shut down safely when a problem starts, leading to longer recovery times.",
+          "keyTerms": [
+            {
+              "term": "Outage",
+              "definition": "A period when a service, usually electricity or internet, is not working."
+            }
+          ],
+          "disagreement": null,
+          "importance": 7,
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-13T111646Z_1024366302_RC2B6OA76YWD_RTRMADP_3_MICROSOFT-OUTAGES-1024x683.jpg",
+          "sources": [
+            {
+              "name": "PBS NewsHour",
+              "title": "Microsoft says services fully restored after global outage",
+              "url": "https://www.pbs.org/newshour/world/microsoft-says-services-fully-restored-after-global-outage"
+            },
+            {
+              "name": "PBS NewsHour",
+              "title": "News Wrap: Tanker crashes into river cruise boat in New Orleans",
+              "url": "https://www.pbs.org/newshour/show/news-wrap-tanker-crashes-into-river-cruise-boat-in-new-orleans"
+            },
+            {
+              "name": "PBS NewsHour",
+              "title": "What to know about Microsoft's outage and why it takes so long to restore email services",
+              "url": "https://www.pbs.org/newshour/science/what-to-know-about-microsofts-outage-and-why-it-takes-so-long-to-restore-email-services"
+            },
+            {
+              "name": "BBC News",
+              "title": "Microsoft outage 'stark reminder' of how much we rely on tech",
+              "url": "https://www.bbc.co.uk/news/articles/cxzd9171m51qo?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "BBC News",
+              "title": "Watch: How the Microsoft outage affected North America",
+              "url": "https://www.bbc.co.uk/news/videos/cmpqrzpq193do?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "BBC News",
+              "title": "Watch: How a server outage took down Microsoft Teams and Outlook",
+              "url": "https://www.bbc.co.uk/news/videos/cqzjr903n01po?at_medium=RSS&at_campaign=rss"
+            }
+          ]
+        },
+        {
+          "id": "top-us-2",
+          "headline": "Cruise Ship Sinks After Collision in New Orleans",
+          "summary": "A river cruise ship collided with a tanker on the Mississippi River on Friday. All 130 people on board were rescued, though 32 people were taken to the hospital. The cruise ship took on water and began to sink.",
+          "whyItMatters": "This incident caused injuries to passengers and disrupted river traffic, raising questions about safety rules for ships in busy waterways.",
+          "explainer": "The accident happened when a large tanker ship struck a smaller river cruise boat near New Orleans. The collision caused significant damage, forcing the cruise ship to take on water and eventually overturn. A quick rescue operation saved all passengers and crew members who were on the boat. Medical officials reported that while 32 people were injured, none of their injuries were considered life-threatening. The Mississippi River is a major path for shipping goods, so accidents here can have a large impact on local businesses and transport.",
+          "keyTerms": [],
+          "disagreement": null,
+          "importance": 6,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3089/live/3bf0cfe0-e027-11f1-a701-fddedf244c16.jpg",
+          "sources": [
+            {
+              "name": "BBC News",
+              "title": "Watch: Cruise ship overturns after collision with tanker in New Orleans",
+              "url": "https://www.bbc.co.uk/news/videos/ck4gn4y77m40o?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "BBC News",
+              "title": "'Miracle on Mississippi' - All passengers rescued after New Orleans cruise ship collision",
+              "url": "https://www.bbc.co.uk/news/articles/cw20xmy0m5yyo?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "PBS NewsHour",
+              "title": "All passengers and crew on New Orleans cruise ship survive crash with tanker on Mississippi River",
+              "url": "https://www.pbs.org/newshour/nation/rescues-operations-underway-in-new-orleans-after-tanker-hits-river-cruise-boat"
+            }
+          ]
+        },
+        {
+          "id": "top-us-3",
+          "headline": "Democrat Wins Alaska Governor's Race",
+          "summary": "Jonathan Kreiss-Tomkins was elected governor of Alaska, making him the first Democrat to hold the office since 1998. At 37, he is the youngest person to serve as the state's governor.",
+          "whyItMatters": "This is a major political change in a state that usually elects Republicans, signaling a potential shift in regional voter priorities.",
+          "explainer": "In the United States, a governor is the leader of a state government. Alaska is known for consistently voting for Republican candidates in statewide elections. The election of a Democrat is an unusual event for the state. Kreiss-Tomkins is a former member of the state legislature who focused his campaign on working with both political parties to solve problems. His win is part of a larger trend of Democrats gaining seats in offices that were previously held by Republicans in several other states.",
+          "keyTerms": [
+            {
+              "term": "Governor",
+              "definition": "The person elected to lead the government of a state."
+            }
+          ],
+          "disagreement": null,
+          "importance": 6,
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/AP26317758565404-1024x768.jpg",
+          "sources": [
+            {
+              "name": "PBS NewsHour",
+              "title": "Jonathan Kreiss-Tomkins becomes first Democrat since 1998 elected governor in Alaska",
+              "url": "https://www.pbs.org/newshour/politics/jonathan-kreiss-tomkins-becomes-first-democrat-since-1998-elected-governor-in-alaska"
+            },
+            {
+              "name": "NPR",
+              "title": "Democrat Jonathan Kreiss-Tomkins wins race for Alaska governor, replaces a Republican",
+              "url": "https://www.npr.org/2026/11/14/g-s1-151719/midterms-alaska-governor-kreiss-tomkins"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "politics-us",
+      "title": "Politics · United States",
+      "bricks": [
+        {
+          "id": "politics-us-0",
+          "headline": "Democrat Elected Governor of Alaska",
+          "summary": "Jonathan Kreiss-Tomkins has been elected governor of Alaska. He is the first Democrat to win the office in more than 20 years and the youngest person to hold the position in state history.",
+          "whyItMatters": "The change in leadership in a state that typically votes Republican marks a significant shift in local and regional governance.",
+          "explainer": "Jonathan Kreiss-Tomkins, a former state legislator, won the race for governor in Alaska. This victory is notable because Alaska has a long history of voting for Republican leaders, and a Democrat has not held this office since 1998. Kreiss-Tomkins ran a campaign focused on bipartisanship, which means working across party lines to find common ground. At 37 years old, he will become the youngest governor in Alaska's history. His win is part of a larger trend where Democrats have been gaining ground in several states that were previously under Republican control for many years, including Georgia, Ohio, and Texas.",
+          "keyTerms": [
+            {
+              "term": "Bipartisanship",
+              "definition": "When members of two different political parties work together to agree on laws or policy."
+            }
+          ],
+          "disagreement": null,
+          "importance": 7,
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/AP26317758565404-1024x768.jpg",
+          "sources": [
+            {
+              "name": "PBS NewsHour",
+              "title": "Jonathan Kreiss-Tomkins becomes first Democrat since 1998 elected governor in Alaska",
+              "url": "https://www.pbs.org/newshour/politics/jonathan-kreiss-tomkins-becomes-first-democrat-since-1998-elected-governor-in-alaska"
+            },
+            {
+              "name": "NPR",
+              "title": "Democrat Jonathan Kreiss-Tomkins wins race for Alaska governor, replaces a Republican",
+              "url": "https://www.npr.org/2026/11/14/g-s1-151719/midterms-alaska-governor-kreiss-tomkins"
+            },
+            {
+              "name": "Politico",
+              "title": "Democrat Jonathan Kreiss-Tomkins flips Alaska’s gubernatorial seat",
+              "url": "https://www.politico.com/news/2026/11/14/jonathan-kreiss-tomkins-wins-alaska-governor-01166573"
+            }
+          ]
+        },
+        {
+          "id": "politics-us-1",
+          "headline": "Senate Democrats Face Leadership Challenge",
+          "summary": "Senator Chris Van Hollen is challenging current Democratic leader Chuck Schumer for the top position in the U.S. Senate. This is the first major leadership challenge for Schumer since his party won back the majority.",
+          "whyItMatters": "The choice of Senate leader will determine how Democrats set their legislative priorities and work with the White House in the next Congress.",
+          "explainer": "Following recent midterm election results that gave Democrats control of the Senate, the party is deciding who will lead them. Senator Chuck Schumer has served as the party's leader, but now Senator Chris Van Hollen of Maryland has officially launched a bid to replace him. This creates an internal contest for the role of Senate Majority Leader. The debate highlights differing views within the Democratic party regarding the best way to handle their new majority and how to deliver on promises made to voters during their campaigns.",
+          "keyTerms": [
+            {
+              "term": "Senate Majority Leader",
+              "definition": "The official who leads the party with the most seats in the U.S. Senate and helps decide which bills get voted on."
+            }
+          ],
+          "disagreement": null,
+          "importance": 6,
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/partyvote-1024x576.jpg",
+          "sources": [
+            {
+              "name": "PBS NewsHour",
+              "title": "Does Van Hollen have enough support to beat Schumer in Senate leadership race?",
+              "url": "https://www.pbs.org/newshour/show/does-van-hollen-have-enough-support-to-beat-schumer-in-senate-leadership-race"
+            },
+            {
+              "name": "NPR",
+              "title": "With his challenge to Schumer, Van Hollen forces a debate over Democrats' mandate",
+              "url": "https://www.npr.org/2026/11/13/nx-s1-6040044/dem-senate-leader-fight"
+            },
+            {
+              "name": "PBS NewsHour",
+              "title": "Van Hollen to challenge Schumer for Senate Democratic leader",
+              "url": "https://www.pbs.org/newshour/politics/van-hollen-to-challenge-schumer-for-senate-democratic-leader"
+            }
+          ]
+        },
+        {
+          "id": "politics-us-2",
+          "headline": "ICE Reports Record Number of Deportations",
+          "summary": "The Department of Homeland Security says that immigrant arrests and deportations reached record highs in the last year. The administration has stated a goal of deporting one million people annually.",
+          "whyItMatters": "This shift in federal immigration enforcement affects the lives of immigrant families, legal proceedings, and how resources are used at the border.",
+          "explainer": "The Immigration and Customs Enforcement (ICE) agency reported that it arrested more than 491,000 people and deported over 483,000 people in the most recent fiscal year. These numbers represent the highest levels of enforcement in the agency's history. The current administration has announced that it aims to increase these efforts to reach a goal of one million deportations per year. This policy change is part of a broader government focus on stricter enforcement of immigration laws at the southern border and within the interior of the country.",
+          "keyTerms": [
+            {
+              "term": "ICE",
+              "definition": "A federal agency responsible for enforcing immigration laws and managing the detention and removal of people from the U.S."
+            },
+            {
+              "term": "Deportation",
+              "definition": "The act of sending a person back to their home country."
+            }
+          ],
+          "disagreement": null,
+          "importance": 6,
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/AP25301824627109-1024x683.jpg",
+          "sources": [
+            {
+              "name": "PBS NewsHour",
+              "title": "ICE touts record number of deportations in agency's history",
+              "url": "https://www.pbs.org/newshour/show/ice-touts-record-number-of-deportations-in-agencys-history"
+            }
+          ]
+        },
+        {
+          "id": "politics-us-3",
+          "headline": "FAA Grounds All U.S. Flights",
+          "summary": "The Federal Aviation Administration grounded all flights across the country on Friday due to a technical communications problem. Homeland Security officials confirmed there is no sign of an attack or national threat.",
+          "whyItMatters": "The ground stop caused major travel delays for thousands of people and highlighted how dependent the country is on stable air traffic systems.",
+          "explainer": "On Friday afternoon, the Federal Aviation Administration (FAA) issued an order to stop all flights nationwide. The order was caused by an issue with the systems used for communication between pilots and ground controllers. Because such a total shutdown is rare, concerns initially arose regarding safety. However, the Secretary of the Department of Homeland Security, Markwayne Mullin, stated there were no signs of a security attack or a threat against the United States. Normal operations were disrupted while the agency worked to resolve the technical errors.",
+          "keyTerms": [
+            {
+              "term": "FAA",
+              "definition": "The federal agency that oversees the safety of air travel in the United States."
+            },
+            {
+              "term": "Ground stop",
+              "definition": "A decision to prevent airplanes from taking off or landing at airports for safety or technical reasons."
+            }
+          ],
+          "disagreement": null,
+          "importance": 5,
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-13T220826Z_1936782908_RC2ANOAIHVCN_RTRMADP_3_USA-TRUMP-1024x683.jpg",
+          "sources": [
+            {
+              "name": "PBS NewsHour",
+              "title": "WATCH: Homeland Security Secretary Mullin says FAA flight stoppage 'isn't another 9/11'",
+              "url": "https://www.pbs.org/newshour/nation/watch-homeland-security-secretary-mullin-says-faa-flight-stoppage-isnt-another-9-11"
+            },
+            {
+              "name": "NPR",
+              "title": "DHS head Markwayne Mullin says there is not a threat to the U.S. amid FAA ground stop",
+              "url": "https://www.npr.org/2026/11/13/nx-s1-6040418/dhs-head-markwayne-mullin-says-there-is-not-a-threat-to-the-u-s-amid-faa-ground-stop"
+            }
+          ]
+        },
+        {
+          "id": "politics-us-4",
+          "headline": "Court Rules Against Withholding Highway Funds",
+          "summary": "A federal appeals court ruled that the U.S. Transportation Department was wrong to withhold nearly $74 million in highway funds from New York. The money was withheld after the state refused to cancel licenses for some immigrant drivers.",
+          "whyItMatters": "This decision limits the power of federal agencies to punish states by withholding transportation money, which states use to repair and maintain public roads.",
+          "explainer": "The conflict began when a government audit suggested that New York state had issued commercial driver's licenses to immigrants without following proper procedures. The U.S. Transportation Department responded by holding back $74 million meant for highway projects in the state, demanding that New York revoke those licenses. New York refused to comply with the request. A federal appeals court reviewed the case and decided that the federal government did not have the legal authority to use highway funding as a way to force the state to revoke the licenses.",
+          "keyTerms": [],
+          "disagreement": null,
+          "importance": 4,
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-07-31T165716Z_1170387382_RC24PMA11GAV_RTRMADP_3_USA-TRUMP-1024x683.jpg",
+          "sources": [
+            {
+              "name": "PBS NewsHour",
+              "title": "U.S. wrongly withheld New York highway funds over immigrant licenses, appeals court rules",
+              "url": "https://www.pbs.org/newshour/politics/u-s-wrongly-withheld-new-york-highway-funds-over-immigrant-licenses-appeals-court-rules"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "economy-us",
+      "title": "Economy · United States",
+      "bricks": [
+        {
+          "id": "economy-us-0",
+          "headline": "Nvidia CEO Resigns Amid Reports of Spy Scandal",
+          "summary": "Nvidia CEO Jensen Huang resigned after reports of an affair with a person linked to a Chinese spy. This has caused a massive drop in Nvidia's stock value and triggered political finger-pointing regarding technology exports to China.",
+          "whyItMatters": "Nvidia is a key player in artificial intelligence, and the company's instability can affect global tech markets and retirement accounts tied to those stocks.",
+          "explainer": "Jensen Huang resigned as the CEO of Nvidia, a leading chipmaker, following public reports of an affair with a woman alleged to be a Chinese spy. This scandal has led to significant volatility in the stock market, as Nvidia's value has fallen by $1.7 trillion. In Washington, top government officials are blaming each other for failing to prevent advanced Nvidia chips from reaching China. The leadership change has left investors wondering about the company's future and whether competitors might now gain an advantage in the fast-moving artificial intelligence industry.",
+          "keyTerms": [
+            {
+              "term": "CEO",
+              "definition": "The highest-ranking person in a company who makes major decisions."
+            },
+            {
+              "term": "Stock",
+              "definition": "A share of ownership in a company that people buy and sell."
+            },
+            {
+              "term": "Export",
+              "definition": "To send goods or services to another country for sale."
+            }
+          ],
+          "disagreement": null,
+          "importance": 8,
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-08-27T185336Z_1493077900_RC267NAYKMJ8_RTRMADP_3_USA-TRUMP-KENNEDY-CENTER-COURT-1024x683.jpg",
+          "sources": [
+            {
+              "name": "CNBC",
+              "title": "Trump doesn’t plan to raise Nvidia, spy issue during China trip: U.S. officials",
+              "url": "https://www.cnbc.com/2026/11/13/trump-nvidia-huang-china.html"
+            },
+            {
+              "name": "CNBC",
+              "title": "Analysis: Companies love a ‘rockstar’ CEO. Until they depend on one",
+              "url": "https://www.cnbc.com/2026/11/14/nvidia-jensen-huang-ceo-succession-risk.html"
+            },
+            {
+              "name": "CNBC",
+              "title": "Nvidia is done with Jensen Huang. The fallout in Washington is just beginning",
+              "url": "https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-washington-congress.html"
+            },
+            {
+              "name": "PBS NewsHour",
+              "title": "Bessent accuses Lutnick of failing to prevent China from obtaining Nvidia chips",
+              "url": "https://www.pbs.org/newshour/show/bessent-accuses-lutnick-of-failing-to-prevent-china-from-obtaining-nvidia-chips"
+            },
+            {
+              "name": "CNBC",
+              "title": "Lutnick faces questions over Nvidia spy scandal. His sons' firm has deep ties to the chipmaker",
+              "url": "https://www.cnbc.com/2026/11/13/howard-lutnick-nvidia-jensen-huang-china-cantor-fitzgerald.html"
+            },
+            {
+              "name": "CNBC",
+              "title": "Nvidia stock suffers longest weekly losing streak since 2012 as market value sinks by $1.7 trillion",
+              "url": "https://www.cnbc.com/2026/11/13/nvidia-stock-jensen-affair-ai.html"
+            },
+            {
+              "name": "NPR",
+              "title": "Is there an opening for Nvidia's competitors, now that Jensen Huang is out?",
+              "url": "https://www.npr.org/2026/11/13/nx-s1-6040264/is-there-an-opening-for-nvidias-competitors-now-that-jensen-huang-is-out"
+            },
+            {
+              "name": "CNBC",
+              "title": "After Jensen Huang’s exit, what top financial advisors are doing with Nvidia: Exclusive CNBC poll",
+              "url": "https://www.cnbc.com/2026/11/13/nvidia-stock-advisors-jensen-huang-exit-exclusive-poll.html"
+            },
+            {
+              "name": "CNBC",
+              "title": "A trading strategy to ride out the Nvidia uncertainty and generate income in the process",
+              "url": "https://www.cnbc.com/2026/11/13/a-trading-strategy-to-ride-out-the-nvidia-uncertainty-and-generate-income-in-the-process.html"
+            },
+            {
+              "name": "PBS NewsHour",
+              "title": "Bessent blames Lutnick's Commerce Department for not restricting Nvidia chips to China",
+              "url": "https://www.pbs.org/newshour/politics/bessent-blames-lutnicks-commerce-department-for-not-restricting-nvidia-chips-to-china"
+            },
+            {
+              "name": "CNBC",
+              "title": "Bessent blames Lutnick’s Commerce as he slams Nvidia chip ‘leakage’ to China",
+              "url": "https://www.cnbc.com/2026/11/13/us-inflation-outlook-federal-reserve-rate-hike.html"
+            }
+          ]
+        },
+        {
+          "id": "economy-us-1",
+          "headline": "U.S. Home Sales Drop to 16-Year Low",
+          "summary": "Existing home sales in the U.S. fell to their lowest level in over 16 years. Reports indicate a significant decrease in homes sold last month compared to the same time last year.",
+          "whyItMatters": "This decline suggests that many Americans are finding it harder to buy homes due to high costs, which impacts family wealth and moving plans.",
+          "explainer": "The housing market is seeing a major slowdown, with existing home sales reaching their lowest point since 2008. The National Association of Realtors reports that sales dropped 8.8% in October compared to the previous year. This indicates that rising home prices and other economic pressures are making it difficult for many people to purchase a home. When fewer homes are sold, it can signal deeper challenges in the economy for those looking to move or build home equity.",
+          "keyTerms": [
+            {
+              "term": "Existing home sales",
+              "definition": "The number of homes that have previously been lived in and are now being resold."
+            },
+            {
+              "term": "Equity",
+              "definition": "The value of a home minus the amount of money still owed on a bank loan."
+            }
+          ],
+          "disagreement": null,
+          "importance": 7,
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2014-03-20T120000Z_1347791437_GM1EA3L0CX801_RTRMADP_3_USA-HOUSING-AFFORDABILITY-1024x683.jpg",
+          "sources": [
+            {
+              "name": "PBS NewsHour",
+              "title": "Increasing cost of housing squeezes Americans out of market",
+              "url": "https://www.pbs.org/newshour/show/increasing-cost-of-housing-squeezes-americans-out-of-market"
+            }
+          ]
+        },
+        {
+          "id": "economy-us-2",
+          "headline": "Wholesale Prices Reach Highest Level in Four Years",
+          "summary": "Wholesale prices rose 0.3% in October, bringing the yearly rate to 6.5%. This is the highest level seen in nearly four years for the producer price index.",
+          "whyItMatters": "When businesses pay more for goods, they often pass those extra costs on to shoppers in the form of higher retail prices.",
+          "explainer": "The producer price index measures the prices that businesses pay for goods and services. A rise of 6.5% over the year shows that the cost of doing business is increasing. When these costs go up for companies, they often raise their prices for consumers to keep their profits. This can contribute to inflation, making everyday items more expensive for the average family.",
+          "keyTerms": [
+            {
+              "term": "Wholesale prices",
+              "definition": "The prices businesses pay to buy products in large amounts from manufacturers."
+            },
+            {
+              "term": "Inflation",
+              "definition": "A general increase in prices and a drop in the value of money."
+            }
+          ],
+          "disagreement": null,
+          "importance": 6,
+          "image": null,
+          "sources": [
+            {
+              "name": "CNBC",
+              "title": "Wholesale prices rose 0.3% in October, putting annual rate at 6.5%, the highest in nearly four years",
+              "url": "https://www.cnbc.com/2026/11/13/ppi-inflation-report-october-2026.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-top",
+      "title": "Sports · Top Headlines",
+      "bricks": [
+        {
+          "id": "sports-top-0",
+          "headline": "Wales Beats New Zealand for First Time in 73 Years",
+          "summary": "Wales won a rugby match against New Zealand with a score of 35-28. This is the first time Wales has defeated this opponent since 1953.",
+          "whyItMatters": "This historic win is a significant result for rugby fans and marks a major change in the competitive landscape of the sport.",
+          "explainer": "Wales and New Zealand are two of the most prominent nations in international rugby. New Zealand's team, known as the All Blacks, is historically one of the most successful sports teams in the world, having dominated international rugby for decades. Wales has struggled to beat them for over 70 years, making this 35-28 victory a massive upset and a major milestone in Welsh rugby history. The result is being celebrated across Wales as a rare and significant accomplishment in the sport.",
+          "keyTerms": [
+            {
+              "term": "Rugby",
+              "definition": "A team sport played with an oval ball where players run, pass, and kick to score points."
+            }
+          ],
+          "disagreement": null,
+          "importance": 6,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c362/live/81cafde0-e047-11f1-93e1-3b657b665bcf.jpg",
+          "sources": [
+            {
+              "name": "BBC Sport",
+              "title": "Magnificent Wales beat New Zealand for first time since 1953",
+              "url": "https://www.bbc.co.uk/sport/rugby-union/articles/c63dgev0p8pgo?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "BBC Sport",
+              "title": "Highlights: Wales beat New Zealand for first time in 73 years",
+              "url": "https://www.bbc.co.uk/sport/rugby-union/videos/ckdd10y25mm1o?at_medium=RSS&at_campaign=rss"
+            }
+          ]
+        },
+        {
+          "id": "sports-top-1",
+          "headline": "England Wins Second Straight Wheelchair Rugby League Title",
+          "summary": "England defeated France 50-38 to win the wheelchair Rugby League World Cup. This victory marks the third time England has claimed the world title.",
+          "whyItMatters": "This win cements England's status as the top team in international wheelchair rugby league.",
+          "explainer": "The wheelchair Rugby League World Cup is the premier international competition for the sport. By beating France in the final, England successfully defended their championship, making them back-to-back world title holders. The final score of 50-38 highlights a high-scoring and competitive game. This win is a major achievement for the England team and showcases their continued growth and dominance in the sport.",
+          "keyTerms": [
+            {
+              "term": "Wheelchair Rugby League",
+              "definition": "A version of rugby league played in wheelchairs that follows most of the same rules as the traditional game."
+            }
+          ],
+          "disagreement": null,
+          "importance": 5,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a1c3/live/3a68bc40-df56-11f1-a701-fddedf244c16.jpg",
+          "sources": [
+            {
+              "name": "BBC Sport",
+              "title": "England beat France to become back-to-back world champions",
+              "url": "https://www.bbc.co.uk/sport/rugby-league/videos/cqy4jdxven1go?at_medium=RSS&at_campaign=rss"
+            }
+          ]
+        },
+        {
+          "id": "sports-top-2",
+          "headline": "Chelsea Moves to Top of Women's Super League",
+          "summary": "Chelsea defeated Manchester City 1-0 to take first place in the Women's Super League. Manchester City played with one fewer player for much of the second half.",
+          "whyItMatters": "This result changes the standings in the professional league and influences which team is currently leading the race for the season title.",
+          "explainer": "The Women's Super League is the top division of women's football in England. Matches between top teams like Chelsea and Manchester City are crucial for determining the final league champion. Because Manchester City had a player sent off for a rule violation, they had to finish the game with 10 players instead of the usual 11, which made it harder for them to defend against Chelsea's attack.",
+          "keyTerms": [],
+          "disagreement": null,
+          "importance": 5,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/47ee/live/76b3b1a0-e041-11f1-93e1-3b657b665bcf.jpg",
+          "sources": [
+            {
+              "name": "BBC Sport",
+              "title": "Chelsea go top with 1-0 win against Man City",
+              "url": "https://www.bbc.co.uk/sport/football/videos/cm702wwpj9keo?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "BBC Sport",
+              "title": "'I just play where the manager tells me to play!' - Walsh",
+              "url": "https://www.bbc.co.uk/sport/football/videos/c6d91n2x0e7ko?at_medium=RSS&at_campaign=rss"
+            }
+          ]
+        },
+        {
+          "id": "sports-top-3",
+          "headline": "France Narrowly Defeats South Africa in Rugby",
+          "summary": "France beat South Africa 21-19 in a close rugby match. The win strengthens France's position at the top of the northern hemisphere standings in the Nations Championship.",
+          "whyItMatters": "This victory keeps France in a strong position to finish as the top-ranked team in their regional competition.",
+          "explainer": "The Nations Championship is a rugby competition featuring top international teams. France and South Africa are both top-tier rugby nations. A two-point margin in a 21-19 game shows how evenly matched the teams were throughout the contest. By winning, France has now secured four victories out of their five games, moving them closer to winning the tournament's northern hemisphere group.",
+          "keyTerms": [],
+          "disagreement": null,
+          "importance": 5,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8a01/live/d41f1040-dfbb-11f1-93e1-3b657b665bcf.jpg",
+          "sources": [
+            {
+              "name": "BBC Sport",
+              "title": "France edge past South Africa after thriller in Nations Championship",
+              "url": "https://www.bbc.co.uk/sport/rugby-union/videos/c6eq4npqy7e0o?at_medium=RSS&at_campaign=rss"
+            }
+          ]
+        },
+        {
+          "id": "sports-top-4",
+          "headline": "Sabalenka Eliminated from WTA Finals by Svitolina",
+          "summary": "Aryna Sabalenka's season ended after a loss to Elina Svitolina. The defeat prevents the former world number one from advancing to the knockout stage of the tournament.",
+          "whyItMatters": "The loss marks the end of the competitive season for one of the top-ranked players in women's professional tennis.",
+          "explainer": "The WTA Finals is an end-of-season tournament for the highest-ranked women's tennis players in the world. Players participate in group stages before moving to a knockout bracket. Elina Svitolina's win over Sabalenka means Sabalenka will not play further in the tournament, officially concluding her year on the professional tennis tour.",
+          "keyTerms": [
+            {
+              "term": "WTA",
+              "definition": "The Women's Tennis Association is the main organization for professional women's tennis worldwide."
+            }
+          ],
+          "disagreement": null,
+          "importance": 5,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/eab2/live/4631dfd0-dfbe-11f1-a785-cd5ce5e90c71.jpg",
+          "sources": [
+            {
+              "name": "BBC Sport",
+              "title": "Sabalenka's season ended by Svitolina at WTA Finals",
+              "url": "https://www.bbc.co.uk/sport/tennis/articles/cw30gl912vq9o?at_medium=RSS&at_campaign=rss"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-nfl",
+      "title": "Sports · NFL",
+      "bricks": [
+        {
+          "id": "sports-nfl-0",
+          "headline": "Vikings Reacquire Quarterback Kirk Cousins",
+          "summary": "The Minnesota Vikings have reacquired quarterback Kirk Cousins. Coach Kevin O'Connell says Cousins will start in the upcoming game against the Packers.",
+          "whyItMatters": "The change affects the Vikings' performance on the field and the team's long-term strategy at the quarterback position.",
+          "explainer": "The Minnesota Vikings have brought quarterback Kirk Cousins back to the team. This move comes after initial discussions between the Vikings and the Raiders. Head coach Kevin O'Connell stated that Cousins has adjusted well to the team's offensive playbook in a short amount of time. The team will start him in their game against the Green Bay Packers. This decision leaves questions about the team's future plans for the position, as they are now looking for short-term relief while considering their long-term goals for a franchise quarterback.",
+          "keyTerms": [
+            {
+              "term": "Quarterback",
+              "definition": "The player who leads the team's offense and throws the football."
+            },
+            {
+              "term": "Reacquire",
+              "definition": "To get something or someone back that was previously part of the group."
+            }
+          ],
+          "disagreement": null,
+          "importance": 5,
+          "image": "https://a.espncdn.com/photo/2026/1110/r1743984_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Sources: Vikings made initial Kirk Cousins trade call to Raiders before MNF",
+              "url": "https://www.espn.com/nfl/story/_/id/50479874/sources-vikings-first-called-kirk-cousins-mnf"
+            },
+            {
+              "name": "ESPN",
+              "title": "Despite Cousins trade, are Vikings back to square one at QB?",
+              "url": "https://www.espn.com/nfl/story/_/id/50472099/vikings-kirk-cousins-trade-contract"
+            },
+            {
+              "name": "ESPN",
+              "title": "Vikings to start reacquired QB Kirk Cousins vs. Packers",
+              "url": "https://www.espn.com/nfl/story/_/id/50474753/vikings-start-reacquired-qb-kirk-cousins-vs-packers"
+            }
+          ]
+        },
+        {
+          "id": "sports-nfl-1",
+          "headline": "Eagles Release Wide Receiver Hollywood Brown",
+          "summary": "The Philadelphia Eagles have released wide receiver Hollywood Brown. The team granted the player's request to leave the organization.",
+          "whyItMatters": "This roster change impacts the Eagles' receiving options and Brown's career opportunities for the remainder of the season.",
+          "explainer": "Wide receiver Hollywood Brown is no longer with the Philadelphia Eagles. Brown had played sparingly during the first half of the season and requested his release from the team. The Eagles agreed to this request, making him a free agent available to sign with other NFL organizations. This move shifts the depth chart for Philadelphia's offense as they proceed with the rest of the season.",
+          "keyTerms": [
+            {
+              "term": "Wide Receiver",
+              "definition": "An offensive player whose main job is to catch passes thrown by the quarterback."
+            },
+            {
+              "term": "Free Agent",
+              "definition": "A player who does not have a contract with any team and is free to sign with a new one."
+            }
+          ],
+          "disagreement": null,
+          "importance": 3,
+          "image": "https://a.espncdn.com/photo/2026/1113/r1745388_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Eagles release wide receiver Hollywood Brown per request",
+              "url": "https://www.espn.com/nfl/story/_/id/50473514/sources-eagles-release-wr-hollywood-brown-per-request"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-nba",
+      "title": "Sports · NBA",
+      "bricks": [
+        {
+          "id": "sports-nba-0",
+          "headline": "Spurs Beat Warriors in Large Win",
+          "summary": "The San Antonio Spurs started their game with 18 points in a row. They beat the Golden State Warriors 123-85. Warriors rookie Yaxel Lendeborg said he felt flustered after missing many shots.",
+          "whyItMatters": "This win continues an 11-game winning streak for the Spurs, changing the standings in the Western Conference.",
+          "explainer": "The San Antonio Spurs dominated the Golden State Warriors, leading to a lopsided score of 123-85. The game began with an impressive 18-0 run by the Spurs, setting the tone for their 11th consecutive victory. For the Warriors, the game proved difficult as they played without their star player, Stephen Curry. Rookie Yaxel Lendeborg struggled to take on the lead role, missing nearly all his shot attempts and expressing frustration after the game. The result significantly impacts the current standing of both teams in the NBA's Western Conference as the season progresses.",
+          "keyTerms": [
+            {
+              "term": "Rookie",
+              "definition": "A player who is in their very first season of professional play."
+            },
+            {
+              "term": "Run",
+              "definition": "A stretch of time during a game where one team scores many points while the other team scores none."
+            }
+          ],
+          "disagreement": null,
+          "importance": 5,
+          "image": "https://a.espncdn.com/photo/2026/1114/r1745584_600x400_3-2.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Victor Wembanyama, Spurs open on 18-0 run, rout Warriors for 11th straight win",
+              "url": "https://www.espn.com/nba/story/_/id/50478136/victor-wembanyama-spurs-rout-warriors-11th-straight-win"
+            },
+            {
+              "name": "ESPN",
+              "title": "Warriors' Yaxel Lendeborg (1-for-13) 'flustered' in blowout loss to Spurs",
+              "url": "https://www.espn.com/nba/story/_/id/50478016/warriors-yaxel-lendeborg-struggles-blowout-loss-spurs-says-was-flustered-entire-game"
+            }
+          ]
+        },
+        {
+          "id": "sports-nba-1",
+          "headline": "Clippers Defeat Thunder in Close Game",
+          "summary": "The Los Angeles Clippers beat the Oklahoma City Thunder 113-112. The Thunder have now lost three games in a row. Brook Lopez and Darius Garland led the Clippers to the win.",
+          "whyItMatters": "The loss marks a season-high three-game losing streak for the Oklahoma City Thunder.",
+          "explainer": "In a closely contested NBA Cup game, the Los Angeles Clippers edged out the Oklahoma City Thunder with a final score of 113-112. Despite a strong 40-point performance from Shai Gilgeous-Alexander for the Thunder, the team could not hold off the Clippers in the final minutes. Brook Lopez contributed 26 points and Darius Garland added 24 to secure the win for Los Angeles. This loss is notable for the Thunder, who are currently playing without some of their roster and have now dropped three consecutive games.",
+          "keyTerms": [
+            {
+              "term": "NBA Cup",
+              "definition": "A special tournament held by the NBA during the regular season."
+            }
+          ],
+          "disagreement": null,
+          "importance": 4,
+          "image": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909304.png?templateId=espn.applewatch.awayhome.1",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Clippers overcome 40 points from SGA and use late run to slip past Thunder 113-112",
+              "url": "http://www.espn.com/nba/recap?gameId=401909304"
+            }
+          ]
+        },
+        {
+          "id": "sports-nba-2",
+          "headline": "Heat Win Against Cavs",
+          "summary": "The Miami Heat defeated the Cleveland Cavaliers in their latest game. Giannis Antetokounmpo and Bam Adebayo both scored 37 points. This marks the Heat's sixth win in their last eight games.",
+          "whyItMatters": "The Heat are building momentum with a strong run of wins that moves them up the standings.",
+          "explainer": "The Miami Heat secured a victory over the Cleveland Cavaliers behind high-scoring performances from Giannis Antetokounmpo and Bam Adebayo. Each player scored 37 points, powering the offense to a win. This result is part of a successful stretch for Miami, which has now won six of its last eight games. The performance shows the team's potential as they continue to compete through the regular season schedule.",
+          "keyTerms": [],
+          "disagreement": null,
+          "importance": 4,
+          "image": "https://a.espncdn.com/photo/2026/1114/r1745581_600x400_3-2.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Giannis Antetokounmpo, Bam Adebayo help showcase Heat's potential in win vs. Cavs",
+              "url": "https://www.espn.com/nba/story/_/id/50477867/giannis-antetokounmpo-bam-adebayo-shine-heat-take-cavs"
+            }
+          ]
+        },
+        {
+          "id": "sports-nba-3",
+          "headline": "Josh Hart Benched After Scoreless Game",
+          "summary": "Knicks player Josh Hart did not score any points in a loss to the Pacers. He was benched for the final quarter of the game. Hart said he felt he was not in a good headspace.",
+          "whyItMatters": "Performance issues for key players can affect a team's ability to win close games like those in the NBA Cup.",
+          "explainer": "New York Knicks player Josh Hart faced a difficult performance during an NBA Cup loss to the Indiana Pacers. Hart finished the game with zero points and was held out of the lineup for the entire fourth quarter. Following the 106-104 defeat, Hart spoke to the media about his mental state, noting that he was not feeling right during the contest. The outcome of the game was a close one, and his limited contribution played a role in the final result.",
+          "keyTerms": [],
+          "disagreement": null,
+          "importance": 3,
+          "image": "https://a.espncdn.com/photo/2026/0522/r1661789_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Josh Hart searching for answers after zero-point outing in Knicks loss",
+              "url": "https://www.espn.com/nba/story/_/id/50480516/josh-hart-seeking-answers-zero-points-knicks-loss"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-wnba",
+      "title": "Sports · WNBA",
+      "bricks": [
+        {
+          "id": "sports-wnba-0",
+          "headline": "2027 WNBA Season Start and End Dates Set",
+          "summary": "The 2027 WNBA season is set to begin on May 7. It will end no later than October 24.",
+          "whyItMatters": "This schedule sets the timeline for when fans can watch games and when players will be on the court.",
+          "explainer": "Sources told ESPN that the Women's National Basketball Association has planned out the calendar for its 2027 season. The opening tip-off is slated for May 7. The league expects to finish the season by October 24 at the latest. This helps teams and players plan their training and rest time.",
+          "keyTerms": [],
+          "disagreement": null,
+          "importance": 3,
+          "image": "https://a.espncdn.com/photo/2025/1119/r1577498_600x600_1-1.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Sources: 2027 WNBA season expected to start May 7, end no later than Oct. 24",
+              "url": "https://www.espn.com/wnba/story/_/id/50466261/sources-2027-wnba-season-start-7"
+            }
+          ]
+        },
+        {
+          "id": "sports-wnba-1",
+          "headline": "Top Prospects Named Ahead of WNBA Draft Lottery",
+          "summary": "Teams are waiting for the draft lottery to see their pick order. Players like JuJu Watkins are projected as top picks.",
+          "whyItMatters": "The draft order helps shape the future of professional basketball teams by determining which rising stars they can add.",
+          "explainer": "Ahead of the WNBA draft lottery, analysts have shared early predictions for player selections. JuJu Watkins, Madison Booker, and Hannah Hidalgo are projected as the top picks. The lottery event determines the exact order in which professional teams will choose new players for their rosters.",
+          "keyTerms": [
+            {
+              "term": "Draft Lottery",
+              "definition": "An event where sports teams find out the order in which they can pick new players."
+            }
+          ],
+          "disagreement": null,
+          "importance": 3,
+          "image": "https://a.espncdn.com/photo/2025/1119/r1577497_608x342_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Where to watch 2027 WNBA draft lottery",
+              "url": "https://www.espn.com/wnba/story/_/id/50471389/watch-2027-wnba-draft-lottery"
+            },
+            {
+              "name": "ESPN",
+              "title": "JuJu Watkins projected No. 1 WNBA pick in latest 2027 mock draft",
+              "url": "https://www.espn.com/wnba/story/_/id/50463130/wnba-mock-draft-2027-draft-lottery-projections"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-mlb",
+      "title": "Sports · MLB",
+      "bricks": [
+        {
+          "id": "sports-mlb-0",
+          "headline": "MLB Announces Major Award Winners",
+          "summary": "Major League Baseball named its top players and managers for the season. Pete Crow-Armstrong and Yordan Alvarez won MVP honors. Jacob Misiorowski and Cam Schlittler won the Cy Young pitching awards.",
+          "whyItMatters": "These awards honor the best players and managers of the season, setting high expectations for their teams and careers next year.",
+          "explainer": "Baseball writers voted to give out the top yearly awards in Major League Baseball. Cubs star Pete Crow-Armstrong and Astros star Yordan Alvarez won the Most Valuable Player awards after great seasons. On the pitching side, Jacob Misiorowski of the Brewers and Cam Schlittler of the Yankees won the Cy Young awards for being the best pitchers in their leagues. Both pitchers won in unanimous votes, meaning every writer picked them first. Meanwhile, Brewers manager Pat Murphy won his third straight National League Manager of the Year award, and Will Venable of the White Sox won the American League honor.",
+          "keyTerms": [
+            {
+              "term": "MVP",
+              "definition": "Stands for Most Valuable Player, an award given to the best player in the league."
+            },
+            {
+              "term": "Cy Young Award",
+              "definition": "An annual award given to the best pitchers in each league."
+            }
+          ],
+          "disagreement": null,
+          "importance": 6,
+          "image": "https://a.espncdn.com/photo/2026/0816/r1702680_600x400_3-2.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Cubs' Pete Crow-Armstrong, Astros' Yordan Alvarez unanimous MVP winners",
+              "url": "https://www.espn.com/mlb/story/_/id/50466186/cubs-pete-crow-armstrong-astros-yordan-alvarez-win-mvp-honors"
+            },
+            {
+              "name": "ESPN",
+              "title": "Brewers' Misiorowski, Yanks' Schlittler crowned unanimous Cy Young winners",
+              "url": "https://www.espn.com/mlb/story/_/id/50456772/brewers-misiorowski-yanks-schlittler-unanimous-cy-young-winners"
+            },
+            {
+              "name": "ESPN",
+              "title": "Brewers' Murphy 3-peats as top NL manager; White Sox's Venable wins AL honors",
+              "url": "https://www.espn.com/mlb/story/_/id/50447635/brewers-pat-murphy-white-sox-venable-win-top-manager-awards"
+            }
+          ]
+        },
+        {
+          "id": "sports-mlb-1",
+          "headline": "MLB Teams Sign Free Agents to New Contracts",
+          "summary": "Major League Baseball teams are busy signing players for the upcoming seasons. Deals include multi-year contracts for Jake Bauers and Evan Phillips, plus one-year deals for other players.",
+          "whyItMatters": "Player signings change team rosters and payrolls, directly affecting how competitive local teams will be when the new season begins.",
+          "explainer": "Professional baseball teams are shaping their rosters for the upcoming season by signing players to new contracts. First baseman Jake Bauers agreed to a four-year, $58 million deal with the Red Sox. Relief pitcher Evan Phillips joined the Braves on a three-year, $35 million contract. Other teams made smaller moves, such as the Nationals agreeing to a four-year deal with outfielder Jacob Young, the Padres adding right-hander Ryan Weiss, and the Tigers signing reliever Emilio Pagan. These moves give players financial security while helping clubs plan for the future.",
+          "keyTerms": [
+            {
+              "term": "free agent",
+              "definition": "A player whose old contract has ended and is free to sign with any team."
+            }
+          ],
+          "disagreement": null,
+          "importance": 5,
+          "image": "https://a.espncdn.com/photo/2026/0729/r1694923_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Sources: Jake Bauers, Red Sox agree to 4-year, $58M contract",
+              "url": "https://www.espn.com/mlb/story/_/id/50473029/sources-jake-bauers-red-sox-agree-4-year-58m-deal"
+            },
+            {
+              "name": "ESPN",
+              "title": "Braves, reliever Evan Phillips agree to 3-year, $35M deal",
+              "url": "https://www.espn.com/mlb/story/_/id/50464197/braves-reliever-evan-phillips-agree-3-year-35m-deal"
+            },
+            {
+              "name": "ESPN",
+              "title": "Nationals, OF Jacob Young agree on 4-year deal with '31 option",
+              "url": "https://www.espn.com/mlb/story/_/id/50455463/nationals-jacob-young-agree-4-year-deal-31-option"
+            },
+            {
+              "name": "ESPN",
+              "title": "RHP Ryan Weiss agrees to $1.85M deal with Padres, sources say",
+              "url": "https://www.espn.com/mlb/story/_/id/50449822/rhp-ryan-weiss-agrees-185m-deal-padres-sources-say"
+            },
+            {
+              "name": "ESPN",
+              "title": "Source: Tigers agree to 1-year deal with reliever Emilio Pagan",
+              "url": "https://www.espn.com/mlb/story/_/id/50450508/source-tigers-agree-1-year-reliever-emilio-pagan"
+            }
+          ]
+        },
+        {
+          "id": "sports-mlb-2",
+          "headline": "Former MLB Star Bob Boone Dies at 78",
+          "summary": "Bob Boone, a star catcher who won seven Gold Glove awards and played on a World Series championship team, has died at age 78. He was part of baseball's first three-generation family.",
+          "whyItMatters": "This marks the loss of a historic figure whose long career and family legacy left a lasting mark on professional baseball.",
+          "explainer": "Bob Boone, a former catcher who spent many years in Major League Baseball, has died at age 78. He was best known for his defensive skills, winning seven Gold Glove awards, and helping the Philadelphia Phillies win their first World Series title. He was also part of baseball history as part of the sport's first three-generation family, as his father and sons also played in the major leagues.",
+          "keyTerms": [
+            {
+              "term": "Gold Glove",
+              "definition": "An award given each year to the best defensive players at each position."
+            }
+          ],
+          "disagreement": null,
+          "importance": 5,
+          "image": "https://a.espncdn.com/photo/2026/1110/r1744049_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Bob Boone, part of MLB's 1st 3-generation family, dies at 78",
+              "url": "https://www.espn.com/mlb/story/_/id/50442954/bob-boone-part-mlb-1st-3-generation-family-dies-78"
+            }
+          ]
+        },
+        {
+          "id": "sports-mlb-3",
+          "headline": "Blue Jays Player Apologizes for Social Media Posts",
+          "summary": "Toronto Blue Jays outfielder Anthony Santander apologized for sharing anti-Muslim posts on social media. He stated that his actions caused hurt and fell short of his own values.",
+          "whyItMatters": "Public actions by athletes can significantly impact fans and team culture, leading players to issue public apologies when they cause offense.",
+          "explainer": "Toronto Blue Jays outfielder Anthony Santander released an apology after sharing anti-Muslim posts on his social media accounts. The baseball player stated that his actions caused hurt to others and did not match his personal values. Sports teams and players often face public scrutiny for their off-field behavior and statements made online.",
+          "keyTerms": [],
+          "disagreement": null,
+          "importance": 4,
+          "image": "https://a.espncdn.com/photo/2025/0923/r1550160_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Blue Jays' Anthony Santander apologizes for sharing anti-Muslim posts",
+              "url": "https://www.espn.com/mlb/story/_/id/50474604/blue-jays-anthony-santander-apologizes-anti-muslim-posts"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-nhl",
+      "title": "Sports · NHL",
+      "bricks": [
+        {
+          "id": "sports-nhl-0",
+          "headline": "Jordan Staal returns for Hurricanes in Finland",
+          "summary": "Hurricanes captain Jordan Staal is ready to play again. He comes off the injured reserve list for a game in Finland.",
+          "whyItMatters": "Fans will see their team captain back on the ice as the Hurricanes play in Helsinki.",
+          "explainer": "The Carolina Hurricanes have activated team captain Jordan Staal from the injured reserve list. He is set to play in the team's second game in Helsinki, Finland. The Hurricanes will face the Seattle Kraken on Saturday. Being activated means a player is healthy enough to return to game action after missing time with an injury. The team hopes his return will help them succeed abroad.",
+          "keyTerms": [
+            {
+              "term": "Injured reserve",
+              "definition": "A list where sports teams put hurt players so they can use new players on their active roster."
+            }
+          ],
+          "disagreement": null,
+          "importance": 4,
+          "image": "https://a.espncdn.com/photo/2025/0519/r1495126_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Hurricanes activate Jordan Staal, as captain set to play in second Finland game",
+              "url": "https://www.espn.com/nhl/story/_/id/50479826/hurricanes-activate-jordan-staal-injured-reserve"
+            }
+          ]
+        },
+        {
+          "id": "sports-nhl-1",
+          "headline": "Kevin Fiala returns to Kings after leg injury",
+          "summary": "Kings forward Kevin Fiala is back on the ice after breaking his left leg. He got an assist in his first game back.",
+          "whyItMatters": "This brings a key player back to the Kings' lineup after a long recovery.",
+          "explainer": "Los Angeles Kings forward Kevin Fiala is happy to put a major injury behind him. He broke his left leg at the Olympics and missed a lot of time. In his season debut Thursday night against the Islanders, he made an assist. An assist is a pass that helps a teammate score a goal. His return adds strength to the team's offense for the rest of the season.",
+          "keyTerms": [
+            {
+              "term": "Assist",
+              "definition": "A pass to a teammate that leads directly to a goal."
+            }
+          ],
+          "disagreement": null,
+          "importance": 4,
+          "image": "https://a.espncdn.com/photo/2026/1113/r1745177_600x400_3-2.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Kings' Fiala happy to put leg injury behind him, has assist in season debut",
+              "url": "https://www.espn.com/nhl/story/_/id/50469530/kings-kevin-fiala-puts-injury-assist-season-debut"
+            }
+          ]
+        },
+        {
+          "id": "sports-nhl-2",
+          "headline": "Predators beat Golden Knights for seventh straight win",
+          "summary": "Roman Josi scored the winning goal in a shootout. The Nashville Predators beat the Vegas Golden Knights 3-2.",
+          "whyItMatters": "The win extends the Predators' winning streak to seven games, helping their season standing.",
+          "explainer": "The Nashville Predators won their seventh straight game by defeating the Vegas Golden Knights 3-2 on Friday night. The game went to a shootout after a tie, which is a tie-breaker where players take turns trying to score one-on-one against the goalie. Roman Josi scored the deciding goal in the fourth round of the shootout to secure the victory for Nashville.",
+          "keyTerms": [
+            {
+              "term": "Shootout",
+              "definition": "A way to decide a tied game in sports where players take turns trying to score on the goalie alone."
+            }
+          ],
+          "disagreement": null,
+          "importance": 4,
+          "image": "https://s.espncdn.com/stitcher/sports/hockey/nhl/events/401892707.png?templateId=espn.applewatch.awayhome.1",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Roman Josi lifts Predators past Golden Knights 3-2 in shootout for seventh straight win",
+              "url": "http://www.espn.com/nhl/recap?gameId=401892707"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-cfb",
+      "title": "Sports · College Football",
+      "bricks": [
+        {
+          "id": "sports-cfb-0",
+          "headline": "Colorado Beats No. 14 Houston 42-32",
+          "summary": "Colorado beat No. 14 Houston 42-32. This was Colorado's first win over a top-15 team since 2007. The win helps ease pressure on coach Deion Sanders.",
+          "whyItMatters": "This big win changes the mood for the Colorado team and its fans for the rest of the season.",
+          "explainer": "Colorado secured a major college football victory by defeating No. 14 Houston with a score of 42-32. It marked the program's first win against a top-15 team in the AP poll since 2007. The victory also provided relief for head coach Deion Sanders, whose job security had been questioned amid a hot seat rumor mill. Fans and players alike celebrated the milestone performance as a turning point in their season.",
+          "keyTerms": [
+            {
+              "term": "AP Poll",
+              "definition": "A weekly list that ranks the best college sports teams based on votes from sports writers."
+            }
+          ],
+          "disagreement": null,
+          "importance": 5,
+          "image": "https://a.espncdn.com/photo/2026/1114/r1745616_600x400_3-2.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Colorado upsets No. 14 Houston for first AP top-15 win since 2007",
+              "url": "https://www.espn.com/college-football/story/_/id/50479172/colorado-upsets-no-14-houston-1st-ap-top-15-win-2007"
+            },
+            {
+              "name": "ESPN",
+              "title": "Colorado beats No. 14 Houston 42-32 for 1st AP top-15 win since 2007 with Sanders on hot seat",
+              "url": "http://www.espn.com/ncf/recap?gameId=401856860"
+            }
+          ]
+        },
+        {
+          "id": "sports-cfb-1",
+          "headline": "NC State Hires Philip Rivers as Head Coach",
+          "summary": "NC State hired former NFL quarterback Philip Rivers as its new head coach. He signed a five-year contract with his alma mater.",
+          "whyItMatters": "This hire sets a new direction for the school's football program and its future games.",
+          "explainer": "NC State's board of trustees officially approved a five-year contract for Philip Rivers to lead the football program. Rivers is a former NFL quarterback who played his college football at NC State, making him an alumnus taking over his alma mater. The school hopes his experience will bring success to the team. Fans will watch closely to see how the famous former player transitions into leading the team from the sideline.",
+          "keyTerms": [
+            {
+              "term": "Alma Mater",
+              "definition": "The school, college, or university that someone once attended."
+            }
+          ],
+          "disagreement": null,
+          "importance": 5,
+          "image": "https://a.espncdn.com/photo/2025/1210/r1587722_600x600_1-1.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "NC State officially hires Philip Rivers as football coach",
+              "url": "https://www.espn.com/college-football/story/_/id/50456831/sources-philip-rivers-nc-state-deal-set-finalized"
+            }
+          ]
+        },
+        {
+          "id": "sports-cfb-2",
+          "headline": "Alabama to Start QB Austin Mack Against Vanderbilt",
+          "summary": "Alabama plans to start quarterback Austin Mack against Vanderbilt. Regular starter Keelon Russell is also available if needed after dealing with an ankle injury.",
+          "whyItMatters": "The choice of quarterback directly impacts how the team performs in its game against Vanderbilt.",
+          "explainer": "Alabama is making a change at quarterback by giving Austin Mack the start against Vanderbilt. Sources told ESPN about the upcoming lineup decision. Meanwhile, regular starter Keelon Russell is recovering from an ankle injury but will be available on the sideline if the team needs him during the game.",
+          "keyTerms": [],
+          "disagreement": null,
+          "importance": 4,
+          "image": "https://a.espncdn.com/photo/2026/1113/r1745458_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Sources: Alabama to start QB Austin Mack; Keelon Russell available",
+              "url": "https://www.espn.com/college-football/story/_/id/50474755/sources-alabama-start-qb-austin-mack-russell-available"
+            }
+          ]
+        },
+        {
+          "id": "sports-cfb-3",
+          "headline": "Ole Miss and Oklahoma Game Moved to Sunday",
+          "summary": "The SEC moved the Oklahoma and Ole Miss football game to Sunday. Oklahoma athletic director Roger Denny strongly objected to the change.",
+          "whyItMatters": "Schedule changes can disrupt travel and daily routines for the team, school staff, and fans.",
+          "explainer": "The Southeastern Conference decided to move the football game between Ole Miss and Oklahoma to Sunday. The shift happened after a nationwide ground stop on Friday. Oklahoma athletic director Roger Denny voiced strong objections to the new schedule, but the game time was still shifted to the weekend.",
+          "keyTerms": [
+            {
+              "term": "SEC",
+              "definition": "The Southeastern Conference, a major group of college sports teams in the United States."
+            }
+          ],
+          "disagreement": null,
+          "importance": 4,
+          "image": "https://a.espncdn.com/photo/2016/0504/r79959_600x400_3-2.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Ole Miss-Oklahoma bumped to Sunday despite Sooners AD's 'strong objection'",
+              "url": "https://www.espn.com/college-football/story/_/id/50478281/ole-miss-oklahoma-bumped-sunday-sooners-ad-rips-decision"
+            }
+          ]
+        },
+        {
+          "id": "sports-cfb-4",
+          "headline": "Tennessee Running Back Injured in Car Crash",
+          "summary": "Tennessee running back Daune Morris suffered a broken leg in a car accident. The school stated his injuries are not life-threatening.",
+          "whyItMatters": "This sudden accident sidelines a key player for Tennessee and impacts his personal well-being.",
+          "explainer": "Tennessee running back Daune Morris was involved in a car accident on a Friday morning. He sustained a broken leg and other non-life-threatening injuries. The school released information about the crash to update fans and media on his health status while he begins his recovery.",
+          "keyTerms": [],
+          "disagreement": null,
+          "importance": 3,
+          "image": "https://a.espncdn.com/photo/2026/1108/r1742617_600x400_3-2.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Tennessee RB Daune Morris suffers broken leg in car accident",
+              "url": "https://www.espn.com/college-football/story/_/id/50471707/source-tennessee-rb-daune-morris-vs-texas-am"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-cbb",
+      "title": "Sports · College Basketball",
+      "bricks": [
+        {
+          "id": "sports-cbb-0",
+          "headline": "Houston Christian Beats College of Biblical Studies",
+          "summary": "Mambourou Mara scored 18 points and grabbed 11 rebounds. Houston Christian won the game with a final score of 108-73 on Friday night.",
+          "whyItMatters": "This win adds another victory to Houston Christian's basketball record this season.",
+          "explainer": "Mambourou Mara had a strong game with 18 points and 11 rebounds, which is called a double-double when a player gets double-digit numbers in two statistical categories like points and rebounds. His performance helped lead Houston Christian to a big 108-73 win over the College of Biblical Studies on Friday night. Games like this help teams build momentum as they move through their college basketball schedule.",
+          "keyTerms": [
+            {
+              "term": "Double-double",
+              "definition": "When a player gets ten or more in two different stats, like points and rebounds, in a single game."
+            }
+          ],
+          "disagreement": null,
+          "importance": 3,
+          "image": "https://s.espncdn.com/stitcher/sports/basketball/mens-college-basketball/events/401924953.png?templateId=espn.applewatch.awayhome.1",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Mambourou Mara's double-double propels Houston Christian past College of Biblical Studies 108-73",
+              "url": "http://www.espn.com/ncb/recap?gameId=401924953"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-mls",
+      "title": "Sports · MLS",
+      "bricks": [
+        {
+          "id": "sports-mls-0",
+          "headline": "San Jose Earthquakes Sold for $625 Million",
+          "summary": "Heath Freeman is buying the San Jose Earthquakes from John Fisher. MLS owners approved the sale.",
+          "whyItMatters": "This change in ownership could affect the team's future plans and spending.",
+          "explainer": "Sports teams are often bought and sold by wealthy investors. In this case, Heath Freeman, a co-founder of Alden Global Capital, is purchasing the San Jose Earthquakes team. The previous owner was John Fisher. Before the deal could happen, other Major League Soccer owners had to vote and approve the sale, which they did on Thursday.",
+          "keyTerms": [],
+          "disagreement": null,
+          "importance": 5,
+          "image": "https://a.espncdn.com/photo/2026/1113/r1745440_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Sources: San Jose Earthquakes sold for $625 million to Heath Freeman",
+              "url": "https://www.espn.com/soccer/story/_/id/50474340/san-jose-earthquakes-sold-625-million-heath-freeman"
+            }
+          ]
+        },
+        {
+          "id": "sports-mls-1",
+          "headline": "Lionel Messi Named Finalist for MLS MVP Award",
+          "summary": "Lionel Messi could win his third straight MLS MVP award. A 17-year-old player also received a historic nomination.",
+          "whyItMatters": "It highlights top player achievements and history-making moments in the league.",
+          "explainer": "Lionel Messi has been chosen as a finalist for the 2026 MLS Most Valuable Player award. If he wins, it will be his third time winning the prize in a row, which has never been done before. Also, a 17-year-old player named Sullivan received a historic nomination for the award.",
+          "keyTerms": [
+            {
+              "term": "MVP",
+              "definition": "Stands for Most Valuable Player, an award given to the best player."
+            }
+          ],
+          "disagreement": null,
+          "importance": 4,
+          "image": "https://a.espncdn.com/photo/2026/1112/r1744942_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Messi up for record 3rd MLS MVP award; Sullivan, 17, gets historic nomination",
+              "url": "https://www.espn.com/soccer/story/_/id/50463634/mls-mvp-award-2026-lionel-messi-cavan-sullivan-griezmann"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-epl",
+      "title": "Sports · Premier League",
+      "bricks": [
+        {
+          "id": "sports-epl-0",
+          "headline": "Manchester United Hires Mauricio Pochettino After Firing Michael Carrick",
+          "summary": "Manchester United fired manager Michael Carrick following a poor run of results. The club quickly moved to hire Mauricio Pochettino, who is leaving his job as head coach of the United States men's national team.",
+          "whyItMatters": "This change in leadership affects Manchester United's season, tactics, and hopes of climbing the Premier League standings.",
+          "explainer": "Manchester United decided to make a major change by sacking head coach Michael Carrick after doubts grew over the team's performances and results. To replace him, the club reached an agreement with Mauricio Pochettino. Pochettino leaves his position leading the United States men's national team to take on the challenge of fixing United's ongoing struggles. While many fans and experts welcomed the hiring of an experienced manager, some criticized the club's handling of Carrick's departure as disrespectful.",
+          "keyTerms": [
+            {
+              "term": "head coach",
+              "definition": "The main manager in charge of training and tactics for a sports team."
+            },
+            {
+              "term": "standings",
+              "definition": "The list showing where teams rank based on their wins and losses."
+            }
+          ],
+          "disagreement": null,
+          "importance": 6,
+          "image": "https://a.espncdn.com/photo/2026/1113/r1745200_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Mauricio Pochettino to Man United: Is Tottenham love affair finally over?",
+              "url": "https://www.espn.com/soccer/story/_/id/50470622/mauricio-pochettino-tottenham-man-united"
+            },
+            {
+              "name": "ESPN",
+              "title": "Man United, Pochettino's to-do list based on what's gone wrong this season",
+              "url": "https://www.espn.com/soccer/story/_/id/50462231/mauricio-pochettino-manchester-united-transfer-usmnt"
+            },
+            {
+              "name": "ESPN",
+              "title": "In Mauricio Pochettino, Manchester United have finally hired a proper manager",
+              "url": "https://www.espn.com/soccer/story/_/id/50452091/manchester-united-hire-mauricio-pochettino-reaction"
+            },
+            {
+              "name": "ESPN",
+              "title": "Man United confirm Mauricio Pochettino as Michael Carrick replacement",
+              "url": "https://www.espn.com/soccer/story/_/id/50469660/man-united-mauricio-pochettino-manager-michael-carrick"
+            },
+            {
+              "name": "ESPN",
+              "title": "Recap: USMNT's Pochettino in tears as he agrees to join Man United",
+              "url": "https://www.espn.com/soccer/story/_/id/50470402/live-updates-mauricio-pochettino-usmnt-man-united"
+            },
+            {
+              "name": "ESPN",
+              "title": "Mauricio Pochettino agrees Man United deal, announcement expected - sources",
+              "url": "https://www.espn.com/soccer/story/_/id/50452966/mauricio-pochettino-man-united-deal-sources"
+            },
+            {
+              "name": "ESPN",
+              "title": "Mauricio Pochettino to Man United: 'Never a better time,' says Harry Redknapp",
+              "url": "https://www.espn.com/soccer/story/_/id/50471147/harry-redknapp-mauricio-pochettino-man-united"
+            },
+            {
+              "name": "ESPN",
+              "title": "How Michael Carrick won the Manchester United job, then lost it 10 months later",
+              "url": "https://www.espn.com/soccer/story/_/id/50437253/manchester-united-fire-michael-carrick-analysis"
+            },
+            {
+              "name": "ESPN",
+              "title": "Michael Carrick sacked by Man United; sources say Mauricio Pochettino close",
+              "url": "https://www.espn.com/soccer/story/_/id/50180844/man-united-michael-carrick-sacked-pochettino"
+            },
+            {
+              "name": "ESPN",
+              "title": "Paul Scholes: Mauricio Pochettino has the 'presence' to be Man United boss",
+              "url": "https://www.espn.com/soccer/story/_/id/50462862/man-united-mauricio-pochettino-paul-scholes"
+            },
+            {
+              "name": "ESPN",
+              "title": "Reaction as Man United sack Michael Carrick as manager",
+              "url": "https://www.espn.com/soccer/story/_/id/50441200/live-updates-reaction-man-united-sack-michael-carrick"
+            },
+            {
+              "name": "ESPN",
+              "title": "Man United hope to seal Mauricio Pochettino deal on Thursday - sources",
+              "url": "https://www.espn.com/soccer/story/_/id/50461316/man-united-mauricio-pochettino-michael-carrick-manager"
+            },
+            {
+              "name": "ESPN",
+              "title": "Man United fan group blame owners, not Michael Carrick, for woes",
+              "url": "https://www.espn.com/soccer/story/_/id/50461082/man-united-jim-ratcliffe-ineos-michael-carrick"
+            },
+            {
+              "name": "ESPN",
+              "title": "Gary Neville slams Man United's 'classless' handling of Michael Carrick sacking",
+              "url": "https://www.espn.com/soccer/story/_/id/50460693/man-united-michael-carrick-sacked-gary-neville"
+            },
+            {
+              "name": "ESPN",
+              "title": "How Michael Carrick's stint as Man United boss unravelled - a timeline",
+              "url": "https://www.espn.com/soccer/story/_/id/50277466/michael-carrick-man-united-sacked-line"
+            },
+            {
+              "name": "ESPN",
+              "title": "Sources: Man United contact U.S. Soccer over Poch; Carrick meeting Thursday",
+              "url": "https://www.espn.com/soccer/story/_/id/50455598/man-united-us-soccer-pochettino-carrick"
+            },
+            {
+              "name": "ESPN",
+              "title": "Schmeichel blasts Man United's 'disrespectful' treatment of Carrick amid Pochettino links",
+              "url": "https://www.espn.com/soccer/story/_/id/50455118/manchester-united-michael-carrick-premier-league-peter-schmeichel-mauricio-pochettino"
+            },
+            {
+              "name": "ESPN",
+              "title": "Man United near Mauricio Pochettino deal, Michael Carrick awaits verdict - sources",
+              "url": "https://www.espn.com/soccer/story/_/id/50451384/michael-carrick-mauricio-pochettino-man-united"
+            }
+          ]
+        },
+        {
+          "id": "sports-epl-1",
+          "headline": "Crystal Palace Fires Manager Pierre Sage",
+          "summary": "Crystal Palace has sacked manager Pierre Sage after just five months on the job. The team currently sits at the bottom of the Premier League standings.",
+          "whyItMatters": "The club's poor form and managerial change threaten their chances of staying in the top English soccer league.",
+          "explainer": "Pierre Sage's time as manager of Crystal Palace has come to an end after a very difficult start to the season. Following a string of disappointing results that left the club at the bottom of the Premier League table, team leaders decided to make a change. Palace will now look for a new leader to turn their season around and avoid relegation.",
+          "keyTerms": [
+            {
+              "term": "relegation",
+              "definition": "The process where the worst-performing teams are moved down to a lower league."
+            }
+          ],
+          "disagreement": null,
+          "importance": 5,
+          "image": "https://a.espncdn.com/photo/2026/1112/r1744816_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Pierre Sage's shortlived Crystal Palace era was never given any chance to succeed",
+              "url": "https://www.espn.com/soccer/story/_/id/50436075/pierre-sage-crystal-palace-premier-league-sacking"
+            },
+            {
+              "name": "ESPN",
+              "title": "Pierre Sage sacked with Crystal Palace bottom of Premier League",
+              "url": "https://www.espn.com/soccer/story/_/id/50211714/pierre-sage-sacked-crystal-palace-manager"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-laliga",
+      "title": "Sports · La Liga",
+      "bricks": [
+        {
+          "id": "sports-laliga-0",
+          "headline": "Barcelona fans can now rest at Camp Nou",
+          "summary": "Barcelona will let fans put their ashes at their stadium starting in 2027. The club will offer a special place and plaques for families.",
+          "whyItMatters": "This gives loyal fans a way to stay connected to their favorite soccer team even after they pass away.",
+          "explainer": "Starting in 2027, the soccer club Barcelona will give its fans a unique choice. People who love the team can pay to have their ashes kept at Camp Nou, the team's famous stadium. The club plans to build a columbarium, which is a special room or wall for storing urns with ashes. They will also add commemorative plaques to honor the fans. This lets lifelong supporters be a part of their beloved club forever.",
+          "keyTerms": [
+            {
+              "term": "Columbarium",
+              "definition": "A room or wall built to hold urns containing the ashes of people who have died."
+            },
+            {
+              "term": "Ashes",
+              "definition": "The dry gray powder that is left behind after a body is cremated."
+            }
+          ],
+          "disagreement": null,
+          "importance": 3,
+          "image": "https://a.espncdn.com/photo/2026/0915/r1716941_2_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Barcelona fan for life -- and beyond: Fans can pay to deposit ashes at Camp Nou",
+              "url": "https://www.espn.com/soccer/story/_/id/50460503/barcelona-camp-nou-ashes-fans"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-bundesliga",
+      "title": "Sports · Bundesliga",
+      "bricks": [
+        {
+          "id": "sports-bundesliga-0",
+          "headline": "Borussia Dortmund to End Arms Maker Deal",
+          "summary": "Borussia Dortmund will not renew its sponsorship with weapons maker Rheinmetall. Fans had criticized the deal.",
+          "whyItMatters": "It shows how fan voices can change a major sports team's business choices.",
+          "explainer": "Soccer teams partner with many different companies to make money. Borussia Dortmund made a deal with Rheinmetall, which is Germany's biggest arms manufacturer. This partnership upset many fans who did not want the club tied to a weapons maker. The team has now decided that it will not renew the sponsorship when it ends.",
+          "keyTerms": [
+            {
+              "term": "sponsorship",
+              "definition": "When a company pays money to a team to put its name on uniforms or stadiums."
+            }
+          ],
+          "disagreement": null,
+          "importance": 4,
+          "image": "https://a.espncdn.com/photo/2026/1113/r1745373_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Borussia Dortmund to end controversial sponsorship with arms manufacturer",
+              "url": "https://www.espn.com/soccer/story/_/id/50473322/borussia-dortmund-rheinmetall-sponsorship-arms-manufacturer"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-ligue1",
+      "title": "Sports · Ligue 1",
+      "bricks": []
+    },
+    {
+      "id": "sports-ucl",
+      "title": "Sports · Champions League",
+      "bricks": [
+        {
+          "id": "sports-ucl-0",
+          "headline": "Dirk Kuyt leaves Fenerbahce after Liverpool win",
+          "summary": "Dirk Kuyt left his job as interim coach at Fenerbahce. This happened just one week after his team beat his old club, Liverpool, in the Champions League.",
+          "whyItMatters": "This affects the team's leadership and plans for the rest of their season.",
+          "explainer": "Dirk Kuyt stopped working as the temporary coach for the soccer team Fenerbahce. His departure comes only a short time after he helped lead the team to a win against Liverpool, which is a club he used to play for. Interim coaches usually step in for a short time until a permanent coach is hired.",
+          "keyTerms": [
+            {
+              "term": "Interim coach",
+              "definition": "A temporary coach who leads a team until a permanent one is found."
+            }
+          ],
+          "disagreement": null,
+          "importance": 4,
+          "image": "https://a.espncdn.com/photo/2026/1103/r1740583_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Dirk Kuyt leaves Fenerbahce a week after defeating Liverpool",
+              "url": "https://www.espn.com/soccer/story/_/id/50452035/dirk-kuyt-fenerbahce-liverpool-champions-league"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-f1",
+      "title": "Sports · Formula 1",
+      "bricks": [
+        {
+          "id": "sports-f1-0",
+          "headline": "Kimi Antonelli Becomes F1's Youngest Champion",
+          "summary": "Kimi Antonelli won the Formula 1 world championship. He overcame early trouble, his teammate George Russell, and a push from Ferrari to set the record.",
+          "whyItMatters": "This marks a historic moment in the sport as a new and very young driver reaches the top of Formula 1.",
+          "explainer": "Formula 1 is a global racing sport where drivers compete in fast cars across many countries. Kimi Antonelli secured the world title after facing challenges throughout the season. He beat his teammate George Russell and held off a strong fightback from the Ferrari team to claim the championship. By winning, Antonelli becomes the youngest driver ever to win the F1 world title, marking a major milestone in his racing career.",
+          "keyTerms": [
+            {
+              "term": "Formula 1",
+              "definition": "A global racing sport with fast single-seat cars."
+            },
+            {
+              "term": "Teammate",
+              "definition": "Another driver who races for the same company or team."
+            }
+          ],
+          "disagreement": null,
+          "importance": 6,
+          "image": "https://a.espncdn.com/photo/2026/1102/r1739911_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "How Kimi Antonelli overcame George Russell, Ferrari to become F1's youngest champion",
+              "url": "https://www.espn.com/f1/story/_/id/50196394/how-kimi-antonelli-george-russell-ferrari-f1-youngest-champion"
+            }
+          ]
+        },
+        {
+          "id": "sports-f1-1",
+          "headline": "Liam Lawson and Arvid Lindblad Stay at Racing Bulls",
+          "summary": "Liam Lawson will keep his seat at Racing Bulls for the 2027 season. He will continue to race alongside his teammate Arvid Lindblad.",
+          "whyItMatters": "This decision settles questions about the team's lineup and affects the drivers' careers for the upcoming season.",
+          "explainer": "Formula 1 teams often change which drivers will race for them in future years. Liam Lawson had faced questions about whether he would keep his job. It is now confirmed that he will stay with the Racing Bulls team for the 2027 season. He will continue driving alongside his teammate Arvid Lindblad, ending weeks of rumors and speculation about his future in the sport.",
+          "keyTerms": [
+            {
+              "term": "Racing Bulls",
+              "definition": "The name of a Formula 1 racing team."
+            }
+          ],
+          "disagreement": null,
+          "importance": 3,
+          "image": "https://a.espncdn.com/photo/2026/1112/r1744731_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Liam Lawson and Arvid Lindblad to continue at Racing Bulls for 2027",
+              "url": "https://www.espn.com/f1/story/_/id/50389094/liam-lawson-arvid-lindblad-racing-bulls-formula-1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-tennis",
+      "title": "Sports · Tennis",
+      "bricks": [
+        {
+          "id": "sports-tennis-0",
+          "headline": "Players Prepare for the ATP Finals Tennis Tournament",
+          "summary": "Top tennis players are getting ready for the ATP Finals. Carlos Alcaraz is back from an injury, and Frances Tiafoe is playing in this big event for the first time.",
+          "whyItMatters": "This tournament decides the final top tennis champion to end the sports season.",
+          "explainer": "The tennis season is coming to an end with the ATP Finals. Carlos Alcaraz is back and playing well after dealing with an injury. Meanwhile, American player Frances Tiafoe is excited to play in this important tournament for the very first time at age 28. Other players like Ben Shelton are also hoping to win the title. Fans will watch closely to see who finishes the year as the best player.",
+          "keyTerms": [
+            {
+              "term": "ATP Finals",
+              "definition": "A big yearly tennis tournament for the top players of the season."
+            }
+          ],
+          "disagreement": null,
+          "importance": 4,
+          "image": "https://a.espncdn.com/photo/2026/1113/r1745394_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "ATP Finals preview: Can Alcaraz close out the year with a big win?",
+              "url": "https://www.espn.com/tennis/story/_/id/50473425/atp-finals-alcaraz-zverev-shelton-tiafoe-jodar-medvedev"
+            },
+            {
+              "name": "ESPN",
+              "title": "Waiting game pays off for Tiafoe as he heads into ATP Finals",
+              "url": "https://www.espn.com/tennis/story/_/id/50455327/frances-tiafoe-atp-finals-2026-first"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-golf",
+      "title": "Sports · Golf",
+      "bricks": [
+        {
+          "id": "sports-golf-0",
+          "headline": "Longtime sports broadcaster Dan Hicks dies at 64",
+          "summary": "Longtime NBC Sports broadcaster Dan Hicks has died at age 64. His wife, ESPN broadcaster Hannah Storm, said he died after a sudden illness.",
+          "whyItMatters": "Sports fans who watched golf and other major events on television will feel the loss of a familiar voice.",
+          "explainer": "Dan Hicks was a well-known sports broadcaster who worked for NBC Sports for many years. His wife, Hannah Storm, is an anchor for ESPN. She announced on Thursday that he passed away at the age of 64 following an acute illness.",
+          "keyTerms": [
+            {
+              "term": "Broadcaster",
+              "definition": "A person who speaks on television or radio to cover sports or news."
+            }
+          ],
+          "disagreement": null,
+          "importance": 5,
+          "image": "https://a.espncdn.com/photo/2026/1112/r1744812_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Longtime broadcaster Dan Hicks, husband of ESPN's Hannah Storm, dies at 64",
+              "url": "https://www.espn.com/espn/story/_/id/50462145/long-sports-broadcaster-dan-hicks-dies-age-64"
+            }
+          ]
+        },
+        {
+          "id": "sports-golf-1",
+          "headline": "Trace Crowe leads Austin Championship after strong round",
+          "summary": "Trace Crowe leads the Austin Championship at 13-under par with two holes left in his second round. Kevin Yu is the clubhouse leader at 12 under, while teenager Blades Brown is three shots back.",
+          "whyItMatters": "Fans of the tournament can see a close race develop as players battle for the lead.",
+          "explainer": "Play at the Austin Championship was suspended due to darkness, leaving some golfers to finish their second rounds later. Trace Crowe shot a career-best 62 to put his name at the top of the leaderboard at 13-under par. Kevin Yu finished his round before dark to sit at 12-under par, and 16-year-old amateur Blades Brown shot a 7-under 65 to get within three shots of the lead.",
+          "keyTerms": [
+            {
+              "term": "Clubhouse leader",
+              "definition": "A player who has finished their round and holds the best score among those who are done."
+            }
+          ],
+          "disagreement": null,
+          "importance": 3,
+          "image": "https://a.espncdn.com/photo/2025/0411/r1477081_600x400_3-2.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Kevin Yu has clubhouse lead as play suspended again in Austin",
+              "url": "https://www.espn.com/golf/story/_/id/50475591/kevin-yu-clubhouse-lead-play-suspended-again-austin"
+            },
+            {
+              "name": "ESPN",
+              "title": "Trace Crowe leads, teen Blades Brown 3 back at PGA Tour's Austin Championship",
+              "url": "https://www.espn.com/golf/story/_/id/50466470/trace-crowe-leads-blades-brown-3-back-austin-champ"
+            }
+          ]
+        },
+        {
+          "id": "sports-golf-2",
+          "headline": "Tiger Woods says he is training ahead of event",
+          "summary": "Tiger Woods says he is feeling better and training a lot. He plans to host the Hero World Challenge in the Bahamas starting December 3.",
+          "whyItMatters": "Golf fans will watch to see if Tiger Woods returns to play in the event he hosts.",
+          "explainer": "Tiger Woods gave an update on his health ahead of the Hero World Challenge, a golf tournament he hosts in the Bahamas. He stated that he is feeling better and training quite a bit as the event approaches on December 3.",
+          "keyTerms": [],
+          "disagreement": null,
+          "importance": 3,
+          "image": "https://a.espncdn.com/photo/2026/0406/r1639448_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Tiger Woods says he's 'feeling better,' 'training quite a bit'",
+              "url": "https://www.espn.com/golf/story/_/id/50446601/tiger-woods-says-feeling-better-training-quite-bit"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
