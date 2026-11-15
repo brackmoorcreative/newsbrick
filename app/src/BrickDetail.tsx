@@ -85,16 +85,16 @@ const makeStyles = (c: Palette) =>
     topBar: { flexDirection: 'row', justifyContent: 'flex-end', padding: 16 },
     done: { fontFamily: fonts.label, fontSize: 17, color: c.link },
     content: { paddingHorizontal: 20, paddingBottom: 48 },
-    headline: { fontFamily: fonts.headline, fontSize: 30, lineHeight: 36, color: c.text },
+    headline: { fontFamily: fonts.headline, fontSize: 30 * c.scale, lineHeight: 36 * c.scale, color: c.text },
     summary: {
       fontFamily: fonts.body,
-      fontSize: 20,
-      lineHeight: 30,
+      fontSize: 20 * c.scale,
+      lineHeight: 30 * c.scale,
       color: c.body,
       marginTop: 12,
     },
     box: { backgroundColor: c.box, padding: 16, marginTop: 24, borderRadius: 4 },
-    boxText: { fontFamily: fonts.body, fontSize: 19, lineHeight: 28, color: c.text },
+    boxText: { fontFamily: fonts.body, fontSize: 19 * c.scale, lineHeight: 28 * c.scale, color: c.text },
     label: {
       fontFamily: fonts.label,
       fontSize: 14,
@@ -103,7 +103,7 @@ const makeStyles = (c: Palette) =>
       marginBottom: 8,
     },
     boxLabel: { marginTop: 0 },
-    body: { fontFamily: fonts.body, fontSize: 19, lineHeight: 29, color: c.body },
+    body: { fontFamily: fonts.body, fontSize: 19 * c.scale, lineHeight: 29 * c.scale, color: c.body },
     term: { fontFamily: fonts.headline, color: c.text },
     source: {
       borderTopWidth: StyleSheet.hairlineWidth,
@@ -114,5 +114,5 @@ const makeStyles = (c: Palette) =>
     sourceHead: { flexDirection: 'row', alignItems: 'center', gap: 6 },
     sourceName: { fontFamily: fonts.labelMedium, fontSize: 14, color: c.muted },
     image: { marginBottom: 16 },
-    sourceTitle: { fontFamily: fonts.body, fontSize: 18, lineHeight: 25, color: c.link },
+    sourceTitle: { fontFamily: fonts.body, fontSize: 18 * c.scale, lineHeight: 25 * c.scale, color: c.link },
   });

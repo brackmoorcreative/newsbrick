@@ -43,5 +43,12 @@
     <noscript> You need to enable JavaScript to run this app. </noscript>
     <!-- The root element for your Expo app. -->
     <div id="root"></div>
+    <script>
+      // Offline support and morning notifications (public/sw.js). Skipped on the Expo dev
+      // server (port 8081) so development never serves a stale copy.
+      if ('serviceWorker' in navigator && location.port !== '8081') {
+        navigator.serviceWorker.register('sw.js').catch(function () {});
+      }
+    </script>
   </body>
 </html>

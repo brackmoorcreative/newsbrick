@@ -16,34 +16,47 @@ import { BrickDetail } from './src/BrickDetail';
 import { BrickPage } from './src/BrickPage';
 import { CalendarSheet } from './src/CalendarSheet';
 import { formatDate, toDateKey } from './src/dates';
+import { FeedbackProvider, useFeedback } from './src/feedback';
 import { PrefsProvider, usePrefs } from './src/prefs';
 import { ProfileProvider, useProfile, useSaveQuiz } from './src/profile';
 import { profileLines } from './src/quiz';
 import { QuizScreen } from './src/QuizScreen';
+import { SavedProvider, useSaved } from './src/saved';
+import { SavedSheet } from './src/SavedSheet';
 import { SettingsSheet } from './src/SettingsSheet';
+import { clearSharedLink, sharedStoryFromLink, shareStory } from './src/share';
 import { fonts, ThemeProvider, useAppFonts, useStyles, useTheme, type Palette } from './src/theme';
 import { FIXED_ORDER, LEGACY_IDS, topicGroup } from './src/topics';
 import type { Brick, CategoryBricks } from './src/types';
 import { useAccount, type Account } from './src/useAccount';
 import { useBricks, useEditionDates } from './src/useBricks';
+import { useListen } from './src/useListen';
 import { useLocalTopics } from './src/useLocalTopics';
 import { usePersonalized } from './src/usePersonalized';
 import { useStreak } from './src/useStreak';
 import { WelcomeScreen } from './src/WelcomeScreen';
 
 // Each page in the deck is a brick, plus a final "all caught up" page.
-type BrickItem = { kind: 'brick'; brick: Brick; section: string; personalized?: boolean };
+type BrickItem = { kind: 'brick'; brick: Brick; section: string; topic: string; personalized?: boolean };
 type Page = BrickItem | { kind: 'done' };
 
 // Each extra story from the same kind of news (politics, sports, ...) counts this much
 // less, so a second politics story has to be clearly more important to beat a sports one.
 const SAME_GROUP_PENALTY = 2;
+// How much one step of 👍/👎 on a topic moves its stories (importance is 1-10).
+const FEEDBACK_WEIGHT = 0.7;
 
 // The day's `perDay` stories across every followed topic, balanced across kinds of news:
 // 1. the best story from each kind you follow (top stories, politics, economy, sports),
 // 2. remaining spots go by importance, minus SAME_GROUP_PENALTY per story already taken
-//    from that kind. Shown most important first.
-function buildDeck(categories: CategoryBricks[], topics: string[], perDay: number): BrickItem[] {
+//    from that kind. Your 👍/👎 on a topic raise or lower its stories' importance.
+//    Shown most important first.
+function buildDeck(
+  categories: CategoryBricks[],
+  topics: string[],
+  perDay: number,
+  weightOf: (topic: string) => number,
+): BrickItem[] {
   type Candidate = BrickItem & { score: number; order: number; group: string };
   const candidates: Candidate[] = [];
   for (const category of categories) {
@@ -54,8 +67,9 @@ function buildDeck(categories: CategoryBricks[], topics: string[], perDay: numbe
         kind: 'brick',
         brick,
         section: category.title,
+        topic: id,
         // Editions before importance scores existed: keep each topic's own ranking.
-        score: brick.importance ?? 5 - i,
+        score: (brick.importance ?? 5 - i) + weightOf(id) * FEEDBACK_WEIGHT,
         // Ties: your own places and teams first, then the order in Settings.
         order: (FIXED_ORDER.indexOf(id) + 1) * 100 + i,
         group: topicGroup(id),
@@ -93,34 +107,45 @@ function buildDeck(categories: CategoryBricks[], topics: string[], perDay: numbe
 
   return picked
     .sort((a, b) => b.score - a.score || a.order - b.order)
-    .map(({ kind, brick, section }) => ({ kind, brick, section }));
+    .map(({ kind, brick, section, topic }) => ({ kind, brick, section, topic }));
 }
 
 // Above this many stories the per-story segments get too thin, so show one bar.
 const MAX_SEGMENTS = 12;
 
+// Today's edition date, in Central time like the daily job.
+const todayEdition = () => new Intl.DateTimeFormat('en-CA', { timeZone: 'America/Chicago' }).format(new Date());
+
 function BrickDeck({ account, onSignOut }: { account: Account; onSignOut: () => void }) {
   const styles = useStyles(makeStyles);
   const { colors } = useTheme();
   const { width } = useWindowDimensions();
-  const [viewDate, setViewDate] = useState<string | null>(null); // null = today's edition
+  // A story someone shared with you opens that day's edition, then the story itself.
+  const shared = useRef(sharedStoryFromLink());
+  const [viewDate, setViewDate] = useState<string | null>(() =>
+    shared.current && shared.current.date !== todayEdition() ? shared.current.date : null,
+  ); // null = today's edition
   const { data, readIds, markRead, error, refresh } = useBricks(viewDate);
   const editions = useEditionDates();
   const streak = useStreak();
   const [index, setIndex] = useState(0);
   const [pageHeight, setPageHeight] = useState(0); // space between header and Back/Next bar
   const [open, setOpen] = useState<Brick | null>(null);
-  const [sheet, setSheet] = useState<'calendar' | 'settings' | null>(null);
+  const [sheet, setSheet] = useState<'calendar' | 'settings' | 'saved' | null>(null);
+  const [notice, setNotice] = useState<string | null>(null);
   const listRef = useRef<FlatList<Page>>(null);
 
   const { topics, perDay, places, teams } = usePrefs();
   const { answers, personalize } = useProfile();
+  const feedback = useFeedback();
+  const saved = useSaved();
   const profile = useMemo(() => profileLines(answers), [answers]);
 
   // The day's shared topics plus your own places and teams. Wait for those before picking
   // the day's stories, so the deck doesn't reshuffle while you read.
   const local = useLocalTopics(data?.date, topics, places, teams);
-  const deck = data && local.ready ? buildDeck([...data.categories, ...local.categories], topics, perDay) : [];
+  const allCategories = data ? [...data.categories, ...local.categories] : [];
+  const deck = data && local.ready ? buildDeck(allCategories, topics, perDay, feedback.weightOf) : [];
 
   // Swap in "Why it matters to you" lines written for this reader, once they arrive.
   const personal = usePersonalized(data?.date, deck.map((b) => b.brick.id), profile, personalize);
@@ -133,7 +158,8 @@ function BrickDeck({ account, onSignOut }: { account: Account; onSignOut: () => 
   const current = pages[index];
   const readCount = bricks.filter((b) => readIds.has(b.brick.id)).length;
 
-  // Switching days or changing topics starts the deck from its first story.
+  // Switching days or changing topics starts the deck from its first story. (Votes don't
+  // reshuffle today's deck; they shape the next one.)
   const deckKey = `${data?.date}|${topics.join(',')}|${perDay}|${local.ready}`;
   useEffect(() => setIndex(0), [deckKey]);
 
@@ -141,6 +167,18 @@ function BrickDeck({ account, onSignOut }: { account: Account; onSignOut: () => 
   useEffect(() => {
     if (current?.kind === 'brick') markRead(current.brick.id);
   }, [current, markRead]);
+
+  // Open a shared story once its edition has loaded.
+  useEffect(() => {
+    const s = shared.current;
+    if (!s || !data || !local.ready) return;
+    const brick = allCategories.flatMap((c) => c.bricks).find((b) => b.id === s.id);
+    shared.current = null;
+    clearSharedLink();
+    if (brick) setOpen(brick);
+    else flash('That shared story is no longer available.');
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [data, local.ready]);
 
   const onScroll = (e: NativeSyntheticEvent<NativeScrollEvent>) => {
     const i = Math.round(e.nativeEvent.contentOffset.x / width);
@@ -153,23 +191,51 @@ function BrickDeck({ account, onSignOut }: { account: Account; onSignOut: () => 
     setIndex(target);
   };
 
+  const listen = useListen(
+    bricks.map((b) => b.brick),
+    (i) => goTo(i),
+  );
+
+  const flash = (text: string) => {
+    setNotice(text);
+    setTimeout(() => setNotice(null), 2500);
+  };
+
   const pickDate = (date: string) => {
     setSheet(null);
     // The newest edition is "today"; anything older is a past edition.
     setViewDate(date === editions[0] ? null : date);
   };
 
+  // The newest edition isn't today's yet: the morning job hasn't finished.
+  const late = !viewDate && data && data.date < todayEdition();
+
   return (
     <SafeAreaView style={styles.screen} edges={['top', 'bottom']}>
       <View style={styles.header}>
         <View style={styles.titleRow}>
-          <Pressable onPress={() => setSheet('calendar')} hitSlop={12} accessibilityLabel="Past editions">
-            <Ionicons name="calendar-outline" size={24} color={colors.text} />
-          </Pressable>
+          <View style={styles.icons}>
+            <Pressable onPress={() => setSheet('calendar')} hitSlop={10} accessibilityLabel="Past editions">
+              <Ionicons name="calendar-outline" size={24} color={colors.text} />
+            </Pressable>
+            <Pressable onPress={() => setSheet('saved')} hitSlop={10} accessibilityLabel="Saved stories">
+              <Ionicons name="bookmark-outline" size={23} color={colors.text} />
+            </Pressable>
+          </View>
           <Text style={styles.masthead}>NewsBrick</Text>
-          <Pressable onPress={() => setSheet('settings')} hitSlop={12} accessibilityLabel="Settings">
-            <Ionicons name="settings-outline" size={24} color={colors.text} />
-          </Pressable>
+          <View style={styles.icons}>
+            <Pressable
+              onPress={() => (listen.listening ? listen.stop() : listen.start(current?.kind === 'brick' ? index : 0))}
+              disabled={bricks.length === 0}
+              hitSlop={10}
+              accessibilityLabel={listen.listening ? 'Stop listening' : 'Listen to today’s stories'}
+            >
+              <Ionicons name={listen.listening ? 'stop-circle' : 'headset-outline'} size={24} color={listen.listening ? colors.accent : colors.text} />
+            </Pressable>
+            <Pressable onPress={() => setSheet('settings')} hitSlop={10} accessibilityLabel="Settings">
+              <Ionicons name="settings-outline" size={24} color={colors.text} />
+            </Pressable>
+          </View>
         </View>
 
         <View style={styles.metaRow}>
@@ -186,6 +252,12 @@ function BrickDeck({ account, onSignOut }: { account: Account; onSignOut: () => 
           <Pressable onPress={() => setViewDate(null)} accessibilityRole="button" style={styles.pastBanner}>
             <Text style={styles.pastText}>Past edition · </Text>
             <Text style={styles.pastLink}>Back to today ›</Text>
+          </Pressable>
+        )}
+        {late && (
+          <Pressable onPress={refresh} accessibilityRole="button" style={styles.pastBanner}>
+            <Text style={styles.pastText}>Today’s stories are on the way · </Text>
+            <Text style={styles.pastLink}>Check now</Text>
           </Pressable>
         )}
 
@@ -206,7 +278,12 @@ function BrickDeck({ account, onSignOut }: { account: Account; onSignOut: () => 
               </View>
             )}
             <Text style={styles.counter}>
-              {current?.kind === 'done' ? 'All caught up' : `Story ${index + 1} of ${bricks.length}`}
+              {notice ??
+                (listen.listening
+                  ? `Listening · story ${Math.min(index + 1, bricks.length)} of ${bricks.length}`
+                  : current?.kind === 'done'
+                    ? 'All caught up'
+                    : `Story ${index + 1} of ${bricks.length}`)}
             </Text>
           </>
         )}
@@ -249,7 +326,19 @@ function BrickDeck({ account, onSignOut }: { account: Account; onSignOut: () => 
               width={width}
               height={pageHeight}
               personalized={item.personalized}
+              saved={saved.isSaved(item.brick.id)}
+              vote={feedback.voteOf(item.brick.id)}
               onOpen={() => setOpen(item.brick)}
+              onSave={() => {
+                const wasSaved = saved.isSaved(item.brick.id);
+                saved.toggle({ brick: item.brick, section: item.section, date: data!.date });
+                flash(wasSaved ? 'Removed from Saved' : 'Saved for later');
+              }}
+              onShare={async () => {
+                const result = await shareStory(item.brick, data!.date);
+                if (result === 'copied') flash('Link copied');
+              }}
+              onVote={(v) => feedback.vote(item.brick.id, item.topic, v)}
             />
           ) : (
             <View style={[styles.done, { width, height: pageHeight }]}>
@@ -291,6 +380,14 @@ function BrickDeck({ account, onSignOut }: { account: Account; onSignOut: () => 
         editions={editions}
         selected={viewDate ?? data?.date ?? toDateKey(new Date())}
         onSelect={pickDate}
+        onClose={() => setSheet(null)}
+      />
+      <SavedSheet
+        visible={sheet === 'saved'}
+        onOpen={(story) => {
+          setSheet(null);
+          setOpen(story.brick);
+        }}
         onClose={() => setSheet(null)}
       />
       <SettingsSheet
@@ -337,7 +434,11 @@ export default function App() {
       <ThemeProvider>
         <PrefsProvider>
           <ProfileProvider>
-            <Root />
+            <SavedProvider>
+              <FeedbackProvider>
+                <Root />
+              </FeedbackProvider>
+            </SavedProvider>
           </ProfileProvider>
         </PrefsProvider>
       </ThemeProvider>
@@ -349,14 +450,15 @@ const makeStyles = (c: Palette) =>
   StyleSheet.create({
     screen: { flex: 1, backgroundColor: c.background },
     header: {
-      paddingHorizontal: 24,
+      paddingHorizontal: 20,
       paddingTop: 8,
       paddingBottom: 12,
       borderBottomWidth: StyleSheet.hairlineWidth,
       borderColor: c.hairline,
     },
     titleRow: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' },
-    masthead: { fontFamily: fonts.masthead, fontSize: 30, lineHeight: 36, color: c.text },
+    icons: { flexDirection: 'row', alignItems: 'center', gap: 14 },
+    masthead: { fontFamily: fonts.masthead, fontSize: 28, lineHeight: 34, color: c.text },
     metaRow: {
       flexDirection: 'row',
       justifyContent: 'center',

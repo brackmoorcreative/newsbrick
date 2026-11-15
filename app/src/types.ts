@@ -9,6 +9,7 @@ export type Brick = {
   keyTerms: { term: string; definition: string }[];
   disagreement: string | null;
   importance?: number; // 1-10, same scale across topics (missing in editions before Nov 12, 2026)
+  update?: string | null; // for a story that continues from yesterday: what changed
   image?: string | null; // photo from the news feed
   // site: the outlet's homepage, for its logo (Google News links go through news.google.com)
   sources: { name: string; title: string; url: string; site?: string }[];

@@ -8,7 +8,7 @@ import { profileLines, QUESTIONS } from './quiz';
 import { QuizScreen } from './QuizScreen';
 import { STORIES_PER_DAY, TOPIC_GROUPS } from './topics';
 import type { Account } from './useAccount';
-import { fonts, useStyles, useTheme, type Appearance, type Palette } from './theme';
+import { fonts, TEXT_SIZES, useStyles, useTheme, type Appearance, type Palette, type TextSize } from './theme';
 
 type Props = {
   visible: boolean;
@@ -26,7 +26,7 @@ const APPEARANCES: { value: Appearance; label: string }[] = [
 
 export function SettingsSheet({ visible, account, streak, onSignOut, onClose }: Props) {
   const styles = useStyles(makeStyles);
-  const { appearance, setAppearance } = useTheme();
+  const { appearance, setAppearance, textSize, setTextSize } = useTheme();
   const { topics, toggleTopic, perDay, setPerDay } = usePrefs();
   const profile = useProfile();
   const saveQuiz = useSaveQuiz();
@@ -148,6 +148,26 @@ export function SettingsSheet({ visible, account, streak, onSignOut, onClose }: 
                   style={[styles.segment, on && styles.segmentOn]}
                 >
                   <Text style={[styles.segmentText, on && styles.segmentTextOn]}>{a.label}</Text>
+                </Pressable>
+              );
+            })}
+          </View>
+
+          <Text style={styles.label}>Text size</Text>
+          <View style={styles.segmented}>
+            {(Object.keys(TEXT_SIZES) as TextSize[]).map((size) => {
+              const on = size === textSize;
+              return (
+                <Pressable
+                  key={size}
+                  onPress={() => setTextSize(size)}
+                  accessibilityRole="button"
+                  accessibilityState={{ selected: on }}
+                  style={[styles.segment, on && styles.segmentOn]}
+                >
+                  <Text style={[styles.segmentText, on && styles.segmentTextOn, { fontSize: 15 * TEXT_SIZES[size] }]}>
+                    {size === 'small' ? 'Small' : size === 'normal' ? 'Normal' : 'Large'}
+                  </Text>
                 </Pressable>
               );
             })}

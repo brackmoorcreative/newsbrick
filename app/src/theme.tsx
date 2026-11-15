@@ -42,9 +42,11 @@ const light = {
   link: '#1A5A96',
   box: '#F5F5F2',
   accent: '#C2410C', // streak flame
+  scale: 1, // story text size multiplier (Settings > Text size)
 };
 
 const dark: typeof light = {
+  scale: 1,
   background: '#121212',
   text: '#EDEDED',
   body: '#CFCFCF',
@@ -57,12 +59,16 @@ const dark: typeof light = {
 
 export type Palette = typeof light;
 export type Appearance = 'light' | 'dark' | 'system';
+export const TEXT_SIZES = { small: 0.9, normal: 1, large: 1.2 } as const;
+export type TextSize = keyof typeof TEXT_SIZES;
 
 type ThemeValue = {
   colors: Palette;
   scheme: 'light' | 'dark';
   appearance: Appearance;
   setAppearance: (a: Appearance) => void;
+  textSize: TextSize;
+  setTextSize: (s: TextSize) => void;
 };
 
 const ThemeContext = createContext<ThemeValue>({
@@ -70,18 +76,23 @@ const ThemeContext = createContext<ThemeValue>({
   scheme: 'light',
   appearance: 'light',
   setAppearance: () => {},
+  textSize: 'normal',
+  setTextSize: () => {},
 });
 
 const STORAGE_KEY = 'settings:appearance';
+const TEXT_SIZE_KEY = 'settings:textSize';
 
-// Holds the light/dark choice from Settings and remembers it on the phone.
+// Holds the light/dark and text size choices from Settings and remembers them on the phone.
 export function ThemeProvider({ children }: { children: ReactNode }) {
   const system = useColorScheme();
   const [appearance, setAppearanceState] = useState<Appearance>('light');
+  const [textSize, setTextSizeState] = useState<TextSize>('normal');
 
   useEffect(() => {
-    AsyncStorage.getItem(STORAGE_KEY).then((saved) => {
+    AsyncStorage.multiGet([STORAGE_KEY, TEXT_SIZE_KEY]).then(([[, saved], [, size]]) => {
       if (saved === 'light' || saved === 'dark' || saved === 'system') setAppearanceState(saved);
+      if (size && size in TEXT_SIZES) setTextSizeState(size as TextSize);
     });
   }, []);
 
@@ -96,15 +107,20 @@ export function ThemeProvider({ children }: { children: ReactNode }) {
 
   const value = useMemo<ThemeValue>(
     () => ({
-      colors: scheme === 'dark' ? dark : light,
+      colors: { ...(scheme === 'dark' ? dark : light), scale: TEXT_SIZES[textSize] },
       scheme,
       appearance,
       setAppearance: (a) => {
         setAppearanceState(a);
         AsyncStorage.setItem(STORAGE_KEY, a);
       },
+      textSize,
+      setTextSize: (s) => {
+        setTextSizeState(s);
+        AsyncStorage.setItem(TEXT_SIZE_KEY, s);
+      },
     }),
-    [scheme, appearance],
+    [scheme, appearance, textSize],
   );
 
   return <ThemeContext.Provider value={value}>{children}</ThemeContext.Provider>;
