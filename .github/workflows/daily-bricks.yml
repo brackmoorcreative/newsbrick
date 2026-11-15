@@ -2,13 +2,24 @@ name: Daily bricks
 
 on:
   schedule:
-    # 11:00 UTC = 5am Central in winter (CST), 6am in summer (CDT).
-    # GitHub can start scheduled jobs late, so this aims a little early.
-    - cron: "0 11 * * *"
-  workflow_dispatch: # adds a "Run workflow" button on GitHub for manual runs
+    # GitHub's scheduler often starts these hours late, so the NewsBrick service (worker/)
+    # also triggers this workflow on time each morning. These are backups; a run that finds
+    # today's edition already built exits right away without using any AI quota.
+    # Odd minutes are less congested than the top of the hour.
+    - cron: "17 9 * * *" # 3:17am Central (CST)
+    - cron: "43 12 * * *" # 6:43am Central (CST)
+  workflow_dispatch: # "Run workflow" button on GitHub, also used by the NewsBrick service
+    inputs:
+      force:
+        description: "Rebuild today's edition even if it already exists"
+        type: boolean
+        default: false
 
 permissions:
-  contents: write # lets the job commit data/latest.json
+  contents: write # lets the job commit data/
+
+concurrency:
+  group: daily-bricks # never two runs at once
 
 jobs:
   build-bricks:
@@ -22,7 +33,7 @@ jobs:
           cache-dependency-path: backend/package-lock.json
       - run: npm ci
         working-directory: backend
-      - run: npm run build-bricks
+      - run: npm run build-bricks -- ${{ inputs.force && '--force' || '' }}
         working-directory: backend
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}

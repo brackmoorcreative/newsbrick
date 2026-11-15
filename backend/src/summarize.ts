@@ -1,6 +1,6 @@
 import { ApiError, GoogleGenAI, type GenerateContentResponse } from "@google/genai";
 import { z } from "zod";
-import { BRICKS_SCHEMA, bricksPrompt, SYSTEM_PROMPT } from "../../shared/prompt.ts";
+import { BRICKS_SCHEMA, bricksPrompt, QUIZ_PROMPT, QUIZ_SCHEMA, SYSTEM_PROMPT } from "../../shared/prompt.ts";
 import { MODELS, type Category } from "./config.ts";
 import type { FeedItem } from "./fetchFeeds.ts";
 
@@ -12,6 +12,7 @@ export type Brick = {
   explainer: string;
   keyTerms: { term: string; definition: string }[];
   disagreement: string | null;
+  update: string | null; // what's new since yesterday, for a continuing story
   importance: number; // 1-10 on one scale across every category; the app shows the top few
   image: string | null; // photo from the news feed, when it has one
   // site: the outlet's homepage, for its logo (Google News links go through news.google.com)
@@ -30,9 +31,23 @@ const ResponseSchema = z.object({
       explainer: z.string(),
       keyTerms: z.array(z.object({ term: z.string(), definition: z.string() })),
       disagreement: z.string().nullable(),
+      update: z.string().nullable().optional(),
     }),
   ),
 });
+
+const QuizSchema = z.object({
+  questions: z.array(
+    z.object({
+      storyId: z.string(),
+      question: z.string(),
+      options: z.array(z.string()).length(4),
+      answer: z.number().int().min(0).max(3),
+      explanation: z.string(),
+    }),
+  ),
+});
+export type Quiz = z.infer<typeof QuizSchema>["questions"];
 
 // One quick attempt per model (timeout in milliseconds). Retrying is done by moving on
 // to the next model, which is much faster than waiting on a busy one.
@@ -48,13 +63,8 @@ const modelOrder = [...MODELS];
 // Which model actually wrote today's bricks (saved in latest.json).
 export const modelsUsed = new Set<string>();
 
-export async function writeBricks(category: Category, items: FeedItem[]): Promise<Brick[]> {
-  const itemList = items
-    .map((item, i) => `[${i}] ${item.source} | ${item.title}\n${item.snippet}`)
-    .join("\n\n");
-
-  const prompt = bricksPrompt(category.title, category.focus, category.bricks, itemList);
-
+// Asks Gemini for JSON in `schema`, falling back through the free-tier models.
+async function askJson(system: string, prompt: string, schema: unknown): Promise<unknown> {
   let response: GenerateContentResponse | undefined;
   let model = "";
   for (model of [...modelOrder]) {
@@ -62,11 +72,7 @@ export async function writeBricks(category: Category, items: FeedItem[]): Promis
       response = await ai.models.generateContent({
         model,
         contents: prompt,
-        config: {
-          systemInstruction: SYSTEM_PROMPT,
-          responseMimeType: "application/json",
-          responseJsonSchema: BRICKS_SCHEMA,
-        },
+        config: { systemInstruction: system, responseMimeType: "application/json", responseJsonSchema: schema },
       });
       modelOrder.splice(modelOrder.indexOf(model), 1);
       modelOrder.unshift(model);
@@ -82,26 +88,36 @@ export async function writeBricks(category: Category, items: FeedItem[]): Promis
     }
   }
   if (!response) throw new Error("Every Gemini model was busy. Try again in a few minutes.");
-
   if (!response.text) {
     const reason = response.candidates?.[0]?.finishReason ?? "no text returned";
     throw new Error(`Gemini returned no answer (${reason})`);
   }
-  const parsed = ResponseSchema.parse(JSON.parse(response.text));
   modelsUsed.add(model);
   const usage = response.usageMetadata;
   console.log(
     `  Gemini (${model}): ${usage?.promptTokenCount ?? "?"} input / ${usage?.candidatesTokenCount ?? "?"} output tokens`,
   );
+  return JSON.parse(response.text);
+}
+
+// `yesterday`: this category's bricks from the previous edition, so continuing stories
+// get an "update" line and repeats with nothing new are dropped.
+export async function writeBricks(category: Category, items: FeedItem[], yesterday: Brick[] = []): Promise<Brick[]> {
+  const itemList = items
+    .map((item, i) => `[${i}] ${item.source} | ${item.title}\n${item.snippet}`)
+    .join("\n\n");
+  const prompt = bricksPrompt(category.title, category.focus, category.bricks, itemList, yesterday);
+  const parsed = ResponseSchema.parse(await askJson(SYSTEM_PROMPT, prompt, BRICKS_SCHEMA));
 
   return parsed.bricks
     .map((b, i) => {
       // Links and images come from the feeds, never from the AI, so they can't be made up.
       const used = [...new Set(b.sourceIds)].filter((id) => id >= 0 && id < items.length).map((id) => items[id]);
-      const { sourceIds, importance, ...text } = b;
+      const { sourceIds, importance, update, ...text } = b;
       return {
         id: `${category.id}-${i}`,
         ...text,
+        update: update?.trim() || null,
         importance: Math.min(10, Math.max(1, importance)),
         image: used.find((item) => item.image)?.image ?? null,
         sources: used.map((item) => ({ name: item.source, title: item.title, url: item.url })),
@@ -109,6 +125,16 @@ export async function writeBricks(category: Category, items: FeedItem[]): Promis
     })
     .filter((brick) => brick.sources.length > 0)
     .slice(0, category.bricks);
+}
+
+// The weekly quiz: five questions from the week's biggest stories.
+export async function writeQuiz(stories: (Brick & { date: string; topic: string })[]): Promise<Quiz> {
+  const list = stories
+    .map((s) => `[${s.id}] (${s.date}, ${s.topic}) ${s.headline}\n${s.summary}\n${s.explainer}`)
+    .join("\n\n");
+  const parsed = QuizSchema.parse(await askJson(QUIZ_PROMPT, `This week's biggest stories:\n\n${list}`, QUIZ_SCHEMA));
+  const known = new Set(stories.map((s) => s.id));
+  return parsed.questions.filter((q) => known.has(q.storyId)).slice(0, 5);
 }
 
 // Used by --dry-run: builds bricks straight from the feeds with no AI call,
@@ -122,6 +148,7 @@ export function placeholderBricks(category: Category, items: FeedItem[]): Brick[
     explainer: "[Dry run: the AI writes this explanation in a real run.]",
     keyTerms: [],
     disagreement: null,
+    update: null,
     importance: 5 - i,
     image: item.image ?? null,
     sources: [{ name: item.source, title: item.title, url: item.url }],

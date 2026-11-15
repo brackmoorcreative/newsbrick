@@ -20,6 +20,7 @@ Rules:
 - keyTerms: define 0 to 3 terms a 5th grader might not know. Definitions are one short sentence.
 - disagreement: only when items state conflicting facts or meaningfully different accounts. Say what differs and who says what. Otherwise null.
 - whyItMatters: one sentence on how the story touches ordinary people's lives (money, safety, rights, jobs, daily life). If the effect is mostly local or indirect, say so honestly instead of exaggerating. For sports, say what it means for the team's season or its fans.
+- update: you may be shown YESTERDAY's headlines for this category. If a story continues one of them, set update to one short sentence saying what is new today (from the items), and write the summary for someone who missed yesterday. If a story is the same as yesterday with nothing new, leave it out. Otherwise update is null.
 
 Importance scale. The app compares scores from every topic (world news, a city's politics, sports, ...) to pick each reader's few stories of the day, so use this one scale, not a ranking within this list:
 - 9-10: history-making or affects huge numbers of people right away (war breaks out, a major country's election result, global market crash).
@@ -52,20 +53,61 @@ export const BRICKS_SCHEMA = {
             },
           },
           disagreement: { type: ["string", "null"], description: "One sentence if sources conflict, otherwise null" },
+          update: { type: ["string", "null"], description: "What's new since yesterday, if this continues one of yesterday's stories; otherwise null" },
         },
-        required: ["sourceIds", "importance", "headline", "summary", "whyItMatters", "explainer", "keyTerms", "disagreement"],
+        required: ["sourceIds", "importance", "headline", "summary", "whyItMatters", "explainer", "keyTerms", "disagreement", "update"],
       },
     },
   },
   required: ["bricks"],
 } as const;
 
-export function bricksPrompt(title: string, focus: string, maxBricks: number, itemList: string): string {
+export function bricksPrompt(
+  title: string,
+  focus: string,
+  maxBricks: number,
+  itemList: string,
+  yesterday: { headline: string; summary: string }[] = [],
+): string {
+  const previous = yesterday.length
+    ? `\n\nYESTERDAY's headlines in this category (for the update rule):\n${yesterday.map((b) => `- ${b.headline}: ${b.summary}`).join("\n")}`
+    : "";
   return `Category: ${title}
 What belongs here: ${focus}
 
-Pick up to ${maxBricks} of the most important stories for this category, most important first. Ignore items that don't fit the category. If fewer stories fit, return fewer bricks (even zero) rather than stretching.
+Pick up to ${maxBricks} of the most important stories for this category, most important first. Ignore items that don't fit the category. If fewer stories fit, return fewer bricks (even zero) rather than stretching.${previous}
 
 Items:
 ${itemList}`;
 }
+
+// The weekly quiz: five questions about the past week's biggest stories.
+export const QUIZ_PROMPT = `You write a short, fun weekly news quiz for NewsBrick readers anywhere in the world.
+
+Rules:
+- Exactly 5 multiple-choice questions, each about a different story from the list below, covering a mix of subjects (world, economy, sports, ...).
+- Each question has 4 short answer options; exactly one is correct, using only facts from the story. Wrong options should be plausible but clearly wrong to someone who read the story.
+- Write at a 5th grade reading level. Neutral, no opinions, no trick questions.
+- explanation: one short sentence saying why the answer is right.
+- storyId: the id of the story the question is about.`;
+
+export const QUIZ_SCHEMA = {
+  type: "object",
+  properties: {
+    questions: {
+      type: "array",
+      items: {
+        type: "object",
+        properties: {
+          storyId: { type: "string" },
+          question: { type: "string" },
+          options: { type: "array", items: { type: "string" } },
+          answer: { type: "integer", description: "Index (0-3) of the correct option" },
+          explanation: { type: "string" },
+        },
+        required: ["storyId", "question", "options", "answer", "explanation"],
+      },
+    },
+  },
+  required: ["questions"],
+} as const;
