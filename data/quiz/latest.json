@@ -1,0 +1,66 @@
+{
+  "generatedAt": "2026-11-15T23:34:47.824Z",
+  "weekEnding": "2026-11-15",
+  "questions": [
+    {
+      "storyId": "politics-world-0",
+      "question": "Which country launched drone attacks against a US military base in Bahrain?",
+      "options": [
+        "Iran",
+        "Russia",
+        "China",
+        "Egypt"
+      ],
+      "answer": 0,
+      "explanation": "Iran launched drone strikes against a US military base in Bahrain."
+    },
+    {
+      "storyId": "region-europe-2",
+      "question": "Why is Estonia closing all border crossings with Russia starting December 1?",
+      "options": [
+        "Due to severe storms",
+        "Following a sabotage attack on a drone maker",
+        "To hold peace talks",
+        "Because of a computer glitch"
+      ],
+      "answer": 1,
+      "explanation": "Estonia shut its border following a suspected sabotage attack on a domestic drone maker."
+    },
+    {
+      "storyId": "top-us-0",
+      "question": "Who won the U.S. Senate seat in Mississippi, becoming the first Black senator elected from the state since the 19th century?",
+      "options": [
+        "Donald Trump",
+        "Cindy Hyde-Smith",
+        "Scott Colom",
+        "Jensen Huang"
+      ],
+      "answer": 2,
+      "explanation": "Democrat Scott Colom narrowly defeated Cindy Hyde-Smith to win the Mississippi Senate seat."
+    },
+    {
+      "storyId": "top-world-3",
+      "question": "What caused the nationwide ground stop that delayed thousands of flights across the United States?",
+      "options": [
+        "A malicious cyber-attack",
+        "Severe winter weather",
+        "An aging air traffic control system overloading",
+        "A strike by airline pilots"
+      ],
+      "answer": 2,
+      "explanation": "Officials blamed an aging air control system overloading rather than a cyber-attack."
+    },
+    {
+      "storyId": "top-world-2",
+      "question": "Which tech giant was fined hundreds of millions of dollars by Italy's data regulator over user photo privacy?",
+      "options": [
+        "Microsoft",
+        "Nvidia",
+        "Meta",
+        "Google"
+      ],
+      "answer": 2,
+      "explanation": "Italy's data protection regulator issued a massive fine against Meta."
+    }
+  ]
+}
