@@ -12,8 +12,8 @@ function hash(text: string): string {
 }
 
 // Returns personal "Why it matters to you" lines (story id -> line) for today's deck.
-// Asks the service once per day per set of answers, then reuses the saved copy.
-export function usePersonalized(date: string | undefined, ids: string[], profile: string[], enabled: boolean) {
+// Asks the service once per day per set of answers and language, then reuses the saved copy.
+export function usePersonalized(date: string | undefined, ids: string[], profile: string[], enabled: boolean, lang = 'en') {
   const [lines, setLines] = useState<Record<string, string>>({});
   const idKey = ids.join(',');
   const profileKey = profile.join('\n');
@@ -24,7 +24,7 @@ export function usePersonalized(date: string | undefined, ids: string[], profile
       return;
     }
     let cancelled = false;
-    const cacheKey = `personal:${date}:${hash(profileKey)}`;
+    const cacheKey = `personal:${date}:${lang}:${hash(profileKey)}`;
     (async () => {
       const saved = JSON.parse((await AsyncStorage.getItem(cacheKey)) ?? '{}') as Record<string, string>;
       if (!cancelled) setLines(saved);
@@ -34,7 +34,7 @@ export function usePersonalized(date: string | undefined, ids: string[], profile
         const res = await fetch(`${SERVICE_URL}/personalize`, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ date, ids: missing.slice(0, 10), profile }),
+          body: JSON.stringify({ date, ids: missing.slice(0, 10), profile, ...(lang !== 'en' ? { lang } : {}) }),
         });
         if (!res.ok) return; // keep the general lines
         const { items } = (await res.json()) as { items: { id: string; whyItMatters: string }[] };
@@ -49,7 +49,7 @@ export function usePersonalized(date: string | undefined, ids: string[], profile
       cancelled = true;
     };
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [date, idKey, profileKey, enabled]);
+  }, [date, idKey, profileKey, enabled, lang]);
 
   return lines;
 }

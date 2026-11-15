@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Modal, Pressable, ScrollView, StyleSheet, Switch, Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
+import { LanguageSection, NotifySection } from './MoreSettings';
 import { PlacesSection, TeamsSection } from './PlacesTeams';
 import { usePrefs } from './prefs';
 import { useProfile, useSaveQuiz } from './profile';
@@ -78,6 +79,7 @@ export function SettingsSheet({ visible, account, streak, onSignOut, onClose }: 
             <Text style={styles.outlineText}>{answeredCount ? 'Edit my answers' : 'Take the quiz'}</Text>
           </Pressable>
 
+          <NotifySection />
           <PlacesSection />
           <TeamsSection />
 
@@ -134,6 +136,8 @@ export function SettingsSheet({ visible, account, streak, onSignOut, onClose }: 
               );
             })}
           </View>
+
+          <LanguageSection />
 
           <Text style={styles.label}>Appearance</Text>
           <View style={styles.segmented}>

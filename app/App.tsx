@@ -17,6 +17,7 @@ import { BrickPage } from './src/BrickPage';
 import { CalendarSheet } from './src/CalendarSheet';
 import { formatDate, toDateKey } from './src/dates';
 import { FeedbackProvider, useFeedback } from './src/feedback';
+import { LanguageProvider, useLanguage } from './src/language';
 import { PrefsProvider, usePrefs } from './src/prefs';
 import { ProfileProvider, useProfile, useSaveQuiz } from './src/profile';
 import { profileLines } from './src/quiz';
@@ -34,10 +35,12 @@ import { useListen } from './src/useListen';
 import { useLocalTopics } from './src/useLocalTopics';
 import { usePersonalized } from './src/usePersonalized';
 import { useStreak } from './src/useStreak';
+import { useTranslations } from './src/useTranslations';
+import { useWeeklyQuiz, WeeklyQuizSheet } from './src/WeeklyQuiz';
 import { WelcomeScreen } from './src/WelcomeScreen';
 
 // Each page in the deck is a brick, plus a final "all caught up" page.
-type BrickItem = { kind: 'brick'; brick: Brick; section: string; topic: string; personalized?: boolean };
+type BrickItem = { kind: 'brick'; brick: Brick; section: string; topic: string; scoreLine?: string | null; personalized?: boolean };
 type Page = BrickItem | { kind: 'done' };
 
 // Each extra story from the same kind of news (politics, sports, ...) counts this much
@@ -68,6 +71,7 @@ function buildDeck(
         brick,
         section: category.title,
         topic: id,
+        scoreLine: category.scoreLine,
         // Editions before importance scores existed: keep each topic's own ranking.
         score: (brick.importance ?? 5 - i) + weightOf(id) * FEEDBACK_WEIGHT,
         // Ties: your own places and teams first, then the order in Settings.
@@ -107,7 +111,7 @@ function buildDeck(
 
   return picked
     .sort((a, b) => b.score - a.score || a.order - b.order)
-    .map(({ kind, brick, section, topic }) => ({ kind, brick, section, topic }));
+    .map(({ kind, brick, section, topic, scoreLine }) => ({ kind, brick, section, topic, scoreLine }));
 }
 
 // Above this many stories the per-story segments get too thin, so show one bar.
@@ -140,6 +144,9 @@ function BrickDeck({ account, onSignOut }: { account: Account; onSignOut: () => 
   const feedback = useFeedback();
   const saved = useSaved();
   const profile = useMemo(() => profileLines(answers), [answers]);
+  const { lang } = useLanguage();
+  const weekly = useWeeklyQuiz();
+  const [quizOpen, setQuizOpen] = useState(false);
 
   // The day's shared topics plus your own places and teams. Wait for those before picking
   // the day's stories, so the deck doesn't reshuffle while you read.
@@ -147,13 +154,16 @@ function BrickDeck({ account, onSignOut }: { account: Account; onSignOut: () => 
   const allCategories = data ? [...data.categories, ...local.categories] : [];
   const deck = data && local.ready ? buildDeck(allCategories, topics, perDay, feedback.weightOf) : [];
 
-  // Swap in "Why it matters to you" lines written for this reader, once they arrive.
-  const personal = usePersonalized(data?.date, deck.map((b) => b.brick.id), profile, personalize);
-  const bricks: BrickItem[] = deck.map((b) =>
-    personal[b.brick.id]
-      ? { ...b, brick: { ...b.brick, whyItMatters: personal[b.brick.id] }, personalized: true }
-      : b,
-  );
+  // Your language first, then "Why it matters to you" lines written for you (in that language).
+  const deckIds = deck.map((b) => b.brick.id);
+  const translated = useTranslations(data?.date, deckIds, lang);
+  const personal = usePersonalized(data?.date, deckIds, profile, personalize, lang);
+  const bricks: BrickItem[] = deck.map((b) => {
+    const brick = { ...b.brick, ...translated[b.brick.id] };
+    return personal[b.brick.id]
+      ? { ...b, brick: { ...brick, whyItMatters: personal[b.brick.id] }, personalized: true }
+      : { ...b, brick };
+  });
   const pages: Page[] = bricks.length ? [...bricks, { kind: 'done' }] : [];
   const current = pages[index];
   const readCount = bricks.filter((b) => readIds.has(b.brick.id)).length;
@@ -326,6 +336,7 @@ function BrickDeck({ account, onSignOut }: { account: Account; onSignOut: () => 
               width={width}
               height={pageHeight}
               personalized={item.personalized}
+              scoreLine={item.scoreLine}
               saved={saved.isSaved(item.brick.id)}
               vote={feedback.voteOf(item.brick.id)}
               onOpen={() => setOpen(item.brick)}
@@ -349,6 +360,16 @@ function BrickDeck({ account, onSignOut }: { account: Account; onSignOut: () => 
                   ? 'That was a past edition.'
                   : "That's today's news. New stories arrive tomorrow morning."}
               </Text>
+              {weekly.quiz && !viewDate && (
+                <Pressable onPress={() => setQuizOpen(true)} accessibilityRole="button" style={styles.quizCard}>
+                  <Text style={styles.quizTitle}>This week’s quiz</Text>
+                  <Text style={styles.quizText}>
+                    {weekly.score === null
+                      ? `${weekly.quiz.questions.length} quick questions on the week’s news. How much do you remember?`
+                      : `You scored ${weekly.score} of ${weekly.quiz.questions.length}. Tap to try again.`}
+                  </Text>
+                </Pressable>
+              )}
               <Pressable onPress={() => (viewDate ? setViewDate(null) : refresh())} accessibilityRole="button">
                 <Text style={styles.doneLink}>{viewDate ? "Go to today's edition" : 'Check for updates'}</Text>
               </Pressable>
@@ -375,6 +396,12 @@ function BrickDeck({ account, onSignOut }: { account: Account; onSignOut: () => 
       )}
 
       <BrickDetail brick={open} onClose={() => setOpen(null)} />
+      <WeeklyQuizSheet
+        quiz={weekly.quiz}
+        visible={quizOpen}
+        onFinish={weekly.saveScore}
+        onClose={() => setQuizOpen(false)}
+      />
       <CalendarSheet
         visible={sheet === 'calendar'}
         editions={editions}
@@ -436,7 +463,9 @@ export default function App() {
           <ProfileProvider>
             <SavedProvider>
               <FeedbackProvider>
-                <Root />
+                <LanguageProvider>
+                  <Root />
+                </LanguageProvider>
               </FeedbackProvider>
             </SavedProvider>
           </ProfileProvider>
@@ -512,6 +541,9 @@ const makeStyles = (c: Palette) =>
       textAlign: 'center',
     },
     doneLink: { fontFamily: fonts.label, fontSize: 15, color: c.link, marginTop: 24 },
+    quizCard: { marginTop: 28, borderWidth: 1.5, borderColor: c.text, borderRadius: 8, padding: 16, alignSelf: 'stretch', gap: 6 },
+    quizTitle: { fontFamily: fonts.label, fontSize: 16, color: c.text },
+    quizText: { fontFamily: fonts.body, fontSize: 16, lineHeight: 23, color: c.body },
     nav: {
       flexDirection: 'row',
       justifyContent: 'space-between',

@@ -19,6 +19,7 @@ export type CategoryBricks = {
   id: string;
   title: string;
   bricks: Brick[];
+  scoreLine?: string | null; // team topics: last result and next game
 };
 
 export type DailyBricks = {

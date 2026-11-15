@@ -1,6 +1,7 @@
 {
-  // NewsBrick's on-demand service (Cloudflare Workers free tier).
-  // Deploy: npx wrangler deploy   Secret: npx wrangler secret put GEMINI_API_KEY
+  // NewsBrick's service (Cloudflare Workers free tier).
+  // Deploy: npx wrangler deploy
+  // Secrets: npx wrangler secret put GEMINI_API_KEY | VAPID_PRIVATE_JWK | GITHUB_TOKEN
   "name": "newsbrick-personalize",
   "main": "src/index.ts",
   "compatibility_date": "2026-10-01",
@@ -8,9 +9,16 @@
     // Where the daily stories live (the public GitHub data folder).
     "DATA_BASE_URL": "https://raw.githubusercontent.com/brackmoorcreative/newsbrick/main/data/",
     // Only the app (and local previews) may call this service from a browser.
-    "ALLOWED_ORIGINS": "https://brackmoorcreative.github.io,http://localhost:8081,http://localhost:8790"
+    "ALLOWED_ORIGINS": "https://brackmoorcreative.github.io,http://localhost:8081,http://localhost:8790",
+    // Public half of the morning-notification key (the app has the same value).
+    "VAPID_PUBLIC_KEY": "BECDCUq5gs2H0g3ufmZC4PNyh3Tt-TFuE657qrKdJsOK68ukM7WjgbfJGbpFSfUtjYkK_AkYkrRo_9TYjCAB98I",
+    // The repo whose daily job the cron starts on time each morning.
+    "GITHUB_REPO": "brackmoorcreative/newsbrick"
   },
-  // Reader-added places and teams for today, shared by everyone. Replace the id with the
-  // one printed by: npx wrangler kv namespace create TOPICS
+  // Every 15 minutes: start the daily job if it's late; send due morning notifications.
+  "triggers": { "crons": ["*/15 * * * *"] },
+  // Reader-added places and teams, translations, team lists, and notification
+  // subscriptions. Replace the id with the one printed by:
+  //   npx wrangler kv namespace create TOPICS
   "kv_namespaces": [{ "binding": "TOPICS", "id": "REPLACE_WITH_KV_NAMESPACE_ID" }]
 }
