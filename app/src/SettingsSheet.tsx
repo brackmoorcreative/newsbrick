@@ -1,3 +1,4 @@
+import { Ionicons } from '@expo/vector-icons';
 import { useState } from 'react';
 import { Modal, Pressable, ScrollView, StyleSheet, Switch, Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
@@ -7,6 +8,8 @@ import { usePrefs } from './prefs';
 import { useProfile, useSaveQuiz } from './profile';
 import { profileLines, QUESTIONS } from './quiz';
 import { QuizScreen } from './QuizScreen';
+import { useSwitchColors, Chip, CollapsibleItem, Segmented, SettingsGroup, SettingsItem, useSettingsStyles } from './settingsUi';
+import { BrickMark } from './StreakBadge';
 import { STORIES_PER_DAY, TOPIC_GROUPS } from './topics';
 import type { Account } from './useAccount';
 import { fonts, TEXT_SIZES, useStyles, useTheme, type Appearance, type Palette, type TextSize } from './theme';
@@ -25,8 +28,18 @@ const APPEARANCES: { value: Appearance; label: string }[] = [
   { value: 'system', label: 'Match phone' },
 ];
 
+const GROUP_ICONS: Record<string, keyof typeof Ionicons.glyphMap> = {
+  'Top stories': 'newspaper-outline',
+  'Politics & government': 'business-outline',
+  'Economy & money': 'trending-up-outline',
+  'World regions': 'globe-outline',
+  Sports: 'football-outline',
+};
+
 export function SettingsSheet({ visible, account, streak, onSignOut, onClose }: Props) {
+  const switchColors = useSwitchColors();
   const styles = useStyles(makeStyles);
+  const ui = useSettingsStyles();
   const { appearance, setAppearance, textSize, setTextSize } = useTheme();
   const { topics, toggleTopic, perDay, setPerDay } = usePrefs();
   const profile = useProfile();
@@ -35,7 +48,7 @@ export function SettingsSheet({ visible, account, streak, onSignOut, onClose }: 
   const answeredCount = profileLines(profile.answers).length;
   const who =
     account.provider === 'preview'
-      ? 'No account. Your streak and settings are saved on this phone.'
+      ? 'Saved on this phone'
       : `Signed in with Apple${account.name || account.email ? ` as ${account.name ?? account.email}` : ''}`;
 
   return (
@@ -59,140 +72,111 @@ export function SettingsSheet({ visible, account, streak, onSignOut, onClose }: 
         </View>
 
         <ScrollView contentContainerStyle={styles.content} showsVerticalScrollIndicator={false}>
-          <Text style={styles.label}>You</Text>
-          <View style={styles.switchRow}>
-            <View style={styles.switchText}>
-              <Text style={styles.body}>Personalize “Why it matters”</Text>
-              <Text style={styles.hint}>
-                {answeredCount
-                  ? `Written for you from ${answeredCount} of ${QUESTIONS.length} quiz answers.`
-                  : 'Take the quiz so each story explains what it means for your life.'}
-              </Text>
-            </View>
-            <Switch
-              value={profile.personalize}
-              onValueChange={profile.setPersonalize}
-              accessibilityLabel="Personalize why it matters"
-            />
-          </View>
-          <Pressable onPress={() => setRetaking(true)} accessibilityRole="button" style={styles.outline}>
-            <Text style={styles.outlineText}>{answeredCount ? 'Edit my answers' : 'Take the quiz'}</Text>
-          </Pressable>
-
-          <NotifySection />
-          <PlacesSection />
-          <TeamsSection />
-
-          <Text style={styles.label}>Topics</Text>
-          <Text style={styles.hint}>
-            Each day you get the most important stories from everything you follow, so a quiet
-            topic may not show up every day.
-          </Text>
-          {TOPIC_GROUPS.map((group) => (
-            <View key={group.title} style={styles.group}>
-              <Text style={styles.groupTitle}>{group.title}</Text>
-              {group.sections.map((section) => (
-                <View key={section.label ?? group.title}>
-                  {section.label && <Text style={styles.sectionLabel}>{section.label}</Text>}
-                  <View style={styles.chips}>
-                    {section.topics.map((t) => {
-                      const on = topics.includes(t.id);
-                      return (
-                        <Pressable
-                          key={t.id}
-                          onPress={() => toggleTopic(t.id)}
-                          accessibilityRole="checkbox"
-                          accessibilityState={{ checked: on }}
-                          accessibilityLabel={`${group.title}: ${t.label}`}
-                          style={[styles.chip, on && styles.chipOn]}
-                        >
-                          <Text style={[styles.chipText, on && styles.chipTextOn]}>
-                            {on ? '✓ ' : ''}
-                            {t.label}
-                          </Text>
-                        </Pressable>
-                      );
-                    })}
-                  </View>
-                </View>
-              ))}
-            </View>
-          ))}
-
-          <Text style={styles.label}>Stories per day</Text>
-          <View style={styles.segmented}>
-            {STORIES_PER_DAY.map((n) => {
-              const on = n === perDay;
-              return (
-                <Pressable
-                  key={n}
-                  onPress={() => setPerDay(n)}
-                  accessibilityRole="button"
-                  accessibilityState={{ selected: on }}
-                  style={[styles.segment, on && styles.segmentOn]}
-                >
-                  <Text style={[styles.segmentText, on && styles.segmentTextOn]}>{n} stories</Text>
-                </Pressable>
-              );
-            })}
-          </View>
-
-          <LanguageSection />
-
-          <Text style={styles.label}>Appearance</Text>
-          <View style={styles.segmented}>
-            {APPEARANCES.map((a) => {
-              const on = a.value === appearance;
-              return (
-                <Pressable
-                  key={a.value}
-                  onPress={() => setAppearance(a.value)}
-                  accessibilityRole="button"
-                  accessibilityState={{ selected: on }}
-                  style={[styles.segment, on && styles.segmentOn]}
-                >
-                  <Text style={[styles.segmentText, on && styles.segmentTextOn]}>{a.label}</Text>
-                </Pressable>
-              );
-            })}
-          </View>
-
-          <Text style={styles.label}>Text size</Text>
-          <View style={styles.segmented}>
-            {(Object.keys(TEXT_SIZES) as TextSize[]).map((size) => {
-              const on = size === textSize;
-              return (
-                <Pressable
-                  key={size}
-                  onPress={() => setTextSize(size)}
-                  accessibilityRole="button"
-                  accessibilityState={{ selected: on }}
-                  style={[styles.segment, on && styles.segmentOn]}
-                >
-                  <Text style={[styles.segmentText, on && styles.segmentTextOn, { fontSize: 15 * TEXT_SIZES[size] }]}>
-                    {size === 'small' ? 'Small' : size === 'normal' ? 'Normal' : 'Large'}
-                  </Text>
-                </Pressable>
-              );
-            })}
-          </View>
-
           {streak && (
-            <>
-              <Text style={styles.label}>Reading streak</Text>
-              <Text style={styles.body}>
-                {streak.count} {streak.count === 1 ? 'day' : 'days'} in a row · Best: {streak.best}
-              </Text>
-            </>
+            <View style={styles.hero}>
+              <BrickMark unit={9} />
+              <View style={styles.heroText}>
+                <Text style={styles.heroTitle}>
+                  {streak.count}-day reading streak
+                </Text>
+                <Text style={styles.heroHint}>
+                  Best streak: {streak.best} {streak.best === 1 ? 'day' : 'days'}
+                </Text>
+              </View>
+            </View>
           )}
 
-          <Text style={styles.label}>Account</Text>
-          <Text style={styles.body}>{who}</Text>
-          <Pressable onPress={onSignOut} accessibilityRole="button" style={styles.signOut}>
-            <Text style={styles.signOutText}>
-              {account.provider === 'preview' ? 'Back to welcome screen' : 'Sign out'}
-            </Text>
-          </Pressable>
+          <SettingsGroup
+            title="Your news"
+            footer="Each day you get the most important stories from everything you follow, so a quiet topic may not show up every day."
+          >
+            <SettingsItem icon="layers-outline" title="Stories per day">
+              <Segmented
+                options={STORIES_PER_DAY.map((n) => ({ value: n, label: `${n}` }))}
+                value={perDay}
+                onChange={setPerDay}
+              />
+            </SettingsItem>
+            {TOPIC_GROUPS.map((group) => {
+              const all = group.sections.flatMap((sec) => sec.topics);
+              const count = all.filter((t) => topics.includes(t.id)).length;
+              return (
+                <CollapsibleItem key={group.title} icon={GROUP_ICONS[group.title] ?? 'newspaper-outline'} title={group.title} summary={count ? `${count} on` : 'Off'}>
+                  {group.sections.map((section) => (
+                    <View key={section.label ?? group.title} style={styles.section}>
+                      {section.label && <Text style={styles.sectionLabel}>{section.label}</Text>}
+                      <View style={ui.chips}>
+                        {section.topics.map((t) => (
+                          <Chip
+                            key={t.id}
+                            check
+                            label={t.label}
+                            on={topics.includes(t.id)}
+                            onPress={() => toggleTopic(t.id)}
+                            accessibilityLabel={`${group.title}: ${t.label}`}
+                          />
+                        ))}
+                      </View>
+                    </View>
+                  ))}
+                </CollapsibleItem>
+              );
+            })}
+            <PlacesSection />
+            <TeamsSection />
+          </SettingsGroup>
+
+          <SettingsGroup title="Made for you">
+            <SettingsItem
+              icon="person-outline"
+              title="Personal “Why it matters”"
+              hint={
+                answeredCount
+                  ? `Written for you from ${answeredCount} of ${QUESTIONS.length} quiz answers`
+                  : 'Take the quiz so each story explains what it means for your life'
+              }
+              right={
+                <Switch
+                  {...switchColors}
+                  value={profile.personalize}
+                  onValueChange={profile.setPersonalize}
+                  accessibilityLabel="Personalize why it matters"
+                />
+              }
+            >
+              <Pressable onPress={() => setRetaking(true)} accessibilityRole="button" style={ui.button}>
+                <Text style={ui.buttonText}>{answeredCount ? 'Edit my answers' : 'Take the quiz'}</Text>
+              </Pressable>
+            </SettingsItem>
+            <NotifySection />
+            <LanguageSection />
+          </SettingsGroup>
+
+          <SettingsGroup title="Reading">
+            <SettingsItem icon="contrast-outline" title="Appearance">
+              <Segmented options={APPEARANCES} value={appearance} onChange={setAppearance} />
+            </SettingsItem>
+            <SettingsItem icon="text-outline" title="Text size">
+              <Segmented
+                options={(Object.keys(TEXT_SIZES) as TextSize[]).map((size) => ({
+                  value: size,
+                  label: size === 'small' ? 'Small' : size === 'normal' ? 'Normal' : 'Large',
+                }))}
+                value={textSize}
+                onChange={setTextSize}
+                labelStyle={(size) => ({ fontSize: 14 * TEXT_SIZES[size] })}
+              />
+            </SettingsItem>
+          </SettingsGroup>
+
+          <SettingsGroup title="Account">
+            <SettingsItem icon={account.provider === 'preview' ? 'phone-portrait-outline' : 'logo-apple'} title={who} />
+            <Pressable onPress={onSignOut} accessibilityRole="button" style={styles.signOut}>
+              <Text style={styles.signOutText}>
+                {account.provider === 'preview' ? 'Back to welcome screen' : 'Sign out'}
+              </Text>
+            </Pressable>
+          </SettingsGroup>
         </ScrollView>
       </SafeAreaView>
       )}
@@ -209,57 +193,34 @@ const makeStyles = (c: Palette) =>
       alignItems: 'center',
       paddingVertical: 16,
       paddingHorizontal: 20,
+      borderBottomWidth: StyleSheet.hairlineWidth,
+      borderColor: c.hairline,
     },
     heading: { fontFamily: fonts.headline, fontSize: 24, color: c.text },
     done: { fontFamily: fonts.label, fontSize: 17, color: c.link },
-    content: { paddingHorizontal: 20, paddingBottom: 48 },
-    label: { fontFamily: fonts.label, fontSize: 14, color: c.muted, marginTop: 28, marginBottom: 10 },
-    hint: { fontFamily: fonts.body, fontSize: 15, lineHeight: 22, color: c.muted, marginTop: -4 },
-    group: { marginTop: 18 },
-    groupTitle: { fontFamily: fonts.headline, fontSize: 19, color: c.text, marginBottom: 10 },
+    content: { paddingHorizontal: 16, paddingTop: 4, paddingBottom: 56 },
+    hero: {
+      flexDirection: 'row',
+      alignItems: 'center',
+      gap: 16,
+      marginTop: 20,
+      paddingVertical: 18,
+      paddingHorizontal: 18,
+      borderRadius: 12,
+      borderWidth: 1,
+      borderColor: c.hairline,
+    },
+    heroText: { flex: 1, gap: 4 },
+    heroTitle: { fontFamily: fonts.headline, fontSize: 20, color: c.text },
+    heroHint: { fontFamily: fonts.body, fontSize: 14, lineHeight: 20, color: c.muted },
+    section: { gap: 8 },
     sectionLabel: {
       fontFamily: fonts.labelMedium,
-      fontSize: 13,
+      fontSize: 12,
       color: c.muted,
       textTransform: 'uppercase',
       letterSpacing: 0.5,
-      marginTop: 4,
-      marginBottom: 8,
     },
-    chips: { flexDirection: 'row', flexWrap: 'wrap', gap: 8, marginBottom: 6 },
-    chip: {
-      borderWidth: 1.5,
-      borderColor: c.hairline,
-      borderRadius: 18,
-      paddingVertical: 8,
-      paddingHorizontal: 14,
-    },
-    chipOn: { backgroundColor: c.text, borderColor: c.text },
-    chipText: { fontFamily: fonts.label, fontSize: 15, lineHeight: 20, color: c.text }, // fixed height so ✓ doesn't make chips taller
-    chipTextOn: { color: c.background },
-    segmented: {
-      flexDirection: 'row',
-      borderWidth: 1.5,
-      borderColor: c.text,
-      borderRadius: 6,
-      overflow: 'hidden',
-    },
-    segment: { flex: 1, paddingVertical: 12, alignItems: 'center' },
-    segmentOn: { backgroundColor: c.text },
-    segmentText: { fontFamily: fonts.label, fontSize: 15, color: c.text },
-    segmentTextOn: { color: c.background },
-    body: { fontFamily: fonts.body, fontSize: 18, lineHeight: 26, color: c.text },
-    switchRow: { flexDirection: 'row', alignItems: 'center', gap: 12 },
-    switchText: { flex: 1, gap: 6 },
-    outline: {
-      marginTop: 14,
-      borderWidth: 1.5,
-      borderColor: c.text,
-      borderRadius: 6,
-      paddingVertical: 12,
-      alignItems: 'center',
-    },
-    outlineText: { fontFamily: fonts.label, fontSize: 16, color: c.text },
-    signOut: { marginTop: 14, paddingVertical: 8, alignSelf: 'flex-start' },
+    signOut: { paddingVertical: 14, paddingHorizontal: 16 },
     signOutText: { fontFamily: fonts.label, fontSize: 16, color: '#C0392B' },
   });

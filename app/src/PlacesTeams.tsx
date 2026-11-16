@@ -3,6 +3,7 @@ import { Image, Pressable, StyleSheet, Text, TextInput, View } from 'react-nativ
 import { usePrefs } from './prefs';
 import { PLACE_FACETS, placeTopicId, TEAM_LEAGUES, teamTopicId, type Team } from './topics';
 import { SERVICE_URL } from './useLocalTopics';
+import { SettingsItem } from './settingsUi';
 import { fonts, useStyles, useTheme, type Palette } from './theme';
 
 const MAX_PLACES = 6;
@@ -22,9 +23,11 @@ export function PlacesSection() {
   };
 
   return (
-    <View>
-      <Text style={styles.label}>Your places</Text>
-      <Text style={styles.hint}>Any city, state, or country. Follow its local news, politics, or economy.</Text>
+    <SettingsItem
+      icon="location-outline"
+      title="Places"
+      hint="Any city, state, or country. Follow its local news, politics, or economy."
+    >
       {!SERVICE_URL && <Text style={styles.warn}>Places need the NewsBrick service, which isn’t connected yet.</Text>}
 
       {places.map((name) => (
@@ -76,7 +79,7 @@ export function PlacesSection() {
           </Pressable>
         </View>
       )}
-    </View>
+    </SettingsItem>
   );
 }
 
@@ -123,8 +126,11 @@ export function TeamsSection() {
     .slice(0, q ? 8 : 6);
 
   return (
-    <View>
-      <Text style={styles.label}>Your teams</Text>
+    <SettingsItem
+      icon="trophy-outline"
+      title="Teams"
+      hint={teams.length ? `Following ${teams.length}` : 'Scores and news for the teams you follow'}
+    >
       {!SERVICE_URL && <Text style={styles.warn}>Teams need the NewsBrick service, which isn’t connected yet.</Text>}
       {teams.map((t) => (
         <View key={teamTopicId(t)} style={styles.teamRow}>
@@ -181,29 +187,29 @@ export function TeamsSection() {
           )}
         </>
       )}
-    </View>
+    </SettingsItem>
   );
 }
 
 const makeStyles = (c: Palette) =>
   StyleSheet.create({
-    label: { fontFamily: fonts.label, fontSize: 14, color: c.muted, marginTop: 28, marginBottom: 10 },
-    hint: { fontFamily: fonts.body, fontSize: 15, lineHeight: 22, color: c.muted, marginBottom: 10 },
-    warn: { fontFamily: fonts.labelMedium, fontSize: 14, color: '#C0392B', marginBottom: 10 },
-    card: { borderWidth: 1, borderColor: c.hairline, borderRadius: 8, padding: 12, marginBottom: 10, gap: 10 },
+    hint: { fontFamily: fonts.body, fontSize: 14, lineHeight: 20, color: c.muted },
+    warn: { fontFamily: fonts.labelMedium, fontSize: 14, color: '#C0392B' },
+    card: { backgroundColor: c.background, borderRadius: 10, padding: 12, gap: 10 },
     cardHead: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' },
     cardTitle: { fontFamily: fonts.headline, fontSize: 18, color: c.text },
     remove: { fontFamily: fonts.label, fontSize: 14, color: c.muted },
     chips: { flexDirection: 'row', flexWrap: 'wrap', gap: 8 },
-    chip: { borderWidth: 1.5, borderColor: c.hairline, borderRadius: 18, paddingVertical: 8, paddingHorizontal: 14 },
+    chip: { borderWidth: 1.5, borderColor: c.hairline, backgroundColor: c.background, borderRadius: 18, paddingVertical: 7, paddingHorizontal: 13 },
     chipOn: { backgroundColor: c.text, borderColor: c.text },
-    chipText: { fontFamily: fonts.label, fontSize: 15, lineHeight: 20, color: c.text },
+    chipText: { fontFamily: fonts.label, fontSize: 14, lineHeight: 19, color: c.text },
     chipTextOn: { color: c.background },
     addRow: { flexDirection: 'row', gap: 8 },
     input: {
       flex: 1,
       borderWidth: 1.5,
       borderColor: c.hairline,
+      backgroundColor: c.background,
       borderRadius: 8,
       paddingHorizontal: 14,
       paddingVertical: 12,
@@ -211,7 +217,7 @@ const makeStyles = (c: Palette) =>
       fontSize: 17,
       color: c.text,
     },
-    search: { flex: 0, marginTop: 12, marginBottom: 6 },
+    search: { flex: 0 },
     addButton: { backgroundColor: c.text, borderRadius: 8, paddingHorizontal: 18, justifyContent: 'center' },
     addText: { fontFamily: fonts.label, fontSize: 16, color: c.background },
     disabled: { opacity: 0.3 },

@@ -87,9 +87,9 @@ const makeStyles = (c: Palette) =>
     screen: { flex: 1, backgroundColor: c.background, paddingHorizontal: 28 },
     top: { flex: 1, justifyContent: 'center' },
     masthead: {
-      fontFamily: fonts.masthead,
-      fontSize: 48,
-      lineHeight: 56,
+      fontFamily: fonts.nameplate,
+      fontSize: 54,
+      lineHeight: 64,
       color: c.text,
       textAlign: 'center',
     },

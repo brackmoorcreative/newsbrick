@@ -4,17 +4,20 @@ import { LibreFranklin_700Bold } from '@expo-google-fonts/libre-franklin/700Bold
 import { PlayfairDisplay_900Black } from '@expo-google-fonts/playfair-display/900Black';
 import { SourceSerif4_400Regular } from '@expo-google-fonts/source-serif-4/400Regular';
 import { SourceSerif4_700Bold } from '@expo-google-fonts/source-serif-4/700Bold';
+import { UnifrakturMaguntia_400Regular } from '@expo-google-fonts/unifrakturmaguntia/400Regular';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { useFonts } from 'expo-font';
 import { createContext, useContext, useEffect, useMemo, useState, type ReactNode } from 'react';
 import { Platform, useColorScheme } from 'react-native';
 
 // Newspaper type, kept simple:
-//   masthead  -> Playfair Display (only the "NewsBrick" title)
+//   nameplate -> UnifrakturMaguntia, a blackletter like the Washington Post's (only the "NewsBrick" title)
+//   masthead  -> Playfair Display (big display numbers and titles)
 //   headlines -> Source Serif 4 bold
 //   body      -> Source Serif 4
 //   labels    -> Libre Franklin (sources, section names, buttons)
 export const fonts = {
+  nameplate: 'UnifrakturMaguntia_400Regular',
   masthead: 'PlayfairDisplay_900Black',
   headline: 'SourceSerif4_700Bold',
   body: 'SourceSerif4_400Regular',
@@ -24,6 +27,7 @@ export const fonts = {
 
 export function useAppFonts(): boolean {
   const [loaded] = useFonts({
+    UnifrakturMaguntia_400Regular,
     PlayfairDisplay_900Black,
     SourceSerif4_400Regular,
     SourceSerif4_700Bold,
@@ -41,7 +45,7 @@ const light = {
   hairline: '#E3E3E3',
   link: '#1A5A96',
   box: '#F5F5F2',
-  accent: '#C2410C', // streak flame
+  accent: '#A63D2A', // brick red: streak, updates, highlights
   scale: 1, // story text size multiplier (Settings > Text size)
 };
 
@@ -54,7 +58,7 @@ const dark: typeof light = {
   hairline: '#2E2E2E',
   link: '#8AB4F8',
   box: '#1E1E1E',
-  accent: '#FB923C',
+  accent: '#E0785F',
 };
 
 export type Palette = typeof light;

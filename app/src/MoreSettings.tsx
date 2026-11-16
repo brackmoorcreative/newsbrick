@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { Pressable, StyleSheet, Switch, Text, View } from 'react-native';
+import { Switch, Text, View } from 'react-native';
 import { LANGUAGES, useLanguage } from './language';
 import {
   disableNotify,
@@ -10,13 +10,14 @@ import {
   type NotifySetting,
 } from './notifications';
 import { SERVICE_URL } from './useLocalTopics';
-import { fonts, useStyles, type Palette } from './theme';
+import { useSwitchColors, Chip, CollapsibleItem, SettingsItem, useSettingsStyles } from './settingsUi';
 
 const hourLabel = (h: number) => `${h} am`;
 
 // Settings > Morning notification: "Your NewsBrick is ready" at the hour you pick.
 export function NotifySection() {
-  const styles = useStyles(makeStyles);
+  const switchColors = useSwitchColors();
+  const s = useSettingsStyles();
   const [setting, setSetting] = useState<NotifySetting>({ on: false, hour: 7 });
   const [message, setMessage] = useState<string | null>(null);
   const [busy, setBusy] = useState(false);
@@ -51,85 +52,52 @@ export function NotifySection() {
   };
 
   return (
-    <View>
-      <Text style={styles.label}>Morning notification</Text>
-      {unavailable ? (
-        <Text style={styles.hint}>{unavailable}</Text>
-      ) : (
+    <SettingsItem
+      icon="notifications-outline"
+      title="Morning notification"
+      hint={unavailable ?? (setting.on ? `Every day at ${hourLabel(setting.hour)}, once your stories are ready` : 'Know when your stories are ready')}
+      right={
+        unavailable ? undefined : (
+          <Switch
+            {...switchColors}
+            value={setting.on}
+            disabled={busy}
+            onValueChange={(on) => (on ? turnOn(setting.hour) : turnOff())}
+            accessibilityLabel="Morning notification"
+          />
+        )
+      }
+    >
+      {!unavailable && (setting.on || message) ? (
         <>
-          <View style={styles.switchRow}>
-            <Text style={styles.body}>Tell me when my stories are ready</Text>
-            <Switch
-              value={setting.on}
-              disabled={busy}
-              onValueChange={(on) => (on ? turnOn(setting.hour) : turnOff())}
-              accessibilityLabel="Morning notification"
-            />
-          </View>
           {setting.on && (
-            <View style={styles.chips}>
-              {NOTIFY_HOURS.map((h) => {
-                const on = h === setting.hour;
-                return (
-                  <Pressable
-                    key={h}
-                    onPress={() => !on && turnOn(h)}
-                    disabled={busy}
-                    accessibilityRole="button"
-                    accessibilityState={{ selected: on }}
-                    style={[styles.chip, on && styles.chipOn]}
-                  >
-                    <Text style={[styles.chipText, on && styles.chipTextOn]}>{hourLabel(h)}</Text>
-                  </Pressable>
-                );
-              })}
+            <View style={s.chips}>
+              {NOTIFY_HOURS.map((h) => (
+                <Chip key={h} label={hourLabel(h)} on={h === setting.hour} disabled={busy} onPress={() => h !== setting.hour && turnOn(h)} />
+              ))}
             </View>
           )}
-          {message && <Text style={styles.hint}>{message}</Text>}
+          {message && <Text style={s.hint}>{message}</Text>}
         </>
-      )}
-    </View>
+      ) : undefined}
+    </SettingsItem>
   );
 }
 
 // Settings > Language: the language stories are written in.
 export function LanguageSection() {
-  const styles = useStyles(makeStyles);
+  const s = useSettingsStyles();
   const { lang, setLang } = useLanguage();
+  const current = LANGUAGES.find((l) => l.code === lang)?.name ?? 'English';
   return (
-    <View>
-      <Text style={styles.label}>Story language</Text>
-      {!SERVICE_URL && <Text style={styles.hint}>Other languages need the NewsBrick service, which isn’t connected yet.</Text>}
-      <View style={styles.chips}>
-        {LANGUAGES.map((l) => {
-          const on = l.code === lang;
-          return (
-            <Pressable
-              key={l.code}
-              onPress={() => setLang(l.code)}
-              accessibilityRole="button"
-              accessibilityState={{ selected: on }}
-              style={[styles.chip, on && styles.chipOn]}
-            >
-              <Text style={[styles.chipText, on && styles.chipTextOn]}>{l.name}</Text>
-            </Pressable>
-          );
-        })}
+    <CollapsibleItem icon="language-outline" title="Story language" summary={current}>
+      {!SERVICE_URL && <Text style={s.warn}>Other languages need the NewsBrick service, which isn’t connected yet.</Text>}
+      <View style={s.chips}>
+        {LANGUAGES.map((l) => (
+          <Chip key={l.code} label={l.name} on={l.code === lang} onPress={() => setLang(l.code)} />
+        ))}
       </View>
-      <Text style={styles.hint}>Stories are translated by AI. Buttons and menus stay in English for now.</Text>
-    </View>
+      <Text style={s.hint}>Stories are translated by AI. Buttons and menus stay in English for now.</Text>
+    </CollapsibleItem>
   );
 }
-
-const makeStyles = (c: Palette) =>
-  StyleSheet.create({
-    label: { fontFamily: fonts.label, fontSize: 14, color: c.muted, marginTop: 28, marginBottom: 10 },
-    hint: { fontFamily: fonts.body, fontSize: 15, lineHeight: 22, color: c.muted, marginTop: 10 },
-    body: { flex: 1, fontFamily: fonts.body, fontSize: 18, lineHeight: 26, color: c.text },
-    switchRow: { flexDirection: 'row', alignItems: 'center', gap: 12 },
-    chips: { flexDirection: 'row', flexWrap: 'wrap', gap: 8, marginTop: 12 },
-    chip: { borderWidth: 1.5, borderColor: c.hairline, borderRadius: 18, paddingVertical: 8, paddingHorizontal: 14 },
-    chipOn: { backgroundColor: c.text, borderColor: c.text },
-    chipText: { fontFamily: fonts.label, fontSize: 15, lineHeight: 20, color: c.text },
-    chipTextOn: { color: c.background },
-  });

@@ -26,6 +26,7 @@ import { SavedProvider, useSaved } from './src/saved';
 import { SavedSheet } from './src/SavedSheet';
 import { SettingsSheet } from './src/SettingsSheet';
 import { clearSharedLink, sharedStoryFromLink, shareStory } from './src/share';
+import { StreakBadge } from './src/StreakBadge';
 import { fonts, ThemeProvider, useAppFonts, useStyles, useTheme, type Palette } from './src/theme';
 import { FIXED_ORDER, LEGACY_IDS, topicGroup } from './src/topics';
 import type { Brick, CategoryBricks } from './src/types';
@@ -251,10 +252,7 @@ function BrickDeck({ account, onSignOut }: { account: Account; onSignOut: () => 
         <View style={styles.metaRow}>
           {data && <Text style={styles.date}>{formatDate(data.date)}</Text>}
           {streak && (
-            <View style={styles.streak} accessibilityLabel={`${streak.count} day streak`}>
-              <Ionicons name="flame" size={14} color={colors.accent} />
-              <Text style={styles.streakText}>{streak.count}</Text>
-            </View>
+            <StreakBadge count={streak.count} />
           )}
         </View>
 
@@ -487,7 +485,7 @@ const makeStyles = (c: Palette) =>
     },
     titleRow: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' },
     icons: { flexDirection: 'row', alignItems: 'center', gap: 14 },
-    masthead: { fontFamily: fonts.masthead, fontSize: 28, lineHeight: 34, color: c.text },
+    masthead: { fontFamily: fonts.nameplate, fontSize: 32, lineHeight: 38, color: c.text },
     metaRow: {
       flexDirection: 'row',
       justifyContent: 'center',
@@ -496,16 +494,6 @@ const makeStyles = (c: Palette) =>
       marginTop: 2,
     },
     date: { fontFamily: fonts.labelMedium, fontSize: 14, color: c.muted },
-    streak: {
-      flexDirection: 'row',
-      alignItems: 'center',
-      gap: 3,
-      paddingHorizontal: 8,
-      paddingVertical: 2,
-      borderRadius: 10,
-      backgroundColor: c.box,
-    },
-    streakText: { fontFamily: fonts.label, fontSize: 13, color: c.text },
     pastBanner: { flexDirection: 'row', justifyContent: 'center', marginTop: 8 },
     pastText: { fontFamily: fonts.labelMedium, fontSize: 14, color: c.muted },
     pastLink: { fontFamily: fonts.label, fontSize: 14, color: c.link },
