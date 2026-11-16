@@ -1,66 +1,66 @@
 {
-  "generatedAt": "2026-11-15T23:34:47.824Z",
-  "weekEnding": "2026-11-15",
+  "generatedAt": "2026-11-16T19:50:37.317Z",
+  "weekEnding": "2026-11-16",
   "questions": [
     {
       "storyId": "politics-world-0",
-      "question": "Which country launched drone attacks against a US military base in Bahrain?",
+      "question": "Which country recently had its military base attacked by Iranian drones?",
       "options": [
-        "Iran",
-        "Russia",
-        "China",
+        "Saudi Arabia",
+        "Bahrain",
+        "Jordan",
         "Egypt"
       ],
-      "answer": 0,
-      "explanation": "Iran launched drone strikes against a US military base in Bahrain."
+      "answer": 1,
+      "explanation": "Iran launched drone strikes against a US military base located in Bahrain."
     },
     {
-      "storyId": "region-europe-2",
-      "question": "Why is Estonia closing all border crossings with Russia starting December 1?",
+      "storyId": "top-world-0",
+      "question": "Where will the leaders of China, the US, and Russia meet for their first three-way summit?",
       "options": [
-        "Due to severe storms",
-        "Following a sabotage attack on a drone maker",
-        "To hold peace talks",
-        "Because of a computer glitch"
+        "Washington",
+        "Moscow",
+        "Shenzhen",
+        "Beijing"
       ],
-      "answer": 1,
-      "explanation": "Estonia shut its border following a suspected sabotage attack on a domestic drone maker."
+      "answer": 2,
+      "explanation": "The three leaders are scheduled to hold their historic meeting in Shenzhen, China."
     },
     {
       "storyId": "top-us-0",
-      "question": "Who won the U.S. Senate seat in Mississippi, becoming the first Black senator elected from the state since the 19th century?",
+      "question": "Who resigned as the CEO of Nvidia after a scandal?",
       "options": [
+        "Colette Kress",
+        "Jensen Huang",
         "Donald Trump",
-        "Cindy Hyde-Smith",
-        "Scott Colom",
-        "Jensen Huang"
+        "Scott Colom"
       ],
-      "answer": 2,
-      "explanation": "Democrat Scott Colom narrowly defeated Cindy Hyde-Smith to win the Mississippi Senate seat."
+      "answer": 1,
+      "explanation": "Jensen Huang stepped down as the CEO of Nvidia following a scandal."
     },
     {
-      "storyId": "top-world-3",
-      "question": "What caused the nationwide ground stop that delayed thousands of flights across the United States?",
+      "storyId": "top-us-0",
+      "question": "Which politician recently won a Senate seat in Mississippi?",
       "options": [
-        "A malicious cyber-attack",
-        "Severe winter weather",
-        "An aging air traffic control system overloading",
-        "A strike by airline pilots"
+        "Cindy Hyde-Smith",
+        "Scott Colom",
+        "Donald Trump",
+        "Kaja Kallas"
       ],
-      "answer": 2,
-      "explanation": "Officials blamed an aging air control system overloading rather than a cyber-attack."
+      "answer": 1,
+      "explanation": "Democrat Scott Colom defeated the incumbent to win the Senate seat in Mississippi."
     },
     {
       "storyId": "top-world-2",
-      "question": "Which tech giant was fined hundreds of millions of dollars by Italy's data regulator over user photo privacy?",
+      "question": "Which company was fined by Italy for privacy issues regarding user photos?",
       "options": [
-        "Microsoft",
         "Nvidia",
+        "Facebook",
         "Meta",
-        "Google"
+        "Threod Systems"
       ],
       "answer": 2,
-      "explanation": "Italy's data protection regulator issued a massive fine against Meta."
+      "explanation": "Italy's data regulator issued a large fine to Meta for failing to inform users about how it accessed their photos."
     }
   ]
 }
