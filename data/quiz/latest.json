@@ -1,66 +1,66 @@
 {
-  "generatedAt": "2026-11-16T19:50:37.317Z",
-  "weekEnding": "2026-11-16",
+  "generatedAt": "2026-11-17T18:42:34.559Z",
+  "weekEnding": "2026-11-17",
   "questions": [
     {
-      "storyId": "politics-world-0",
-      "question": "Which country recently had its military base attacked by Iranian drones?",
+      "storyId": "politics-us-0",
+      "question": "What is the main reason President Trump is traveling to Asia right now?",
       "options": [
-        "Saudi Arabia",
-        "Bahrain",
-        "Jordan",
-        "Egypt"
+        "To attend a nuclear summit with China and Russia",
+        "To visit a new theme park in the Philippines",
+        "To host a large party for international students",
+        "To watch a regional soccer tournament"
       ],
-      "answer": 1,
-      "explanation": "Iran launched drone strikes against a US military base located in Bahrain."
+      "answer": 0,
+      "explanation": "The story explains that the trip's primary focus is a historic three-way nuclear summit with the leaders of China and Russia."
     },
     {
       "storyId": "top-world-0",
-      "question": "Where will the leaders of China, the US, and Russia meet for their first three-way summit?",
+      "question": "Which bridge did Ukraine recently attack to disrupt Russian supply lines?",
       "options": [
-        "Washington",
-        "Moscow",
-        "Shenzhen",
-        "Beijing"
+        "The Brooklyn Bridge",
+        "The Kerch Bridge",
+        "The Golden Gate Bridge",
+        "The Tower Bridge"
+      ],
+      "answer": 1,
+      "explanation": "The article states that Ukraine used drones and missiles to strike the Kerch bridge, which connects Russia to Crimea."
+    },
+    {
+      "storyId": "region-mideast-0",
+      "question": "Why are nations like the UK and Italy calling on Israel to let aid into Gaza?",
+      "options": [
+        "To bring in expensive cars",
+        "To clear space for a new airport",
+        "Because people need food, medicine, and tents for winter",
+        "To help build a large shopping mall"
       ],
       "answer": 2,
-      "explanation": "The three leaders are scheduled to hold their historic meeting in Shenzhen, China."
+      "explanation": "The report notes that critical items like food, medicine, and tents are stuck at the border, which is urgent because winter is starting."
     },
     {
       "storyId": "top-us-0",
-      "question": "Who resigned as the CEO of Nvidia after a scandal?",
+      "question": "Why did Jensen Huang step down as the CEO of the company Nvidia?",
       "options": [
-        "Colette Kress",
-        "Jensen Huang",
-        "Donald Trump",
-        "Scott Colom"
+        "He wanted to retire to a quiet beach",
+        "He was tired of making computer chips",
+        "He had an affair that raised national security concerns",
+        "He decided to run for president"
       ],
-      "answer": 1,
-      "explanation": "Jensen Huang stepped down as the CEO of Nvidia following a scandal."
+      "answer": 2,
+      "explanation": "The story mentions that the CEO resigned after reports of an affair linked to an alleged spy raised security questions."
     },
     {
       "storyId": "top-us-0",
-      "question": "Which politician recently won a Senate seat in Mississippi?",
+      "question": "What historic milestone did Scott Colom achieve in the Mississippi Senate race?",
       "options": [
-        "Cindy Hyde-Smith",
-        "Scott Colom",
-        "Donald Trump",
-        "Kaja Kallas"
+        "He is the first astronaut to win a seat",
+        "He is the first Black senator elected from Mississippi since the 19th century",
+        "He is the youngest person to ever win the seat",
+        "He is the first person to win without running a campaign"
       ],
       "answer": 1,
-      "explanation": "Democrat Scott Colom defeated the incumbent to win the Senate seat in Mississippi."
-    },
-    {
-      "storyId": "top-world-2",
-      "question": "Which company was fined by Italy for privacy issues regarding user photos?",
-      "options": [
-        "Nvidia",
-        "Facebook",
-        "Meta",
-        "Threod Systems"
-      ],
-      "answer": 2,
-      "explanation": "Italy's data regulator issued a large fine to Meta for failing to inform users about how it accessed their photos."
+      "explanation": "The article highlights that Colom is the first Black senator elected in Mississippi since the Reconstruction era."
     }
   ]
 }
