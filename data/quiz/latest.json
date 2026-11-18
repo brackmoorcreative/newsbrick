@@ -1,66 +1,66 @@
 {
-  "generatedAt": "2026-11-17T18:42:34.559Z",
-  "weekEnding": "2026-11-17",
+  "generatedAt": "2026-11-18T18:19:30.264Z",
+  "weekEnding": "2026-11-18",
   "questions": [
     {
-      "storyId": "politics-us-0",
-      "question": "What is the main reason President Trump is traveling to Asia right now?",
-      "options": [
-        "To attend a nuclear summit with China and Russia",
-        "To visit a new theme park in the Philippines",
-        "To host a large party for international students",
-        "To watch a regional soccer tournament"
-      ],
-      "answer": 0,
-      "explanation": "The story explains that the trip's primary focus is a historic three-way nuclear summit with the leaders of China and Russia."
-    },
-    {
       "storyId": "top-world-0",
-      "question": "Which bridge did Ukraine recently attack to disrupt Russian supply lines?",
+      "question": "Where is the APEC summit being held this year?",
       "options": [
-        "The Brooklyn Bridge",
-        "The Kerch Bridge",
-        "The Golden Gate Bridge",
-        "The Tower Bridge"
+        "Beijing, China",
+        "Shenzhen, China",
+        "Moscow, Russia",
+        "Washington, D.C."
       ],
       "answer": 1,
-      "explanation": "The article states that Ukraine used drones and missiles to strike the Kerch bridge, which connects Russia to Crimea."
+      "explanation": "The APEC summit is taking place in the city of Shenzhen, China."
+    },
+    {
+      "storyId": "politics-world-0",
+      "question": "Which country launched drone attacks against a US military base in Bahrain?",
+      "options": [
+        "Saudi Arabia",
+        "Egypt",
+        "Iran",
+        "Jordan"
+      ],
+      "answer": 2,
+      "explanation": "Iran conducted the drone attacks against the US military base in Bahrain."
+    },
+    {
+      "storyId": "region-europe-0",
+      "question": "What structure did Ukraine damage to disrupt Russian supply lines?",
+      "options": [
+        "The Berlin Wall",
+        "The Kerch Bridge",
+        "A major airport",
+        "The Eiffel Tower"
+      ],
+      "answer": 1,
+      "explanation": "Ukraine severely damaged the Kerch Bridge, which links Russia to the Crimean peninsula."
+    },
+    {
+      "storyId": "economy-us-0",
+      "question": "What is the status of former Nvidia CEO Jensen Huang?",
+      "options": [
+        "He is returning to his job next week.",
+        "He is retiring to travel the world.",
+        "The company board rejected his return.",
+        "He is buying a new technology company."
+      ],
+      "answer": 2,
+      "explanation": "The board of directors stated they have no plans to hire Jensen Huang back after his resignation."
     },
     {
       "storyId": "region-mideast-0",
-      "question": "Why are nations like the UK and Italy calling on Israel to let aid into Gaza?",
+      "question": "What essential items are currently stuck at the border waiting to enter Gaza?",
       "options": [
-        "To bring in expensive cars",
-        "To clear space for a new airport",
-        "Because people need food, medicine, and tents for winter",
-        "To help build a large shopping mall"
+        "Cars and machinery",
+        "Video games and toys",
+        "Food, medicine, and tents",
+        "Gold and jewelry"
       ],
       "answer": 2,
-      "explanation": "The report notes that critical items like food, medicine, and tents are stuck at the border, which is urgent because winter is starting."
-    },
-    {
-      "storyId": "top-us-0",
-      "question": "Why did Jensen Huang step down as the CEO of the company Nvidia?",
-      "options": [
-        "He wanted to retire to a quiet beach",
-        "He was tired of making computer chips",
-        "He had an affair that raised national security concerns",
-        "He decided to run for president"
-      ],
-      "answer": 2,
-      "explanation": "The story mentions that the CEO resigned after reports of an affair linked to an alleged spy raised security questions."
-    },
-    {
-      "storyId": "top-us-0",
-      "question": "What historic milestone did Scott Colom achieve in the Mississippi Senate race?",
-      "options": [
-        "He is the first astronaut to win a seat",
-        "He is the first Black senator elected from Mississippi since the 19th century",
-        "He is the youngest person to ever win the seat",
-        "He is the first person to win without running a campaign"
-      ],
-      "answer": 1,
-      "explanation": "The article highlights that Colom is the first Black senator elected in Mississippi since the Reconstruction era."
+      "explanation": "International groups report that vital supplies like food, medicine, and 150,000 tents are stuck at the border."
     }
   ]
 }
