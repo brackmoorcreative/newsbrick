@@ -1,0 +1,2816 @@
+{
+  "version": 1,
+  "date": "2026-11-19",
+  "generatedAt": "2026-11-19T18:30:14.346Z",
+  "model": "gemini-3.1-flash-lite, gemini-3.5-flash-lite",
+  "categories": [
+    {
+      "id": "top-world",
+      "title": "Top Stories · World",
+      "bricks": [
+        {
+          "id": "top-world-0",
+          "headline": "Trump, Xi, and Putin Hold First Trilateral Summit",
+          "summary": "The leaders of the U.S., China, and Russia met for their first-ever three-way summit in China. They issued a joint declaration focused on issues like UN reform and oil, though the statement did not mention ongoing wars in Ukraine or Iran.",
+          "whyItMatters": "Decisions made by these three global powers can significantly impact international stability, global markets, and the risk of large-scale military conflicts.",
+          "explainer": "The summit brought together U.S. President Donald Trump, Chinese President Xi Jinping, and Russian President Vladimir Putin. While leaders described the meeting as historic, critics and analysts have noted that the resulting 'peace declaration' was generic and avoided the most pressing global conflicts, including the wars in Ukraine and Iran. Some observers suggest the meeting functioned more as a public relations event than a platform for solving complex geopolitical issues. The leaders' ability to cooperate or clash on policy affects energy prices, trade relations, and the risk of conflict between nations.",
+          "keyTerms": [
+            {
+              "term": "Trilateral",
+              "definition": "Involving three parties or countries."
+            },
+            {
+              "term": "Geopolitical",
+              "definition": "Relating to politics, especially international relations, as influenced by geographical factors."
+            }
+          ],
+          "disagreement": "Some leaders called the meeting 'historic' and 'fruitful,' while other analysts argued it lacked a real agenda and served primarily as a distraction.",
+          "update": "The leaders released a joint peace declaration following their meeting, though it notably omitted any reference to the active wars in Ukraine or Iran.",
+          "importance": 9,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1107/live/91612f50-e42e-11f1-99a1-253766e7ad8b.jpg",
+          "sources": [
+            {
+              "name": "DW",
+              "title": "Xi-Trump-Putin summit: What did it achieve?",
+              "url": "https://www.dw.com/en/xi-trump-putin-summit-what-did-it-achieve/a-79996668?maca=en-rss-en-world-4025-rdf"
+            },
+            {
+              "name": "Al Jazeera",
+              "title": "China’s Xi urges US and Russia to join forces to safeguard world peace",
+              "url": "https://www.aljazeera.com/video/newsfeed/2026/11/19/aje-onl-nf_chinas-xi-urges-us-and-russia-for-world-peace-191126?traffic_source=rss"
+            },
+            {
+              "name": "BBC News",
+              "title": "Trump, Putin and Xi release 'peace declaration' after historic meeting",
+              "url": "https://www.bbc.co.uk/news/articles/c623j4ln97x7o?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "BBC News",
+              "title": "What did Trump, Xi and Putin get out of their historic meeting?",
+              "url": "https://www.bbc.co.uk/news/videos/c63rgnq05pdwo?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "The Guardian",
+              "title": "China, Russia and US agree peace declaration with no mention of Ukraine and Iran wars",
+              "url": "https://www.theguardian.com/world/2026/nov/19/china-russia-us-agree-peace-statement-no-mention-ukraine-iran-wars"
+            },
+            {
+              "name": "Al Jazeera",
+              "title": "Trump and Putin ‘hijacked’ China summit",
+              "url": "https://www.aljazeera.com/video/newsfeed/2026/11/19/trump-and-putin-hijacked-china-summit?traffic_source=rss"
+            },
+            {
+              "name": "The Guardian",
+              "title": "New page in history? Xi, Trump and Putin summit was more of a footnote",
+              "url": "https://www.theguardian.com/world/2026/nov/19/new-page-in-history-xi-trump-and-putin-summit-was-more-of-a-footnote"
+            },
+            {
+              "name": "Al Jazeera",
+              "title": "‘Groundbreaking’ Trump-Xi-Putin summit: Five key takeaways",
+              "url": "https://www.aljazeera.com/news/2026/11/19/groundbreaking-trump-xi-putin-summit-five-key-takeaways?traffic_source=rss"
+            }
+          ]
+        },
+        {
+          "id": "top-world-1",
+          "headline": "UN Court Rules Myanmar Committed Genocide",
+          "summary": "The International Court of Justice has ruled that Myanmar committed genocide against the Rohingya people. This is the first time the world's highest court has found a state responsible for this crime.",
+          "whyItMatters": "This ruling establishes a significant legal precedent for how the international community holds countries accountable for human rights abuses.",
+          "explainer": "In a landmark decision, the International Court of Justice (ICJ) determined that Myanmar's military acted with 'genocidal intent' during a 2017 crackdown against the Rohingya minority. This is the first time the ICJ has officially found a nation responsible for genocide. The ruling is expected to influence how international law is applied to other state crimes globally. For the Rohingya, who faced mass violence and displacement, the decision provides formal legal recognition of their suffering, though the practical impact on their safety remains to be seen.",
+          "keyTerms": [
+            {
+              "term": "Genocide",
+              "definition": "The deliberate killing or destruction of a large group of people, especially those of a particular ethnic or national group."
+            },
+            {
+              "term": "International Court of Justice",
+              "definition": "The principal judicial body of the United Nations that settles legal disputes between states."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 8,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4dea/live/12de9420-e441-11f1-99a1-253766e7ad8b.jpg",
+          "sources": [
+            {
+              "name": "BBC News",
+              "title": "Rohingya genocide: What was said in court and what happens now?",
+              "url": "https://www.bbc.co.uk/news/videos/c60qj10j0ld5o?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "The Guardian",
+              "title": "Myanmar ruling gives new relevance to genocide convention and is ‘full of messages’ for Israel",
+              "url": "https://www.theguardian.com/law/2026/nov/19/myanmar-ruling-new-relevance-genocide-convention-messages-israel"
+            },
+            {
+              "name": "BBC News",
+              "title": "Myanmar committed genocide against Rohingya minority, top UN court rules",
+              "url": "https://www.bbc.co.uk/news/articles/c804wzp20ddvo?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "The Guardian",
+              "title": "‘Everyone struggled for this justice’: tears in court as Rohingya vindicated in Myanmar genocide ruling",
+              "url": "https://www.theguardian.com/global-development/2026/nov/19/everyone-struggled-for-this-justice-tears-in-court-as-rohingya-vindicated-in-myanmar-genocide-ruling"
+            },
+            {
+              "name": "Al Jazeera",
+              "title": "What the ICJ genocide ruling means for the Rohingya people",
+              "url": "https://www.aljazeera.com/news/2026/11/19/what-the-icj-ruling-means-for-the-rohingya?traffic_source=rss"
+            },
+            {
+              "name": "The Guardian",
+              "title": "Myanmar committed genocide against Rohingya minority, world’s top court rules",
+              "url": "https://www.theguardian.com/world/2026/nov/19/genocide-rohingya-international-court-of-justice-ruling-myanmar"
+            },
+            {
+              "name": "NPR",
+              "title": "The U.N.'s top court rules Myanmar committed genocide against the Rohingya",
+              "url": "https://www.npr.org/2026/11/19/g-s1-154340/un-court-myanmar-genocide-rohingya"
+            }
+          ]
+        },
+        {
+          "id": "top-world-2",
+          "headline": "Democrats Nominate Hakeem Jeffries for House Speaker",
+          "summary": "Democrats have chosen Hakeem Jeffries to lead the party in the House of Representatives. If he takes the position next year, he will be the first Black lawmaker to serve as Speaker.",
+          "whyItMatters": "The Speaker of the House is a powerful position that influences which laws are debated and passed, affecting the daily lives and rights of all Americans.",
+          "explainer": "Hakeem Jeffries was resoundingly nominated by Democrats to serve as the Speaker of the House when the new Congress meets in January. His nomination marks a significant moment in U.S. political history. As Speaker, he would play a key role in setting the legislative agenda and challenging the administration of President Donald Trump. His leadership is expected to be a major factor in how the legislative and executive branches interact in the coming term.",
+          "keyTerms": [
+            {
+              "term": "Speaker of the House",
+              "definition": "The presiding officer of the U.S. House of Representatives who leads the majority party."
+            }
+          ],
+          "disagreement": null,
+          "update": "Democrats have officially confirmed his nomination as the party's choice for the upcoming congressional term.",
+          "importance": 5,
+          "image": "https://i.guim.co.uk/img/media/2f1f53d678806d2a7e2e1a749e6128d80c2e661c/667_0_3333_2667/master/3333.jpg?width=140&quality=85&auto=format&fit=max&s=ffa0fba487ca039470aa18c954a10a82",
+          "sources": [
+            {
+              "name": "The Guardian",
+              "title": "Hakeem Jeffries on brink of House history as he tells Democrats to ‘fight Maga, not each other’ – US politics live",
+              "url": "https://www.theguardian.com/us-news/live/2026/nov/19/hakeem-jeffries-us-politics-demicrats-republicans-latest-news-updates"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "politics-world",
+      "title": "Politics · World",
+      "bricks": [
+        {
+          "id": "politics-world-0",
+          "headline": "Top UN court finds Myanmar committed genocide",
+          "summary": "The International Court of Justice ruled that Myanmar’s military committed genocide against the Rohingya minority in 2017. This is the first time the world's highest court has found a state responsible for this crime. The court ordered Myanmar to help Rohingya people who fled the violence return home safely.",
+          "whyItMatters": "This historic ruling sets a major legal precedent for holding nations accountable for human rights abuses worldwide.",
+          "explainer": "Genocide is the deliberate killing or destruction of a large group of people, specifically based on their race, religion, or ethnicity. The International Court of Justice (ICJ) is the UN’s main judicial body, which settles legal disputes between countries. For years, the Rohingya people—a Muslim ethnic minority in Myanmar—faced brutal military campaigns that forced them to flee their homes, mostly into refugee camps in neighboring Bangladesh. This verdict is groundbreaking because it is the first time the ICJ has officially used the legal term 'genocide' to describe the actions of a sovereign state. The court’s decision establishes a roadmap for how international law defines and punishes the most serious crimes committed by governments against their own citizens.",
+          "keyTerms": [
+            {
+              "term": "Genocide",
+              "definition": "The deliberate and systematic killing or destruction of a large group of people."
+            },
+            {
+              "term": "International Court of Justice",
+              "definition": "The top UN court that resolves legal disputes between different countries."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 9,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4dea/live/12de9420-e441-11f1-99a1-253766e7ad8b.jpg",
+          "sources": [
+            {
+              "name": "BBC News",
+              "title": "Rohingya genocide: What was said in court and what happens now?",
+              "url": "https://www.bbc.co.uk/news/videos/c60qj10j0ld5o?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "BBC News",
+              "title": "Myanmar committed genocide against Rohingya minority, top UN court rules",
+              "url": "https://www.bbc.co.uk/news/articles/c804wzp20ddvo?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "The Guardian",
+              "title": "‘Everyone struggled for this justice’: tears in court as Rohingya vindicated in Myanmar genocide ruling",
+              "url": "https://www.theguardian.com/global-development/2026/nov/19/everyone-struggled-for-this-justice-tears-in-court-as-rohingya-vindicated-in-myanmar-genocide-ruling"
+            },
+            {
+              "name": "PBS NewsHour",
+              "title": "UN's highest court finds Myanmar responsible for genocide in historic ruling",
+              "url": "https://www.pbs.org/newshour/world/uns-highest-court-finds-myanmar-responsible-for-genocide-in-historic-ruling"
+            },
+            {
+              "name": "Al Jazeera",
+              "title": "What the ICJ genocide ruling means for the Rohingya people",
+              "url": "https://www.aljazeera.com/news/2026/11/19/what-the-icj-ruling-means-for-the-rohingya?traffic_source=rss"
+            },
+            {
+              "name": "The Guardian",
+              "title": "Myanmar committed genocide against Rohingya minority, world’s top court rules",
+              "url": "https://www.theguardian.com/world/2026/nov/19/genocide-rohingya-international-court-of-justice-ruling-myanmar"
+            }
+          ]
+        },
+        {
+          "id": "politics-world-1",
+          "headline": "Trump, Xi, and Putin hold historic trilateral summit",
+          "summary": "Leaders from the U.S., China, and Russia met for an unprecedented three-way summit in China. They issued a joint peace declaration focused on UN reform and energy, but the statement did not mention ongoing wars in Ukraine or Iran. Critics noted the meeting offered little in tangible results.",
+          "whyItMatters": "Decisions made by these three global powers influence international security, nuclear safety, and the global economy.",
+          "explainer": "A trilateral summit involves three national leaders meeting to discuss shared interests. This event gathered President Donald Trump, President Xi Jinping, and President Vladimir Putin. While the leaders described the meeting as historic and candid, experts and analysts observed that the agenda remained narrow and failed to address major global conflicts. The resulting peace declaration focused on general diplomatic goals like protecting diplomatic immunity and increasing oil supplies. Some observers suggest the meeting served more to boost the international profiles of the leaders involved rather than solving pressing geopolitical tensions or nuclear risks.",
+          "keyTerms": [
+            {
+              "term": "Trilateral",
+              "definition": "Involving three parties or countries."
+            },
+            {
+              "term": "Summit",
+              "definition": "A high-level meeting between the leaders of different countries."
+            }
+          ],
+          "disagreement": "While the leaders described the talks as fruitful and historic, analysts argue the meeting lacked a clear agenda and failed to produce meaningful outcomes on major global issues.",
+          "update": "Following yesterday's reports of the meeting, observers highlighted today that the final peace statement excluded mentions of critical wars in Ukraine and Iran.",
+          "importance": 9,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1107/live/91612f50-e42e-11f1-99a1-253766e7ad8b.jpg",
+          "sources": [
+            {
+              "name": "DW",
+              "title": "Xi-Trump-Putin summit: What did it achieve?",
+              "url": "https://www.dw.com/en/xi-trump-putin-summit-what-did-it-achieve/a-79996668?maca=en-rss-en-world-4025-rdf"
+            },
+            {
+              "name": "Al Jazeera",
+              "title": "China’s Xi urges US and Russia to join forces to safeguard world peace",
+              "url": "https://www.aljazeera.com/video/newsfeed/2026/11/19/aje-onl-nf_chinas-xi-urges-us-and-russia-for-world-peace-191126?traffic_source=rss"
+            },
+            {
+              "name": "BBC News",
+              "title": "Trump, Putin and Xi release 'peace declaration' after historic meeting",
+              "url": "https://www.bbc.co.uk/news/articles/c623j4ln97x7o?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "BBC News",
+              "title": "What did Trump, Xi and Putin get out of their historic meeting?",
+              "url": "https://www.bbc.co.uk/news/videos/c63rgnq05pdwo?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "The Guardian",
+              "title": "China, Russia and US agree peace declaration with no mention of Ukraine and Iran wars",
+              "url": "https://www.theguardian.com/world/2026/nov/19/china-russia-us-agree-peace-statement-no-mention-ukraine-iran-wars"
+            },
+            {
+              "name": "Al Jazeera",
+              "title": "Trump and Putin ‘hijacked’ China summit",
+              "url": "https://www.aljazeera.com/video/newsfeed/2026/11/19/trump-and-putin-hijacked-china-summit?traffic_source=rss"
+            },
+            {
+              "name": "PBS NewsHour",
+              "title": "For Putin, sharing a spotlight with Trump and Xi boosts his profile on the global stage",
+              "url": "https://www.pbs.org/newshour/world/for-putin-sharing-a-spotlight-with-trump-and-xi-boosts-his-profile-on-the-global-stage"
+            },
+            {
+              "name": "PBS NewsHour",
+              "title": "No breakthroughs from Trump, Xi and Putin's 3-way talks on nuclear risks",
+              "url": "https://www.pbs.org/newshour/world/no-breakthroughs-from-trump-xi-and-putins-3-way-talks-on-nuclear-risks"
+            },
+            {
+              "name": "The Guardian",
+              "title": "New page in history? Xi, Trump and Putin summit was more of a footnote",
+              "url": "https://www.theguardian.com/world/2026/nov/19/new-page-in-history-xi-trump-and-putin-summit-was-more-of-a-footnote"
+            },
+            {
+              "name": "Al Jazeera",
+              "title": "‘Groundbreaking’ Trump-Xi-Putin summit: Five key takeaways",
+              "url": "https://www.aljazeera.com/news/2026/11/19/groundbreaking-trump-xi-putin-summit-five-key-takeaways?traffic_source=rss"
+            }
+          ]
+        },
+        {
+          "id": "politics-world-2",
+          "headline": "UK and EU hold critical talks in Brussels",
+          "summary": "UK and European Union leaders are meeting in Brussels to negotiate a new relationship following Brexit. Negotiators have reportedly agreed to allow 100,000 young EU citizens to work and study in the UK each year. Tensions remain as both sides try to finalize a wider agreement.",
+          "whyItMatters": "These talks affect travel, work opportunities, and trade rules for millions of people in the UK and across Europe.",
+          "explainer": "Brexit is the process that saw the United Kingdom leave the European Union. Since that exit, both sides have been working to define their new rules for how they interact. The current summit aims to fix problems with trade and movement between the two regions. A key part of the discussion involves a youth mobility scheme, which would make it easier for young people to move between the UK and EU for jobs or school. Diplomats are currently working through the final details of a complex deal that would reshape their long-term economic and political partnership.",
+          "keyTerms": [
+            {
+              "term": "Brexit",
+              "definition": "The term used for the United Kingdom's departure from the European Union."
+            },
+            {
+              "term": "Mobility scheme",
+              "definition": "An agreement that allows people from one country to travel, work, or study in another country more easily."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 6,
+          "image": "https://i.guim.co.uk/img/media/78f4d52aa44fb56369bd027db2731ab2539e3e15/426_0_4300_3440/master/4300.jpg?width=140&quality=85&auto=format&fit=max&s=40b967ab32c7307a2b2a90e3326ee460",
+          "sources": [
+            {
+              "name": "The Guardian",
+              "title": "UK-EU reset talks will go ‘down to the wire’ as crunch summit approaches",
+              "url": "https://www.theguardian.com/world/2026/nov/19/uk-eu-reset-talks-andy-burnham-food-farming-tuition-fees"
+            },
+            {
+              "name": "Al Jazeera",
+              "title": "As Burnham heads to Brussels, are new Brexit wars about to begin?",
+              "url": "https://www.aljazeera.com/news/2026/11/19/as-burnham-heads-to-brussels-are-new-brexit-wars-about-to-begin?traffic_source=rss"
+            },
+            {
+              "name": "The Guardian",
+              "title": "What is at stake at the EU-UK summit in Brussels?",
+              "url": "https://www.theguardian.com/politics/2026/nov/19/eu-uk-summit-explainer-burnham-brexit-brussels"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "economy-world",
+      "title": "Economy · World",
+      "bricks": [
+        {
+          "id": "economy-world-0",
+          "headline": "AI Firm Anthropic Launches Record Stock Market Debut",
+          "summary": "AI company Anthropic just started selling shares on the public stock market. It raised a record amount of money, making it one of the most valuable firms in the world. Some experts wonder if this interest in AI will last.",
+          "whyItMatters": "This record-breaking sale shows how much money is flowing into artificial intelligence, which is changing how many people work and use technology.",
+          "explainer": "Anthropic is a company that makes AI tools like the Claude chatbot. On Thursday, it held an Initial Public Offering (IPO), which is when a company first sells its shares of ownership to the general public on a stock exchange. This event was huge, raising tens of billions of dollars. Because the company is so new and its value is so high, some investors are nervous that it could be part of an 'AI bubble'—a situation where people pay more for shares than the company is actually worth. The performance of these shares will show if people still have strong confidence in the future of artificial intelligence.",
+          "keyTerms": [
+            {
+              "term": "Initial Public Offering (IPO)",
+              "definition": "The first time a company offers its shares for people to buy on the public stock market."
+            },
+            {
+              "term": "AI bubble",
+              "definition": "A concern that people are paying too much money for technology companies that might not be as valuable as they seem."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 8,
+          "image": "https://i.guim.co.uk/img/media/d813681eacdf9a462a84be4e3ef0e890940a2ccf/1281_0_7200_5760/master/7200.jpg?width=140&quality=85&auto=format&fit=max&s=351333af3d876ca589b3c253ac43f20d",
+          "sources": [
+            {
+              "name": "The Guardian",
+              "title": "Anthropic valued at $2tn as shares begin trading at $111.50 each – business live",
+              "url": "https://www.theguardian.com/business/live/2026/nov/19/anthropic-float-stock-market-nasdaq-raises-81bn-record-ipo-latest-news-updates"
+            },
+            {
+              "name": "BBC News",
+              "title": "Anthropic raises $81bn in record-breaking stock market debut",
+              "url": "https://www.bbc.co.uk/news/articles/c6742m39xgzxo?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "DW",
+              "title": "Anthropic trading tests investors' appetite for AI",
+              "url": "https://www.dw.com/en/anthropic-trading-tests-investors-appetite-for-ai/a-79993163?maca=en-rss-en-bus-2091-rdf"
+            },
+            {
+              "name": "NPR",
+              "title": "Anthropic raises more than $100B in IPO. And, Dems nominate Jeffries for House speaker",
+              "url": "https://www.npr.org/2026/11/19/g-s1-154344/up-first-newsletter-house-democrats-trump-xi-putin-anthropic"
+            },
+            {
+              "name": "NPR",
+              "title": "Investors scramble for a piece of AI giant Anthropic in blockbuster IPO",
+              "url": "https://www.npr.org/2026/11/19/nx-s1-6042558/anthropic-ipo-breaks-records-100-billion"
+            },
+            {
+              "name": "DW",
+              "title": "Is the AI bubble bursting just as Anthropic goes public?",
+              "url": "https://www.dw.com/en/is-the-ai-bubble-bursting-just-as-anthropic-goes-public/a-79896537?maca=en-rss-en-bus-2091-rdf"
+            },
+            {
+              "name": "BBC News",
+              "title": "Who are the investors ready to jump on Anthropic?",
+              "url": "https://www.bbc.co.uk/news/videos/c6y0x84xx22wo?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "NPR",
+              "title": "Anthropic IPO raises record $81.3 billion on strong AI demand",
+              "url": "https://www.npr.org/2026/11/18/nx-s1-6046212/anthropic-record-ipo-price"
+            },
+            {
+              "name": "BBC News",
+              "title": "The seven Anthropic founders who are about to become multi-billionaires",
+              "url": "https://www.bbc.co.uk/news/articles/cmd7159vlr85o?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "BBC News",
+              "title": "Business Daily",
+              "url": "https://www.bbc.co.uk/sounds/play/w3ct8gm9?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "BBC News",
+              "title": "Simon Jack: Can Anthropic's record-breaking IPO stop the AI bubble bursting?",
+              "url": "https://www.bbc.co.uk/news/articles/cj4gnpzll020o?at_medium=RSS&at_campaign=rss"
+            }
+          ]
+        },
+        {
+          "id": "economy-world-1",
+          "headline": "IMF Warns AI Demand May Push Up Global Interest Rates",
+          "summary": "The International Monetary Fund says that high demand for AI technology is raising prices for people around the world. This trend may force central banks to raise interest rates to keep costs under control.",
+          "whyItMatters": "Higher interest rates make it more expensive for ordinary people to borrow money for things like homes, cars, or credit card debt.",
+          "explainer": "The International Monetary Fund (IMF) is a global group that tracks the health of the world economy. Its leader, Kristalina Georgieva, warned that companies are spending massive amounts of money to buy hardware and technology needed for artificial intelligence. This surge in spending makes goods more expensive. To prevent prices from rising too fast, central banks often choose to raise interest rates. When interest rates go up, it becomes more expensive for families and businesses to borrow money from banks, which can slow down spending and help stabilize prices.",
+          "keyTerms": [
+            {
+              "term": "Interest rates",
+              "definition": "The extra cost you pay when you borrow money, usually shown as a percentage."
+            },
+            {
+              "term": "Central bank",
+              "definition": "A national bank that manages a country's money and sets interest rates."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 7,
+          "image": "https://i.guim.co.uk/img/media/b2a56a8e00524c2b12815efdbcc9e91b0732fdc0/456_0_3410_2728/master/3410.jpg?width=140&quality=85&auto=format&fit=max&s=920ffff20187c6090b440fd5098e1f09",
+          "sources": [
+            {
+              "name": "The Guardian",
+              "title": "AI demand will push up interest rates around the world, IMF head warns",
+              "url": "https://www.theguardian.com/world/2026/nov/19/imf-head-warns-ai-demand-push-up-interest-rates-apec"
+            }
+          ]
+        },
+        {
+          "id": "economy-world-2",
+          "headline": "UK Energy Bills Expected to Rise Significantly in January",
+          "summary": "Energy bills in the UK are set to jump by 26% early next year. This increase is a major reason why prices are rising at their fastest pace in a year.",
+          "whyItMatters": "Higher energy costs mean families will have less money left over for other important needs like food and clothing.",
+          "explainer": "Inflation is a measure of how much the prices of goods and services go up over time. In the UK, inflation is rising quickly, and a big part of that is the cost of heat and power. Because energy costs are going up by a large amount for most households, people have to pay more just to keep their homes warm. This forces many families to change how they spend their money to cover these essential costs, which are becoming a larger part of their monthly budget.",
+          "keyTerms": [
+            {
+              "term": "Inflation",
+              "definition": "A general increase in the prices of goods and services over time."
+            }
+          ],
+          "disagreement": null,
+          "update": "This is a continuation of yesterday's reporting; new figures show inflation is rising primarily due to increased energy and fuel costs.",
+          "importance": 7,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/accb/live/ce864ea0-e385-11f1-a094-5fdc692f3e33.jpg",
+          "sources": [
+            {
+              "name": "BBC News",
+              "title": "How high is UK inflation and how will you be affected?",
+              "url": "https://www.bbc.co.uk/news/videos/cxp80q5pv4q5o?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "BBC News",
+              "title": "Typical energy bill forecast to go up by £443 a year from January as inflation rate rises again",
+              "url": "https://www.bbc.co.uk/news/articles/cmy498kdkx3xo?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "BBC News",
+              "title": "Heating bills, chocolate and cat food: What the inflation figures mean for you",
+              "url": "https://www.bbc.co.uk/news/articles/ckq6eg55n221o?at_medium=RSS&at_campaign=rss"
+            }
+          ]
+        },
+        {
+          "id": "economy-world-3",
+          "headline": "Unions Ask Governments to Stop Hiring Amazon",
+          "summary": "Labor leaders from 19 countries want their governments to stop giving public contracts to Amazon. They say the company treats its workers poorly.",
+          "whyItMatters": "Governments use tax money to hire companies, so this dispute asks whether taxpayer money should support businesses that unions claim do not respect worker rights.",
+          "explainer": "A public contract is an agreement where a government pays a private company to do work, such as providing computer servers or delivering supplies. Labor unions, which are groups that represent workers, are calling on governments to stop signing these deals with Amazon. They argue that Amazon has a poor record on how it treats employees and that it does not respect the right of workers to organize and bargain for better pay or conditions. The unions believe that by giving Amazon these contracts, governments are supporting practices that hurt workers.",
+          "keyTerms": [
+            {
+              "term": "Labor union",
+              "definition": "An organization formed by workers to protect their rights and improve working conditions."
+            },
+            {
+              "term": "Public contract",
+              "definition": "An agreement where a government pays a business to provide a service or goods using public money."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 5,
+          "image": "https://i.guim.co.uk/img/media/777da2deae52c2f9b27d896c5c1bdf7d7e81aaea/156_347_2891_2313/master/2891.jpg?width=140&quality=85&auto=format&fit=max&s=1a0e1016108be2e7e3cac4caeff6e30b",
+          "sources": [
+            {
+              "name": "The Guardian",
+              "title": "Labor leaders call on governments to stop awarding Amazon public contracts",
+              "url": "https://www.theguardian.com/global-development/2026/nov/19/labor-unions-amazon-contracts-open-letter"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "region-africa",
+      "title": "World · Africa",
+      "bricks": [
+        {
+          "id": "region-africa-0",
+          "headline": "US consortium wins major Kenya mining deal",
+          "summary": "A United States group won a mining contract in Kenya. The site holds critical minerals worth more than $60 billion.",
+          "whyItMatters": "The deal could bring jobs and economic growth to Kenya by tapping into valuable natural resources.",
+          "explainer": "A consortium is a group of companies working together on a big project. This group beat out Chinese competitors to secure the rights to mine at Mrima Hill in Kenya. The site is rich in rare earth minerals, which are essential for making modern technology like electric cars, smartphones, and wind turbines. The project is expected to be a major economic development for the country, as these minerals are in high global demand for the transition to greener energy.",
+          "keyTerms": [
+            {
+              "term": "Consortium",
+              "definition": "A group of different companies that join together to work on a large project."
+            },
+            {
+              "term": "Critical minerals",
+              "definition": "Natural resources that are important to the economy and hard to replace."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 6,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3358/live/5110da10-e40e-11f1-b37c-b3a71d7200af.jpg",
+          "sources": [
+            {
+              "name": "BBC News",
+              "title": "US consortium wins huge Kenya mining deal, beating Chinese rivals",
+              "url": "https://www.bbc.co.uk/news/articles/cm9q84gp0gr3o?at_medium=RSS&at_campaign=rss"
+            }
+          ]
+        },
+        {
+          "id": "region-africa-1",
+          "headline": "Somalia expels UAE ambassador, citing interference",
+          "summary": "Somalia ordered the United Arab Emirates ambassador to leave the country. The government accused the UAE of interfering in its internal affairs.",
+          "whyItMatters": "Diplomatic tensions can affect trade, security cooperation, and the stability of the region.",
+          "explainer": "Somalia’s government claims the United Arab Emirates has acted in ways that threaten its sovereignty. By expelling the ambassador, Somalia is taking a serious step to protest what it calls an 'open invasion' of its internal politics. The two nations have had complex relations, and this move suggests a significant break in their current diplomatic ties. The dispute highlights concerns over foreign countries influencing national government decisions.",
+          "keyTerms": [
+            {
+              "term": "Sovereignty",
+              "definition": "A country's right to govern itself without outside interference."
+            },
+            {
+              "term": "Diplomatic",
+              "definition": "Relating to the management of official relationships between different countries."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 6,
+          "image": null,
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "title": "Somalia expels UAE ambassador, accuses Abu Dhabi of violating sovereignty",
+              "url": "https://www.aljazeera.com/news/2026/11/19/somalia-expels-uae-ambassador-accuses-abu-dhabi-of-violating-sovereignty?traffic_source=rss"
+            }
+          ]
+        },
+        {
+          "id": "region-africa-2",
+          "headline": "Dozens missing after migrant boat sinks off Senegal",
+          "summary": "A boat carrying between 50 and 100 migrants sank off the coast of Senegal. Rescuers have found four bodies so far.",
+          "whyItMatters": "This tragedy highlights the ongoing dangers faced by people attempting to travel by sea in search of better opportunities.",
+          "explainer": "Many migrants attempt dangerous sea journeys to reach Europe or other destinations in hopes of finding work or safety. Boats used for these trips are often overcrowded and not built for long, risky ocean crossings. Authorities are searching for survivors, but the incident has left dozens of people missing. The event underscores the human cost associated with risky migration routes across the Atlantic Ocean.",
+          "keyTerms": [
+            {
+              "term": "Migrant",
+              "definition": "A person who moves from one place to another to find work or better living conditions."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 5,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9aab/live/c39b82a0-e419-11f1-b37c-b3a71d7200af.jpg",
+          "sources": [
+            {
+              "name": "BBC News",
+              "title": "Dozens missing after boat carrying migrants sinks off Senegal's coast",
+              "url": "https://www.bbc.co.uk/news/articles/c58j484089ewo?at_medium=RSS&at_campaign=rss"
+            }
+          ]
+        },
+        {
+          "id": "region-africa-3",
+          "headline": "South Africa races to replant ancient baobab trees",
+          "summary": "Conservationists are working to save five baobab trees after they were illegally dug up. The 20-tonne trees were blocked from being exported.",
+          "whyItMatters": "Protecting old trees helps keep the environment healthy and preserves natural heritage.",
+          "explainer": "Baobab trees are iconic, ancient plants in Africa that can live for centuries. Recently, an exporter tried to dig up five of these massive trees without the proper permits to ship them to Georgia. Environmentalists discovered the act and stopped the export. The trees are now being replanted in a reserve in Timbavati, South Africa, where they will need special care and support cables to survive the move.",
+          "keyTerms": [
+            {
+              "term": "Conservationist",
+              "definition": "A person who works to protect the environment and wildlife."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 2,
+          "image": "https://i.guim.co.uk/img/media/048c1619883c277fcef86d2ceda7a59071397137/0_191_1360_1088/master/1360.jpg?width=140&quality=85&auto=format&fit=max&s=beca2d51f3567cbad90b41ec6f97d5a4",
+          "sources": [
+            {
+              "name": "The Guardian",
+              "title": "Race to replant five South African baobabs after export blocked",
+              "url": "https://www.theguardian.com/environment/2026/nov/19/baobab-five-trees-south-africa-dug-up-export-blocked-georgia-aoe"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "region-asia",
+      "title": "World · Asia & Pacific",
+      "bricks": [
+        {
+          "id": "region-asia-0",
+          "headline": "Trump, Xi, and Putin hold rare three-way summit",
+          "summary": "Leaders from the US, China, and Russia met in Shenzhen for an unprecedented talk. They discussed nuclear weapons and global security, though the meeting ended without major new agreements. Some observers called the gathering historic, while others viewed it as a diplomatic footnote.",
+          "whyItMatters": "Decisions made by the leaders of these major nuclear powers can affect global stability, trade, and the safety of people worldwide.",
+          "explainer": "The APEC summit in China brought together the leaders of the world's three most powerful nations for a private meeting. While the leaders spoke about world peace and energy, the session faced criticism for ignoring ongoing wars in Ukraine and Iran. Some analysts noted the meeting appeared to lack a clear agenda or major results. During the event, observers noted President Trump appeared to sleep during a speech, and President Putin was seen with a special case that many believe contains controls for nuclear weapons. This summit is considered rare because these three nations rarely coordinate their global goals in a single room.",
+          "keyTerms": [
+            {
+              "term": "APEC",
+              "definition": "A group of countries in the Asia-Pacific region that meet to discuss trade and economic policies."
+            },
+            {
+              "term": "Diplomatic",
+              "definition": "Having to do with the way countries talk to each other to solve problems and keep peace."
+            }
+          ],
+          "disagreement": "Some officials called the summit a historic new page in diplomacy, while other experts described it as a meeting that lacked a real plan.",
+          "update": "Following the first day of the summit, leaders held trilateral talks where they discussed nuclear risks and energy policies.",
+          "importance": 9,
+          "image": "https://i.guim.co.uk/img/media/8a7d32d3197bc67811a5805eb05a308525f47b92/153_59_1632_1306/master/1632.jpg?width=140&quality=85&auto=format&fit=max&s=92c6d97e2934ea2f2295ecc777f5fa09",
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "title": "China’s Xi urges US and Russia to join forces to safeguard world peace",
+              "url": "https://www.aljazeera.com/video/newsfeed/2026/11/19/aje-onl-nf_chinas-xi-urges-us-and-russia-for-world-peace-191126?traffic_source=rss"
+            },
+            {
+              "name": "The Guardian",
+              "title": "China, Russia and US agree peace declaration with no mention of Ukraine and Iran wars",
+              "url": "https://www.theguardian.com/world/2026/nov/19/china-russia-us-agree-peace-statement-no-mention-ukraine-iran-wars"
+            },
+            {
+              "name": "The Guardian",
+              "title": "Trump accused of falling asleep during Xi Jinping speech at Apec summit in China",
+              "url": "https://www.theguardian.com/us-news/2026/nov/19/trump-apec-asleep-china"
+            },
+            {
+              "name": "Al Jazeera",
+              "title": "Trump and Putin ‘hijacked’ China summit",
+              "url": "https://www.aljazeera.com/video/newsfeed/2026/11/19/trump-and-putin-hijacked-china-summit?traffic_source=rss"
+            },
+            {
+              "name": "The Guardian",
+              "title": "New page in history? Xi, Trump and Putin summit was more of a footnote",
+              "url": "https://www.theguardian.com/world/2026/nov/19/new-page-in-history-xi-trump-and-putin-summit-was-more-of-a-footnote"
+            },
+            {
+              "name": "The Guardian",
+              "title": "Global courts under attack and four more takeaways from the Trump, Xi, Putin meeting",
+              "url": "https://www.theguardian.com/world/2026/nov/19/five-takeaways-from-putin-trump-xi-apec-shenzhen-summit"
+            },
+            {
+              "name": "Al Jazeera",
+              "title": "‘Groundbreaking’ Trump-Xi-Putin summit: Five key takeaways",
+              "url": "https://www.aljazeera.com/news/2026/11/19/groundbreaking-trump-xi-putin-summit-five-key-takeaways?traffic_source=rss"
+            },
+            {
+              "name": "Al Jazeera",
+              "title": "What is a ‘nuclear briefcase’, spotted at the APEC summit?",
+              "url": "https://www.aljazeera.com/news/2026/11/19/what-is-a-nuclear-briefcase-spotted-at-the-apec-summit?traffic_source=rss"
+            },
+            {
+              "name": "The Guardian",
+              "title": "Trump, Xi, Putin: Albanese’s blitz of the world’s most powerful – podcast",
+              "url": "https://www.theguardian.com/australia-news/audio/2026/nov/17/trump-xi-putin-albanese-blitz-of-the-worlds-most-powerful-podcast"
+            },
+            {
+              "name": "BBC News",
+              "title": "This is a remarkable diplomatic moment for China's Xi - but it comes with pitfalls",
+              "url": "https://www.bbc.co.uk/news/articles/cr9d75we51j1o?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "The Guardian",
+              "title": "Apec summit as it happened: Xi welcomes Trump on China visit as Putin claims Europe in ‘humiliating decline’",
+              "url": "https://www.theguardian.com/world/live/2026/nov/18/apec-summit-live-updates-xi-putin-trump-world-leaders-gather-in-china"
+            }
+          ]
+        },
+        {
+          "id": "region-asia-1",
+          "headline": "Court rules Myanmar committed genocide against Rohingya",
+          "summary": "The International Court of Justice has ruled that Myanmar carried out genocide against the Rohingya people. This is the first time the UN's top court has found a country guilty of this crime. The ruling follows a 2017 military campaign.",
+          "whyItMatters": "This legal decision is significant for human rights, as it officially labels mass violence against a specific group of people as a crime under international law.",
+          "explainer": "In a historic ruling, the International Court of Justice declared that Myanmar’s military committed genocide against the Rohingya, a Muslim minority group. In 2017, thousands of Rohingya were killed or forced to flee their homes during a military crackdown in Rakhine State. Genocide is a legal term for actions meant to destroy a specific group of people based on their religion or ethnicity. This is the first time the world's highest court has made such a ruling against a state, which may lead to new international efforts to hold the leaders responsible for the violence.",
+          "keyTerms": [
+            {
+              "term": "Genocide",
+              "definition": "The deliberate and systematic killing or destruction of a large group of people, especially those of a particular nation or race."
+            },
+            {
+              "term": "Minority",
+              "definition": "A smaller group of people who are different in race, religion, or culture from the larger group in a country."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 8,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d789/live/7c1a8b30-e435-11f1-99b6-a35a62fa4264.jpg",
+          "sources": [
+            {
+              "name": "BBC News",
+              "title": "Myanmar committed genocide against Rohingya minority, top UN court rules",
+              "url": "https://www.bbc.co.uk/news/articles/c804wzp20ddvo?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "Al Jazeera",
+              "title": "What the ICJ genocide ruling means for the Rohingya people",
+              "url": "https://www.aljazeera.com/news/2026/11/19/what-the-icj-ruling-means-for-the-rohingya?traffic_source=rss"
+            },
+            {
+              "name": "Al Jazeera",
+              "title": "ICJ rules Myanmar committed genocide against the Rohingya",
+              "url": "https://www.aljazeera.com/video/newsfeed/2026/11/19/icj-rules-myanmar-committed-genocide-against-the-rohingya?traffic_source=rss"
+            },
+            {
+              "name": "BBC News",
+              "title": "Myanmar faces historic genocide verdict at UN court over Rohingya massacres",
+              "url": "https://www.bbc.co.uk/news/articles/c5m2l90ez144o?at_medium=RSS&at_campaign=rss"
+            }
+          ]
+        },
+        {
+          "id": "region-asia-2",
+          "headline": "South Korean court orders retrial for former leader",
+          "summary": "A high court in Seoul has ordered a new trial for a former South Korean prime minister. The case involves an attempt to use martial law, which is a state of military rule. The Supreme Court decided the case must be reviewed again.",
+          "whyItMatters": "This case highlights how South Korea’s legal system handles leaders who attempt to use military power to bypass normal laws, affecting trust in government.",
+          "explainer": "The case concerns former Prime Minister Han, who faces legal action related to an attempt to declare martial law. When a government declares martial law, the military takes control of the country and normal laws or civil rights may be suspended. The Supreme Court of South Korea determined there was a legal need to re-examine whether this act qualified as an insurrection, which is a violent uprising against a government. A lower court will now hold a new trial to determine if the former leader's actions were illegal under the country's laws.",
+          "keyTerms": [
+            {
+              "term": "Martial law",
+              "definition": "A situation where the military takes control of a city or country, often suspending normal laws."
+            },
+            {
+              "term": "Insurrection",
+              "definition": "A violent act of rebellion or uprising against an established government."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 5,
+          "image": null,
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "title": "South Korean court orders retrial for ex-PM Han over martial law attempt",
+              "url": "https://www.aljazeera.com/news/2026/11/19/south-korean-court-orders-retrial-for-ex-pm-han-over-martial-law-attempt?traffic_source=rss"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "region-europe",
+      "title": "World · Europe",
+      "bricks": [
+        {
+          "id": "region-europe-0",
+          "headline": "UK and EU hold crunch summit in Brussels",
+          "summary": "UK Prime Minister Andy Burnham is meeting EU leaders to finalize new agreements on trade and youth mobility. Negotiators are working to address long-term relationship questions after Brexit, as some officials urge the UK to consider rejoining the EU.",
+          "whyItMatters": "The outcome will affect how easily British and European citizens can travel, study, and trade goods across borders.",
+          "explainer": "The UK and the European Union are holding a summit to improve their relationship following Brexit, the UK's exit from the bloc. The leaders are discussing a deal that could allow 100,000 young EU citizens to move to the UK annually for work or study. While Prime Minister Andy Burnham seeks closer cooperation to fix trade issues, EU diplomats are asking for more clarity on whether the UK eventually wants to rejoin the EU entirely. The meeting is seen as a key step that could shape Britain's political and economic future for years to come.",
+          "keyTerms": [
+            {
+              "term": "Brexit",
+              "definition": "The process where the United Kingdom officially left the European Union."
+            },
+            {
+              "term": "Mobility scheme",
+              "definition": "A formal agreement allowing people to move between countries more easily for work or education."
+            }
+          ],
+          "disagreement": "Some political figures are calling for the UK to commit to rejoining the EU, while a new pro-Brexit campaign group is pushing against closer ties.",
+          "update": "Negotiators have reached a draft agreement on youth mobility and trade ahead of today's final summit meeting.",
+          "importance": 7,
+          "image": "https://i.guim.co.uk/img/media/78f4d52aa44fb56369bd027db2731ab2539e3e15/426_0_4300_3440/master/4300.jpg?width=140&quality=85&auto=format&fit=max&s=40b967ab32c7307a2b2a90e3326ee460",
+          "sources": [
+            {
+              "name": "The Guardian",
+              "title": "UK-EU reset talks will go ‘down to the wire’ as crunch summit approaches",
+              "url": "https://www.theguardian.com/world/2026/nov/19/uk-eu-reset-talks-andy-burnham-food-farming-tuition-fees"
+            },
+            {
+              "name": "The Guardian",
+              "title": "What is at stake at the EU-UK summit in Brussels?",
+              "url": "https://www.theguardian.com/politics/2026/nov/19/eu-uk-summit-explainer-burnham-brexit-brussels"
+            },
+            {
+              "name": "The Guardian",
+              "title": "Andy Burnham is in danger of over-selling his big Brussels summit. What happens if he under-delivers? | Joël Reland",
+              "url": "https://www.theguardian.com/commentisfree/2026/nov/19/andy-burnham-risks-over-selling-his-big-brussels-summit-what-happens-if-he-under-delivers"
+            },
+            {
+              "name": "The Guardian",
+              "title": "EU ‘to close door’ to talks on long-term UK ties until Burnham has decided on Brexit",
+              "url": "https://www.theguardian.com/politics/2026/nov/18/eu-uk-reset-summit-talks-burnham-brexit"
+            },
+            {
+              "name": "The Guardian",
+              "title": "Cheese, pet passports and youth mobility: what’s in the UK-EU ‘relationship reset’ draft?",
+              "url": "https://www.theguardian.com/politics/2026/nov/18/uk-eu-relationship-reset-draft-explainer"
+            },
+            {
+              "name": "The Guardian",
+              "title": "Burnham should fight next election on promise to rejoin EU, says Peter Kyle",
+              "url": "https://www.theguardian.com/politics/2026/nov/18/david-lammy-andy-burnham-campaign-rejoining-eu-election-brexit"
+            }
+          ]
+        },
+        {
+          "id": "region-europe-1",
+          "headline": "Major damage to bridge linking Russia and Crimea",
+          "summary": "Ukraine conducted a series of air and drone attacks that caused significant damage to the Kerch Bridge. This route is a critical supply line for Russian forces in occupied Crimea. Russia has promised a strong response to the strikes.",
+          "whyItMatters": "This conflict disrupts travel and military supplies in the region, affecting the ongoing war between Russia and Ukraine.",
+          "explainer": "The Kerch Bridge is a vital structure built by Russia to connect its territory to Crimea, a peninsula it occupied in 2014. By attacking the bridge, Ukraine aims to cut off a key route that Russia uses to transport military equipment and supplies for its war effort. These strikes are part of a larger ongoing conflict between the two nations. The situation remains tense as the damage hampers both civilian and military travel in the area.",
+          "keyTerms": [
+            {
+              "term": "Occupied",
+              "definition": "Land that is controlled by a foreign military force against the will of the local people."
+            },
+            {
+              "term": "Annexation",
+              "definition": "When one country takes control of another territory and claims it as its own."
+            }
+          ],
+          "disagreement": null,
+          "update": "The bridge suffered additional attacks on the rail section following a previous strike that destroyed part of the road.",
+          "importance": 8,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4dc7/live/1a9ba6c0-e424-11f1-b782-6bf340d7e154.jpg",
+          "sources": [
+            {
+              "name": "BBC News",
+              "title": "Putin vows 'far more painful' response to Ukraine's strikes on Crimean Bridge",
+              "url": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "The Guardian",
+              "title": "Crimea bridge has been attacked again, says Russian-installed governor",
+              "url": "https://www.theguardian.com/world/2026/nov/19/kerch-bridge-crimea-russia-attacked-again-ukraine"
+            },
+            {
+              "name": "The Guardian",
+              "title": "How Ukraine landed a blow to Putin’s prized bridge - The Latest",
+              "url": "https://www.theguardian.com/news/video/2026/nov/18/how-ukraine-landed-a-blow-to-putins-prize-bridge-the-latest"
+            },
+            {
+              "name": "BBC News",
+              "title": "New video shows explosions moments before part of Crimea Bridge collapses",
+              "url": "https://www.bbc.co.uk/news/videos/ckvg28jy77z5o?at_medium=RSS&at_campaign=rss"
+            }
+          ]
+        },
+        {
+          "id": "region-europe-2",
+          "headline": "EU Commission reports AI-powered cyberattack",
+          "summary": "The European Commission stated it was the target of a cyberattack using artificial intelligence tools. This marks the first time the European Union has officially reported a digital attack of this kind.",
+          "whyItMatters": "This highlights the growing security risks that government organizations face as computer hackers begin to use advanced AI technology.",
+          "explainer": "A cyberattack is an attempt by hackers to damage, steal, or disrupt computer data and systems. In this case, the European Commission, which manages the daily work of the EU, reported that the attackers used artificial intelligence. AI can make attacks more effective by automating certain tasks or making fake content look more real. While the commission reported the incident, they did not share details about who was responsible or how much damage was caused.",
+          "keyTerms": [
+            {
+              "term": "Artificial intelligence",
+              "definition": "Computer programs designed to perform tasks that usually require human thinking."
+            },
+            {
+              "term": "Cyberattack",
+              "definition": "A harmful attempt to disrupt, damage, or gain access to computer networks."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 5,
+          "image": null,
+          "sources": [
+            {
+              "name": "DW",
+              "title": "EU Commission confirms it was targeted in cyberattack using AI tools",
+              "url": "https://www.dw.com/en/eu-commission-confirms-it-was-targeted-in-cyberattack-using-ai-tools/a-79993016?maca=en-rss-en-world-4025-rdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "region-latam",
+      "title": "World · Latin America",
+      "bricks": [
+        {
+          "id": "region-latam-0",
+          "headline": "US and Venezuela sign military security deal",
+          "summary": "Venezuela signed a military deal with the United States following the removal of its former leader. The U.S. Secretary of Defense called the country a new security partner.",
+          "whyItMatters": "This shift in regional politics marks a major change for stability and military relations in South America.",
+          "explainer": "Venezuela was recently considered a significant threat by the United States. Following the capture of former leader Nicolás Maduro by U.S. forces in January, the political landscape has shifted rapidly. The U.S. government now describes Venezuela as a security partner. This deal marks a historic transition, as the two nations move from being regional rivals to working together on defense and military cooperation. These changes are expected to alter the balance of power across Latin America.",
+          "keyTerms": [
+            {
+              "term": "Security partner",
+              "definition": "A country that works with another nation to protect shared interests or maintain order."
+            }
+          ],
+          "disagreement": null,
+          "update": "U.S. Defense Secretary Pete Hegseth recently visited Venezuela to highlight the new military relationship following Maduro's capture.",
+          "importance": 8,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/18e1/live/23556d10-e400-11f1-877f-2bb5452e5ffc.jpg",
+          "sources": [
+            {
+              "name": "BBC News",
+              "title": "Venezuela signs military deal with US less than a year after Maduro's removal",
+              "url": "https://www.bbc.co.uk/news/articles/cmwy8pyqlq5vo?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "The Guardian",
+              "title": "Hegseth uses Venezuela visit to boast of Maduro’s capture by US military",
+              "url": "https://www.theguardian.com/world/2026/nov/18/pete-hegseth-venezuela-nicolas-maduro-military"
+            }
+          ]
+        },
+        {
+          "id": "region-latam-1",
+          "headline": "Florida pastor convicted in Haitian president's assassination",
+          "summary": "A Florida pastor was found guilty of helping plan the 2021 killing of Haiti's president, Jovenel Moïse. The man faces a possible life sentence in prison.",
+          "whyItMatters": "This verdict provides a measure of legal closure regarding the violent political instability that followed the president's death.",
+          "explainer": "In 2021, Haitian President Jovenel Moïse was killed in his home. A federal court in Miami convicted Christian Emmanuel Sanon, a pastor who holds both American and Haitian citizenship, for his role in the conspiracy. The trial lasted eight weeks, and the jury found the pastor guilty of charges including conspiracy to kill the president. This case is part of a larger investigation into the group responsible for the assassination, which left a power vacuum and increased violence in Haiti.",
+          "keyTerms": [
+            {
+              "term": "Assassination",
+              "definition": "The murder of a person who holds a high government office or is a famous political leader."
+            },
+            {
+              "term": "Conspiracy",
+              "definition": "A secret plan by a group to do something harmful or illegal."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 7,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e31d/live/a9425010-e409-11f1-ab35-e1af93fa5cce.jpg",
+          "sources": [
+            {
+              "name": "BBC News",
+              "title": "Florida pastor found guilty over role in assassination of Haitian president",
+              "url": "https://www.bbc.co.uk/news/articles/cm702q0lg50po?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "The Guardian",
+              "title": "Florida pastor found guilty over 2021 assassination of Haitian president",
+              "url": "https://www.theguardian.com/us-news/2026/nov/18/florida-pastor-guilty-haiti-president-assassination"
+            }
+          ]
+        },
+        {
+          "id": "region-latam-2",
+          "headline": "Argentine teen footballer dies after on-pitch collision",
+          "summary": "Abel Nunez, a 16-year-old football player, died after a hard hit to the head during a match in Argentina. The accident happened during a game for his club, Ezeiza.",
+          "whyItMatters": "This tragedy highlights the risks of serious injuries in youth sports and has deeply saddened the local football community.",
+          "explainer": "Abel Nunez was playing in a youth football match in Argentina when he collided with another player. He suffered a severe blow to the head, which led to his death. Such incidents are rare but serve as a reminder of the dangers associated with contact sports at all levels. Local teams and fans are currently mourning the loss of the young athlete.",
+          "keyTerms": [],
+          "disagreement": null,
+          "update": null,
+          "importance": 3,
+          "image": null,
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "title": "Argentina mourns teen footballer Nunez who died after on-pitch collision",
+              "url": "https://www.aljazeera.com/sports/2026/11/19/argentina-mourns-teen-footballer-nunez-who-died-after-on-pitch-collision?traffic_source=rss"
+            }
+          ]
+        },
+        {
+          "id": "region-latam-3",
+          "headline": "Former boxing champion Jorge Linares detained by US officials",
+          "summary": "Former world champion boxer Jorge Linares is being held by U.S. immigration authorities. The athlete is currently in a detention center in Texas and faces potential deportation.",
+          "whyItMatters": "This news affects the career and legal standing of a well-known international sports figure.",
+          "explainer": "Jorge Linares is a Venezuelan former boxer who held world titles in three different weight classes. He is currently in the custody of U.S. immigration officials. The government is deciding whether he will be allowed to stay in the United States or be sent back to his home country. Deportation is the legal process of sending someone back to their native country for breaking immigration laws.",
+          "keyTerms": [
+            {
+              "term": "Deportation",
+              "definition": "The formal process of forcing a person to leave a country where they do not have legal permission to stay."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 2,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9c8d/live/ae4ea630-e31e-11f1-baab-4b3b35d174b7.jpg",
+          "sources": [
+            {
+              "name": "BBC News",
+              "title": "Venezuelan ex-world boxing champion Linares in ICE detention",
+              "url": "https://www.bbc.co.uk/sport/boxing/articles/cknv4q197dymo?at_medium=RSS&at_campaign=rss"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "region-mideast",
+      "title": "World · Middle East",
+      "bricks": [
+        {
+          "id": "region-mideast-0",
+          "headline": "Israeli military conducts new ground operation in Gaza",
+          "summary": "Israeli tanks crossed the boundary into central Gaza to destroy a tunnel. This is the first such ground move since the ceasefire began, causing many local families to leave their homes.",
+          "whyItMatters": "The operation risks further destabilizing the fragile ceasefire and puts civilians in the path of potential conflict.",
+          "explainer": "The Israeli military recently launched a ground operation into central Gaza, moving beyond a boundary known as the 'yellow line.' The military stated the purpose was to dismantle a tunnel used for militant activity. Hamas, which governs Gaza, described this as a clear violation of a ceasefire agreement that has been in place since last October. For local families, this action has caused fear and forced many to flee their temporary shelters. As international groups monitor the area, these ground movements remain a significant point of tension in the region.",
+          "keyTerms": [
+            {
+              "term": "Ceasefire",
+              "definition": "A temporary pause in fighting agreed upon by opposing sides."
+            },
+            {
+              "term": "Incursion",
+              "definition": "An entrance into a territory or area, typically with military force."
+            }
+          ],
+          "disagreement": "Hamas calls the operation a flagrant violation of the ceasefire, while the Israeli military says the action was necessary to dismantle a terror tunnel.",
+          "update": "The military has completed a new ground operation across the 'yellow line' boundary in Gaza, marking the first such movement since the ceasefire began.",
+          "importance": 8,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ee79/live/56061990-e382-11f1-a094-5fdc692f3e33.jpg",
+          "sources": [
+            {
+              "name": "BBC News",
+              "title": "Israeli military completes ground operation in Gaza beyond Yellow Line",
+              "url": "https://www.bbc.co.uk/news/articles/cw8r7510degno?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "The Guardian",
+              "title": "Israeli tanks cross ‘yellow line’ boundary into Hamas-controlled central Gaza",
+              "url": "https://www.theguardian.com/world/2026/nov/18/israeli-tanks-cross-yellow-line-boundary-into-hamas-controlled-central-gaza"
+            }
+          ]
+        },
+        {
+          "id": "region-mideast-1",
+          "headline": "Israel postpones new West Bank settlement contracts",
+          "summary": "Israel has delayed issuing contracts for new settlements in the West Bank. This follows recent sanctions from the UK on building firms in the region.",
+          "whyItMatters": "Decisions about West Bank settlements affect the possibility of a future two-state peace deal between Israel and Palestinians.",
+          "explainer": "Israel has chosen to delay building contracts for a planned large settlement project in the West Bank. The country's attorney general advised that a caretaker government, currently led by Prime Minister Benjamin Netanyahu, should not make such significant decisions. This development follows recent actions by the UK government, which placed sanctions on construction firms operating in these areas. While Israeli diplomats stated the delay is not a direct response to these sanctions, the project has long been viewed by international observers as a major obstacle to a potential two-state solution for the region.",
+          "keyTerms": [
+            {
+              "term": "Settlement",
+              "definition": "A community built by Israel in the West Bank, an area occupied during the 1967 war."
+            },
+            {
+              "term": "Caretaker government",
+              "definition": "A temporary government that rules until a new, permanent government is formed."
+            }
+          ],
+          "disagreement": null,
+          "update": "Following international pressure and sanctions, Israel has officially delayed the issuance of construction contracts for a major new settlement.",
+          "importance": 7,
+          "image": "https://i.guim.co.uk/img/media/3b267577fe18325ce20cce7e2fbe3114054210c2/0_0_4583_3667/master/4583.jpg?width=140&quality=85&auto=format&fit=max&s=b71271a4cb751d52b6be750cd39982a0",
+          "sources": [
+            {
+              "name": "The Guardian",
+              "title": "Israel delays building contracts for West Bank settlement after UK sanctions",
+              "url": "https://www.theguardian.com/world/2026/nov/18/israel-construction-contracts-e1-west-bank-settlement-uk-sanctions"
+            }
+          ]
+        },
+        {
+          "id": "region-mideast-2",
+          "headline": "New hostile actions reported in the Gulf",
+          "summary": "Kuwait and Bahrain reported being attacked by Iran following US strikes on an Iranian island. These incidents follow a period of rising tensions in the Gulf.",
+          "whyItMatters": "Escalating conflict in the Gulf can threaten global shipping lanes and lead to higher costs for fuel and imported goods.",
+          "explainer": "Tensions in the Middle East have increased following a US military strike on Qeshm, an island controlled by Iran. In response, both Kuwait and Bahrain have reported being the targets of new hostile actions by Iran. These events signal a deepening conflict between regional nations and international powers. The situation remains volatile, as the security of the Gulf region—a critical area for global energy supplies and maritime trade—is increasingly affected by these military interactions.",
+          "keyTerms": [
+            {
+              "term": "Gulf",
+              "definition": "A large inlet of the sea that is an important route for transporting oil and other goods."
+            }
+          ],
+          "disagreement": null,
+          "update": "Kuwait and Bahrain have both reported attacks from Iran following the recent US strike on Qeshm island.",
+          "importance": 7,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/492e/live/f37939a0-e346-11f1-99aa-0f40b013ad11.jpg",
+          "sources": [
+            {
+              "name": "BBC News",
+              "title": "Kuwait says it repelled first Iranian attack in two months after US strikes island",
+              "url": "https://www.bbc.co.uk/news/articles/cw4gn9jeqjq7o?at_medium=RSS&at_campaign=rss"
+            }
+          ]
+        },
+        {
+          "id": "region-mideast-3",
+          "headline": "Driver rams car into Palestinians in Kafr Qasim",
+          "summary": "A driver hit several Palestinians in different spots across Kafr Qasim. Eight people were injured during the incident.",
+          "whyItMatters": "This act of violence has increased fear and political tension among local residents in Israel.",
+          "explainer": "In the city of Kafr Qasim, a driver struck eight Palestinian residents at four different locations. Video footage posted online appears to show the car accelerating toward people before driving away. The incident has caused significant concern, with Arab lawmakers accusing other political figures of creating an environment that fuels hostility. Authorities are investigating the event, which has deeply shaken the local community.",
+          "keyTerms": [],
+          "disagreement": null,
+          "update": null,
+          "importance": 6,
+          "image": "https://i.guim.co.uk/img/media/27c6d49b5afd211b6d8c81bc6ee840f04db172e9/323_0_4715_3772/master/4715.jpg?width=140&quality=85&auto=format&fit=max&s=de6de2f17dbe16cd1666baf4adf61dd7",
+          "sources": [
+            {
+              "name": "The Guardian",
+              "title": "Eight injured after driver in Israel repeatedly rams car into Palestinians",
+              "url": "https://www.theguardian.com/world/2026/nov/19/car-rams-into-palestinian-residents-four-times-in-israeli-city-kafr-qasim"
+            }
+          ]
+        },
+        {
+          "id": "region-mideast-4",
+          "headline": "Mosque fire sparks political debate in Israel",
+          "summary": "A mosque was set on fire in an incident that many are calling a hate crime. Politicians have blamed the event on rising tensions and government rhetoric.",
+          "whyItMatters": "Targeting religious sites creates deeper social divisions and can lead to more violence between different communities.",
+          "explainer": "A fire occurred at a mosque, leading to immediate condemnation from members of the Israeli parliament. Many are labeling the event a hate crime and have openly criticized Prime Minister Benjamin Netanyahu, arguing his recent language has encouraged such violence. Meanwhile, Hamas has blamed the attack on extremist groups. The event has become a point of major political argument, highlighting deep fractures in the region.",
+          "keyTerms": [
+            {
+              "term": "Incitement",
+              "definition": "Words or actions meant to encourage someone to do something unlawful or violent."
+            }
+          ],
+          "disagreement": "While some parliament members call it a hate crime related to government rhetoric, Hamas describes the attackers as 'settler gangs'.",
+          "update": null,
+          "importance": 5,
+          "image": null,
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "title": "Mosque set on fire in Israel, politicians blame Netanyahu’s ‘incitement’",
+              "url": "https://www.aljazeera.com/news/2026/11/19/mosque-set-on-fire-in-israel-politicians-blame-netanyahus-incitement?traffic_source=rss"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "top-us",
+      "title": "Top Stories · United States",
+      "bricks": [
+        {
+          "id": "top-us-0",
+          "headline": "Trump, Xi, and Putin Hold Historic Trilateral Talks",
+          "summary": "President Trump met with Chinese President Xi Jinping and Russian President Vladimir Putin in China. The leaders held private discussions and issued a joint statement, though they made little progress on key issues like nuclear risks.",
+          "whyItMatters": "The outcome of these talks between the world's most powerful leaders can affect global trade, security, and the risk of international conflict.",
+          "explainer": "A trilateral summit involves the leaders of three different nations meeting at the same time. This meeting brought together the presidents of the United States, China, and Russia. While such high-level meetings are rare and attract much global attention, leaders often have different goals for attending. For example, some experts believe the meeting allowed the Russian president to show his nation is a global superpower. Despite the historic nature of the gathering, the leaders focused on a limited agenda rather than solving major international disagreements or nuclear concerns.",
+          "keyTerms": [
+            {
+              "term": "Trilateral",
+              "definition": "Something involving three different parties or nations."
+            },
+            {
+              "term": "Nuclear risks",
+              "definition": "The danger of war involving weapons that use energy released by splitting atoms."
+            }
+          ],
+          "disagreement": null,
+          "update": "The leaders concluded their three-way meeting on Thursday with a joint declaration of peace, though they reached no breakthroughs on nuclear security.",
+          "importance": 9,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f353/live/34533260-e445-11f1-99b6-a35a62fa4264.jpg",
+          "sources": [
+            {
+              "name": "BBC News",
+              "title": "What did Trump, Xi and Putin get out of their historic meeting?",
+              "url": "https://www.bbc.co.uk/news/videos/c63rgnq05pdwo?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "PBS NewsHour",
+              "title": "For Putin, sharing a spotlight with Trump and Xi boosts his profile on the global stage",
+              "url": "https://www.pbs.org/newshour/world/for-putin-sharing-a-spotlight-with-trump-and-xi-boosts-his-profile-on-the-global-stage"
+            },
+            {
+              "name": "PBS NewsHour",
+              "title": "No breakthroughs from Trump, Xi and Putin's 3-way talks on nuclear risks",
+              "url": "https://www.pbs.org/newshour/world/no-breakthroughs-from-trump-xi-and-putins-3-way-talks-on-nuclear-risks"
+            },
+            {
+              "name": "BBC News",
+              "title": "Trump greets 'my friend' Putin as pair shake hands",
+              "url": "https://www.bbc.co.uk/news/videos/c6j9m19llmv3o?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "PBS NewsHour",
+              "title": "Trump lands in China for trade talks and high-stakes summit with Xi and Putin",
+              "url": "https://www.pbs.org/newshour/show/trump-lands-in-china-for-trade-talks-and-high-stakes-summit-with-xi-and-putin"
+            }
+          ]
+        },
+        {
+          "id": "top-us-1",
+          "headline": "Anthropic AI Company Has Record-Breaking Stock Launch",
+          "summary": "Artificial intelligence company Anthropic launched on the stock market on Thursday. The company reached a value of $1.5 trillion, making it one of the largest public offerings in history.",
+          "whyItMatters": "This massive stock launch shows that investors are very excited about artificial intelligence, even though some people worry about risks in the tech market.",
+          "explainer": "An initial public offering, or IPO, happens when a private company sells shares to the public for the first time. Anthropic, a company that makes AI tools, sold shares on the Nasdaq stock exchange. Being valued at $1.5 trillion makes it one of the most valuable companies in the United States. Many investors are interested in artificial intelligence because of how it might change jobs and businesses. However, some market experts worry that there is an 'AI bubble,' meaning the company's value might be higher than what it is actually worth today.",
+          "keyTerms": [
+            {
+              "term": "IPO",
+              "definition": "The first time a company offers its shares for people to buy on the stock market."
+            },
+            {
+              "term": "Artificial intelligence",
+              "definition": "Computer systems built to perform tasks that usually require human intelligence."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 8,
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-19T144024Z_1124428009_RC22ROAS1O7G_RTRMADP_3_ANTHROPIC-IPO-DEBUT-1024x683.jpg",
+          "sources": [
+            {
+              "name": "PBS NewsHour",
+              "title": "Anthropic begins trading as a $1.5 trillion company in the biggest IPO on record as shares spike",
+              "url": "https://www.pbs.org/newshour/economy/anthropic-set-to-begin-trading-as-a-1-5-trillion-company-in-the-biggest-ipo-on-record"
+            },
+            {
+              "name": "NPR",
+              "title": "Anthropic raises more than $100B in IPO. And, Dems nominate Jeffries for House speaker",
+              "url": "https://www.npr.org/2026/11/19/g-s1-154344/up-first-newsletter-house-democrats-trump-xi-putin-anthropic"
+            },
+            {
+              "name": "NPR",
+              "title": "Investors scramble for a piece of AI giant Anthropic in blockbuster IPO",
+              "url": "https://www.npr.org/2026/11/19/nx-s1-6042558/anthropic-ipo-breaks-records-100-billion"
+            },
+            {
+              "name": "PBS NewsHour",
+              "title": "Anthropic prices its IPO at $83 per share, valuing the AI giant at $1.5 trillion",
+              "url": "https://www.pbs.org/newshour/economy/anthropic-prices-its-ipo-at-83-per-share-valuing-the-ai-giant-at-1-5-trillion"
+            },
+            {
+              "name": "BBC News",
+              "title": "The seven Anthropic founders who are about to become multi-billionaires",
+              "url": "https://www.bbc.co.uk/news/articles/cmd7159vlr85o?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "BBC News",
+              "title": "Simon Jack: Can Anthropic's record-breaking IPO stop the AI bubble bursting?",
+              "url": "https://www.bbc.co.uk/news/articles/cj4gnpzll020o?at_medium=RSS&at_campaign=rss"
+            }
+          ]
+        },
+        {
+          "id": "top-us-2",
+          "headline": "UN Court Rules Myanmar Committed Genocide",
+          "summary": "The United Nations' top court ruled that Myanmar’s military committed genocide against the Rohingya people in 2017. The court ordered the country to allow those who fled the violence to return home safely.",
+          "whyItMatters": "This ruling sets a major legal standard for international human rights and could force the government of Myanmar to change how it treats minority groups.",
+          "explainer": "The International Court of Justice is the highest court of the United Nations. It settles legal disputes between different countries. By ruling that Myanmar committed genocide, the court officially declared that the military intended to destroy a specific group of people, the Rohingya. This is a very serious legal finding. The court's order aims to protect these people and ensure they can go back to their homes after being forced to leave during violent military operations.",
+          "keyTerms": [
+            {
+              "term": "Genocide",
+              "definition": "The deliberate and systematic killing or destruction of an entire group of people based on who they are."
+            },
+            {
+              "term": "Minority",
+              "definition": "A smaller group within a population that differs from the larger group in race, religion, or background."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 8,
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-19T151611Z_1261728635_RC23ROA4Q1RH_RTRMADP_3_MYANMAR-ROHINGYA-WORLD-COURT-1024x683.jpg",
+          "sources": [
+            {
+              "name": "PBS NewsHour",
+              "title": "UN's highest court finds Myanmar responsible for genocide in historic ruling",
+              "url": "https://www.pbs.org/newshour/world/uns-highest-court-finds-myanmar-responsible-for-genocide-in-historic-ruling"
+            },
+            {
+              "name": "NPR",
+              "title": "The U.N.'s top court rules Myanmar committed genocide against the Rohingya",
+              "url": "https://www.npr.org/2026/11/19/g-s1-154340/un-court-myanmar-genocide-rohingya"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "politics-us",
+      "title": "Politics · United States",
+      "bricks": [
+        {
+          "id": "politics-us-0",
+          "headline": "Trump Meets with Xi and Putin in China",
+          "summary": "President Trump is in China for meetings with President Xi Jinping and President Vladimir Putin. The leaders discussed nuclear risks and global conflicts, though they achieved limited results after their talks.",
+          "whyItMatters": "Decisions made during these meetings regarding global conflicts and nuclear weapons can impact international safety and economic stability.",
+          "explainer": "President Trump traveled to China for high-stakes meetings with Russian President Vladimir Putin and Chinese President Xi Jinping. The discussions focused on sensitive international issues, including the wars in Ukraine and Iran, as well as efforts to manage nuclear weapons. Despite initial expectations of progress on these major topics, the leaders held brief, closed-door meetings and decided to focus on a much narrower set of issues. These meetings occur at a time when global alliances are shifting, and many nations are watching how the U.S. will handle its foreign relations with major world powers.",
+          "keyTerms": [
+            {
+              "term": "Nuclear arsenal",
+              "definition": "A collection of weapons that use nuclear energy to cause massive destruction."
+            }
+          ],
+          "disagreement": null,
+          "update": "President Trump held a three-way meeting with Xi and Putin, and he plans to have a separate, one-on-one meeting with Putin.",
+          "importance": 9,
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-19T095323Z_614148405_RC2WQOASB2OX_RTRMADP_3_APEC-SUMMIT-1024x683.jpg",
+          "sources": [
+            {
+              "name": "PBS NewsHour",
+              "title": "No breakthroughs from Trump, Xi and Putin's 3-way talks on nuclear risks",
+              "url": "https://www.pbs.org/newshour/world/no-breakthroughs-from-trump-xi-and-putins-3-way-talks-on-nuclear-risks"
+            },
+            {
+              "name": "NPR",
+              "title": "Trump, Xi and Putin meet as global alliances hang in the balance",
+              "url": "https://www.npr.org/2026/11/18/nx-s1-6040432/trump-xi-and-putin-shenzhen-china-russia-usa"
+            },
+            {
+              "name": "PBS NewsHour",
+              "title": "Trump plans to meet separately with Putin on his China trip in addition to their 3-way talks with Xi",
+              "url": "https://www.pbs.org/newshour/world/trump-plans-to-meet-separately-with-putin-on-his-china-trip-in-addition-to-their-3-way-talks-with-xi"
+            }
+          ]
+        },
+        {
+          "id": "politics-us-1",
+          "headline": "Democrats Nominate Hakeem Jeffries for House Speaker",
+          "summary": "House Democrats have chosen Hakeem Jeffries as their nominee for Speaker of the House. If elected by the full chamber, he will be the first Black lawmaker to hold this position.",
+          "whyItMatters": "The Speaker of the House is a powerful role that sets the agenda for the lower chamber of Congress, influencing what laws are debated and passed.",
+          "explainer": "Following the midterm elections, the Democratic Party has nominated Representative Hakeem Jeffries to be the next Speaker of the House. This is a historic move, as Jeffries would be the first Black American to serve in the role. The Speaker presides over the House of Representatives, decides which bills reach the floor for a vote, and acts as a key leader in national politics. If confirmed, Jeffries will lead the Democratic agenda as the party prepares to take control of the House in January.",
+          "keyTerms": [
+            {
+              "term": "Speaker of the House",
+              "definition": "The top leader of the U.S. House of Representatives who manages debates and sets the voting schedule."
+            }
+          ],
+          "disagreement": null,
+          "update": "Democrats officially gave Jeffries the nod as they prepare to take control of the House.",
+          "importance": 8,
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/newswrap-1-1-1024x683.jpg",
+          "sources": [
+            {
+              "name": "PBS NewsHour",
+              "title": "News Wrap: Democrats nominate Hakeem Jeffries for Speaker of the House",
+              "url": "https://www.pbs.org/newshour/show/news-wrap-democrats-nominate-hakeem-jeffries-for-speaker-of-the-house"
+            },
+            {
+              "name": "NPR",
+              "title": "Democrats nominate Jeffries for speaker, prep investigations into Trump's orbit",
+              "url": "https://www.npr.org/2026/11/18/nx-s1-6043185/democrats-nominate-jeffries-for-speaker-prep-investigations-into-trumps-orbit"
+            },
+            {
+              "name": "PBS NewsHour",
+              "title": "Democrats nominate Hakeem Jeffries to become House speaker, a historic first",
+              "url": "https://www.pbs.org/newshour/politics/democrats-nominate-hakeem-jeffries-to-become-house-speaker-a-historic-first"
+            }
+          ]
+        },
+        {
+          "id": "politics-us-2",
+          "headline": "Democrats Secure Senate Majority",
+          "summary": "Democrat Mary Peltola won the final Senate race in Alaska, defeating Republican Dan Sullivan. This win gives Democrats a 56-44 majority in the Senate after flipping nine seats.",
+          "whyItMatters": "Control of the Senate allows a party to confirm judicial appointments and move its own legislative agenda forward.",
+          "explainer": "The final result of the midterm elections is in following Mary Peltola’s victory in the Alaska Senate race. By unseating Republican Dan Sullivan, the Democratic Party successfully flipped nine Senate seats this cycle. This is the largest gain for either party in nearly 70 years, resulting in a 56-44 majority for Democrats. This shift in power significantly changes how the Senate will operate, affecting which laws are passed and who is appointed to government positions.",
+          "keyTerms": [
+            {
+              "term": "Midterm elections",
+              "definition": "Elections held in the middle of a president's four-year term to choose members of Congress."
+            },
+            {
+              "term": "Majority",
+              "definition": "Having more than half of the total seats, which allows a party to control the chamber's business."
+            }
+          ],
+          "disagreement": null,
+          "update": "Peltola's win is the final resolved race, confirming the 56-44 seat split.",
+          "importance": 7,
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-18T034438Z_1887129638_RC2UGOACRCME_RTRMADP_3_USA-ELECTION-ALASKA-1024x712.jpg",
+          "sources": [
+            {
+              "name": "PBS NewsHour",
+              "title": "Democrats flipped 9 U.S. Senate seats — the most in almost 70 years",
+              "url": "https://www.pbs.org/newshour/politics/democrats-flipped-9-us-senate-seats-the-most-in-almost-70-years"
+            },
+            {
+              "name": "PBS NewsHour",
+              "title": "Democrat Mary Peltola wins Alaska Senate seat, beating Republican incumbent Dan Sullivan",
+              "url": "https://www.pbs.org/newshour/politics/democrat-mary-peltola-wins-alaska-senate-seat-beating-republican-incumbent-dan-sullivan"
+            }
+          ]
+        },
+        {
+          "id": "politics-us-3",
+          "headline": "Lawmakers Question Officials Over System Outages",
+          "summary": "Congress is questioning Trump administration officials about recent cyber and technology problems. Officials stated that recent service disruptions across the country were not caused by a foreign government attack.",
+          "whyItMatters": "System outages impact daily travel, banking, and communications, leaving many Americans concerned about the reliability of national infrastructure.",
+          "explainer": "House lawmakers held a hearing to grill top Trump administration officials, including the Secretary of Transportation and the Director of National Intelligence, about recent technology disruptions. These issues, including flight groundings and computer system outages, have caused significant delays and concern for the public. Officials reassured the committee that these events were not the result of coordinated state-sponsored attacks, though investigators are still working to determine the exact causes of the failures.",
+          "keyTerms": [
+            {
+              "term": "Infrastructure",
+              "definition": "The basic systems that a country needs to function, such as transportation, power grids, and internet networks."
+            }
+          ],
+          "disagreement": null,
+          "update": "Secretary Duffy continues to blame a contractor for the recent FAA ground stop despite no official cause being found.",
+          "importance": 6,
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/outage2-1024x683.jpg",
+          "sources": [
+            {
+              "name": "PBS NewsHour",
+              "title": "Lawmakers press Mullin on flight disruptions and ICE tactics",
+              "url": "https://www.pbs.org/newshour/show/lawmakers-press-mullin-on-flight-disruptions-and-ice-tactics"
+            },
+            {
+              "name": "PBS NewsHour",
+              "title": "Duffy keeps blaming L3Harris after FAA ground stop, even as cause remains unknown",
+              "url": "https://www.pbs.org/newshour/politics/dot-secretary-sean-duffy-keeps-blaming-l3harris-after-faa-ground-stop-even-as-cause-remains-unknown"
+            },
+            {
+              "name": "PBS NewsHour",
+              "title": "WATCH: Intelligence official pressed to explain cause of National Security Agency outage",
+              "url": "https://www.pbs.org/newshour/politics/watch-intelligence-official-pressed-to-explain-cause-of-national-security-agency-outage"
+            },
+            {
+              "name": "PBS NewsHour",
+              "title": "WATCH: Mullin defends Trump administration's messaging on spate of outages, flight to football game during ground stop",
+              "url": "https://www.pbs.org/newshour/politics/watch-live-dhs-secretary-mullin-testifies-on-worldwide-threats-amid-tech-outages-iran-warnings"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "economy-us",
+      "title": "Economy · United States",
+      "bricks": [
+        {
+          "id": "economy-us-0",
+          "headline": "Anthropic raises over $80 billion in record IPO",
+          "summary": "Artificial intelligence company Anthropic held the largest initial public offering ever. Investors bought many shares despite fears about a potential bubble in AI company values.",
+          "whyItMatters": "This record-breaking event highlights how much money investors are currently betting on the future of artificial intelligence companies.",
+          "explainer": "An initial public offering, or IPO, is when a private company first offers its shares to the public on a stock exchange. By becoming a public company, Anthropic can raise large amounts of money from investors to grow its business. While many investors were excited to buy shares, others worry that AI companies are being valued too highly, leading to concerns about an 'AI bubble.' A bubble happens when stock prices climb very fast due to excitement rather than the actual profit the company makes. If the bubble pops, share prices could drop quickly, affecting people's retirement accounts and general market stability.",
+          "keyTerms": [
+            {
+              "term": "Initial Public Offering (IPO)",
+              "definition": "The first time a company sells its shares of stock to the public."
+            },
+            {
+              "term": "Artificial Intelligence (AI)",
+              "definition": "Computer systems built to perform tasks that usually require human intelligence, like learning or solving problems."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 9,
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-19T144024Z_1124428009_RC22ROAS1O7G_RTRMADP_3_ANTHROPIC-IPO-DEBUT-1024x683.jpg",
+          "sources": [
+            {
+              "name": "PBS NewsHour",
+              "title": "Anthropic begins trading as a $1.5 trillion company in the biggest IPO on record as shares spike",
+              "url": "https://www.pbs.org/newshour/economy/anthropic-set-to-begin-trading-as-a-1-5-trillion-company-in-the-biggest-ipo-on-record"
+            },
+            {
+              "name": "NPR",
+              "title": "Anthropic raises more than $100B in IPO. And, Dems nominate Jeffries for House speaker",
+              "url": "https://www.npr.org/2026/11/19/g-s1-154344/up-first-newsletter-house-democrats-trump-xi-putin-anthropic"
+            },
+            {
+              "name": "NPR",
+              "title": "Investors scramble for a piece of AI giant Anthropic in blockbuster IPO",
+              "url": "https://www.npr.org/2026/11/19/nx-s1-6042558/anthropic-ipo-breaks-records-100-billion"
+            },
+            {
+              "name": "PBS NewsHour",
+              "title": "Anthropic prices its IPO at $83 per share, valuing the AI giant at $1.5 trillion",
+              "url": "https://www.pbs.org/newshour/economy/anthropic-prices-its-ipo-at-83-per-share-valuing-the-ai-giant-at-1-5-trillion"
+            },
+            {
+              "name": "NPR",
+              "title": "Anthropic IPO raises record $81.3 billion on strong AI demand",
+              "url": "https://www.npr.org/2026/11/18/nx-s1-6046212/anthropic-record-ipo-price"
+            }
+          ]
+        },
+        {
+          "id": "economy-us-1",
+          "headline": "Palo Alto Networks reports earnings beat and new deal",
+          "summary": "Palo Alto Networks reported better-than-expected earnings this week. The company also announced a $4.5 billion deal to buy an AI startup to help strengthen its cyber security tools.",
+          "whyItMatters": "Companies that provide digital security are becoming more important as businesses spend more to protect their systems from online threats.",
+          "explainer": "Palo Alto Networks is a company that specializes in cybersecurity, which is the practice of protecting computers and networks from digital attacks. As more businesses use AI and store data online, the need for advanced security tools has grown. By buying an AI startup, the company hopes to build better software that can automatically spot and stop hackers. This move is part of a larger trend where tech companies spend billions to stay ahead of evolving digital risks.",
+          "keyTerms": [
+            {
+              "term": "Cybersecurity",
+              "definition": "The steps taken to protect computer systems and information from being stolen or damaged."
+            },
+            {
+              "term": "Earnings",
+              "definition": "The profit a company makes during a specific period of time."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 5,
+          "image": null,
+          "sources": [
+            {
+              "name": "CNBC",
+              "title": "Palo Alto stock jumps on earnings beat and company's big bet on securing open-weight models",
+              "url": "https://www.cnbc.com/2026/11/19/palo-alto-networks-earnings-applied-compute.html"
+            },
+            {
+              "name": "CNBC",
+              "title": "Palo Alto inks $4.5 billion deal for AI startup Applied Compute, shares pop 7% on earnings",
+              "url": "https://www.cnbc.com/2026/11/18/palo-alto-networks-panw-q1-2027-earnings-.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-top",
+      "title": "Sports · Top Headlines",
+      "bricks": [
+        {
+          "id": "sports-top-0",
+          "headline": "Australia Cricket Captain Faces Pressure Over Scandal",
+          "summary": "Fresh claims from Cameron Bancroft about the 2018 ball-tampering scandal have added pressure on current Australia captain Pat Cummins. Some observers are now questioning if Cummins can remain leader of the team for the upcoming Ashes series.",
+          "whyItMatters": "The controversy affects the leadership and public image of the Australian national cricket team.",
+          "explainer": "In 2018, the Australian cricket team was involved in a scandal where players used sandpaper to change the condition of the ball during a match against South Africa. This action is against the rules of the sport. Recent comments from former player Cameron Bancroft suggest that more people on the team knew about the plan than previously admitted. This has led to renewed debate about the integrity of the team and has specifically put pressure on Pat Cummins, who is the current captain, regarding his ability to lead the squad.",
+          "keyTerms": [
+            {
+              "term": "Ball-tampering",
+              "definition": "The act of illegally changing the state of a cricket ball to help a bowler get an advantage."
+            },
+            {
+              "term": "Ashes",
+              "definition": "A historic and very important cricket series played between England and Australia."
+            }
+          ],
+          "disagreement": null,
+          "update": "New claims from Cameron Bancroft have reignited the scandal, leading to fresh questions about Pat Cummins' future as captain.",
+          "importance": 7,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/36a4/live/68bb4050-e41e-11f1-99b6-a35a62fa4264.jpg",
+          "sources": [
+            {
+              "name": "BBC Sport",
+              "title": "Cummins' Australia captaincy at a crossroads - Agnew",
+              "url": "https://www.bbc.co.uk/sport/cricket/articles/c94gnev3kj4vo?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "BBC Sport",
+              "title": "The sandpaper plot - who was there, who said what?",
+              "url": "https://www.bbc.co.uk/sport/cricket/articles/cqwy41w3zydgo?at_medium=RSS&at_campaign=rss"
+            }
+          ]
+        },
+        {
+          "id": "sports-top-1",
+          "headline": "Premier League Clubs Vote to Protect Directors",
+          "summary": "Premier League teams have voted to pay legal costs for their board directors. This move is to protect them if Manchester City's sponsors decide to take legal action against the league's leadership.",
+          "whyItMatters": "This decision shows the ongoing legal tensions between the Premier League and one of its top clubs.",
+          "explainer": "The Premier League is the top level of English football, managed by a group of board directors. Recently, there has been friction between the league and Manchester City, one of its most successful teams, regarding commercial deals and sponsors. By agreeing to cover legal costs for their directors, the other clubs are trying to make sure that people working for the league are not held personally responsible if they are sued by sponsors linked to Manchester City.",
+          "keyTerms": [
+            {
+              "term": "Sponsors",
+              "definition": "Companies that give money to sports teams or leagues in exchange for advertising."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 6,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4515/live/c1425af0-e41a-11f1-b37c-b3a71d7200af.jpg",
+          "sources": [
+            {
+              "name": "BBC Sport",
+              "title": "Premier League clubs to cover legal costs if Man City sponsors sue",
+              "url": "https://www.bbc.co.uk/sport/football/articles/cqy4jvdw7jdlo?at_medium=RSS&at_campaign=rss"
+            }
+          ]
+        },
+        {
+          "id": "sports-top-2",
+          "headline": "World Marathon Champion Banned for Doping",
+          "summary": "Peres Jepchirchir, the current world marathon champion, has received a three-year ban. This penalty follows a confirmed violation of anti-doping rules.",
+          "whyItMatters": "Doping violations damage the fairness of professional sports and lead to the loss of top-level competitors.",
+          "explainer": "Doping involves the use of banned substances to improve an athlete's performance. International sports organizations have strict testing rules to catch athletes who use these drugs. When an athlete is found to have broken these rules, they are often suspended from competing for a set period. In this case, Peres Jepchirchir will be unable to run in professional races for three years.",
+          "keyTerms": [
+            {
+              "term": "Doping",
+              "definition": "Using banned drugs or methods to unfairly improve athletic performance."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 5,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c292/live/4a3d4a90-ced6-11f1-b2b0-07f43a3ad2d3.jpg",
+          "sources": [
+            {
+              "name": "BBC Sport",
+              "title": "World marathon champion Jepchirchir gets three-year doping ban",
+              "url": "https://www.bbc.co.uk/sport/athletics/articles/cv5y1e1zle88o?at_medium=RSS&at_campaign=rss"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-nfl",
+      "title": "Sports · NFL",
+      "bricks": [
+        {
+          "id": "sports-nfl-0",
+          "headline": "Ravens bench Humphrey after derogatory city comments",
+          "summary": "Baltimore Ravens cornerback Marlon Humphrey will be inactive for Sunday's game. The team sent him home after he made negative comments about Baltimore on his podcast, for which he has since apologized.",
+          "whyItMatters": "The team's decision impacts the Ravens' defense for their upcoming game against the Panthers.",
+          "explainer": "Marlon Humphrey, a starting cornerback for the Baltimore Ravens, was sent home from the team's facility by management. This action was taken after Humphrey made disparaging remarks about the city of Baltimore during a recent podcast appearance. Because of these events, Humphrey will not play in this Sunday's game against the Carolina Panthers. Humphrey has issued an apology for his comments. In the NFL, teams hold players accountable for conduct that affects the team's reputation or disrupts team operations, and this suspension from game-day activity is a direct consequence of the player's public statements.",
+          "keyTerms": [
+            {
+              "term": "Inactive",
+              "definition": "A player who is on the team roster but is not permitted to suit up or play in a specific game."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 5,
+          "image": "https://a.espncdn.com/photo/2025/0923/r1549909_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Ravens send CB Humphrey home, say he'll be inactive after 'criminals' comment",
+              "url": "https://www.espn.com/nfl/story/_/id/50532199/ravens-send-marlon-humphrey-home-say-inactive"
+            },
+            {
+              "name": "ESPN",
+              "title": "Ravens' Humphrey apologizes for quip that Baltimore 'best at making criminals'",
+              "url": "https://www.espn.com/nfl/story/_/id/50524109/ravens-humphrey-apologizes-criminals-quip-podcast"
+            }
+          ]
+        },
+        {
+          "id": "sports-nfl-1",
+          "headline": "Key Texans and Colts players ruled out for Thursday",
+          "summary": "Both the Houston Texans and the Indianapolis Colts have ruled out several important players for their Thursday night game. The absences include starters on both sides of the ball.",
+          "whyItMatters": "These lineup changes affect the game plan and odds of winning for two division rivals during a critical part of the season.",
+          "explainer": "As the Houston Texans prepare to host the Indianapolis Colts for a Thursday night matchup, both teams announced they will be missing significant talent due to injuries. The Texans will be without defensive end Hunter and running back Marks. The Colts have also ruled out cornerback Ward and their starting offensive tackles. Missing starters, particularly on the offensive line or in the secondary, can force teams to adjust their strategy and rely on backup players who may have less experience, often making the outcome of the game more unpredictable for fans and coaches alike.",
+          "keyTerms": [
+            {
+              "term": "Offensive tackle",
+              "definition": "A player on the offensive line who protects the quarterback from defensive rushers."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 4,
+          "image": "https://a.espncdn.com/photo/2026/0306/r1623993_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Texans DE Hunter, RB Marks to miss TNF; Colts rule out CB Ward, starting OTs",
+              "url": "https://www.espn.com/nfl/story/_/id/50524890/texans-rule-hunter-marks-colts-rule-ward-starting-ots"
+            }
+          ]
+        },
+        {
+          "id": "sports-nfl-2",
+          "headline": "Belichick and Kraft finalists for Hall of Fame",
+          "summary": "Bill Belichick and Robert Kraft have reached the final round of voting for the Pro Football Hall of Fame. This marks the second year in a row that both have been named finalists.",
+          "whyItMatters": "This recognizes the lasting impact they have had on professional football through their roles as a coach and an owner.",
+          "explainer": "Bill Belichick and Robert Kraft have both been named as finalists for the Pro Football Hall of Fame for the second consecutive year. The Hall of Fame honors people who have made the greatest contributions to the sport of professional football. Belichick is widely regarded as one of the most successful head coaches in league history, while Kraft is recognized for his long tenure as the owner of the New England Patriots. Finalists undergo a rigorous selection process, and those chosen for induction receive the sport's highest individual honor for their career achievements.",
+          "keyTerms": [
+            {
+              "term": "Finalist",
+              "definition": "A person selected from a larger group to be considered for a final award or honor."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 4,
+          "image": "https://a.espncdn.com/photo/2024/0411/r1317317_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Bill Belichick, Robert Kraft named Hall of Fame finalists for 2nd straight year",
+              "url": "https://www.espn.com/nfl/story/_/id/50532254/belichick-kraft-finalists-again-pro-football-hall-fame"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-nba",
+      "title": "Sports · NBA",
+      "bricks": [
+        {
+          "id": "sports-nba-0",
+          "headline": "Lakers Win Streak Ends After Loss to Jazz",
+          "summary": "The Los Angeles Lakers' nine-game winning streak ended with a loss to the Utah Jazz. Player Luka Doncic said his own poor performance in the game was not good enough.",
+          "whyItMatters": "The loss stops the team's momentum as they compete for a higher position in the league standings.",
+          "explainer": "The Los Angeles Lakers had won nine games in a row before losing to the Utah Jazz on Wednesday. Luka Doncic, a key player for the team, struggled during the game. He missed many shots and turned the ball over nine times, which happens when a player loses control of the ball to the other team. Doncic stated that his play was unacceptable. The team relies on him to lead their offense, so his performance affects their ability to win. Losing this game ends their long winning streak and forces the team to regroup for their next game. The outcome is important for the team's overall record and confidence as the season moves forward.",
+          "keyTerms": [
+            {
+              "term": "Winning streak",
+              "definition": "A number of games won in a row without any losses."
+            },
+            {
+              "term": "Turnover",
+              "definition": "When a player loses the ball to the other team before they can take a shot."
+            }
+          ],
+          "disagreement": null,
+          "update": "The Lakers' winning streak has ended after a loss to the Utah Jazz.",
+          "importance": 5,
+          "image": "https://a.espncdn.com/photo/2026/1119/r1747992_600x400_3-2.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Luka Doncic's shot goes cold as Jazz end Lakers' winning streak at 9",
+              "url": "https://www.espn.com/nba/story/_/id/50529118/luka-doncic-struggles-jazz-end-lakers-winning-streak-9"
+            }
+          ]
+        },
+        {
+          "id": "sports-nba-1",
+          "headline": "76ers Beat Magic, Keep Perfect Close-Game Record",
+          "summary": "The Philadelphia 76ers came back from 17 points down to beat the Orlando Magic. The win keeps the 76ers perfect in games decided by a small margin in the final minutes.",
+          "whyItMatters": "Winning close games is a sign of a strong team and helps improve their playoff chances.",
+          "explainer": "The Philadelphia 76ers beat the Orlando Magic on Wednesday after falling behind by 17 points early in the game. This comeback victory pushed the 76ers to 11-0 in what the NBA calls clutch games. A clutch game is one where the score is close in the final five minutes of play. Being able to perform well under pressure at the end of a game is considered a key skill for teams that hope to succeed in the playoffs. By maintaining this perfect record in tight situations, the 76ers show they can stay calm and execute winning plays when the pressure is at its highest.",
+          "keyTerms": [
+            {
+              "term": "Clutch game",
+              "definition": "A game where the score is within five points during the last five minutes of play."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 4,
+          "image": "https://a.espncdn.com/photo/2026/1119/r1747979_600x400_3-2.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "76ers rally vs. Magic, improve to 11-0 in clutch games",
+              "url": "https://www.espn.com/nba/story/_/id/50528417/76ers-rally-vs-magic-improve-11-0-clutch-games"
+            }
+          ]
+        },
+        {
+          "id": "sports-nba-2",
+          "headline": "Suns Defeat Kings, Sacramento Loses Seventh Straight",
+          "summary": "The Phoenix Suns beat the Sacramento Kings 128-107. This loss is the seventh game in a row that the Kings have lost.",
+          "whyItMatters": "The Kings are falling further down the standings, which makes it harder for them to reach the playoffs.",
+          "explainer": "The Phoenix Suns beat the Sacramento Kings 128-107 on Wednesday night. Dillon Brooks and Devin Booker both scored 29 points for the Suns, leading the team to victory. For the Sacramento Kings, this loss marks their seventh consecutive defeat. In professional sports, a long losing streak can make it difficult for a team to maintain morale and can hurt their chances of making the playoffs at the end of the season. The Kings will need to win their next few games to improve their ranking and avoid falling further behind other teams in their division.",
+          "keyTerms": [
+            {
+              "term": "Standings",
+              "definition": "A list showing how teams rank against each other based on their wins and losses."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 3,
+          "image": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401910018.png?templateId=espn.applewatch.awayhome.1",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Brooks and Booker score 29 apiece as Suns send Kings to 7th straight loss 128-107",
+              "url": "http://www.espn.com/nba/recap?gameId=401910018"
+            }
+          ]
+        },
+        {
+          "id": "sports-nba-3",
+          "headline": "Julius Randle Criticizes Nets After Loss to Bulls",
+          "summary": "The Brooklyn Nets lost to the Chicago Bulls by 30 points. After the game, player Julius Randle called the team's effort embarrassing.",
+          "whyItMatters": "This reaction shows frustration within the team, which can impact their focus and performance in future games.",
+          "explainer": "The Brooklyn Nets suffered a large 30-point loss to the Chicago Bulls. Following the defeat, veteran player Julius Randle spoke to the media and described the team's effort as embarrassing. He specifically questioned the team's pride and hard work on the court. In team sports, public criticism from a player can be a way to challenge teammates to play better. The Nets are now looking to improve their level of play to avoid similar results as they continue their season schedule.",
+          "keyTerms": [],
+          "disagreement": null,
+          "update": null,
+          "importance": 3,
+          "image": "https://a.espncdn.com/photo/2026/1119/r1747966_600x400_3-2.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Randle sounds off after Bulls rout Nets: 'That was embarrassing'",
+              "url": "https://www.espn.com/nba/story/_/id/50527820/randle-sounds-bulls-rout-nets-was-embarrassing"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-wnba",
+      "title": "Sports · WNBA",
+      "bricks": [
+        {
+          "id": "sports-wnba-0",
+          "headline": "Indiana Fever Interview Candidates for Top Basketball Job",
+          "summary": "The Indiana Fever are currently talking to finalists for a top executive position. The team is looking for a new leader to manage their basketball operations.",
+          "whyItMatters": "The new leader will make important decisions about players, coaches, and the future success of the Fever team.",
+          "explainer": "The Indiana Fever is a professional basketball team in the WNBA. A team executive in charge of basketball operations is responsible for making major strategic decisions. This includes choosing which players to sign, managing the team's budget, and hiring coaches. By interviewing finalists for this role, the organization is looking for someone to help guide their professional strategy and improve their performance on the court in the coming seasons.",
+          "keyTerms": [
+            {
+              "term": "Executive",
+              "definition": "A high-level leader in an organization who makes important decisions."
+            },
+            {
+              "term": "Basketball operations",
+              "definition": "The department that handles player personnel, scouting, and coaching matters."
+            }
+          ],
+          "disagreement": null,
+          "update": "The team is continuing to talk with finalists for the job.",
+          "importance": 3,
+          "image": "https://a.espncdn.com/photo/2023/1209/r1264312_2_600x400_3-2.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Sources: Fever working through finalists to head basketball operations",
+              "url": "https://www.espn.com/wnba/story/_/id/50515575/fever-finalists-head-basketball-operations"
+            }
+          ]
+        },
+        {
+          "id": "sports-wnba-1",
+          "headline": "Toronto Tempo Win Top Pick in 2027 WNBA Draft",
+          "summary": "The Toronto Tempo won the WNBA draft lottery on Sunday. This gives them the first pick in the 2027 draft.",
+          "whyItMatters": "Getting the first pick allows a team to select the best new college player, which can help them win more games.",
+          "explainer": "The WNBA draft lottery is a system used to decide which teams get to pick the top new players from college. Because the Toronto Tempo won the lottery, they have the right to select the top player available in the 2027 draft. Experts suggest this pick could be used to recruit star player JuJu Watkins from USC. The Houston Comets will pick second and the Washington Mystics will pick third.",
+          "keyTerms": [
+            {
+              "term": "Draft lottery",
+              "definition": "A process where teams that did not make the playoffs get a chance to pick the best new players first."
+            },
+            {
+              "term": "Draft",
+              "definition": "An event where teams select new players to join their professional rosters."
+            }
+          ],
+          "disagreement": null,
+          "update": "This is a follow-up to yesterday's report that the team had won the lottery.",
+          "importance": 4,
+          "image": "https://a.espncdn.com/photo/2026/0209/r1612934_600x400_3-2.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Toronto Tempo win 2027 WNBA draft lottery, land No. 1 pick",
+              "url": "https://www.espn.com/wnba/story/_/id/50497107/toronto-tempo-win-2027-wnba-draft-lottery"
+            },
+            {
+              "name": "ESPN",
+              "title": "2027 WNBA mock draft: Tempo win lottery, projected to pick JuJu Watkins at No. 1",
+              "url": "https://www.espn.com/wnba/story/_/id/50491141/wnba-mock-draft-2027-draft-lottery-toronto-projections"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-mlb",
+      "title": "Sports · MLB",
+      "bricks": [
+        {
+          "id": "sports-mlb-0",
+          "headline": "MLB Owners Insist on Salary Cap, Risking 2027 Lockout",
+          "summary": "MLB Commissioner Rob Manfred said team owners will not accept a new deal without a salary cap. This decision makes a lockout likely, which could threaten the 2027 baseball season.",
+          "whyItMatters": "A lockout could cancel games, leaving fans without baseball and affecting the jobs of thousands of stadium and team employees.",
+          "explainer": "In professional sports, a salary cap is a limit on the total amount of money a team can spend on player contracts. Team owners often want a cap to keep costs down and ensure teams remain profitable. Major League Baseball players usually oppose a cap, as they believe it limits their ability to earn what they are worth based on their skill and market demand. Commissioner Rob Manfred stated that owners will not approve a contract without this rule. If the league and the players' union cannot agree on a new deal before the current one expires, the owners can initiate a lockout. During a lockout, team facilities close and games cannot be played, which would pause the professional baseball season.",
+          "keyTerms": [
+            {
+              "term": "Salary Cap",
+              "definition": "A rule that limits the total amount of money a team can spend on all its players."
+            },
+            {
+              "term": "Lockout",
+              "definition": "When team owners stop players from entering team facilities or playing in games until a new contract is signed."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 9,
+          "image": "https://a.espncdn.com/photo/2014/0130/mlb_g_baseball01jr_1296x729.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Rob Manfred says MLB owners won't compromise on salary cap",
+              "url": "https://www.espn.com/mlb/story/_/id/50523785/rob-manfred-says-mlb-owners-compromise-salary-cap"
+            }
+          ]
+        },
+        {
+          "id": "sports-mlb-1",
+          "headline": "Evidence Presented in MLB Gambling Trial",
+          "summary": "Prosecutors in a federal trial showed evidence that bettors wagered on specific pitches during games in 2025. Testimony also suggested Emmanuel Clase asked an associate to send winnings to the Dominican Republic.",
+          "whyItMatters": "Integrity in sports is vital because fans rely on the fairness of the game, and betting scandals can damage the trust people have in professional athletics.",
+          "explainer": "A federal trial is underway involving MLB players Emmanuel Clase and Luis Ortiz regarding accusations of illegal sports betting. Prosecutors introduced evidence in court showing that people placed large bets on the results of specific pitches thrown during baseball games in June 2025. In court, witnesses testified that after winning money from these bets, an associate of Clase was asked to send some of the cash to the Dominican Republic. These allegations are serious because leagues have strict rules against players betting on games or influencing game outcomes for money.",
+          "keyTerms": [],
+          "disagreement": null,
+          "update": "Prosecutors presented new evidence in court showing that money won from bets on specific pitches was requested to be sent to the Dominican Republic.",
+          "importance": 8,
+          "image": "https://a.espncdn.com/photo/2026/1118/r1747399_600x400_3-2.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Prosecutors: Emmanuel Clase told bettor to send money to Dominican Republic",
+              "url": "https://www.espn.com/espn/betting/story/_/id/50515571/emmanuel-clase-told-bettor-send-money-dominican-republic-federal-prosecutors-show"
+            },
+            {
+              "name": "ESPN",
+              "title": "Testimony: Bettors linked to Emmanuel Clase wagered on Luis Ortiz pitches",
+              "url": "https://www.espn.com/espn/betting/story/_/id/50506345/witness-testimony-bettors-linked-emmanuel-clase-wagered-luis-ortiz-pitches"
+            }
+          ]
+        },
+        {
+          "id": "sports-mlb-2",
+          "headline": "Angels Sale to Kroenke Expected in January",
+          "summary": "The $4 billion sale of the Los Angeles Angels to Kroenke Sports and Entertainment is expected to finish in January. The deal would change team ownership.",
+          "whyItMatters": "New ownership can change how a team is run, affecting the budget for players and the overall experience for fans attending games.",
+          "explainer": "The Los Angeles Angels are in the process of being sold to a group called Kroenke Sports and Entertainment. The sale is valued at $4 billion, which is one of the largest prices ever paid for a professional sports team. MLB officials expect the deal to close in January. Kroenke Sports and Entertainment already owns several other professional teams in different sports. This sale represents a major shift in the leadership and management of the Angels franchise.",
+          "keyTerms": [],
+          "disagreement": null,
+          "update": null,
+          "importance": 6,
+          "image": "https://a.espncdn.com/photo/2016/0301/r59271_600x400_3-2.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "MLB expects $4B Angels sale to Kroenke to close in January",
+              "url": "https://www.espn.com/mlb/story/_/id/50524552/mlb-expects-4b-angels-sale-kroenke-close-january"
+            }
+          ]
+        },
+        {
+          "id": "sports-mlb-3",
+          "headline": "Teams Compete to Sign Star Pitcher Tarik Skubal",
+          "summary": "The New York Mets are reportedly the favorites to sign free agent pitcher Tarik Skubal. Several other teams are also trying to sign the star player.",
+          "whyItMatters": "Signing a top-tier pitcher like Skubal can dramatically improve a team's chances of winning the World Series, which influences ticket prices and fan excitement.",
+          "explainer": "In baseball, free agency happens when a player's contract ends and they are allowed to sign with any team. Tarik Skubal is currently the most sought-after player on the market. Being a star pitcher, he is expected to receive a very large, long-term contract. While the Mets are considered the front-runners to sign him, other teams are also meeting with him to present their offers. The team that signs him will likely see a significant improvement in their pitching staff for the coming seasons.",
+          "keyTerms": [
+            {
+              "term": "Free Agent",
+              "definition": "A player who is not currently under contract with any team and is free to negotiate a new deal."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 5,
+          "image": "https://a.espncdn.com/photo/2026/1101/r1739467_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Sources: Mets favorite to sign Tarik Skubal as teams ramp up pursuit of FA ace",
+              "url": "https://www.espn.com/mlb/story/_/id/50521652/sources-mets-final-teams-bidding-tarik-skubal"
+            },
+            {
+              "name": "ESPN",
+              "title": "Skubal to ...? What about other big free agents? How MLB offseason dominoes fall",
+              "url": "https://www.espn.com/mlb/story/_/id/50512061/offseason-free-agency-signings-predictions"
+            },
+            {
+              "name": "ESPN",
+              "title": "Tarik Skubal free agency tracker: Latest on top MLB free agent",
+              "url": "https://www.espn.com/mlb/story/_/id/50453514/tarik-skubal-free-agency-updates"
+            },
+            {
+              "name": "ESPN",
+              "title": "Every MLB team's chance of signing Skubal -- and their backup plans",
+              "url": "https://www.espn.com/mlb/story/_/id/50454235/tarik-skubal-all-30-teams-backup-plans"
+            }
+          ]
+        },
+        {
+          "id": "sports-mlb-4",
+          "headline": "MLB Teams Announce Roster Changes and New Deals",
+          "summary": "Several MLB teams are active this offseason, including the Twins signing Sonny Gray and a trade between the Royals and Mariners. Other teams are finalizing contracts and trades.",
+          "whyItMatters": "These roster moves define each team's strengths for the next season, which determines if a team will be a contender for the playoffs.",
+          "explainer": "The 'hot stove' refers to the time during the MLB offseason when teams sign free agents and trade players to build their rosters. The Twins signed pitcher Sonny Gray, while the Royals and Mariners completed a six-player trade. Additionally, the White Sox signed pitcher Dustin May, and the Brewers and Yankees completed other player deals. These moves happen before the start of spring training, as front offices try to fix weak spots in their lineup and pitching rotation.",
+          "keyTerms": [
+            {
+              "term": "Offseason",
+              "definition": "The months after the baseball season ends and before the next one begins, when teams change their rosters."
+            }
+          ],
+          "disagreement": null,
+          "update": "More teams are confirming trades and signings, including the White Sox, Brewers, and Yankees, adding to the flurry of recent roster activity.",
+          "importance": 5,
+          "image": "https://a.espncdn.com/photo/2026/1102/r1739950_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Twins reunite with veteran right-hander Sonny Gray on two-year deal",
+              "url": "https://www.espn.com/mlb/story/_/id/50523817/twins-sign-veteran-right-hander-sonny-gray-two-year-deal"
+            },
+            {
+              "name": "ESPN",
+              "title": "Royals send Maikel Garcia to Mariners in six-player trade",
+              "url": "https://www.espn.com/mlb/story/_/id/50521866/sources-royals-trade-maikel-garcia-mariners-miller"
+            },
+            {
+              "name": "ESPN",
+              "title": "Yankees' Bednar, Twins' Jeffers accept $23.15M qualifying offer",
+              "url": "https://www.espn.com/mlb/story/_/id/50513467/sources-yankees-bednar-twins-jeffers-accept-2315m-offer"
+            },
+            {
+              "name": "ESPN",
+              "title": "White Sox, pitcher Dustin May reach 3-year, $52.5M contract",
+              "url": "https://www.espn.com/mlb/story/_/id/50511537/source-white-sox-dustin-reach-3-year-525m-contract"
+            },
+            {
+              "name": "ESPN",
+              "title": "Brewers acquire reliever Ryan Walker from Giants for 2 minor league pitchers",
+              "url": "https://www.espn.com/mlb/story/_/id/50496867/brewers-acquire-ryan-walker-giants-2-minor-leaguers"
+            },
+            {
+              "name": "ESPN",
+              "title": "Tim Hill, Yankees agree to 1-year, $2.25M deal, sources say",
+              "url": "https://www.espn.com/mlb/story/_/id/50492078/tim-hill-yankees-agree-1-year-225m-deal-sources-say"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-nhl",
+      "title": "Sports · NHL",
+      "bricks": [
+        {
+          "id": "sports-nhl-0",
+          "headline": "Blackhawks Star Connor Bedard Awaiting Injury Test Results",
+          "summary": "Chicago Blackhawks captain Connor Bedard is waiting for more test results on his injured shoulder. Doctors will help him decide if he needs surgery and when it should happen.",
+          "whyItMatters": "The health of a team's star player can change how well the team performs for the rest of the season.",
+          "explainer": "Connor Bedard is a key player for the Chicago Blackhawks hockey team. He recently left a game with a shoulder injury. His team is currently waiting for more medical tests to see how bad the damage is. These results will help Bedard and his doctors decide the best path for his recovery. They are also looking at whether he needs a surgery, and if so, when is the best time to have the procedure. Fans and the team are waiting for this news to see how long he might be out of the lineup.",
+          "keyTerms": [
+            {
+              "term": "Surgery",
+              "definition": "A medical procedure where a doctor fixes an injury inside the body."
+            }
+          ],
+          "disagreement": null,
+          "update": "Connor Bedard is now waiting for further medical imaging to decide if he needs surgery on his injured shoulder.",
+          "importance": 6,
+          "image": "https://a.espncdn.com/photo/2026/0413/r1643014_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Blackhawks star Connor Bedard awaiting test results on injured shoulder",
+              "url": "https://www.espn.com/nhl/story/_/id/50522884/connor-bedard-awaiting-test-results-injured-shoulder"
+            }
+          ]
+        },
+        {
+          "id": "sports-nhl-1",
+          "headline": "Utah Mammoth Snap Six-Game Losing Streak",
+          "summary": "The Utah Mammoth beat the Colorado Avalanche 4-1 on Wednesday night. Vincent Trocheck helped end his team's losing streak with a goal and an assist.",
+          "whyItMatters": "This win helps the Utah Mammoth improve their standing in the league after a difficult losing stretch.",
+          "explainer": "In professional hockey, teams go through ups and downs. The Utah Mammoth had recently lost six games in a row. On Wednesday, they played against the Colorado Avalanche and won with a score of 4-1. A player named Vincent Trocheck played a big part in this game by scoring one goal and helping a teammate score another. This win is important for the Mammoth because it breaks their losing streak and gives the team a needed boost in confidence.",
+          "keyTerms": [],
+          "disagreement": null,
+          "update": null,
+          "importance": 4,
+          "image": "https://s.espncdn.com/stitcher/sports/hockey/nhl/events/401892741.png?templateId=espn.applewatch.awayhome.1",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Mammoth end 6-game slide with 4-1 win over Avalanche",
+              "url": "http://www.espn.com/nhl/recap?gameId=401892741"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-cfb",
+      "title": "Sports · College Football",
+      "bricks": [
+        {
+          "id": "sports-cfb-0",
+          "headline": "Georgia Official Urges SEC Action Against LSU",
+          "summary": "The Georgia Attorney General asked the SEC to punish LSU over claims of rule violations. Meanwhile, a judge questioned LSU's legal arguments in an ongoing lawsuit between the university and the conference.",
+          "whyItMatters": "This dispute could lead to major penalties for LSU, affecting its standing and future participation in SEC sports.",
+          "explainer": "The Southeastern Conference (SEC) is one of the main leagues in college football. A disagreement between LSU and the SEC has led to a legal battle, with a federal judge recently reviewing arguments from both sides. Separately, the Attorney General of Georgia has sent a letter to the SEC commissioner, asking the league to look into LSU's actions. The official suggests that LSU has not followed conference rules and should face consequences, potentially including being kicked out of the league. These events highlight growing tensions between conference leadership and member schools regarding authority and compliance.",
+          "keyTerms": [
+            {
+              "term": "SEC",
+              "definition": "The Southeastern Conference is a group of universities that play sports against each other in the highest level of college athletics."
+            },
+            {
+              "term": "Sanctions",
+              "definition": "These are penalties or punishments given to a team or school for breaking league rules."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 6,
+          "image": "https://a.espncdn.com/photo/2023/0412/r1158074_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Georgia AG asks SEC to take action against LSU's 'contempt for the rules'",
+              "url": "https://www.espn.com/mens-college-basketball/story/_/id/50524054/georgia-ag-asks-sec-take-action-vs-lsu-expulsion"
+            },
+            {
+              "name": "ESPN",
+              "title": "Judge questions LSU's claims the SEC 'hallucinated' citations",
+              "url": "https://www.espn.com/college-football/story/_/id/50522883/judge-questions-lsu-claims-sec-hallucinated-citations"
+            }
+          ]
+        },
+        {
+          "id": "sports-cfb-1",
+          "headline": "Buffalo Wins Sixth Straight Game",
+          "summary": "Buffalo defeated Central Michigan 40-21 on Wednesday. Running back Messiah Burch led the team with 200 rushing yards and two touchdowns.",
+          "whyItMatters": "This win keeps Buffalo's successful streak alive as they continue their season.",
+          "explainer": "In college football, teams play several games during the fall season to determine their rankings and chances to play in a postseason game. Buffalo has been on a successful path, winning its last six games. In this recent win against Central Michigan, Messiah Burch played a big role by running the ball for a high number of yards and scoring multiple times. These wins are important for the team's record and could help them qualify for an end-of-year bowl game.",
+          "keyTerms": [],
+          "disagreement": null,
+          "update": null,
+          "importance": 5,
+          "image": "https://s.espncdn.com/stitcher/sports/football/college-football/events/401866469.png?templateId=espn.applewatch.awayhome.1",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Burch hits 200 yards again and Buffalo wins 6th straight, 40-21 over Central Michigan",
+              "url": "http://www.espn.com/ncf/recap?gameId=401866469"
+            }
+          ]
+        },
+        {
+          "id": "sports-cfb-2",
+          "headline": "South Carolina Quarterback Ready for Georgia Game",
+          "summary": "South Carolina quarterback LaNorris Sellers is expected to play this Saturday against Georgia. He was not listed on the team's injury report this week.",
+          "whyItMatters": "Having their starting quarterback available gives South Carolina a better chance to compete against a top-ranked opponent.",
+          "explainer": "In college football, players are often listed on an injury report if they are hurt and might miss a game. The report helps fans and teams understand who might be able to play. Since LaNorris Sellers was not on the report, it means he is healthy enough to participate in the upcoming game against Georgia. This is a key development because the quarterback leads the team's offense, and Georgia is currently ranked as the number one team in the country.",
+          "keyTerms": [
+            {
+              "term": "Quarterback",
+              "definition": "The player who leads the team's offense and usually throws the ball or hands it off to others."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 4,
+          "image": "https://a.espncdn.com/photo/2026/1102/r1740147_600x400_3-2.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "South Carolina star QB LaNorris Sellers set to play vs. No. 1 Georgia",
+              "url": "https://www.espn.com/college-football/story/_/id/50526154/south-carolina-qb-lanorris-sellers-set-play-vs-georgia"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-cbb",
+      "title": "Sports · College Basketball",
+      "bricks": [
+        {
+          "id": "sports-cbb-0",
+          "headline": "Kansas Moves to No. 1 in Basketball Rankings",
+          "summary": "The Kansas men's basketball team is now ranked first in the nation. Many top teams lost games this week, helping Kansas move up in the standings.",
+          "whyItMatters": "Rankings help fans and experts track which college teams are the strongest throughout the basketball season.",
+          "explainer": "In college basketball, media members and coaches rank the top 25 teams in the country every week. These rankings, often called the AP Poll or Coaches Poll, change based on how teams perform in their games. When highly ranked teams lose, they often move down in the rankings, while teams that keep winning move up. Kansas reaching the No. 1 spot means they are currently seen as the best team in the country according to these rankings. These lists create excitement for fans and help determine which teams might get better spots in the postseason tournament in March.",
+          "keyTerms": [
+            {
+              "term": "Rankings",
+              "definition": "A list that orders teams from best to worst based on how well they are playing."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 5,
+          "image": "https://a.espncdn.com/photo/2026/1118/r1747850_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Men's college basketball Power Rankings: Duke drops, Kansas is new No. 1",
+              "url": "https://www.espn.com/mens-college-basketball/story/_/id/50523371/mens-college-basketball-power-rankings"
+            }
+          ]
+        },
+        {
+          "id": "sports-cbb-1",
+          "headline": "Houston and Kansas Meet in Championship Game",
+          "summary": "Houston and Kansas will play each other for the Players Era 8 tournament title. The championship game takes place in Las Vegas.",
+          "whyItMatters": "This game decides the winner of a major tournament and highlights two top teams in the sport.",
+          "explainer": "Tournaments in college basketball bring several teams together to play a series of games. The final game, known as the championship, determines the winner of the entire event. Houston and Kansas are playing in the final game of the Players Era 8 tournament held in Las Vegas. The winner will be crowned the tournament champion, which is an important early-season honor that can help a team's reputation and standing as the season continues.",
+          "keyTerms": [
+            {
+              "term": "Championship",
+              "definition": "The final game of a tournament that decides which team is the winner."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 5,
+          "image": "https://a.espncdn.com/photo/2026/1119/r1748071_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Breaking down the Players Era 8 Houston-Kansas championship game",
+              "url": "https://www.espn.com/mens-college-basketball/story/_/id/50505898/players-era-8-matchups-analysis"
+            }
+          ]
+        },
+        {
+          "id": "sports-cbb-2",
+          "headline": "LSU Tigers Win Against Louisiana-Monroe",
+          "summary": "The No. 25 LSU Tigers defeated Louisiana-Monroe 79-67 on Wednesday. Skyy Clark led the team with 17 points in the win.",
+          "whyItMatters": "This win keeps LSU as a ranked team and shows they are competitive early in the season.",
+          "explainer": "In basketball, scoring points helps a team win games. Skyy Clark's 17 points were the most for LSU in this game. RJ Luis Jr. also played his first game for the Tigers, contributing 11 points and nine rebounds. Rebounds occur when a player catches the ball after a missed shot. LSU is currently ranked in the top 25, so winning these games is important for them to stay near the top of the standings.",
+          "keyTerms": [
+            {
+              "term": "Rebounds",
+              "definition": "When a player catches the basketball after a shot is missed."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 3,
+          "image": "https://s.espncdn.com/stitcher/sports/basketball/mens-college-basketball/events/401917982.png?templateId=espn.applewatch.awayhome.1",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Clark scores 17 and Luis makes his LSU debut as No. 25 Tigers top Louisiana-Monroe 79-67",
+              "url": "http://www.espn.com/ncb/recap?gameId=401917982"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-mls",
+      "title": "Sports · MLS",
+      "bricks": [
+        {
+          "id": "sports-mls-0",
+          "headline": "FC Cincinnati Nears Deal to Move Women's Soccer Team",
+          "summary": "FC Cincinnati is close to a deal to bring a professional women's soccer team to the city. The plan could move Racing Louisville FC to Cincinnati by 2028.",
+          "whyItMatters": "This could give local sports fans a new professional women's soccer team to support in their city by 2028.",
+          "explainer": "The owners of the MLS club FC Cincinnati are working on an agreement with the NWSL team Racing Louisville FC. If the deal is finalized, the women's professional soccer team would relocate to Cincinnati by the year 2028. This would bring top-level women's professional sports to the area, giving local fans a new team to watch and root for during the season.",
+          "keyTerms": [
+            {
+              "term": "NWSL",
+              "definition": "The top professional women's soccer league in the United States."
+            },
+            {
+              "term": "Relocate",
+              "definition": "To move from one place to another."
+            }
+          ],
+          "disagreement": null,
+          "update": "Sources report the two clubs are now nearing an agreement on the move.",
+          "importance": 5,
+          "image": "https://a.espncdn.com/photo/2026/1117/r1747236_1024x576_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Sources: MLS side FC Cincy nearing deal to acquire NWSL's Racing",
+              "url": "https://www.espn.com/soccer/story/_/id/50513113/mls-fc-cincy-advanced-talks-acquire-nwsl-racing-louisville"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-epl",
+      "title": "Sports · Premier League",
+      "bricks": [
+        {
+          "id": "sports-epl-0",
+          "headline": "Mauricio Pochettino begins as Manchester United manager",
+          "summary": "Mauricio Pochettino has started his new job as head coach of Manchester United. He told fans he needs time to help the players learn how to win again. Experts say he must improve results while the owners handle management changes.",
+          "whyItMatters": "The performance of the team directly affects the emotions and loyalty of millions of fans who support the club.",
+          "explainer": "Mauricio Pochettino has officially taken charge of Manchester United. The club has spent a decade trying to hire him. Pochettino says his main goal is to teach the players how to be winners after a difficult start to the season. He warned fans that fixing the team will take time. While many hope for a quick turnaround, some sports analysts point out that success depends on more than just the head coach. They argue that the club's owners must also make better decisions behind the scenes to help the team reach its full potential.",
+          "keyTerms": [
+            {
+              "term": "Head Coach",
+              "definition": "The person in charge of training and picking the players for a sports team."
+            },
+            {
+              "term": "Premier League",
+              "definition": "The highest level of professional soccer in England."
+            }
+          ],
+          "disagreement": null,
+          "update": "Pochettino has arrived at the club and stated that he needs time to improve the team's poor start to the season.",
+          "importance": 8,
+          "image": "https://a.espncdn.com/photo/2026/1119/r1748016_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Mauricio Pochettino: Man United players must relearn 'about being winners'",
+              "url": "https://www.espn.com/soccer/story/_/id/50529858/mauricio-pochettino-man-united-liverpool"
+            },
+            {
+              "name": "ESPN",
+              "title": "Manchester United finally get Mauricio Pochettino after a decade of near misses",
+              "url": "https://www.espn.com/soccer/story/_/id/50502738/manchester-united-pochettino-manager-hiring-decade"
+            },
+            {
+              "name": "ESPN",
+              "title": "Mauricio Pochettino arrives at Man United: 'You will see, give me time'",
+              "url": "https://www.espn.com/soccer/story/_/id/50518493/mauricio-pochettino-man-united-premier-league"
+            },
+            {
+              "name": "ESPN",
+              "title": "Mauricio Pochettino can't fix Man United on his own, the owners have to do their jobs",
+              "url": "https://www.espn.com/soccer/story/_/id/50504141/manchester-united-mauricio-pochettino-jim-ratcliffe-glazers-transfers"
+            },
+            {
+              "name": "ESPN",
+              "title": "Mauricio Pochettino to Man United: Is Tottenham love affair finally over?",
+              "url": "https://www.espn.com/soccer/story/_/id/50470622/mauricio-pochettino-tottenham-man-united"
+            },
+            {
+              "name": "ESPN",
+              "title": "Transfer rumors, news: Man United eye USMNT's McKennie amid Pochettino arrival",
+              "url": "https://www.espn.com/soccer/story/_/id/50499498/transfer-rumors-news-usmnt-pochettino-mckennie-man-united"
+            }
+          ]
+        },
+        {
+          "id": "sports-epl-1",
+          "headline": "JJ Gabriel confirms exit from Manchester United",
+          "summary": "JJ Gabriel confirmed he is leaving Manchester United. The club is investigating if other teams talked to him unfairly while he was still under contract.",
+          "whyItMatters": "This move changes the team's roster and could lead to legal trouble between clubs if rules were broken.",
+          "explainer": "Player JJ Gabriel has announced his departure from Manchester United. He shared the news on social media and thanked the club. Manchester United officials have said they will take legal action if they find proof that other clubs contacted the player before his contract allowed it. This process, often called 'tapping up' in sports, is against league rules. The club is currently looking into the situation to see if these rules were ignored during his exit process.",
+          "keyTerms": [
+            {
+              "term": "Contract",
+              "definition": "A legal agreement between a player and a club to work for a specific time."
+            }
+          ],
+          "disagreement": null,
+          "update": "JJ Gabriel has now publicly confirmed his departure from the club.",
+          "importance": 7,
+          "image": "https://a.espncdn.com/photo/2026/1118/r1747531_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Man United to take legal action if JJ Gabriel was illegally approached - sources",
+              "url": "https://www.espn.com/soccer/story/_/id/50519120/man-united-jj-gabriel-legal-action-real-madrid"
+            },
+            {
+              "name": "ESPN",
+              "title": "JJ Gabriel confirms Man United exit as Real Madrid transfer nears",
+              "url": "https://www.espn.com/soccer/story/_/id/50512542/jj-gabriel-man-united-real-madrid"
+            }
+          ]
+        },
+        {
+          "id": "sports-epl-2",
+          "headline": "Declan Rice agrees to new Arsenal contract",
+          "summary": "Midfielder Declan Rice has agreed to a new five-year contract with Arsenal. The deal would keep him at the club through 2031.",
+          "whyItMatters": "Keeping a top player long-term helps the team stay strong and gives fans confidence in the future.",
+          "explainer": "Arsenal has secured a deal in principle to keep star midfielder Declan Rice for several more years. If finalized, this five-year extension means he will play for the team until 2031. Players often sign these long deals to show they are committed to their club, and teams use them to ensure their best players do not leave for other teams.",
+          "keyTerms": [],
+          "disagreement": null,
+          "update": null,
+          "importance": 6,
+          "image": "https://a.espncdn.com/photo/2026/0505/r1654036_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Declan Rice agrees in principle to new five-year Arsenal deal - sources",
+              "url": "https://www.espn.com/soccer/story/_/id/50505152/declan-rice-five-year-arsenal-deal"
+            }
+          ]
+        },
+        {
+          "id": "sports-epl-3",
+          "headline": "Thomas Frank named new Crystal Palace coach",
+          "summary": "Crystal Palace hired Thomas Frank as their new head coach. He replaced Pierre Sage, who was fired after a series of poor results.",
+          "whyItMatters": "A new coach can change how a team plays and help them win more games to avoid falling in the standings.",
+          "explainer": "Crystal Palace has officially appointed Thomas Frank to lead the team. The club chose him to replace the previous coach, Pierre Sage. Frank told reporters he felt the opportunity was too good to turn down after talking with the team's leadership. Fans now wait to see if his new strategies will improve the team's performance for the rest of the season.",
+          "keyTerms": [],
+          "disagreement": null,
+          "update": "Thomas Frank has confirmed he accepted the position because it was a great opportunity for his career.",
+          "importance": 6,
+          "image": "https://a.espncdn.com/photo/2026/1117/r1747050_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Thomas Frank: Crystal Palace job 'too good' to turn down",
+              "url": "https://www.espn.com/soccer/story/_/id/50510313/thomas-frank-crystal-palace-tottenham-premier-league"
+            },
+            {
+              "name": "ESPN",
+              "title": "Crystal Palace appoint Thomas Frank as new head coach",
+              "url": "https://www.espn.com/soccer/story/_/id/50462553/thomas-frank-appointed-new-crystal-palace-manager"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-laliga",
+      "title": "Sports · La Liga",
+      "bricks": [
+        {
+          "id": "sports-laliga-0",
+          "headline": "Arda Guler signs new Real Madrid contract",
+          "summary": "Midfielder Arda Guler has signed a new contract with Real Madrid. He will stay with the team until 2032.",
+          "whyItMatters": "This keeps a key player on the roster for several more years.",
+          "explainer": "Real Madrid has secured Arda Guler for the long term. By signing a new contract that lasts until 2032, the club ensures he will be a part of their team for many years to come. Such deals are common in professional sports to protect a team's investment in talented younger players and help them plan their roster over time.",
+          "keyTerms": [],
+          "disagreement": null,
+          "update": "The player has officially signed the new contract previously mentioned.",
+          "importance": 3,
+          "image": "https://a.espncdn.com/photo/2026/0116/r1601367_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Arda Güler signs new six-year Real Madrid contract",
+              "url": "https://www.espn.com/soccer/story/_/id/50519617/arda-guler-signs-new-real-madrid-contract"
+            }
+          ]
+        },
+        {
+          "id": "sports-laliga-1",
+          "headline": "Fan punished for racist abuse at La Liga game",
+          "summary": "An Oviedo fan received a suspended prison sentence and a stadium ban. The fan used racist words toward Kylian Mbappe at a game in August.",
+          "whyItMatters": "This shows how leagues are using legal action to stop hate speech at games.",
+          "explainer": "A court has penalized a soccer fan for using racist insults against Real Madrid player Kylian Mbappe during a match. The fan received an 11-month suspended prison sentence, a fine, and is banned from attending stadium events. A suspended sentence means the person does not have to go to jail unless they break the law again during a specific time period. This is part of a broader effort by La Liga to address racism in stadiums.",
+          "keyTerms": [
+            {
+              "term": "Suspended sentence",
+              "definition": "A legal punishment where the person avoids jail time if they follow specific rules for a set period."
+            }
+          ],
+          "disagreement": null,
+          "update": "This follows yesterday's news regarding the court penalty for the fan.",
+          "importance": 6,
+          "image": "https://a.espncdn.com/photo/2026/1013/r1730147_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Oviedo fan handed suspended prison sentence for racist abuse toward Mbappé",
+              "url": "https://www.espn.com/soccer/story/_/id/50509888/kylian-mbappe-racist-abuse-oviedo-fan-real-madrid"
+            }
+          ]
+        },
+        {
+          "id": "sports-laliga-2",
+          "headline": "Barcelona open to selling Ronald Araujo",
+          "summary": "Barcelona official Deco says the team is happy to sell defender Ronald Araujo. He is currently playing for Liverpool on loan.",
+          "whyItMatters": "This move could help Barcelona gain money to spend on other players.",
+          "explainer": "Barcelona's sporting director, Deco, said the club is interested in making Ronald Araujo's loan to Liverpool a permanent deal. If Liverpool chooses to keep the defender, Barcelona will receive a transfer fee. This helps the club manage its budget and potentially sign new players in the future.",
+          "keyTerms": [
+            {
+              "term": "Loan",
+              "definition": "An arrangement where a player temporarily plays for a different team."
+            },
+            {
+              "term": "Transfer fee",
+              "definition": "Money paid by one club to another to buy a player."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 4,
+          "image": "https://a.espncdn.com/photo/2026/1119/r1748034_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Barcelona chief Deco keen for Liverpool to make Ronald Araujo loan permanent",
+              "url": "https://www.espn.com/soccer/story/_/id/50530266/barcelona-deco-ronald-araujo-liverpool-transfer"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-seriea",
+      "title": "Sports · Serie A",
+      "bricks": [
+        {
+          "id": "sports-seriea-0",
+          "headline": "AC Milan and Juventus Reportedly Tracking Folarin Balogun",
+          "summary": "Italian soccer clubs AC Milan and Juventus are reportedly interested in striker Folarin Balogun. The player currently plays for AS Monaco.",
+          "whyItMatters": "New player signings can change a team's performance and impact its success in league standings.",
+          "explainer": "In soccer, clubs frequently monitor players from other teams to strengthen their rosters during transfer windows. AC Milan and Juventus are two of the most prominent clubs in Italy's Serie A. They are reportedly interested in Folarin Balogun, a striker who currently plays for AS Monaco and represents the United States men's national team. Such interest often signals that clubs are planning to make contract offers to acquire new talent to help them compete for league titles or European tournament qualification.",
+          "keyTerms": [
+            {
+              "term": "Striker",
+              "definition": "A soccer player who plays nearest to the opponent's goal and is responsible for scoring."
+            },
+            {
+              "term": "Transfer",
+              "definition": "The process of moving a player from one team to another, usually involving a payment between clubs."
+            }
+          ],
+          "disagreement": null,
+          "update": "No new updates were reported since yesterday.",
+          "importance": 3,
+          "image": "https://a.espncdn.com/photo/2026/1117/r1747230_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Transfer rumors, news: AC Milan, Juventus eye USMNT's Folarin Balogun",
+              "url": "https://www.espn.com/soccer/story/_/id/50508862/transfer-rumors-news-manchester-united-newcastle-malick-thiaw"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-ligue1",
+      "title": "Sports · Ligue 1",
+      "bricks": [
+        {
+          "id": "sports-ligue1-0",
+          "headline": "Transfer rumors link Folarin Balogun to Italian clubs",
+          "summary": "AS Monaco striker Folarin Balogun is reportedly a target for AC Milan and Juventus. The teams are looking at the player as they prepare for future matches.",
+          "whyItMatters": "This could affect the roster and future success of AS Monaco if a top striker leaves the team.",
+          "explainer": "In soccer, teams buy and sell players during specific time periods called transfer windows. When a club shows interest in a player who is currently signed to another team, it is called a transfer rumor. Folarin Balogun currently plays for AS Monaco in Ligue 1, which is the top division of the French football league system. Reports suggest that AC Milan and Juventus, two professional clubs in Italy, may want to add him to their rosters. If a deal is reached, Balogun would leave his current team to play in the Italian league, which would force his current French club to find a replacement to fill his spot on the field.",
+          "keyTerms": [
+            {
+              "term": "Transfer",
+              "definition": "The process of a professional athlete moving from one team to another."
+            },
+            {
+              "term": "Ligue 1",
+              "definition": "The top professional soccer league in France."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 3,
+          "image": "https://a.espncdn.com/photo/2026/1117/r1747230_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Transfer rumors, news: AC Milan, Juventus eye USMNT's Folarin Balogun",
+              "url": "https://www.espn.com/soccer/story/_/id/50508862/transfer-rumors-news-manchester-united-newcastle-malick-thiaw"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-ucl",
+      "title": "Sports · Champions League",
+      "bricks": [
+        {
+          "id": "sports-ucl-0",
+          "headline": "Nike To Supply Champions League Match Balls Next Season",
+          "summary": "Nike will replace Adidas as the official supplier for Champions League match balls starting next season. This change will bring a new design to the ball used in the tournament.",
+          "whyItMatters": "This change affects the equipment used by professional players and the official branding seen by millions of fans.",
+          "explainer": "The Union of European Football Associations, known as UEFA, manages the Champions League tournament. They have decided to change the company that provides the official soccer balls used in every game. Starting next season, Nike will replace Adidas. Fans are waiting to see if this change means the popular star-pattern design on the ball will stay or go away. Official match balls are designed to meet strict standards for weight, size, and bounce to ensure fair play during professional games.",
+          "keyTerms": [
+            {
+              "term": "UEFA",
+              "definition": "The group that manages soccer tournaments for clubs and national teams across Europe."
+            }
+          ],
+          "disagreement": null,
+          "update": "There is no new information regarding the change in ball suppliers today.",
+          "importance": 2,
+          "image": "https://a.espncdn.com/photo/2026/0826/r1707048_2_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "As Nike replaces Adidas, is UEFA Champions League star ball on its way out?",
+              "url": "https://www.espn.com/soccer/story/_/id/49730333/uefa-champions-league-adidas-nike-ball"
+            },
+            {
+              "name": "ESPN",
+              "title": "Nike replaces Adidas as UEFA ball provider to restyle Champions League",
+              "url": "https://www.espn.com/soccer/story/_/id/50500348/nike-adidas-uefa-ball-champions-league"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-f1",
+      "title": "Sports · Formula 1",
+      "bricks": [
+        {
+          "id": "sports-f1-0",
+          "headline": "Verstappen Rejects F1 Biometric Health Data Sharing",
+          "summary": "Max Verstappen will not let Formula 1 share his health data during races. He says the move affects his personal privacy.",
+          "whyItMatters": "This decision limits the health and body information viewers can see about the driver during race broadcasts.",
+          "explainer": "Formula 1 is introducing a new plan to track and show biometric data for drivers during races through a partnership with a company called Whoop. This data includes information like heart rates and physical exertion levels. Max Verstappen has stated he does not want his private information shared in this way. Biometric data is information about a person's physical body. By blocking this, Verstappen keeps his health details private, while other drivers may still choose to share theirs. This highlights a growing debate in sports about how much personal athlete data should be tracked and shown to the public for entertainment purposes.",
+          "keyTerms": [
+            {
+              "term": "Biometric data",
+              "definition": "Measurements of physical body characteristics like heart rate or stress levels."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 5,
+          "image": "https://a.espncdn.com/photo/2026/1119/r1748009_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Max Verstappen rejects F1's new biometric health plan for 'privacy' reasons",
+              "url": "https://www.espn.com/f1/story/_/id/50472044/max-verstappen-privacy-las-vegas-grand-prix-formula-1"
+            }
+          ]
+        },
+        {
+          "id": "sports-f1-1",
+          "headline": "Valtteri Bottas Joins Cadillac for 2027",
+          "summary": "Valtteri Bottas will drive for Cadillac in the 2027 season. He signed the deal to end rumors about his career future.",
+          "whyItMatters": "This contract secures a spot on the racing grid for Bottas and clarifies part of the 2027 driver lineup.",
+          "explainer": "In Formula 1, teams often face rumors about which drivers will stay or leave at the end of their contracts. Valtteri Bottas has been the subject of several weeks of speculation regarding his racing future. To settle this uncertainty, he announced he has signed a deal to join the Cadillac team for the 2027 season. This move confirms his place in the sport for the upcoming year and provides stability for both the driver and the racing team as they prepare for the next championship.",
+          "keyTerms": [],
+          "disagreement": null,
+          "update": null,
+          "importance": 4,
+          "image": "https://a.espncdn.com/photo/2026/1119/r1747991_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Valtteri Bottas to race for Cadillac in 2027 after Colton Herta 'noise'",
+              "url": "https://www.espn.com/f1/story/_/id/50389014/valtteri-bottas-cadillac-las-vegas-grand-prix-formula-1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-tennis",
+      "title": "Sports · Tennis",
+      "bricks": [
+        {
+          "id": "sports-tennis-0",
+          "headline": "Alexander Zverev Reaches ATP Finals Semifinals",
+          "summary": "Alexander Zverev reached the ATP Finals semifinals after winning recent matches. During the tournament, he was officially served with a lawsuit from a former partner regarding abuse allegations.",
+          "whyItMatters": "This affects the tournament's public image and brings attention to serious legal concerns regarding one of tennis's top players.",
+          "explainer": "The ATP Finals is an annual tournament for the best-performing male tennis players in the world. Alexander Zverev, the current top-ranked player, has continued to advance through the bracket while simultaneously addressing legal challenges outside of the court. Recently, he was officially served with a lawsuit filed by a former partner. This has created a difficult situation for the tennis community, as some fans and sponsors express concern over his continued participation and high standing in the sport due to these ongoing domestic violence allegations. Despite these distractions, Zverev remains focused on his goal of finishing his most successful professional year by winning the prestigious season-ending trophy.",
+          "keyTerms": [
+            {
+              "term": "ATP Finals",
+              "definition": "A major end-of-season tennis tournament that only the top eight ranked male players are invited to attend."
+            },
+            {
+              "term": "Semifinals",
+              "definition": "The round of a competition that takes place right before the final match."
+            }
+          ],
+          "disagreement": null,
+          "update": "Zverev advanced to the semifinals after defeating Ben Shelton.",
+          "importance": 6,
+          "image": "https://a.espncdn.com/photo/2026/0904/r1711215_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "FAQ: Why Zverev's rise to world No. 1 provokes mixed feelings",
+              "url": "https://www.espn.com/tennis/story/_/id/50354131/alexander-sasha-zverev-world-no-1-ranking-domestic-abuse-charges"
+            },
+            {
+              "name": "ESPN",
+              "title": "Alexander Zverev officially notified of lawsuit by ex-partner in abuse case",
+              "url": "https://www.espn.com/tennis/story/_/id/50522116/alexander-zverev-notified-lawsuit-ex-partner-abuse-case"
+            },
+            {
+              "name": "ESPN",
+              "title": "Alexander Zverev improved to 7-0 vs. Ben Shelton, advancing to ATP Finals semis",
+              "url": "https://www.espn.com/tennis/story/_/id/50513841/alexander-zverev-beats-ben-shelton-semis-atp-finals"
+            },
+            {
+              "name": "ESPN",
+              "title": "Alexander Zverev starts ATP Finals with convincing win over Rafael Jodar",
+              "url": "https://www.espn.com/tennis/story/_/id/50490503/alexander-zverev-opens-atp-finals-win-rafael-jodar"
+            }
+          ]
+        },
+        {
+          "id": "sports-tennis-1",
+          "headline": "Carlos Alcaraz Continues Winning Streak at ATP Finals",
+          "summary": "Carlos Alcaraz defeated Daniil Medvedev in straight sets at the ATP Finals in Italy. He continues to perform well despite dealing with a minor leg issue.",
+          "whyItMatters": "Alcaraz is a top contender, and his health may impact his ability to win the tournament.",
+          "explainer": "Carlos Alcaraz is competing in the ATP Finals, which showcases the world's highest-ranked male tennis stars. Alcaraz has been playing at a high level, securing victories over opponents including Frances Tiafoe and Daniil Medvedev. These wins are part of a strong finish to his tennis season. However, there are questions about his physical health, as he is currently managing a minor leg issue while competing in the event. His performance remains a significant factor in determining who will ultimately win the title at the season's end.",
+          "keyTerms": [
+            {
+              "term": "Straight sets",
+              "definition": "Winning a match without losing a single set to the opponent."
+            }
+          ],
+          "disagreement": null,
+          "update": "Alcaraz defeated Daniil Medvedev in his latest match.",
+          "importance": 5,
+          "image": "https://a.espncdn.com/photo/2026/1118/r1747660_600x400_3-2.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Carlos Alcaraz cruises past Daniil Medvedev at ATP Finals despite leg issue",
+              "url": "https://www.espn.com/tennis/story/_/id/50521030/alcaraz-cruises-medvedev-atp-finals-leg-issue"
+            },
+            {
+              "name": "ESPN",
+              "title": "Carlos Alcaraz dominates Frances Tiafoe in ATP Finals opener",
+              "url": "https://www.espn.com/tennis/story/_/id/50501663/carlos-alcaraz-dominates-frances-tiafoe-atp-finals-opener"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-golf",
+      "title": "Sports · Golf",
+      "bricks": [
+        {
+          "id": "sports-golf-0",
+          "headline": "Rory McIlroy Wins Record-Tying Dubai Title",
+          "summary": "Rory McIlroy won the seasonlong Race to Dubai title. This is his eighth time winning the award, which ties a historic record.",
+          "whyItMatters": "This win marks a significant achievement in McIlroy's career, confirming his status as one of the top golfers in the world.",
+          "explainer": "Rory McIlroy secured his eighth Race to Dubai title at the World Tour Championship. This award is given to the golfer who performs best over the entire DP World Tour season. By winning this title again, McIlroy has tied a long-standing record for the most seasonlong titles in the history of the tour. McIlroy dedicated this emotional victory to his father, who has been dealing with health issues. This accomplishment adds to McIlroy's legacy in professional golf, highlighting his consistency and skill in high-pressure tournaments against international competition throughout the year.",
+          "keyTerms": [
+            {
+              "term": "DP World Tour",
+              "definition": "A professional golf tour that features players from all over the world."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 5,
+          "image": "https://a.espncdn.com/photo/2026/1115/r1746042_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Rory McIlroy tearfully dedicates Dubai title to ailing father: 'This one's for him'",
+              "url": "https://www.espn.com/golf/story/_/id/50489716/rory-mcilroy-wins-season-long-race-dubai-title"
+            }
+          ]
+        },
+        {
+          "id": "sports-golf-1",
+          "headline": "Tiger Woods Returns to Hero World Challenge",
+          "summary": "Tiger Woods will return to play in next month's Hero World Challenge. This event takes place in the Bahamas.",
+          "whyItMatters": "As one of golf's most famous players, his return to competition draws significant interest from fans and the golf community.",
+          "explainer": "Tiger Woods is set to return to competitive golf at the upcoming Hero World Challenge, held in the Bahamas. Woods, a winner of 15 major championships, has not played in a PGA Tour event since early 2024. The Hero World Challenge is a limited-field tournament hosted by Woods' own foundation. His participation is often viewed as a key indicator of his physical fitness and ability to endure the demands of professional tournament play after dealing with multiple injuries in recent years.",
+          "keyTerms": [
+            {
+              "term": "PGA Tour",
+              "definition": "The main organization that runs professional golf tournaments in the United States."
+            },
+            {
+              "term": "Major Championship",
+              "definition": "The four most important annual golf tournaments, considered the biggest prizes in the sport."
+            }
+          ],
+          "disagreement": null,
+          "update": "Tiger Woods is confirmed to play in next month's event, marking his return after not playing in a PGA Tour event since earlier this year.",
+          "importance": 5,
+          "image": "https://a.espncdn.com/photo/2026/0115/r1600835_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Tiger Woods to return for next month's Hero World Challenge",
+              "url": "https://www.espn.com/golf/story/_/id/50511075/tiger-woods-return-next-month-hero-world-challenge"
+            }
+          ]
+        },
+        {
+          "id": "sports-golf-2",
+          "headline": "Chad Ramey Wins Austin Championship",
+          "summary": "Chad Ramey won the Austin Championship on Monday. The final round was delayed by heavy rain.",
+          "whyItMatters": "Winning this event earns Ramey a two-year exemption, which secures his spot to play in future PGA Tour tournaments.",
+          "explainer": "The Austin Championship saw its final round pushed from Sunday to Monday due to heavy rain. Chad Ramey finished with a 7-under 65 to win the tournament by two shots. Before the delay, Trace Crowe held a one-shot lead, but Ramey’s strong play on the final day allowed him to move ahead. This victory is important for Ramey because it grants him an exemption to play on the PGA Tour for the next two years, providing job security for a professional golfer.",
+          "keyTerms": [
+            {
+              "term": "Exemption",
+              "definition": "A status that allows a golfer to play in official tournaments without having to qualify each time."
+            }
+          ],
+          "disagreement": null,
+          "update": "Chad Ramey finished the tournament on Monday to win the title after rain delayed the final round.",
+          "importance": 4,
+          "image": "https://a.espncdn.com/photo/2026/1116/r1746848_1296x864_3-2.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Ramey wins rain-delayed Austin Championship, gets 2-year PGA Tour card exemption",
+              "url": "https://www.espn.com/golf/story/_/id/50504850/chad-ramey-wins-rain-delayed-austin-championship"
+            },
+            {
+              "name": "ESPN",
+              "title": "Rain pushes Austin Championship to Monday finish with Trace Crowe ahead by 1",
+              "url": "https://www.espn.com/golf/story/_/id/50495831/rain-pushes-austin-championship-monday-finish"
+            },
+            {
+              "name": "ESPN",
+              "title": "Trace Crowe closes with birdies to take 1-shot lead in Austin",
+              "url": "https://www.espn.com/golf/story/_/id/50487092/trace-crowe-closes-birdies-take-1-shot-lead-austin"
+            }
+          ]
+        },
+        {
+          "id": "sports-golf-3",
+          "headline": "Joe Dean Earns PGA Tour Card",
+          "summary": "Joe Dean earned his PGA Tour card on Sunday. He previously worked as a grocery delivery driver to pay for his training.",
+          "whyItMatters": "This allows him to play professionally at the highest level of the sport after overcoming financial challenges.",
+          "explainer": "Joe Dean, a golfer from England, officially earned his PGA Tour card this past Sunday. Securing this card is a major milestone for professional golfers, as it grants them the right to compete in the top-tier events held by the PGA Tour. Dean's journey is notable because he previously worked as a grocery delivery driver to earn enough money to pay for his golf training and travel expenses. This success represents his transition from a secondary tour player to a regular participant in major professional golf competitions.",
+          "keyTerms": [
+            {
+              "term": "PGA Tour Card",
+              "definition": "A membership that allows a player to compete in the main professional golf tour events."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 4,
+          "image": "https://a.espncdn.com/photo/2026/1115/r1746055_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Joe Dean, former grocery delivery driver from England, earns PGA Tour card",
+              "url": "https://www.espn.com/golf/story/_/id/50501641/joe-dean-former-uk-delivery-driver-earns-pga-tour-card"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

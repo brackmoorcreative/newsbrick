@@ -1,66 +1,66 @@
 {
-  "generatedAt": "2026-11-18T18:19:30.264Z",
-  "weekEnding": "2026-11-18",
+  "generatedAt": "2026-11-19T18:30:19.642Z",
+  "weekEnding": "2026-11-19",
   "questions": [
     {
       "storyId": "top-world-0",
-      "question": "Where is the APEC summit being held this year?",
+      "question": "Which city hosted the meeting between the leaders of the U.S., China, and Russia?",
       "options": [
-        "Beijing, China",
-        "Shenzhen, China",
-        "Moscow, Russia",
-        "Washington, D.C."
+        "Beijing",
+        "Shenzhen",
+        "Manila",
+        "Moscow"
       ],
       "answer": 1,
-      "explanation": "The APEC summit is taking place in the city of Shenzhen, China."
+      "explanation": "The summit took place in the Chinese city of Shenzhen."
     },
     {
       "storyId": "politics-world-0",
-      "question": "Which country launched drone attacks against a US military base in Bahrain?",
+      "question": "The International Court of Justice used what word to describe Myanmar's actions against the Rohingya?",
       "options": [
-        "Saudi Arabia",
-        "Egypt",
-        "Iran",
-        "Jordan"
+        "Protest",
+        "Accident",
+        "Genocide",
+        "Agreement"
       ],
       "answer": 2,
-      "explanation": "Iran conducted the drone attacks against the US military base in Bahrain."
+      "explanation": "The court ruled that Myanmar's military committed genocide against the Rohingya minority."
     },
     {
       "storyId": "region-europe-0",
-      "question": "What structure did Ukraine damage to disrupt Russian supply lines?",
+      "question": "Which structure did Ukraine damage to make it harder for Russia to move supplies?",
       "options": [
-        "The Berlin Wall",
         "The Kerch Bridge",
-        "A major airport",
-        "The Eiffel Tower"
+        "A power plant",
+        "A city wall",
+        "A radio tower"
       ],
-      "answer": 1,
-      "explanation": "Ukraine severely damaged the Kerch Bridge, which links Russia to the Crimean peninsula."
+      "answer": 0,
+      "explanation": "Ukraine used drones and missiles to damage the Kerch Bridge, which links Russia to Crimea."
     },
     {
       "storyId": "economy-us-0",
-      "question": "What is the status of former Nvidia CEO Jensen Huang?",
+      "question": "What kind of company held the largest initial public offering (IPO) ever?",
       "options": [
-        "He is returning to his job next week.",
-        "He is retiring to travel the world.",
-        "The company board rejected his return.",
-        "He is buying a new technology company."
+        "A car company",
+        "An oil company",
+        "An AI company",
+        "A food company"
       ],
       "answer": 2,
-      "explanation": "The board of directors stated they have no plans to hire Jensen Huang back after his resignation."
+      "explanation": "The artificial intelligence company Anthropic raised over $80 billion in a record IPO."
     },
     {
-      "storyId": "region-mideast-0",
-      "question": "What essential items are currently stuck at the border waiting to enter Gaza?",
+      "storyId": "politics-world-0",
+      "question": "What country launched drone attacks against a U.S. military base in Bahrain?",
       "options": [
-        "Cars and machinery",
-        "Video games and toys",
-        "Food, medicine, and tents",
-        "Gold and jewelry"
+        "Iran",
+        "Saudi Arabia",
+        "Qatar",
+        "Egypt"
       ],
-      "answer": 2,
-      "explanation": "International groups report that vital supplies like food, medicine, and 150,000 tents are stuck at the border."
+      "answer": 0,
+      "explanation": "Iran launched drone strikes against a U.S. military base located in Bahrain."
     }
   ]
 }
