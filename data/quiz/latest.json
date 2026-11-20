@@ -1,66 +1,66 @@
 {
-  "generatedAt": "2026-11-19T18:30:19.642Z",
-  "weekEnding": "2026-11-19",
+  "generatedAt": "2026-11-20T18:09:35.108Z",
+  "weekEnding": "2026-11-20",
   "questions": [
     {
       "storyId": "top-world-0",
-      "question": "Which city hosted the meeting between the leaders of the U.S., China, and Russia?",
+      "question": "Which city in China hosted the three-way summit with the leaders of the U.S., Russia, and China?",
       "options": [
         "Beijing",
+        "Shanghai",
         "Shenzhen",
-        "Manila",
-        "Moscow"
+        "Guangzhou"
       ],
-      "answer": 1,
-      "explanation": "The summit took place in the Chinese city of Shenzhen."
+      "answer": 2,
+      "explanation": "The summit between the three world leaders took place in the city of Shenzhen."
     },
     {
       "storyId": "politics-world-0",
-      "question": "The International Court of Justice used what word to describe Myanmar's actions against the Rohingya?",
+      "question": "The International Court of Justice ruled that Myanmar committed what crime against the Rohingya people?",
       "options": [
-        "Protest",
-        "Accident",
         "Genocide",
-        "Agreement"
-      ],
-      "answer": 2,
-      "explanation": "The court ruled that Myanmar's military committed genocide against the Rohingya minority."
-    },
-    {
-      "storyId": "region-europe-0",
-      "question": "Which structure did Ukraine damage to make it harder for Russia to move supplies?",
-      "options": [
-        "The Kerch Bridge",
-        "A power plant",
-        "A city wall",
-        "A radio tower"
+        "Tax evasion",
+        "Trade violations",
+        "Cyber theft"
       ],
       "answer": 0,
-      "explanation": "Ukraine used drones and missiles to damage the Kerch Bridge, which links Russia to Crimea."
+      "explanation": "The court officially ruled that Myanmar's military committed genocide against the Rohingya minority."
     },
     {
       "storyId": "economy-us-0",
-      "question": "What kind of company held the largest initial public offering (IPO) ever?",
+      "question": "Why did the board of the company Nvidia decide not to bring back its former CEO?",
       "options": [
-        "A car company",
-        "An oil company",
-        "An AI company",
-        "A food company"
+        "He wanted too much money",
+        "He resigned because of a personal scandal",
+        "He moved to a different country",
+        "He retired to spend time with his family"
       ],
-      "answer": 2,
-      "explanation": "The artificial intelligence company Anthropic raised over $80 billion in a record IPO."
+      "answer": 1,
+      "explanation": "The board rejected the former CEO's return following his resignation due to a personal scandal."
     },
     {
-      "storyId": "politics-world-0",
-      "question": "What country launched drone attacks against a U.S. military base in Bahrain?",
+      "storyId": "region-europe-0",
+      "question": "What is the name of the bridge Ukraine damaged that links Russia to Crimea?",
       "options": [
-        "Iran",
-        "Saudi Arabia",
-        "Qatar",
-        "Egypt"
+        "London Bridge",
+        "Golden Gate Bridge",
+        "Kerch Bridge",
+        "Sydney Harbor Bridge"
       ],
-      "answer": 0,
-      "explanation": "Iran launched drone strikes against a U.S. military base located in Bahrain."
+      "answer": 2,
+      "explanation": "Ukraine used drones and missiles to damage the Kerch Bridge, which connects Russia to Crimea."
+    },
+    {
+      "storyId": "economy-us-0",
+      "question": "What kind of company is Anthropic, which recently held a very large IPO?",
+      "options": [
+        "A car maker",
+        "An artificial intelligence company",
+        "A clothing store",
+        "A toy manufacturer"
+      ],
+      "answer": 1,
+      "explanation": "Anthropic is an artificial intelligence company that recently offered its shares to the public."
     }
   ]
 }
