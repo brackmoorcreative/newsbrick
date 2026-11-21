@@ -1,0 +1,2274 @@
+{
+  "version": 1,
+  "date": "2026-11-21",
+  "generatedAt": "2026-11-21T17:03:01.699Z",
+  "model": "gemini-3.5-flash, gemini-3.5-flash-lite, gemini-3.1-flash-lite",
+  "categories": [
+    {
+      "id": "top-world",
+      "title": "Top Stories · World",
+      "bricks": [
+        {
+          "id": "top-world-0",
+          "headline": "UN Talks Fail to Restrict AI Killer Robots",
+          "summary": "United Nations talks in Geneva failed to set binding rules for AI-powered weapons. Russian objections blocked a treaty, leaving countries to agree only on two more years of talks. Military AI continues to advance rapidly.",
+          "whyItMatters": "Unregulated military AI could make future conflicts more dangerous and unpredictable for ordinary citizens worldwide.",
+          "explainer": "Nations have met for years under the United Nations Convention on Certain Conventional Weapons to discuss how to regulate military artificial intelligence. Autonomous weapons can target and attack without a human operator making the final decision. Human rights groups and many countries want a legally binding international treaty to ban or strictly limit these weapons before they become widespread. However, talks in Geneva ended without an agreement on a treaty mandate because Russia objected. Instead, countries agreed to continue discussions for two more years. Critics worry that military technology is moving much faster than international diplomacy, leaving few rules to govern automated warfare.",
+          "keyTerms": [
+            {
+              "term": "autonomous weapons",
+              "definition": "Weapons that can search for and strike targets without a human controller."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 7,
+          "image": "https://i.guim.co.uk/img/media/247601abada695f09f302253178bbc8f6e58cd42/415_0_4165_3333/master/4165.jpg?width=140&quality=85&auto=format&fit=max&s=19283afd22dbc9bfead542bffab860d5",
+          "sources": [
+            {
+              "name": "The Guardian",
+              "title": "International UN talks on controlling use of autonomous weapons collapse",
+              "url": "https://www.theguardian.com/technology/2026/nov/21/international-talks-control-ai-autonomous-weapons-collapse"
+            },
+            {
+              "name": "NPR",
+              "title": "Killer robots: U.N. talks fall short of hopes for legally binding rules",
+              "url": "https://www.npr.org/2026/11/21/nx-s1-6047916/killer-robots-un-drones"
+            },
+            {
+              "name": "NPR",
+              "title": "Nations at UN talks on AI killer robots agree to more talks but no firm commitment to rein them in",
+              "url": "https://www.npr.org/2026/11/21/g-s1-154914/nations-at-un-talks-on-ai-killer-robots-agree-to-more-talks-but-no-firm-commitment-to-rein-them-in"
+            }
+          ]
+        },
+        {
+          "id": "top-world-1",
+          "headline": "COP31 Climate Talks Deadlocked Over Fossil Fuels",
+          "summary": "Negotiators from nearly 200 countries at the COP31 climate summit are stuck in a deadlock over fossil fuels. Meanwhile, China promised to rapidly increase its use of low-carbon electricity and help other nations.",
+          "whyItMatters": "Global climate agreements affect local energy transitions, household utility costs, and efforts to limit extreme weather.",
+          "explainer": "The United Nations COP31 climate conference brings nearly 200 countries together to negotiate shared goals for reducing greenhouse gas emissions. This year, negotiations hit a deadlock as countries struggled to agree on the future of fossil fuels like oil, gas, and coal. While some nations want strong pledges to phase out fossil fuels, others resist firm commitments. During the summit, China announced a push to rapidly electrify its economy using renewable energy and assist other nations with clean energy transitions. Without a clear global consensus, observers worry that international efforts to fight climate change could slow down.",
+          "keyTerms": [
+            {
+              "term": "COP31",
+              "definition": "An annual United Nations summit where world leaders negotiate climate agreements."
+            },
+            {
+              "term": "electrification",
+              "definition": "Replacing fossil fuels with electric power for energy needs."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 7,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5253/live/c9ca5500-e579-11f1-a5f6-b3028adf2d6d.jpg",
+          "sources": [
+            {
+              "name": "BBC News",
+              "title": "Fight over fossil fuels leaves COP31 climate talks in deadlock",
+              "url": "https://www.bbc.co.uk/news/articles/c6ly5w40eg07o?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "The Guardian",
+              "title": "China commits to low-carbon electrification and help for others to improve",
+              "url": "https://www.theguardian.com/environment/2026/nov/21/china-commits-low-carbon-electrification-help-others-improve"
+            }
+          ]
+        },
+        {
+          "id": "top-world-2",
+          "headline": "Researcher Claims AI Helped Solve Famous Math Problem",
+          "summary": "A researcher at the AI company Anthropic claims he used software named Claude to help solve the Riemann hypothesis. This 19th-century puzzle about prime numbers is a famous unsolved math problem. Experts say the proof needs independent verification.",
+          "whyItMatters": "AI solving major scientific and mathematical problems could accelerate technology developments that affect daily life.",
+          "explainer": "The Riemann hypothesis is a famous problem introduced in 1859 that deals with the pattern of prime numbers. Mathematicians have tried to solve it for more than a century without success. Levent Alpöge, a mathematician working at the artificial intelligence firm Anthropic, announced that he used the company's Claude software over six weeks to help construct a complete proof. If verified, this would mark a major milestone in both mathematics and computer science. However, complex mathematical proofs require intense review by other experts, which can take weeks or months to confirm whether the solution is completely correct.",
+          "keyTerms": [
+            {
+              "term": "Riemann hypothesis",
+              "definition": "A famous 19th-century unsolved math problem involving prime numbers."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 6,
+          "image": "https://i.guim.co.uk/img/media/d3154f68df589c297fc3d173e2bb3d95faca05c9/530_0_4678_3742/master/4678.jpg?width=140&quality=85&auto=format&fit=max&s=2be6ea0855df616ea30ffc89afed2e1f",
+          "sources": [
+            {
+              "name": "The Guardian",
+              "title": "Anthropic mathematician claims he used Claude to prove 19th-century Riemann hypothesis",
+              "url": "https://www.theguardian.com/technology/2026/nov/21/anthropic-riemann-hypothesis-solved-claude-ai"
+            },
+            {
+              "name": "Al Jazeera",
+              "title": "Riemann hypothesis: Has the world’s most famous maths problem been cracked?",
+              "url": "https://www.aljazeera.com/news/2026/11/21/riemann-hypothesis-has-the-worlds-most-famous-maths-problem-been-cracked?traffic_source=rss"
+            },
+            {
+              "name": "NPR",
+              "title": "Anthropic worker claims to have solved a Holy Grail of math problems with the help of AI",
+              "url": "https://www.npr.org/2026/11/21/g-s1-154922/anthropic-worker-claims-to-have-solved-a-holy-grail-of-math-problems-with-the-help-of-ai"
+            },
+            {
+              "name": "DW",
+              "title": "Anthropic researcher uses AI to solve math's greatest riddle",
+              "url": "https://www.dw.com/en/anthropic-researcher-uses-ai-to-solve-math-s-greatest-riddle/a-80008428?maca=en-rss-en-world-4025-rdf"
+            }
+          ]
+        },
+        {
+          "id": "top-world-3",
+          "headline": "Mexico Arrests Cartel Boss Wanted by FBI",
+          "summary": "Mexican forces arrested alleged drug lord Fausto Isidro Meza Flores after a gunfight in Sinaloa. Known as El Chapo Isidro, he was on the FBI's most wanted list on drug trafficking charges.",
+          "whyItMatters": "Major drug arrests can disrupt illegal drug supply networks and impact safety in border regions.",
+          "explainer": "Fausto Isidro Meza Flores, known as El Chapo Isidro, is an alleged leader of a major drug cartel based in Sinaloa, Mexico. He has faced charges in the United States for drug trafficking and torture, leading to his inclusion on the FBI's ten most wanted list. Mexican military forces captured him in Guasave, Sinaloa, after a gunfight broke out during the raid. Arresting high-level cartel leaders is a key goal for Mexican and American law enforcement agencies trying to disrupt illicit drug trade networks. However, past arrests have sometimes led to violent power struggles among rival gang members.",
+          "keyTerms": [
+            {
+              "term": "cartel",
+              "definition": "An organized crime group that controls the illegal supply of drugs."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 6,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5701/live/7ac9e270-e5ad-11f1-99a1-253766e7ad8b.jpg",
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "title": "Who is El Chapo Isidro, the alleged cartel boss arrested in Mexico?",
+              "url": "https://www.aljazeera.com/news/2026/11/21/who-is-el-chapo-isidro-the-alleged-cartel-boss-arrested-in-mexico?traffic_source=rss"
+            },
+            {
+              "name": "BBC News",
+              "title": "Mexican drug lord on FBI's 10 most wanted list arrested in shoot-out",
+              "url": "https://www.bbc.co.uk/news/articles/ckz749ey0r75o?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "Al Jazeera",
+              "title": "Mexico captures FBI-wanted cartel boss in military raid",
+              "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/mexico-captures-fbi-wanted-cartel-boss-in-military-raid?traffic_source=rss"
+            }
+          ]
+        },
+        {
+          "id": "top-world-4",
+          "headline": "Denmark Expels Russian Diplomat Over Alleged Plot",
+          "summary": "Denmark ordered a Russian defense attache to leave the country after accusing Moscow of plotting to kill a US-Ukrainian musician. Denmark summoned Russia's ambassador over the plan. The Russian embassy denied the accusation.",
+          "whyItMatters": "Escalating diplomatic conflicts between European nations and Russia can heighten international security risks.",
+          "explainer": "Tensions between European nations and Russia remain high due to ongoing security concerns across the continent. Danish authorities recently summoned Russia's ambassador after uncovering evidence that Moscow intelligence planned to assassinate a US-Ukrainian musician named Kyivstoner before a concert in Denmark. In response, Denmark announced it is expelling Russia's defense attache from Copenhagen. Russia's embassy strongly denied any involvement in the alleged plot. Expelling a military attache is a major diplomatic action used by governments to punish foreign espionage or illegal operations within their borders.",
+          "keyTerms": [
+            {
+              "term": "defense attache",
+              "definition": "A military expert assigned to serve at a diplomatic embassy."
+            }
+          ],
+          "disagreement": "Denmark accused Russia of plotting an assassination, while the Russian embassy denied the allegation.",
+          "update": null,
+          "importance": 6,
+          "image": "https://i.guim.co.uk/img/media/5a7dd431910379766554a57f1bae363afdb4ad03/516_0_4178_3342/master/4178.jpg?width=140&quality=85&auto=format&fit=max&s=d1fbfde89ec546b8b49bea9f8d347ad5",
+          "sources": [
+            {
+              "name": "The Guardian",
+              "title": "Denmark to expel Russian diplomat over alleged plot to kill US-Ukrainian rapper",
+              "url": "https://www.theguardian.com/world/2026/nov/20/denmark-russian-diplomat-us-ukrainian-rapper-attempted-killing"
+            },
+            {
+              "name": "BBC News",
+              "title": "Denmark accuses Russia of plotting to assassinate US-Ukrainian rapper",
+              "url": "https://www.bbc.co.uk/news/articles/cmde1lj4yjxno?at_medium=RSS&at_campaign=rss"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "politics-world",
+      "title": "Politics · World",
+      "bricks": [
+        {
+          "id": "politics-world-0",
+          "headline": "Denmark Expels Russian Diplomat Over Alleged Assassination Plot",
+          "summary": "Denmark expelled a Russian defense attaché after accusing Moscow of plotting to kill a US-Ukrainian rapper before a concert in Copenhagen. The Russian embassy denied the accusation.",
+          "whyItMatters": "This diplomatic expulsion increases political tensions between European nations and Russia over security and safety.",
+          "explainer": "Denmark has ordered a Russian diplomat to leave the country following allegations that Russian intelligence directed a plan to assassinate a musician. Danish officials summoned the Russian ambassador to deliver the notice of expulsion, while the Russian embassy rejected the claim entirely. This incident marks another escalation in deteriorating diplomatic relations between Moscow and European governments.",
+          "keyTerms": [],
+          "disagreement": "Russia's embassy denied the allegation, while Danish officials maintained that Moscow was behind the plot.",
+          "update": null,
+          "importance": 7,
+          "image": "https://i.guim.co.uk/img/media/5a7dd431910379766554a57f1bae363afdb4ad03/516_0_4178_3342/master/4178.jpg?width=140&quality=85&auto=format&fit=max&s=d1fbfde89ec546b8b49bea9f8d347ad5",
+          "sources": [
+            {
+              "name": "The Guardian",
+              "title": "Denmark to expel Russian diplomat over alleged plot to kill US-Ukrainian rapper",
+              "url": "https://www.theguardian.com/world/2026/nov/20/denmark-russian-diplomat-us-ukrainian-rapper-attempted-killing"
+            },
+            {
+              "name": "BBC News",
+              "title": "Denmark accuses Russia of plotting to assassinate US-Ukrainian rapper",
+              "url": "https://www.bbc.co.uk/news/articles/cmde1lj4yjxno?at_medium=RSS&at_campaign=rss"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "economy-world",
+      "title": "Economy · World",
+      "bricks": [
+        {
+          "id": "economy-world-0",
+          "headline": "AI Stock Slump Drags Down Global Markets",
+          "summary": "Major stock markets saw heavy losses this week as tech and AI company shares fell. Investors are now worried about the health of the broader financial system. Anthropic, a large AI company, also saw its share price drop after its recent market launch.",
+          "whyItMatters": "A drop in the stock market can shrink retirement savings and make it harder for companies to grow or hire new workers.",
+          "explainer": "The stock market is a place where people buy and sell small pieces of companies, called shares. Recently, many of these companies are focused on artificial intelligence, or AI. For a long time, these stocks grew very fast, helping the overall market go up. However, investors have become worried that these companies might be worth less than their high prices suggest. When investors sell their shares at once, it causes the value of the whole market to fall. This has put major stock market indexes, like the S&P 500 and the Nasdaq, into what experts call a correction territory, which means prices have fallen at least 10% from their recent highs.",
+          "keyTerms": [
+            {
+              "term": "Stock Market",
+              "definition": "A place where people buy and sell ownership shares in public companies."
+            },
+            {
+              "term": "Correction Territory",
+              "definition": "A period when stock prices drop by 10% or more from their recent peak."
+            }
+          ],
+          "disagreement": null,
+          "update": "Anthropic's stock continued to fall on its second day of trading, adding to a week-long sell-off that wiped out the Nasdaq's gains for the year.",
+          "importance": 9,
+          "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6000x4000+0+0/resize/6000x4000!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F31%2F72%2F1359b5e7441995e3b5ba9e5c6d90%2Fgettyimages-2305894185.jpg",
+          "sources": [
+            {
+              "name": "NPR",
+              "title": "Anthropic says it will put humanity first. Will its IPO change that?",
+              "url": "https://www.npr.org/2026/11/21/nx-s1-6048678/anthropic-ipo-mission-ai-safety"
+            },
+            {
+              "name": "NPR",
+              "title": "The AI boom had a really bad week — and it's raising loud alarms",
+              "url": "https://www.npr.org/2026/11/21/nx-s1-6048729/ai-stock-markets-anthropic-nvidia"
+            },
+            {
+              "name": "BBC News",
+              "title": "Tech stock sell-off drags markets down as Anthropic shares slide",
+              "url": "https://www.bbc.co.uk/news/articles/c6808ym10vzgo?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "NPR",
+              "title": "S&P 500 sinks 3.7% and the Nasdaq composite goes negative for the year",
+              "url": "https://www.npr.org/2026/11/20/g-s1-154797/nasdaq-sp500-stock-market-ai-sink-negative"
+            },
+            {
+              "name": "The Guardian",
+              "title": "Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic’s second day of trading",
+              "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off"
+            }
+          ]
+        },
+        {
+          "id": "economy-world-1",
+          "headline": "Judge Approves $7.25 Billion Roundup Settlement",
+          "summary": "A judge approved a $7.25 billion payout from the company Bayer. The money settles claims from people who say its weedkiller, Roundup, caused them to get cancer. The decision ends nearly a decade of legal battles.",
+          "whyItMatters": "This settlement resolves a massive financial burden for Bayer, a major global company, while providing compensation to thousands of individuals who claimed harm.",
+          "explainer": "Bayer is a large German company that makes products for farming and health. For almost ten years, they faced thousands of lawsuits from people who claimed their weed-killing product, Roundup, caused health problems like cancer. Bayer has maintained the product is safe to use. By agreeing to pay $7.25 billion, the company hopes to end these thousands of individual legal cases. A judge ruled that this amount is a fair way to settle the claims for everyone involved.",
+          "keyTerms": [
+            {
+              "term": "Settlement",
+              "definition": "An official agreement to end a legal argument by paying money, without a full trial."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 7,
+          "image": "https://i.guim.co.uk/img/media/efbc188d676f119c98b60ce20d212a75264e7757/483_0_3333_2667/master/3333.jpg?width=140&quality=85&auto=format&fit=max&s=80be199f03da1f2774ebcc5eaf1c6cd0",
+          "sources": [
+            {
+              "name": "The Guardian",
+              "title": "Judge approves $7.25bn Bayer payout to settle claims that Roundup causes cancer",
+              "url": "https://www.theguardian.com/business/2026/nov/20/bayer-roundup-cancer-litigation"
+            }
+          ]
+        },
+        {
+          "id": "economy-world-2",
+          "headline": "UK and EU Agree to Closer Economic Ties",
+          "summary": "The UK and the EU reached a new deal to improve their economic relationship. It covers food exports, emissions trading, and programs for young people. Experts say this may help the economy, though it will not lower food prices for shoppers.",
+          "whyItMatters": "While this agreement improves trade, it is not expected to change the prices families pay for groceries at the store.",
+          "explainer": "Since leaving the European Union, a process known as Brexit, the UK has operated under different trade rules. This new agreement is a step toward making it easier to trade goods like food and drink across borders. It also creates a system for trading carbon emissions permits and helps young people work or study abroad. Government officials hope these steps will strengthen the economy, but analysts warn that these changes are unlikely to lead to lower prices on everyday items in supermarkets.",
+          "keyTerms": [
+            {
+              "term": "Brexit",
+              "definition": "The name given to the UK leaving the European Union."
+            },
+            {
+              "term": "Trade",
+              "definition": "The act of buying, selling, or exchanging goods and services between countries."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 6,
+          "image": "https://i.guim.co.uk/img/media/7dc3c60fa8338bc5ee1369a6d31d699690231550/148_0_2427_1942/master/2427.jpg?width=140&quality=85&auto=format&fit=max&s=408ad629bea9f26f5474edd3bed42498",
+          "sources": [
+            {
+              "name": "The Guardian",
+              "title": "What exactly is in the deal between the UK and the EU?",
+              "url": "https://www.theguardian.com/politics/2026/nov/20/what-is-in-deal-between-uk-eu-explainer"
+            },
+            {
+              "name": "BBC News",
+              "title": "UK to explore even closer ties with EU after agreeing deal, says Burnham",
+              "url": "https://www.bbc.co.uk/news/articles/c6jreyqgw4e9o?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "BBC News",
+              "title": "Faisal Islam: This cost-cutting UK-EU deal doesn't mean lower prices will follow",
+              "url": "https://www.bbc.co.uk/news/articles/cm1wr029evnqo?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "The Guardian",
+              "title": "What impact has Brexit had on the UK and EU economies?",
+              "url": "https://www.theguardian.com/business/2026/nov/20/what-impact-brexit-uk-eu-economies"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "region-africa",
+      "title": "World · Africa",
+      "bricks": [
+        {
+          "id": "region-africa-0",
+          "headline": "Ebola virus spreading in eastern Democratic Republic of Congo",
+          "summary": "A rare strain of the Ebola virus is spreading in the eastern Democratic Republic of Congo. Health experts say fighting the outbreak requires more than just medicine, including support from local leaders.",
+          "whyItMatters": "Ebola is a deadly disease that spreads easily, threatening the health and safety of communities in the region.",
+          "explainer": "Ebola is a serious virus that causes fever and bleeding. It spreads through contact with infected body fluids. The current outbreak in the eastern Democratic Republic of Congo involves a rare strain that is difficult to manage. Experts who have worked on past outbreaks, such as the major one in West Africa a decade ago, say that medical treatment alone is not enough to stop it. They emphasize that local faith leaders and community members must be involved to build trust and ensure people seek help early. Adequate funding is also necessary to provide the care and resources needed to bring the virus under control and prevent more lives from being lost.",
+          "keyTerms": [
+            {
+              "term": "Ebola",
+              "definition": "A rare but very dangerous virus that causes severe fever and internal bleeding."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 8,
+          "image": "https://i.guim.co.uk/img/media/37984494d48dabb3ff70d4a8b149ac4137e2ed76/630_0_3540_2832/master/3540.jpg?width=140&quality=85&auto=format&fit=max&s=7ca2219efccb1b01897ace81d269c109",
+          "sources": [
+            {
+              "name": "The Guardian",
+              "title": "Beating Ebola takes more than medicine – I saw what worked in west Africa a decade ago | Kayode Akintola",
+              "url": "https://www.theguardian.com/global-development/2026/nov/21/ebola-outbreak-congo-worst-ever"
+            },
+            {
+              "name": "The Guardian",
+              "title": "Ebola killed 46 members of one man’s family. Now he is fighting to save the rest",
+              "url": "https://www.theguardian.com/global-development/2026/nov/20/ebola-virus-disease-epidemic-bundibugyo-strain-bunia-ituri-democratic-republic-congo"
+            }
+          ]
+        },
+        {
+          "id": "region-africa-1",
+          "headline": "ANC struggles to keep control of South African cities",
+          "summary": "The African National Congress (ANC) is trying to hold onto power in major South African cities. The party is hesitant to share control with the pro-business Democratic Alliance (DA) at a local level.",
+          "whyItMatters": "Decisions about who leads these cities affect local services, jobs, and how daily life is managed for millions of people.",
+          "explainer": "The African National Congress, known as the ANC, has been the main political party in South Africa for decades. Recently, the party faced setbacks in elections, which has made it harder for them to govern alone. While the ANC reached a deal to share power nationally, they are resisting a similar partnership with the Democratic Alliance (DA) in local city governments. This political tension means the future of city leadership remains uncertain, which can impact how local budgets are spent and how public projects are run.",
+          "keyTerms": [
+            {
+              "term": "ANC",
+              "definition": "The African National Congress, which is the main political party in South Africa."
+            },
+            {
+              "term": "Democratic Alliance",
+              "definition": "A South African political party that often takes a different approach to the economy than the ANC."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 5,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/aad1/live/7d1c0de0-e4ff-11f1-a8e4-b1e12a49db15.jpg",
+          "sources": [
+            {
+              "name": "BBC News",
+              "title": "ANC fights to keep control of South Africa's key cities after election setback",
+              "url": "https://www.bbc.co.uk/news/articles/cqpv94d10rwpo?at_medium=RSS&at_campaign=rss"
+            }
+          ]
+        },
+        {
+          "id": "region-africa-2",
+          "headline": "African soccer leaders back FIFA president for re-election",
+          "summary": "African soccer officials have joined South American leaders to support FIFA President Gianni Infantino. They want him to win another term leading the world soccer organization.",
+          "whyItMatters": "This decision shows the political alliances in international sports that influence how soccer is managed globally.",
+          "explainer": "FIFA is the group that organizes the World Cup and oversees soccer rules across the globe. Gianni Infantino has served as the head of FIFA for several years. Recently, the Confederation of African Football (CAF) announced they would fully support his bid to be re-elected as president. They are working with other regional groups to make sure he stays in the top leadership position. This is important for soccer fans because the leadership of FIFA sets the path for future tournaments and how money is spent on the sport.",
+          "keyTerms": [
+            {
+              "term": "FIFA",
+              "definition": "The organization that runs international soccer tournaments like the World Cup."
+            },
+            {
+              "term": "Confederation of African Football",
+              "definition": "The group that manages soccer activities and championships across the African continent."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 3,
+          "image": null,
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "title": "Diallo present as Africa’s Motsepe reiterates support for FIFA’s Infantino",
+              "url": "https://www.aljazeera.com/sports/2026/11/21/diallo-present-as-africa-football-boss-motsepe-reiterates-infantino-support?traffic_source=rss"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "region-asia",
+      "title": "World · Asia & Pacific",
+      "bricks": [
+        {
+          "id": "region-asia-0",
+          "headline": "China Pledges Low-Carbon Energy Goals at Global Summit",
+          "summary": "China announced it will push for faster use of clean electricity. The country also promised to help other nations switch to low-carbon energy sources. This goal was shared at the COP31 climate meeting.",
+          "whyItMatters": "This move could affect how much energy costs and how different countries work together to fight climate change.",
+          "explainer": "COP31 is a large meeting where world leaders discuss ways to protect the environment. China is a major producer of energy and technology. By committing to use more clean electricity, they hope to lower pollution worldwide. Helping other countries improve their systems is a way to share technology and tools to make the planet cleaner for everyone.",
+          "keyTerms": [
+            {
+              "term": "Low-carbon",
+              "definition": "Something that does not produce much pollution or harmful gas into the air."
+            },
+            {
+              "term": "COP31",
+              "definition": "An international meeting where countries work together on climate and environmental plans."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 6,
+          "image": "https://i.guim.co.uk/img/media/9e68aee336577ce0e768fd142e23caf3b9396a18/240_71_6107_4885/master/6107.jpg?width=140&quality=85&auto=format&fit=max&s=71e768ed29a219f5ff58d9520b737a67",
+          "sources": [
+            {
+              "name": "The Guardian",
+              "title": "China commits to low-carbon electrification and help for others to improve",
+              "url": "https://www.theguardian.com/environment/2026/nov/21/china-commits-low-carbon-electrification-help-others-improve"
+            }
+          ]
+        },
+        {
+          "id": "region-asia-1",
+          "headline": "Nepal Leader Visits India for Trade Talks",
+          "summary": "The Prime Minister of Nepal is visiting India to meet with his counterpart. They plan to discuss trade and how their countries can better work together. This is the leader's first official visit.",
+          "whyItMatters": "Better trade and cooperation between these neighbors can improve the economy and travel for people living in both countries.",
+          "explainer": "Nepal and India are neighboring countries that share a long border. Leaders from these nations meet regularly to make sure their countries get along well. By talking about trade, they can make it easier to buy and sell goods across their shared borders. Connectivity projects like better roads or digital links help people move and do business more easily.",
+          "keyTerms": [
+            {
+              "term": "Connectivity",
+              "definition": "The ways different places are linked, such as roads, trains, or internet access."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 4,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6ce4/live/0cd0ed60-e3e9-11f1-a16c-7de3762c094b.jpg",
+          "sources": [
+            {
+              "name": "BBC News",
+              "title": "A new Nepal, an old neighbour - Balendra Shah's India test on first visit",
+              "url": "https://www.bbc.co.uk/news/articles/c6jre8xd83qgo?at_medium=RSS&at_campaign=rss"
+            }
+          ]
+        },
+        {
+          "id": "region-asia-2",
+          "headline": "Indian Politicians Protest Account Removals",
+          "summary": "The Indian Youth Congress is protesting against the tech company Meta. They gave the company seven days to stop blocking certain user accounts. They want all restrictions removed.",
+          "whyItMatters": "This affects how people in India use social media to share news and voice their opinions.",
+          "explainer": "Meta is the company that owns popular social media platforms like Facebook and Instagram. When companies place restrictions on accounts, it means users cannot post content or reach their followers. Protests like this show that political groups care deeply about how these tech giants manage online speech and access to information.",
+          "keyTerms": [
+            {
+              "term": "Ultimatum",
+              "definition": "A final demand where the person making it says they will take action if the demand is not met."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 3,
+          "image": null,
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "title": "India’s opposition stages protests against Meta over account removals",
+              "url": "https://www.aljazeera.com/news/2026/11/21/indias-opposition-stages-protests-against-meta-over-account-removals?traffic_source=rss"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "region-europe",
+      "title": "World · Europe",
+      "bricks": [
+        {
+          "id": "region-europe-0",
+          "headline": "Russian missiles crash in Poland during air strikes",
+          "summary": "Two Russian cruise missiles and a drone crashed in Poland during Russian air strikes on Ukraine. Polish leaders called the incident an intentional provocation, though no injuries or damage were reported.",
+          "whyItMatters": "This incident raises safety concerns for people living near the border and increases tensions between Russia and NATO countries.",
+          "explainer": "During major Russian air strikes against neighboring Ukraine, two Russian cruise missiles and a jet-powered drone crossed the border and crashed inside Poland. Officials in Poland confirmed the airspace violations and called the event a deliberate provocation by Moscow. Although no one was hurt and no property was damaged, NATO allies expressed deep concern over the security breach during military exercises.",
+          "keyTerms": [],
+          "disagreement": null,
+          "update": "Security camera footage captured the explosion near a Polish village as officials confirmed three separate airspace violations.",
+          "importance": 8,
+          "image": "https://i.guim.co.uk/img/media/6f544693d51142918b1397e2c4b846f07ae1d947/570_0_1350_1080/master/1350.jpg?width=140&quality=85&auto=format&fit=max&s=59776a7765c9f218344c556fae75cfa4",
+          "sources": [
+            {
+              "name": "The Guardian",
+              "title": "CCTV footage shows object crashing and exploding near Poland-Ukraine border – video",
+              "url": "https://www.theguardian.com/world/video/2026/nov/21/cctv-shows-unknown-object-crashing-and-exploding-near-poland-ukraine-border-video"
+            },
+            {
+              "name": "The Guardian",
+              "title": "Ukraine war briefing: European leaders react with anger and alarm after Russian missiles crash in Poland",
+              "url": "https://www.theguardian.com/world/2026/nov/21/ukraine-war-briefing-european-leaders-react-with-anger-and-alarm-after-russian-missiles-crash-in-poland"
+            },
+            {
+              "name": "BBC News",
+              "title": "Russian missile hits Poland as Ukraine's allies hold military exercise, says Tusk",
+              "url": "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro?at_medium=RSS&at_campaign=rss"
+            }
+          ]
+        },
+        {
+          "id": "region-europe-1",
+          "headline": "Denmark expels Russian diplomat over alleged plot",
+          "summary": "Denmark is expelling a Russian defense attache after intelligence linked Moscow to an alleged plot to kill a US-Ukrainian rapper. The Russian embassy has denied the accusation.",
+          "whyItMatters": "It affects international diplomacy and security as European nations take action against alleged foreign plots on their soil.",
+          "explainer": "Denmark's foreign minister announced that the country's Russian defense attache must leave following an investigation into an attempted assassination plot. Authorities believe Moscow intelligence targeted a US-Ukrainian musician known as Kyivstoner before a concert in Denmark. The Russian embassy in Copenhagen has strongly denied any involvement in the alleged scheme.",
+          "keyTerms": [],
+          "disagreement": "Denmark says Russia is behind an assassination plot, while the Russian embassy denies the allegation.",
+          "update": null,
+          "importance": 7,
+          "image": "https://i.guim.co.uk/img/media/5a7dd431910379766554a57f1bae363afdb4ad03/516_0_4178_3342/master/4178.jpg?width=140&quality=85&auto=format&fit=max&s=d1fbfde89ec546b8b49bea9f8d347ad5",
+          "sources": [
+            {
+              "name": "The Guardian",
+              "title": "Denmark to expel Russian diplomat over alleged plot to kill US-Ukrainian rapper",
+              "url": "https://www.theguardian.com/world/2026/nov/20/denmark-russian-diplomat-us-ukrainian-rapper-attempted-killing"
+            },
+            {
+              "name": "BBC News",
+              "title": "Denmark accuses Russia of plotting to assassinate US-Ukrainian rapper",
+              "url": "https://www.bbc.co.uk/news/articles/cmde1lj4yjxno?at_medium=RSS&at_campaign=rss"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "region-latam",
+      "title": "World · Latin America",
+      "bricks": [
+        {
+          "id": "region-latam-0",
+          "headline": "Mexico arrests high-profile cartel boss in Sinaloa",
+          "summary": "Mexican forces arrested Fausto Isidro Meza Flores, known as Chapo Isidro, during a gunfight in Sinaloa. He was on the FBI's most wanted list and faces drug charges in the United States.",
+          "whyItMatters": "The arrest of a major cartel leader impacts public safety and law enforcement efforts in the region and the United States.",
+          "explainer": "Mexican military and security forces captured Fausto Isidro Meza Flores, an alleged cartel boss known as Chapo Isidro, following a shootout in Guasave, Sinaloa. He was on the FBI's top ten most wanted list and faces serious drug trafficking charges in the United States. Mexican authorities carried out the military raid to detain him.",
+          "keyTerms": [
+            {
+              "term": "Cartel",
+              "definition": "A large criminal group that makes money by smuggling illegal drugs."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 7,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5701/live/7ac9e270-e5ad-11f1-99a1-253766e7ad8b.jpg",
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "title": "Who is El Chapo Isidro, the alleged cartel boss arrested in Mexico?",
+              "url": "https://www.aljazeera.com/news/2026/11/21/who-is-el-chapo-isidro-the-alleged-cartel-boss-arrested-in-mexico?traffic_source=rss"
+            },
+            {
+              "name": "BBC News",
+              "title": "Mexican drug lord on FBI's 10 most wanted list arrested in shoot-out",
+              "url": "https://www.bbc.co.uk/news/articles/ckz749ey0r75o?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "Al Jazeera",
+              "title": "Mexico captures FBI-wanted cartel boss in military raid",
+              "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/mexico-captures-fbi-wanted-cartel-boss-in-military-raid?traffic_source=rss"
+            }
+          ]
+        },
+        {
+          "id": "region-latam-1",
+          "headline": "Migrant caravan walks through Mexico toward US border",
+          "summary": "About 300 migrants crossed from Guatemala into Mexico. They are walking together in a caravan hoping to reach the United States.",
+          "whyItMatters": "Large groups of migrants moving across borders often lead to new policy debates and border security actions that affect families seeking asylum.",
+          "explainer": "A group of around 300 migrants has crossed the border from Guatemala into Mexico. The travelers are walking north in a caravan with the goal of reaching the United States. Migrant caravans often draw heavy attention from border authorities and humanitarian groups as they travel.",
+          "keyTerms": [
+            {
+              "term": "Migrant caravan",
+              "definition": "A large group of people traveling together for safety while moving to another country."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 5,
+          "image": null,
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "title": "Migrants caravan in Mexico walks towards US border",
+              "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/migrants-caravan-in-mexico-walks-towards-us-border?traffic_source=rss"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "region-mideast",
+      "title": "World · Middle East",
+      "bricks": [
+        {
+          "id": "region-mideast-0",
+          "headline": "Tankers hit in Strait of Hormuz amid shipping crisis",
+          "summary": "Two ships were hit near Oman in the Strait of Hormuz. A British maritime agency and Iran reported the attacks, which are causing oil leaks and threatening the environment.",
+          "whyItMatters": "Attacks on oil tankers in this vital shipping route can raise global fuel prices and disrupt energy supplies for everyday people.",
+          "explainer": "The Strait of Hormuz is a narrow stretch of water that connects the Persian Gulf to the open ocean. A large share of the world's oil passes through this route every day. Recent military conflicts involving the US, Israel, and Iran have turned the area into a combat zone. Tankers have been struck by missiles or sea mines, spilling oil into the water and damaging local marine life. Because of blockades, workers cannot easily reach the spills to clean them up, raising fears of a long-lasting environmental disaster.",
+          "keyTerms": [
+            {
+              "term": "Strait of Hormuz",
+              "definition": "A narrow sea passage through which a large portion of the world's oil is shipped."
+            },
+            {
+              "term": "Naval mine",
+              "definition": "An explosive device placed in water to destroy ships."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 9,
+          "image": "https://i.guim.co.uk/img/media/81858b5185d8ec0e2ff40f48104308d71b535c20/247_0_1350_1080/master/1350.jpg?width=140&quality=85&auto=format&fit=max&s=301c31490c72501cce67e5a6820f9928",
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "title": "Tankers hit in Strait of Hormuz as Iran tightens grip on shipping",
+              "url": "https://www.aljazeera.com/news/2026/11/21/tankers-hit-in-strait-of-hormuz-as-iran-tightens-grip-on-shipping?traffic_source=rss"
+            },
+            {
+              "name": "The Guardian",
+              "title": "How the war in Iran turned the Gulf into a climate catastrophe – video explainer",
+              "url": "https://www.theguardian.com/world/video/2026/nov/20/how-the-war-in-iran-turned-the-gulf-into-a-climate-catastrophe-video-explainer"
+            }
+          ]
+        },
+        {
+          "id": "region-mideast-1",
+          "headline": "Airstrikes and severe winter weather hit Gaza",
+          "summary": "Israeli strikes killed several people in Gaza, including individuals distributing food. Meanwhile, displaced families living in makeshift tent camps face severe floods and harsh winter weather.",
+          "whyItMatters": "This ongoing violence and severe weather threaten the safety, health, and basic survival of thousands of displaced families.",
+          "explainer": "Gaza has faced prolonged military conflict, resulting in widespread destruction of homes and infrastructure. Many families now live in crowded tent camps with little protection against the elements. Recent heavy rain and cold weather have caused floods and collapsing sandbanks, adding to the extreme hardships faced by civilians. At the same time, military strikes continue to target various areas, complicating the delivery of food aid and medical care.",
+          "keyTerms": [],
+          "disagreement": null,
+          "update": "Winter storms and heavy flooding have worsened conditions in Gaza tent camps, while ongoing strikes continue to kill civilians.",
+          "importance": 8,
+          "image": "https://i.guim.co.uk/img/media/26201be87e284f4ecb47614de8f4d5aef7618855/456_0_4560_3648/master/4560.jpg?width=140&quality=85&auto=format&fit=max&s=eaa8f56b59cc6345ed8ac61085fe8b01",
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "title": "Jerusalem Daily: Gaza faces deadly strikes and health crisis",
+              "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/jerusalem-daily-gaza-faces-deadly-strikes-and-health-crisis?traffic_source=rss"
+            },
+            {
+              "name": "Al Jazeera",
+              "title": "Israeli strike kills three in vehicle distributing food aid in Gaza",
+              "url": "https://www.aljazeera.com/news/2026/11/21/at-least-four-palestinians-killed-in-israeli-attacks-on-gaza?traffic_source=rss"
+            },
+            {
+              "name": "The Guardian",
+              "title": "‘We ​are tired from all this suffering’: displaced families in Gaza brace for another winter of misery",
+              "url": "https://www.theguardian.com/world/2026/nov/21/displaced-families-gaza-winter-misery"
+            }
+          ]
+        },
+        {
+          "id": "region-mideast-2",
+          "headline": "Iran debates potential shift in nuclear policy",
+          "summary": "Iran's foreign minister stated there is a major strategic debate about the future of the country's nuclear program. Officials are discussing whether to reverse the official policy of keeping the program strictly peaceful.",
+          "whyItMatters": "Changes to Iran's nuclear policy could greatly alter international security and affect political stability around the world.",
+          "explainer": "For years, Iran has maintained that its nuclear activities are intended solely for peaceful civilian purposes, such as generating power. However, remarks from senior officials indicate that internal discussions are underway regarding the future direction of this doctrine. Any move away from a strictly civilian program would likely escalate tensions with foreign governments and international organizations that monitor nuclear non-proliferation.",
+          "keyTerms": [],
+          "disagreement": null,
+          "update": null,
+          "importance": 7,
+          "image": null,
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "title": "Could Iran reverse its stated policy of a civil-only nuclear programme?",
+              "url": "https://www.aljazeera.com/news/2026/11/21/could-iran-reverse-its-stated-policy-of-a-civil-only-nuclear-programme?traffic_source=rss"
+            }
+          ]
+        },
+        {
+          "id": "region-mideast-3",
+          "headline": "Deadly fire strikes power station in southern Iraq",
+          "summary": "A large fire swept through the Hartha power station complex in southern Iraq. At least four people were killed and 30 others were injured in the blaze.",
+          "whyItMatters": "Damage to major power plants can disrupt local electricity supplies, affecting homes, hospitals, and businesses.",
+          "explainer": "The Hartha power station is a major facility providing electricity in southern Iraq. A sudden fire broke out at the complex, spreading quickly through parts of the structure. Emergency crews responded to rescue workers and treat the injured, but the incident highlights ongoing safety and infrastructure challenges facing essential public services in the region.",
+          "keyTerms": [],
+          "disagreement": null,
+          "update": null,
+          "importance": 6,
+          "image": null,
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "title": "Deadly fire engulfs power station in southern Iraq",
+              "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/deadly-fire-engulfs-power-station-in-southern-iraq?traffic_source=rss"
+            }
+          ]
+        },
+        {
+          "id": "region-mideast-4",
+          "headline": "Demolition notices in Hebron raise displacement fears",
+          "summary": "Palestinians in the West Bank city of Hebron received new demolition notices for buildings. Residents fear these actions could lead to forced displacement from legally licensed homes.",
+          "whyItMatters": "Threats of home demolitions put families at risk of losing their housing and create deep uncertainty about their future security.",
+          "explainer": "Hebron is located in the West Bank, an area subject to complex legal and military oversight. Israeli authorities have targeted certain buildings with demolition notices, even though residents state the homes are legally licensed. Local families and community advocates warn that these measures could force people out of their neighborhoods, adding to existing tensions and fears of displacement in the territory.",
+          "keyTerms": [],
+          "disagreement": null,
+          "update": null,
+          "importance": 5,
+          "image": null,
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "title": "Demolition notices for buildings in Hebron provoke fear among Palestinians",
+              "url": "https://www.aljazeera.com/news/2026/11/21/demolition-notices-for-buildings-in-area-a-of-hebron-spark-fear-among-palestinians?traffic_source=rss"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "top-us",
+      "title": "Top Stories · United States",
+      "bricks": [
+        {
+          "id": "top-us-0",
+          "headline": "Man Convicted of Starting Deadly 2025 Los Angeles Fire",
+          "summary": "A federal jury found a man guilty of starting the deadly 2025 Palisades Fire in Los Angeles. Prosecutors argued the defendant was angry in the days leading up to the fire, which killed 12 people.",
+          "whyItMatters": "This verdict brings a measure of legal accountability for a disaster that caused tragic loss of life and property damage in Los Angeles.",
+          "explainer": "A federal jury has convicted 30-year-old Jonathan Rinderknecht of arson for starting the massive Palisades Fire in Los Angeles in January 2025. The deadly wildfire resulted in 12 deaths and destroyed numerous homes. Prosecutors presented evidence during the trial arguing the defendant was deeply angry in the days before the blaze. The conviction comes after an earlier federal trial earlier this year ended in a mistrial.",
+          "keyTerms": [],
+          "disagreement": null,
+          "update": null,
+          "importance": 7,
+          "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5808x3872+0+0/resize/5808x3872!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2Fe0%2Ffd%2Ff9157ccb44d0a165869fae76e14b%2Fap26324834912819.jpg",
+          "sources": [
+            {
+              "name": "NPR",
+              "title": "Federal jury convicts man of starting the deadly 2025 Palisades Fire in Los Angeles",
+              "url": "https://www.npr.org/2026/11/21/nx-s1-6049625/palisades-fire-conviction"
+            },
+            {
+              "name": "PBS NewsHour",
+              "title": "Federal jury convicts man of starting deadly 2025 Palisades Fire in Los Angeles",
+              "url": "https://www.pbs.org/newshour/nation/federal-jury-convicts-man-of-starting-deadly-2025-palisades-fire-in-los-angeles"
+            }
+          ]
+        },
+        {
+          "id": "top-us-1",
+          "headline": "Judge Approves $7.25 Billion Settlement Over Roundup Weed Killer",
+          "summary": "A Missouri judge approved a settlement requiring Bayer to pay up to $7.25 billion over two decades. The money resolves thousands of claims from U.S. cancer patients who said the weed killer caused their lymphoma.",
+          "whyItMatters": "This massive settlement impacts thousands of cancer patients seeking compensation and holds the maker of a widely used product financially accountable for health claims.",
+          "explainer": "A Missouri judge approved a $7.25 billion settlement involving agrochemical giant Bayer and thousands of U.S. patients suffering from non-Hodgkin lymphoma. The claimants argued that the company failed to properly warn consumers that its popular weed killer, Roundup, could cause cancer. Under the terms, Bayer will pay out the funds over the course of two decades to cover existing patients and those who fall ill in the future.",
+          "keyTerms": [
+            {
+              "term": "Lymphoma",
+              "definition": "A type of cancer that begins in infection-fighting cells of the immune system."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 7,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/39e3/live/c6e1e8a0-e559-11f1-b23f-abf0ac4ebbc0.jpg",
+          "sources": [
+            {
+              "name": "BBC News",
+              "title": "Judge approves $7.25bn settlement for Roundup weedkiller cancer claims",
+              "url": "https://www.bbc.co.uk/news/articles/cwvg21gyl650o?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "PBS NewsHour",
+              "title": "Court approves $7.25 billion Bayer settlement over claims Roundup weed killer caused cancer",
+              "url": "https://www.pbs.org/newshour/nation/court-approves-7-25-billion-bayer-settlement-over-claims-roundup-weed-killer-caused-cancer"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "politics-us",
+      "title": "Politics · United States",
+      "bricks": [
+        {
+          "id": "politics-us-0",
+          "headline": "President Trump Reports on Summit with Putin and Xi",
+          "summary": "President Trump held a press conference after meeting with the leaders of China and Russia in Shenzhen. The president described his trip as highly successful, though few specific results were shared beyond a brief statement on unity.",
+          "whyItMatters": "The way the U.S. leader interacts with other world powers can change global safety and international business.",
+          "explainer": "President Trump recently returned from a trip to Asia where he held private meetings with Chinese President Xi Jinping and Russian President Vladimir Putin. Upon his return, the president held a press conference to defend the meetings and his relationships with these world leaders. While he called both leaders his friends, he said he could not comment on whether they are friends to the United States. Observers and the administration provided few details on what was decided during the talks beyond a general agreement to work together on some issues. The summit is significant because these countries have long been considered rivals to the United States on the global stage.",
+          "keyTerms": [
+            {
+              "term": "Summit",
+              "definition": "A meeting between the leaders of two or more countries."
+            }
+          ],
+          "disagreement": null,
+          "update": "President Trump held a press conference Friday to discuss his trip after yesterday's initial reports that the summit concluded without major breakthroughs.",
+          "importance": 9,
+          "image": "https://media.npr.org/include/images/tracking/npr-rss-pixel.png?story=nx-s1-6047376",
+          "sources": [
+            {
+              "name": "NPR",
+              "title": "Week in Politics: Trump returns from Asia; hails trip as one of best in history",
+              "url": "https://www.npr.org/2026/11/21/nx-s1-6047376/week-in-politics-trump-returns-from-asia-hails-trip-as-one-of-best-in-history"
+            },
+            {
+              "name": "PBS NewsHour",
+              "title": "What Trump addressed during his lengthy White House news conference",
+              "url": "https://www.pbs.org/newshour/show/what-trump-addressed-during-his-lengthy-white-house-news-conference"
+            },
+            {
+              "name": "PBS NewsHour",
+              "title": "Brooks and Capehart on Trump's summit with Putin and Xi",
+              "url": "https://www.pbs.org/newshour/show/brooks-and-capehart-on-trumps-summit-with-putin-and-xi"
+            },
+            {
+              "name": "NPR",
+              "title": "The latest from Trump's press conference",
+              "url": "https://www.npr.org/2026/11/20/nx-s1-6047636/trump-presser"
+            },
+            {
+              "name": "PBS NewsHour",
+              "title": "WATCH: After calling Putin his friend, Trump 'can't speak to' whether Putin is a friend to America",
+              "url": "https://www.pbs.org/newshour/politics/trump-defends-calling-putin-a-friend-saying-they-have-a-very-good-personal-relationship"
+            },
+            {
+              "name": "PBS NewsHour",
+              "title": "WATCH: Trump hosts news conference after meeting with Xi, Putin",
+              "url": "https://www.pbs.org/newshour/politics/watch-live-trump-hosts-news-conference-after-meeting-with-xi-putin"
+            },
+            {
+              "name": "NPR",
+              "title": "Trump touts meeting with Xi and Putin but offers few results",
+              "url": "https://www.npr.org/2026/11/20/nx-s1-6047594/trump-asia-trip-xi-putin-press-conference"
+            }
+          ]
+        },
+        {
+          "id": "politics-us-1",
+          "headline": "Federal Judges Block Trump's Memorial Arch Construction",
+          "summary": "Two federal judges have blocked the Trump administration from building a 250-foot memorial arch. The construction project is now on hold indefinitely as legal challenges continue in court.",
+          "whyItMatters": "This decision impacts how federal tax money is used for monuments and whether the administration has the power to bypass standard planning rules.",
+          "explainer": "A 250-foot tall memorial arch proposed by President Trump is facing significant legal obstacles in Washington, D.C. Two separate federal judges have issued orders to halt the project. One judge in Virginia plans to issue a formal preliminary injunction, noting that the project is unlikely to succeed based on the current legal challenges brought by the plaintiffs. These rulings effectively stop any building activity for the time being. The project has been controversial due to its size and its placement in the nation's capital.",
+          "keyTerms": [
+            {
+              "term": "Injunction",
+              "definition": "A court order that forces a person or group to do or stop doing a specific action."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 5,
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-20T173440Z_2032220444_RC2OCHA8W9MX_RTRMADP_3_USA-TRUMP-ARCH-1024x683.jpg",
+          "sources": [
+            {
+              "name": "PBS NewsHour",
+              "title": "Second federal judge blocks construction of Trump's memorial arch",
+              "url": "https://www.pbs.org/newshour/politics/second-federal-judge-blocks-construction-of-trumps-memorial-arch"
+            },
+            {
+              "name": "NPR",
+              "title": "A second judge blocks Trump's arch, saying it's unlikely to succeed in court",
+              "url": "https://www.npr.org/2026/11/20/nx-s1-6048675/trump-arch-blocked-arlington"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "economy-us",
+      "title": "Economy · United States",
+      "bricks": [
+        {
+          "id": "economy-us-0",
+          "headline": "AI stocks drop as Wall Street faces tough week",
+          "summary": "AI companies saw their stock prices fall sharply after a major public offering by Anthropic. These stocks, which previously led the market, are now causing significant declines. Investors are worried about how these companies will balance safety with profits.",
+          "whyItMatters": "Falling stock prices can reduce the value of retirement savings and affect the overall strength of the U.S. economy.",
+          "explainer": "Stock prices for AI companies, which had been driving growth on Wall Street, fell significantly this week. This decline followed the initial public offering (IPO) of Anthropic, a company specializing in artificial intelligence. While the IPO successfully raised money, investors have become nervous about the future value of AI stocks. Because these tech companies make up a large part of the stock market, their losses have pulled down major market indexes like the S&P 500. Some investors now fear that these companies may struggle to remain profitable while also meeting safety goals. Others are betting that the prices for these stocks may continue to drop in the near future.",
+          "keyTerms": [
+            {
+              "term": "IPO",
+              "definition": "The first time a company sells its shares to the public on a stock market."
+            },
+            {
+              "term": "S&P 500",
+              "definition": "A list of 500 large companies used to track the health of the U.S. stock market."
+            },
+            {
+              "term": "Bearish",
+              "definition": "A belief that stock prices will go down."
+            }
+          ],
+          "disagreement": null,
+          "update": "After a record-breaking public sale, Anthropic's stock price dropped as the wider tech market suffered its worst week in years.",
+          "importance": 9,
+          "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6000x4000+0+0/resize/6000x4000!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F31%2F72%2F1359b5e7441995e3b5ba9e5c6d90%2Fgettyimages-2305894185.jpg",
+          "sources": [
+            {
+              "name": "CNBC",
+              "title": "Anthropic’s record IPO collides with tech’s worst week on Wall Street since 2020",
+              "url": "https://www.cnbc.com/2026/11/21/anthropic-ipo-tech-selloff.html"
+            },
+            {
+              "name": "CNBC",
+              "title": "Why Anthropic's blockbuster IPO couldn't escape the stock market correction",
+              "url": "https://www.cnbc.com/2026/11/20/anthropic-ipo-ai-stock-market-selloff.html"
+            },
+            {
+              "name": "NPR",
+              "title": "Anthropic says it will put humanity first. Will its IPO change that?",
+              "url": "https://www.npr.org/2026/11/21/nx-s1-6048678/anthropic-ipo-mission-ai-safety"
+            },
+            {
+              "name": "NPR",
+              "title": "The AI boom had a really bad week — and it's raising loud alarms",
+              "url": "https://www.npr.org/2026/11/21/nx-s1-6048729/ai-stock-markets-anthropic-nvidia"
+            },
+            {
+              "name": "CNBC",
+              "title": "Nvidia stock plunges 14%, wraps up longest weekly losing streak since 2008 financial crisis",
+              "url": "https://www.cnbc.com/2026/11/20/nvidias-7-week-losing-streak-is-longest-since-2008-financial-crisis.html"
+            },
+            {
+              "name": "NPR",
+              "title": "S&P 500 sinks 3.7% and the Nasdaq composite goes negative for the year",
+              "url": "https://www.npr.org/2026/11/20/g-s1-154797/nasdaq-sp500-stock-market-ai-sink-negative"
+            },
+            {
+              "name": "CNBC",
+              "title": "A massive bearish trade just happened in the chip stocks",
+              "url": "https://www.cnbc.com/2026/11/20/a-massive-bearish-trade-just-happened-in-the-chip-stocks.html"
+            },
+            {
+              "name": "CNBC",
+              "title": "As Anthropic shares tank, investors scramble to hedge. It could be very expensive",
+              "url": "https://www.cnbc.com/2026/11/20/as-anthropic-shares-tank-investors-scramble-to-hedge-it-could-be-very-expensive.html"
+            },
+            {
+              "name": "CNBC",
+              "title": "Anthropic raises $93.5 billion total as underwriters scoop up ‘greenshoe’ overallotment",
+              "url": "https://www.cnbc.com/2026/11/20/anthropic-ipo-greenshoe.html"
+            },
+            {
+              "name": "NPR",
+              "title": "Critics are worried about Anthropic's influence after first day of public trading",
+              "url": "https://www.npr.org/2026/11/20/nx-s1-6047539/critics-are-worried-about-anthropics-influence-after-first-day-of-public-trading"
+            }
+          ]
+        },
+        {
+          "id": "economy-us-1",
+          "headline": "President Trump vows to keep data centers in U.S.",
+          "summary": "President Trump promised to stop U.S. companies from building data centers in other countries. He threatened to tax companies that do not follow this rule. These centers are important for running the artificial intelligence tools used today.",
+          "whyItMatters": "This policy could change where companies choose to build their infrastructure, potentially impacting U.S. jobs and the cost of tech services.",
+          "explainer": "Data centers are large buildings filled with computers that store information and help run AI programs. Because AI requires massive amounts of computing power, demand for these centers has grown quickly. President Trump stated that he wants these centers built within the United States rather than abroad. To enforce this, he threatened to place high taxes on companies that build these facilities in other countries. This move is intended to keep technology work and investment inside the U.S. at a time when global competition for AI leadership is rising.",
+          "keyTerms": [
+            {
+              "term": "Data center",
+              "definition": "A large facility used to house computer systems and data storage for websites and apps."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 8,
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/outage-1-1024x683.jpg",
+          "sources": [
+            {
+              "name": "PBS NewsHour",
+              "title": "Mounting tech disruptions raise concerns about U.S. cybersecurity",
+              "url": "https://www.pbs.org/newshour/show/mounting-tech-disruptions-raise-concerns-about-u-s-cybersecurity"
+            },
+            {
+              "name": "CNBC",
+              "title": "Trump vows to stop U.S. companies from building data centers abroad, threatens 'tremendous tax'",
+              "url": "https://www.cnbc.com/2026/11/20/trump-data-centers-ai-companies-tax.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-top",
+      "title": "Sports · Top Headlines",
+      "bricks": [
+        {
+          "id": "sports-top-0",
+          "headline": "England Beats New Zealand by Record Margin in Rugby",
+          "summary": "England beat New Zealand by 25 points in a rugby match. Former captain Lewis Moody led the team to face the traditional haka before the historic win.",
+          "whyItMatters": "This record-breaking victory boosts English rugby fans and shakes up international standings.",
+          "explainer": "England achieved a historic win against New Zealand by defeating the three-time world champions by 25 points at Allianz Stadium. Former England captain Lewis Moody joined the current squad to face New Zealand's traditional pre-match challenge, known as the haka, in an emotional start to Saturday's Test match. The massive win marks a stunning high point for England's rugby revival, compounding disappointment for the All Blacks following their recent loss to Wales.",
+          "keyTerms": [
+            {
+              "term": "Test match",
+              "definition": "A traditional international game between two top-tier rugby teams."
+            },
+            {
+              "term": "Haka",
+              "definition": "A traditional ancestral war dance or challenge of the Māori people of New Zealand, performed before matches."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 6,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e4b8/live/234086c0-e5c7-11f1-a094-5fdc692f3e33.jpg",
+          "sources": [
+            {
+              "name": "BBC Sport",
+              "title": "England beat New Zealand by record margin",
+              "url": "https://www.bbc.co.uk/sport/rugby-union/videos/c6742znzggeyo?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "BBC Sport",
+              "title": "Superb England run up record win over New Zealand",
+              "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cwm2jxd8k15mo?at_medium=RSS&at_campaign=rss"
+            }
+          ]
+        },
+        {
+          "id": "sports-top-1",
+          "headline": "Bayern Munich Star Harry Kane Out for Months With Injury",
+          "summary": "England captain Harry Kane faces months away from the field. He tore ankle ligaments during a game for Bayern Munich and had to get surgery.",
+          "whyItMatters": "The long absence of a star player impacts Bayern Munich's championship goals and England's upcoming matches.",
+          "explainer": "England football captain Harry Kane will be out for the next few months after tearing ankle ligaments. The injury happened during Bayern Munich's 1-1 Bundesliga draw with Cologne. Kane underwent surgery to repair the damage, meaning both his club and national team will have to play a significant stretch of games without their star striker.",
+          "keyTerms": [
+            {
+              "term": "Bundesliga",
+              "definition": "The top professional football league in Germany."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 5,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9d89/live/9aee2530-e5ac-11f1-99a1-253766e7ad8b.jpg",
+          "sources": [
+            {
+              "name": "BBC Sport",
+              "title": "Bayern draw with Cologne as Kane picks up ankle injury",
+              "url": "https://www.bbc.co.uk/sport/football/videos/ck7v2nz0lp32o?at_medium=RSS&at_campaign=rss"
+            }
+          ]
+        },
+        {
+          "id": "sports-top-2",
+          "headline": "Australia Defeats England in Tense T20 Cricket Match",
+          "summary": "Nikhil Chaudhary helped Australia beat England in a close cricket match. The game went down to the final over and featured tense moments.",
+          "whyItMatters": "Cricket fans experienced a thrilling finish that gives Australia an early edge in the series.",
+          "explainer": "Unlikely Australia international Nikhil Chaudhary rattled England to secure a tense and tetchy victory in the first T20 match. The game came down to a dramatic final over where Australia narrowly outplayed the English side to claim the win in an ill-tempered series opener.",
+          "keyTerms": [
+            {
+              "term": "T20",
+              "definition": "A fast-paced format of cricket where each team bats for only twenty overs."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 4,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a75a/live/19e88440-e5a1-11f1-a094-5fdc692f3e33.jpg",
+          "sources": [
+            {
+              "name": "BBC Sport",
+              "title": "Australia's Chaudhary downs England in tetchy first T20",
+              "url": "https://www.bbc.co.uk/sport/cricket/articles/cme39qlevnrqo?at_medium=RSS&at_campaign=rss"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-nfl",
+      "title": "Sports · NFL",
+      "bricks": [
+        {
+          "id": "sports-nfl-0",
+          "headline": "Cardinals QB Carson Beck deals with back spasms",
+          "summary": "Arizona Cardinals rookie quarterback Carson Beck is dealing with back spasms. Veteran Josh Johnson may start Sunday's game against the Kansas City Chiefs instead.",
+          "whyItMatters": "Fans will see a backup quarterback start instead of the rookie.",
+          "explainer": "The Arizona Cardinals are getting ready for their game against the Kansas City Chiefs by preparing veteran quarterback Josh Johnson to start. Their rookie quarterback, Carson Beck, has been dealing with back spasms. Coach Mike LaFleur shared the news on Friday. Back spasms can make it very hard for a player to move and play safely, so teams often turn to backup players in these situations.",
+          "keyTerms": [],
+          "disagreement": null,
+          "update": null,
+          "importance": 4,
+          "image": "https://a.espncdn.com/photo/2026/0827/r1707746_600x400_3-2.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Cardinals QB Carson Beck dealing with back spasms; Josh Johnson may start",
+              "url": "https://www.espn.com/nfl/story/_/id/50542595/cardinals-qb-beck-dealing-back-spasms-johnson-start"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-nba",
+      "title": "Sports · NBA",
+      "bricks": [
+        {
+          "id": "sports-nba-0",
+          "headline": "James Harden Passes Kobe Bryant with 51 Points",
+          "summary": "James Harden scored 51 points in a game. This was the 26th time in his career he has scored at least 50 points. He passed Kobe Bryant for the third-most 50-point games in NBA history.",
+          "whyItMatters": "This historic scoring milestone moves James Harden past a basketball legend into rare company in NBA history.",
+          "explainer": "In professional basketball, scoring 50 points or more in a single game is a rare and difficult feat accomplished only by elite players. James Harden reached this milestone for the 26th time in his career. By doing so, he surpassed late Los Angeles Lakers star Kobe Bryant, who finished his career with 25 games of 50 or more points. Only a few players in the history of the league have achieved more 50-point games than Harden, marking a major individual achievement for the veteran guard.",
+          "keyTerms": [],
+          "disagreement": null,
+          "update": null,
+          "importance": 5,
+          "image": "https://a.espncdn.com/photo/2026/1121/r1748814_600x400_3-2.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "James Harden explodes for 51, passes Kobe for third-most 50-point games",
+              "url": "https://www.espn.com/nba/story/_/id/50546191/james-harden-explodes-51-points-propels-cavs-pacers"
+            }
+          ]
+        },
+        {
+          "id": "sports-nba-1",
+          "headline": "Raptors Beat Pistons to End Losing Streak",
+          "summary": "Scottie Barnes scored 29 points for the Toronto Raptors. He hit a key layup with 14 seconds left in the game. The basket helped the Raptors beat the Detroit Pistons 105-102 to end a six-game losing streak.",
+          "whyItMatters": "This win stops a long losing streak for the Raptors and gives the team a much-needed victory in the NBA Cup.",
+          "explainer": "The Toronto Raptors snapped a painful six-game losing streak by defeating the Detroit Pistons 105-102 in an NBA Cup game. Scottie Barnes led the way for Toronto with 29 points. With the game on the line in the final seconds, Barnes drove to the basket and scored a layup with just 14 seconds left on the clock to secure the win. The victory brings relief to the team and its fans after a tough stretch of losses.",
+          "keyTerms": [],
+          "disagreement": null,
+          "update": null,
+          "importance": 4,
+          "image": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909308.png?templateId=espn.applewatch.awayhome.1",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Scottie Barnes scores 29, including key layup, as Raptors end skid with 105-102 win over Pistons",
+              "url": "http://www.espn.com/nba/recap?gameId=401909308"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-wnba",
+      "title": "Sports · WNBA",
+      "bricks": [
+        {
+          "id": "sports-wnba-0",
+          "headline": "Indiana Fever Search for New Basketball Boss",
+          "summary": "The Indiana Fever are looking for a new leader for their basketball operations. Sources say the team is talking to top finalists for the job.",
+          "whyItMatters": "This choice will shape the team's future roster, coaching staff, and overall success.",
+          "explainer": "The Indiana Fever are currently interviewing a group of finalists to find their new head of basketball operations. This important role involves making big decisions for the WNBA team, including building the roster and guiding the franchise's future direction. Finding the right person is a key step for the team as they prepare for upcoming seasons and try to build a winning culture.",
+          "keyTerms": [],
+          "disagreement": null,
+          "update": null,
+          "importance": 4,
+          "image": "https://a.espncdn.com/photo/2023/1209/r1264312_2_600x400_3-2.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Sources: Fever working through finalists to head basketball operations",
+              "url": "https://www.espn.com/wnba/story/_/id/50515575/fever-finalists-head-basketball-operations"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-mlb",
+      "title": "Sports · MLB",
+      "bricks": [
+        {
+          "id": "sports-mlb-0",
+          "headline": "MLB Owners Stand Firm on Salary Cap as Lockout Looms",
+          "summary": "Major League Baseball owners refuse to agree to a deal without a salary cap. This standoff could lead to a work stoppage and threaten the 2027 season.",
+          "whyItMatters": "A lockout could delay or cancel games, disrupting the season for fans and threatening paychecks for players and stadium workers.",
+          "explainer": "Major League Baseball and its players are currently negotiating a new collective bargaining agreement, which sets the rules for pay and working conditions. The league's owners are pushing hard for a salary cap, a rule that limits how much money teams can spend on players. The players' union strongly opposes this limit. Because neither side is willing to back down, there is a growing fear of a lockout, where owners shut down the facilities and stop the season until a new agreement is reached.",
+          "keyTerms": [
+            {
+              "term": "Salary cap",
+              "definition": "A rule that puts a limit on how much money a sports team can spend on paying its players."
+            },
+            {
+              "term": "Lockout",
+              "definition": "When team owners close the doors and stop work during a labor dispute so games cannot be played."
+            }
+          ],
+          "disagreement": null,
+          "update": "Commissioner Rob Manfred confirmed that owners will not compromise on the salary cap demand.",
+          "importance": 9,
+          "image": "https://a.espncdn.com/photo/2014/0130/mlb_g_baseball01jr_1296x729.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Rob Manfred says MLB owners won't compromise on salary cap",
+              "url": "https://www.espn.com/mlb/story/_/id/50523785/rob-manfred-says-mlb-owners-compromise-salary-cap"
+            }
+          ]
+        },
+        {
+          "id": "sports-mlb-1",
+          "headline": "MLB Teams Swap Players in Major Offseason Trades",
+          "summary": "Major League Baseball teams are busy making player trades during the winter. Several infielders, catchers, and pitchers are moving to new cities as teams build their rosters.",
+          "whyItMatters": "Fans will see familiar players wearing different uniforms next season, which can change how competitive their favorite teams are.",
+          "explainer": "During the baseball offseason, teams trade players with each other to fill weaknesses on their rosters. Recently, the Dodgers acquired infielder Royce Lewis from the Twins, and the Mariners and Royals completed a six-player deal. Other teams like the Red Sox and Angels also traded for new players. These moves help clubs prepare for the upcoming spring training and regular season by bringing in fresh talent.",
+          "keyTerms": [],
+          "disagreement": null,
+          "update": "Teams continue to swap players and make roster changes across the league.",
+          "importance": 6,
+          "image": "https://a.espncdn.com/photo/2026/0719/r1691220_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Dodgers acquire infielder Royce Lewis in trade with Twins",
+              "url": "https://www.espn.com/mlb/story/_/id/50544410/sources-dodgers-acquire-royce-lewis-trade-twins"
+            },
+            {
+              "name": "ESPN",
+              "title": "Angels acquire infielder Jace Jung from Tigers for cash",
+              "url": "https://www.espn.com/mlb/story/_/id/50523537/angels-acquire-infielder-jace-jung-tigers-cash"
+            },
+            {
+              "name": "ESPN",
+              "title": "Red Sox acquire catcher Nick Fortes in trade with Rays",
+              "url": "https://www.espn.com/mlb/story/_/id/50523687/red-sox-acquire-catcher-nick-fortes-trade-rays"
+            },
+            {
+              "name": "ESPN",
+              "title": "Royals send Maikel Garcia to Mariners in six-player trade",
+              "url": "https://www.espn.com/mlb/story/_/id/50521866/sources-royals-trade-maikel-garcia-mariners-miller"
+            }
+          ]
+        },
+        {
+          "id": "sports-mlb-2",
+          "headline": "Free Agents Sign New Contracts Across Major League Baseball",
+          "summary": "Baseball players and teams are agreeing to new contracts during the winter signing period. Pitchers and hitters are securing multi-year deals to stay with old teams or join new ones.",
+          "whyItMatters": "Player signings can completely change a team's chances of winning games in the upcoming season.",
+          "explainer": "When baseball players finish their current contracts, they can become free agents and sign with any team that wants them. Recently, pitcher Sonny Gray signed a two-year deal with the Twins, and Troy Melton agreed to a long-term extension with the Tigers. At the same time, some players were let go by their clubs when teams decided not to offer them new contracts for the upcoming year.",
+          "keyTerms": [
+            {
+              "term": "Free agent",
+              "definition": "A player who is not signed to a team and can choose to make a deal with any club."
+            }
+          ],
+          "disagreement": null,
+          "update": "More players are finding new homes or signing extensions as winter contract talks move forward.",
+          "importance": 6,
+          "image": "https://a.espncdn.com/photo/2026/1121/r1748801_600x600_1-1.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Luis Gil, former AL Rookie of the Year, cut by Yankees at tender deadline",
+              "url": "https://www.espn.com/mlb/story/_/id/50545849/yankees-cut-gil-24-al-rookie-year-tender-deadline"
+            },
+            {
+              "name": "ESPN",
+              "title": "Gavin Sheets returns to Padres with $11 million, 3-year deal",
+              "url": "https://www.espn.com/mlb/story/_/id/50545784/gavin-sheets-returns-san-diego-padres-11-million-3-year-deal"
+            },
+            {
+              "name": "ESPN",
+              "title": "Sources: Tigers, Troy Melton reach 6-year, $46.5M extension",
+              "url": "https://www.espn.com/mlb/story/_/id/50543664/sources-tigers-troy-melton-reach-6-year-465m-extension"
+            },
+            {
+              "name": "ESPN",
+              "title": "Sources: Jonathan Loáisiga returning to Yankees on 2-year deal",
+              "url": "https://www.espn.com/mlb/story/_/id/50540563/sources-jonathan-loaisiga-returning-yankees-2-year-deal"
+            },
+            {
+              "name": "ESPN",
+              "title": "Source: Mets reach 3-year, $12 million deal with Darwinzon Hernandez",
+              "url": "https://www.espn.com/mlb/story/_/id/50536986/mets-reach-3-year-deal-reliever-darwinzon-hernandez"
+            },
+            {
+              "name": "ESPN",
+              "title": "Twins reunite with veteran right-hander Sonny Gray on two-year deal",
+              "url": "https://www.espn.com/mlb/story/_/id/50523817/twins-sign-veteran-right-hander-sonny-gray-two-year-deal"
+            },
+            {
+              "name": "ESPN",
+              "title": "White Sox, pitcher Dustin May reach 3-year, $52.5M contract",
+              "url": "https://www.espn.com/mlb/story/_/id/50511537/source-white-sox-dustin-reach-3-year-525m-contract"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-nhl",
+      "title": "Sports · NHL",
+      "bricks": [
+        {
+          "id": "sports-nhl-0",
+          "headline": "Mark Stone Sets Vegas Scoring Record",
+          "summary": "Mark Stone earned his 418th career point to become the all-time leading scorer for the Vegas Golden Knights. His team lost the game 4-3 in a shootout to the Dallas Stars.",
+          "whyItMatters": "This milestone marks a historic individual achievement for the franchise and its fans, even though the team lost the game.",
+          "explainer": "In a recent game against the Dallas Stars, Vegas Golden Knights player Mark Stone reached a major milestone. By getting an assist, he recorded his 418th career point, making him the all-time leading scorer for the Vegas franchise. Despite his personal record-breaking night, the Golden Knights lost the game 4-3 in a shootout after Tyler Seguin scored the deciding goal for Dallas.",
+          "keyTerms": [],
+          "disagreement": null,
+          "update": "Mark Stone set the new franchise scoring record while playing the Dallas Stars.",
+          "importance": 3,
+          "image": "https://a.espncdn.com/photo/2026/1120/r1748446_600x400_3-2.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Mark Stone becomes Golden Knight's all-time scoring leader in loss to Stars",
+              "url": "https://www.espn.com/nhl/story/_/id/50538736/mark-stone-becomes-golden-knight-all-scoring-leader"
+            },
+            {
+              "name": "ESPN",
+              "title": "Seguin, Stars edge Golden Knights 4-3 in shootout as Mark Stone sets Vegas’ franchise scoring record",
+              "url": "http://www.espn.com/nhl/recap?gameId=401892753"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-cfb",
+      "title": "Sports · College Football",
+      "bricks": [
+        {
+          "id": "sports-cfb-0",
+          "headline": "House to Vote on Bill Regarding College Sports Expansion",
+          "summary": "Federal lawmakers introduced an updated bill that would let college athletic conferences grow to 22 schools. The U.S. House of Representatives plans to vote on the proposal in early December with support from President Donald Trump.",
+          "whyItMatters": "This law could change how college sports leagues are organized, potentially impacting which teams play each other and how schools manage their athletic programs.",
+          "explainer": "The Protect College Sports Act is a piece of proposed federal legislation aimed at regulating how college athletic conferences operate. If passed, the revised version would allow conferences to expand to a maximum of 22 member schools. This shift comes as many top-tier college programs have recently left their traditional leagues for larger conferences in hopes of higher television revenue and better competition. The bill seeks to set new federal standards for these changes. Proponents argue it provides much-needed structure, while critics are concerned about the impact on smaller schools and the long-term traditions of regional athletics. A vote is expected by the U.S. House of Representatives in the first week of December, and the bill has received public backing from President Donald Trump.",
+          "keyTerms": [
+            {
+              "term": "Conference",
+              "definition": "A group of colleges that compete against each other in sports."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 7,
+          "image": "https://a.espncdn.com/photo/2026/1121/r1748784_600x400_3-2.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Revised Protect College Sports Act allows conferences to expand up to 22 schools",
+              "url": "https://www.espn.com/college-sports/story/_/id/50545220/protect-college-sports-act-revised-donald-trump-voices-support"
+            }
+          ]
+        },
+        {
+          "id": "sports-cfb-1",
+          "headline": "Michigan and Texas A&M Make Quarterback Changes",
+          "summary": "Both Michigan and Texas A&M are switching quarterbacks for this week's games. Bryce Underwood will start for Michigan against UCLA, while Brady Hart takes over for Texas A&M against Oklahoma.",
+          "whyItMatters": "Quarterback changes often dictate a team's offensive success and can determine whether a program wins or loses crucial late-season games.",
+          "explainer": "College football teams frequently adjust their lineups during the season to improve performance or adapt to specific opponents. Michigan has chosen to return to Bryce Underwood as their starter following a period where Tommy Carr held the position. Meanwhile, Texas A&M is moving in a different direction by benching Marcel Reed in favor of sophomore Brady Hart. Coaches make these decisions based on practice performance and game-day results. For the fans and players, these switches are significant because the quarterback position is central to the team's ability to move the ball and score points. Both teams are making these changes as they prepare for challenging matchups in their respective schedules.",
+          "keyTerms": [],
+          "disagreement": null,
+          "update": null,
+          "importance": 4,
+          "image": "https://a.espncdn.com/photo/2026/0302/r1622221_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Sources: Michigan expected to start Bryce Underwood vs. UCLA",
+              "url": "https://www.espn.com/college-football/story/_/id/50549879/sources-michigan-expected-start-bryce-underwood-vs-ucla"
+            },
+            {
+              "name": "ESPN",
+              "title": "Sources: Texas A&M expected to bench Marcel Reed, start Brady Hart",
+              "url": "https://www.espn.com/college-football/story/_/id/50549670/sources-texas-expected-bench-marcel-reed-vs-sooners"
+            }
+          ]
+        },
+        {
+          "id": "sports-cfb-2",
+          "headline": "Toledo Defeats Bowling Green 19-0",
+          "summary": "Toledo earned its fifth straight win by beating Bowling Green on Friday night. The victory included a 35-yard touchdown pass and four successful field goals.",
+          "whyItMatters": "This win keeps Toledo on a strong path for their current season standings.",
+          "explainer": "Toledo continued their successful season by shutting out Bowling Green in a 19-0 victory. The win was led by quarterback John Alan Richter, who connected with Adjatay Dabbs for a 35-yard touchdown pass. Additionally, kicker Reice Griffith played a major role by making four field goals, which was a career-high for him. This result marks the fifth game in a row that Toledo has won. These games are important for teams as they look to build momentum, improve their rankings within their conference, and eventually qualify for postseason bowl games.",
+          "keyTerms": [],
+          "disagreement": null,
+          "update": null,
+          "importance": 3,
+          "image": "https://s.espncdn.com/stitcher/sports/football/college-football/events/401866468.png?templateId=espn.applewatch.awayhome.1",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Richter throws TD pass to Dabbs, Griffith kicks 4 FGs for Toledo in 19-0 win over BGSU",
+              "url": "http://www.espn.com/ncf/recap?gameId=401866468"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-cbb",
+      "title": "Sports · College Basketball",
+      "bricks": [
+        {
+          "id": "sports-cbb-0",
+          "headline": "Arkansas Beats Mississippi Valley State",
+          "summary": "No. 20 Arkansas defeated Mississippi Valley State 92-48. Jeremiah Wilkinson led the team with 28 points.",
+          "whyItMatters": "This result affects the team's standing in national college basketball rankings.",
+          "explainer": "Arkansas' men's basketball team, ranked 20th in the nation, secured a dominant victory over Mississippi Valley State. The win was led by Jeremiah Wilkinson, who made eight three-pointers and scored 28 points in total. Billy Richmond III also contributed 18 points to the team's victory. The win helps Arkansas maintain its momentum and position in the rankings as the team competes through its regular-season schedule.",
+          "keyTerms": [
+            {
+              "term": "Three-pointer",
+              "definition": "A shot made from outside a designated arc on the court worth three points."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 3,
+          "image": "https://s.espncdn.com/stitcher/sports/basketball/mens-college-basketball/events/401925740.png?templateId=espn.applewatch.awayhome.1",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Wilkinson hits 8 3-pointers and helps No. 20 Arkansas beat Mississippi Valley State 92-48",
+              "url": "http://www.espn.com/ncb/recap?gameId=401925740"
+            }
+          ]
+        },
+        {
+          "id": "sports-cbb-1",
+          "headline": "Cameron Fens Makes North Carolina Debut",
+          "summary": "Cameron Fens played his first game for North Carolina in an 88-72 win over Marshall. Fens recently returned to college basketball following a legal dispute over his playing eligibility.",
+          "whyItMatters": "Fens' return adds depth to North Carolina's roster as they progress through their season.",
+          "explainer": "Cameron Fens, a seven-foot tall transfer player, played in his first game for the North Carolina Tar Heels in their victory against Marshall. Fens previously filed a lawsuit to recover a season cut short by a foot injury, which he said was misdiagnosed. A court granted him a temporary restraining order, allowing him to resume his career. His debut performance included nine points, providing a boost to North Carolina's lineup during the non-conference game.",
+          "keyTerms": [
+            {
+              "term": "Transfer",
+              "definition": "A student athlete who moves from one college or university to another."
+            },
+            {
+              "term": "Restraining order",
+              "definition": "A temporary court order that requires someone to do or stop doing a specific action."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 3,
+          "image": "https://a.espncdn.com/photo/2026/1121/r1748857_600x600_1-1.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "South Dakota transfer Cameron Fens makes UNC debut in 88-72 win over Marshall",
+              "url": "https://www.espn.com/mens-college-basketball/story/_/id/50547633/cameron-fens-makes-north-carolina-debut-tar-heels-cruise"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-mls",
+      "title": "Sports · MLS",
+      "bricks": [
+        {
+          "id": "sports-mls-0",
+          "headline": "FC Cincinnati Beats Orlando in MLS Playoff",
+          "summary": "FC Cincinnati won 3-1 against Orlando City in an MLS wild card match. This win eliminates Orlando City from the playoffs.",
+          "whyItMatters": "This result changes which team moves forward in the MLS Cup tournament.",
+          "explainer": "In professional soccer, a wild card match is a single game played between teams to decide who advances to the main playoff bracket. FC Cincinnati defeated Orlando City in this match, which means Orlando City's season is now over. For the fans, this loss ends their team's chance at winning the league championship this year. FC Cincinnati will continue to play in the next round of the playoffs.",
+          "keyTerms": [
+            {
+              "term": "Wild card",
+              "definition": "A playoff spot given to a team that did not win its division but qualifies through a separate match."
+            },
+            {
+              "term": "Playoffs",
+              "definition": "A series of games held after the regular season to determine the final champion."
+            }
+          ],
+          "disagreement": null,
+          "update": "This follows yesterday's report of Cincinnati's victory over Orlando.",
+          "importance": 5,
+          "image": "https://a.espncdn.com/photo/2026/1120/r1748420_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Dike exits wild card loss injured as Orlando's season ends against Cincinnati",
+              "url": "https://www.espn.com/soccer/story/_/id/50537610/dike-wild-card-loss-injured-orlando-season-ends-cincinnati"
+            }
+          ]
+        },
+        {
+          "id": "sports-mls-1",
+          "headline": "MLS Player Salaries Rise, Messi Leads",
+          "summary": "Lionel Messi is the highest-paid player in the MLS. The league now has five players earning at least $10 million each.",
+          "whyItMatters": "Higher salaries for top stars can affect how teams manage their budgets to build a winning roster.",
+          "explainer": "Major League Soccer (MLS) continues to see rising player pay as the league grows in popularity. While Lionel Messi remains the league's top earner, more players are reaching high salary milestones. Currently, five players earn $10 million or more per year. This shift reflects the league's efforts to attract global talent and increase the quality of play on the field.",
+          "keyTerms": [
+            {
+              "term": "Salary",
+              "definition": "The money a player receives from their team for playing soccer."
+            }
+          ],
+          "disagreement": null,
+          "update": "This provides further details on the rising pay trends for MLS players.",
+          "importance": 4,
+          "image": "https://a.espncdn.com/photo/2026/1011/r1728980_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Messi leads way as MLS salaries rise; Union's Sullivan checks in at $614K",
+              "url": "https://www.espn.com/soccer/story/_/id/50526796/messi-leads-mls-salaries-rise-sullivan-614k"
+            }
+          ]
+        },
+        {
+          "id": "sports-mls-2",
+          "headline": "FC Cincinnati Nears Deal for Women's Team",
+          "summary": "FC Cincinnati is close to a deal to bring a professional women's soccer team to the city. The plan could move Racing Louisville FC to Cincinnati by 2028.",
+          "whyItMatters": "This move would add a new professional sports franchise to Cincinnati, changing the local sports landscape.",
+          "explainer": "The ownership group behind the men's MLS team in Cincinnati is working on a plan to add a professional women's team. They are reportedly close to an agreement to acquire Racing Louisville FC. If the deal is finished, the women's team would relocate to Cincinnati in 2028. This would bring a National Women's Soccer League (NWSL) team to the city.",
+          "keyTerms": [
+            {
+              "term": "NWSL",
+              "definition": "The top professional women's soccer league in the United States."
+            }
+          ],
+          "disagreement": null,
+          "update": "This continues the story about potential expansion into women's professional soccer.",
+          "importance": 4,
+          "image": "https://a.espncdn.com/photo/2026/1117/r1747236_1024x576_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Sources: MLS side FC Cincy nearing deal to acquire NWSL's Racing",
+              "url": "https://www.espn.com/soccer/story/_/id/50513113/mls-fc-cincy-advanced-talks-acquire-nwsl-racing-louisville"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-epl",
+      "title": "Sports · Premier League",
+      "bricks": [
+        {
+          "id": "sports-epl-0",
+          "headline": "Manchester City held to draw by Fulham",
+          "summary": "Manchester City tied 1-1 with Fulham this Saturday. The result means City has now gone four games without a win.",
+          "whyItMatters": "The team's poor form affects its chances of winning the league title, which matters to fans and the club's financial success.",
+          "explainer": "Manchester City is a top team that usually wins its games, but they have struggled recently. Their draw against Fulham was unexpected, as they had beaten that team many times in a row before this weekend. This is part of a longer slump for City, who have not won in their last four matches. These dropped points make it harder for the club to stay at the top of the standings. Fans and experts are watching to see if the team can fix these problems quickly to stay in the race for the championship.",
+          "keyTerms": [
+            {
+              "term": "Standings",
+              "definition": "The list showing which teams have the most points and where they sit in the league rankings."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 6,
+          "image": "https://a.espncdn.com/photo/2026/1121/r1748950_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Man City, Enzo Maresca at a crossroads after Premier League stumble",
+              "url": "https://www.espn.com/soccer/story/_/id/50550244/man-city-fulham-premier-league-erling-haaland-maresca"
+            },
+            {
+              "name": "ESPN",
+              "title": "Fulham finally end 15-year losing run against Man City",
+              "url": "https://www.espn.com/soccer/story/_/id/50550207/fulham-man-city-draw-15-year-losing-streak-snapped"
+            },
+            {
+              "name": "ESPN",
+              "title": "Man City draw 1-1 with Fulham, City's winless streak extends to four matches",
+              "url": "http://www.espn.com/soccer/report/_/gameId/401879233"
+            }
+          ]
+        },
+        {
+          "id": "sports-epl-1",
+          "headline": "Pochettino faces major challenges at Manchester United",
+          "summary": "Mauricio Pochettino has begun his work as the new Manchester United head coach. He aims to fix the team's struggling form and help players learn how to win again.",
+          "whyItMatters": "The team's performance impacts their standings, as they are currently near the relegation zone, which is a significant drop for a major club.",
+          "explainer": "Manchester United has had a difficult start to the season and is currently performing poorly in the league. Mauricio Pochettino has been hired as the new head coach to turn things around. His first tasks include evaluating the current players, deciding on future transfers, and creating a winning culture within the squad. While he brings experience from other jobs, he faces pressure to improve the club's results quickly. The club is also dealing with off-field issues, such as security concerns regarding drones flying over their training ground.",
+          "keyTerms": [
+            {
+              "term": "Relegation zone",
+              "definition": "The bottom positions in the league standings that could result in a team being sent down to a lower league."
+            }
+          ],
+          "disagreement": null,
+          "update": "The drone operator who filmed the team's training session has apologized, calling his actions unethical.",
+          "importance": 6,
+          "image": "https://a.espncdn.com/photo/2026/1120/r1748696_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Mauricio Pochettino's Man United moment has arrived. Is he ready?",
+              "url": "https://www.espn.com/soccer/story/_/id/50543478/pochettino-manchester-united-debut-liverpool"
+            },
+            {
+              "name": "ESPN",
+              "title": "Will Mauricio Pochettino start strongly at Man United? What his career stats say",
+              "url": "https://www.espn.com/soccer/story/_/id/50509480/mauricio-pochettino-manchester-united-tottenham-chelsea"
+            },
+            {
+              "name": "ESPN",
+              "title": "Pochettino: 'Massive' pressure with USMNT makes me better coach for Man United",
+              "url": "https://www.espn.com/soccer/story/_/id/50542344/mauricio-pochettino-usa-man-united-coach"
+            },
+            {
+              "name": "ESPN",
+              "title": "Man United CEO Berrada: Club 'heading in right direction' despite relegation form",
+              "url": "https://www.espn.com/soccer/story/_/id/50541948/omar-berrada-man-united-ceo-interview-mauricio-pochettino"
+            },
+            {
+              "name": "ESPN",
+              "title": "Mauricio Pochettino wants input on Man United transfer decisions",
+              "url": "https://www.espn.com/soccer/story/_/id/50540980/mauricio-pochettino-man-united-transfers"
+            },
+            {
+              "name": "ESPN",
+              "title": "Transfer rumors, news: Jarrad Branthwaite to join Manchester United?",
+              "url": "https://www.espn.com/soccer/story/_/id/50529152/transfer-rumors-news-cristiano-ronaldo-premier-league-carlos-forbs"
+            },
+            {
+              "name": "ESPN",
+              "title": "Man United to take legal action if drone interruption happens again - sources",
+              "url": "https://www.espn.com/soccer/story/_/id/50540789/manchester-united-drone-mauricio-pochettino"
+            },
+            {
+              "name": "ESPN",
+              "title": "Mauricio Pochettino, Man United have advantage over Liverpool - Andoni Iraola",
+              "url": "https://www.espn.com/soccer/story/_/id/50540745/liverpool-manchester-united-mauricio-pochettino"
+            },
+            {
+              "name": "ESPN",
+              "title": "Mauricio Pochettino's Man United squad audit: Should Fernandes, Rashford stay?",
+              "url": "https://www.espn.com/soccer/story/_/id/50519892/manchester-united-pochettino-fernandes-rashford-transfers"
+            },
+            {
+              "name": "ESPN",
+              "title": "Drone operator who filmed Mauricio Pochettino at Man United apologises",
+              "url": "https://www.espn.com/soccer/story/_/id/50533559/mauricio-pochettino-man-united-training-drone-filmed-online"
+            },
+            {
+              "name": "ESPN",
+              "title": "Mauricio Pochettino: Man United players must relearn 'about being winners'",
+              "url": "https://www.espn.com/soccer/story/_/id/50529858/mauricio-pochettino-man-united-liverpool"
+            },
+            {
+              "name": "ESPN",
+              "title": "Manchester United finally get Mauricio Pochettino after a decade of near misses",
+              "url": "https://www.espn.com/soccer/story/_/id/50502738/manchester-united-pochettino-manager-hiring-decade"
+            }
+          ]
+        },
+        {
+          "id": "sports-epl-2",
+          "headline": "Arsenal's Saka to miss another month",
+          "summary": "Arsenal winger Bukayo Saka will remain out for four more weeks with a thigh injury. The team has also changed rules to stop team news from leaking through fantasy sports games.",
+          "whyItMatters": "Losing a star player for a long time can hurt the team's ability to win matches and compete for trophies.",
+          "explainer": "Bukayo Saka has been out for a month already and needs more time to recover from a thigh injury. His manager, Mikel Arteta, confirmed he will miss at least another month. At the same time, Arsenal is working to keep team information private. They have taken steps to ensure players do not accidentally share team news through their activity in popular online fantasy sports games, where fans pick real-life players for virtual teams.",
+          "keyTerms": [
+            {
+              "term": "Fantasy Premier League",
+              "definition": "An online game where people pick real professional players to form a team and earn points based on real game results."
+            }
+          ],
+          "disagreement": null,
+          "update": "The club confirmed Saka's injury recovery will take at least another month.",
+          "importance": 5,
+          "image": "https://a.espncdn.com/photo/2026/1023/r1735028_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Arsenal's Bukayo Saka out for a month, William Saliba available - Mikel Arteta",
+              "url": "https://www.espn.com/soccer/story/_/id/50540215/arsenal-saka-saliba-arteta-injury"
+            },
+            {
+              "name": "ESPN",
+              "title": "Mikel Arteta: Steps taken to avoid team leaks due to Fantasy Premier League",
+              "url": "https://www.espn.com/soccer/story/_/id/50539955/arsenal-arteta-fantasy-premier-league-injuries-team-news"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-laliga",
+      "title": "Sports · La Liga",
+      "bricks": [
+        {
+          "id": "sports-laliga-0",
+          "headline": "Barcelona faces defensive player shortage",
+          "summary": "Injuries to Andreas Christensen and Pau Cubarsí have left Barcelona with few defenders. The team is now facing a difficult challenge for their upcoming game against Villarreal.",
+          "whyItMatters": "This situation could affect Barcelona's performance and their standing in the league table during the upcoming match.",
+          "explainer": "In professional soccer, a team's defense is made up of specific players responsible for stopping the other team from scoring. When several key players in these positions are injured at the same time, the coach must find new players to fill those roles on short notice. This can disrupt the team's balance and strategy. For Barcelona, this 'defensive crisis' means they may have to change their usual way of playing to protect their goal against Villarreal. Fans and analysts will watch closely to see if the team can adapt effectively or if the lack of experienced defenders leads to more goals allowed.",
+          "keyTerms": [
+            {
+              "term": "Defensive crisis",
+              "definition": "A situation where a team has too many injured players who usually prevent the other team from scoring."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 5,
+          "image": "https://a.espncdn.com/photo/2026/1121/r1748925_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Andreas Christensen, Pau Cubarsí injuries leave Barcelona with defensive crisis",
+              "url": "https://www.espn.com/soccer/story/_/id/50549701/barcelona-injuries-team-news-christensen-cubarsi"
+            }
+          ]
+        },
+        {
+          "id": "sports-laliga-1",
+          "headline": "Real Madrid president criticizes La Liga leader",
+          "summary": "Real Madrid president Florentino Pérez said it is wrong for La Liga president Javier Tebas to keep his job. Pérez called for his resignation.",
+          "whyItMatters": "This public disagreement between top leaders can create tension in how the league is run and managed.",
+          "explainer": "La Liga is the top professional soccer league in Spain. The league is led by a president, currently Javier Tebas, who makes big decisions for all the teams. Florentino Pérez is the president of Real Madrid, one of the most famous clubs in the world. When the head of a major team publicly calls for the leader of the entire league to quit, it shows a deep disagreement over how the league's business, money, or rules should be handled. This kind of conflict rarely impacts a single game directly, but it can influence future decisions about how the league is organized.",
+          "keyTerms": [],
+          "disagreement": null,
+          "update": null,
+          "importance": 4,
+          "image": "https://a.espncdn.com/photo/2026/1121/r1748902_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Florentino Pérez: \"outrageous\" that LaLiga president Javier Tebas hasn't resigned",
+              "url": "https://www.espn.com/soccer/story/_/id/50549300/florentino-perez-javier-tebas-laliga-negreira-real-madrid"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-bundesliga",
+      "title": "Sports · Bundesliga",
+      "bricks": [
+        {
+          "id": "sports-bundesliga-0",
+          "headline": "Harry Kane to Miss Several Months After Surgery",
+          "summary": "Bayern Munich star Harry Kane will be out for several months. He had surgery on a torn ligament in his ankle. This injury happened during a game against Cologne.",
+          "whyItMatters": "Kane's absence significantly impacts Bayern Munich's chances in upcoming matches and their overall performance this season.",
+          "explainer": "Harry Kane, a key player for Bayern Munich, sustained a ligament tear in his left ankle during a match against Cologne. Following the injury, he underwent surgery and is expected to be sidelined for a few months. This recovery timeline means Kane will miss a significant portion of the season. For fans and the club, this is a major loss as they prepare for the most important games later in the year. The team will now need to adjust its strategy to manage without one of its most productive players until he is fully healed and ready to return to the field.",
+          "keyTerms": [
+            {
+              "term": "Ligament",
+              "definition": "A tough band of tissue that holds bones together in a joint."
+            },
+            {
+              "term": "Sidelined",
+              "definition": "When a player cannot participate in games or training due to injury."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 6,
+          "image": "https://a.espncdn.com/photo/2026/1121/r1748887_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Harry Kane vows to be back for 'business end of the season' after ankle surgery",
+              "url": "https://www.espn.com/soccer/story/_/id/50548680/harry-kane-injury-bayern-munich"
+            },
+            {
+              "name": "ESPN",
+              "title": "Ballon d'Or winner Harry Kane out a 'few months' after ankle injury",
+              "url": "https://www.espn.com/soccer/story/_/id/50543079/harry-kane-injury-bayern-munich"
+            }
+          ]
+        },
+        {
+          "id": "sports-bundesliga-1",
+          "headline": "Union Criticizes Bayern Munich Over Musiala Treatment",
+          "summary": "The global players' union, FIFPRO, is criticizing Bayern Munich. They say the club has not met its duty of care to player Jamal Musiala. The union wants the club to better protect its player.",
+          "whyItMatters": "This dispute highlights the ongoing tension between professional clubs and players regarding athlete health and workplace standards.",
+          "explainer": "FIFPRO is an organization that represents professional soccer players around the world. They recently spoke out against how Bayern Munich has handled Jamal Musiala. The union claims the club has a duty of care, which means an employer's legal responsibility to keep their employees safe and healthy. While the statement from the union does not give specific details on the nature of the treatment, it serves as a formal public warning to the club to prioritize the well-being of their players. This situation draws attention to how sports clubs must balance the pressure to win games with the health of their athletes.",
+          "keyTerms": [
+            {
+              "term": "Duty of care",
+              "definition": "A legal obligation to avoid acts or omissions that could foreseeably harm another person."
+            },
+            {
+              "term": "FIFPRO",
+              "definition": "The worldwide representative organization for professional soccer players."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 4,
+          "image": "https://a.espncdn.com/photo/2026/1121/r1748965_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "FIFPRO slam Bayern Munich's treatment of Jamal Musiala: Club has 'duty of care'",
+              "url": "https://www.espn.com/soccer/story/_/id/50550461/fifpro-bayern-munich-jamal-musiala-rummenigge"
+            }
+          ]
+        },
+        {
+          "id": "sports-bundesliga-2",
+          "headline": "Bayern Munich Linked to Several Transfer Rumors",
+          "summary": "Bayern Munich is involved in several transfer rumors. Reports suggest the club wants to sign Liverpool's Rio Ngumoha. Meanwhile, other teams are looking at Bayern players Michael Olise and Jonathan Tah.",
+          "whyItMatters": "These rumors indicate potential changes to the team's roster, which could alter how Bayern Munich competes in future seasons.",
+          "explainer": "Transfer rumors are common in professional sports. Bayern Munich is reportedly interested in adding Liverpool teenager Rio Ngumoha to strengthen their attack. At the same time, other major European clubs are reportedly monitoring Bayern players, including Michael Olise and Jonathan Tah. Currently, these are only reports and discussions between clubs. No official contracts have been signed or final deals announced, meaning the players are still officially part of their current teams until a formal transfer agreement is reached.",
+          "keyTerms": [
+            {
+              "term": "Transfer",
+              "definition": "The process where a player moves from one professional sports club to another."
+            }
+          ],
+          "disagreement": null,
+          "update": "There is no new official news today; the club remains linked to these same potential player moves as reported yesterday.",
+          "importance": 3,
+          "image": "https://a.espncdn.com/photo/2026/0822/r1705443_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Transfer rumors, news: Real Madrid tracking Bayern Munich star Michael Olise",
+              "url": "https://www.espn.com/soccer/story/_/id/50469742/transfer-rumors-news-man-united-balogun-freeman-pochettino"
+            },
+            {
+              "name": "ESPN",
+              "title": "Transfer rumors, news: Bayern to sign Liverpool teenager Ngumoha?",
+              "url": "https://www.espn.com/soccer/story/_/id/50451226/transfer-rumors-news-gossip-manchester-united-brentford-nathan-collins"
+            },
+            {
+              "name": "ESPN",
+              "title": "Transfer rumors, news: Barcelona eye move for Bayern's Tah",
+              "url": "https://www.espn.com/soccer/story/_/id/50440438/transfer-rumors-news-gossip-arsenal-atletico-madrid"
+            },
+            {
+              "name": "ESPN",
+              "title": "Transfer rumors, news: Liverpool's Rio Ngumoha still a Bayern Munich target",
+              "url": "https://www.espn.com/soccer/story/_/id/50406508/transfer-rumors-news-liverpool-rio-ngumoha-bayern-munich"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-seriea",
+      "title": "Sports · Serie A",
+      "bricks": [
+        {
+          "id": "sports-seriea-0",
+          "headline": "Como Forward Moise Kean Out With Injury",
+          "summary": "Como forward Moise Kean will miss at least two months after getting hurt. He could miss upcoming Champions League matches.",
+          "whyItMatters": "The loss of a key player affects Como's chances to succeed in European tournament play.",
+          "explainer": "Moise Kean is a professional soccer player for the Italian club Como. He recently suffered an injury that will keep him off the field for at least eight weeks. Because Como is playing in the Champions League, which is a major tournament featuring the top clubs from across Europe, Kean's absence is significant. Missing these games against top-tier opponents like Paris Saint-Germain and Barcelona makes the team's path forward more difficult. Coaches will now have to adjust their strategies and use other players to fill his spot while he recovers.",
+          "keyTerms": [
+            {
+              "term": "Champions League",
+              "definition": "A major yearly soccer tournament featuring the best clubs in Europe."
+            },
+            {
+              "term": "Forward",
+              "definition": "A player whose main job is to score goals."
+            }
+          ],
+          "disagreement": null,
+          "update": "There is no new information since yesterday.",
+          "importance": 5,
+          "image": "https://a.espncdn.com/photo/2026/1120/r1748599_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Champions League upstarts Como suffer Moise Kean injury blow",
+              "url": "https://www.espn.com/soccer/story/_/id/50542117/como-moise-kean-injury-champions-league-italy-serie-a"
+            }
+          ]
+        },
+        {
+          "id": "sports-seriea-1",
+          "headline": "AC Milan and Juventus Interested in Folarin Balogun",
+          "summary": "Italian soccer clubs AC Milan and Juventus are reportedly interested in striker Folarin Balogun. He currently plays for AS Monaco in France.",
+          "whyItMatters": "If this player moves to Italy, it could change the offensive strength of these major teams.",
+          "explainer": "Folarin Balogun is a forward who plays for AS Monaco. Recent reports suggest that two of the most successful clubs in Italy, AC Milan and Juventus, are watching him for a possible transfer. These clubs want to strengthen their scoring power. If a deal happens, it would bring a new striker into the Serie A league, potentially shifting the competitive balance between the top Italian teams as they try to win domestic and international titles.",
+          "keyTerms": [
+            {
+              "term": "Transfer",
+              "definition": "The process where a player moves from one team to another."
+            },
+            {
+              "term": "Striker",
+              "definition": "An offensive player responsible for scoring most of the team's goals."
+            }
+          ],
+          "disagreement": null,
+          "update": "There is no new information since yesterday.",
+          "importance": 4,
+          "image": "https://a.espncdn.com/photo/2026/1117/r1747230_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Transfer rumors, news: AC Milan, Juventus eye USMNT's Folarin Balogun",
+              "url": "https://www.espn.com/soccer/story/_/id/50508862/transfer-rumors-news-manchester-united-newcastle-malick-thiaw"
+            }
+          ]
+        },
+        {
+          "id": "sports-seriea-2",
+          "headline": "Real Madrid Expected to Sign Como's Nico Paz",
+          "summary": "Reports suggest that Real Madrid wants to sign Nico Paz from Como. The move could happen next summer.",
+          "whyItMatters": "Losing a talented player like Paz would impact Como's roster depth and future performance.",
+          "explainer": "Nico Paz is an Argentina international player currently playing for the Italian club Como. Reports indicate that Real Madrid, one of the biggest clubs in the world, is interested in adding him to their squad. If this transfer moves forward, it would be a major shift for both the player and his current team. Moving to a club like Real Madrid is often seen as a significant step for a player's career, while Como would have to decide how to replace his skills on the field.",
+          "keyTerms": [
+            {
+              "term": "International",
+              "definition": "A player who has been chosen to represent their country's national team."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 3,
+          "image": "https://a.espncdn.com/photo/2026/1120/r1748712_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Transfer rumors, news: Real Madrid expected to sign Como's Nico Paz next summer",
+              "url": "https://www.espn.com/soccer/story/_/id/50539252/transfer-rumors-news-arsenal-world-cup-nico-williams-spain"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-ligue1",
+      "title": "Sports · Ligue 1",
+      "bricks": [
+        {
+          "id": "sports-ligue1-0",
+          "headline": "Italian clubs interested in Folarin Balogun",
+          "summary": "Italian soccer teams AC Milan and Juventus are showing interest in AS Monaco striker Folarin Balogun. He currently plays for the United States men's national soccer team.",
+          "whyItMatters": "This move could change the team's roster and scoring ability for next season.",
+          "explainer": "Folarin Balogun is a talented striker who plays for the French club AS Monaco. Recently, reports have suggested that major Italian clubs like AC Milan and Juventus are watching him. Balogun is also known for playing for the United States men's national soccer team. While nothing is final, these rumors mean other teams are thinking about adding him to their rosters. If he moves, it could impact how his current team performs and change his own professional path in the world of European soccer.",
+          "keyTerms": [
+            {
+              "term": "Striker",
+              "definition": "A player whose main job is to score goals."
+            },
+            {
+              "term": "Transfer",
+              "definition": "When a player moves from one team to another."
+            }
+          ],
+          "disagreement": null,
+          "update": "There is no new information today regarding the potential transfer interest in Folarin Balogun.",
+          "importance": 3,
+          "image": "https://a.espncdn.com/photo/2026/1117/r1747230_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Transfer rumors, news: AC Milan, Juventus eye USMNT's Folarin Balogun",
+              "url": "https://www.espn.com/soccer/story/_/id/50508862/transfer-rumors-news-manchester-united-newcastle-malick-thiaw"
+            }
+          ]
+        },
+        {
+          "id": "sports-ligue1-1",
+          "headline": "Manchester United scouts Mahamadou Nagida",
+          "summary": "English club Manchester United is watching Rennes defender Mahamadou Nagida. The club is considering him as a possible future player.",
+          "whyItMatters": "Scouting reports help clubs plan for future needs, which may affect the team's long-term lineup.",
+          "explainer": "Manchester United, a well-known English soccer club, has been sending scouts to watch Mahamadou Nagida. Nagida is a left-back who currently plays for the French team Rennes. Scouting is a process where teams observe players to see if they would be a good fit for their roster in the future. While being watched by scouts does not mean a player will definitely leave their team, it is the first step in the process of signing new players. Fans and observers keep track of these reports to see how their favorite clubs might change their squads in the coming years.",
+          "keyTerms": [
+            {
+              "term": "Left-back",
+              "definition": "A defensive player who plays on the left side of the field."
+            },
+            {
+              "term": "Scout",
+              "definition": "A person who watches other players to see if they should be hired by their team."
+            }
+          ],
+          "disagreement": null,
+          "update": "There is no new information today regarding Manchester United's interest in Mahamadou Nagida.",
+          "importance": 3,
+          "image": "https://a.espncdn.com/photo/2026/1108/r1742863_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Transfer rumors, news: Man United scout defender Mahamadou Nagida",
+              "url": "https://www.espn.com/soccer/story/_/id/50418356/transfer-rumors-news-man-united-rennes-defender-mahamadou-nagida"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-ucl",
+      "title": "Sports · Champions League",
+      "bricks": [
+        {
+          "id": "sports-ucl-0",
+          "headline": "Nike to Supply Champions League Match Balls",
+          "summary": "Starting next season, Nike will replace Adidas as the official provider of match balls for the UEFA Champions League. Fans are wondering if the tournament's iconic star-patterned ball design will change as a result.",
+          "whyItMatters": "While it does not change game rules, the equipment used by professional players often influences the ball designs available for fans to purchase.",
+          "explainer": "The UEFA Champions League is a major soccer competition where top clubs from across Europe play against each other. For many years, the ball used in these matches has been famous for its unique design featuring large stars. Recently, it was announced that Nike will take over from Adidas as the official ball supplier starting next season. This change marks a significant update for the league's visual identity. Many fans are now curious if the new partnership will lead to a brand new look for the ball or if the classic star design will stay the same.",
+          "keyTerms": [
+            {
+              "term": "UEFA",
+              "definition": "The organization that manages soccer tournaments for clubs and national teams across Europe."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 3,
+          "image": "https://a.espncdn.com/photo/2026/0826/r1707048_2_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "As Nike replaces Adidas, is UEFA Champions League star ball on its way out?",
+              "url": "https://www.espn.com/soccer/story/_/id/49730333/uefa-champions-league-adidas-nike-ball"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-f1",
+      "title": "Sports · Formula 1",
+      "bricks": [
+        {
+          "id": "sports-f1-0",
+          "headline": "Formula 1 to use V8 engines by 2030",
+          "summary": "Formula 1 leaders have agreed to switch back to V8 turbo hybrid engines in 2030. They are still working on the final rules for this change.",
+          "whyItMatters": "This change will significantly alter the sound and technology of the cars that fans see on the track.",
+          "explainer": "Formula 1 cars currently use complex power units. League officials have reached a unanimous agreement to move toward V8 turbo hybrid engines starting in 2030. While the main plan is decided, the group is currently finishing the small details and specific rules for these new engines. The V8 engine is often favored by fans for its loud, classic sound compared to current engines. This shift marks a major change in how the sport will look and sound in the future.",
+          "keyTerms": [
+            {
+              "term": "V8 engine",
+              "definition": "A type of engine with eight cylinders arranged in a V-shape."
+            },
+            {
+              "term": "Hybrid engine",
+              "definition": "A motor that uses both fuel and an electric battery to power the car."
+            }
+          ],
+          "disagreement": null,
+          "update": "The agreement on V8 engines is now confirmed as an official plan by leadership.",
+          "importance": 6,
+          "image": "https://a.espncdn.com/photo/2026/1121/r1748873_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "F1 bosses reach agreement to introduce V8 engines in 2030",
+              "url": "https://www.espn.com/f1/story/_/id/50472097/v8-engine-confirmed-formula-1"
+            },
+            {
+              "name": "ESPN",
+              "title": "F1 bosses confirm 'agreement' on V8 engine return deal",
+              "url": "https://www.espn.com/f1/story/_/id/50472081/v8-return-las-vegas-grand-prix-formula-1"
+            }
+          ]
+        },
+        {
+          "id": "sports-f1-1",
+          "headline": "Antonelli gets penalty before Las Vegas Grand Prix",
+          "summary": "Kimi Antonelli earned pole position for the Las Vegas race, but he will start six spots back due to an engine penalty. Max Verstappen will now start in the front spot instead.",
+          "whyItMatters": "Starting positions are very important for winning races, so this penalty makes it much harder for Antonelli to win.",
+          "explainer": "In Formula 1, drivers must follow strict rules about how many engine parts they can use during a season. Kimi Antonelli's team installed a new engine in his car, which triggered a mandatory penalty from the racing governing body, the FIA. Although he performed well during qualifying to earn the first-place starting spot, known as 'pole position,' the penalty forces him to move back to the sixth position for the start of the race. This move promotes Max Verstappen to the front of the starting grid.",
+          "keyTerms": [
+            {
+              "term": "Pole position",
+              "definition": "The first place at the front of the starting line in a car race."
+            },
+            {
+              "term": "Grid penalty",
+              "definition": "A punishment that forces a driver to start the race from further back than they earned."
+            }
+          ],
+          "disagreement": null,
+          "update": "Kimi Antonelli now moves to sixth place after previously being slated for a five-place penalty.",
+          "importance": 5,
+          "image": "https://a.espncdn.com/photo/2026/1121/r1748850_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Max Verstappen promoted to Las Vegas GP pole as Kimi Antonelli drops to sixth",
+              "url": "https://www.espn.com/f1/story/_/id/50472094/kimi-antonelli-max-verstappen-las-vegas-grand-prix-formula-1"
+            },
+            {
+              "name": "ESPN",
+              "title": "Antonelli handed grid penalty for Las Vegas GP; Russell sets pace in FP2",
+              "url": "https://www.espn.com/f1/story/_/id/50472078/kimi-antonelli-george-russell-las-vegas-grand-prix-formula-1"
+            }
+          ]
+        },
+        {
+          "id": "sports-f1-2",
+          "headline": "New tyre rules set for Qatar Grand Prix",
+          "summary": "Formula 1 officials limited drivers to 27 laps per set of tyres for the upcoming Qatar race. This rule is designed to keep drivers and equipment safe.",
+          "whyItMatters": "Drivers must now change their tires more often, which changes the strategy for how teams win the race.",
+          "explainer": "During a Formula 1 race, drivers use different sets of rubber tyres. Because the track surface in Qatar can be very rough, it can damage the tyres and make them unsafe to use for too many laps. To prevent potential accidents, officials decided that no driver can use the same set of tyres for more than 27 laps. Teams will need to make extra stops at the pits to change their tyres, which adds excitement and challenge to the race strategy.",
+          "keyTerms": [
+            {
+              "term": "Pit stop",
+              "definition": "A quick stop during a race where the team changes tires and checks the car."
+            },
+            {
+              "term": "Tyre stint",
+              "definition": "The number of laps a driver stays on one set of tires."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 4,
+          "image": "https://a.espncdn.com/photo/2026/1121/r1748880_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Drivers limited to 27-lap tyre stint as rule reintroduced for Qatar Grand Prix",
+              "url": "https://www.espn.com/f1/story/_/id/50472103/qatar-grand-prix-pirelli-formula-1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-tennis",
+      "title": "Sports · Tennis",
+      "bricks": [
+        {
+          "id": "sports-tennis-0",
+          "headline": "ATP Finals Semifinals Set in Italy",
+          "summary": "The semifinal matchups for the ATP Finals are locked in. Carlos Alcaraz will face Ben Shelton, while Daniil Medvedev will play Alexander Zverev to reach the final round.",
+          "whyItMatters": "These matches determine which players advance to win the championship trophy at the final tournament of the men's professional tennis season.",
+          "explainer": "The ATP Finals is the final tournament of the professional men's tennis season, held in Turin, Italy. It brings together the top players who have performed best throughout the year. Players compete in a group stage before moving into a knockout bracket. In the semifinals, Carlos Alcaraz will compete against Ben Shelton, and Daniil Medvedev will play against world number one Alexander Zverev. The winners of these two matches move on to play in the tournament final. Fans watch these games to see which tennis stars finish their year with the most momentum and prestige.",
+          "keyTerms": [
+            {
+              "term": "ATP Finals",
+              "definition": "A prestigious, season-ending tennis tournament featuring only the top-ranked male players."
+            },
+            {
+              "term": "Semifinals",
+              "definition": "The round of a tournament where four remaining players compete to reach the final game."
+            }
+          ],
+          "disagreement": null,
+          "update": "The semifinal matches are now officially set following final group play results.",
+          "importance": 5,
+          "image": "https://a.espncdn.com/photo/2026/1120/r1748736_600x400_3-2.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Daniil Medvedev beats Frances Tiafoe, faces Alexander Zverev in ATP Finals semis",
+              "url": "https://www.espn.com/tennis/story/_/id/50544020/daniil-medvedev-defeats-frances-tiafoe-faces-alexander-zverev-atp-finals-semis"
+            },
+            {
+              "name": "ESPN",
+              "title": "Carlos Alcaraz in off-court 'challenge' to stay healthy for semis of ATP Finals",
+              "url": "https://www.espn.com/tennis/story/_/id/50543676/carlos-alcaraz-wins-set-atp-finals-semi-vs-ben-shelton"
+            },
+            {
+              "name": "ESPN",
+              "title": "Shelton beats Jodar, joins Zverev, Alcaraz in semifinal round of ATP Finals",
+              "url": "https://www.espn.com/tennis/story/_/id/50534384/shelton-beats-jodar-joins-zverev-alcaraz-atp-finals-semis"
+            },
+            {
+              "name": "ESPN",
+              "title": "Carlos Alcaraz cruises past Daniil Medvedev at ATP Finals despite leg issue",
+              "url": "https://www.espn.com/tennis/story/_/id/50521030/alcaraz-cruises-medvedev-atp-finals-leg-issue"
+            },
+            {
+              "name": "ESPN",
+              "title": "Alexander Zverev improved to 7-0 vs. Ben Shelton, advancing to ATP Finals semis",
+              "url": "https://www.espn.com/tennis/story/_/id/50513841/alexander-zverev-beats-ben-shelton-semis-atp-finals"
+            }
+          ]
+        },
+        {
+          "id": "sports-tennis-1",
+          "headline": "Zverev Faces Legal Case During Tournament",
+          "summary": "Top-ranked player Alexander Zverev was served with a lawsuit from a former partner during the ATP Finals. The legal case involves past claims of domestic abuse, leading to mixed reactions from sponsors and fans.",
+          "whyItMatters": "The legal situation creates uncertainty for the player's professional reputation and relationships with tennis organizations and sponsors.",
+          "explainer": "Alexander Zverev, currently ranked as the number one tennis player in the world, was notified of a lawsuit during the ATP Finals tournament in Italy. The legal action was filed by a former partner regarding past allegations of domestic violence. Because of these allegations, Zverev's rise to the top of the tennis rankings has become a subject of intense debate among fans, the media, and corporate sponsors. While he continues to compete on the court, the off-court legal developments have led to broader questions about how the sport manages players facing serious legal accusations.",
+          "keyTerms": [],
+          "disagreement": null,
+          "update": "The legal process remains ongoing while the player continues to compete in the tournament.",
+          "importance": 5,
+          "image": "https://a.espncdn.com/photo/2026/0904/r1711215_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "FAQ: Why Zverev's rise to world No. 1 provokes mixed feelings",
+              "url": "https://www.espn.com/tennis/story/_/id/50354131/alexander-sasha-zverev-world-no-1-ranking-domestic-abuse-charges"
+            },
+            {
+              "name": "ESPN",
+              "title": "Alexander Zverev officially notified of lawsuit by ex-partner in abuse case",
+              "url": "https://www.espn.com/tennis/story/_/id/50522116/alexander-zverev-notified-lawsuit-ex-partner-abuse-case"
+            }
+          ]
+        },
+        {
+          "id": "sports-tennis-2",
+          "headline": "ATP Tour Announces New Player Pay Plan",
+          "summary": "The ATP Tour will launch a new payment plan in 2028. The program will invest over $350 million to help support up to 250 professional men's tennis players.",
+          "whyItMatters": "This plan could provide more financial stability for many professional players who fall outside the top-tier of the sport.",
+          "explainer": "The ATP Tour, which organizes men's professional tennis, has introduced a new plan to increase the money paid to players. Starting in 2028, the organization expects to spend over $350 million to support up to 250 players. The goal is to provide better financial support for those competing on the professional tour, helping them cover the costs associated with traveling and maintaining their careers. This investment is part of a larger effort to improve the livelihood of professional athletes in the sport.",
+          "keyTerms": [],
+          "disagreement": null,
+          "update": null,
+          "importance": 5,
+          "image": "https://a.espncdn.com/photo/2020/0406/r686743_600x400_3-2.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "ATP Tour unveils expanded compensation plan to benefit top 250 players",
+              "url": "https://www.espn.com/tennis/story/_/id/50539880/atp-tour-unveils-expanded-compensation-top-250-players"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-golf",
+      "title": "Sports · Golf",
+      "bricks": [
+        {
+          "id": "sports-golf-0",
+          "headline": "Early Leaders Lead at RSM Classic",
+          "summary": "Rasmus Neergaard-Petersen, Marco Penge, and Michael Thorbjornsen share the lead at the RSM Classic. The players competed on two different courses to start the tournament.",
+          "whyItMatters": "This tournament is part of the professional golf season and helps determine player rankings and future eligibility.",
+          "explainer": "The RSM Classic is a professional golf tournament that uses two different courses during its opening rounds. Michael Thorbjornsen played on the Seaside course, which is considered more difficult. Jesper Svensson played on the Plantation course. Multiple golfers are currently tied for the lead, meaning the competition remains very close as the event continues over the next few days. Players aim to finish with the lowest total score to win the trophy and prize money.",
+          "keyTerms": [
+            {
+              "term": "PGA Tour",
+              "definition": "The main organization for professional golf tournaments in the United States."
+            }
+          ],
+          "disagreement": null,
+          "update": "New leaders have joined the top of the leaderboard since the first round.",
+          "importance": 4,
+          "image": "https://a.espncdn.com/photo/2025/1207/r1586107_600x400_3-2.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Neergaard-Petersen shares lead at Sea Island; Horschel loses full cards",
+              "url": "https://www.espn.com/golf/story/_/id/50547115/neergaard-petersen-part-3-way-tie-lead-sea-island"
+            },
+            {
+              "name": "ESPN",
+              "title": "Jesper Svensson, Michael Thorbjornsen among those to start fast at RSM Classic",
+              "url": "https://www.espn.com/golf/story/_/id/50534530/jesper-svensson-michael-thorbjornsen-start-fast-rsm"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

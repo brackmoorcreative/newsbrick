@@ -1,66 +1,66 @@
 {
-  "generatedAt": "2026-11-20T18:09:35.108Z",
-  "weekEnding": "2026-11-20",
+  "generatedAt": "2026-11-21T17:03:05.235Z",
+  "weekEnding": "2026-11-21",
   "questions": [
     {
-      "storyId": "top-world-0",
-      "question": "Which city in China hosted the three-way summit with the leaders of the U.S., Russia, and China?",
+      "storyId": "region-europe-0",
+      "question": "What key bridge linking Russia to Crimea was severely damaged by Ukraine?",
+      "options": [
+        "The Golden Gate Bridge",
+        "The Kerch Bridge",
+        "The London Bridge",
+        "The Brooklyn Bridge"
+      ],
+      "answer": 1,
+      "explanation": "Ukraine used missiles and drones to critically damage the Kerch Bridge."
+    },
+    {
+      "storyId": "economy-us-0",
+      "question": "Which artificial intelligence company held a massive initial public offering (IPO) that raised over $80 billion?",
+      "options": [
+        "Anthropic",
+        "Nvidia",
+        "OpenAI",
+        "Microsoft"
+      ],
+      "answer": 0,
+      "explanation": "Anthropic held the largest initial public offering ever for an AI company."
+    },
+    {
+      "storyId": "politics-world-0",
+      "question": "Which international court ruled that Myanmar's military committed genocide against the Rohingya minority?",
+      "options": [
+        "The Supreme Court",
+        "The International Court of Justice",
+        "The European Court of Human Rights",
+        "The World Trade Organization"
+      ],
+      "answer": 1,
+      "explanation": "The International Court of Justice ruled that Myanmar committed genocide in 2017."
+    },
+    {
+      "storyId": "economy-us-0",
+      "question": "What did Nvidia's board of directors decide regarding former CEO Jensen Huang?",
+      "options": [
+        "They promoted him to chairman",
+        "They gave him a raise",
+        "They rejected his return",
+        "They named him temporary CEO"
+      ],
+      "answer": 2,
+      "explanation": "Nvidia's board stated they will not bring back former CEO Jensen Huang."
+    },
+    {
+      "storyId": "region-asia-0",
+      "question": "In which Chinese city did leaders of the U.S., China, and Russia hold a high-level summit?",
       "options": [
         "Beijing",
         "Shanghai",
         "Shenzhen",
-        "Guangzhou"
+        "Manila"
       ],
       "answer": 2,
-      "explanation": "The summit between the three world leaders took place in the city of Shenzhen."
-    },
-    {
-      "storyId": "politics-world-0",
-      "question": "The International Court of Justice ruled that Myanmar committed what crime against the Rohingya people?",
-      "options": [
-        "Genocide",
-        "Tax evasion",
-        "Trade violations",
-        "Cyber theft"
-      ],
-      "answer": 0,
-      "explanation": "The court officially ruled that Myanmar's military committed genocide against the Rohingya minority."
-    },
-    {
-      "storyId": "economy-us-0",
-      "question": "Why did the board of the company Nvidia decide not to bring back its former CEO?",
-      "options": [
-        "He wanted too much money",
-        "He resigned because of a personal scandal",
-        "He moved to a different country",
-        "He retired to spend time with his family"
-      ],
-      "answer": 1,
-      "explanation": "The board rejected the former CEO's return following his resignation due to a personal scandal."
-    },
-    {
-      "storyId": "region-europe-0",
-      "question": "What is the name of the bridge Ukraine damaged that links Russia to Crimea?",
-      "options": [
-        "London Bridge",
-        "Golden Gate Bridge",
-        "Kerch Bridge",
-        "Sydney Harbor Bridge"
-      ],
-      "answer": 2,
-      "explanation": "Ukraine used drones and missiles to damage the Kerch Bridge, which connects Russia to Crimea."
-    },
-    {
-      "storyId": "economy-us-0",
-      "question": "What kind of company is Anthropic, which recently held a very large IPO?",
-      "options": [
-        "A car maker",
-        "An artificial intelligence company",
-        "A clothing store",
-        "A toy manufacturer"
-      ],
-      "answer": 1,
-      "explanation": "Anthropic is an artificial intelligence company that recently offered its shares to the public."
+      "explanation": "The APEC summit and trilateral meetings were held in Shenzhen, China."
     }
   ]
 }
