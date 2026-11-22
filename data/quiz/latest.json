@@ -1,66 +1,66 @@
 {
-  "generatedAt": "2026-11-21T17:03:05.235Z",
-  "weekEnding": "2026-11-21",
+  "generatedAt": "2026-11-22T17:18:56.022Z",
+  "weekEnding": "2026-11-22",
   "questions": [
     {
-      "storyId": "region-europe-0",
-      "question": "What key bridge linking Russia to Crimea was severely damaged by Ukraine?",
+      "storyId": "top-world-0",
+      "question": "Which city hosted the APEC summit where leaders from the U.S., China, and Russia met?",
       "options": [
-        "The Golden Gate Bridge",
-        "The Kerch Bridge",
-        "The London Bridge",
-        "The Brooklyn Bridge"
-      ],
-      "answer": 1,
-      "explanation": "Ukraine used missiles and drones to critically damage the Kerch Bridge."
-    },
-    {
-      "storyId": "economy-us-0",
-      "question": "Which artificial intelligence company held a massive initial public offering (IPO) that raised over $80 billion?",
-      "options": [
-        "Anthropic",
-        "Nvidia",
-        "OpenAI",
-        "Microsoft"
+        "Shenzhen",
+        "Manila",
+        "Beijing",
+        "Shanghai"
       ],
       "answer": 0,
-      "explanation": "Anthropic held the largest initial public offering ever for an AI company."
+      "explanation": "The APEC summit took place in Shenzhen, China."
+    },
+    {
+      "storyId": "economy-world-0",
+      "question": "What kind of company shares saw heavy losses that dragged down global stock markets?",
+      "options": [
+        "Oil and gas",
+        "Tech and AI",
+        "Retail stores",
+        "Car makers"
+      ],
+      "answer": 1,
+      "explanation": "Major stock markets saw heavy losses as tech and AI company shares fell."
+    },
+    {
+      "storyId": "region-mideast-0",
+      "question": "Near which country were two ships hit in the Strait of Hormuz?",
+      "options": [
+        "Oman",
+        "Kuwait",
+        "Bahrain",
+        "Iran"
+      ],
+      "answer": 0,
+      "explanation": "Two ships were hit near Oman in the Strait of Hormuz."
     },
     {
       "storyId": "politics-world-0",
-      "question": "Which international court ruled that Myanmar's military committed genocide against the Rohingya minority?",
+      "question": "Which group did the International Court of Justice find was the victim of genocide by Myanmar's military?",
       "options": [
-        "The Supreme Court",
-        "The International Court of Justice",
-        "The European Court of Human Rights",
-        "The World Trade Organization"
+        "The Kurds",
+        "The Rohingya",
+        "The Uyghurs",
+        "The Karen"
       ],
       "answer": 1,
-      "explanation": "The International Court of Justice ruled that Myanmar committed genocide in 2017."
+      "explanation": "The court ruled that Myanmar's military committed genocide against the Rohingya minority."
     },
     {
-      "storyId": "economy-us-0",
-      "question": "What did Nvidia's board of directors decide regarding former CEO Jensen Huang?",
+      "storyId": "region-europe-0",
+      "question": "What major structure did Ukraine critically damage with missiles and drones?",
       "options": [
-        "They promoted him to chairman",
-        "They gave him a raise",
-        "They rejected his return",
-        "They named him temporary CEO"
+        "The Kerch Bridge",
+        "A dam in Kyiv",
+        "An airport in Moscow",
+        "A pipeline in Poland"
       ],
-      "answer": 2,
-      "explanation": "Nvidia's board stated they will not bring back former CEO Jensen Huang."
-    },
-    {
-      "storyId": "region-asia-0",
-      "question": "In which Chinese city did leaders of the U.S., China, and Russia hold a high-level summit?",
-      "options": [
-        "Beijing",
-        "Shanghai",
-        "Shenzhen",
-        "Manila"
-      ],
-      "answer": 2,
-      "explanation": "The APEC summit and trilateral meetings were held in Shenzhen, China."
+      "answer": 0,
+      "explanation": "Ukraine used missiles and drones to severely damage the Kerch Bridge linking Russia to Crimea."
     }
   ]
 }
