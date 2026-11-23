@@ -1,0 +1,2468 @@
+{
+  "version": 1,
+  "date": "2026-11-23",
+  "generatedAt": "2026-11-23T21:48:37.791Z",
+  "model": "gemini-3.5-flash-lite, gemini-3.1-flash-lite, gemini-3.5-flash",
+  "categories": [
+    {
+      "id": "top-world",
+      "title": "Top Stories · World",
+      "bricks": [
+        {
+          "id": "top-world-0",
+          "headline": "Jensen Huang Reinstated as Nvidia CEO After Trump Intervention",
+          "summary": "Nvidia has brought back Jensen Huang as CEO just 11 days after he resigned during a scandal. President Donald Trump said he spoke with the company's board to help secure his return. The move has drawn criticism from lawmakers in both major US political parties.",
+          "whyItMatters": "Nvidia is a major tech company, and this sudden leadership change and political involvement has led to significant shifts in its stock price and public debate over corporate governance.",
+          "explainer": "Jensen Huang resigned from Nvidia earlier this month following reports of personal affairs, including one involving a suspected foreign spy. His return has been met with both cheers from some employees and sharp criticism from US lawmakers, who raised concerns about potential corruption and the influence of President Donald Trump on private company decisions. Some officials have called for Huang to testify before Congress regarding the circumstances of his departure and reinstatement. The announcement caused Nvidia's stock price to surge by 31%, helping the broader S&P 500 index recover from recent market losses.",
+          "keyTerms": [
+            {
+              "term": "CEO",
+              "definition": "The top-ranking person in a company who is responsible for making major decisions."
+            },
+            {
+              "term": "Corporate Governance",
+              "definition": "The system of rules and processes by which a company is directed and controlled."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 6,
+          "image": "https://i.guim.co.uk/img/media/b81ae5a9f6ca550652434eefe1adae4209abd469/181_0_3334_2668/master/3334.jpg?width=140&quality=85&auto=format&fit=max&s=34726bbffd4777a0dcfd19f1ba78c125",
+          "sources": [
+            {
+              "name": "The Guardian",
+              "title": "Republican senators criticize Nvidia’s decision to reinstate Jensen Huang",
+              "url": "https://www.theguardian.com/technology/2026/nov/23/trump-jensen-huang-nvidia-reinstated"
+            },
+            {
+              "name": "The Guardian",
+              "title": "Top Democrats raise corruption concerns after Trump involvement in Jensen Huang’s Nvidia reinstatement – live",
+              "url": "https://www.theguardian.com/us-news/live/2026/nov/23/donald-trump-democrats-republicans-presidential-primary-midterms-house-latest-news-updates"
+            },
+            {
+              "name": "Al Jazeera",
+              "title": "Jensen Huang reinstated as Nvidia chief: How did we get here?",
+              "url": "https://www.aljazeera.com/video/newsfeed/2026/11/23/jensen-huang-reinstated-as-nvidia-chief-how-did-we-get-here?traffic_source=rss"
+            },
+            {
+              "name": "Al Jazeera",
+              "title": "CEO Jensen Huang returns to Nvidia’s office",
+              "url": "https://www.aljazeera.com/video/newsfeed/2026/11/23/ceo-jensen-huang-returns-to-nvidias-office?traffic_source=rss"
+            },
+            {
+              "name": "The Guardian",
+              "title": "Jensen Huang reinstated as Nvidia CEO after Trump intervenes",
+              "url": "https://www.theguardian.com/technology/2026/nov/23/jensen-huang-reinstated-as-nvidia-chief-executive"
+            },
+            {
+              "name": "BBC News",
+              "title": "The rise and fall and rise again of Jensen Huang",
+              "url": "https://www.bbc.co.uk/news/articles/cmze750zg0jeo?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "Al Jazeera",
+              "title": "Jensen Huang returns as NVIDIA CEO after intelligence scandal",
+              "url": "https://www.aljazeera.com/video/newsfeed/2026/11/23/jensen-huang-returns-as-nvidia-ceo-after-intelligence-scandal?traffic_source=rss"
+            },
+            {
+              "name": "Al Jazeera",
+              "title": "Nvidia board reinstates Jensen Huang as CEO",
+              "url": "https://www.aljazeera.com/economy/2026/11/23/nvidia-board-reinstates-jensen-huang-as-ceo?traffic_source=rss"
+            }
+          ]
+        },
+        {
+          "id": "top-world-1",
+          "headline": "UN Climate Summit Ends Without Agreement",
+          "summary": "The UN climate summit in Turkey has collapsed without a final deal for the first time in 17 years. Disagreements over fossil fuel policies and financial aid for vulnerable nations prevented a consensus. This failure marks a major setback for global climate goals.",
+          "whyItMatters": "The failure to reach a global agreement could slow down international efforts to reduce pollution and provide support to countries most impacted by climate change.",
+          "explainer": "The COP31 summit, co-chaired by Turkey and Australia, aimed to establish a new pact to increase urgent climate action and funding. However, negotiations reached an impasse due to a deep divide between nations that produce oil and those seeking rapid transitions to clean energy. Other disputes over how much financial support should be given to vulnerable nations further stalled progress. This is the first time in nearly two decades that a UN climate summit has concluded without a final agreement, leaving future international climate strategy uncertain.",
+          "keyTerms": [
+            {
+              "term": "COP",
+              "definition": "A major annual UN meeting where world leaders gather to discuss and negotiate climate change policy."
+            },
+            {
+              "term": "Consensus",
+              "definition": "A situation where all parties involved in a decision agree on the outcome."
+            }
+          ],
+          "disagreement": null,
+          "update": "The summit has now officially concluded without a deal, confirming the failure of the talks.",
+          "importance": 8,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c650/live/3a868c20-e767-11f1-99a1-253766e7ad8b.jpg",
+          "sources": [
+            {
+              "name": "BBC News",
+              "title": "What failure of COP31 reveals about a divided world",
+              "url": "https://www.bbc.co.uk/news/articles/cky970n83rvjo?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "The Guardian",
+              "title": "Cop31 collapses: why did climate talks fall apart? - The Latest",
+              "url": "https://www.theguardian.com/news/audio/2026/nov/23/cop31-collapses-why-did-climate-talks-fall-apart-the-latest"
+            },
+            {
+              "name": "Al Jazeera",
+              "title": "Why did COP31 climate talks collapse without a deal?",
+              "url": "https://www.aljazeera.com/video/newsfeed/2026/11/23/why-did-cop31-climate-talks-collapse-without-a-deal?traffic_source=rss"
+            }
+          ]
+        },
+        {
+          "id": "top-world-2",
+          "headline": "Russian Warship Damaged in Suspected Ukrainian Attack in Libya",
+          "summary": "A Russian warship, the Merkury, was damaged by an explosion at a port in Libya. Ukraine claimed responsibility for the strike, which Russia warned could escalate regional tensions. The incident highlights the widening scope of the ongoing conflict.",
+          "whyItMatters": "The strike marks an expansion of the war into new regions, potentially affecting international shipping and relations between Russia, Ukraine, and other nations involved in the conflict.",
+          "explainer": "The vessel was docked at a Libyan port when it was reportedly hit by drones. This attack is significant as it demonstrates Ukraine's increasing capability to target Russian military assets far outside of the immediate war zone. The Kremlin has accused Ukraine of carrying out 'hostile actions' in regions like Libya and the Baltics, warning that these strikes create a dangerous trend. Officials are currently investigating the damage, as international observers monitor how this might impact the broader conflict and regional stability.",
+          "keyTerms": [
+            {
+              "term": "Warship",
+              "definition": "A naval ship that is built and armed specifically for combat."
+            },
+            {
+              "term": "Drone",
+              "definition": "An uncrewed aircraft that can be controlled remotely or fly automatically."
+            }
+          ],
+          "disagreement": null,
+          "update": "Today, Ukraine confirmed it was responsible for the strike on the ship.",
+          "importance": 7,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/363b/live/dab0da20-e771-11f1-99a1-253766e7ad8b.jpg",
+          "sources": [
+            {
+              "name": "BBC News",
+              "title": "What strike on Russian ship in Libya says about spread of Ukraine war",
+              "url": "https://www.bbc.co.uk/news/articles/cm894p88jzxpo?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "Al Jazeera",
+              "title": "What Russian warship did Ukraine just sink?",
+              "url": "https://www.aljazeera.com/video/newsfeed/2026/11/23/what-russian-warship-did-ukraine-just-sink?traffic_source=rss"
+            },
+            {
+              "name": "Al Jazeera",
+              "title": "Russia warns Ukraine of ‘dangerous trend’ after Libya and Baltic attacks",
+              "url": "https://www.aljazeera.com/news/2026/11/23/russia-warns-ukraine-of-dangerous-trend-after-libya-and-baltic-attacks?traffic_source=rss"
+            },
+            {
+              "name": "BBC News",
+              "title": "Russian warship hit by Ukrainian drones in Libya, Zelensky says",
+              "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss"
+            }
+          ]
+        },
+        {
+          "id": "top-world-3",
+          "headline": "Iranian Singer Flogged for Performing Without Hijab",
+          "summary": "Iranian singer Parastoo Ahmadi and four members of her team were given 74 lashes each. They were punished for performing without a headscarf and publishing content deemed immoral. All five individuals also received two-year bans on artistic work and travel.",
+          "whyItMatters": "This incident highlights ongoing tensions in Iran over strict public dress codes and the treatment of artists who challenge government rules.",
+          "explainer": "In Iran, laws require women to wear a hijab in public. Parastoo Ahmadi and her production team were sentenced for 'offending public decency' after releasing online content that showed the singer without her head covering. International human rights groups and several Western governments have criticized the use of flogging as a form of torture that violates international laws. In addition to the physical punishment, the group is barred from leaving the country or participating in any musical or artistic projects for the next two years.",
+          "keyTerms": [
+            {
+              "term": "Hijab",
+              "definition": "A head covering worn in public by many Muslim women."
+            },
+            {
+              "term": "Flogging",
+              "definition": "The act of beating someone with a whip or stick as a form of physical punishment."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 5,
+          "image": "https://i.guim.co.uk/img/media/1c4d7ed77371df91b6e83e3235fa20a1fb3f56bc/812_0_3186_2550/master/3186.jpg?width=140&quality=85&auto=format&fit=max&s=4fcb417906a5d6f0f5bac2c842bf9e1d",
+          "sources": [
+            {
+              "name": "The Guardian",
+              "title": "Iranian singer and four others receive lashes after performance without hijab",
+              "url": "https://www.theguardian.com/world/2026/nov/23/iranian-singer-lashes-performing-without-hijab"
+            },
+            {
+              "name": "Al Jazeera",
+              "title": "Iran flogs singer Parastoo Ahmadi for performing without headscarf",
+              "url": "https://www.aljazeera.com/news/2026/11/23/iran-flogs-singer-parastoo-ahmadi-for-performing-without-headscarf?traffic_source=rss"
+            },
+            {
+              "name": "BBC News",
+              "title": "Iranian authorities flog singer who performed without hijab, lawyers say",
+              "url": "https://www.bbc.co.uk/news/articles/cq1j6585l5g6o?at_medium=RSS&at_campaign=rss"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "economy-world",
+      "title": "Economy · World",
+      "bricks": [
+        {
+          "id": "economy-world-0",
+          "headline": "Nvidia Reinstates CEO Jensen Huang After Scandal",
+          "summary": "Nvidia brought back CEO Jensen Huang weeks after he resigned over a relationship with an alleged Chinese spy. The surprise return caused technology stocks and the company's value to jump.",
+          "whyItMatters": "Wild swings in tech stocks can change the value of retirement accounts and everyday investments.",
+          "explainer": "Nvidia is a massive technology company that builds powerful computer chips used for artificial intelligence. Its chief executive, Jensen Huang, recently stepped down after admitting to a relationship with a person suspected of being a Chinese intelligence asset. However, Nvidia's board voted to bring him back, and US government officials backed the decision. The news caused Nvidia's stock value to surge, helping lift the wider stock market after a recent slump.",
+          "keyTerms": [
+            {
+              "term": "CEO",
+              "definition": "The top boss in charge of running a whole company."
+            },
+            {
+              "term": "Stock",
+              "definition": "A tiny piece of ownership in a company that people can buy and sell."
+            }
+          ],
+          "disagreement": null,
+          "update": "After a recent drop in tech stocks, Nvidia shares rallied and gained nearly one trillion dollars in value following the surprise return of its chief executive.",
+          "importance": 8,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e297/live/7eb9d0a0-e776-11f1-a8a9-d7c9e8a923b4.jpg",
+          "sources": [
+            {
+              "name": "BBC News",
+              "title": "Nvidia value climbs by almost $1tn and tech stocks rally after Jensen Huang returns",
+              "url": "https://www.bbc.co.uk/news/articles/cq62pn6j42jko?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "The Guardian",
+              "title": "Nvidia’s value jumped by $950bn as shares close at $165.05 after surprise return of CEO Jensen Huang – live",
+              "url": "https://www.theguardian.com/business/live/2026/nov/23/tech-sell-off-ai-stock-market-support-measures-deployed-south-korea-taiwan-china-ftse-nasdaq-latest-news-updates"
+            },
+            {
+              "name": "BBC News",
+              "title": "'Biggest U-turn in economic history': Experts react to Jensen Huang's return to Nvidia",
+              "url": "https://www.bbc.co.uk/news/videos/cq8r7e35mkzlo?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "BBC News",
+              "title": "Faisal Islam: Why Jensen Huang proved too big to fire",
+              "url": "https://www.bbc.co.uk/news/articles/ckr5g8edl94eo?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "BBC News",
+              "title": "How important are Nvidia and Jensen Huang to the US economy?",
+              "url": "https://www.bbc.co.uk/news/articles/c68798vdprwpo?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "BBC News",
+              "title": "The rise and fall and rise again of Jensen Huang",
+              "url": "https://www.bbc.co.uk/news/articles/cmze750zg0jeo?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "NPR",
+              "title": "Trump claims credit as Jensen Huang returns to Nvidia",
+              "url": "https://www.npr.org/2026/11/23/nx-s1-6050910/nvidias-jensen-huang-trump"
+            },
+            {
+              "name": "BBC News",
+              "title": "Nvidia reinstates CEO after affair with alleged spy",
+              "url": "https://www.bbc.co.uk/news/videos/cqze7lwdglngo?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "DW",
+              "title": "Nvidia reinstates former CEO Jensen Huang despite China espionage scandal",
+              "url": "https://www.dw.com/en/nvidia-reinstates-former-ceo-jensen-huang-despite-china-espionage-scandal/a-80021926?maca=en-rss-en-bus-2091-rdf"
+            },
+            {
+              "name": "The Guardian",
+              "title": "Jensen Huang’s reported affair was ‘most expensive sex since Helen of Troy’, US senator says",
+              "url": "https://www.theguardian.com/us-news/2026/nov/22/jensen-huang-nvidia-john-kennedy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "region-africa",
+      "title": "World · Africa",
+      "bricks": [
+        {
+          "id": "region-africa-0",
+          "headline": "Ukrainian drones sink Russian warship near Libya",
+          "summary": "Ukraine confirmed it used naval drones to attack two Russian ships off the coast of Libya. One of the ships, a warship named the Merkury, reportedly sank after the strike. Russia says the attacks increase tensions in the region.",
+          "whyItMatters": "The attack highlights the expansion of the conflict between Russia and Ukraine beyond their borders into North Africa.",
+          "explainer": "Ukraine has increasingly used naval drones to target Russian military assets. The Merkury, a corvette, was struck while docked in the Libyan port of Benghazi to refuel. Ukraine's security service stated that several drones were launched to carry out the operation. While Russia has warned of rising tensions due to these actions against its ships, it has not provided details on its own next steps. This event marks a significant expansion of the ongoing war, moving hostilities toward the Mediterranean region and involving international waters and ports outside of the main war zone.",
+          "keyTerms": [
+            {
+              "term": "Corvette",
+              "definition": "A small, fast warship."
+            },
+            {
+              "term": "Naval drone",
+              "definition": "A small, pilotless boat used for military missions at sea."
+            }
+          ],
+          "disagreement": null,
+          "update": "Ukraine confirmed it launched the attacks using naval drones from a mothership.",
+          "importance": 8,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f684/live/02351f90-e74d-11f1-99b6-a35a62fa4264.jpg",
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "title": "What Russian warship did Ukraine just sink?",
+              "url": "https://www.aljazeera.com/video/newsfeed/2026/11/23/what-russian-warship-did-ukraine-just-sink?traffic_source=rss"
+            },
+            {
+              "name": "Al Jazeera",
+              "title": "Russia warns Ukraine of ‘dangerous trend’ after Libya and Baltic attacks",
+              "url": "https://www.aljazeera.com/news/2026/11/23/russia-warns-ukraine-of-dangerous-trend-after-libya-and-baltic-attacks?traffic_source=rss"
+            },
+            {
+              "name": "BBC News",
+              "title": "Russian warship hit by Ukrainian drones in Libya, Zelensky says",
+              "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "The Guardian",
+              "title": "Ukraine confirms it used naval drones to strike two Russian ships off Libya",
+              "url": "https://www.theguardian.com/world/2026/nov/23/ukraine-naval-drones-strike-russian-warship-libya"
+            },
+            {
+              "name": "BBC News",
+              "title": "Ukraine shares video of strikes on Russian ships off Libya",
+              "url": "https://www.bbc.co.uk/news/videos/c6wy93q5wwqvo?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "The Guardian",
+              "title": "Russian warship sinks in Benghazi after suspected Ukrainian drone attack",
+              "url": "https://www.theguardian.com/world/2026/nov/22/blast-russian-ship-suspected-drone-attack-benghazi-libya"
+            }
+          ]
+        },
+        {
+          "id": "region-africa-1",
+          "headline": "Search continues after fatal boat accident in Nigeria",
+          "summary": "Rescuers are searching for survivors after a boat sank in Nigeria. Officials say the accident was likely caused by poor boat maintenance, overcrowding, and a lack of safety equipment like life jackets.",
+          "whyItMatters": "This tragedy highlights ongoing concerns about safety and regulation for water travel in many parts of Nigeria.",
+          "explainer": "Boat travel is a common way for people to move across Nigeria's many rivers and waterways. However, accidents are frequent due to boats carrying too many passengers, mechanical failures, and the absence of basic safety gear. Authorities frequently cite these issues when explaining why such tragedies happen. Following this latest incident, rescue teams are attempting to locate survivors, though the chances of finding more people decrease as time passes. This event brings renewed focus to the need for stricter safety enforcement on the nation's waters.",
+          "keyTerms": [],
+          "disagreement": null,
+          "update": "Rescue efforts are ongoing, and officials have identified overcrowding and missing safety equipment as primary causes of the disaster.",
+          "importance": 6,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4f67/live/f7d15990-e6fe-11f1-b302-63c5d030cf64.jpg",
+          "sources": [
+            {
+              "name": "BBC News",
+              "title": "Search and rescue teams race against time to find survivors after Nigeria boat tragedy",
+              "url": "https://www.bbc.co.uk/news/articles/cq7820xjm49po?at_medium=RSS&at_campaign=rss"
+            }
+          ]
+        },
+        {
+          "id": "region-africa-2",
+          "headline": "Illegal gold mining threatens Madagascar’s rare frog",
+          "summary": "Illegal gold mining is destroying the habitat of the rare golden mantella frog in Madagascar. Miners often dig in wetlands where the frogs live, which threatens the survival of the endangered species.",
+          "whyItMatters": "The loss of the frog's habitat signals damage to ecosystems that are important for the local environment and biodiversity.",
+          "explainer": "The golden mantella is a small, rare frog found in Madagascar that serves as an indicator of a healthy environment. Because the frogs live in areas where gold is often found, illegal miners frequently dig up the marshy ground, ruining the land where the frogs breed and hide. Local experts note that even small amounts of mining activity cause significant damage to these fragile wetlands. This conflict between people looking for work in the gold trade and the need to protect endangered wildlife is a growing issue in the region.",
+          "keyTerms": [
+            {
+              "term": "Biodiversity",
+              "definition": "The variety of all living things in a specific area."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 5,
+          "image": "https://i.guim.co.uk/img/media/6172e1fd7410075dbf9568eb1dd1580c8fea1dc7/1354_0_6827_5464/master/6827.jpg?width=140&quality=85&auto=format&fit=max&s=c3b00fd2bb26c14b60ad2529eab3dd60",
+          "sources": [
+            {
+              "name": "The Guardian",
+              "title": "How a tiny rare frog became an ecological warning sign for Madagascar",
+              "url": "https://www.theguardian.com/environment/2026/nov/23/tiny-rare-frog-warning-sign-madagascar-illegal-gold-mining-aoe"
+            }
+          ]
+        },
+        {
+          "id": "region-africa-3",
+          "headline": "Nigeria's president reports frequent utility outages",
+          "summary": "President Bola Tinubu said he experienced water and power cuts at his home last week. The leader noted that these issues are a daily reality for many citizens living across the country.",
+          "whyItMatters": "The president's comments reflect the persistent challenges many Nigerians face with basic infrastructure services like electricity and water.",
+          "explainer": "Nigeria has long struggled with an unreliable national power grid and inconsistent water supply systems. When these services fail, residents often have to find expensive or difficult ways to get water or electricity, such as using private generators. By sharing his own experience, the president acknowledged the frustration of citizens who deal with these disruptions regularly. The government continues to face pressure to improve national utility systems to support both daily life and the country's economic development.",
+          "keyTerms": [],
+          "disagreement": null,
+          "update": null,
+          "importance": 4,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/69d2/live/beff50e0-e71c-11f1-914b-6d226d813a52.jpg",
+          "sources": [
+            {
+              "name": "BBC News",
+              "title": "Nigeria's president says he is also hit by water and power cuts plaguing country",
+              "url": "https://www.bbc.co.uk/news/articles/cv1j65xjjk65o?at_medium=RSS&at_campaign=rss"
+            }
+          ]
+        },
+        {
+          "id": "region-africa-4",
+          "headline": "Zimbabwean preacher arrested over sexual assault claims",
+          "summary": "Uebert Angel, a well-known preacher, has been arrested following sexual assault allegations. Angel is a British-Zimbabwean national who leads a church with locations in several different countries.",
+          "whyItMatters": "The case involves a prominent religious leader, drawing significant public attention to the legal proceedings and the church's operations.",
+          "explainer": "Uebert Angel is a prominent figure within the charismatic church movement, which has many followers in Zimbabwe and abroad. The legal process is now underway following the accusations made against him. Because he is a public figure leading a large organization with branches in multiple nations, the case is being followed closely. For now, the authorities are handling the investigation into the specific claims of sexual assault, and the preacher faces the standard legal procedures required under Zimbabwean law.",
+          "keyTerms": [
+            {
+              "term": "Charismatic church",
+              "definition": "A type of Christian church that emphasizes personal spiritual gifts and experiences."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 4,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/caba/live/164c61e0-e73a-11f1-8294-033bd8ee7e95.jpg",
+          "sources": [
+            {
+              "name": "BBC News",
+              "title": "Prominent Zimbabwean preacher arrested on sexual assault allegations",
+              "url": "https://www.bbc.co.uk/news/articles/cxyvdmjr893zo?at_medium=RSS&at_campaign=rss"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "region-asia",
+      "title": "World · Asia & Pacific",
+      "bricks": [
+        {
+          "id": "region-asia-0",
+          "headline": "Death toll rises in Indonesia factory fire",
+          "summary": "Officials say 24 people died in an Indonesian candy factory fire. Search teams are looking for about 30 missing workers. The cause of the accident remains under investigation.",
+          "whyItMatters": "This accident highlights safety risks for factory workers and impacts the families of those lost or injured.",
+          "explainer": "A major fire broke out at a candy factory in Banten province, Indonesia. Rescue workers are working in dangerous, unstable areas of the building to find dozens of people who are still missing. Local authorities have confirmed that 24 people have died, and they need DNA evidence to identify some of the victims. An investigation is currently underway to figure out what started the fire at the manufacturing site.",
+          "keyTerms": [
+            {
+              "term": "DNA",
+              "definition": "A biological code inside our bodies that is unique to every person."
+            }
+          ],
+          "disagreement": null,
+          "update": "The number of confirmed deaths has increased to 24, with about 30 workers now reported missing.",
+          "importance": 5,
+          "image": "https://i.guim.co.uk/img/media/47cbe1be874ceb93fbcf458afaae7d1de459017b/308_0_3265_2613/master/3265.jpg?width=140&quality=85&auto=format&fit=max&s=5434d79e2c7db3afb55b15a2183bcef2",
+          "sources": [
+            {
+              "name": "The Guardian",
+              "title": "At least 24 killed and dozens missing in confectionery factory fire in Indonesia",
+              "url": "https://www.theguardian.com/world/2026/nov/22/fire-confectionary-factory-indonesia-jakarta"
+            },
+            {
+              "name": "BBC News",
+              "title": "Three killed and dozens missing after fire at Indonesian factory",
+              "url": "https://www.bbc.co.uk/news/articles/cw8dvg5pgm0eo?at_medium=RSS&at_campaign=rss"
+            }
+          ]
+        },
+        {
+          "id": "region-asia-1",
+          "headline": "Bangladesh garment workers protest over low pay",
+          "summary": "Garment workers in Bangladesh are refusing the latest pay offer from employers. These workers form a key part of the country's massive clothing industry. They are seeking higher wages to cover the rising cost of living.",
+          "whyItMatters": "These protests affect the global clothing supply chain and the livelihoods of thousands of garment workers.",
+          "explainer": "Bangladesh has a very large clothing export business that brings in billions of dollars every year. Many workers in this industry feel that their current minimum wage is not enough to live on. They are actively protesting to demand better pay, rejecting the current offer provided by factory owners. The situation remains tense as workers seek a living wage that matches their hard work in the factories.",
+          "keyTerms": [
+            {
+              "term": "Garment",
+              "definition": "Any piece of clothing."
+            },
+            {
+              "term": "Minimum wage",
+              "definition": "The lowest amount of money an employer is legally allowed to pay a worker."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 5,
+          "image": null,
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "title": "Protesting Bangladesh garment workers reject pay offer",
+              "url": "https://www.aljazeera.com/news/2026/11/23/protesting-bangladesh-garment-workers-reject-pay-offer?traffic_source=rss"
+            }
+          ]
+        },
+        {
+          "id": "region-asia-2",
+          "headline": "India promises flood aid to Nepal",
+          "summary": "Nepal's leader visited India to meet with its Prime Minister. India promised $1.6 billion to help Nepal recover from recent floods. This was the first visit by the Nepali leader since he took office.",
+          "whyItMatters": "This financial help will aid in rebuilding homes and communities damaged by natural disasters in Nepal.",
+          "explainer": "The Prime Minister of Nepal traveled to New Delhi, India, for a diplomatic meeting. During the visit, the Indian government pledged $1.6 billion to support Nepal's recovery efforts after severe flooding. The leaders discussed ways to improve their relationship and work together on future projects. This partnership is important for the safety and economic recovery of people living in areas hit by the floods.",
+          "keyTerms": [
+            {
+              "term": "Flood",
+              "definition": "An overflow of water onto land that is usually dry."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 4,
+          "image": null,
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "title": "India pledges $1.6bn in flood relief for Nepal as Balendra Shah visits Modi",
+              "url": "https://www.aljazeera.com/news/2026/11/23/india-pledges-1-6bn-in-flood-relief-for-nepal?traffic_source=rss"
+            }
+          ]
+        },
+        {
+          "id": "region-asia-3",
+          "headline": "South Korea education minister resigns after scandal",
+          "summary": "South Korea's education minister quit his job after a cheating scandal. Students used AI technology to help with a major test. The minister said he failed to prepare the country for these new technology risks.",
+          "whyItMatters": "This affects trust in school testing and shows how technology is changing how students take exams.",
+          "explainer": "A major cheating scandal involving artificial intelligence caused a stir in South Korea just before university entrance exams. Students were caught using small cameras and smartphones to get answers during tests. Because the government did not stop the cheating, the education minister decided to step down from his position. The country is now debating how to keep school tests fair as technology gets better at helping people cheat.",
+          "keyTerms": [
+            {
+              "term": "Artificial Intelligence",
+              "definition": "Computer programs that can act or think like humans."
+            }
+          ],
+          "disagreement": null,
+          "update": "The education minister has now officially resigned after the cheating scandal.",
+          "importance": 4,
+          "image": "https://i.guim.co.uk/img/media/3d9052371f434580f71c25a962110e47f2e6a076/605_0_6228_4986/master/6228.jpg?width=140&quality=85&auto=format&fit=max&s=b27cbf562e91080e6b506b93ff0b44c3",
+          "sources": [
+            {
+              "name": "The Guardian",
+              "title": "South Korean minister quits after AI cheating scandal engulfs university exams",
+              "url": "https://www.theguardian.com/world/2026/nov/22/south-korea-education-minister-resigns-after-ai-cheating-scandal-engulfs-university-exams"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "region-latam",
+      "title": "World · Latin America",
+      "bricks": [
+        {
+          "id": "region-latam-0",
+          "headline": "Violence Erupts in Mexico Following Cartel Boss Arrest",
+          "summary": "Burnt-out vehicles blocked highways in Sinaloa after the arrest of cartel leader Fausto Isidro Meza Flores. Suspects fired on Mexican soldiers attempting to restore order. Police arrested eight people after the attack.",
+          "whyItMatters": "The unrest and cartel violence directly threaten safety and daily travel for residents in Sinaloa, Mexico.",
+          "explainer": "Following the arrest of Fausto Isidro Meza Flores, known as El Chapo Isidro, violence broke out in the Mexican state of Sinaloa. The cartel leader, who was on the FBI's most wanted list, was captured during a special forces raid alongside two alleged associates. In the aftermath, vehicles were set on fire and used to block highways. Mexican soldiers trying to re-establish order came under gunfire from armed suspects. Authorities arrested eight people involved in the shooting. The government continues efforts to secure the region following the high-profile raid.",
+          "keyTerms": [
+            {
+              "term": "Sinaloa",
+              "definition": "A state in western Mexico known as a hub for major drug cartels."
+            },
+            {
+              "term": "Special forces",
+              "definition": "Highly trained military units used for specialized or dangerous missions."
+            }
+          ],
+          "disagreement": null,
+          "update": "Eight suspects were arrested after firing on soldiers working to restore order following the cartel leader's capture.",
+          "importance": 7,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/17c3/live/64308a00-e73d-11f1-802a-678be58471bb.jpg",
+          "sources": [
+            {
+              "name": "BBC News",
+              "title": "Mexican soldiers attacked in wake of drug lord's arrest",
+              "url": "https://www.bbc.co.uk/news/articles/c5rmgkv2lk73o?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "The Guardian",
+              "title": "Vehicles burn on Mexican highway after capture of 'El Chapo Isidro' – video",
+              "url": "https://www.theguardian.com/world/video/2026/nov/22/vehicles-burn-on-mexican-highway-after-capture-of-el-chapo-isidro-video"
+            }
+          ]
+        },
+        {
+          "id": "region-latam-1",
+          "headline": "Barbados Town Signs Partnership Deal With Bristol",
+          "summary": "Speightstown in Barbados signed a twinning agreement with the UK city of Bristol. Officials say the deal acknowledges shared history connected to the transatlantic slave trade. Barbados views the agreement as part of its efforts toward reparative justice.",
+          "whyItMatters": "The agreement highlights ongoing efforts by Caribbean communities to address historical ties to the transatlantic slave trade.",
+          "explainer": "Speightstown, a town in Barbados also known as Little Bristol, has formally entered a twinning agreement with the city of Bristol in the United Kingdom. The labor minister of Barbados, Tony Dyer, stated that the deal acknowledges how centuries-old connections between the two locations were rooted in the transatlantic slave trade. Officials in Barbados see this new partnership as a step forward in their wider push for reparative justice, building connections through small cooperative steps rather than focusing solely on major monetary demands.",
+          "keyTerms": [
+            {
+              "term": "Twinning agreement",
+              "definition": "An official partnership between two towns or cities in different countries to promote cultural and economic ties."
+            },
+            {
+              "term": "Reparative justice",
+              "definition": "Measures taken to repair harm caused by historical wrongs or human rights violations."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 4,
+          "image": "https://i.guim.co.uk/img/media/24fed4fd10403e24fe12b5488f5534556ec94642/381_0_2926_2340/master/2926.jpg?width=140&quality=85&auto=format&fit=max&s=d194d9f5df8e59bfdf87755fa37443e4",
+          "sources": [
+            {
+              "name": "The Guardian",
+              "title": "Barbados town’s three-year deal with Bristol ‘part of the reparative process’",
+              "url": "https://www.theguardian.com/news/2026/nov/23/barbados-minister-speightstown-bristol-deal-slave-trade-reparations"
+            }
+          ]
+        },
+        {
+          "id": "region-latam-2",
+          "headline": "Falkland Islands Oil Plans Raise Environmental Concerns",
+          "summary": "Oil development plans in the Falkland Islands have raised concerns among environmentalists. Conservationists fear drilling could harm local wildlife, including seals, whales, and penguins. The islands remain subject to a long-standing sovereignty dispute between Argentina and the UK.",
+          "whyItMatters": "Environmental disruption in the region could impact local ecosystems and wildlife habitats in the South Atlantic.",
+          "explainer": "The Falkland Islands, a British overseas territory located east of Patagonia in the South Atlantic, are at the center of growing environmental concerns over planned oil developments. The archipelago consists of two main islands and hundreds of smaller islets that house large colonies of albatrosses, penguins, seals, and whales. Environmentalists worry that offshore oil projects will threaten one of the Atlantic Ocean's richest ecosystems. At the same time, Argentina and the United Kingdom continue their long-standing dispute over who holds sovereignty over the islands and their vast offshore energy reserves.",
+          "keyTerms": [
+            {
+              "term": "Sovereignty",
+              "definition": "The legal authority of a nation to govern itself or a territory."
+            },
+            {
+              "term": "Archipelago",
+              "definition": "A group or chain of many islands."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 4,
+          "image": "https://i.guim.co.uk/img/media/71177c27dff46278555eaf88bb75c6bd92f88f22/184_463_4260_3409/master/4260.jpg?width=140&quality=85&auto=format&fit=max&s=5fd1d505c064abd5f03988482c7a68bd",
+          "sources": [
+            {
+              "name": "The Guardian",
+              "title": "‘Once installed, there’s no getting rid of it’: what Falklands oil plans mean for its seals, whales and penguins",
+              "url": "https://www.theguardian.com/global-development/2026/nov/23/falkland-islands-argentina-sea-lion-oil-environment-sovereignty-wildlife-pollution"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "region-mideast",
+      "title": "World · Middle East",
+      "bricks": [
+        {
+          "id": "region-mideast-0",
+          "headline": "Iran Flogs Singer for Performing Without Headscarf",
+          "summary": "An Iranian singer and four production team members received 74 lashes each. They were punished for performing without a headscarf, which authorities called offensive. They also received two-year bans on travel and artistic work.",
+          "whyItMatters": "This case highlights the strict enforcement of laws on public behavior and clothing in Iran.",
+          "explainer": "Iranian law requires women to wear a headscarf, known as a hijab, in public. The singer and her team were sentenced for publishing content that officials deemed against public decency. Flogging is a physical punishment involving whipping, which human rights groups and many countries have condemned as a violation of international law. Beyond the physical punishment, the group faces legal restrictions that prevent them from traveling or working in their artistic fields for two years. Such actions are often used by the state to enforce social rules and suppress activities that conflict with official government standards for behavior.",
+          "keyTerms": [
+            {
+              "term": "Hijab",
+              "definition": "A head covering worn in public by some Muslim women."
+            },
+            {
+              "term": "Flogging",
+              "definition": "A punishment that involves beating a person with a whip or stick."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 7,
+          "image": "https://i.guim.co.uk/img/media/1c4d7ed77371df91b6e83e3235fa20a1fb3f56bc/812_0_3186_2550/master/3186.jpg?width=140&quality=85&auto=format&fit=max&s=4fcb417906a5d6f0f5bac2c842bf9e1d",
+          "sources": [
+            {
+              "name": "The Guardian",
+              "title": "Iranian singer and four others receive lashes after performance without hijab",
+              "url": "https://www.theguardian.com/world/2026/nov/23/iranian-singer-lashes-performing-without-hijab"
+            },
+            {
+              "name": "Al Jazeera",
+              "title": "Iran flogs singer Parastoo Ahmadi for performing without headscarf",
+              "url": "https://www.aljazeera.com/news/2026/11/23/iran-flogs-singer-parastoo-ahmadi-for-performing-without-headscarf?traffic_source=rss"
+            },
+            {
+              "name": "BBC News",
+              "title": "Iranian authorities flog singer who performed without hijab, lawyers say",
+              "url": "https://www.bbc.co.uk/news/articles/cq1j6585l5g6o?at_medium=RSS&at_campaign=rss"
+            }
+          ]
+        },
+        {
+          "id": "region-mideast-1",
+          "headline": "Experts: Gaza Has Become a Toxic Wasteland",
+          "summary": "A new report says Israel's military actions have caused deep environmental damage in Gaza. Poisoned water and toxic soil now threaten the health of people living there. Experts warn these dangers could last for generations.",
+          "whyItMatters": "This environmental damage creates long-term health risks for everyone living in Gaza by destroying clean water and safe land.",
+          "explainer": "A report by Oxfam and the Conflict and Environment Observatory indicates that heavy destruction in Gaza has contaminated the area's natural resources. The study points to damage to water systems, soil, and air quality caused by ongoing conflict. Because the water supply is poisoned and the soil is filled with toxic materials, residents face serious health risks. Scientists warn that these environmental changes will make it difficult for the population to live safely in the area for a very long time, affecting daily life and public health for the future.",
+          "keyTerms": [
+            {
+              "term": "Toxic",
+              "definition": "Something that is poisonous and harmful to living things."
+            },
+            {
+              "term": "Contamination",
+              "definition": "The process of making something impure or unsafe by adding a harmful substance."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 8,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/810a/live/c0542f80-e73d-11f1-99a1-253766e7ad8b.jpg",
+          "sources": [
+            {
+              "name": "BBC News",
+              "title": "Israeli attacks have turned Gaza into 'toxic wasteland', Oxfam says",
+              "url": "https://www.bbc.co.uk/news/articles/c8r4gzzxvxl3o?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "The Guardian",
+              "title": "Israel’s destruction of Gaza has created a ‘toxic wasteland’, experts find",
+              "url": "https://www.theguardian.com/world/2026/nov/23/israel-gaza-destruction-created-toxic-wasteland-oxfam-report"
+            }
+          ]
+        },
+        {
+          "id": "region-mideast-2",
+          "headline": "Israeli Attacks Continue in Gaza",
+          "summary": "Recent Israeli strikes in Gaza killed several people, including a United Nations worker. Meanwhile, strict controls are creating shortages of medical supplies like hearing aid batteries. A group of students was recently allowed to leave Gaza for school.",
+          "whyItMatters": "Daily life in Gaza remains dangerous, and vital supplies for health and education are often blocked or limited.",
+          "explainer": "Despite a ceasefire deal, fighting continues to disrupt life in Gaza. The death of a United Nations Relief and Works Agency (UNRWA) employee highlights the risks faced by aid workers. Additionally, Israeli restrictions on the movement of goods have caused a shortage of basic medical supplies, such as hearing aid batteries, which hurts those with disabilities. However, some students have received permission to travel abroad to attend university, showing that even with strict travel controls, small groups are sometimes able to leave the territory for education.",
+          "keyTerms": [
+            {
+              "term": "UNRWA",
+              "definition": "A United Nations agency that provides aid and education to Palestinian refugees."
+            },
+            {
+              "term": "Ceasefire",
+              "definition": "An agreement between opposing sides to stop fighting for a period of time."
+            }
+          ],
+          "disagreement": null,
+          "update": "Recent strikes continue to cause deaths and medical shortages while some students were granted permission to leave for studies.",
+          "importance": 8,
+          "image": "https://i.guim.co.uk/img/media/2cd7a8a0d8da2334980fddc1373a18d21e480cf7/913_0_4583_3667/master/4583.jpg?width=140&quality=85&auto=format&fit=max&s=809d691db58c1b3d50f03aceeaccca5a",
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "title": "Israeli strikes kill at least three, including UNRWA worker, in Gaza",
+              "url": "https://www.aljazeera.com/news/2026/11/23/israeli-drone-strike-kills-unrwa-worker-in-gaza?traffic_source=rss"
+            },
+            {
+              "name": "Al Jazeera",
+              "title": "Gaza mourns UNRWA worker killed in Israeli strike",
+              "url": "https://www.aljazeera.com/video/newsfeed/2026/11/23/gaza-mourns-unrwa-worker-killed-in-israeli-strike?traffic_source=rss"
+            },
+            {
+              "name": "Al Jazeera",
+              "title": "Israeli restrictions cut off vital hearing aid supplies in Gaza",
+              "url": "https://www.aljazeera.com/video/newsfeed/2026/11/23/israeli-restrictions-cut-off-vital-hearing-aid-supplies-in-gaza?traffic_source=rss"
+            },
+            {
+              "name": "The Guardian",
+              "title": "Twenty Gaza students due to leave for Ireland after winning visa battle",
+              "url": "https://www.theguardian.com/world/2026/nov/23/students-from-gaza-win-visa-battle-to-study-in-ireland"
+            }
+          ]
+        },
+        {
+          "id": "region-mideast-3",
+          "headline": "Tensions Rise in the Iran Conflict",
+          "summary": "Iran has increased attacks on United States bases and civilian sites in the Gulf. The conflict is causing environmental damage in the region. Observers report seeing burning ships and fighter jets in the area.",
+          "whyItMatters": "Increased conflict in this region threatens international oil shipments and the safety of people working or traveling there.",
+          "explainer": "The conflict between Iran and the United States has intensified, leading to a rise in attacks on military and civilian targets in the Persian Gulf. This area is a major path for global oil shipments. The ongoing fighting has also resulted in environmental harm, such as damaged ships causing pollution in the water. International observers and environmental activists have expressed concern that the war's footprint is spreading, affecting both the safety of local residents and the health of the ocean.",
+          "keyTerms": [
+            {
+              "term": "Strait of Hormuz",
+              "definition": "A narrow, important waterway between Iran and Oman that is a key route for oil tankers."
+            },
+            {
+              "term": "Sanctions",
+              "definition": "Actions taken by countries to limit trade or travel with another country to force a change in policy."
+            }
+          ],
+          "disagreement": null,
+          "update": "Iran has stepped up attacks on US-linked sites as conflict-related environmental damage continues to be monitored.",
+          "importance": 7,
+          "image": "https://i.guim.co.uk/img/media/7d1fe0b76a02fb1cbed49470fb53746f00e897fd/418_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=bf9d1acd9bb23aed3711f83a38bd6ff4",
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "title": "Iran hits US bases and civilian sites in the Gulf after a lull",
+              "url": "https://www.aljazeera.com/video/inside-story/2026/11/23/iran-hits-us-bases-and-civilian-sites-in-the-gulf-after-a-lull?traffic_source=rss"
+            },
+            {
+              "name": "The Guardian",
+              "title": "Briton swims length of strait of Hormuz to highlight environmental cost of war",
+              "url": "https://www.theguardian.com/world/2026/nov/22/briton-lewis-pugh-swims-strait-of-hormuz-environment-war"
+            }
+          ]
+        },
+        {
+          "id": "region-mideast-4",
+          "headline": "Violence and Tensions in West Bank",
+          "summary": "Israeli settlers recently attacked Palestinian villages, burning homes and cars. In other incidents, Israeli forces raided homes and detained a student without charge. These actions have drawn criticism from some Israeli leaders.",
+          "whyItMatters": "These events increase danger for civilians in the West Bank and create deep political divisions.",
+          "explainer": "The West Bank is seeing an increase in violence involving both Israeli settlers and military forces. Settlers have burned property in Palestinian communities, which some Israeli opposition leaders have called 'Jewish terrorism.' At the same time, military raids have led to the detention of Palestinian students and the assault of residents in their homes. These events have sparked protests from professors and rights activists who argue that the rights of Palestinians are being ignored or violated by these actions.",
+          "keyTerms": [
+            {
+              "term": "West Bank",
+              "definition": "A territory near Israel where many Palestinians live and where land disputes occur."
+            },
+            {
+              "term": "Detain",
+              "definition": "To hold someone in custody or prevent them from leaving."
+            }
+          ],
+          "disagreement": null,
+          "update": "Violence continues with new reports of raids and student detentions following earlier arson attacks.",
+          "importance": 7,
+          "image": "https://i.guim.co.uk/img/media/3b697e211fd94382a4c76bc1361873d607c3ea2d/0_41_1200_960/master/1200.jpg?width=140&quality=85&auto=format&fit=max&s=d82e5b330b3e4638c7d2252a0f1c7b13",
+          "sources": [
+            {
+              "name": "The Guardian",
+              "title": "Israel seeks to jail Palestinian student activist without trial after dorm arrest",
+              "url": "https://www.theguardian.com/world/2026/nov/23/student-arrest-racist-campaign-israel-palestine-benjamin-netanyahu"
+            },
+            {
+              "name": "Al Jazeera",
+              "title": "Israeli soldiers assault Palestinian after raiding his home",
+              "url": "https://www.aljazeera.com/video/newsfeed/2026/11/23/israeli-soldiers-assault-palestinian-after-raiding-his-home?traffic_source=rss"
+            },
+            {
+              "name": "The Guardian",
+              "title": "Netanyahu rival condemns ‘Jewish terrorism’ after settler attacks on Palestinian villages",
+              "url": "https://www.theguardian.com/world/2026/nov/22/netanyahu-rival-condemns-settler-arson-attacks-palestinian-villages-west-bank"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "top-us",
+      "title": "Top Stories · United States",
+      "bricks": [
+        {
+          "id": "top-us-0",
+          "headline": "Jensen Huang Returns as Nvidia CEO After Reinstatement",
+          "summary": "Nvidia's board has unanimously rehired Jensen Huang as CEO and chairman. President Trump took credit for the decision, saying he spoke with board members to urge his return to lead the company.",
+          "whyItMatters": "Nvidia is a leader in artificial intelligence technology, which is a major part of the U.S. economy.",
+          "explainer": "Jensen Huang has returned as the leader of Nvidia, a massive technology company at the heart of the modern artificial intelligence boom. After resigning during a personal scandal involving his private life, Huang was brought back by the company's board of directors. President Trump stated he personally talked to the board to suggest Huang should be reinstated, arguing his leadership is essential for both the company and the broader U.S. economy. While some questioned the potential for political interference in a private company, the White House stated there were no national security concerns regarding his return. Nvidia is considered a central player in global tech markets, making this leadership change a significant event for investors and the tech industry.",
+          "keyTerms": [
+            {
+              "term": "Artificial Intelligence",
+              "definition": "Computer systems designed to perform tasks that typically require human intelligence, like learning and decision-making."
+            },
+            {
+              "term": "Reinstatement",
+              "definition": "The act of giving someone back their former position or job."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 7,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e868/live/68f570d0-e758-11f1-b407-33329b1ec67a.jpg",
+          "sources": [
+            {
+              "name": "BBC News",
+              "title": "Trump says he 'convinced' Nvidia to reinstate Jensen Huang",
+              "url": "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "BBC News",
+              "title": "Analysis: Why Jensen Huang proved too big to fire",
+              "url": "https://www.bbc.co.uk/news/articles/ckr5g8edl94eo?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "PBS NewsHour",
+              "title": "What Trump told PBS News about Jensen Huang before Nvidia reinstatement",
+              "url": "https://www.pbs.org/newshour/politics/what-trump-told-pbs-news-about-jensen-huang-before-nvidia-reinstatement"
+            },
+            {
+              "name": "BBC News",
+              "title": "How important are Nvidia and Jensen Huang to the US economy?",
+              "url": "https://www.bbc.co.uk/news/articles/c68798vdprwpo?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "BBC News",
+              "title": "The rise and fall and rise again of Jensen Huang",
+              "url": "https://www.bbc.co.uk/news/articles/cmze750zg0jeo?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "NPR",
+              "title": "Trump claims credit as Jensen Huang returns to Nvidia",
+              "url": "https://www.npr.org/2026/11/23/nx-s1-6050910/nvidias-jensen-huang-trump"
+            },
+            {
+              "name": "PBS NewsHour",
+              "title": "Nvidia board unanimously reinstates Jensen Huang as CEO and chairman",
+              "url": "https://www.pbs.org/newshour/nation/nvidia-board-unanimously-reinstates-jensen-huang-as-ceo-and-chairman"
+            }
+          ]
+        },
+        {
+          "id": "top-us-1",
+          "headline": "Trump Pauses Military Plan to Detonate Explosives in Iowa",
+          "summary": "President Trump said the Army will wait for a federal court to decide before it destroys old explosives at an Iowa factory. The Army previously argued that destroying the materials quickly was needed for safety.",
+          "whyItMatters": "People living near the ammunition plant were worried about the safety risks of detonating toxic materials nearby.",
+          "explainer": "The U.S. Army planned to blow up large amounts of unstable, toxic bomb-making materials at a plant in Iowa. This caused significant worry for people in the area who feared for their safety. While the Army claimed they needed to act quickly to prevent accidents, a federal court issued a temporary order to stop them. President Trump announced that the government will now wait for the court's final decision before moving forward. This pause aims to balance the Army's need to handle dangerous materials safely with the legal process and the concerns of local residents who might be affected by the blast.",
+          "keyTerms": [
+            {
+              "term": "Detonate",
+              "definition": "To cause something to explode."
+            },
+            {
+              "term": "Unstable",
+              "definition": "Likely to change or break down in a dangerous or unpredictable way."
+            }
+          ],
+          "disagreement": "The U.S. Army says immediate action is needed for safety, while local residents and some court actions have sought to pause the process due to concerns about the risks.",
+          "update": "President Trump has now directed the Army to wait for a court's approval before proceeding with the detonation.",
+          "importance": 6,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c129/live/651f5c40-e68c-11f1-936e-1fd1d31671db.jpg",
+          "sources": [
+            {
+              "name": "BBC News",
+              "title": "Trump orders US military not to detonate toxic explosives in Iowa without court approval",
+              "url": "https://www.bbc.co.uk/news/articles/cr2klqzqx1qvo?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "PBS NewsHour",
+              "title": "Trump says Army will not detonate bomb-making chemicals in Iowa without court approval",
+              "url": "https://www.pbs.org/newshour/nation/trump-says-army-will-not-detonate-bomb-making-chemicals-in-iowa-without-court-approval"
+            },
+            {
+              "name": "BBC News",
+              "title": "US Army to detonate tonnes of unstable explosives in Iowa despite court order",
+              "url": "https://www.bbc.co.uk/news/articles/cvglrx764gdxo?at_medium=RSS&at_campaign=rss"
+            }
+          ]
+        },
+        {
+          "id": "top-us-2",
+          "headline": "ICE Arrests at Seattle Airport Draw Outrage",
+          "summary": "Immigration officers arrested a father and daughter at Seattle-Tacoma International Airport as they were traveling for a baptism. The airport operator expressed outrage over the incident, which was recorded by other passengers.",
+          "whyItMatters": "This story highlights the ongoing debates about how U.S. immigration laws are enforced in public spaces and during travel.",
+          "explainer": "Two people, described as a father and daughter from Mexico, were arrested by U.S. Immigration and Customs Enforcement (ICE) agents while at the Seattle-Tacoma International Airport. ICE officials stated the pair were arrested because they had overstayed their visas. Videos taken by other travelers showed the agents in plain clothes taking the pair into custody as they prepared to fly. The incident has caused public backlash, with airport leadership criticizing the way the arrests were handled in a crowded public terminal. The event has sparked discussions about the methods used by immigration officials when locating and detaining people.",
+          "keyTerms": [
+            {
+              "term": "ICE",
+              "definition": "A federal agency in charge of enforcing immigration laws within the United States."
+            },
+            {
+              "term": "Visa",
+              "definition": "An official document that allows a person to legally enter and stay in a country for a specific amount of time."
+            }
+          ],
+          "disagreement": null,
+          "update": "The airport operator has spoken out to condemn the actions of the officers involved in the arrest.",
+          "importance": 5,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f10f/live/4320e1c0-e77e-11f1-a094-5fdc692f3e33.jpg",
+          "sources": [
+            {
+              "name": "BBC News",
+              "title": "Seattle airport operator 'outraged' over ICE arrest of two passengers",
+              "url": "https://www.bbc.co.uk/news/articles/cmwy479wz91no?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "PBS NewsHour",
+              "title": "Lawyer: Father and daughter detained by ICE at Seattle airport were traveling to family baptism",
+              "url": "https://www.pbs.org/newshour/nation/lawyer-father-and-daughter-detained-by-ice-at-seattle-airport-were-traveling-to-family-baptism"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "politics-us",
+      "title": "Politics · United States",
+      "bricks": [
+        {
+          "id": "politics-us-0",
+          "headline": "Democrats Win Historic House Majority in Midterms",
+          "summary": "Democrats have secured at least 258 seats in the House. This gives the party its largest House majority in decades following midterm elections.",
+          "whyItMatters": "This shift in power allows Democrats to control House committees and set the legislative agenda when they take office.",
+          "explainer": "Following recent midterm elections, the Democratic Party has officially clinched a historic majority in the U.S. House of Representatives. By flipping dozens of seats, including a decisive victory in North Carolina, Democrats reached a total of at least 258 seats. Analysts note this is the largest House majority the party has seen since 1992. The new numbers give Democrats strong leverage in Washington as they prepare to take control of the chamber, influencing which bills come up for a vote and how federal spending is managed.",
+          "keyTerms": [],
+          "disagreement": null,
+          "update": null,
+          "importance": 8,
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-17T122640Z_1733617564_RC2NPOA4FN91_RTRMADP_3_USA-CONGRESS-1024x683.jpg",
+          "sources": [
+            {
+              "name": "NPR",
+              "title": "Democrats win House by largest margin in 50 years. And, COP31 ends with no deal",
+              "url": "https://www.npr.org/2026/11/23/g-s1-155021/up-first-newsletter-midterms-house-ai-stocks-poland-nato-cop31"
+            },
+            {
+              "name": "PBS NewsHour",
+              "title": "Democrats clinch a historic House majority of at least 258 seats, the largest since 1992",
+              "url": "https://www.pbs.org/newshour/politics/democrats-clinch-a-historic-house-majority-of-at-least-258-seats-the-largest-since-1992"
+            }
+          ]
+        },
+        {
+          "id": "politics-us-1",
+          "headline": "Republicans Debate Future After Midterm Losses",
+          "summary": "Republican leaders are discussing their next steps after suffering significant losses in the midterm elections. Party members are analyzing what went wrong and how to shape their platform moving forward.",
+          "whyItMatters": "Internal party debates shape the policies and candidates that Republicans will present to voters in future elections.",
+          "explainer": "In the wake of disappointing results during the midterm elections, Republican Party leaders and members are engaged in heavy internal discussions about their future. The party suffered major losses, particularly in the House of Representatives. As a result, party members are debating what factors led to the defeat and what direction the party should take next. These conversations will likely influence campaign strategies, policy priorities, and leadership choices as the party looks toward the next election cycle.",
+          "keyTerms": [],
+          "disagreement": null,
+          "update": null,
+          "importance": 6,
+          "image": "https://media.npr.org/include/images/tracking/npr-rss-pixel.png?story=nx-s1-6044259",
+          "sources": [
+            {
+              "name": "NPR",
+              "title": "After midterm losses, Republicans debate what's next for the party",
+              "url": "https://www.npr.org/2026/11/23/nx-s1-6044259/after-midterm-losses-republicans-debate-whats-next-for-the-party"
+            }
+          ]
+        },
+        {
+          "id": "politics-us-2",
+          "headline": "Trump Criticizes Newsom Over Death Row Commutations",
+          "summary": "President Trump delivered an address criticizing California Governor Gavin Newsom. The speech focused on Newsom's decision to commute the death sentences of over 500 inmates.",
+          "whyItMatters": "This debate highlights ongoing national disagreements over criminal justice policies, public safety, and state versus federal authority.",
+          "explainer": "President Trump spoke out publicly against California Governor Gavin Newsom's recent policy decision. The White House stated the address was intended to protect American families and address Newsom's choice to change the sentences of more than 500 death row inmates to life without the possibility of parole. Critics of the commutation argue it undermines justice, while supporters view it as a necessary criminal justice reform. The clash brings renewed national attention to state-level sentencing powers and executive authority.",
+          "keyTerms": [
+            {
+              "term": "commute",
+              "definition": "To reduce a criminal sentence to a less severe punishment."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 6,
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-23T155249Z_1839840849_RC2QTOAONBCW_RTRMADP_3_USA-TRUMP-1024x683.jpg",
+          "sources": [
+            {
+              "name": "PBS NewsHour",
+              "title": "WATCH LIVE: Trump delivers address on Newsom's move to grant clemency for California's death row",
+              "url": "https://www.pbs.org/newshour/politics/watch-live-trump-delivers-address-on-newsoms-move-to-grant-clemency-for-californias-death-row"
+            }
+          ]
+        },
+        {
+          "id": "politics-us-3",
+          "headline": "U.S. Intelligence Chief Defends Trump's Putin Remarks",
+          "summary": "The nation's top intelligence official defended President Trump's description of Vladimir Putin as a friend. Democrats criticized the remarks as a betrayal of American values.",
+          "whyItMatters": "Foreign policy stances affect international alliances and national security standing around the world.",
+          "explainer": "U.S. intelligence chief Clayton defended comments made by President Trump regarding Russian President Vladimir Putin. Trump had referred to Putin as a 'friend' following rare three-way talks that also included Chinese President Xi Jinping. While the intelligence official argued the description was entirely appropriate, Democratic lawmakers strongly disagreed, characterizing the language as a betrayal of traditional American values and foreign policy standards.",
+          "keyTerms": [],
+          "disagreement": "Democrats call the president's friendly description of Vladimir Putin a betrayal of American values, while the U.S. intelligence chief defends the remarks as entirely appropriate.",
+          "update": null,
+          "importance": 6,
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-18T152612Z_1192953778_RC2FQOADLE00_RTRMADP_3_USA-SECURITY-MULLIN-2-1024x683.jpg",
+          "sources": [
+            {
+              "name": "PBS NewsHour",
+              "title": "U.S. intelligence chief says Trump's description of Putin as a 'friend' is 'entirely appropriate'",
+              "url": "https://www.pbs.org/newshour/world/u-s-intelligence-chief-says-trumps-description-of-putin-as-a-friend-is-entirely-appropriate"
+            }
+          ]
+        },
+        {
+          "id": "politics-us-4",
+          "headline": "California Voters Reject Billionaire Tax Proposal",
+          "summary": "California voters rejected a major wealth tax proposal in a recent election. Voters also approved a measure making it harder to pass a wealth tax in the future.",
+          "whyItMatters": "Tax policies directly affect how state governments raise revenue for public services and how much wealthy residents pay.",
+          "explainer": "Despite significant election victories for progressive candidates in other areas, a high-profile proposal to implement a state wealth tax in California failed at the ballot box. Voters not only turned down the tax, which was seen as a major test for progressive economic policies, but they also approved an additional measure that creates higher hurdles for enacting a wealth tax in the future. The outcome preserves the state's current tax structure and signals limits to progressive tax reform in the state.",
+          "keyTerms": [
+            {
+              "term": "wealth tax",
+              "definition": "A tax on the total accumulated net worth of wealthy individuals."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 5,
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-10-06T034243Z_1178947737_RC2FXNAANCXI_RTRMADP_3_USA-ELECTION-CALIFORNIA-1024x683.jpg",
+          "sources": [
+            {
+              "name": "PBS NewsHour",
+              "title": "How a billionaire tax proposal failed in California despite big election wins for progressives",
+              "url": "https://www.pbs.org/newshour/politics/how-a-billionaire-tax-proposal-failed-in-california-despite-big-election-wins-for-progressives"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-nfl",
+      "title": "Sports · NFL",
+      "bricks": [
+        {
+          "id": "sports-nfl-0",
+          "headline": "49ers Release Wide Receiver Brandon Aiyuk",
+          "summary": "The San Francisco 49ers are releasing wide receiver Brandon Aiyuk. His roster exemption has come to an end.",
+          "whyItMatters": "This roster move changes the team's player lineup and affects the wide receiver's career path.",
+          "explainer": "The San Francisco 49ers have decided to release wide receiver Brandon Aiyuk. This decision comes as his roster exemption period ends. In professional football, a roster exemption allows a team extra time before adding a player to the active roster. By releasing him, the player becomes a free agent and can look for opportunities with other teams in the league.",
+          "keyTerms": [
+            {
+              "term": "roster exemption",
+              "definition": "A special status that lets a team keep a player off the active roster for a short time."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 5,
+          "image": "https://a.espncdn.com/photo/2026/1105/r1741725_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Sources: 49ers releasing WR Brandon Aiyuk with roster exemption ending",
+              "url": "https://www.espn.com/nfl/story/_/id/50575346/sources-49ers-releasing-wr-brandon-aiyuk"
+            }
+          ]
+        },
+        {
+          "id": "sports-nfl-1",
+          "headline": "Giants Cornerback Greg Newsome Sidelined With Ankle Injury",
+          "summary": "New York Giants starting cornerback Greg Newsome will miss multiple weeks. He suffered a high ankle sprain.",
+          "whyItMatters": "The team will have to play its upcoming games without a key starting defender.",
+          "explainer": "New York Giants starting cornerback Greg Newsome is injured. Coach John Harbaugh announced that the defensive player will miss multiple weeks of action because of a high ankle sprain. A high ankle sprain is an injury to the ligaments above the ankle joint, which usually takes longer to heal than a standard ankle sprain. The team must now adjust its defense while he recovers.",
+          "keyTerms": [
+            {
+              "term": "cornerback",
+              "definition": "A defensive football player who guards the opposing team's pass receivers."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 4,
+          "image": "https://a.espncdn.com/photo/2026/1103/r1740719_600x600_1-1.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Giants' Greg Newsome out 'multiple weeks' with ankle sprain",
+              "url": "https://www.espn.com/nfl/story/_/id/50576454/giants-greg-newsome-multiple-weeks-ankle-sprain"
+            }
+          ]
+        },
+        {
+          "id": "sports-nfl-2",
+          "headline": "Cardinals Fire Defensive Coordinator Nick Rallis",
+          "summary": "The Arizona Cardinals have fired defensive coordinator Nick Rallis. Team sources confirmed the decision.",
+          "whyItMatters": "Coaching changes can shift a team's defensive strategy and affect overall performance for the rest of the season.",
+          "explainer": "The Arizona Cardinals have parted ways with defensive coordinator Nick Rallis. Sources confirmed the firing to sports reporters. A defensive coordinator is an assistant coach who creates the plans and calls plays for the team's defense during games. The team will now need to find a new coach to lead the defense.",
+          "keyTerms": [
+            {
+              "term": "defensive coordinator",
+              "definition": "A coach who is in charge of a team's defensive strategy and play-calling."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 4,
+          "image": "https://www.espn.com/video/clip/_/id/50576302/cardinals-fire-defensive-coordinator-loss-chiefs",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Cardinals fire defensive coordinator Nick Rallis, sources say",
+              "url": "https://www.espn.com/nfl/story/_/id/50575938/cardinals-fire-defensive-coordinator-nick-rallis-sources-say"
+            }
+          ]
+        },
+        {
+          "id": "sports-nfl-3",
+          "headline": "Rams Tight End Terrance Ferguson Needs Season-Ending Surgery",
+          "summary": "Los Angeles Rams tight end Terrance Ferguson has an ankle injury. He needs season-ending surgery.",
+          "whyItMatters": "The team loses an important player for the remainder of the season.",
+          "explainer": "Los Angeles Rams tight end Terrance Ferguson will miss the rest of the year. Coach Sean McVay announced that the player's ankle injury requires surgery. A tight end is an offensive player who blocks for runners and catches passes from the quarterback. The team must find other players to fill his role.",
+          "keyTerms": [
+            {
+              "term": "tight end",
+              "definition": "An offensive player who blocks for teammates and catches passes."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 4,
+          "image": "https://a.espncdn.com/photo/2026/1123/r1750308_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Rams TE Terrance Ferguson needs season-ending ankle surgery, Sean McVay says",
+              "url": "https://www.espn.com/nfl/story/_/id/50575889/rams-te-terrance-ferguson-needs-season-ending-ankle-surgery"
+            }
+          ]
+        },
+        {
+          "id": "sports-nfl-4",
+          "headline": "Patriots Stick With DeVito at Quarterback",
+          "summary": "Patriots coach Mike Vrabel says the team will stick with DeVito. They are not looking for outside help at quarterback.",
+          "whyItMatters": "The team must rely on its current roster while its main quarterback recovers from an injury.",
+          "explainer": "The New England Patriots are moving forward with their current backup quarterback. Coach Mike Vrabel stated that the team will not look outside the organization for a replacement. This comes as the team prepares to play without its injured starting quarterback, who suffered a broken bone in his leg.",
+          "keyTerms": [
+            {
+              "term": "quarterback",
+              "definition": "The offensive player who calls plays and throws or hands off the football."
+            }
+          ],
+          "disagreement": null,
+          "update": "Coach Mike Vrabel announced the team will stick with DeVito instead of seeking outside help while Drake Maye recovers from his leg fracture.",
+          "importance": 4,
+          "image": "https://a.espncdn.com/photo/2026/0828/r1707935_600x400_3-2.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Vrabel: Patriots sticking with DeVito as QB1, not looking for outside help",
+              "url": "https://www.espn.com/nfl/story/_/id/50575341/mike-vrabel-patriots-sticking-tommy-devito-qb1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-nba",
+      "title": "Sports · NBA",
+      "bricks": [
+        {
+          "id": "sports-nba-0",
+          "headline": "Warriors Beat Celtics 88-87 to End Losing Streak",
+          "summary": "The Golden State Warriors defeated the Boston Celtics 88-87 on Sunday. Brandin Podziemski scored 18 points to help end Golden State's five-game losing streak. The loss gave the Celtics their first four-game losing streak in five years.",
+          "whyItMatters": "The victory ends a five-game losing streak for the Warriors while extending a rare four-game slide for the Celtics.",
+          "explainer": "Golden State entered Sunday night looking to end a five-game losing streak as they faced the Boston Celtics. Brandin Podziemski led the Warriors with 18 points and seven rebounds in the victory. Forward Draymond Green sealed the 88-87 win on the final play by making a last-second defensive stop. He then celebrated with his team to cap off the victory. The loss sent Boston to its fourth consecutive defeat. This marks the first time in five years that the Celtics have lost four straight games.",
+          "keyTerms": [],
+          "disagreement": null,
+          "update": null,
+          "importance": 4,
+          "image": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401910035.png?templateId=espn.applewatch.awayhome.1",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Brandin Podziemski scores 18 points as Warriors hold of Celtics 88-87 to snap five-game losing skid",
+              "url": "http://www.espn.com/nba/recap?gameId=401910035"
+            },
+            {
+              "name": "ESPN",
+              "title": "Draymond Green swats back at online critics, fuels Warriors' win over Celtics",
+              "url": "https://www.espn.com/nba/story/_/id/50570668/vocal-green-defensive-stop-buzzer-fuels-warriors-win"
+            }
+          ]
+        },
+        {
+          "id": "sports-nba-1",
+          "headline": "Bam Adebayo Leads Heat Past Thunder 123-113",
+          "summary": "Bam Adebayo scored 24 points and had a triple-double to help the Miami Heat beat the Oklahoma City Thunder 123-113. Oklahoma City played without Shai Gilgeous-Alexander. During the game, Miami's Klay Thompson broke his shoe while running on defense.",
+          "whyItMatters": "Miami earned a notable victory against a strong opponent despite both teams missing key star players.",
+          "explainer": "Miami center Bam Adebayo led the Heat to a 123-113 victory over the Oklahoma City Thunder on Sunday night by scoring 24 points and recording a triple-double. Both teams played without major stars in the lineup. Oklahoma City was without Shai Gilgeous-Alexander, while Miami played without Giannis Antetokounmpo. During the game, Miami player Klay Thompson had an unusual equipment issue when he blew out part of his shoe while defending an Oklahoma City fast break. Despite the distraction, Miami controlled the game and earned the win.",
+          "keyTerms": [
+            {
+              "term": "triple-double",
+              "definition": "When a player gets double digits in three stat categories like points, rebounds, and assists in one game."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 3,
+          "image": "https://a.espncdn.com/photo/2026/1123/r1749970_600x600_1-1.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Bam Adebayo's triple-double ignites Heat's 123-113 victory over Thunder",
+              "url": "https://www.espn.com/nba/story/_/id/50568682/adebayo-triple-double-sparks-shorthanded-heat-victory"
+            },
+            {
+              "name": "ESPN",
+              "title": "Klay Thompson blows out shoe in Heat's win over Thunder",
+              "url": "https://www.espn.com/nba/story/_/id/50567550/klay-thompson-blows-shoe-heat-thunder"
+            }
+          ]
+        },
+        {
+          "id": "sports-nba-2",
+          "headline": "76ers Hold Off Tyler Herro's 50-Point Game",
+          "summary": "The Philadelphia 76ers won a close game despite 50 points from Tyler Herro. Philadelphia nearly lost a late 10-point lead before securing the victory.",
+          "whyItMatters": "The 76ers earned another close win despite a huge individual scoring performance by their opponent.",
+          "explainer": "The Philadelphia 76ers earned a hard-fought victory on Sunday despite an explosive scoring effort from Tyler Herro. Herro scored 50 points to keep his team competitive throughout the night. Philadelphia built a 10-point lead late in the fourth quarter, but nearly gave it away as Herro led a late comeback attempt. The 76ers managed to make key plays in the final minutes to secure the victory. The team has now won several close games recently, though coaches and players noted they need to finish games better.",
+          "keyTerms": [],
+          "disagreement": null,
+          "update": null,
+          "importance": 3,
+          "image": "https://a.espncdn.com/photo/2026/1121/r1749277_600x400_3-2.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "76ers survive in clutch again despite Herro's 50: 'Got to finish better'",
+              "url": "https://www.espn.com/nba/story/_/id/50555316/76ers-survive-clutch-again-tyler-herro-50"
+            }
+          ]
+        },
+        {
+          "id": "sports-nba-3",
+          "headline": "Nets Guard Nolan Traore Out 8 to 10 Weeks",
+          "summary": "Brooklyn Nets guard Nolan Traore suffered a right hamstring strain. The team announced he will be evaluated again in eight to 10 weeks.",
+          "whyItMatters": "Brooklyn will be without one of its guards for at least two months of the regular season.",
+          "explainer": "Brooklyn Nets guard Nolan Traore will miss significant playing time after suffering a right hamstring strain. The team officially announced the injury on Monday, stating that Traore will be reevaluated by medical personnel in eight to 10 weeks. A hamstring strain occurs when the muscles along the back of the thigh are stretched or torn. This recovery timeline means the guard will be sidelined for at least two months while undergoing treatment and rehabilitation before he can be cleared to return to court activities.",
+          "keyTerms": [
+            {
+              "term": "hamstring strain",
+              "definition": "An injury to the muscles on the back of the thigh."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 3,
+          "image": "https://a.espncdn.com/photo/2026/1107/r1742411_600x400_3-2.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Nets' Nolan Traore has hamstring strain, to be reevaluated in 8-10 weeks",
+              "url": "https://www.espn.com/nba/story/_/id/50573732/nets-nolan-traore-hamstring-reevaluated-8-10-weeks"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-wnba",
+      "title": "Sports · WNBA",
+      "bricks": []
+    },
+    {
+      "id": "sports-mlb",
+      "title": "Sports · MLB",
+      "bricks": [
+        {
+          "id": "sports-mlb-0",
+          "headline": "Tarik Skubal Signs Record $450 Million Deal With Mets",
+          "summary": "Pitcher Tarik Skubal and the New York Mets agreed to a nine-year, $450 million contract. It is the richest deal ever for a pitcher. The Mets also signed first baseman Paul Goldschmidt.",
+          "whyItMatters": "The record contract brings a top pitcher to the Mets while setting a new market standard for star players across baseball.",
+          "explainer": "Pitcher Tarik Skubal agreed to a nine-year contract worth $450 million with the New York Mets. The deal sets a record for the largest total value and average annual salary ever given to a Major League Baseball pitcher. The contract comes after Skubal won two Cy Young Awards. In addition to signing Skubal, the Mets added veteran first baseman Paul Goldschmidt on a one-year deal. The spending spree significantly strengthens the Mets' roster as they build for the upcoming season, while setting a new benchmark for free-agent pitcher contracts.",
+          "keyTerms": [
+            {
+              "term": "free agent",
+              "definition": "A player whose contract has ended and who is free to sign with any team."
+            },
+            {
+              "term": "Cy Young Award",
+              "definition": "An annual award given to the best pitcher in Major League Baseball."
+            }
+          ],
+          "disagreement": null,
+          "update": "Pitcher Tarik Skubal agreed to a record nine-year, $450 million contract with the New York Mets.",
+          "importance": 6,
+          "image": "https://a.espncdn.com/photo/2026/1123/r1750168_600x400_3-2.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Source: Mets agree to 1-year deal with veteran 1B Paul Goldschmidt",
+              "url": "https://www.espn.com/mlb/story/_/id/50573673/sources-mets-agree-deal-veteran-1b-paul-goldschmidt"
+            },
+            {
+              "name": "ESPN",
+              "title": "Sources: Mets, Skubal agree to record 9-year, $450M contract",
+              "url": "https://www.espn.com/mlb/story/_/id/50565674/sources-mets-skubal-agree-9-year-450m-contract"
+            }
+          ]
+        },
+        {
+          "id": "sports-mlb-1",
+          "headline": "MLB and Players Union Exchange New Labor Proposals",
+          "summary": "Major League Baseball proposed higher minimum salaries for young players on Monday. The players union offered a plan for international amateur signings and suggested sharing local media money equally among all 30 teams.",
+          "whyItMatters": "These labor talks will decide player pay rules, team revenue sharing, and how the sport is run in future seasons.",
+          "explainer": "Major League Baseball and its players union are actively negotiating terms for a new collective bargaining agreement. On Monday, MLB suggested measures to increase minimum salaries so players earn more early in their careers. In response, the MLB Players Association proposed an international amateur signing system without a draft. The union also agreed to a plan that would split local media revenue equally among all 30 MLB teams. Both sides are trying to resolve financial issues and draft rules before a new agreement is finalized.",
+          "keyTerms": [
+            {
+              "term": "collective bargaining agreement",
+              "definition": "An agreement negotiated between team owners and the players union that sets rules for salaries and working conditions."
+            },
+            {
+              "term": "revenue sharing",
+              "definition": "A system where sports teams share income with each other so smaller teams can compete financially."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 6,
+          "image": "https://a.espncdn.com/photo/2024/0916/r1387578_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "MLB offers higher minimum salaries while union eyes local media revenue sharing",
+              "url": "https://www.espn.com/mlb/story/_/id/50576198/mlb-offers-higher-minimum-player-salaries-lockout-looms"
+            },
+            {
+              "name": "ESPN",
+              "title": "MLB labor battle: Latest updates, full coverage on CBA, salary cap, more",
+              "url": "https://www.espn.com/mlb/story/_/id/49425027/mlb-labor-cba-owners-players-union-salary-cap-draft-proposals-mlbpa-negotiations-latest-updates"
+            },
+            {
+              "name": "ESPN",
+              "title": "MLB players' union offers international signing plan, no draft",
+              "url": "https://www.espn.com/mlb/story/_/id/50542420/mlbpa-offers-intl-signing-plan-no-draft"
+            }
+          ]
+        },
+        {
+          "id": "sports-mlb-2",
+          "headline": "President Trump Posthumously Pardons Baseball Legend Pete Rose",
+          "summary": "President Donald Trump announced a posthumous pardon for baseball star Pete Rose. Rose died more than two years ago. He was previously reinstated by Major League Baseball after a lifetime ban for gambling.",
+          "whyItMatters": "The pardon brings official executive forgiveness to one of baseball's most controversial figures following his lifetime ban and eventual reinstatement.",
+          "explainer": "President Donald Trump announced that he has posthumously pardoned Pete Rose, more than two years after the famous baseball player's death. Rose was Major League Baseball's all-time hits leader but was banned from the sport in 1989 for gambling on games while managing the Cincinnati Reds. Major League Baseball officially reinstated Rose one year before the presidential pardon was issued. The official decision brings formal executive forgiveness to one of baseball's most famous and debated figures, closing a long chapter surrounding Rose's career and legal legacy.",
+          "keyTerms": [
+            {
+              "term": "pardon",
+              "definition": "An official decision by a government leader to forgive someone for a crime."
+            },
+            {
+              "term": "posthumous",
+              "definition": "Occurring or awarded after a person's death."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 5,
+          "image": "https://a.espncdn.com/photo/2024/1001/r1394332_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Pete Rose posthumously pardoned by President Donald Trump",
+              "url": "https://www.espn.com/mlb/story/_/id/50534187/pete-rose-posthumously-pardoned-president-donald-trump"
+            }
+          ]
+        },
+        {
+          "id": "sports-mlb-3",
+          "headline": "Dodgers Acquire Infielder Royce Lewis in Trade With Twins",
+          "summary": "The Los Angeles Dodgers acquired infielder Royce Lewis in a trade with the Minnesota Twins. Lewis is a versatile right-handed hitter. He will help replace veteran infielder Miguel Rojas.",
+          "whyItMatters": "The trade fills a key infield spot for the Dodgers as they adjust their roster for next season.",
+          "explainer": "The Los Angeles Dodgers made a notable roster move by acquiring infielder Royce Lewis in a trade with the Minnesota Twins. Los Angeles was looking for a versatile right-handed hitter after losing veteran infielder Miguel Rojas. Lewis brings versatility and hitting talent to the Dodgers as they build their team for the upcoming season. In exchange, the Twins traded away one of their starting infielders to adjust their own roster. The acquisition gives the Dodgers a key new contributor to strengthen their infield unit.",
+          "keyTerms": [
+            {
+              "term": "infielder",
+              "definition": "A player who defends the area of the baseball field closest to the bases."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 5,
+          "image": "https://a.espncdn.com/photo/2026/0719/r1691220_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Dodgers acquire infielder Royce Lewis in trade with Twins",
+              "url": "https://www.espn.com/mlb/story/_/id/50544410/sources-dodgers-acquire-royce-lewis-trade-twins"
+            }
+          ]
+        },
+        {
+          "id": "sports-mlb-4",
+          "headline": "World Series Champion Brewers Postseason Shares Announced",
+          "summary": "Full postseason shares for the World Series champion Milwaukee Brewers were set at $493,044 per player. The total players' pool of about $114.5 million was lower than the past two seasons.",
+          "whyItMatters": "Postseason shares determine the extra bonus money players and team staff earn based on playoff ticket sales.",
+          "explainer": "Players on the World Series champion Milwaukee Brewers each received $493,044 for a full postseason share this year. Major League Baseball creates a total bonus pool for players using money generated from ticket sales during playoff games. The total pool amount for all postseason teams reached roughly $114.5 million. That money is distributed among participating teams according to how far they advance in the playoffs. Even though the Brewers won the title, the total pool amount was lower than what players received in the previous two seasons.",
+          "keyTerms": [
+            {
+              "term": "postseason share",
+              "definition": "Bonus money paid to players and staff based on revenue collected during playoff games."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 4,
+          "image": "https://a.espncdn.com/photo/2026/1029/r1738150_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "World Series champion Brewers' full playoff share was $493,044",
+              "url": "https://www.espn.com/mlb/story/_/id/50575095/world-series-champion-brewers-full-playoff-share-was-493044"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-nhl",
+      "title": "Sports · NHL",
+      "bricks": [
+        {
+          "id": "sports-nhl-0",
+          "headline": "Red Wings Trade Captain Dylan Larkin to Canadiens",
+          "summary": "The Detroit Red Wings traded captain Dylan Larkin to the Montreal Canadiens. Larkin asked Detroit for a trade during his contract. Montreal acquired him in a major deal on Sunday.",
+          "whyItMatters": "The trade gives Montreal a top player while changing the lineup for both teams.",
+          "explainer": "Former Detroit Red Wings captain Dylan Larkin was traded to the Montreal Canadiens on Sunday in a major NHL deal. Larkin had asked Detroit for a trade while in the fourth year of his eight-year contract. Some people accused Larkin of quitting on his former team, but Canadiens coach Martin St. Louis said the team has no concerns about acquiring him. Following the trade, Montreal saw its championship odds rise. Both teams hope the move will help shape their rosters and performance for the rest of the season.",
+          "keyTerms": [
+            {
+              "term": "trade",
+              "definition": "An agreement where sports teams swap players or assets with each other."
+            },
+            {
+              "term": "Stanley Cup",
+              "definition": "The trophy awarded each year to the winning team of the NHL playoffs."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 6,
+          "image": "https://a.espncdn.com/photo/2026/1123/r1750277_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Stanley Cup odds: Canadiens surge after trading for Dylan Larkin",
+              "url": "https://www.espn.com/espn/betting/story/_/id/44686270/2026-nhl-stanley-cup-playoffs-championship-odds"
+            },
+            {
+              "name": "ESPN",
+              "title": "Canadiens coach St. Louis: 'Harsh thing to say' Larkin 'quit' on Red Wings",
+              "url": "https://www.espn.com/nhl/story/_/id/50574950/canadiens-no-issue-dylan-larkin-quit-red-wings"
+            },
+            {
+              "name": "ESPN",
+              "title": "Dylan Larkin, who requested to be traded by Detroit, dealt to Montreal",
+              "url": "https://www.espn.com/nhl/story/_/id/50568711/red-wings-trade-star-forward-dylan-larkin-canadiens"
+            },
+            {
+              "name": "ESPN",
+              "title": "Winners and losers of the Dylan Larkin trade to the Canadiens",
+              "url": "https://www.espn.com/nhl/story/_/id/50572721/nhl-2026-27-dylan-larkin-trade-grade-winners-losers-canadiens-red-wings"
+            }
+          ]
+        },
+        {
+          "id": "sports-nhl-1",
+          "headline": "Rookie Roman Kantserov Scores Hat Trick in Blackhawks Win",
+          "summary": "Chicago Blackhawks rookie Roman Kantserov scored his first NHL hat trick on Sunday. He also added an assist. His performance led Chicago to a 6-3 victory over the Vancouver Canucks.",
+          "whyItMatters": "The victory helps Chicago's season record while giving fans a look at a promising young player.",
+          "explainer": "Chicago Blackhawks rookie forward Roman Kantserov delivered a standout performance on Sunday night against the Vancouver Canucks. Kantserov scored three goals to record his first career NHL hat trick and added an assist on another goal. The Blackhawks built an early lead by scoring four goals in the first period alone. That strong start powered Chicago to a 6-3 victory over Vancouver. Kantserov is playing in his first NHL season, making the high-scoring game a major milestone for the young player and giving the Blackhawks an offensive boost.",
+          "keyTerms": [
+            {
+              "term": "hat trick",
+              "definition": "When a single player scores three goals in one game."
+            },
+            {
+              "term": "rookie",
+              "definition": "A player in their first year playing in a professional sports league."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 4,
+          "image": "https://a.espncdn.com/photo/2026/1123/r1750047_600x600_1-1.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Rookie Roman Kantserov posts first NHL hat trick in Chicago Blackhawks' victory",
+              "url": "https://www.espn.com/nhl/story/_/id/50570456/fueled-kantserov-1st-hat-trick-blackhawks-top-canucks"
+            },
+            {
+              "name": "ESPN",
+              "title": "Roman Kantserov scores his first NHL hat trick in the Blackhawks’ 6-3 win over the Canucks",
+              "url": "http://www.espn.com/nhl/recap?gameId=401892772"
+            }
+          ]
+        },
+        {
+          "id": "sports-nhl-2",
+          "headline": "Blackhawks Defenseman Wyatt Kaiser Suspended for Three Games",
+          "summary": "The NHL suspended Chicago Blackhawks defenseman Wyatt Kaiser for three games without pay. The penalty was given for an illegal check to the head of a Calgary player.",
+          "whyItMatters": "The Blackhawks will have to play three games without one of their starting defensemen.",
+          "explainer": "Chicago Blackhawks defenseman Wyatt Kaiser has been suspended by the NHL for three games without pay. The league announced the disciplinary action following an illegal check to the head delivered by Kaiser against Martin Pospisil of the Calgary Flames. The NHL enforces strict rules against hits to the head to protect player safety and prevent injuries. Because of the penalty, the Blackhawks will be forced to adjust their defensive lineup and play without Kaiser for their next three upcoming contests.",
+          "keyTerms": [
+            {
+              "term": "suspension",
+              "definition": "A penalty that prevents a player from participating in games for a period of time."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 3,
+          "image": "https://a.espncdn.com/photo/2026/1122/r1749731_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Blackhawks' Wyatt Kaiser suspended 3 games for illegal check",
+              "url": "https://www.espn.com/nhl/story/_/id/50563989/blackhawks-wyatt-kaiser-suspended-3-games-illegal-check"
+            }
+          ]
+        },
+        {
+          "id": "sports-nhl-3",
+          "headline": "Capitals Re-Sign Defenseman Jack St. Ivany to Two-Year Contract",
+          "summary": "The Washington Capitals re-signed defenseman Jack St. Ivany on Monday. The new contract is for two years and is worth $2.35 million.",
+          "whyItMatters": "The deal secures a defensive player for Washington for the next two seasons.",
+          "explainer": "The Washington Capitals announced on Monday that they have re-signed defenseman Jack St. Ivany to a new contract extension. The two-year deal is worth $2.35 million in total, keeping the defensive player with the team through the next two seasons. Re-signing established roster players allows team management to maintain stability on defense while staying within the league's financial rules. The Capitals confirmed the signing as they continue preparing their lineup for upcoming regular season games.",
+          "keyTerms": [],
+          "disagreement": null,
+          "update": null,
+          "importance": 3,
+          "image": "https://a.espncdn.com/photo/2026/1123/r1750211_600x400_3-2.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Capitals re-sign defenseman Jack St. Ivany to 2-year, $2.35M deal",
+              "url": "https://www.espn.com/nhl/story/_/id/50574271/capitals-re-sign-defenseman-jack-st-ivany-two-year-deal"
+            }
+          ]
+        },
+        {
+          "id": "sports-nhl-4",
+          "headline": "Ducks Forward Leo Carlsson Exits Game With Injury",
+          "summary": "Anaheim Ducks forward Leo Carlsson left Saturday's game against Utah with an upper-body injury. He went to the locker room during the second period and did not return.",
+          "whyItMatters": "Anaheim may have to adjust its lineup if the forward misses additional games.",
+          "explainer": "Anaheim Ducks forward Leo Carlsson sustained an upper-body injury during Saturday night's game against Utah. Carlsson suffered the injury after a collision early in the second period and left the ice for treatment. He did not return for the remainder of the contest. Injuries to top forward players can force teams to alter their lineup and game plan as they wait for updates on recovery timelines. The Ducks have not yet released further details about how long Carlsson might be sidelined.",
+          "keyTerms": [],
+          "disagreement": null,
+          "update": null,
+          "importance": 3,
+          "image": "https://a.espncdn.com/photo/2026/0709/r1686976_600x400_3-2.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Ducks' Leo Carlsson leaves with upper-body injury after collision",
+              "url": "https://www.espn.com/nhl/story/_/id/50558867/ducks-leo-carlsson-leaves-upper-body-injury-collision"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-cfb",
+      "title": "Sports · College Football",
+      "bricks": [
+        {
+          "id": "sports-cfb-0",
+          "headline": "TCU Fires Head Coach Sonny Dykes",
+          "summary": "TCU has fired head coach Sonny Dykes. Dykes led the team to the College Football Playoff title game in 2023. Sources say the school is expected to owe him over $20 million.",
+          "whyItMatters": "The firing leaves TCU searching for a new head coach to lead its football program going forward.",
+          "explainer": "Texas Christian University (TCU) dismissed head coach Sonny Dykes following a decline in team performance since his successful first season. In 2023, Dykes guided the Horned Frogs to the College Football Playoff national championship game. However, recent results led school leaders to make a coaching change. According to sources familiar with the decision, TCU is expected to owe Dykes more than $20 million in buyout money to end his contract early. The university is now beginning the search for a new head coach to lead the program.",
+          "keyTerms": [
+            {
+              "term": "Buyout",
+              "definition": "A payment made to end a contract before it officially expires."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 6,
+          "image": "https://a.espncdn.com/photo/2023/0110/r1115740_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "TCU fires coach Sonny Dykes; expected to be owed more than $20M, per sources",
+              "url": "https://www.espn.com/college-football/story/_/id/50563619/tcu-fires-coach-sonny-dykes-sources-say"
+            },
+            {
+              "name": "ESPN",
+              "title": "Who are the candidates and what are the priorities after TCU fired Sonny Dykes?",
+              "url": "https://www.espn.com/college-football/story/_/id/50323301/tcu-candidates-personnel-recruits"
+            }
+          ]
+        },
+        {
+          "id": "sports-cfb-1",
+          "headline": "SEC Fines Tennessee $250,000 After Fans Throw Objects",
+          "summary": "The SEC fined Tennessee $250,000 after fans threw items onto the field on Saturday. Fans threw golf balls and mustard bottles during a win over LSU.",
+          "whyItMatters": "Colleges face big financial penalties when fans throw dangerous objects onto the field during games.",
+          "explainer": "The Southeastern Conference (SEC) issued a $250,000 fine against the University of Tennessee following a fan incident late in Saturday's victory against LSU. Near the end of the game, spectators threw objects, including golf balls and mustard bottles, onto the playing field. The SEC enforces strict rules regarding fan behavior and field safety to prevent injuries to players, coaches, and game officials. Tennessee must pay the fine as part of the conference's policy on sportsmanship and venue management.",
+          "keyTerms": [
+            {
+              "term": "SEC",
+              "definition": "The Southeastern Conference, a major college sports league in the United States."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 5,
+          "image": "https://a.espncdn.com/photo/2026/1123/r1749947_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Tennessee fined by SEC after fans throw golf balls on field",
+              "url": "https://www.espn.com/college-football/story/_/id/50568028/tennessee-fined-sec-fans-throw-golf-balls-field"
+            }
+          ]
+        },
+        {
+          "id": "sports-cfb-2",
+          "headline": "No Big Ten Teams in AP Top 5",
+          "summary": "The Big Ten conference has no teams in the top five of the AP poll. Weekend upsets knocked conference teams out of the top five for the first time since 2021.",
+          "whyItMatters": "A conference's ranking position affects how its top teams are viewed in the national playoff race.",
+          "explainer": "The Associated Press (AP) college football poll updated its national rankings following a series of weekend upset losses. For the first time since 2021, no team from the Big Ten conference is ranked inside the top five spots. Several top Big Ten teams suffered losses over the weekend, causing them to slide down in the rankings. The AP poll is voted on by sports journalists and serves as a major benchmark throughout the college football season.",
+          "keyTerms": [
+            {
+              "term": "AP Poll",
+              "definition": "A weekly ranking of top college teams voted on by sports journalists."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 5,
+          "image": "https://a.espncdn.com/photo/2020/0916/r746350_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "No Big Ten football teams in AP top 5 for first time since 2021",
+              "url": "https://www.espn.com/college-football/story/_/id/50563638/no-big-ten-football-teams-ap-top-5-first-21"
+            }
+          ]
+        },
+        {
+          "id": "sports-cfb-3",
+          "headline": "FCS Playoff Field Set as Montana State Takes Top Seed",
+          "summary": "Montana State earned the top seed in the 24-team FCS playoff bracket. Long Island University also made the field with a 5-7 record after winning its conference.",
+          "whyItMatters": "This sets the postseason bracket for lower-division college football teams competing for a national title.",
+          "explainer": "The Football Championship Subdivision (FCS) revealed its 24-team playoff bracket for the upcoming college football postseason tournament. Defending national champion Montana State earned the top overall seed in the bracket. Northeast Conference champion Long Island University (LIU) also made the tournament despite finishing the regular season with a 5-7 record. LIU became the first team with a losing record to enter the FCS playoffs since 2017. The team qualified automatically after winning its conference championship during the regular season.",
+          "keyTerms": [
+            {
+              "term": "FCS",
+              "definition": "The Football Championship Subdivision, the college football division just below the top FBS level."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 4,
+          "image": "https://a.espncdn.com/photo/2016/0917/r126977_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Montana State ranked No. 1, 5-7 LIU makes FCS bracket as conference champ",
+              "url": "https://www.espn.com/college-football/story/_/id/50564910/montana-state-grabs-top-seed-24-team-fcs-playoff-bracket"
+            }
+          ]
+        },
+        {
+          "id": "sports-cfb-4",
+          "headline": "Notre Dame Safety Luke Talich Out for Season",
+          "summary": "Notre Dame starting safety Luke Talich will miss the rest of the season. He tore his right Achilles tendon during Saturday's victory over SMU.",
+          "whyItMatters": "Late-season injuries force teams to alter their lineup during crucial upcoming games.",
+          "explainer": "Notre Dame starting safety Luke Talich suffered a season-ending injury during Saturday's victory over SMU. The team confirmed that Talich tore his right Achilles tendon during the game and will miss the rest of the season. As a starting defender, his absence forces Notre Dame to change its defensive lineup for the remainder of the schedule. The team will need secondary players to step up into larger roles during the team's upcoming games.",
+          "keyTerms": [
+            {
+              "term": "Achilles tendon",
+              "definition": "A strong band of tissue connecting the calf muscle to the heel."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 3,
+          "image": "https://a.espncdn.com/photo/2026/1122/r1749388_600x400_3-2.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Notre Dame starting safety Luke Talich done for season with torn Achilles",
+              "url": "https://www.espn.com/college-football/story/_/id/50566676/notre-dame-loses-safety-luke-talich-torn-achilles"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-cbb",
+      "title": "Sports · College Basketball",
+      "bricks": [
+        {
+          "id": "sports-cbb-0",
+          "headline": "Houston Takes No. 1 Spot in Men's AP Poll",
+          "summary": "Houston rose to No. 1 in the AP Top 25 men's college basketball poll on Monday. Florida dropped from the top spot. Duke and Michigan State both fell out of the top 10.",
+          "whyItMatters": "National rankings help show which teams are considered the best in college basketball each week.",
+          "explainer": "Every week during the college basketball season, sports writers and broadcasters vote on the top 25 teams in the country for the Associated Press poll. Houston moved up to the number one ranking on Monday, replacing Florida at the top. The new poll also saw former top-10 teams Duke and Michigan State drop down in the rankings after recent games. Teams aim for high rankings to gain national attention and build strong resumes for the postseason tournament at the end of the year.",
+          "keyTerms": [
+            {
+              "term": "AP Top 25",
+              "definition": "A weekly national ranking of the top college basketball teams voted on by sports journalists."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 6,
+          "image": "https://a.espncdn.com/photo/2026/1119/r1747890_600x400_3-2.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Houston replaces Florida at No. 1 in men's AP Top 25",
+              "url": "https://www.espn.com/mens-college-basketball/story/_/id/50574973/houston-replaces-florida-new-no-1-men-ap-top-25"
+            },
+            {
+              "name": "ESPN",
+              "title": "Breaking down the 2026-27 AP Top 25 men's basketball poll for Week 3",
+              "url": "https://www.espn.com/mens-college-basketball/story/_/id/50566772/ap-mens-top-25-poll-reaction-week-3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-mls",
+      "title": "Sports · MLS",
+      "bricks": [
+        {
+          "id": "sports-mls-0",
+          "headline": "Cincinnati Defeats Nashville in MLS Playoff Opener",
+          "summary": "FC Cincinnati defeated Supporters' Shield winner Nashville SC 1-0 in Game 1 of their MLS playoff series. Goalkeeper Roman Celentano made six saves to earn a shutout. Cincinnati scored early after an own goal by Nashville.",
+          "whyItMatters": "FC Cincinnati takes a 1-0 lead in the best-of-three playoff series against the top-seeded team in the league.",
+          "explainer": "FC Cincinnati kicked off their Major League Soccer playoff series with a 1-0 win over Nashville SC. Nashville entered the postseason after winning the Supporters' Shield for the best regular-season record. Cincinnati took an early lead in the match after an own goal by Nashville. Goalkeeper Roman Celentano stopped six shots to keep Nashville from scoring. Nashville head coach B.J. Callaghan said he remains focused on the playoffs despite reports linking him to the open United States national team coaching job. Cincinnati now holds a 1-0 lead in the best-of-three first-round series.",
+          "keyTerms": [
+            {
+              "term": "Supporters' Shield",
+              "definition": "The trophy given to the MLS team with the best regular-season record."
+            },
+            {
+              "term": "shutout",
+              "definition": "A game where a goalkeeper does not allow the other team to score any goals."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 5,
+          "image": "https://s.espncdn.com/stitcher/sports/soccer/usa.1/events/401933731.png?templateId=espn.applewatch.awayhome.1",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Cincinnati stuns Shield-winners Nashville to start best-of-3 series",
+              "url": "http://www.espn.com/soccer/report/_/gameId/401933731"
+            },
+            {
+              "name": "ESPN",
+              "title": "Nashville coach Callaghan '100%' focused on playoffs amid USMNT links",
+              "url": "https://www.espn.com/soccer/story/_/id/50543541/usa-soccer-coach-bj-callaghan-nashville-sc"
+            }
+          ]
+        },
+        {
+          "id": "sports-mls-1",
+          "headline": "Charlotte FC Wins Playoff Opener Against Chicago Fire",
+          "summary": "Charlotte FC beat the Chicago Fire 2-1 in Game 1 of their MLS Cup playoff series. Pep Biel scored the winning goal in late stoppage time off a rebound from his own penalty kick.",
+          "whyItMatters": "Charlotte takes a 1-0 lead in the best-of-three first-round playoff series.",
+          "explainer": "Charlotte FC earned a 2-1 victory over the Chicago Fire in Game 1 of their first-round MLS Cup playoff series. The game remained tied until deep into stoppage time. A handball call against Jack Elliot gave Charlotte a penalty kick in the 11th minute of added time. The Chicago goalkeeper saved Pep Biel's initial penalty attempt, but Biel quickly scored on the rebound to seal the win. Major League Soccer playoffs use a best-of-three format in the first round, meaning the first team to win two games advances to the next round. Charlotte needs one more victory to advance to the conference semifinals.",
+          "keyTerms": [
+            {
+              "term": "penalty kick",
+              "definition": "A free shot on goal taken from 12 yards away after a foul inside the penalty area."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 4,
+          "image": "https://s.espncdn.com/stitcher/sports/soccer/usa.1/events/401933730.png?templateId=espn.applewatch.awayhome.1",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "VAR gives Charlotte late penalty in series-opening win over Chicago",
+              "url": "http://www.espn.com/soccer/report/_/gameId/401933730"
+            }
+          ]
+        },
+        {
+          "id": "sports-mls-2",
+          "headline": "Orlando City Fires Coach After MLS Wild-Card Loss",
+          "summary": "Orlando City SC fired interim head coach Martín Perelman following a 3-1 loss to FC Cincinnati. The defeat eliminated Orlando City from the MLS Cup playoffs in the Eastern Conference wild-card game.",
+          "whyItMatters": "Orlando City must now search for a new head coach after an early exit from the postseason.",
+          "explainer": "Orlando City SC ended its season after a 3-1 loss to FC Cincinnati in the Eastern Conference wild-card match. Orlando forward Daryl Dike left the game with an injury during the loss. Following the playoff elimination, Orlando City announced it fired interim head coach Martín Perelman and interim assistant coach Sebastián Setti. Perelman had taken over as temporary manager earlier in the season. The club will now begin a search for a permanent coaching staff before the next MLS season begins, while Cincinnati moves on to the next round of the playoffs.",
+          "keyTerms": [
+            {
+              "term": "interim head coach",
+              "definition": "A temporary head coach appointed until a permanent hire is made."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 4,
+          "image": "https://a.espncdn.com/photo/2026/1123/r1750351_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Orlando City fires interim coach Perelman, assistant Setti after playoff exit",
+              "url": "https://www.espn.com/soccer/story/_/id/50576429/orlando-city-fires-perelman-playoff-exit"
+            },
+            {
+              "name": "ESPN",
+              "title": "Dike exits wild card loss injured as Orlando's season ends against Cincinnati",
+              "url": "https://www.espn.com/soccer/story/_/id/50537610/dike-wild-card-loss-injured-orlando-season-ends-cincinnati"
+            }
+          ]
+        },
+        {
+          "id": "sports-mls-3",
+          "headline": "Cavan Sullivan Named MLS Young Player of the Year",
+          "summary": "Philadelphia Union midfielder Cavan Sullivan was named the MLS Young Player of the Year. The 17-year-old earned the honor after his breakthrough performance during the season.",
+          "whyItMatters": "The award highlights Sullivan as one of the top rising young soccer talents in the United States.",
+          "explainer": "Philadelphia Union midfielder Cavan Sullivan was selected as the Major League Soccer Young Player of the Year. At 17 years old, Sullivan earned the league award after a breakthrough performance during the season. Major League Soccer presents annual end-of-season awards to recognize top individual performances across the league. The Young Player of the Year award honors the top young talent playing in MLS. Sullivan's achievement highlights his development in professional soccer with Philadelphia as he begins his career at the highest level of American club soccer.",
+          "keyTerms": [
+            {
+              "term": "midfielder",
+              "definition": "A soccer player who plays in the middle of the field between defense and attack."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 4,
+          "image": "https://a.espncdn.com/photo/2026/1023/r1735106_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Philadelphia's Cavan Sullivan wins MLS Young Player of the Year award",
+              "url": "https://www.espn.com/soccer/story/_/id/50573882/philadelphia-cavan-sullivan-mls-young-player-year"
+            }
+          ]
+        },
+        {
+          "id": "sports-mls-4",
+          "headline": "Houston Dynamo Midfielder Héctor Herrera Charged With DWI",
+          "summary": "Houston Dynamo FC midfielder Héctor Herrera was charged with driving while intoxicated in Montgomery County, Texas. The club confirmed it is aware of the incident.",
+          "whyItMatters": "The legal charge could affect Herrera's availability and standing with Houston Dynamo.",
+          "explainer": "Houston Dynamo FC midfielder Héctor Herrera was charged with driving while intoxicated on Saturday in Montgomery County, Texas. News reports confirmed the charge, and Houston Dynamo stated that the club is aware of the situation involving their player. Major League Soccer and individual teams monitor off-field legal issues involving players. Depending on league policies and legal proceedings, players who face criminal charges may face disciplinary action, suspensions, or legal consequences while the case moves through the court system.",
+          "keyTerms": [
+            {
+              "term": "driving while intoxicated",
+              "definition": "The criminal offense of driving a vehicle while under the influence of alcohol or drugs."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 3,
+          "image": "https://a.espncdn.com/photo/2026/1122/r1749866_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Reports: Dynamo's Herrera charged with DWI, club aware of 'incident'",
+              "url": "https://www.espn.com/soccer/story/_/id/50566274/dynamo-herrera-charged-dwi-club-aware"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-epl",
+      "title": "Sports · Premier League",
+      "bricks": [
+        {
+          "id": "sports-epl-0",
+          "headline": "Liverpool defeats Manchester United 4-0 in Pochettino debut",
+          "summary": "Liverpool beat Manchester United 4-0 on Sunday in head coach Mauricio Pochettino's first game. United defender Leny Yoro received an early red card. Manchester United plans to appeal the red card.",
+          "whyItMatters": "The heavy loss leaves Manchester United struggling near the bottom of the Premier League table.",
+          "explainer": "Mauricio Pochettino's time as Manchester United head coach started with a 4-0 defeat against Liverpool at Anfield. Defender Leny Yoro was sent off early in the match after a video review, leaving Manchester United with 10 players. Liverpool scored twice quickly after the red card and dominated the rest of the game. Following the loss, United captain Bruno Fernandes questioned the referee's decisions, and the team announced it will appeal Yoro's red card. Midfielder Kobbie Mainoo urged the team to stay united as they work to avoid a fight against relegation.",
+          "keyTerms": [
+            {
+              "term": "red card",
+              "definition": "A penalty given by a referee that forces a player to leave the game immediately."
+            }
+          ],
+          "disagreement": null,
+          "update": "Mauricio Pochettino's Manchester United lost 4-0 to Liverpool in his first game as head coach.",
+          "importance": 6,
+          "image": "https://a.espncdn.com/photo/2026/1123/r1750121_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Man United's heavy Liverpool loss didn't tell us anything new; epic Barça comeback",
+              "url": "https://www.espn.com/soccer/story/_/id/50568399/man-united-liverpool-pochettino-barcelona-man-city"
+            },
+            {
+              "name": "ESPN",
+              "title": "Man United to appeal Leny Yoro red card against Liverpool - sources",
+              "url": "https://www.espn.com/soccer/story/_/id/50572590/man-united-leny-yoro-red-card-liverpool-premier-league"
+            },
+            {
+              "name": "ESPN",
+              "title": "Dominik Szoboszlai labels Liverpool teammate Florian Wirtz 'world-class'",
+              "url": "https://www.espn.com/soccer/story/_/id/50571923/dominik-szoboszlai-florian-wirtz-liverpool-man-united"
+            },
+            {
+              "name": "ESPN",
+              "title": "Kobbie Mainoo: 'No one's coming to save us' amid Man United crisis",
+              "url": "https://www.espn.com/soccer/story/_/id/50571766/kobbie-mainoo-manchester-united-liverpool"
+            },
+            {
+              "name": "ESPN",
+              "title": "Mauricio Pochettino gets reality check as Liverpool ruin his Man United debut",
+              "url": "https://www.espn.com/soccer/story/_/id/50563684/liverpool-ruin-pochettino-manchester-united-debut"
+            },
+            {
+              "name": "ESPN",
+              "title": "Man United in a relegation battle? Jamie Carragher explains 'problem' they face",
+              "url": "https://www.espn.com/soccer/story/_/id/50571320/man-united-relegation-battle-jamie-carragher-gary-neville-roy-keane"
+            },
+            {
+              "name": "ESPN",
+              "title": "Bruno Fernandes disputes Leny Yoro red card in Liverpool's rout of Man United",
+              "url": "https://www.espn.com/soccer/story/_/id/50565229/bruno-fernandes-man-united-liverpool"
+            },
+            {
+              "name": "ESPN",
+              "title": "Poch blames 'circumstances' in painful Man United loss to Liverpool",
+              "url": "https://www.espn.com/soccer/story/_/id/50563730/pochettino-painful-man-united-loss-liverpool"
+            },
+            {
+              "name": "ESPN",
+              "title": "Rio Ngumoha: Need to 'stay grounded' despite 'special' goal against Man Utd",
+              "url": "https://www.espn.com/soccer/story/_/id/50564207/liverpool-rio-ngumoha-man-united-premier-league"
+            },
+            {
+              "name": "ESPN",
+              "title": "Recap: Liverpool spoil Mauricio Pochettino's debut by crushing Man United",
+              "url": "https://www.espn.com/soccer/story/_/id/50533932/live-updates-pochettino-manchester-united-liverpool"
+            },
+            {
+              "name": "ESPN",
+              "title": "Liverpool trounce 10-man United in Pochettino's first game in charge",
+              "url": "http://www.espn.com/soccer/report/_/gameId/401878755"
+            },
+            {
+              "name": "ESPN",
+              "title": "Liverpool fans taunt Mauricio Pochettino in calamitous Man United defeat: 'Sacked in the morning'",
+              "url": "https://www.espn.com/soccer/story/_/id/50563425/liverpool-fans-taunt-mauricio-pochettino-calamitous-man-united-defeat-sacked-morning"
+            },
+            {
+              "name": "ESPN",
+              "title": "VAR review: Explaining Yoro's early red card in Man United-Liverpool clash",
+              "url": "https://www.espn.com/soccer/story/_/id/49703019/premier-league-var-review-red-card-penalty-handball-goal-line-technology"
+            },
+            {
+              "name": "ESPN",
+              "title": "Man United's De Ligt makes first PL start in a year as Pochettino rings the changes",
+              "url": "https://www.espn.com/soccer/story/_/id/50562310/man-united-mauricio-pochettino-team-news-liverpool"
+            }
+          ]
+        },
+        {
+          "id": "sports-epl-1",
+          "headline": "Arsenal goalkeeper David Raya will not need shoulder surgery",
+          "summary": "Arsenal manager Mikel Arteta confirmed goalkeeper David Raya does not need shoulder surgery. Raya left Saturday's 2-2 draw with Newcastle after getting hurt.",
+          "whyItMatters": "Avoiding a major injury for their starting goalkeeper keeps Arsenal strong in their push to win the league.",
+          "explainer": "Arsenal manager Mikel Arteta announced that goalkeeper David Raya's shoulder injury is not as serious as first feared. Raya was forced to leave the pitch during Arsenal's 2-2 draw against Newcastle United on Saturday. Medical tests showed that the damage will not require surgery, meaning the player will avoid a long time off the field. Arteta said the news is a relief for the team as they try to protect their place at the top of the Premier League table.",
+          "keyTerms": [],
+          "disagreement": null,
+          "update": "Arsenal manager Mikel Arteta announced goalkeeper David Raya will not need shoulder surgery.",
+          "importance": 4,
+          "image": "https://a.espncdn.com/photo/2026/1123/r1750144_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "David Raya won't need surgery - Arsenal boss Mikel Arteta",
+              "url": "https://www.espn.com/soccer/story/_/id/50572706/david-raya-arsenal-injury-update"
+            },
+            {
+              "name": "ESPN",
+              "title": "David Raya to be assessed after leaving Arsenal's draw at Newcastle with injury",
+              "url": "https://www.espn.com/soccer/story/_/id/50552162/david-raya-injured-arsenal-newcastle-premier-league"
+            }
+          ]
+        },
+        {
+          "id": "sports-epl-2",
+          "headline": "Young Tottenham star Luca Williams-Barnett shines on full debut",
+          "summary": "18-year-old Luca Williams-Barnett impressed during his full debut in Tottenham's 2-0 win over Ipswich. Manager Roberto De Zerbi praised the young player's performance.",
+          "whyItMatters": "Young players performing well gives Tottenham fans hope for the team's future success.",
+          "explainer": "18-year-old midfielder Luca Williams-Barnett made his full debut for Tottenham Hotspur in Saturday's 2-0 win over Ipswich Town. Tottenham head coach Roberto De Zerbi praised the teenager after the match and compared his playing style to Barcelona star Lamine Yamal. Before the game, De Zerbi had even joked with Williams-Barnett that he would be playing for the youth team instead. Williams-Barnett's strong performance gave Tottenham fans an exciting highlight in their season as the club continues its Premier League campaign.",
+          "keyTerms": [],
+          "disagreement": null,
+          "update": null,
+          "importance": 3,
+          "image": "https://a.espncdn.com/photo/2026/1121/r1749070_600x600_1-1.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Luca Williams-Barnett fell for under-21s joke before stellar Tottenham debut",
+              "url": "https://www.espn.com/soccer/story/_/id/50571947/luca-williams-barnett-tottenham-de-zerbi"
+            },
+            {
+              "name": "ESPN",
+              "title": "Tottenham's De Zerbi likens Williams-Barnett to Yamal after star stunning full debut",
+              "url": "https://www.espn.com/soccer/story/_/id/50552121/tottenham-de-zerbi-luca-williams-barnett-lamine-yamal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-laliga",
+      "title": "Sports · La Liga",
+      "bricks": [
+        {
+          "id": "sports-laliga-0",
+          "headline": "Diego Simeone sets LaLiga manager win record",
+          "summary": "Diego Simeone became the all-time leader for LaLiga wins by a manager with his 345th victory. Atlético Madrid beat Getafe 3-0 on Sunday. The win helped Atlético Madrid keep third place in the league table.",
+          "whyItMatters": "The historic win keeps Atlético Madrid near the top of the league standings.",
+          "explainer": "Diego Simeone set a new record in Spanish soccer by earning his 345th win as a LaLiga manager. He reached the mark when Atlético Madrid beat Getafe 3-0 on Sunday. United States midfielder Johnny Cardoso scored for Atlético Madrid during the comfortable away victory. The win helped Atlético Madrid solidify its position in third place in the league standings behind leaders Barcelona and Real Madrid. Simeone now holds the record for the most victories by any head coach in the history of LaLiga. His team continues to hold third place in Spanish soccer.",
+          "keyTerms": [
+            {
+              "term": "LaLiga",
+              "definition": "The top professional soccer league in Spain."
+            },
+            {
+              "term": "manager",
+              "definition": "The head coach in charge of training and leading a sports team during games."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 5,
+          "image": "https://a.espncdn.com/photo/2026/1123/r1750215_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Diego Simeone takes LaLiga win record with 345th Atlético Madrid victory",
+              "url": "https://www.espn.com/soccer/story/_/id/50574062/diego-simeone-atletico-madrid-laliga"
+            },
+            {
+              "name": "ESPN",
+              "title": "USMNT's Cardoso scores as Atlético ease to win over Getafe",
+              "url": "http://www.espn.com/soccer/report/_/gameId/401882803"
+            }
+          ]
+        },
+        {
+          "id": "sports-laliga-1",
+          "headline": "Barcelona's Lamine Yamal out with ankle injury",
+          "summary": "Barcelona forward Lamine Yamal will miss this week's Champions League game against Sabah. The Spanish team confirmed he has an ankle injury.",
+          "whyItMatters": "Missing a key player could weaken Barcelona during international tournament play.",
+          "explainer": "Barcelona star Lamine Yamal will miss his team's upcoming Champions League match against Azerbaijan club Sabah because of an ankle injury. The Spanish champions confirmed the injury ahead of the midweek European fixture. Yamal has been an important player for Barcelona this season. Missing the match in Azerbaijan means Barcelona must rely on other forward players to secure a win. Ankle injuries can take time to heal, and the club has confirmed he will sit out the upcoming European match.",
+          "keyTerms": [
+            {
+              "term": "Champions League",
+              "definition": "A European tournament where top soccer clubs from different countries compete against each other."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 4,
+          "image": "https://a.espncdn.com/photo/2026/1031/r1739203_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Lamine Yamal out of Barcelona's Champions League game at Sabah",
+              "url": "https://www.espn.com/soccer/story/_/id/50571569/lamine-yamal-barcelona-champions-league-sabah"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-seriea",
+      "title": "Sports · Serie A",
+      "bricks": [
+        {
+          "id": "sports-seriea-0",
+          "headline": "AC Milan Defeats Frosinone 5-1 to Reach Top Four",
+          "summary": "AC Milan defeated Frosinone 5-1 at San Siro on Sunday. The victory moved AC Milan into the top four of Serie A. Head coach Ruben Amorim praised Christian Pulisic after he scored a solo goal.",
+          "whyItMatters": "The victory moves AC Milan into position for European competition qualification.",
+          "explainer": "AC Milan earned their biggest victory of the season on Sunday by defeating Frosinone 5-1 at San Siro. The dominant win moved AC Milan into the top four spots of Serie A, which are key for qualifying for European tournament play. During the match, Christian Pulisic scored a goal that capped off the victory. After the game, head coach Ruben Amorim praised Pulisic for his performance. Amorim stated that Pulisic is a player that AC Milan cannot replace. The win gives the team important momentum in their league campaign.",
+          "keyTerms": [
+            {
+              "term": "Serie A",
+              "definition": "The top professional soccer league in Italy."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 4,
+          "image": "https://a.espncdn.com/photo/2026/1122/r1749701_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Milan into top four as classy Pulisic solo goal caps Serie A rout",
+              "url": "http://www.espn.com/soccer/report/_/gameId/401874989"
+            },
+            {
+              "name": "ESPN",
+              "title": "Ruben Amorim: Christian Pulisic is the player AC Milan 'cannot replace'",
+              "url": "https://www.espn.com/soccer/story/_/id/50553931/ruben-amorim-christian-pulisic-milan"
+            }
+          ]
+        },
+        {
+          "id": "sports-seriea-1",
+          "headline": "Napoli Defeats Torino 1-0 to End Winless Run",
+          "summary": "Scott McTominay scored a second-half goal to give Napoli a 1-0 win over Torino. The victory ended Napoli's three-game streak without a win. The result also helped ease pressure on manager Massimiliano Allegri.",
+          "whyItMatters": "The win keeps Napoli in contention near the top of Serie A and restores team confidence.",
+          "explainer": "Napoli ended a three-game winless streak in Serie A by securing a 1-0 victory against Torino. Midfielder Scott McTominay scored the only goal of the match in the second half to secure the win. The victory was crucial for Napoli to gain points and stay competitive in the league table. It also provided needed relief for manager Massimiliano Allegri after recent difficult results. Napoli had to work hard to hold off Torino until the final whistle, but the team successfully claimed all three points.",
+          "keyTerms": [],
+          "disagreement": null,
+          "update": null,
+          "importance": 4,
+          "image": "https://a.espncdn.com/photo/2026/1121/r1749217_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Scott McTominay sinks Torino to end Napoli's three-game winless streak",
+              "url": "https://www.espn.com/soccer/story/_/id/50554626/scott-mctominay-napoli-torino"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-ligue1",
+      "title": "Sports · Ligue 1",
+      "bricks": []
+    },
+    {
+      "id": "sports-ucl",
+      "title": "Sports · Champions League",
+      "bricks": [
+        {
+          "id": "sports-ucl-0",
+          "headline": "Lamine Yamal to Miss Champions League Game With Injury",
+          "summary": "Barcelona star Lamine Yamal will miss his team's Champions League match against Sabah. The Spanish club confirmed he has an ankle injury. He will not play in Azerbaijan this week.",
+          "whyItMatters": "Barcelona will be without one of its top attacking players for an important European match.",
+          "explainer": "Barcelona soccer star Lamine Yamal has been ruled out of the team's upcoming UEFA Champions League match against Sabah. The Spanish club announced that the young player suffered an ankle injury. As a result, Yamal did not travel with the team to Azerbaijan for the midweek game. The Champions League is Europe's top club tournament, where the best teams from across the continent compete against each other. Missing a key player like Yamal is a setback for Barcelona as they try to win games and move forward in the tournament.",
+          "keyTerms": [
+            {
+              "term": "Champions League",
+              "definition": "An annual tournament where the top European soccer clubs play each other."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 4,
+          "image": "https://a.espncdn.com/photo/2026/1031/r1739203_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Lamine Yamal out of Barcelona's Champions League game at Sabah",
+              "url": "https://www.espn.com/soccer/story/_/id/50571569/lamine-yamal-barcelona-champions-league-sabah"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-f1",
+      "title": "Sports · Formula 1",
+      "bricks": [
+        {
+          "id": "sports-f1-0",
+          "headline": "Ferrari Boss Calls Hamilton and Leclerc Situation Unmanageable",
+          "summary": "Ferrari boss Fred Vasseur said managing drivers Charles Leclerc and Lewis Hamilton is becoming unmanageable. The comments follow a crash between the two teammates near the end of the Las Vegas Grand Prix.",
+          "whyItMatters": "Team dynamics and driver crashes affect Ferrari's race strategy, points, and championship standings.",
+          "explainer": "In Formula 1, having two top-tier drivers on the same team can create intense internal competition. Ferrari signed both Charles Leclerc and Lewis Hamilton, but tensions boiled over when the teammates crashed into each other during the Las Vegas Grand Prix. Team principal Fred Vasseur blamed Leclerc for the collision and later admitted that managing the pair is becoming unmanageable. This friction can impact team morale, strategy, and race outcomes as the season progresses.",
+          "keyTerms": [
+            {
+              "term": "Teammates",
+              "definition": "Drivers who race for the same constructor team and share car development data."
+            }
+          ],
+          "disagreement": null,
+          "update": "Ferrari team boss Fred Vasseur has admitted that managing drivers Charles Leclerc and Lewis Hamilton is becoming unmanageable following their late race crash in Las Vegas.",
+          "importance": 5,
+          "image": "https://a.espncdn.com/photo/2026/1123/r1750084_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Lewis Hamilton: I could have beaten Kimi Antonelli if I was Ferrari No. 1",
+              "url": "https://www.espn.com/f1/story/_/id/50472141/lewis-hamilton-ferrari-las-vegas-grand-prix-formula-1"
+            },
+            {
+              "name": "ESPN",
+              "title": "Lewis Hamilton, Charles Leclerc 'unmanageable' - Ferrari boss",
+              "url": "https://www.espn.com/f1/story/_/id/50472137/ferrari-charles-leclerc-lewis-hamilton-las-vegas-grand-prix-formula-1"
+            },
+            {
+              "name": "ESPN",
+              "title": "Max Verstappen wins thrilling Las Vegas GP as Ferraris collide in closing stages",
+              "url": "https://www.espn.com/f1/story/_/id/50472108/max-verstappen-las-vegas-grand-prix-formula-1"
+            },
+            {
+              "name": "ESPN",
+              "title": "Charles Leclerc 'wholly to blame' for clash with Lewis Hamilton at Las Vegas GP",
+              "url": "https://www.espn.com/f1/story/_/id/50472109/lewis-hamilton-charles-leclerc-ferrari-las-vegas-grand-prix-formula-1"
+            },
+            {
+              "name": "ESPN",
+              "title": "Ferrari boss labels Las Vegas collision between Leclerc, Hamilton 'unacceptable'",
+              "url": "https://www.espn.com/f1/story/_/id/50472128/ferrari-charles-leclerc-lewis-hamilton-las-vegas-grand-prix-formula-1"
+            },
+            {
+              "name": "ESPN",
+              "title": "Las Vegas Grand Prix results: Max Verstappen wins drama-packed race in Sin City - as it happened",
+              "url": "https://www.espn.com/f1/story/_/id/50530089/max-verstappen-las-vegas-grand-prix-2026-live-updates-results-analysis-commentary"
+            }
+          ]
+        },
+        {
+          "id": "sports-f1-1",
+          "headline": "Max Verstappen and George Russell Spar After Las Vegas GP",
+          "summary": "Max Verstappen and George Russell continued their verbal feud after the Las Vegas Grand Prix. Verstappen mocked Russell's late race mistake, while Russell stated that someone needed to stand up to the Dutch driver.",
+          "whyItMatters": "Personal rivalries between top drivers add tension and excitement to the race weekends for fans.",
+          "explainer": "Formula 1 drivers Max Verstappen and George Russell have a history of on-track and off-track tension. Their rivalry flared up again during the Las Vegas Grand Prix weekend following on-track contact and a heated exchange of words. Russell argued that someone needs to stand up to Verstappen, claiming the Red Bull driver thinks he is better than everyone else. After winning the race, Verstappen mocked Russell's late driving error and criticized his overall season performance.",
+          "keyTerms": [
+            {
+              "term": "Driver Rivalry",
+              "definition": "A competitive personal feud between two racers fighting for position and dominance."
+            }
+          ],
+          "disagreement": null,
+          "update": "Max Verstappen mocked George Russell's driving after the Las Vegas Grand Prix, continuing a heated verbal feud between the two drivers.",
+          "importance": 4,
+          "image": "https://a.espncdn.com/photo/2026/1122/r1749630_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Max Verstappen, George Russell's latest war of words unlikely to stay in Vegas",
+              "url": "https://www.espn.com/racing/f1/story/_/id/50562576/verstappen-russell-feud-f1-las-vegas"
+            },
+            {
+              "name": "ESPN",
+              "title": "Max Verstappen mocks George Russell in brutal outburst: 'So far below my level'",
+              "url": "https://www.espn.com/f1/story/_/id/50472110/max-verstappen-george-russell-las-vegas-grand-prix-formula-1"
+            },
+            {
+              "name": "ESPN",
+              "title": "Russell reignites Verstappen rivalry: 'Somebody has got to stand up to that guy'",
+              "url": "https://www.espn.com/f1/story/_/id/50472101/george-russell-max-verstappen-las-vegas-grand-prix-formula-1"
+            }
+          ]
+        },
+        {
+          "id": "sports-f1-2",
+          "headline": "Formula 1 Agrees to Switch to V8 Engines in 2030",
+          "summary": "Formula 1 bosses have reached an agreement in principle to replace current power units with V8 turbo hybrid engines. The new engine rules are proposed to take effect in the 2030 season.",
+          "whyItMatters": "Engine rule changes affect how racing cars are built, how loud they are, and how car makers develop new technology.",
+          "explainer": "Formula 1 relies heavily on complex power units to drive its cars. Leaders of the sport have agreed in principle to change those rules and introduce V8 turbo hybrid engines starting in the 2030 season. While final details are still being worked out, the agreement marks a major future shift in the technical regulations that govern every car on the starting grid.",
+          "keyTerms": [
+            {
+              "term": "Power Unit",
+              "definition": "The complex hybrid engine system that powers a modern Formula 1 racing car."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 5,
+          "image": "https://a.espncdn.com/photo/2026/1121/r1748873_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "F1 bosses reach agreement to introduce V8 engines in 2030",
+              "url": "https://www.espn.com/f1/story/_/id/50472097/v8-engine-confirmed-formula-1"
+            },
+            {
+              "name": "ESPN",
+              "title": "F1 bosses confirm 'agreement' on V8 engine return deal",
+              "url": "https://www.espn.com/f1/story/_/id/50472081/v8-return-las-vegas-grand-prix-formula-1"
+            }
+          ]
+        },
+        {
+          "id": "sports-f1-3",
+          "headline": "F1 Limits Tyre Stints for Upcoming Qatar Grand Prix",
+          "summary": "Formula 1 has set a strict limit on tyre usage for the upcoming Qatar Grand Prix. Drivers will not be allowed to use any single set of tyres for more than 27 laps.",
+          "whyItMatters": "Tyre limits force teams to change strategies and make more pit stops during the race.",
+          "explainer": "Tyre wear is a critical factor in Formula 1 racing because rubber degrades quickly under high speeds and heavy loads. For the Qatar Grand Prix, F1 officials have introduced a special safety rule limiting drivers to a maximum of 27 laps on any single set of tyres. This rule forces teams to plan multiple pit stops and alters how they approach race strategy over the course of the event.",
+          "keyTerms": [
+            {
+              "term": "Tyre Stint",
+              "definition": "The period of time or number of laps a driver spends on a single set of tyres."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 3,
+          "image": "https://a.espncdn.com/photo/2026/1121/r1748880_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Drivers limited to 27-lap tyre stint as rule reintroduced for Qatar Grand Prix",
+              "url": "https://www.espn.com/f1/story/_/id/50472103/qatar-grand-prix-pirelli-formula-1"
+            }
+          ]
+        },
+        {
+          "id": "sports-f1-4",
+          "headline": "Formula 1 Plans to Introduce Full-Time Stewards",
+          "summary": "Formula 1 announced plans to hire full-time race stewards. The change aims to bring more consistency to decisions made during grands prix.",
+          "whyItMatters": "Consistent officiating ensures penalties and rule enforcement are fair for all drivers and teams.",
+          "explainer": "Stewards in Formula 1 act like referees, reviewing incidents on the track to decide if drivers broke rules and deserve penalties. Currently, panels often change from race to race. To fix complaints about varying decisions, F1 plans to introduce full-time stewards. Officials hope this move will create a more consistent standard of officiating across every grand prix.",
+          "keyTerms": [
+            {
+              "term": "Stewards",
+              "definition": "Officials who investigate on-track incidents and hand out penalties to drivers."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 4,
+          "image": "https://a.espncdn.com/photo/2026/1120/r1748456_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "FIA to introduce full-time stewards to address worries over decision-making",
+              "url": "https://www.espn.com/f1/story/_/id/50472080/fia-stewards-las-vegas-grand-prix-formula-1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-tennis",
+      "title": "Sports · Tennis",
+      "bricks": [
+        {
+          "id": "sports-tennis-0",
+          "headline": "Alexander Zverev Finishes Year as No. 1 ATP Player",
+          "summary": "Alexander Zverev ended the year ranked No. 1 in the world by the ATP. He finished ahead of Jannik Sinner and Carlos Alcaraz.",
+          "whyItMatters": "This ranking shows who played the best and most consistent tennis over the entire year.",
+          "explainer": "The Association of Tennis Professionals, known as the ATP, tracks how well men's tennis players perform at tournaments all year long. Players earn points based on how far they go in these events. At the end of the year, the player with the most points is named the top-ranked player. Alexander Zverev secured the top spot for the year with 10,350 points. This put him well ahead of his competitors, with Jannik Sinner taking the second spot and Carlos Alcaraz finishing third.",
+          "keyTerms": [
+            {
+              "term": "ATP",
+              "definition": "The organization that runs men's professional tennis around the world."
+            },
+            {
+              "term": "Ranking",
+              "definition": "A list that orders players from best to worst based on their tournament points."
+            }
+          ],
+          "disagreement": null,
+          "update": "Alexander Zverev finished the year officially ranked as the top men's tennis player.",
+          "importance": 6,
+          "image": "https://a.espncdn.com/photo/2026/1029/r1738292_600x400_3-2.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Consistent Zverev earns final No. 1 ATP ranking despite loss to Alcaraz",
+              "url": "https://www.espn.com/tennis/story/_/id/50572011/zverev-earns-final-no-1-atp-ranking-loss-alcaraz"
+            },
+            {
+              "name": "ESPN",
+              "title": "Zverev tops Medvedev, sets up showdown with Alcaraz for ATP Finals title",
+              "url": "https://www.espn.com/tennis/story/_/id/50553968/zverev-tops-medvedev-sets-showdown-alcaraz-atp-finals-title"
+            }
+          ]
+        },
+        {
+          "id": "sports-tennis-1",
+          "headline": "ATP Tour Announces New Pay Plan for Players",
+          "summary": "The ATP Tour will launch a new payment plan in 2028. It will invest over $350 million to help support up to 250 professional men's tennis players.",
+          "whyItMatters": "This plan helps more tennis players make enough money to cover the high costs of traveling and playing professionally.",
+          "explainer": "Playing professional tennis requires a lot of money for travel, hotels, and coaches. Many lower-ranked players struggle to break even because only the top stars make big money from tournaments. To fix this, the ATP Tour announced a new compensation plan starting in 2028. The program will put more than $350 million toward supporting up to 250 men's tennis players so more athletes can afford a career in the sport.",
+          "keyTerms": [
+            {
+              "term": "Compensation",
+              "definition": "Money given to people as payment for their work."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 5,
+          "image": "https://a.espncdn.com/photo/2020/0406/r686743_600x400_3-2.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "ATP Tour unveils expanded compensation plan to benefit top 250 players",
+              "url": "https://www.espn.com/tennis/story/_/id/50539880/atp-tour-unveils-expanded-compensation-top-250-players"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-golf",
+      "title": "Sports · Golf",
+      "bricks": [
+        {
+          "id": "sports-golf-0",
+          "headline": "Rain Causes Monday Finish at RSM Classic",
+          "summary": "Heavy rain washed out Saturday's play at the RSM Classic. Golfers return on Monday to finish the tournament.",
+          "whyItMatters": "This delay pushes the tournament schedule back for the golfers and fans following the event.",
+          "explainer": "The RSM Classic golf tournament faced heavy rain at Sea Island, making the golf course unplayable on Saturday. This caused the third round to be washed out and pushed the final results to a Monday finish for the second week in a row on the PGA Tour. Meanwhile, players like Rasmus Hojgaard, Michael Thorbjornsen, Rasmus Neergaard-Petersen, and Marco Penge share the lead as the tournament resumes.",
+          "keyTerms": [],
+          "disagreement": null,
+          "update": "Heavy rain continued to push the tournament's final rounds to a Monday finish.",
+          "importance": 3,
+          "image": "https://a.espncdn.com/photo/2026/1122/r1749854_600x400_3-2.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Rasmus Højgaard, Michael Thorbjornsen share lead at RSM Classic",
+              "url": "https://www.espn.com/golf/story/_/id/50566027/rasmus-hojgaard-michael-thorbjornsen-share-lead-rsm-classic"
+            },
+            {
+              "name": "ESPN",
+              "title": "Rain at Sea Island washes out 3rd round of RSM Classic",
+              "url": "https://www.espn.com/golf/story/_/id/50552432/rain-sea-island-washes-3rd-round-rsm-classic"
+            },
+            {
+              "name": "ESPN",
+              "title": "Rasmus Neergaard-Petersen shares lead at Sea Island; Horschel loses full cards",
+              "url": "https://www.espn.com/golf/story/_/id/50547115/neergaard-petersen-part-3-way-tie-lead-sea-island"
+            },
+            {
+              "name": "ESPN",
+              "title": "Jesper Svensson, Michael Thorbjornsen among those to start fast at RSM Classic",
+              "url": "https://www.espn.com/golf/story/_/id/50534530/jesper-svensson-michael-thorbjornsen-start-fast-rsm"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
