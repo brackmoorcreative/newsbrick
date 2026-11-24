@@ -1,66 +1,66 @@
 {
-  "generatedAt": "2026-11-22T17:18:56.022Z",
-  "weekEnding": "2026-11-22",
+  "generatedAt": "2026-11-24T20:28:33.349Z",
+  "weekEnding": "2026-11-24",
   "questions": [
     {
       "storyId": "top-world-0",
       "question": "Which city hosted the APEC summit where leaders from the U.S., China, and Russia met?",
       "options": [
-        "Shenzhen",
-        "Manila",
         "Beijing",
-        "Shanghai"
-      ],
-      "answer": 0,
-      "explanation": "The APEC summit took place in Shenzhen, China."
-    },
-    {
-      "storyId": "economy-world-0",
-      "question": "What kind of company shares saw heavy losses that dragged down global stock markets?",
-      "options": [
-        "Oil and gas",
-        "Tech and AI",
-        "Retail stores",
-        "Car makers"
+        "Shenzhen",
+        "Shanghai",
+        "Moscow"
       ],
       "answer": 1,
-      "explanation": "Major stock markets saw heavy losses as tech and AI company shares fell."
-    },
-    {
-      "storyId": "region-mideast-0",
-      "question": "Near which country were two ships hit in the Strait of Hormuz?",
-      "options": [
-        "Oman",
-        "Kuwait",
-        "Bahrain",
-        "Iran"
-      ],
-      "answer": 0,
-      "explanation": "Two ships were hit near Oman in the Strait of Hormuz."
-    },
-    {
-      "storyId": "politics-world-0",
-      "question": "Which group did the International Court of Justice find was the victim of genocide by Myanmar's military?",
-      "options": [
-        "The Kurds",
-        "The Rohingya",
-        "The Uyghurs",
-        "The Karen"
-      ],
-      "answer": 1,
-      "explanation": "The court ruled that Myanmar's military committed genocide against the Rohingya minority."
+      "explanation": "The story states that this year's APEC summit is being held in Shenzhen, China."
     },
     {
       "storyId": "region-europe-0",
-      "question": "What major structure did Ukraine critically damage with missiles and drones?",
+      "question": "Where did Ukraine strike a Russian warship using naval drones?",
       "options": [
-        "The Kerch Bridge",
-        "A dam in Kyiv",
-        "An airport in Moscow",
-        "A pipeline in Poland"
+        "Libya",
+        "Ukraine",
+        "Italy",
+        "The Black Sea"
       ],
       "answer": 0,
-      "explanation": "Ukraine used missiles and drones to severely damage the Kerch Bridge linking Russia to Crimea."
+      "explanation": "The news reports that Ukraine attacked a Russian warship that was docked in Libya."
+    },
+    {
+      "storyId": "top-us-0",
+      "question": "Who was rehired as the CEO of Nvidia after a brief resignation?",
+      "options": [
+        "Colette Kress",
+        "Donald Trump",
+        "Jensen Huang",
+        "Xi Jinping"
+      ],
+      "answer": 2,
+      "explanation": "The report confirms that Jensen Huang was reinstated as the CEO of Nvidia."
+    },
+    {
+      "storyId": "economy-world-0",
+      "question": "What is a 'correction territory' in the stock market?",
+      "options": [
+        "When stocks grow too fast",
+        "When prices fall at least 10% from recent highs",
+        "When companies stop selling shares",
+        "When a new company launches an IPO"
+      ],
+      "answer": 1,
+      "explanation": "A market correction happens when stock prices have fallen by at least 10% from their recent high points."
+    },
+    {
+      "storyId": "politics-world-0",
+      "question": "Which court ruled that Myanmar committed genocide against the Rohingya people?",
+      "options": [
+        "The Supreme Court",
+        "The International Court of Justice",
+        "The European Union Court",
+        "The Asian Human Rights Court"
+      ],
+      "answer": 1,
+      "explanation": "The International Court of Justice ruled that Myanmar's military committed genocide against the Rohingya minority."
     }
   ]
 }
