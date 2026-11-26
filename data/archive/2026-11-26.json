@@ -1,0 +1,2643 @@
+{
+  "version": 1,
+  "date": "2026-11-26",
+  "generatedAt": "2026-11-26T19:10:11.794Z",
+  "model": "gemini-3.5-flash-lite, gemini-3.1-flash-lite",
+  "categories": [
+    {
+      "id": "top-world",
+      "title": "Top Stories · World",
+      "bricks": [
+        {
+          "id": "top-world-0",
+          "headline": "Drone Attack in Kuwait Kills Two Italian Technicians",
+          "summary": "An Iranian drone attack in Kuwait killed two Italian technicians and injured four others. Kuwait's army reported the strike hit an air-defense surveillance station. Iran has denied responsibility for the attack.",
+          "whyItMatters": "This incident raises safety concerns for international workers in the region and risks widening geopolitical tensions.",
+          "explainer": "An attack involving a drone struck an air-defense station in Kuwait, resulting in the deaths of two foreign workers who were employed as technicians by a German defense company. Kuwait's military confirmed the casualties and blamed an Iranian drone attack. Meanwhile, Iran has denied that it was responsible for the strike. The event highlights ongoing security risks for civilian contractors working in sensitive military areas across the Middle East.",
+          "keyTerms": [],
+          "disagreement": "Kuwait's army states that the attack was an Iranian drone strike, while Iran has denied responsibility.",
+          "update": null,
+          "importance": 7,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4cbd/live/babaff60-e9ac-11f1-a094-5fdc692f3e33.png",
+          "sources": [
+            {
+              "name": "BBC News",
+              "title": "Two Italians killed in strike in Kuwait, as Iran denies responsibility",
+              "url": "https://www.bbc.co.uk/news/articles/c39w9y5dx4k5o?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "Al Jazeera",
+              "title": "Two Italians killed by ‘drone strike debris’ in Kuwait",
+              "url": "https://www.aljazeera.com/news/2026/11/26/two-italians-killed-after-iranian-drones-strike-facility-says-kuwait?traffic_source=rss"
+            },
+            {
+              "name": "Al Jazeera",
+              "title": "Two dead after Iranian drone attack on Kuwait",
+              "url": "https://www.aljazeera.com/video/newsfeed/2026/11/26/two-dead-after-iranian-drone-attack-on-kuwait?traffic_source=rss"
+            }
+          ]
+        },
+        {
+          "id": "top-world-1",
+          "headline": "Severe Storms Disrupt US Thanksgiving Travel",
+          "summary": "Massive storms hit both US coasts as millions of travelers try to get home for Thanksgiving. The severe weather caused more than 1,000 flight cancellations or delays and forced the cancellation of major parades.",
+          "whyItMatters": "Millions of people traveling for the holidays face major disruptions, delays, and safety hazards.",
+          "explainer": "Heavy rain, strong winds, flooding, and high tides have swept across the eastern and western coasts of the United States just as roughly 80 million people are traveling for the Thanksgiving holiday. The severe weather snarled traffic, caused over 1,000 flight cancellations and delays, and prompted local authorities to cancel traditional holiday events, such as Philadelphia's Thanksgiving Day parade, moving it to an alternative television format.",
+          "keyTerms": [],
+          "disagreement": null,
+          "update": null,
+          "importance": 6,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/260a/live/9b64fe90-e9ac-11f1-859a-37130cd3a1d7.jpg",
+          "sources": [
+            {
+              "name": "BBC News",
+              "title": "More than 1,000 flights cancelled or delayed in US as weather disrupts Thanksgiving travel",
+              "url": "https://www.bbc.co.uk/news/articles/ckm2mz3prq77o?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "The Guardian",
+              "title": "Storms across US disrupt travel and force Thanksgiving parade cancellations",
+              "url": "https://www.theguardian.com/us-news/2026/nov/26/storm-thanksgiving-parade-cancellations-severe-weather"
+            }
+          ]
+        },
+        {
+          "id": "top-world-2",
+          "headline": "Fifa Confirms Cyber-Attack Exposed Personal and Business Data",
+          "summary": "Football's governing body, Fifa, confirmed that hackers accessed a limited set of personal and business information. Fifa strongly condemned the unlawful acquisition of the data.",
+          "whyItMatters": "Data breaches compromise the personal and private information of individuals associated with major global organizations.",
+          "explainer": "Fifa, the international governing body for association football, announced that a cyber-attack allowed unauthorized users to access a limited set of personal and business information. The organization issued a statement condemning the breach and the unlawful publication of data. The incident comes at a sensitive time for the sports organization and its leadership, highlighting digital vulnerabilities faced by large global institutions.",
+          "keyTerms": [],
+          "disagreement": null,
+          "update": null,
+          "importance": 5,
+          "image": "https://i.guim.co.uk/img/media/bab41d81f787d91a1ca38252c7fa18495020e16d/130_0_4766_3815/master/4766.jpg?width=140&quality=85&auto=format&fit=max&s=7a5174da62e44f7aba85322a929a6ca4",
+          "sources": [
+            {
+              "name": "The Guardian",
+              "title": "Fifa confirms cyber-attack exposed ‘personal and business information’",
+              "url": "https://www.theguardian.com/football/2026/nov/26/fifa-cyberattack-hack-personal-information"
+            },
+            {
+              "name": "DW",
+              "title": "FIFA says a cyberattack against it targeted a 'limited set of personal and business information'",
+              "url": "https://www.dw.com/en/fifa-says-a-cyberattack-against-it-targeted-a-limited-set-of-personal-and-business-information/a-80062660?maca=en-rss-en-world-4025-rdf"
+            }
+          ]
+        },
+        {
+          "id": "top-world-3",
+          "headline": "Diesel Tanker Capsizes Near Ibiza, Killing One Crew Member",
+          "summary": "A Maltese-flagged chemical tanker carrying up to 7,000 tons of diesel capsized near the Spanish island of Ibiza. One crew member was killed, while rescue services assess potential environmental damage.",
+          "whyItMatters": "A major fuel spill near a populated island can threaten local marine life, safety, and the environment.",
+          "explainer": "A diesel tanker carrying thousands of tons of fuel capsized off the coast of the Spanish island of Ibiza, resulting in the death of a crew member. Spain's sea rescue service responded to the incident and is currently evaluating the vessel to determine the extent of any environmental damage caused by potential fuel leaks from the capsized ship.",
+          "keyTerms": [],
+          "disagreement": null,
+          "update": null,
+          "importance": 4,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3e73/live/33d0e9f0-e99e-11f1-b880-15b494ba858d.jpg",
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "title": "Diesel tanker capsizes near Ibiza, killing crew member",
+              "url": "https://www.aljazeera.com/video/newsfeed/2026/11/26/aje-onl-nf_loaded-diesel-tanker-capsizes-off-ibiza-killing-one-261126?traffic_source=rss"
+            },
+            {
+              "name": "BBC News",
+              "title": "Diesel tanker carrying up to 7,000 tonnes capsizes near Ibiza, killing one",
+              "url": "https://www.bbc.co.uk/news/articles/c9gklryvj24do?at_medium=RSS&at_campaign=rss"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "politics-world",
+      "title": "Politics · World",
+      "bricks": [
+        {
+          "id": "politics-world-0",
+          "headline": "Two Italian workers killed in drone strike in Kuwait",
+          "summary": "Two Italian technicians were killed in a drone attack at an air-defense station in Kuwait. While initial reports linked the incident to Iran, Iranian officials denied any responsibility for the strike.",
+          "whyItMatters": "This incident heightens regional security concerns and could impact diplomatic relations between Italy, Kuwait, and Iran.",
+          "explainer": "Two technicians working for a German defense company were killed at a surveillance station in Kuwait. The attack involved a drone strike that also injured several other workers. Italy's foreign ministry confirmed the deaths, while the Kuwaiti military reported the incident. Iran has denied being involved in the attack, though investigations into the origin and intent of the drone strike are ongoing. Such events often raise tensions in the region, affecting local safety and international cooperation.",
+          "keyTerms": [
+            {
+              "term": "Drone strike",
+              "definition": "An attack carried out by a pilotless aircraft operated remotely."
+            }
+          ],
+          "disagreement": "Italy's foreign ministry and Kuwait's army reported that Iranians were responsible, but Iran denied involvement.",
+          "update": null,
+          "importance": 8,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4cbd/live/babaff60-e9ac-11f1-a094-5fdc692f3e33.png",
+          "sources": [
+            {
+              "name": "BBC News",
+              "title": "Two Italians killed in strike in Kuwait, as Iran denies responsibility",
+              "url": "https://www.bbc.co.uk/news/articles/c39w9y5dx4k5o?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "Al Jazeera",
+              "title": "Two Italians killed by ‘drone strike debris’ in Kuwait",
+              "url": "https://www.aljazeera.com/news/2026/11/26/two-italians-killed-after-iranian-drones-strike-facility-says-kuwait?traffic_source=rss"
+            },
+            {
+              "name": "Al Jazeera",
+              "title": "Two dead after Iranian drone attack on Kuwait",
+              "url": "https://www.aljazeera.com/video/newsfeed/2026/11/26/two-dead-after-iranian-drone-attack-on-kuwait?traffic_source=rss"
+            }
+          ]
+        },
+        {
+          "id": "politics-world-1",
+          "headline": "EU leaders clash over budget and Ukraine aid",
+          "summary": "European Union leaders are struggling to agree on a long-term budget and a 45 billion euro loan for Ukraine. Some nations want to opt out of the funding, while others argue the current proposal is too expensive and lacks future focus.",
+          "whyItMatters": "The decision determines how much financial support the EU provides to Ukraine and how the bloc will manage its collective money through 2034.",
+          "explainer": "The European Union is holding a summit to negotiate its budget for the years 2028 to 2034. A major point of contention is a proposed 45 billion euro loan to support Ukraine. Countries including Slovakia, Hungary, and Czechia have expressed a desire to opt out of this specific funding. Meanwhile, some leaders argue the entire budget plan is too large and not focused enough on future defense and security needs. The uncertainty is complicated by regional politics and changing leadership across the bloc.",
+          "keyTerms": [
+            {
+              "term": "European Union",
+              "definition": "A group of countries in Europe that work together on trade and politics."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 7,
+          "image": "https://i.guim.co.uk/img/media/55402a74845f3146fdf5477c09fca1aa110ba6ed/86_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=dc4c1bf7b7e0dcc478a9b07a13b5d08e",
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "title": "EU leaders struggle to agree on long-term budget, more money for Ukraine",
+              "url": "https://www.aljazeera.com/economy/2026/11/26/eu-leaders-struggle-to-agree-on-long-term-budget-more-money-for-ukraine?traffic_source=rss"
+            },
+            {
+              "name": "The Guardian",
+              "title": "EU leaders wrestle over Ukraine aid as potential Le Pen victory sparks fear",
+              "url": "https://www.theguardian.com/world/2026/nov/26/eu-leaders-braced-for-clashes-over-ukraine-aid-at-budget-talks"
+            },
+            {
+              "name": "The Guardian",
+              "title": "Trump says he wants Putin to ‘pull back all military aggression’ in Europe – as it happened",
+              "url": "https://www.theguardian.com/world/live/2026/nov/26/eu-budget-summit-ukraine-russia-spain-serbia-elections-latest-news-updates"
+            },
+            {
+              "name": "BBC News",
+              "title": "New UK-EU treaty has 10-year termination clause",
+              "url": "https://www.bbc.co.uk/news/articles/c98r7p65edvgo?at_medium=RSS&at_campaign=rss"
+            }
+          ]
+        },
+        {
+          "id": "politics-world-2",
+          "headline": "Protests grow against Baghdad's control of Kurdish oil",
+          "summary": "Thousands of people in Iraq's semiautonomous Kurdish region are protesting government plans to take over local oil fields and border crossings. Kurdish authorities view this as an attack on their constitutional rights.",
+          "whyItMatters": "This dispute threatens the stability of energy production in the region and risks deepening the political rift between the federal government and Kurdish leaders.",
+          "explainer": "The federal government of Iraq has announced moves to seize control of oil operations and border crossings in the northern Kurdish region. This has caused significant unrest, with large crowds gathering in the Kurdish capital to protest. Baghdad's move is seen by local authorities as an attempt to undermine their autonomy, which is protected under the country's constitution. This dispute over resources and territory is a major point of tension in Iraqi politics.",
+          "keyTerms": [
+            {
+              "term": "Semiautonomous",
+              "definition": "A region that has some control over its own affairs while still being part of a larger country."
+            }
+          ],
+          "disagreement": null,
+          "update": "Protests have intensified in the Kurdish region as local leaders continue to resist the federal government's takeover plans.",
+          "importance": 6,
+          "image": null,
+          "sources": [
+            {
+              "name": "DW",
+              "title": "Protests in Iraqi Kurdistan at plans for government in Baghdad to take over oil, border crossings",
+              "url": "https://www.dw.com/en/protests-in-iraqi-kurdistan-at-plans-for-government-in-baghdad-to-take-over-oil-border-crossings/a-80065994?maca=en-rss-en-world-4025-rdf"
+            },
+            {
+              "name": "Al Jazeera",
+              "title": "How an oil feud is deepening rift between Baghdad and Iraq’s Kurdish region",
+              "url": "https://www.aljazeera.com/news/2026/11/26/how-an-oil-feud-is-deepening-rift-between-baghdad-and-iraqs-kurdish-region?traffic_source=rss"
+            }
+          ]
+        },
+        {
+          "id": "politics-world-3",
+          "headline": "Guinea-Bissau delays presidential election until 2028",
+          "summary": "Military leaders in Guinea-Bissau have announced that upcoming presidential and legislative elections will be delayed by two years. The vote, previously set for December, is now scheduled for November 2028.",
+          "whyItMatters": "The delay extends the time the current leadership remains in power without a public vote, which impacts the country's democratic process.",
+          "explainer": "In Guinea-Bissau, those currently in control have pushed back the national elections significantly. The country was expected to go to the polls in December to choose a new president and lawmakers. The military leadership now says these elections will not happen until late 2028. Such delays often lead to questions about when and how citizens can express their voice in government and whether the current transition of power remains fair.",
+          "keyTerms": [],
+          "disagreement": null,
+          "update": null,
+          "importance": 5,
+          "image": null,
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "title": "Guinea-Bissau presidential election delayed by two years",
+              "url": "https://www.aljazeera.com/news/2026/11/26/guinea-bissau-presidential-election-delayed-by-two-years?traffic_source=rss"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "economy-world",
+      "title": "Economy · World",
+      "bricks": [
+        {
+          "id": "economy-world-0",
+          "headline": "US Proposes New Tariffs on 14 Trading Partners",
+          "summary": "The US government is proposing new tariffs, or taxes on imports, for 14 major trading partners, including China and the European Union. These changes are expected to start early next year.",
+          "whyItMatters": "Higher tariffs can make imported goods more expensive for shoppers and change the prices of items you buy every day.",
+          "explainer": "A tariff is a tax that a government places on goods imported from other countries. By making these imported products more expensive, the government often aims to protect local businesses or respond to trade disagreements. The US is currently proposing an additional 20% tax on Chinese imports, which would bring the total tax to 40%. The list of countries affected includes members of the European Union. When countries raise tariffs on each other, it can lead to higher prices for consumers, as companies often pass those extra costs onto their customers. These policies are part of a broader strategy intended to shape global trade and support domestic industries.",
+          "keyTerms": [
+            {
+              "term": "Tariff",
+              "definition": "A tax placed by a government on goods coming into a country from abroad."
+            },
+            {
+              "term": "Import",
+              "definition": "Goods or services brought into one country from another country for sale."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 9,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cdd4/live/6fdb6db0-e946-11f1-8b2f-671485cea0be.jpg",
+          "sources": [
+            {
+              "name": "BBC News",
+              "title": "US announces new tariffs on host of countries including China",
+              "url": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "BBC News",
+              "title": "What we know about Trump's Thanksgiving tariffs",
+              "url": "https://www.bbc.co.uk/news/videos/c3x29v11ed1xo?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "The Guardian",
+              "title": "Trump proposing new tariffs on 14 partners including China and EU",
+              "url": "https://www.theguardian.com/us-news/2026/nov/25/trump-new-china-tariffs-europe"
+            }
+          ]
+        },
+        {
+          "id": "economy-world-1",
+          "headline": "UK Energy Bills Set to Rise by 26 Percent",
+          "summary": "Energy bills for millions of UK households are expected to rise by 26% in January. The increase follows a surge in global gas prices.",
+          "whyItMatters": "Rising energy costs can make it harder for families to pay for basic needs like heating and electricity during the winter.",
+          "explainer": "In the UK, the energy price cap limits how much providers can charge for each unit of gas and electricity. This cap is reviewed periodically to reflect the actual cost of buying energy on the global market. Because gas prices have recently spiked, the regulator, Ofgem, is raising the cap. This means the average household's annual bill will go up significantly. To manage these costs, experts suggest energy-saving tips, such as using appliances during off-peak hours or improving home insulation. This change comes as many families are already struggling with the rising cost of living.",
+          "keyTerms": [
+            {
+              "term": "Energy Price Cap",
+              "definition": "A limit set by a government regulator on the maximum amount energy companies can charge customers."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 8,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/654f/live/9096f7c0-e8df-11f1-a3b9-79c60ec9ab33.jpg",
+          "sources": [
+            {
+              "name": "BBC News",
+              "title": "Energy bills to rise by 26% from January after gas prices surge",
+              "url": "https://www.bbc.co.uk/news/articles/cm20qnq33e90o?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "BBC News",
+              "title": "Energy bills will soar - here's how you can ease the pain",
+              "url": "https://www.bbc.co.uk/news/articles/crm4rygl4m3o?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "BBC News",
+              "title": "What will the energy cap changes mean for my bills?",
+              "url": "https://www.bbc.co.uk/news/articles/cdd29v8mp9jo?at_medium=RSS&at_campaign=rss"
+            }
+          ]
+        },
+        {
+          "id": "economy-world-2",
+          "headline": "Retail Chain Poundland Files for Administration",
+          "summary": "The discount retailer Poundland has entered administration after failing to find a buyer. The collapse leaves 11,000 jobs at risk.",
+          "whyItMatters": "This closure could lead to significant job losses and change shopping options for people who rely on discount stores.",
+          "explainer": "Administration is a legal process that happens when a company can no longer pay its debts. A court-appointed expert takes control of the business to see if it can be saved or if its assets must be sold to pay back money owed to lenders and suppliers. Poundland’s management and lawmakers have blamed the company's American owners for the failure, while the owners argue they were trying to keep the business afloat. The future of the store chain and its employees remains uncertain as the process continues.",
+          "keyTerms": [
+            {
+              "term": "Administration",
+              "definition": "A process where a struggling company is managed by experts to pay off debts and decide if it can be saved."
+            }
+          ],
+          "disagreement": "Management and lawmakers blame the US owners for the collapse, while the owners claim the company would have failed sooner without their support.",
+          "update": null,
+          "importance": 6,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/44d4/live/d044d390-e990-11f1-99b6-a35a62fa4264.jpg",
+          "sources": [
+            {
+              "name": "BBC News",
+              "title": "What's gone wrong at Poundland?",
+              "url": "https://www.bbc.co.uk/news/articles/cm4g10p2r0g9o?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "BBC News",
+              "title": "Poundland collapses putting 11,000 jobs at risk",
+              "url": "https://www.bbc.co.uk/news/articles/cm3vgdn037z4o?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "BBC News",
+              "title": "Why has Poundland collapsed and what happens next?",
+              "url": "https://www.bbc.co.uk/news/videos/ckregn0gq2ydo?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "BBC News",
+              "title": "Simon Jack: Is Poundland's US owner to blame for its collapse?",
+              "url": "https://www.bbc.co.uk/news/articles/c62klzxvyzyqo?at_medium=RSS&at_campaign=rss"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "region-africa",
+      "title": "World · Africa",
+      "bricks": [
+        {
+          "id": "region-africa-0",
+          "headline": "Fuel Tanker Fire Kills 31 on Cairo Highway",
+          "summary": "A fuel tanker crashed on a busy highway near Cairo, Egypt, killing at least 31 people. The resulting fire left dozens of vehicles charred and injured at least 21 others. Authorities arrested a driver who allegedly caused the crash by speeding.",
+          "whyItMatters": "This tragic accident highlights risks to public safety on heavily used transit routes and affects the families of the many commuters involved.",
+          "explainer": "The crash occurred on a ring road that circles Egypt's capital, Cairo. This road is a major path for many people traveling between cities and governorates. According to officials, a driver was speeding and tried to pass other vehicles when he hit the fuel tanker. The impact caused the tanker to overturn and catch fire immediately. The blaze spread quickly, damaging cars and motorcycles stuck in traffic on the highway. Rescue crews and emergency services responded to the scene, but the large fire led to a high number of deaths and injuries among people who were traveling for work or daily errands.",
+          "keyTerms": [
+            {
+              "term": "Governorate",
+              "definition": "An administrative division in some countries, similar to a state or province."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 7,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e387/live/8aafd3d0-e98f-11f1-9d1c-4dcc8fcde666.jpg",
+          "sources": [
+            {
+              "name": "BBC News",
+              "title": "Egyptian authorities arrest motorist over tanker crash that killed 31",
+              "url": "https://www.bbc.co.uk/news/articles/c3gre90l0g45o?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "The Guardian",
+              "title": "Large fire engulfs vehicles in Cairo highway accident that kills dozens – video",
+              "url": "https://www.theguardian.com/world/video/2026/nov/26/large-fire-engulfs-vehicles-in-cairo-highway-accident-that-kills-dozens-video"
+            },
+            {
+              "name": "The Guardian",
+              "title": "At least 31 killed as fuel tanker crash ignites large fire on Cairo highway",
+              "url": "https://www.theguardian.com/world/2026/nov/25/people-killed-fuel-tanker-crash-ignites-large-fire-cairo-highway"
+            }
+          ]
+        },
+        {
+          "id": "region-africa-1",
+          "headline": "Cheaper HIV Prevention Jab Reaches Africa",
+          "summary": "A new medicine that helps prevent HIV is now available in Africa. The drug, called Lenacapavir, is given as an injection twice a year. It has been shown to be nearly 100 percent effective at preventing new infections.",
+          "whyItMatters": "This new treatment could significantly lower HIV infection rates, potentially saving many lives and improving public health across the continent.",
+          "explainer": "HIV is a virus that attacks the body's immune system. For years, people have taken daily pills to stay protected from the virus. This new medicine, Lenacapavir, offers a different way to stay safe because it only needs to be injected twice a year. Because it is much easier to manage than taking a daily pill, doctors hope it will help more people stay protected and prevent the virus from spreading. This is an important step for public health programs trying to manage the disease in many African countries.",
+          "keyTerms": [
+            {
+              "term": "HIV",
+              "definition": "A virus that harms the human immune system and can lead to a serious disease called AIDS."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 6,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7ec2/live/6c97c050-e986-11f1-b64a-3bc3040b00fe.jpg",
+          "sources": [
+            {
+              "name": "BBC News",
+              "title": "Hope for millions as cheaper HIV prevention jab reaches Africa",
+              "url": "https://www.bbc.co.uk/news/articles/cmly7jve72r2o?at_medium=RSS&at_campaign=rss"
+            }
+          ]
+        },
+        {
+          "id": "region-africa-2",
+          "headline": "DR Congo Questions Ugandan General's Threats",
+          "summary": "Officials in the Democratic Republic of Congo have asked for an explanation after a Ugandan general made online threats. The general suggested a rebel takeover of a mineral-rich area in Congo. The comments have caused concern about regional stability.",
+          "whyItMatters": "Tensions between neighboring countries can threaten safety and trade, potentially hurting people living in border regions.",
+          "explainer": "The Democratic Republic of Congo and its neighbor, Uganda, have a complex history regarding security and natural resources. The Ugandan general posted comments on social media that suggested rebels could take over a specific area of Congo that is full of valuable minerals. Congo’s leaders viewed these comments as an interference in their country’s affairs. Because the region is already struggling with violence and rebel activity, such statements from a foreign military leader are seen as a serious risk to peace in the area.",
+          "keyTerms": [
+            {
+              "term": "Mineral-rich",
+              "definition": "A place that has large amounts of valuable natural materials like gold, copper, or diamonds."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 5,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9933/live/ff601720-e97c-11f1-99b6-a35a62fa4264.jpg",
+          "sources": [
+            {
+              "name": "BBC News",
+              "title": "DR Congo demands answers over Ugandan general's threats",
+              "url": "https://www.bbc.co.uk/news/articles/cwz0k90rgpm8o?at_medium=RSS&at_campaign=rss"
+            }
+          ]
+        },
+        {
+          "id": "region-africa-3",
+          "headline": "Tourist Killed by Elephant Herd in Cameroon",
+          "summary": "A Swiss hiker was killed and others from Britain and the United States were injured after encountering elephants in Cameroon. The group was hiking near Mount Cameroon National Park when the herd attacked them.",
+          "whyItMatters": "The incident serves as a safety warning for travelers visiting nature parks where interactions with wild animals can be unpredictable.",
+          "explainer": "The group of six tourists was hiking on a path in the Mount Cameroon National Park area when they ran into a group of elephants. Wildlife experts note that while national parks are popular tourist spots, large wild animals like elephants can become dangerous if they feel threatened or surprised. Local guides were with the group at the time, but the encounter resulted in one death and several injuries. Authorities are investigating the circumstances surrounding the attack.",
+          "keyTerms": [],
+          "disagreement": null,
+          "update": null,
+          "importance": 4,
+          "image": "https://i.guim.co.uk/img/media/0037435f5e4355439978ba1d085c0c33ea095d64/1338_0_3037_2429/master/3037.jpg?width=140&quality=85&auto=format&fit=max&s=5ffd772f7a004b2de0f383e39d53a0b3",
+          "sources": [
+            {
+              "name": "The Guardian",
+              "title": "Swiss tourist killed and British and Americans injured by elephants in Cameroon",
+              "url": "https://www.theguardian.com/environment/2026/nov/25/swiss-tourist-killed-british-americans-injured-elephants-cameroon"
+            }
+          ]
+        },
+        {
+          "id": "region-africa-4",
+          "headline": "Guinea Orders Capital Residents to Clear Rubbish",
+          "summary": "Months after a deadly rubbish dump collapse, authorities in Guinea's capital have ordered residents to help clean up trash. The main dump remains closed, causing piles of waste to build up in the city streets.",
+          "whyItMatters": "Large amounts of trash in city streets can lead to disease outbreaks and make daily life difficult for local residents.",
+          "explainer": "Earlier this year, a massive rubbish dump in the capital of Guinea collapsed, leading to a disaster. Since that event, the dump has been shut down because it is no longer safe to use. Without a place to put trash, waste has started to pile up everywhere in the streets. The government is now asking the people living in the city to help clean up the mess until a new, permanent solution for waste management is put in place.",
+          "keyTerms": [],
+          "disagreement": null,
+          "update": null,
+          "importance": 3,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/27e3/live/62b728b0-e967-11f1-9656-317cf5039a62.jpg",
+          "sources": [
+            {
+              "name": "BBC News",
+              "title": "Guinea orders residents to clean up the capital months after deadly rubbish dump collapse",
+              "url": "https://www.bbc.co.uk/news/articles/cqwy4377yxnlo?at_medium=RSS&at_campaign=rss"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "region-asia",
+      "title": "World · Asia & Pacific",
+      "bricks": [
+        {
+          "id": "region-asia-0",
+          "headline": "China Responds to New US Trade Tariffs",
+          "summary": "The United States announced new taxes on goods from China and other countries. China called the plan political manipulation and said it may take necessary actions in response.",
+          "whyItMatters": "These trade rules can change the prices of goods that families buy and affect the jobs of people who work in global trade.",
+          "explainer": "A tariff is a tax that a country puts on goods coming from another country. When the United States creates a new tariff, it makes goods from that country more expensive to buy in the US. The US government says this is to protect its own businesses. China and other countries often dislike these taxes because they make it harder for their companies to sell products to American customers. When one country adds tariffs, others may respond by adding their own taxes on goods from the first country, which is known as a trade war. This can lead to higher prices for shoppers everywhere.",
+          "keyTerms": [
+            {
+              "term": "Tariff",
+              "definition": "A tax put on goods that are imported from another country."
+            },
+            {
+              "term": "Trade War",
+              "definition": "When countries put taxes on each other's goods to try to gain an economic advantage."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 8,
+          "image": "https://i.guim.co.uk/img/media/2368ea981f5660064edcacf6ff595f03bb38028d/139_0_1390_1112/master/1390.jpg?width=140&quality=85&auto=format&fit=max&s=c5009ff0d9a4d9543a2d563cd741a6ad",
+          "sources": [
+            {
+              "name": "The Guardian",
+              "title": "China reserves right to take ‘necessary measures’ after Trump’s new tariff proposals",
+              "url": "https://www.theguardian.com/us-news/2026/nov/26/brazil-china-react-to-new-trump-tariffs-threat"
+            },
+            {
+              "name": "BBC News",
+              "title": "US announces new tariffs on host of countries including China",
+              "url": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss"
+            }
+          ]
+        },
+        {
+          "id": "region-asia-1",
+          "headline": "Explosion at Bangkok Oil Refinery",
+          "summary": "A fire caused an explosion at an oil refinery in Bangkok, Thailand. At least nine people were injured, and the facility stopped all production as officials investigate the cause.",
+          "whyItMatters": "This accident can affect local traffic and air quality, and the refinery's closure may impact fuel supply in the area.",
+          "explainer": "An oil refinery is a large industrial plant where crude oil is processed into fuels like gasoline and diesel. These facilities use complex machines and high heat, which makes them dangerous places to work. When a fire occurs at such a site, authorities often close nearby roads and tell residents to stay away because of the thick, toxic smoke and the risk of more explosions. Investigators look for the cause of such fires to help companies make their plants safer for workers and the community.",
+          "keyTerms": [
+            {
+              "term": "Refinery",
+              "definition": "A factory that cleans and processes raw materials like oil to make them into useful products."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 5,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/579b/live/12356f50-e985-11f1-bb43-d1b6102e3b60.jpg",
+          "sources": [
+            {
+              "name": "BBC News",
+              "title": "Nine injured, three critically, after Bangkok oil refinery explosion",
+              "url": "https://www.bbc.co.uk/news/articles/crx209kwk4kzo?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "The Guardian",
+              "title": "Huge flames rise from fire at Bangkok oil facility – video",
+              "url": "https://www.theguardian.com/world/video/2026/nov/26/huge-flames-rise-from-fire-at-bangkok-oil-facility-video"
+            }
+          ]
+        },
+        {
+          "id": "region-asia-2",
+          "headline": "Mining Disaster in Indonesia",
+          "summary": "Thirteen people died and thirteen more are missing after an illegal gold mine in Indonesia flooded. Authorities are working at the site to search for those who are still trapped.",
+          "whyItMatters": "Mining accidents can be deadly and highlight the dangers of working in unregulated sites without proper safety protections.",
+          "explainer": "Illegal mining happens when people dig for valuable metals like gold without government permission. These sites often lack safety equipment, building codes, or proper ventilation. Because they are not inspected, they can be prone to disasters like cave-ins or flooding. When workers disappear in these accidents, it becomes a difficult search-and-rescue mission for emergency crews who must navigate unstable ground.",
+          "keyTerms": [],
+          "disagreement": null,
+          "update": null,
+          "importance": 5,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5f7f/live/77162390-e96e-11f1-848a-0519bc65af50.jpg",
+          "sources": [
+            {
+              "name": "BBC News",
+              "title": "Thirteen dead as mine disaster highlights illegal hunt for gold",
+              "url": "https://www.bbc.co.uk/news/articles/cmde1zr0nlyro?at_medium=RSS&at_campaign=rss"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "region-europe",
+      "title": "World · Europe",
+      "bricks": [
+        {
+          "id": "region-europe-0",
+          "headline": "Spain Holds General Election Amid Housing Crisis",
+          "summary": "Spain is holding an early general election following mass protests over housing costs. Current leader Pedro Sánchez faces a challenge from a conservative coalition as voters express anger over housing and economic conditions.",
+          "whyItMatters": "The outcome will decide who governs Spain and how the country addresses housing affordability and public anger.",
+          "explainer": "Spain's government called an early general election after facing significant public pressure regarding a national housing crisis. Many citizens are struggling with high costs and a lack of affordable housing. The current Socialist party is facing a challenge from a coalition led by the conservative People's Party, which may include the far-right Vox party. The campaign has been marked by debates over housing reforms and the use of digital media, including AI-generated content. Voters are choosing which political path the country will take to solve these urgent social and economic problems.",
+          "keyTerms": [
+            {
+              "term": "General election",
+              "definition": "A vote where citizens choose their representatives for the national government."
+            },
+            {
+              "term": "Coalition",
+              "definition": "A group of different political parties that work together to form a government."
+            }
+          ],
+          "disagreement": null,
+          "update": "The election takes place on Sunday as polls suggest the current government is at risk of losing to a conservative-led coalition.",
+          "importance": 9,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/980a/live/67fb7f80-e910-11f1-8383-53f283141713.jpg",
+          "sources": [
+            {
+              "name": "BBC News",
+              "title": "Spanish elections: What you need to know and what's at stake",
+              "url": "https://www.bbc.co.uk/news/articles/c6wy4ejnyvdyo?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "The Guardian",
+              "title": "Will Spain’s housing crisis bring the far right to power? – video",
+              "url": "https://www.theguardian.com/world/video/2026/nov/25/will-spains-housing-crisis-bring-the-far-right-to-power-video"
+            }
+          ]
+        },
+        {
+          "id": "region-europe-1",
+          "headline": "EU Leaders Debate Ukraine Aid and Hungary Relations",
+          "summary": "European leaders are struggling to agree on a major financial loan for Ukraine. Meanwhile, Hungary's new leader, Peter Magyar, is working to improve relations with Ukraine after years of tensions.",
+          "whyItMatters": "Decisions on this funding affect Ukraine's ability to defend itself and sustain its economy during the war.",
+          "explainer": "EU countries are currently discussing a large financial aid package for Ukraine, but some member states like Hungary and Slovakia are seeking to opt out of the agreement. German leaders and other officials are pushing for a unified approach to ensure long-term support for Ukraine's defense and security. At the same time, Hungarian politics are shifting. New leader Peter Magyar has met with Ukrainian President Volodymyr Zelenskyy, signaling a potential change in the relationship between the two countries following years of icy ties under former leader Viktor Orban.",
+          "keyTerms": [
+            {
+              "term": "Loan",
+              "definition": "Money that is borrowed and must be paid back with interest."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 8,
+          "image": "https://i.guim.co.uk/img/media/55402a74845f3146fdf5477c09fca1aa110ba6ed/86_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=dc4c1bf7b7e0dcc478a9b07a13b5d08e",
+          "sources": [
+            {
+              "name": "The Guardian",
+              "title": "EU leaders wrestle over Ukraine aid as potential Le Pen victory sparks fear",
+              "url": "https://www.theguardian.com/world/2026/nov/26/eu-leaders-braced-for-clashes-over-ukraine-aid-at-budget-talks"
+            },
+            {
+              "name": "The Guardian",
+              "title": "Trump says he wants Putin to ‘pull back all military aggression’ in Europe – as it happened",
+              "url": "https://www.theguardian.com/world/live/2026/nov/26/eu-budget-summit-ukraine-russia-spain-serbia-elections-latest-news-updates"
+            },
+            {
+              "name": "DW",
+              "title": "Peter Magyar meets Volodymyr Zelenskyy: Hungary and Ukraine make a fresh start after the icy relations of the Viktor Orban era",
+              "url": "https://www.dw.com/en/peter-magyar-meets-volodymyr-zelenskyy-hungary-and-ukraine-make-a-fresh-start-after-the-icy-relations-of-the-viktor-orban-era/a-80054175?maca=en-rss-en-world-4025-rdf"
+            }
+          ]
+        },
+        {
+          "id": "region-europe-2",
+          "headline": "Tanker Sinks Off Spanish Coast Near Ibiza",
+          "summary": "A diesel tanker capsized near Ibiza, resulting in the death of one crew member. Rescue teams saved 17 other people, and officials are now working to prevent environmental damage from potential fuel leaks.",
+          "whyItMatters": "This accident risks polluting coastal waters and impacting local marine life and tourism in the Ibiza area.",
+          "explainer": "A ship carrying 7,000 tonnes of diesel sank near the Spanish island of Ibiza. While Spanish sea rescue services managed to save 17 crew members, one individual sadly died in the hospital following the incident. Authorities have started a contingency plan to manage the site and monitor the area for oil spills to protect the environment. The exact cause of the capsizing is currently being assessed as teams work to contain the wreckage.",
+          "keyTerms": [
+            {
+              "term": "Contingency plan",
+              "definition": "A strategy prepared for an emergency or unexpected situation."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 5,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3e73/live/33d0e9f0-e99e-11f1-b880-15b494ba858d.jpg",
+          "sources": [
+            {
+              "name": "BBC News",
+              "title": "Diesel tanker carrying up to 7,000 tonnes capsizes near Ibiza, killing one",
+              "url": "https://www.bbc.co.uk/news/articles/c9gklryvj24do?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "DW",
+              "title": "Crew member dies after diesel tanker sinks off Ibiza coast",
+              "url": "https://www.dw.com/en/crew-member-dies-after-diesel-tanker-sinks-off-ibiza-coast/a-80059054?maca=en-rss-en-world-4025-rdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "region-latam",
+      "title": "World · Latin America",
+      "bricks": [
+        {
+          "id": "region-latam-0",
+          "headline": "Questions arise after Colombian security siege",
+          "summary": "Police ended a 17-hour hostage siege at a Colombian supermarket by force. While all hostages were saved, one suspected gunman was killed. The event has sparked concerns about the government's security tactics and recent reports of extrajudicial killings.",
+          "whyItMatters": "This incident highlights ongoing tensions in Colombia over the government's approach to public safety and criminal enforcement.",
+          "explainer": "In Cartagena, Colombia, security forces ended a long hostage standoff at a supermarket. The incident began after a planned robbery of an armored car reportedly went wrong. President Abelardo de la Espriella visited the site to oversee the final moments of the operation. While officials say the mission was a success because all hostages survived, the event has drawn attention to the president's hard-line security policies. Critics have raised concerns that these aggressive tactics may lead to extrajudicial killings, which occur when authorities kill someone without a proper legal trial. The government maintains that it is necessary to use strong force to defeat armed criminal groups operating within the country.",
+          "keyTerms": [
+            {
+              "term": "Extrajudicial killing",
+              "definition": "When a person is killed by government forces or officials without following the legal process of a trial."
+            }
+          ],
+          "disagreement": "While officials describe the deceased man as a hostage-taker, some reports suggest it is unclear whether he was an attacker or a hostage.",
+          "update": "The hostage situation in a Cartagena supermarket has ended with all hostages safely rescued after a 17-hour standoff.",
+          "importance": 7,
+          "image": "https://i.guim.co.uk/img/media/a3585592d60a650e6033ad7e718f5e89458d216d/440_75_2600_2080/master/2600.jpg?width=140&quality=85&auto=format&fit=max&s=33ea692d3cf725ee634c71826c01d100",
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "title": "How a teen’s death raises questions about Colombia’s security crackdown",
+              "url": "https://www.aljazeera.com/news/longform/2026/11/26/how-a-teens-death-raises-questions-about-colombias-security-crackdown?traffic_source=rss"
+            },
+            {
+              "name": "The Guardian",
+              "title": "All hostages rescued after Colombian security forces storm supermarket, police say",
+              "url": "https://www.theguardian.com/world/2026/nov/25/hostages-freed-colombia-security-forces-storm-cartagena-supermarket"
+            },
+            {
+              "name": "BBC News",
+              "title": "Colombian police storm supermarket to free 76 held hostage for 17 hours",
+              "url": "https://www.bbc.co.uk/news/articles/ckp80mjr9emyo?at_medium=RSS&at_campaign=rss"
+            }
+          ]
+        },
+        {
+          "id": "region-latam-1",
+          "headline": "Illegal mining surges in the Amazon rainforest",
+          "summary": "Criminal gangs are illegally mining tin ore in Brazil's Amazon to meet high demand from data centers. The activity is damaging Indigenous lands and exploiting weak government regulations. Police have even linked these illegal schemes to well-known figures.",
+          "whyItMatters": "Illegal mining threatens the environment and the rights of Indigenous people living in the Amazon rainforest.",
+          "explainer": "Demand for technology, specifically for data centers, has driven up the price of tin ore, or cassiterite. This has led criminal groups to set up illegal mines inside protected Indigenous lands in the Amazon. These groups often bypass environmental laws and profit from the destruction of the rainforest. Brazilian federal police have launched investigations into these networks, which include complex money-laundering schemes. Recently, investigators uncovered links between these operations and prominent figures in the entertainment industry. The situation highlights the difficulty of enforcing environmental protection laws in remote parts of the forest, where illegal groups operate with little oversight.",
+          "keyTerms": [
+            {
+              "term": "Cassiterite",
+              "definition": "A mineral ore that is the main source of tin, a metal used in electronics and technology."
+            },
+            {
+              "term": "Data centers",
+              "definition": "Large buildings full of computer servers that store and process information for the internet."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 5,
+          "image": "https://i.guim.co.uk/img/media/2da7a1a7669a2ab8ece50bcb4811023cb4155125/102_0_2835_2268/master/2835.jpg?width=140&quality=85&auto=format&fit=max&s=7ecde9566804e2836835bb4986381291",
+          "sources": [
+            {
+              "name": "The Guardian",
+              "title": "How datacentres are driving an illegal mining rush in the Amazon ‘more devastating than gold’",
+              "url": "https://www.theguardian.com/global-development/2026/nov/25/tin-cassiterite-brazil-amazon-illegal-mining-datacentres-evs"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "region-mideast",
+      "title": "World · Middle East",
+      "bricks": [
+        {
+          "id": "region-mideast-0",
+          "headline": "Fuel Tanker Crash Kills Dozens on Cairo Highway",
+          "summary": "A fuel tanker crashed on a busy ring road near Cairo, causing a massive fire. At least 31 people died and 21 were injured in the blaze. The accident damaged many cars and motorcycles on the capital's major road.",
+          "whyItMatters": "This tragedy highlights safety risks on major infrastructure routes used by thousands of people daily in Egypt's capital.",
+          "explainer": "The accident took place on Cairo's ring road, a vital highway that circles the city and connects multiple governorates. When the tanker overturned, the fuel spilled and caught fire, creating a large, dangerous blaze that engulfed nearby traffic. Egyptian authorities are investigating the crash, which has resulted in significant loss of life and injuries. Such incidents on busy metropolitan highways affect daily travel and raise questions about transportation safety regulations for hazardous materials in densely populated urban areas.",
+          "keyTerms": [
+            {
+              "term": "Ring road",
+              "definition": "A main highway that goes around the outside of a city to help traffic move faster."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 7,
+          "image": "https://i.guim.co.uk/img/media/fb04d72b233cc2ffa0a68d9f2ad6fa8e04702cdd/227_0_1350_1080/master/1350.jpg?width=140&quality=85&auto=format&fit=max&s=b15d9422e977b3718da470c9b01ebb86",
+          "sources": [
+            {
+              "name": "The Guardian",
+              "title": "Large fire engulfs vehicles in Cairo highway accident that kills dozens – video",
+              "url": "https://www.theguardian.com/world/video/2026/nov/26/large-fire-engulfs-vehicles-in-cairo-highway-accident-that-kills-dozens-video"
+            },
+            {
+              "name": "The Guardian",
+              "title": "At least 31 killed as fuel tanker crash ignites large fire on Cairo highway",
+              "url": "https://www.theguardian.com/world/2026/nov/25/people-killed-fuel-tanker-crash-ignites-large-fire-cairo-highway"
+            },
+            {
+              "name": "BBC News",
+              "title": "Thirty-one killed in massive fire as fuel tanker crashes on Cairo highway",
+              "url": "https://www.bbc.co.uk/news/articles/cqy7rn30v314o?at_medium=RSS&at_campaign=rss"
+            }
+          ]
+        },
+        {
+          "id": "region-mideast-1",
+          "headline": "Two Italians Killed in Drone Strike in Kuwait",
+          "summary": "Two Italian technicians died after a drone strike hit an air-defense station in Kuwait. Four other people were injured in the attack. The Kuwaiti army confirmed the deaths following the strike.",
+          "whyItMatters": "The attack represents a dangerous escalation in regional stability, potentially threatening foreign workers and international security efforts in the Middle East.",
+          "explainer": "The incident involved technical workers who were stationed at an air-defense site in Kuwait. Drone attacks have become a growing concern for regional security, as they can bypass traditional defenses to target military or infrastructure facilities. The involvement of foreign nationals and the nature of the attack are likely to draw significant diplomatic attention and may lead to heightened security measures across the region as governments work to address the source of these strikes.",
+          "keyTerms": [
+            {
+              "term": "Drone",
+              "definition": "An aircraft that flies without a pilot on board, often controlled from a distance."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 7,
+          "image": null,
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "title": "Two dead after Iranian drone attack on Kuwait",
+              "url": "https://www.aljazeera.com/video/newsfeed/2026/11/26/two-dead-after-iranian-drone-attack-on-kuwait?traffic_source=rss"
+            },
+            {
+              "name": "Al Jazeera",
+              "title": "Two Italians killed by ‘drone strike debris’ in Kuwait",
+              "url": "https://www.aljazeera.com/news/2026/11/26/two-italians-killed-after-iranian-drones-strike-facility-says-kuwait?traffic_source=rss"
+            }
+          ]
+        },
+        {
+          "id": "region-mideast-2",
+          "headline": "New Reports Challenge UN Staff Dismissals in Gaza",
+          "summary": "A UN tribunal questioned the evidence used to fire Palestinian aid workers, citing unproven claims from Israel. Meanwhile, Israeli strikes in Gaza continue, including one that killed a senior Hamas official and his family.",
+          "whyItMatters": "The loss of humanitarian aid workers threatens the delivery of food and medicine, while ongoing military strikes continue to endanger civilians in the territory.",
+          "explainer": "A UN agency dismissed several staff members earlier in 2024, alleging links to Hamas. However, a recent tribunal judgment found that these firings were based on assertions from the Israeli government that lacked concrete evidence. The tribunal suggested that these actions harmed vital aid operations in Gaza. At the same time, the conflict remains active, with recent strikes resulting in the deaths of both military officials and their family members, showing the ongoing human cost of the war.",
+          "keyTerms": [
+            {
+              "term": "Tribunal",
+              "definition": "A special court or group of people appointed to judge a specific matter."
+            },
+            {
+              "term": "Humanitarian aid",
+              "definition": "Help, such as food, water, or medicine, given to people who are suffering due to war or disaster."
+            }
+          ],
+          "disagreement": null,
+          "update": "New legal findings cast doubt on why Palestinian aid workers were fired, while Israeli military strikes in the region remain frequent.",
+          "importance": 8,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b703/live/54fa7870-e981-11f1-99a1-253766e7ad8b.jpg",
+          "sources": [
+            {
+              "name": "BBC News",
+              "title": "Hamas political official and wife among eight Palestinians killed in Israeli strikes on Gaza",
+              "url": "https://www.bbc.co.uk/news/articles/cqvg2n4mzl1jo?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "The Guardian",
+              "title": "UN sacked Palestinian staff on back of unproven Israeli allegations, tribunal rules",
+              "url": "https://www.theguardian.com/world/2026/nov/25/un-sacked-palestinian-staff-on-back-of-unproven-israel-allegations"
+            },
+            {
+              "name": "BBC News",
+              "title": "Israeli strike kills senior Hamas security official and family in Gaza City",
+              "url": "https://www.bbc.co.uk/news/articles/cmd718zydz9qo?at_medium=RSS&at_campaign=rss"
+            }
+          ]
+        },
+        {
+          "id": "region-mideast-3",
+          "headline": "Tensions Rise Over Iraq's Oil Fields",
+          "summary": "The Iraqi central government is attempting to take control of border crossings and oil fields in the Kurdish region. This move has caused a deep conflict between leaders in Baghdad and Erbil.",
+          "whyItMatters": "Control over oil production affects the nation's economy and the division of wealth between the central government and the regional Kurdish government.",
+          "explainer": "The conflict centers on who has the authority to manage resources like oil fields and the movement of goods across borders. Iraq's central government in Baghdad argues it should manage these assets, while authorities in the Kurdish region view the move as an assault on their rights. This power struggle creates instability, affecting the region's ability to export oil and generate revenue for its people.",
+          "keyTerms": [
+            {
+              "term": "Kurdish region",
+              "definition": "An area in northern Iraq that has its own local government."
+            }
+          ],
+          "disagreement": "Baghdad claims authority over oil assets and borders, while Kurdish authorities in Erbil reject these moves as a violation of their rights.",
+          "update": "The disagreement over oil control and border management continues as local leaders push back against central government orders.",
+          "importance": 5,
+          "image": null,
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "title": "How an oil feud is deepening rift between Baghdad and Iraq’s Kurdish region",
+              "url": "https://www.aljazeera.com/news/2026/11/26/how-an-oil-feud-is-deepening-rift-between-baghdad-and-iraqs-kurdish-region?traffic_source=rss"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "top-us",
+      "title": "Top Stories · United States",
+      "bricks": [
+        {
+          "id": "top-us-0",
+          "headline": "Severe Storms Disrupt Thanksgiving Travel Across U.S.",
+          "summary": "Extreme weather including heavy rain, high winds, and coastal flooding is affecting travel for millions of people. The Macy's Thanksgiving Day Parade in New York was postponed to Saturday due to these dangerous conditions.",
+          "whyItMatters": "The severe weather is disrupting holiday travel plans for an estimated 81.5 million Americans and creating safety risks from coastal flooding.",
+          "explainer": "A major storm system is moving across the United States during one of the busiest travel periods of the year. The heavy rain and high winds have triggered flood warnings, particularly in coastal areas where king tides—exceptionally high tides—are raising water levels. These conditions forced the rare postponement of the Macy's Thanksgiving Day Parade, which will now take place on Saturday instead of Thanksgiving Day. Officials have warned residents to be careful as storms move across the country, affecting millions of people who are trying to reach family for the holiday. Travelers are encouraged to check for flight delays and local warnings.",
+          "keyTerms": [
+            {
+              "term": "King tides",
+              "definition": "These are exceptionally high tides that happen when the sun and moon align to create stronger gravitational pull."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 7,
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-26T144359Z_1943412194_RC2PVOALWVBA_RTRMADP_3_USA-THANKSGIVING-PARADE-1024x683.jpg",
+          "sources": [
+            {
+              "name": "PBS NewsHour",
+              "title": "Thanksgiving holiday plagued by heavy rain, wind and flooding across much of the U.S.",
+              "url": "https://www.pbs.org/newshour/nation/thanksgiving-holiday-plagued-by-heavy-rain-wind-and-flooding-across-much-of-the-u-s"
+            },
+            {
+              "name": "NPR",
+              "title": "Storms disrupt Thanksgiving travel. And, FCC violated ABC's free speech, judge says",
+              "url": "https://www.npr.org/2026/11/26/g-s1-155950/up-first-newsletter-thanksgiving-weather-travel-trump-tariffs-iowa-detonation-fcc-free-speech"
+            },
+            {
+              "name": "NPR",
+              "title": "Powerful storms disrupt holiday travel, as Macy's Thanksgiving Day Parade is postponed",
+              "url": "https://www.npr.org/2026/11/26/nx-s1-6054079/storms-expected-on-both-coasts-as-millions-travel-for-thanksgiving"
+            },
+            {
+              "name": "BBC News",
+              "title": "Macy's postpones Thanksgiving parade due to severe weather",
+              "url": "https://www.bbc.co.uk/news/articles/cwkgr38l2g9yo?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "BBC News",
+              "title": "California warns of flooding as King Tides peak over Thanksgiving",
+              "url": "https://www.bbc.co.uk/news/articles/ckn806qq760po?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "PBS NewsHour",
+              "title": "News Wrap: Severe weather threatens holiday travel for millions",
+              "url": "https://www.pbs.org/newshour/show/news-wrap-severe-weather-threatens-holiday-travel-for-millions"
+            },
+            {
+              "name": "PBS NewsHour",
+              "title": "From her apartment, photographer captures unique view of Macy's Thanksgiving Day Parade",
+              "url": "https://www.pbs.org/newshour/show/from-her-apartment-photographer-captures-unique-view-of-macys-thanksgiving-day-parade"
+            }
+          ]
+        },
+        {
+          "id": "top-us-1",
+          "headline": "U.S. Announces New Tariffs on Major Trading Partners",
+          "summary": "The Trump administration announced new tariffs on products from China, the European Union, and 12 other countries. China will face the highest rate with a 20% tax on most of its goods imported into the U.S.",
+          "whyItMatters": "New tariffs can increase the cost of imported goods, which may lead to higher prices for consumers on everyday items like electronics and clothing.",
+          "explainer": "Tariffs are taxes imposed by a government on goods imported from other countries. By increasing these taxes, the administration aims to change trade patterns and encourage domestic production. The newly announced measures target major trading partners, with China receiving a 20% tariff on most products. Experts note that when companies pay higher taxes to import parts or finished goods, they often pass those costs on to shoppers. This policy marks a significant shift in U.S. trade strategy, impacting global supply chains and potentially changing how much Americans pay for various products in the coming months.",
+          "keyTerms": [
+            {
+              "term": "Tariff",
+              "definition": "A tax placed by a government on goods coming into the country from abroad."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 7,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cdd4/live/6fdb6db0-e946-11f1-8b2f-671485cea0be.jpg",
+          "sources": [
+            {
+              "name": "BBC News",
+              "title": "US announces new tariffs on host of countries including China",
+              "url": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "PBS NewsHour",
+              "title": "How Trump's newest tariffs could impact Americans and the economy",
+              "url": "https://www.pbs.org/newshour/show/how-trumps-newest-tariffs-could-impact-americans-and-the-economy"
+            }
+          ]
+        },
+        {
+          "id": "top-us-2",
+          "headline": "Judge Blocks FCC Review of ABC Licenses",
+          "summary": "A federal judge ruled against the FCC's plan to review ABC's broadcast licenses early. The judge agreed with the network that the move limited its free speech rights.",
+          "whyItMatters": "This ruling protects the independence of news organizations from government pressure and ensures they can continue to report or provide satire without fear of losing their right to broadcast.",
+          "explainer": "The Federal Communications Commission (FCC) is a government agency that regulates broadcasting in the U.S. It grants licenses that allow stations like ABC to broadcast. A federal judge recently stopped the FCC from conducting an early review of these licenses, agreeing with the network's argument that the government was trying to pressure or punish them for content that the administration disliked. The ruling is a significant legal outcome concerning the First Amendment, which protects the right to free speech. It establishes that government agencies cannot use the licensing process to influence or silence news networks.",
+          "keyTerms": [
+            {
+              "term": "FCC",
+              "definition": "The agency that makes rules for television and radio stations in the United States."
+            },
+            {
+              "term": "First Amendment",
+              "definition": "A part of the U.S. Constitution that protects the right to speak freely and freedom of the press."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 6,
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-07-25T063519Z_1315409973_RC2RKMA9LGBP_RTRMADP_3_USA-TRUMP-DINNER-1024x682.jpg",
+          "sources": [
+            {
+              "name": "PBS NewsHour",
+              "title": "Judge blocks FCC from early license review for ABC, which network says has had a chilling effect",
+              "url": "https://www.pbs.org/newshour/nation/judge-blocks-fcc-from-early-license-review-for-abc-which-network-says-has-had-a-chilling-effect"
+            },
+            {
+              "name": "NPR",
+              "title": "Storms disrupt Thanksgiving travel. And, FCC violated ABC's free speech, judge says",
+              "url": "https://www.npr.org/2026/11/26/g-s1-155950/up-first-newsletter-thanksgiving-weather-travel-trump-tariffs-iowa-detonation-fcc-free-speech"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "politics-us",
+      "title": "Politics · United States",
+      "bricks": [
+        {
+          "id": "politics-us-0",
+          "headline": "Trump Proposes New Tariffs on Global Goods",
+          "summary": "President Trump wants to add new taxes on goods from China, the European Union, and other countries. The plan aims to change trade rules but faces pushback from some lawmakers and trade experts.",
+          "whyItMatters": "New tariffs can raise the prices of imported goods, which may increase the cost of living for many families.",
+          "explainer": "A tariff is a tax that a government places on goods brought into a country from abroad. By making these foreign goods more expensive, the government hopes to encourage people to buy things made within the United States. President Trump’s new plan targets goods from several nations, including China, Brazil, and countries in the European Union. Critics argue that these taxes could hurt the economy and cause other countries to tax American products in return, which could lead to a trade war. The administration says the move is necessary to protect American interests and respond to unfair trade practices.",
+          "keyTerms": [
+            {
+              "term": "Tariff",
+              "definition": "A tax placed by a government on products being brought into the country from another place."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 8,
+          "image": "https://media.npr.org/include/images/tracking/npr-rss-pixel.png?story=nx-s1-6054103",
+          "sources": [
+            {
+              "name": "NPR",
+              "title": "Trump administration proposes new tariffs on goods from major U.S. trading partners",
+              "url": "https://www.npr.org/2026/11/26/nx-s1-6054103/trump-administration-proposes-new-tariffs-on-goods-from-major-u-s-trading-partners"
+            },
+            {
+              "name": "NPR",
+              "title": "Sen. Tim Kaine, D-Va., shares why he opposes Trump's proposed tariffs",
+              "url": "https://www.npr.org/2026/11/26/nx-s1-6053944/sen-tim-kaine-d-va-shares-why-he-opposes-trumps-proposed-tariffs"
+            },
+            {
+              "name": "PBS NewsHour",
+              "title": "Trump administration to raise tariffs on China, EU, Brazil and others",
+              "url": "https://www.pbs.org/newshour/politics/trump-administration-to-raise-tariffs-on-china-eu-brazil-and-others"
+            }
+          ]
+        },
+        {
+          "id": "politics-us-1",
+          "headline": "Judge Blocks FCC Action Against ABC",
+          "summary": "A federal judge ruled that the FCC cannot punish ABC stations for airing comedy that President Trump disliked. The judge said the FCC violated the network's free speech rights.",
+          "whyItMatters": "This case involves the government's power to regulate media and protects the ability of broadcasters to share news and satire.",
+          "explainer": "The Federal Communications Commission (FCC) is a government group that regulates television and radio. Recently, the Trump administration wanted to review the licenses of local ABC stations. A judge blocked this effort, saying it was a violation of the network's First Amendment rights to free speech. The judge found that the government’s actions were an attempt to punish the media for content that the president disagreed with, rather than for a violation of federal rules.",
+          "keyTerms": [
+            {
+              "term": "FCC",
+              "definition": "An agency that makes rules for television and radio stations."
+            },
+            {
+              "term": "First Amendment",
+              "definition": "A part of the U.S. Constitution that protects the right to free speech and a free press."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 6,
+          "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4500x3000+0+0/resize/4500x3000!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F39%2Fa4%2F8f4bad7a4672b2a60fa7293ee33b%2Fcarr-damaro-diptych.jpg",
+          "sources": [
+            {
+              "name": "NPR",
+              "title": "U.S. Judge rules FCC violated ABC's free speech rights to please Trump",
+              "url": "https://www.npr.org/2026/11/26/nx-s1-6000576/fcc-disney-abc-first-amendment-trump-brendan-carr"
+            },
+            {
+              "name": "NPR",
+              "title": "Storms disrupt Thanksgiving travel. And, FCC violated ABC's free speech, judge says",
+              "url": "https://www.npr.org/2026/11/26/g-s1-155950/up-first-newsletter-thanksgiving-weather-travel-trump-tariffs-iowa-detonation-fcc-free-speech"
+            }
+          ]
+        },
+        {
+          "id": "politics-us-2",
+          "headline": "Trump Calls for Probe Into Commerce Department",
+          "summary": "President Trump accused the Commerce Department of releasing fake economic data. He is also calling for an investigation into the agency's reporting before the midterm elections.",
+          "whyItMatters": "Confidence in government economic data is important because these numbers help businesses and people make choices about money.",
+          "explainer": "The Commerce Department is a part of the federal government that tracks how the economy is growing, often using a number called Gross Domestic Product (GDP). President Trump claims that officials at the agency intentionally provided wrong information before the election. He has demanded an investigation to see if the data was manipulated. Separately, a judge has ordered election records from the 2020 election in Georgia to be given to the state, as part of an ongoing review of past election procedures.",
+          "keyTerms": [
+            {
+              "term": "GDP",
+              "definition": "A measure of all the goods and services produced by a country in a year."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 5,
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-24T220218Z_1455087937_RC2KUOAYZ91P_RTRMADP_3_USA-TRUMP-1024x684.jpg",
+          "sources": [
+            {
+              "name": "PBS NewsHour",
+              "title": "Trump calls GDP figures 'fake' and demands an investigation of Commerce Department",
+              "url": "https://www.pbs.org/newshour/politics/trump-calls-gdp-figures-fake-and-demands-an-investigation-of-commerce-department"
+            },
+            {
+              "name": "PBS NewsHour",
+              "title": "Georgia's Fulton County ordered to give copy of 2020 election records seized by FBI to state board",
+              "url": "https://www.pbs.org/newshour/politics/georgias-fulton-county-ordered-to-give-copy-of-2020-election-records-seized-by-fbi-to-state-board"
+            }
+          ]
+        },
+        {
+          "id": "politics-us-3",
+          "headline": "Alaska Ends Voter List Agreement with DOJ",
+          "summary": "Alaska's election official canceled a deal with the U.S. Department of Justice. The state had been sharing voter lists to help the government identify noncitizens who might be registered to vote.",
+          "whyItMatters": "This change affects how states and the federal government work together to manage voter registration records.",
+          "explainer": "The Department of Justice (DOJ) is the federal agency responsible for enforcing laws, including those regarding elections. Alaska had an agreement to share its list of registered voters with the DOJ so the agency could check for people who should not be on the list. A state official in Alaska decided to stop this practice. This reflects a broader debate in the U.S. over how voter lists should be maintained and who has the right to remove names from them.",
+          "keyTerms": [],
+          "disagreement": null,
+          "update": null,
+          "importance": 4,
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-11T202026Z_364340326_RC2VLOAQT0Y6_RTRMADP_3_USA-ELECTION-ALASKA-1024x683.jpg",
+          "sources": [
+            {
+              "name": "PBS NewsHour",
+              "title": "Alaska ends voter data agreement with Justice Department, which had been searching for noncitizens",
+              "url": "https://www.pbs.org/newshour/politics/alaska-ends-voter-data-agreement-with-justice-department-which-had-been-searching-for-noncitizens"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "economy-us",
+      "title": "Economy · United States",
+      "bricks": [
+        {
+          "id": "economy-us-0",
+          "headline": "U.S. Plans New Tariffs on 14 Trading Partners",
+          "summary": "The U.S. government plans to raise tariffs on goods from 14 trading partners, including China and the European Union. These moves are meant to counter trade practices the government calls unfair to American businesses.",
+          "whyItMatters": "Higher tariffs can make imported goods more expensive for American shoppers and may change the prices of daily items.",
+          "explainer": "A tariff is a tax on goods brought into a country from abroad. The U.S. government says these new taxes are needed to protect American companies from unfair competition. By raising these costs, officials hope to encourage other countries to change their trade rules. However, some economists warn that when the U.S. puts taxes on imports, other countries may respond by taxing American products. This could lead to a trade war, which might make it harder for businesses to sell their goods globally and could increase costs for consumers at home.",
+          "keyTerms": [
+            {
+              "term": "Tariff",
+              "definition": "A tax placed by a government on goods that are brought into the country from abroad."
+            }
+          ],
+          "disagreement": null,
+          "update": "The U.S. is pushing these trade partners to sign new agreements to avoid higher taxes on their goods.",
+          "importance": 8,
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/tariffs-1024x683.jpg",
+          "sources": [
+            {
+              "name": "CNBC",
+              "title": "U.S. tariff-hike threats pile pressure on partners to sign trade deals",
+              "url": "https://www.cnbc.com/2026/11/26/us-tariffs-hike-trade-agreement.html"
+            },
+            {
+              "name": "CNBC",
+              "title": "Global stocks rally as investors shrug off U.S. tariffs and AI jitters to 'fish for bargains'",
+              "url": "https://www.cnbc.com/2026/11/26/stock-markets-today-.html"
+            },
+            {
+              "name": "CNBC",
+              "title": "How Trump’s latest tariff moves hand India an edge over rival Asian exporters",
+              "url": "https://www.cnbc.com/2026/11/26/trump-us-tariff-india-trade.html"
+            },
+            {
+              "name": "PBS NewsHour",
+              "title": "How Trump's newest tariffs could impact Americans and the economy",
+              "url": "https://www.pbs.org/newshour/show/how-trumps-newest-tariffs-could-impact-americans-and-the-economy"
+            },
+            {
+              "name": "PBS NewsHour",
+              "title": "Trump administration to raise tariffs on China, EU, Brazil and others",
+              "url": "https://www.pbs.org/newshour/politics/trump-administration-to-raise-tariffs-on-china-eu-brazil-and-others"
+            },
+            {
+              "name": "CNBC",
+              "title": "U.S. proposes new tariffs on 14 trading partners, including China and the EU",
+              "url": "https://www.cnbc.com/2026/11/25/us-tariffs-trump-section-301.html"
+            }
+          ]
+        },
+        {
+          "id": "economy-us-1",
+          "headline": "Nvidia Board Criticized After CEO Jensen Huang Returns",
+          "summary": "Jensen Huang is back as Nvidia's CEO. The company board faces criticism over how it handled the situation involving the CEO’s past actions.",
+          "whyItMatters": "As a major chipmaker, Nvidia's stability affects the tech industry and the many investors who own its stock.",
+          "explainer": "Jensen Huang left his role as CEO of the chipmaker Nvidia following reports of personal misconduct. After he returned to the position, investors and experts began questioning how the company's board of directors handled the scandal. S&P Global Ratings warned that this situation created risks for the company's reputation and management. Meanwhile, the company is adjusting its business strategies after the U.S. government tightened rules on selling advanced artificial intelligence chips to customers in China.",
+          "keyTerms": [
+            {
+              "term": "Board of Directors",
+              "definition": "A group of people elected to oversee a company and make major decisions on behalf of shareholders."
+            }
+          ],
+          "disagreement": null,
+          "update": "While the CEO has returned, the company is now dealing with potential credit rating warnings and new U.S. restrictions on chip sales.",
+          "importance": 6,
+          "image": "https://media.npr.org/include/images/tracking/npr-rss-pixel.png?story=nx-s1-6053915",
+          "sources": [
+            {
+              "name": "CNBC",
+              "title": "S&P warns Nvidia credit rating could be cut over 'rising' management and governance risk",
+              "url": "https://www.cnbc.com/2026/11/26/nvidia-market-governance-risk.html"
+            },
+            {
+              "name": "CNBC",
+              "title": "‘Your booth is waiting’: Denny’s welcomes Jensen Huang back as Nvidia CEO",
+              "url": "https://www.cnbc.com/2026/11/26/dennys-jensen-huang-nvidia.html"
+            },
+            {
+              "name": "NPR",
+              "title": "How Jensen Huang's return as NVIDIA's CEO is going over in China",
+              "url": "https://www.npr.org/2026/11/25/nx-s1-6053915/how-jensen-huangs-return-as-nvidias-ceo-is-going-over-in-china"
+            },
+            {
+              "name": "CNBC",
+              "title": "Vance says he was assured Jensen Huang was not under DOJ investigation",
+              "url": "https://www.cnbc.com/2026/11/25/vance-jensen-huang-nvidia-doj-investigation.html"
+            },
+            {
+              "name": "CNBC",
+              "title": "Nvidia sellers seek new buyers as U.S. curbs China AI chip access, sources tell CNBC",
+              "url": "https://www.cnbc.com/2026/11/25/nvidia-china-ai-chip-remote-access.html"
+            },
+            {
+              "name": "NPR",
+              "title": "Nvidia's board under fire for handling of CEO's alleged affairs",
+              "url": "https://www.npr.org/2026/11/25/nx-s1-6052342/nvidias-board-under-fire-for-handling-of-ceos-alleged-affairs"
+            }
+          ]
+        },
+        {
+          "id": "economy-us-2",
+          "headline": "Norse Atlantic Suspends Flights, Warns of Bankruptcy",
+          "summary": "The airline Norse Atlantic has stopped all flights. The company warned it may have to file for bankruptcy after its stock price fell sharply.",
+          "whyItMatters": "Travelers who booked flights with the airline may face significant disruptions to their plans.",
+          "explainer": "Norse Atlantic reported that its financial situation has become critical. After its stock value dropped significantly, the company decided to suspend its flight operations entirely. When a company files for bankruptcy, it usually means it cannot pay back the money it owes to lenders and others. This process can lead to the permanent end of the business or a major restructuring, leaving customers who have already paid for tickets with little recourse.",
+          "keyTerms": [
+            {
+              "term": "Bankruptcy",
+              "definition": "A legal process for individuals or companies that cannot pay their debts."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 5,
+          "image": null,
+          "sources": [
+            {
+              "name": "CNBC",
+              "title": "Norse Atlantic suspends all flights, warns it may file for bankruptcy after share price collapse",
+              "url": "https://www.cnbc.com/2026/11/26/norse-airline-finance-business.html"
+            }
+          ]
+        },
+        {
+          "id": "economy-us-3",
+          "headline": "Anthropic Stock Prices Remain Below Starting Price",
+          "summary": "Shares of the artificial intelligence firm Anthropic continue to trade below their starting price. Analysts say this performance creates uncertainty for other companies in the AI industry.",
+          "whyItMatters": "The performance of new, high-profile tech stocks can influence how other companies raise money and how investors view the AI market.",
+          "explainer": "When a company offers its shares to the public for the first time, it is called an Initial Public Offering, or IPO. If a stock falls below its starting price after it hits the market, it can make it harder for the company to raise more money later. Analysts are watching Anthropic closely because its struggle may show that investors are becoming more cautious about spending money on new artificial intelligence businesses.",
+          "keyTerms": [
+            {
+              "term": "IPO",
+              "definition": "The first time a company offers its shares for sale to the general public."
+            }
+          ],
+          "disagreement": null,
+          "update": "The company's continued low stock price is putting pressure on the broader artificial intelligence market.",
+          "importance": 4,
+          "image": null,
+          "sources": [
+            {
+              "name": "CNBC",
+              "title": "Anthropic's stock has been a clunker post-IPO. Why that matters for the AI trade",
+              "url": "https://www.cnbc.com/investingclub/2026/11/25/anthropics-stock-has-been-a-clunker-post-ipo-why-that-matters-for-the-ai-trade.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-top",
+      "title": "Sports · Top Headlines",
+      "bricks": [
+        {
+          "id": "sports-top-0",
+          "headline": "Great Britain Reaches Davis Cup Semi-Finals",
+          "summary": "Great Britain beat Germany in a close match to reach the Davis Cup semi-finals for the first time since 2019. The team secured their spot after winning a final doubles tie.",
+          "whyItMatters": "This victory keeps the British team in the running for a major international tennis title.",
+          "explainer": "The Davis Cup is a famous yearly tennis tournament where teams compete for their countries. It is one of the biggest events in tennis for national teams. In the quarter-finals, Great Britain and Germany played several matches against each other to see who would move on. The tie was tied at 1-1 after individual matches, but a win in the final doubles game allowed Britain to advance to the semi-finals, which are the final four teams left in the competition.",
+          "keyTerms": [
+            {
+              "term": "Doubles",
+              "definition": "A tennis match played with two people on each side of the net."
+            },
+            {
+              "term": "Semi-final",
+              "definition": "A game that decides which teams will play in the final championship match."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 5,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/329b/live/596995c0-e9aa-11f1-a094-5fdc692f3e33.jpg",
+          "sources": [
+            {
+              "name": "BBC Sport",
+              "title": "GB win decider to reach Davis Cup semis for first time since 2019",
+              "url": "https://www.bbc.co.uk/sport/tennis/articles/c5m2lvevrk1mo?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "BBC Sport",
+              "title": "Skupski and Patten win to send GB into Davis Cup semi-finals",
+              "url": "https://www.bbc.co.uk/sport/tennis/videos/cmn0lrjdd9n5o?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "BBC Sport",
+              "title": "Zverev too good for Fery in Davis Cup quarter-final",
+              "url": "https://www.bbc.co.uk/sport/tennis/videos/c8p3vez6zzz4o?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "BBC Sport",
+              "title": "Norrie holds nerve to beat Struff in Davis Cup quarter-final",
+              "url": "https://www.bbc.co.uk/sport/tennis/videos/cmly7j2lzelyo?at_medium=RSS&at_campaign=rss"
+            }
+          ]
+        },
+        {
+          "id": "sports-top-1",
+          "headline": "NFL Quarterback Aaron Rodgers Released",
+          "summary": "The Pittsburgh Steelers have released star quarterback Aaron Rodgers. He had previously been moved to the bench before criticizing his head coach and leaving the team.",
+          "whyItMatters": "This affects the Steelers' season strategy and the future career of one of the NFL's most famous players.",
+          "explainer": "Aaron Rodgers is a very well-known professional football player who has won the league's Most Valuable Player award four times. After being told he would no longer start games for the Pittsburgh Steelers, he spoke out against his coach. The team then decided to release him, meaning he is no longer under contract and is free to look for a job with a different team.",
+          "keyTerms": [
+            {
+              "term": "Quarterback",
+              "definition": "The player who leads the team's offense and throws the ball."
+            },
+            {
+              "term": "Released",
+              "definition": "When a team ends a player's contract so they can join a different team."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 7,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/06b6/live/78394d70-e8d7-11f1-a3b9-79c60ec9ab33.jpg",
+          "sources": [
+            {
+              "name": "BBC Sport",
+              "title": "Four-time MVP Rodgers released and may have played last NFL game",
+              "url": "https://www.bbc.co.uk/sport/american-football/articles/c64gn8ryp7jno?at_medium=RSS&at_campaign=rss"
+            }
+          ]
+        },
+        {
+          "id": "sports-top-2",
+          "headline": "Lille Beats Bayern Munich in Champions League",
+          "summary": "Lille earned a surprise win against Bayern Munich in the Champions League. A late mistake by Bayern's defender led to an own goal that helped Lille secure the victory.",
+          "whyItMatters": "This is a significant upset for Bayern Munich, one of the top clubs in European football, affecting their standings in the tournament.",
+          "explainer": "The Champions League is a prestigious tournament featuring the best football clubs in Europe. In this competition, teams play matches to earn points and move forward in the tournament. Bayern Munich, a team expected to win, lost to Lille after a rare mistake where their own player accidentally kicked the ball into his own goal. This loss is notable because it is their first defeat in this year's tournament.",
+          "keyTerms": [
+            {
+              "term": "Own goal",
+              "definition": "When a player accidentally scores a goal for the opposing team."
+            },
+            {
+              "term": "Champions League",
+              "definition": "A major tournament for the best club teams in Europe."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 6,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2605/live/bdc03610-e91d-11f1-a094-5fdc692f3e33.jpg",
+          "sources": [
+            {
+              "name": "BBC Sport",
+              "title": "Terrible Pavlovic own goal gifts Lille shock win against Bayern",
+              "url": "https://www.bbc.co.uk/sport/football/videos/cq36gx1g10p6o?at_medium=RSS&at_campaign=rss"
+            }
+          ]
+        },
+        {
+          "id": "sports-top-3",
+          "headline": "FIFA Confirms Data Stolen in Cyber Attack",
+          "summary": "FIFA, the global governing body for football, says it was the target of a cyber attack. The group confirmed that some personal and business information was stolen during the event.",
+          "whyItMatters": "This data breach puts the personal information of people connected to FIFA at risk and highlights security issues in major sports organizations.",
+          "explainer": "FIFA is the organization that runs international football, including the World Cup. A cyber attack happens when criminals use computers to gain illegal access to an organization's private records. FIFA now faces the task of protecting the people whose information was taken and fixing its digital security to prevent future attacks.",
+          "keyTerms": [
+            {
+              "term": "Cyber attack",
+              "definition": "A digital crime where hackers break into computer systems to steal or damage information."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 6,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e820/live/06ab4690-e98b-11f1-9d1c-4dcc8fcde666.jpg",
+          "sources": [
+            {
+              "name": "BBC Sport",
+              "title": "Fifa confirms internal data stolen in cyber attack",
+              "url": "https://www.bbc.co.uk/sport/football/articles/crd61nvg4d84o?at_medium=RSS&at_campaign=rss"
+            }
+          ]
+        },
+        {
+          "id": "sports-top-4",
+          "headline": "Viral Catch Made From Moving Motorcycle",
+          "summary": "A cricket fan in Pakistan went viral after catching a ball while riding on the back of a moving motorcycle. The catch happened during a local cricket match.",
+          "whyItMatters": "This story became popular worldwide due to the unusual and dangerous way the fan caught the ball.",
+          "explainer": "In cricket, hitting the ball out of the field is a high-scoring play called a six. During a game in Pakistan, a ball was hit out of the ground. A man watching nearby caught it with one hand while he was a passenger on a motorcycle that was driving by. The video of this moment was shared widely on social media because of the rare skill and luck required to catch a ball while moving.",
+          "keyTerms": [
+            {
+              "term": "Cricket",
+              "definition": "A sport played with a bat and ball where two teams try to score runs."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 2,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3dfc/live/68cad6e0-e8e3-11f1-a3b9-79c60ec9ab33.jpg",
+          "sources": [
+            {
+              "name": "BBC Sport",
+              "title": "Motorcycle passenger who took stunning cricket catch found",
+              "url": "https://www.bbc.co.uk/sport/cricket/articles/ckwy8gj013elo?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "BBC Sport",
+              "title": "Greatest catch ever? Man on motorbike takes incredible grab",
+              "url": "https://www.bbc.co.uk/sport/cricket/videos/cwx2e0g93l3eo?at_medium=RSS&at_campaign=rss"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-nfl",
+      "title": "Sports · NFL",
+      "bricks": [
+        {
+          "id": "sports-nfl-0",
+          "headline": "Rams Beat Packers as Kinchens Ejected for Concussion Hit",
+          "summary": "The Los Angeles Rams beat the Green Bay Packers 26-13, marking their fifth straight win. Rams safety Kam Kinchens was ejected from the game after a hit left Packers receiver Christian Watson with a concussion.",
+          "whyItMatters": "This win keeps the Rams on a strong winning streak, while the injury to a key Packers player could impact their roster for future games.",
+          "explainer": "The Rams secured a win behind a strong performance from their rushing attack led by running back Blake Corum. The game featured physical play, highlighted by a play where Rams safety Kam Kinchens was ejected for a hit on the sideline. This hit caused Packers wide receiver Christian Watson to suffer a concussion, which is a brain injury that occurs after a hard blow to the head. The Packers also struggled to stop the Rams' running game, giving up a season-high 241 rushing yards during the loss.",
+          "keyTerms": [
+            {
+              "term": "Concussion",
+              "definition": "A brain injury caused by a sudden blow or jolt to the head."
+            },
+            {
+              "term": "Ejected",
+              "definition": "To be forced to leave the game by an official due to a rule violation."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 6,
+          "image": "https://s.espncdn.com/stitcher/sports/football/nfl/events/401873079.png?templateId=espn.applewatch.awayhome.1",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Blake Corum leads Rams' dominant rushing attack in their 5th straight win, 26-13 over Packers",
+              "url": "http://www.espn.com/nfl/recap?gameId=401873079"
+            },
+            {
+              "name": "ESPN",
+              "title": "Rams take Packers' dinner in first Thanksgiving Eve game",
+              "url": "https://www.espn.com/nfl/story/_/id/50599736/2026-nfl-week-12-los-angeles-rams-green-bay-packers"
+            },
+            {
+              "name": "ESPN",
+              "title": "Rams' Kam Kinchens ejected as hit leaves Packers' Christian Watson concussed",
+              "url": "https://www.espn.com/nfl/story/_/id/50600753/rams-kam-kinchens-ejected-hit-christian-watson"
+            }
+          ]
+        },
+        {
+          "id": "sports-nfl-1",
+          "headline": "Steelers Owner Backs Coach McCarthy After Rodgers Departure",
+          "summary": "Steelers owner Art Rooney II said he was disappointed by the end of Aaron Rodgers' time with the team. He also stated he has full confidence in coach Mike McCarthy as the team prepares to start Mason Rudolph.",
+          "whyItMatters": "The team's management is trying to stabilize the organization after losing a star quarterback, which affects how fans and players view the team's future.",
+          "explainer": "The Pittsburgh Steelers are moving forward after parting ways with quarterback Aaron Rodgers. Rodgers recently made public complaints about the team, including claims about coach Mike McCarthy. In response, team owner Art Rooney II expressed his disappointment with how the situation ended but confirmed that he still supports the coach. The team is now starting Mason Rudolph at quarterback in an attempt to improve their performance for the rest of the season.",
+          "keyTerms": [],
+          "disagreement": null,
+          "update": "Steelers owner Art Rooney II publicly commented on the recent split with Aaron Rodgers, confirming his support for the current coaching staff.",
+          "importance": 5,
+          "image": "https://a.espncdn.com/photo/2026/0121/r1603837_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Steelers owner Art Rooney II 'disappointed' in Rodgers outcome, backs McCarthy",
+              "url": "https://www.espn.com/nfl/story/_/id/50605070/steelers-owner-disappointed-rodgers-backs-mccarthy"
+            },
+            {
+              "name": "ESPN",
+              "title": "The Steelers are turning to Mason Rudolph to salvage their season. It's not the first time",
+              "url": "http://www.espn.com/nfl/preview?gameId=401873083"
+            }
+          ]
+        },
+        {
+          "id": "sports-nfl-2",
+          "headline": "Bears Tight End Colston Loveland Out With Knee Injury",
+          "summary": "Chicago Bears tight end Colston Loveland left Thursday's game against the Detroit Lions. He will not return because of a left knee injury.",
+          "whyItMatters": "Losing a starting player to injury can force a team to change its game plan and may affect their chances of winning.",
+          "explainer": "During a professional football game, players often suffer injuries that require them to leave the field. In this case, Chicago Bears tight end Colston Loveland hurt his left knee while playing against the Detroit Lions. Medical staff decided he could not return to the game for safety reasons, which means the team had to play the remainder of the contest without him.",
+          "keyTerms": [
+            {
+              "term": "Tight end",
+              "definition": "An offensive player who blocks for teammates and catches passes."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 3,
+          "image": "https://a.espncdn.com/photo/2026/1126/r1751737_600x400_3-2.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Bears TE Colston Loveland ruled out vs. Lions with knee injury",
+              "url": "https://www.espn.com/nfl/story/_/id/50605365/bears-colston-loveland-ruled-vs-lions-knee-injury"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-nba",
+      "title": "Sports · NBA",
+      "bricks": [
+        {
+          "id": "sports-nba-0",
+          "headline": "LeBron James Leads 76ers Win; Jaylen Brown Injured",
+          "summary": "LeBron James scored a triple-double to help the 76ers beat the Heat. During the same game, teammate Jaylen Brown left the court with a hamstring injury.",
+          "whyItMatters": "Player injuries and performance in the NBA Cup can affect team standings and playoff chances.",
+          "explainer": "A triple-double is a rare performance where a player reaches double-digit totals in three of five statistical categories, such as points, rebounds, and assists. LeBron James, who is nearly 42, performed this feat for the 76ers during their NBA Cup game. Meanwhile, the 76ers lost Jaylen Brown due to a tight hamstring, which is a muscle group in the back of the upper leg. These developments are significant because the NBA Cup is an in-season tournament that counts toward regular-season standings, and team rosters are constantly shifting due to health concerns.",
+          "keyTerms": [
+            {
+              "term": "Triple-double",
+              "definition": "A game where a player earns at least 10 in three different stats, like points and assists."
+            },
+            {
+              "term": "NBA Cup",
+              "definition": "A yearly tournament played during the regular NBA season where teams compete for a trophy."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 5,
+          "image": "https://a.espncdn.com/photo/2026/1126/r1751501_600x400_3-2.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "LeBron James dusts 'off the cape' to save 76ers with triple-double",
+              "url": "https://www.espn.com/nba/story/_/id/50601303/lebron-dusts-cape-save-76ers-triple-double"
+            },
+            {
+              "name": "ESPN",
+              "title": "76ers' Jaylen Brown exits with recurrence of hamstring issue",
+              "url": "https://www.espn.com/nba/story/_/id/50599296/76ers-jaylen-brown-exits-recurrence-hamstring-issue"
+            }
+          ]
+        },
+        {
+          "id": "sports-nba-1",
+          "headline": "Trail Blazers Defeat Spurs in NBA Cup Play",
+          "summary": "Deni Avdija scored 33 points to lead the Portland Trail Blazers to a 116-111 win over the San Antonio Spurs. Both teams were playing their third game of the NBA Cup group stage.",
+          "whyItMatters": "This win keeps Portland competitive as teams try to advance in the tournament group standings.",
+          "explainer": "The NBA Cup features a group stage where teams play within their divisions to earn a spot in the knockout rounds. In this matchup, Portland’s Deni Avdija had a standout performance, scoring 33 points. The Spurs, led by their younger roster, were unable to overcome the gap in the final minutes. The outcome of these games is important because only the top teams in each group move forward to the tournament's final rounds later this year.",
+          "keyTerms": [],
+          "disagreement": null,
+          "update": null,
+          "importance": 4,
+          "image": "https://s.espncdn.com/stitcher/sports/basketball/nba/events/401909325.png?templateId=espn.applewatch.awayhome.1",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Avdija, Lillard lead Trail Blazers to 116-111 win over Spurs in NBA Cup play",
+              "url": "http://www.espn.com/nba/recap?gameId=401909325"
+            }
+          ]
+        },
+        {
+          "id": "sports-nba-2",
+          "headline": "LaMelo Ball Injured During Timberwolves Game",
+          "summary": "LaMelo Ball left the court after hurting his left ankle during a game against the Thunder. The team has not yet released an update on how long he might be out.",
+          "whyItMatters": "An injury to a key player can change how well a team plays for the rest of the season.",
+          "explainer": "LaMelo Ball plays guard for the Minnesota Timberwolves. During a recent game against the Oklahoma City Thunder, he suffered an injury to his left ankle and could not finish the match. The team is currently monitoring his condition to determine the severity of the damage. Ankle injuries are common in basketball because of the frequent jumping and quick turns players make on the court. His availability for future games will depend on how quickly he heals.",
+          "keyTerms": [],
+          "disagreement": null,
+          "update": null,
+          "importance": 3,
+          "image": "https://a.espncdn.com/photo/2026/1126/r1751519_600x400_3-2.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Timberwolves' LaMelo Ball limps off vs. OKC after hurting left ankle",
+              "url": "https://www.espn.com/nba/story/_/id/50601570/timberwolves-lamelo-ball-limps-hurting-left-ankle"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-wnba",
+      "title": "Sports · WNBA",
+      "bricks": [
+        {
+          "id": "sports-wnba-0",
+          "headline": "Search for New WNBA Commissioner Continues",
+          "summary": "The league is looking for a new leader to serve as commissioner. Sources say several people are being considered for this job.",
+          "whyItMatters": "The commissioner makes important decisions that affect the league's growth, rules, and future business deals.",
+          "explainer": "A commissioner is the top person in charge of a professional sports league. They oversee operations, manage rules, and help grow the league's popularity and money. Because the WNBA is currently looking for a new leader, the choice will impact how the game is run, how players are supported, and how the league interacts with fans. The search for this person is a major move for the future of the WNBA as the sport continues to grow in popularity.",
+          "keyTerms": [
+            {
+              "term": "Commissioner",
+              "definition": "The top official who runs a professional sports league."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 5,
+          "image": "https://a.espncdn.com/photo/2026/0901/r1710037_600x400_3-2.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Search for new WNBA commissioner picks up steam, sources say",
+              "url": "https://www.espn.com/wnba/story/_/id/50596708/sources-ex-players-cash-feaster-wnba-commish-candidates"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-mlb",
+      "title": "Sports · MLB",
+      "bricks": [
+        {
+          "id": "sports-mlb-0",
+          "headline": "Mets Sign Tarik Skubal to Record $450 Million Deal",
+          "summary": "The New York Mets signed two-time Cy Young winner Tarik Skubal to a nine-year, $450 million contract. This is a record-setting deal for a baseball player. The signing makes the Mets a major contender for the 2027 season.",
+          "whyItMatters": "This massive investment shows the team's commitment to winning, which often leads to higher ticket prices or increased interest for local fans.",
+          "explainer": "Tarik Skubal is considered one of the best pitchers in baseball, having won the Cy Young Award twice. His new nine-year contract with the New York Mets is worth $450 million, the largest deal in MLB history. This move is intended to anchor the Mets' pitching rotation and significantly improve their chances of winning games in the 2027 season. Other teams that were interested in signing him must now adjust their own roster plans. The deal highlights the huge amount of money currently moving through the league as teams compete to sign top players before the offseason ends.",
+          "keyTerms": [
+            {
+              "term": "Cy Young Award",
+              "definition": "An annual award given to the best pitchers in Major League Baseball."
+            },
+            {
+              "term": "Rotation",
+              "definition": "The group of starting pitchers who take turns pitching games for a team."
+            }
+          ],
+          "disagreement": null,
+          "update": "The Mets have officially finalized the record-breaking deal that has been the focus of recent sports reports.",
+          "importance": 8,
+          "image": "https://a.espncdn.com/photo/2026/1003/r1725460_600x400_3-2.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Mets owners 'thrilled' to add 'impressive' Tarik Skubal to rotation",
+              "url": "https://www.espn.com/mlb/story/_/id/50599216/mets-owners-steve-alex-cohen-thrilled-impressive-skubal-rotation"
+            },
+            {
+              "name": "ESPN",
+              "title": "Ripple effects of Tarik Skubal signing on Mets, Dodgers and more",
+              "url": "https://www.espn.com/mlb/story/_/id/50575245/ripple-effects-skubal-signing-dodgers-padres-blue-jays"
+            },
+            {
+              "name": "ESPN",
+              "title": "How Tarik Skubal boosts Mets' 2027 projections",
+              "url": "https://www.espn.com/mlb/story/_/id/50574273/tarik-skubal-mets-projections-2027"
+            }
+          ]
+        },
+        {
+          "id": "sports-mlb-1",
+          "headline": "MLB and Players Still Negotiating Amid Looming Lockout",
+          "summary": "Major League Baseball has asked a court to rule that a potential lockout is legal. Both sides continue to negotiate a new labor deal. Key issues include minimum salaries, local media revenue sharing, and a proposed salary cap.",
+          "whyItMatters": "A lockout could stop all team activities and delay the start of the baseball season, affecting jobs for workers and entertainment for fans.",
+          "explainer": "Major League Baseball and its players are currently trying to agree on a new collective bargaining agreement (CBA). A lockout occurs when team owners stop players from using team facilities and block them from working, usually to gain leverage during contract negotiations. The league has asked a federal court to confirm that their planned action is legal. Meanwhile, both sides are discussing how to share money from local TV deals and how much to pay players at the start of their careers. If a deal is not reached, the upcoming season could be delayed.",
+          "keyTerms": [
+            {
+              "term": "Lockout",
+              "definition": "A situation where owners prevent players from working and using facilities during a labor dispute."
+            },
+            {
+              "term": "Collective Bargaining Agreement",
+              "definition": "A contract between the league and the players' union that sets rules for pay and working conditions."
+            }
+          ],
+          "disagreement": null,
+          "update": "The league is now asking a court to rule that its upcoming lockout is legal as negotiations continue.",
+          "importance": 9,
+          "image": "https://a.espncdn.com/photo/2024/1008/r1397998_600x400_3-2.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "MLB sues players' union, asking court to declare lockout legal",
+              "url": "https://www.espn.com/mlb/story/_/id/50595155/mlb-sues-players-union-asking-court-declare-lockout-legal"
+            },
+            {
+              "name": "ESPN",
+              "title": "MLB drops contract escrow provision in salary cap proposal",
+              "url": "https://www.espn.com/mlb/story/_/id/50584880/mlb-drops-contract-escrow-provision-salary-cap-proposal"
+            },
+            {
+              "name": "ESPN",
+              "title": "MLB offers higher minimum salaries while union eyes local media revenue sharing",
+              "url": "https://www.espn.com/mlb/story/_/id/50576198/mlb-offers-higher-minimum-player-salaries-lockout-looms"
+            },
+            {
+              "name": "ESPN",
+              "title": "MLB labor battle: Latest updates, full coverage on CBA, salary cap, more",
+              "url": "https://www.espn.com/mlb/story/_/id/49425027/mlb-labor-cba-owners-players-union-salary-cap-draft-proposals-mlbpa-negotiations-latest-updates"
+            }
+          ]
+        },
+        {
+          "id": "sports-mlb-2",
+          "headline": "Teams Rush to Sign Players Before Potential Lockout",
+          "summary": "MLB teams are quickly signing players to new contracts as a possible lockout approaches. Notable deals include Teruaki Sato joining the Cubs and Freddy Peralta signing with the Orioles. Many clubs are making moves to complete their rosters now.",
+          "whyItMatters": "These roster changes define which teams will be strong or weak next season, directly impacting the experience for fans.",
+          "explainer": "With a potential lockout looming, teams across Major League Baseball are rushing to sign free agents. These agreements include long-term deals for star pitchers and hitters, as well as shorter contracts for relief players and catchers. For example, the Chicago Cubs recently added Teruaki Sato, and the Baltimore Orioles signed Freddy Peralta. These moves are meant to secure talent before the labor standoff potentially halts all team business. Fans are watching these signings closely to see how their favorite teams are preparing for the upcoming year.",
+          "keyTerms": [
+            {
+              "term": "Free Agent",
+              "definition": "A player who is not currently under contract and can sign with any team."
+            }
+          ],
+          "disagreement": null,
+          "update": "Teams are continuing to finalize many player contracts in a flurry of activity ahead of a possible league shutdown.",
+          "importance": 6,
+          "image": "https://a.espncdn.com/photo/2026/0811/r1700337_2_600x400_3-2.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Sources: Rockies agree to deals with David Peterson, Patrick Sandoval",
+              "url": "https://www.espn.com/mlb/story/_/id/50599272/sources-rockies-agree-2-year-32m-deal-lhp-peterson"
+            },
+            {
+              "name": "ESPN",
+              "title": "Sources: Twins, reliever Kevin Ginkel agree to 2-year, $18 million deal",
+              "url": "https://www.espn.com/mlb/story/_/id/50602024/twins-kevin-ginkel-agree-2-year-18-million-deal"
+            },
+            {
+              "name": "ESPN",
+              "title": "Reports: Foster Griffin agrees to 3-year, $48M deal to stay with Guardians",
+              "url": "https://www.espn.com/mlb/story/_/id/50600391/foster-griffin-agrees-3-year-48-million-deal-stay-guardians"
+            },
+            {
+              "name": "ESPN",
+              "title": "Sources: Orioles to bring Luis Robert Jr. back on 1-year, $12M deal",
+              "url": "https://www.espn.com/mlb/story/_/id/50599469/sources-orioles-luis-robert-jr-agree-1-year-12m-deal"
+            },
+            {
+              "name": "ESPN",
+              "title": "Sources: Free agent Kevin Gausman, Tigers reach 1-year, $25M deal",
+              "url": "https://www.espn.com/mlb/story/_/id/50599090/sources-free-agent-kevin-gausman-tigers-reach-deal"
+            },
+            {
+              "name": "ESPN",
+              "title": "Source: Marlins agree to 1-year deal with catcher Gary Sanchez",
+              "url": "https://www.espn.com/mlb/story/_/id/50598771/source-marlins-agree-one-year-deal-gary-sanchez"
+            },
+            {
+              "name": "ESPN",
+              "title": "Free agent Alec Bohm reaches 2-year deal with Royals, reports say",
+              "url": "https://www.espn.com/mlb/story/_/id/50594322/reports-free-agent-alec-bohm-reaches-2-year-royals"
+            },
+            {
+              "name": "ESPN",
+              "title": "Sources: Reds catcher Tyler Stephenson staying on 3-year, $30 million deal",
+              "url": "https://www.espn.com/mlb/story/_/id/50589047/reds-c-tyler-stephenson-staying-30-million-3-year-deal"
+            },
+            {
+              "name": "ESPN",
+              "title": "Sources: White Sox, OF Tyrone Taylor agree to 2-year, $17 million deal",
+              "url": "https://www.espn.com/mlb/story/_/id/50587577/white-sox-tyrone-taylor-agree-2-year-17-million-deal"
+            },
+            {
+              "name": "ESPN",
+              "title": "Sources: Japanese righty Kaima Taira, Blue Jays agree to 5-year, $80M deal",
+              "url": "https://www.espn.com/mlb/story/_/id/50585003/sources-kaima-taira-blue-jays-agree-5-year-80m-deal"
+            },
+            {
+              "name": "ESPN",
+              "title": "Sources: Freddy Peralta stays in AL East, gets $125M deal to top Orioles rotation",
+              "url": "https://www.espn.com/mlb/story/_/id/50583512/sources-freddy-peralta-orioles-5-years-125-million"
+            },
+            {
+              "name": "ESPN",
+              "title": "Sources: Cubs agree to 6-year, $120M deal with Japan's Teruaki Sato",
+              "url": "https://www.espn.com/mlb/story/_/id/50583163/sources-cubs-teruaki-sato-reach-6-year-120m-deal"
+            },
+            {
+              "name": "ESPN",
+              "title": "Sources: Tigers, Ha-Seong Kim agree to 1-year, $5M contract",
+              "url": "https://www.espn.com/mlb/story/_/id/50584756/sources-tigers-ha-seong-kim-agree-1-year-5m-contract"
+            },
+            {
+              "name": "ESPN",
+              "title": "Sources: Guardians, lefty Kris Bubic agree to one-year, $17.5M deal",
+              "url": "https://www.espn.com/mlb/story/_/id/50583426/sources-guardians-lefty-kris-bubic-agree-one-year-deal"
+            },
+            {
+              "name": "ESPN",
+              "title": "Sources: Trevor Rogers, Cubs reach 5-year, $120M free agent deal",
+              "url": "https://www.espn.com/mlb/story/_/id/50579432/sources-free-agent-trevor-rogers-cubs-reach-5-year-deal"
+            },
+            {
+              "name": "ESPN",
+              "title": "Sources: Royals sign LHP Caleb Thielbar to 1-year, $3.25 million contract",
+              "url": "https://www.espn.com/mlb/story/_/id/50578048/royals-sign-pitcher-caleb-thielbar-1-year-contract"
+            },
+            {
+              "name": "ESPN",
+              "title": "Sources: Yankees agree to 1-year, $4M deal with reliever Suter",
+              "url": "https://www.espn.com/mlb/story/_/id/50576087/yankees-agree-1-year-4m-deal-reliever-suter"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-nhl",
+      "title": "Sports · NHL",
+      "bricks": [
+        {
+          "id": "sports-nhl-0",
+          "headline": "Blackhawks Beat Kraken 3-1 Behind Kantserov's Two Goals",
+          "summary": "Roman Kantserov scored two goals to help the Chicago Blackhawks win against the Seattle Kraken. This victory completed a successful road trip for the Chicago team.",
+          "whyItMatters": "This win keeps the Blackhawks moving up the standings after a strong performance on the road.",
+          "explainer": "The Chicago Blackhawks defeated the Seattle Kraken 3-1 on Wednesday. Roman Kantserov, a rookie forward, led his team by scoring two goals. This performance brings his season total to 15 goals, which is the highest number on his team. By winning this game, the Blackhawks finished their road trip with a perfect record. These results are important for the team's standing in the NHL, as they try to gather more points to qualify for the playoffs at the end of the regular season.",
+          "keyTerms": [
+            {
+              "term": "Rookie",
+              "definition": "A player who is in their first year of playing in a professional league."
+            },
+            {
+              "term": "Road trip",
+              "definition": "A series of games that a team plays in the cities of their opponents."
+            }
+          ],
+          "disagreement": null,
+          "update": "After scoring a hat trick in his last game, rookie Roman Kantserov continued his scoring streak by adding two more goals against the Kraken.",
+          "importance": 4,
+          "image": "https://s.espncdn.com/stitcher/sports/hockey/nhl/events/401892794.png?templateId=espn.applewatch.awayhome.1",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Roman Kantserov scores 2 as the Blackhawks beat the Kraken 3-1, sweep road trip",
+              "url": "http://www.espn.com/nhl/recap?gameId=401892794"
+            }
+          ]
+        },
+        {
+          "id": "sports-nhl-1",
+          "headline": "Devils' Brenden Dillon Faces Hearing for Hit",
+          "summary": "NHL officials will hold a hearing for New Jersey Devils player Brenden Dillon. The review follows his hit on Denton Mateychuk of the Columbus Blue Jackets.",
+          "whyItMatters": "Player safety hearings can result in fines or suspensions, which changes which players are available for upcoming games.",
+          "explainer": "The NHL Department of Player Safety reviews hits that may violate league rules. Brenden Dillon of the New Jersey Devils must meet with this department after his hit on Denton Mateychuk, a player for the Columbus Blue Jackets. During this hearing, league officials will look at the play to decide if Dillon broke any safety rules. Depending on their findings, they may choose to fine the player or suspend him for one or more games.",
+          "keyTerms": [
+            {
+              "term": "Suspension",
+              "definition": "A punishment where a player is not allowed to play in games for a set amount of time."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 3,
+          "image": "https://a.espncdn.com/photo/2026/1126/r1751530_600x600_1-1.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Devils' Brenden Dillon to have hearing for hit on Blue Jackets' Denton Mateychuk",
+              "url": "https://www.espn.com/nhl/story/_/id/50602167/devils-brenden-dillon-hearing-denton-mateychuk-hit"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-cfb",
+      "title": "Sports · College Football",
+      "bricks": [
+        {
+          "id": "sports-cfb-0",
+          "headline": "Judge Allows LSU Vote To Move Forward",
+          "summary": "A federal judge said no to an SEC request that would have stopped a vote on LSU's future. The school's status in the conference will be decided by university leaders on December 3.",
+          "whyItMatters": "This decision allows the conference to continue its process for potentially removing a member school, which could change the future makeup of the league.",
+          "explainer": "The Southeastern Conference, or SEC, is a major college athletic group. League leaders scheduled a meeting for December 3 to decide whether to remove Louisiana State University from the conference. The SEC had asked a federal court for a temporary restraining order to prevent LSU officials from getting involved in that vote. The judge denied this request, meaning the planned vote can proceed as scheduled. This vote is a significant step in the internal governance of the conference and could impact LSU's membership and future competition.",
+          "keyTerms": [
+            {
+              "term": "Temporary Restraining Order",
+              "definition": "A court order that forces a party to stop a specific action for a short time."
+            }
+          ],
+          "disagreement": null,
+          "update": "A federal judge has rejected the SEC's request to stop LSU from participating in the upcoming vote regarding its conference membership.",
+          "importance": 8,
+          "image": "https://a.espncdn.com/photo/2021/1119/r939552_600x400_3-2.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Judge denies SEC's request for TRO against LSU in Dec. 3 vote",
+              "url": "https://www.espn.com/college-sports/story/_/id/50595702/judge-denies-sec-request-tro-lsu-dec-3-vote"
+            }
+          ]
+        },
+        {
+          "id": "sports-cfb-1",
+          "headline": "MAC Admits Wrong Call In Kent State Loss",
+          "summary": "The Mid-American Conference said officials made a mistake by overturning a late touchdown catch for Kent State. The call helped seal a 17-12 win for Eastern Michigan.",
+          "whyItMatters": "Correct officiating is critical to determining the outcomes of games, which directly impacts team standings and season records.",
+          "explainer": "During a game between Kent State and Eastern Michigan, a late touchdown catch by a Kent State player was overturned by the replay officials. The Mid-American Conference, which oversees the game, later stated that this decision was incorrect. Because the touchdown was taken off the board, Kent State lost the game 17-12. While the result of the game will not be changed, the league’s admission highlights the impact that video review has on modern college football outcomes.",
+          "keyTerms": [
+            {
+              "term": "Mid-American Conference",
+              "definition": "A group of universities that compete against each other in college sports."
+            },
+            {
+              "term": "Replay",
+              "definition": "Reviewing video footage of a play to see if the officials made the correct call on the field."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 5,
+          "image": "https://a.espncdn.com/photo/2020/0808/r729005_600x400_3-2.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Kent State TD overturned by replay was incorrect decision, MAC says",
+              "url": "https://www.espn.com/college-football/story/_/id/50597875/kent-state-td-overturned-replay-was-incorrect-mac-says"
+            }
+          ]
+        },
+        {
+          "id": "sports-cfb-2",
+          "headline": "USC Band Banned From Rivalry Game After Vandalism",
+          "summary": "The USC marching band will not perform at Saturday's game against UCLA. The school made the decision after band members were caught vandalizing the UCLA campus.",
+          "whyItMatters": "This incident affects the game day atmosphere and the long-standing tradition between two major universities.",
+          "explainer": "In college football, rivalry games often feature elaborate halftime shows and performances by university bands. However, the USC Trojan Marching Band is barred from performing at this Saturday's game at UCLA. University officials reached this decision after confirming that some members of the band damaged school property at the UCLA campus. This suspension highlights the strict standards and code of conduct expected of students and representatives during high-stakes athletic events.",
+          "keyTerms": [
+            {
+              "term": "Vandalism",
+              "definition": "The act of deliberately damaging or destroying property."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 4,
+          "image": "https://a.espncdn.com/photo/2026/1126/r1751483_600x400_3-2.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "USC band won't perform at UCLA football game after members vandalized campus",
+              "url": "https://www.espn.com/college-football/story/_/id/50600615/usc-band-perform-members-vandalized-ucla-campus"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-cbb",
+      "title": "Sports · College Basketball",
+      "bricks": [
+        {
+          "id": "sports-cbb-0",
+          "headline": "Cincinnati Beats Georgia at ESPN Events Invitational",
+          "summary": "Cincinnati defeated Georgia 83-81 on Thursday. Both Tyler Tejada and Myles Colvin scored 23 points for Cincinnati. This win marks the team's fourth victory in a row.",
+          "whyItMatters": "This result affects the tournament standings and the momentum of both college basketball teams as they continue their season.",
+          "explainer": "The ESPN Events Invitational is a college basketball tournament held early in the season. These games allow teams to play against opponents they might not normally face. Cincinnati was ahead by 17 points during the game against Georgia. Even though Georgia fought back, Cincinnati managed to hold onto their lead to win by two points. A four-game winning streak is important for a team's ranking and helps them gain confidence as they prepare for conference play later in the year.",
+          "keyTerms": [
+            {
+              "term": "Conference",
+              "definition": "A group of colleges that compete against each other in sports."
+            },
+            {
+              "term": "Tournament",
+              "definition": "A series of games where teams play to see who will be the final winner."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 5,
+          "image": "https://s.espncdn.com/stitcher/sports/basketball/mens-college-basketball/events/401929281.png?templateId=espn.applewatch.awayhome.1",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Tejada and Colvin score 23 apiece, Cincinnati beats Georgia at ESPN Events Invitational",
+              "url": "http://www.espn.com/ncb/recap?gameId=401929281"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-mls",
+      "title": "Sports · MLS",
+      "bricks": [
+        {
+          "id": "sports-mls-0",
+          "headline": "MLS Cup Playoffs Start with Key Match Wins",
+          "summary": "St. Louis City, Charlotte FC, and FC Cincinnati all secured victories in their opening playoff matches. These wins give them an early lead in their respective series.",
+          "whyItMatters": "These results determine which teams stay alive in the pursuit of the MLS Cup championship.",
+          "explainer": "The MLS Cup playoffs use a series format where teams compete to reach the next round. St. Louis City defeated LAFC with a 3-2 score. Charlotte FC earned a win over the Chicago Fire after a late penalty kick. Meanwhile, FC Cincinnati beat Nashville SC 1-0, with goalkeeper Roman Celentano making six saves. These early victories are important because teams need to win a certain number of games to advance through the bracket. Fans are watching closely to see which teams will continue their path to the final championship match.",
+          "keyTerms": [
+            {
+              "term": "Playoffs",
+              "definition": "A series of games played after the regular season to determine a champion."
+            },
+            {
+              "term": "Penalty kick",
+              "definition": "A free shot at the goal awarded after a foul committed in a special area near the goal."
+            },
+            {
+              "term": "Clean sheet",
+              "definition": "A game where a team does not allow the other team to score any goals."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 5,
+          "image": "https://s.espncdn.com/stitcher/sports/soccer/usa.1/events/401933728.png?templateId=espn.applewatch.awayhome.1",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "St. Louis City holds off LAFC in 3-2 victory to take first-round lead",
+              "url": "http://www.espn.com/soccer/report/_/gameId/401933728"
+            },
+            {
+              "name": "ESPN",
+              "title": "VAR gives Charlotte late penalty in series-opening win over Chicago",
+              "url": "http://www.espn.com/soccer/report/_/gameId/401933730"
+            },
+            {
+              "name": "ESPN",
+              "title": "Cincinnati stuns Shield-winners Nashville to start best-of-3 series",
+              "url": "http://www.espn.com/soccer/report/_/gameId/401933731"
+            }
+          ]
+        },
+        {
+          "id": "sports-mls-1",
+          "headline": "Houston Dynamo Midfielder Charged with DWI",
+          "summary": "Houston Dynamo midfielder Héctor Herrera was charged with driving while intoxicated. The league is currently gathering information about the situation before the team's first playoff game.",
+          "whyItMatters": "The availability of a key player could impact the team's performance during the playoffs.",
+          "explainer": "Héctor Herrera, a midfielder for the Houston Dynamo, was charged with driving while intoxicated in Texas over the weekend. Because of these legal reports, Major League Soccer officials have stated they are looking into the situation. The club has acknowledged they are aware of the incident. It remains uncertain how this will affect Herrera's status for the upcoming playoff opener.",
+          "keyTerms": [
+            {
+              "term": "DWI",
+              "definition": "Driving while intoxicated, which is driving a vehicle while under the influence of alcohol or drugs."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 4,
+          "image": "https://a.espncdn.com/photo/2026/1123/r1750418_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Houston says Herrera available for Dynamo playoff opener amid MLS probe",
+              "url": "https://www.espn.com/soccer/story/_/id/50577651/houston-herrera-available-dynamo-playoff-opener-mls-probe"
+            },
+            {
+              "name": "ESPN",
+              "title": "Reports: Dynamo's Herrera charged with DWI, club aware of 'incident'",
+              "url": "https://www.espn.com/soccer/story/_/id/50566274/dynamo-herrera-charged-dwi-club-aware"
+            }
+          ]
+        },
+        {
+          "id": "sports-mls-2",
+          "headline": "MLS Owners Agree to New Playoff Format for 2027",
+          "summary": "MLS team owners have decided on a new playoff format for the 2027-28 season. The upcoming structure will feature 16 teams.",
+          "whyItMatters": "Changing the number of playoff teams will alter how teams qualify for the postseason in the future.",
+          "explainer": "Major League Soccer owners have reached an agreement to change the structure of the league's playoffs starting in the 2027-28 season. The new format will include 16 teams. This change aims to set a clear path for the tournament in future years. The postseason determines the ultimate winner of the league, so adjustments to the format affect how every team plans their season.",
+          "keyTerms": [],
+          "disagreement": null,
+          "update": null,
+          "importance": 3,
+          "image": "https://a.espncdn.com/photo/2026/1125/r1751211_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Source: MLS owners agree new 16-team playoff format starting in 2027-28",
+              "url": "https://www.espn.com/soccer/story/_/id/50595745/mls-playoff-format-new-2027-2028-change-owners"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-epl",
+      "title": "Sports · Premier League",
+      "bricks": [
+        {
+          "id": "sports-epl-0",
+          "headline": "Panel says Leny Yoro red card was an error",
+          "summary": "An independent panel agreed that Manchester United defender Leny Yoro should not have received a red card against Liverpool. The Football Association removed his one-match suspension. Yoro is now free to play in the team's next game.",
+          "whyItMatters": "This decision means Manchester United keeps a key player available for upcoming matches instead of missing him due to suspension.",
+          "explainer": "Football matches are controlled by referees on the field who can issue red cards to send players off for bad fouls. When a team feels a referee made a clear mistake, they can appeal to a panel of experts to review the play. In this case, the panel agreed with Manchester United that the red card given to Leny Yoro during their loss to Liverpool was an obvious error. Because of this ruling, his punishment was canceled, allowing him to return to the field immediately without missing any playing time.",
+          "keyTerms": [
+            {
+              "term": "Red card",
+              "definition": "A penalty card shown by a referee that orders a player to leave the field for a serious foul."
+            }
+          ],
+          "disagreement": null,
+          "update": "An independent panel confirmed that the red card was an obvious error, making him available to play.",
+          "importance": 4,
+          "image": "https://a.espncdn.com/photo/2026/1124/r1750787_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "FA panel details 'obvious error' in Leny Yoro red card against Liverpool",
+              "url": "https://www.espn.com/soccer/story/_/id/50604016/leny-yoro-manchester-united-red-card"
+            },
+            {
+              "name": "ESPN",
+              "title": "Man United win appeal over Leny Yoro red card",
+              "url": "https://www.espn.com/soccer/story/_/id/50583223/man-united-win-appeal-leny-yoro-red-card"
+            },
+            {
+              "name": "ESPN",
+              "title": "Man United to appeal Leny Yoro red card against Liverpool - sources",
+              "url": "https://www.espn.com/soccer/story/_/id/50572590/man-united-leny-yoro-red-card-liverpool-premier-league"
+            }
+          ]
+        },
+        {
+          "id": "sports-epl-1",
+          "headline": "Tottenham teen Luca Williams-Barnett signs new contract",
+          "summary": "Tottenham Hotspur teenager Luca Williams-Barnett has signed a new long-term contract with the club. The young player recently made his full debut in a 2-0 win over Ipswich. Teammates and coaches praised his strong performance.",
+          "whyItMatters": "Securing a talented young player helps the club build for future seasons.",
+          "explainer": "Football clubs often sign promising young athletes to long-term contracts to secure their talent for years to come. Luca Williams-Barnett recently played his first full match for Tottenham Hotspur after a clever joke from his coach before the game. Following a strong performance in a 2-0 victory against Ipswich, senior players and coaches praised his bright future, leading the club to secure his services with a new deal.",
+          "keyTerms": [],
+          "disagreement": null,
+          "update": "The young player followed up his recent debut win by signing a new long-term deal with the club.",
+          "importance": 3,
+          "image": "https://a.espncdn.com/photo/2026/1124/r1750533_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Omar Marmoush hails Luca Williams-Barnett as 'unbelievable' after full Spurs debut",
+              "url": "https://www.espn.com/soccer/story/_/id/50604314/omar-marmoush-luca-williams-barnett-tottenham"
+            },
+            {
+              "name": "ESPN",
+              "title": "Tottenham prodigy Luca Williams-Barnett, 18, signs new contract",
+              "url": "https://www.espn.com/soccer/story/_/id/50581320/tottenham-hotspur-luca-williams-barnett-18-new-contract"
+            },
+            {
+              "name": "ESPN",
+              "title": "Luca Williams-Barnett fell for under-21s joke before stellar Tottenham debut",
+              "url": "https://www.espn.com/soccer/story/_/id/50571947/luca-williams-barnett-tottenham-de-zerbi"
+            }
+          ]
+        },
+        {
+          "id": "sports-epl-2",
+          "headline": "Brentford beats 10-man Everton 4-0",
+          "summary": "Brentford earned a 4-0 victory against Everton after Everton defender James Tarkowski received a red card. Everton manager David Moyes admitted he understood why the referee sent the player off. Brentford dominated the match with a strong scoring performance.",
+          "whyItMatters": "The heavy defeat hurts Everton's standing in the league table and adds pressure on the team.",
+          "explainer": "In football, losing a player to a red card forces the team to play with fewer players than their opponents for the rest of the game. Everton struggled after their defender James Tarkowski was sent off against Brentford. Brentford took full advantage of the situation, scoring four goals to secure a comfortable win. Even Everton's manager acknowledged that the referee made the correct call in sending his player off.",
+          "keyTerms": [],
+          "disagreement": null,
+          "update": "Brentford secured a dominant 4-0 victory against Everton following an early red card.",
+          "importance": 3,
+          "image": "https://a.espncdn.com/photo/2026/1123/r1750403_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "David Moyes accepts James Tarkowski red card in Everton defeat to Brentford",
+              "url": "https://www.espn.com/soccer/story/_/id/50577324/david-moyes-james-tarkowski-everton-brentford"
+            },
+            {
+              "name": "ESPN",
+              "title": "Vitaly Janelt hits stunner as Brentford stroll to victory over 10-man Everton",
+              "url": "http://www.espn.com/soccer/report/_/gameId/401879237"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-laliga",
+      "title": "Sports · La Liga",
+      "bricks": []
+    },
+    {
+      "id": "sports-bundesliga",
+      "title": "Sports · Bundesliga",
+      "bricks": [
+        {
+          "id": "sports-bundesliga-0",
+          "headline": "Joshua Kimmich Criticizes Bayern Munich Over Jamal Musiala Treatment",
+          "summary": "Bayern Munich midfielder Joshua Kimmich criticized his club for its treatment of teammate Jamal Musiala. Musiala has a health condition that causes seizures. The club says his health is their top priority after holding meetings with his agents.",
+          "whyItMatters": "This story matters to fans because it involves the health and contract status of a star player at a major club.",
+          "explainer": "Bayern Munich midfielder Joshua Kimmich publicly criticized his club regarding how they handled his teammate, Jamal Musiala. Musiala deals with a health condition that leads to seizures. Kimmich called the club's actions an absolute no-go and not fitting for Bayern Munich. Meanwhile, Bayern Munich officials stated they held a constructive meeting with Musiala's agents. The club insists that the midfielder's health is their top priority rather than his contract wages.",
+          "keyTerms": [],
+          "disagreement": null,
+          "update": "Today, teammate Joshua Kimmich criticized the club's handling of the player as an absolute no-go.",
+          "importance": 5,
+          "image": "https://a.espncdn.com/photo/2026/1126/r1751555_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Joshua Kimmich blasts Bayern Munich over Jamal Musiala treatment: 'Absolute no-go'",
+              "url": "https://www.espn.com/soccer/story/_/id/50602935/bayern-munich-jamal-musiala-health-issues-kimmich"
+            },
+            {
+              "name": "ESPN",
+              "title": "Bayern Munich, Jamal Musiala mess shows German champs at their worst",
+              "url": "https://www.espn.com/soccer/story/_/id/50595091/bayern-munich-jamal-musiala-fainting-injuries"
+            },
+            {
+              "name": "ESPN",
+              "title": "Bayern Munich: Jamal Musiala's health 'top priority' amid contract doubts",
+              "url": "https://www.espn.com/soccer/story/_/id/50592045/jamal-musiala-bayern-munich-health"
+            },
+            {
+              "name": "ESPN",
+              "title": "Bayern hold 'constructive' talks with Musiala's agents over health, not money",
+              "url": "https://www.espn.com/soccer/story/_/id/50583931/bayern-munich-jamal-musiala-health-contract"
+            }
+          ]
+        },
+        {
+          "id": "sports-bundesliga-1",
+          "headline": "Niko Kovac Praises Jobe Bellingham After England Call-Up",
+          "summary": "Borussia Dortmund coach Niko Kovac praised midfielder Jobe Bellingham. The praise comes after the player received an England call-up.",
+          "whyItMatters": "It affects the player's development and shows how his club views his growth on the international stage.",
+          "explainer": "Borussia Dortmund coach Niko Kovac spoke about the progress of midfielder Jobe Bellingham. Kovac highlighted the player's development following news that Bellingham received a call-up to the England national team. This recognition reflects the young player's growing role and success at both club and international levels.",
+          "keyTerms": [],
+          "disagreement": null,
+          "update": "Nothing new is reported today beyond the coach's ongoing praise for the player's development.",
+          "importance": 3,
+          "image": "https://a.espncdn.com/photo/2026/1124/r1750518_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Niko Kovac hails Jobe Bellingham's development after England call-up",
+              "url": "https://www.espn.com/soccer/story/_/id/50580591/jobe-bellingham-niko-kovac-dortmund"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-seriea",
+      "title": "Sports · Serie A",
+      "bricks": [
+        {
+          "id": "sports-seriea-0",
+          "headline": "Lazio Leads Serie A Without Home Fans",
+          "summary": "Lazio is doing very well in Serie A this season. The team is winning games even though their fans refuse to go to home matches until the club is sold.",
+          "whyItMatters": "Fans cannot support their team in person at home games while they wait for the club to be sold.",
+          "explainer": "Lazio is having a very strong season in the Italian league known as Serie A. However, their home games are being played without their loyal supporters in the stands. The fans are staging a boycott to protest the club ownership, meaning they will not return to the stadium until the team is sold to new owners. Despite this lack of home crowd support, the players are still managing to win matches and stay at the top of the league standings.",
+          "keyTerms": [],
+          "disagreement": null,
+          "update": "Lazio remains at the top of the league standings while continuing to play home games without fans in the stands.",
+          "importance": 4,
+          "image": "https://a.espncdn.com/photo/2026/1124/r1750526_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Lazio are top of Serie A despite playing without their fans",
+              "url": "https://www.espn.com/soccer/story/_/id/50575536/lazio-serie-fan-protests-claudio-lotito"
+            }
+          ]
+        },
+        {
+          "id": "sports-seriea-1",
+          "headline": "AC Milan Wins Big With Help From Pulisic",
+          "summary": "AC Milan won a match 5-1 against Frosinone. Christian Pulisic scored a great solo goal, and his coach praised his strong play.",
+          "whyItMatters": "This big win moves AC Milan up into the top four spots in the league standings.",
+          "explainer": "AC Milan played a strong game and beat Frosinone with a high score of 5-1 at their home stadium. Christian Pulisic helped lead the team to victory by scoring a brilliant solo goal. His great play on the field has made him a very important part of the team, earning high praise from his coach as the club fights for a top spot in the league.",
+          "keyTerms": [],
+          "disagreement": null,
+          "update": "AC Milan moved into the top four spots in the league after their large victory over Frosinone.",
+          "importance": 4,
+          "image": "https://a.espncdn.com/photo/2026/1122/r1749701_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Milan into top four as classy Pulisic solo goal caps Serie A rout",
+              "url": "http://www.espn.com/soccer/report/_/gameId/401874989"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-ligue1",
+      "title": "Sports · Ligue 1",
+      "bricks": [
+        {
+          "id": "sports-ligue1-0",
+          "headline": "PSG Prepares to Play Without Injured Star Players",
+          "summary": "Paris Saint-Germain faces long-term injuries to key players Désiré Doué and Khvicha Kvaratskhelia. Manager Luis Enrique says the team will find a way to cope with these losses.",
+          "whyItMatters": "This affects the team's performance and chances of winning matches this season.",
+          "explainer": "Paris Saint-Germain is dealing with serious injuries to two of its important players, Désiré Doué and Khvicha Kvaratskhelia. Fans and team leaders worry about how the team will play without them. However, manager Luis Enrique stated that the club will not make excuses and will work hard to win games even with the missing players.",
+          "keyTerms": [],
+          "disagreement": null,
+          "update": "The team's manager stated that the club will cope with the long-term injuries without making excuses.",
+          "importance": 3,
+          "image": "https://a.espncdn.com/photo/2026/1124/r1750714_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Luis Enrique insists PSG won't 'start crying' over Doué, Kvaratskhelia injuries",
+              "url": "https://www.espn.com/soccer/story/_/id/50584788/psg-luis-enrique-injuries-desire-doue-khvicha-kvaratskhelia"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-ucl",
+      "title": "Sports · Champions League",
+      "bricks": [
+        {
+          "id": "sports-ucl-0",
+          "headline": "Man United Held to Draw After Defensive Errors",
+          "summary": "Manchester United tied 2-2 with Sporting CP after costly errors by goalkeeper Senne Lammens. Bruno Fernandes scored a bizarre goal for United, but coach Mauricio Pochettino felt officials punished his team.",
+          "whyItMatters": "The result keeps Manchester United winless under their new coach, affecting their standing in the tournament.",
+          "explainer": "Manchester United faced Sporting CP in a Champions League match that ended in a 2-2 draw. Goalkeeper Senne Lammens made mistakes that led to goals for the opposing team, denying manager Mauricio Pochettino his first win. Bruno Fernandes scored a strange goal that was assisted by a divot in the grass. Pochettino stated that match officials punished his squad during the game, while teammates defended Lammens from blame. The draw leaves United looking for answers as their winless run continues in Europe.",
+          "keyTerms": [
+            {
+              "term": "Champions League",
+              "definition": "A major soccer tournament featuring top clubs from across Europe."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 6,
+          "image": "https://a.espncdn.com/photo/2026/1126/r1751550_2_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Joshua Zirkzee backs Senne Lammens: 'We didn't draw because of him'",
+              "url": "https://www.espn.com/soccer/story/_/id/50602701/joshua-zirkzee-senne-lammens-man-united"
+            },
+            {
+              "name": "ESPN",
+              "title": "Man United's costly errors overshadow early progress under Mauricio Pochettino",
+              "url": "https://www.espn.com/soccer/story/_/id/50598965/manchester-united-pochettino-champions-league-sporting"
+            },
+            {
+              "name": "ESPN",
+              "title": "Bruno Fernandes' 'strange' divot-assisted goal left even Man United star confused",
+              "url": "https://www.espn.com/soccer/story/_/id/50598666/bruno-fernandes-goal-man-united-sporting-divot-champions-league"
+            },
+            {
+              "name": "ESPN",
+              "title": "Mauricio Pochettino: Man United were 'punished' by officials in Sporting draw",
+              "url": "https://www.espn.com/soccer/story/_/id/50599139/man-united-mauricio-pochettino-sporting-referee-var-goal"
+            },
+            {
+              "name": "ESPN",
+              "title": "Champions League recap: Another night of mayhem for Pochettino's Man United",
+              "url": "https://www.espn.com/soccer/story/_/id/50574274/uefa-champions-league-live-updates"
+            },
+            {
+              "name": "ESPN",
+              "title": "Lammens errors cost Man United win despite bizarre Fernandes goal",
+              "url": "http://www.espn.com/soccer/report/_/gameId/401915373"
+            }
+          ]
+        },
+        {
+          "id": "sports-ucl-1",
+          "headline": "Bayern Munich Suffers Upset Loss and Internal Clash",
+          "summary": "Bayern Munich lost 2-1 to Lille after giving up an early lead. Meanwhile, player Joshua Kimmich criticized the club's treatment of teammate Jamal Musiala, who deals with seizures.",
+          "whyItMatters": "The loss hurts Bayern Munich's chances of finishing in the top tier of the tournament standings, while public friction creates off-field pressure for the club.",
+          "explainer": "Bayern Munich suffered their first Champions League defeat of the season by losing 2-1 to Lille after surrendering an early lead. The result hurts their hopes of securing a top-eight spot in the standings. Off the field, midfielder Joshua Kimmich sharply criticized club management for their treatment of teammate Jamal Musiala, who has a medical condition causing seizures, calling the behavior unacceptable for the German powerhouse.",
+          "keyTerms": [],
+          "disagreement": null,
+          "update": null,
+          "importance": 6,
+          "image": "https://a.espncdn.com/photo/2026/1126/r1751555_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Joshua Kimmich blasts Bayern Munich over Jamal Musiala treatment: 'Absolute no-go'",
+              "url": "https://www.espn.com/soccer/story/_/id/50602935/bayern-munich-jamal-musiala-health-issues-kimmich"
+            },
+            {
+              "name": "ESPN",
+              "title": "Injury-hit Bayern beaten by Lille to suffer 1st UCL loss",
+              "url": "http://www.espn.com/soccer/report/_/gameId/401915377"
+            },
+            {
+              "name": "ESPN",
+              "title": "Bayern Munich, Jamal Musiala mess shows German champs at their worst",
+              "url": "https://www.espn.com/soccer/story/_/id/50595091/bayern-munich-jamal-musiala-fainting-injuries"
+            }
+          ]
+        },
+        {
+          "id": "sports-ucl-2",
+          "headline": "Alexander Isak Leads Liverpool Past Club Brugge",
+          "summary": "Alexander Isak scored two goals to help Liverpool beat Club Brugge 3-0. The victory puts Liverpool back on track for a top-eight finish in the tournament.",
+          "whyItMatters": "The win helps Liverpool bounce back in the standings and boosts confidence in their expensive forward line.",
+          "explainer": "Liverpool defeated Club Brugge 3-0 in a Champions League match. Striker Alexander Isak scored twice, earning praise from manager Andoni Iraola for his great form. Teammate Florian Wirtz also continued his strong play. The comfortable win returned Liverpool to winning ways and helped them recover their positioning for a top-eight finish in the tournament.",
+          "keyTerms": [],
+          "disagreement": null,
+          "update": null,
+          "importance": 5,
+          "image": "https://a.espncdn.com/photo/2026/1125/r1751290_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Andoni Iraola: Alexander Isak in a 'great moment' after brace vs. Club Brugge",
+              "url": "https://www.espn.com/soccer/story/_/id/50598768/andoni-iraola-alexander-isak-great-moment-liverpool"
+            },
+            {
+              "name": "ESPN",
+              "title": "Alexander Isak nets brace as Liverpool comfortably beat Club Brugge",
+              "url": "http://www.espn.com/soccer/report/_/gameId/401915292"
+            }
+          ]
+        },
+        {
+          "id": "sports-ucl-3",
+          "headline": "Anthony Gordon Scores Twice as Barcelona Defeats Sabah",
+          "summary": "Anthony Gordon scored two goals to help Barcelona secure a 4-1 victory over Azerbaijani club Sabah FK in Baku.",
+          "whyItMatters": "The comfortable win adds three points to Barcelona's tournament campaign.",
+          "explainer": "Barcelona traveled to Azerbaijan to face Sabah FK in a Champions League match and came away with a 4-1 win. Forward Anthony Gordon proved key by scoring twice in Baku, continuing his strong personal form at the venue. The victory helps Barcelona comfortably move forward in the European competition.",
+          "keyTerms": [],
+          "disagreement": null,
+          "update": null,
+          "importance": 5,
+          "image": "https://a.espncdn.com/photo/2026/1125/r1751301_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Anthony Gordon enjoys 'very special' Baku again to lead Barcelona rout",
+              "url": "https://www.espn.com/soccer/story/_/id/50597280/anthony-gordon-barcelona-baku-sabah-fk-champions-league"
+            },
+            {
+              "name": "ESPN",
+              "title": "Gordon scores twice as Barcelona cruise in Azerbaijan",
+              "url": "http://www.espn.com/soccer/report/_/gameId/401915378"
+            }
+          ]
+        },
+        {
+          "id": "sports-ucl-4",
+          "headline": "PSG Streak Halted by Roma Draw",
+          "summary": "Paris Saint-Germain was held to a 2-2 draw by Roma in a hard-fought Champions League match.",
+          "whyItMatters": "The draw ends Paris Saint-Germain's winning streak in the tournament.",
+          "explainer": "Paris Saint-Germain saw their winning streak halted after a 2-2 draw against Roma. PSG coach Luis Enrique called Roma the toughest match his team has faced this season. The hard-fought result forces both teams to share the points in the European competition.",
+          "keyTerms": [],
+          "disagreement": null,
+          "update": null,
+          "importance": 4,
+          "image": "https://a.espncdn.com/photo/2026/1126/r1751436_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Luis Enrique praises Roma after draw halts PSG's winning streak",
+              "url": "https://www.espn.com/soccer/story/_/id/50599458/luis-enrique-praises-roma-draw-halts-psg-winning-streak"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-ligamx",
+      "title": "Sports · Liga MX",
+      "bricks": []
+    },
+    {
+      "id": "sports-f1",
+      "title": "Sports · Formula 1",
+      "bricks": [
+        {
+          "id": "sports-f1-0",
+          "headline": "Ferrari Boss Calls Drivers Unmanageable",
+          "summary": "Ferrari leader Fred Vasseur says managing drivers Lewis Hamilton and Charles Leclerc is getting very hard. Hamilton believes he could have won a title if the team picked him as the main driver.",
+          "whyItMatters": "This team conflict affects team strategy and the race results for two of the biggest names in the sport.",
+          "explainer": "Formula 1 teams employ two drivers who compete against the rest of the field while also sharing the same garage and car parts. When a team has two top-tier champions like Lewis Hamilton and Charles Leclerc, tension often builds over who gets the best team support and priority during races. Ferrari boss Fred Vasseur admitted that managing the pair has become very difficult, even hinting at regret over putting them together. Meanwhile, Hamilton stated that he believes he could have secured a record-breaking eighth world title this year if the team had backed him as the clear number one driver over his teammate.",
+          "keyTerms": [],
+          "disagreement": null,
+          "update": "Ferrari boss Fred Vasseur admitted that managing Lewis Hamilton and Charles Leclerc is becoming unmanageable after their recent crash.",
+          "importance": 5,
+          "image": "https://a.espncdn.com/photo/2026/1122/r1749521_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Lewis Hamilton, Charles Leclerc 'unmanageable' - Ferrari boss",
+              "url": "https://www.espn.com/f1/story/_/id/50472137/ferrari-charles-leclerc-lewis-hamilton-las-vegas-grand-prix-formula-1"
+            },
+            {
+              "name": "ESPN",
+              "title": "Lewis Hamilton: I could have beaten Kimi Antonelli if I was Ferrari No. 1",
+              "url": "https://www.espn.com/f1/story/_/id/50472141/lewis-hamilton-ferrari-las-vegas-grand-prix-formula-1"
+            }
+          ]
+        },
+        {
+          "id": "sports-f1-1",
+          "headline": "Williams and Alpine Fined for Cost Cap Breaches",
+          "summary": "The FIA fined Williams and Alpine after finding they broke Formula 1 cost rules. Williams went over the spending limit by a specific amount last year.",
+          "whyItMatters": "Financial rules are meant to keep the sport fair for all teams, so breaking them carries heavy penalties.",
+          "explainer": "Formula 1 enforces strict financial rules known as the cost cap to stop rich teams from simply outspending their rivals to win races. The governing body of the sport, the FIA, announced that Williams overspent its allowed budget by £627,000 last year. In addition to the overspending, both Williams and Alpine were found to have committed procedural breaches, which involve paperwork and reporting errors rather than direct extra spending. As a result of these rule violations, the teams were handed fines by the racing authorities.",
+          "keyTerms": [
+            {
+              "term": "Cost cap",
+              "definition": "A rule that limits how much money Formula 1 teams can spend each year."
+            },
+            {
+              "term": "FIA",
+              "definition": "The group that runs and sets the rules for international auto racing."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 5,
+          "image": "https://a.espncdn.com/photo/2026/1125/r1751158_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Williams, Alpine fined £627k by FIA for breaching F1's cost cap",
+              "url": "https://www.espn.com/f1/story/_/id/50594939/williams-alpine-fined-627k-fia-f1-cap"
+            }
+          ]
+        },
+        {
+          "id": "sports-f1-2",
+          "headline": "Haas Confirms Driver Lineup Updates",
+          "summary": "The Haas team confirmed that Ollie Bearman will stay on as a driver for next year. They also announced that Rafa Camara will finish the current season with them.",
+          "whyItMatters": "These roster choices decide which drivers fans will watch on the track for the upcoming races and seasons.",
+          "explainer": "Formula 1 teams are constantly planning their driver lineups for both the current year and future seasons. The Haas team announced that young driver Ollie Bearman will remain with them for the 2027 season, putting an end to a brief period of speculation regarding his contract. Additionally, the team confirmed that Brazilian driver Rafa Camara will complete the remainder of the 2026 season with them, serving as preparation before he steps into a full-time rookie season next year.",
+          "keyTerms": [],
+          "disagreement": null,
+          "update": null,
+          "importance": 3,
+          "image": "https://a.espncdn.com/photo/2026/1126/r1751562_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Haas confirm Ollie Bearman will stay for F1 2027 after 'strange' contract delay",
+              "url": "https://www.espn.com/f1/story/_/id/50603078/ollie-bearman-haas-f1-2027"
+            },
+            {
+              "name": "ESPN",
+              "title": "Haas confirm Rafa Camara will finish 2026 season with the team",
+              "url": "https://www.espn.com/f1/story/_/id/50563772/formula-1-haas-rafa-camara-esteban-ocon"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-tennis",
+      "title": "Sports · Tennis",
+      "bricks": [
+        {
+          "id": "sports-tennis-0",
+          "headline": "Alexander Zverev Not Worried About New Lawsuit",
+          "summary": "Tennis star Alexander Zverev says he is not worried about a new lawsuit. The suit claims he broke rules from an earlier settlement in an abuse case.",
+          "whyItMatters": "Legal issues can impact a professional athlete's career, public image, and ability to play in major tournaments.",
+          "explainer": "Top-ranked professional tennis player Alexander Zverev is facing a new lawsuit from a former partner. The legal action accuses him of violating the terms of an out-of-court settlement related to an alleged abuse case. Zverev stated publicly that he is not too concerned about the matter. This legal trouble comes at a time when he is also finishing the year at the top of the men's tennis rankings. The case continues to draw media attention as it moves forward outside the tennis court.",
+          "keyTerms": [],
+          "disagreement": null,
+          "update": "Zverev remains unfazed as the legal dispute regarding a past settlement continues.",
+          "importance": 5,
+          "image": "https://a.espncdn.com/photo/2026/1029/r1738292_600x400_3-2.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Alexander Zverev: 'Not too concerned' with ex-partner's lawsuit",
+              "url": "https://www.espn.com/tennis/story/_/id/50595041/alexander-zverev-not-too-concerned-ex-partner-lawsuit"
+            }
+          ]
+        },
+        {
+          "id": "sports-tennis-1",
+          "headline": "Jannik Sinner to Miss Australian Open for Rehab",
+          "summary": "Tennis player Jannik Sinner will miss the Australian Open next year. He needs time to heal his right knee after surgery.",
+          "whyItMatters": "Missing a major tournament affects a top athlete's ranking points and chances to win prestigious titles early in the season.",
+          "explainer": "Jannik Sinner, the world No. 2 tennis player, has announced he will skip the upcoming Australian Open. Sinner needs time to fully heal and recover from recent surgery on his right knee. Athletes often choose to miss major competitions to ensure their bodies are completely healthy before returning to high-level play. This absence will change the lineup and competition at one of the sport's biggest yearly events.",
+          "keyTerms": [],
+          "disagreement": null,
+          "update": null,
+          "importance": 5,
+          "image": "https://a.espncdn.com/photo/2026/0712/r1688294_600x400_3-2.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "No. 2 Jannik Sinner missing 2027 Australian Open to rehab knee",
+              "url": "https://www.espn.com/tennis/story/_/id/50599895/jannik-sinner-missing-2027-australian-open-rehab-knee"
+            }
+          ]
+        },
+        {
+          "id": "sports-tennis-2",
+          "headline": "Henry Patten Splits With Doubles Partner Harri Heliovaara",
+          "summary": "Tennis doubles player Henry Patten has split with his partner Harri Heliovaara. Patten will now team up with Neal Skupski instead.",
+          "whyItMatters": "Changes in tennis partnerships can alter team dynamics and shake up competitive results in upcoming international tournaments.",
+          "explainer": "In a surprising move, tennis doubles player Henry Patten has ended his successful partnership with Harri Heliovaara. The pair previously reached the world No. 1 spot together. Patten will now join forces with British player Neal Skupski. Such shifts are common in professional tennis as players look for new strategies and chemistries to win future championships.",
+          "keyTerms": [],
+          "disagreement": null,
+          "update": null,
+          "importance": 4,
+          "image": "https://a.espncdn.com/photo/2026/1123/r1750396_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Henry Patten ends doubles partnership with Harri Heliovaara to join Neal Skupski",
+              "url": "https://www.espn.com/tennis/story/_/id/50577214/henry-patten-neal-skupski-harri-heliovaara"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-golf",
+      "title": "Sports · Golf",
+      "bricks": [
+        {
+          "id": "sports-golf-0",
+          "headline": "Rain Delay Pushes RSM Classic Finish to Monday",
+          "summary": "Heavy rain on Saturday stopped play at the RSM Classic golf tournament. Players will finish the final rounds on Monday. Rasmus Hojgaard and Michael Thorbjornsen share the lead.",
+          "whyItMatters": "Fans must wait until Monday to see who wins the tournament.",
+          "explainer": "The RSM Classic golf tournament faced a major delay due to heavy rain on Saturday. Because of the weather, players could not finish their rounds on the usual schedule. Play was pushed back, and the final rounds will now take place on Monday. Rasmus Hojgaard and Michael Thorbjornsen are tied for the lead as they head toward the finish. Hojgaard secured his spot at the top by making a long 25-foot birdie putt on the last hole for a score of 5-under 65.",
+          "keyTerms": [
+            {
+              "term": "birdie",
+              "definition": "A score on a golf hole that is one stroke under par."
+            }
+          ],
+          "disagreement": null,
+          "update": "The tournament is finishing today after rain caused delays over the weekend.",
+          "importance": 3,
+          "image": "https://a.espncdn.com/photo/2026/1122/r1749854_600x400_3-2.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Rasmus Højgaard, Michael Thorbjornsen share lead at RSM Classic",
+              "url": "https://www.espn.com/golf/story/_/id/50566027/rasmus-hojgaard-michael-thorbjornsen-share-lead-rsm-classic"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

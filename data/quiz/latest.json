@@ -1,66 +1,66 @@
 {
-  "generatedAt": "2026-11-24T20:28:33.349Z",
-  "weekEnding": "2026-11-24",
+  "generatedAt": "2026-11-26T19:10:18.324Z",
+  "weekEnding": "2026-11-26",
   "questions": [
     {
-      "storyId": "top-world-0",
-      "question": "Which city hosted the APEC summit where leaders from the U.S., China, and Russia met?",
+      "storyId": "economy-world-0",
+      "question": "How large of an additional tax is the US proposing on Chinese imports?",
       "options": [
-        "Beijing",
-        "Shenzhen",
-        "Shanghai",
-        "Moscow"
+        "An additional 10%",
+        "An additional 20%",
+        "An additional 30%",
+        "An additional 40%"
       ],
       "answer": 1,
-      "explanation": "The story states that this year's APEC summit is being held in Shenzhen, China."
+      "explanation": "The US is proposing an additional 20% tax on Chinese imports, bringing the total tax to 40%."
     },
     {
       "storyId": "region-europe-0",
-      "question": "Where did Ukraine strike a Russian warship using naval drones?",
+      "question": "Why did Spain call an early general election?",
       "options": [
-        "Libya",
-        "Ukraine",
-        "Italy",
-        "The Black Sea"
+        "Mass protests over housing costs",
+        "A sudden change in the weather",
+        "A new space program",
+        "New rules for digital media"
       ],
       "answer": 0,
-      "explanation": "The news reports that Ukraine attacked a Russian warship that was docked in Libya."
+      "explanation": "Spain called an early general election after facing mass protests and public pressure over a national housing crisis."
     },
     {
-      "storyId": "top-us-0",
-      "question": "Who was rehired as the CEO of Nvidia after a brief resignation?",
+      "storyId": "region-europe-0",
+      "question": "What military vehicle did Ukraine use to strike a Russian warship docked in Libya?",
       "options": [
-        "Colette Kress",
-        "Donald Trump",
-        "Jensen Huang",
-        "Xi Jinping"
+        "Fighter jets",
+        "Naval drones",
+        "Submarines",
+        "Helicopters"
+      ],
+      "answer": 1,
+      "explanation": "Ukraine used naval drones to attack a Russian warship docked in Libya."
+    },
+    {
+      "storyId": "economy-world-1",
+      "question": "By what percentage are energy bills for millions of UK households expected to rise in January?",
+      "options": [
+        "10 percent",
+        "15 percent",
+        "26 percent",
+        "50 percent"
       ],
       "answer": 2,
-      "explanation": "The report confirms that Jensen Huang was reinstated as the CEO of Nvidia."
+      "explanation": "UK energy bills are set to rise by 26 percent following a surge in global gas prices."
     },
     {
-      "storyId": "economy-world-0",
-      "question": "What is a 'correction territory' in the stock market?",
+      "storyId": "economy-us-0",
+      "question": "According to government data, what was the U.S. inflation rate in October?",
       "options": [
-        "When stocks grow too fast",
-        "When prices fall at least 10% from recent highs",
-        "When companies stop selling shares",
-        "When a new company launches an IPO"
+        "2.5 percent",
+        "3.6 percent",
+        "3.8 percent",
+        "4.2 percent"
       ],
-      "answer": 1,
-      "explanation": "A market correction happens when stock prices have fallen by at least 10% from their recent high points."
-    },
-    {
-      "storyId": "politics-world-0",
-      "question": "Which court ruled that Myanmar committed genocide against the Rohingya people?",
-      "options": [
-        "The Supreme Court",
-        "The International Court of Justice",
-        "The European Union Court",
-        "The Asian Human Rights Court"
-      ],
-      "answer": 1,
-      "explanation": "The International Court of Justice ruled that Myanmar's military committed genocide against the Rohingya minority."
+      "answer": 2,
+      "explanation": "Government data shows consumer prices rose by 3.8% in October compared to the previous year."
     }
   ]
 }
