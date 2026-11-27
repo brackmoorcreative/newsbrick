@@ -1,0 +1,2579 @@
+{
+  "version": 1,
+  "date": "2026-11-27",
+  "generatedAt": "2026-11-27T19:13:29.760Z",
+  "model": "gemini-3.5-flash, gemini-3.5-flash-lite",
+  "categories": [
+    {
+      "id": "top-world",
+      "title": "Top Stories · World",
+      "bricks": [
+        {
+          "id": "top-world-0",
+          "headline": "Canada Court Upholds Quebec Religious Symbol Ban",
+          "summary": "Canada's top court upheld a law in Quebec that bans public workers from wearing religious symbols on the job. Teachers and police officers cannot wear items like hijabs or turbans at work. The ruling resolves a major legal fight over religious rights.",
+          "whyItMatters": "This decision affects whether public employees in Quebec can wear religious items while working.",
+          "explainer": "Quebec passed a secularism law that stops public sector employees, such as teachers and police officers, from wearing religious symbols at work. The ban includes items like Muslim hijabs, Sikh turbans, and Catholic crosses. Opponents argued that the law breaks fundamental rights and unfairly targets religious minorities. However, Canada's Supreme Court ruled 6-1 to largely uphold the law, saying Quebec has the power to set rules for its public workforce. The ruling highlights a long debate between protecting individual religious freedom and allowing governments to enforce state neutrality.",
+          "keyTerms": [
+            {
+              "term": "Secularism",
+              "definition": "The idea that government and religion should be kept separate."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 7,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b5e9/live/7ddd01c0-ea82-11f1-a739-457c2295eaba.jpg",
+          "sources": [
+            {
+              "name": "BBC News",
+              "title": "Canada's top court largely upholds Quebec ban on religious symbols for public servants",
+              "url": "https://www.bbc.co.uk/news/articles/cq3dgpy9lem3o?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "The Guardian",
+              "title": "Canada’s top court upholds Quebec law barring public sector workers from wearing religious symbols",
+              "url": "https://www.theguardian.com/world/2026/nov/27/canadas-top-court-upholds-quebec-law-barring-public-sector-workers-from-wearing-religious-symbols"
+            },
+            {
+              "name": "Al Jazeera",
+              "title": "Canada’s top court largely upholds Quebec’s religious symbols ban",
+              "url": "https://www.aljazeera.com/news/2026/11/27/canadas-top-court-largely-upholds-quebecs-religious-symbols-ban?traffic_source=rss"
+            }
+          ]
+        },
+        {
+          "id": "top-world-1",
+          "headline": "Ukraine Offers Black Sea Ceasefire for Grain Exports",
+          "summary": "Ukraine proposed a Black Sea ceasefire to protect its grain exports during the war. President Volodymyr Zelensky criticized US efforts, saying peace talks are not pushing Russia hard enough. Ukrainian troops continue to defend against Russian attacks.",
+          "whyItMatters": "A Black Sea ceasefire could keep global food supplies stable and affect international peace talks to end the war.",
+          "explainer": "Ukraine is facing a difficult winter as fighting continues across the country. President Volodymyr Zelensky expressed frustration with international peace talks, criticizing Donald Trump's relationship with Vladimir Putin and arguing that the US is not putting enough pressure on Russia. To protect vital food supplies, Ukraine offered a ceasefire in the Black Sea to safeguard ship exports of grain. Meanwhile, Ukrainian commanders reported that their forces successfully defended positions against heavy Russian assaults along the front line.",
+          "keyTerms": [
+            {
+              "term": "Ceasefire",
+              "definition": "An agreement to temporarily stop fighting in a war."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 7,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fdee/live/21e805d0-ea60-11f1-99b6-a35a62fa4264.jpg",
+          "sources": [
+            {
+              "name": "BBC News",
+              "title": "Zelensky criticises 'strange' Trump-Putin friendship in BBC interview",
+              "url": "https://www.bbc.co.uk/news/articles/c820q9wgrpyyo?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "Al Jazeera",
+              "title": "Kyiv offers Black Sea ceasefire to protect grain exports",
+              "url": "https://www.aljazeera.com/news/2026/11/27/kyiv-offers-black-sea-ceasefire-as-putin-expands-russias-navy?traffic_source=rss"
+            },
+            {
+              "name": "Al Jazeera",
+              "title": "‘Bear trap’: Ukraine hails new operation as Russian casualties mount",
+              "url": "https://www.aljazeera.com/news/2026/11/27/ukraine-rejects-unfavourable-compromises-as-it-frees-more-territory?traffic_source=rss"
+            }
+          ]
+        },
+        {
+          "id": "top-world-2",
+          "headline": "Kenyan Cult Leader Convicted in 123 More Deaths",
+          "summary": "A Kenyan court convicted doomsday cult leader Paul Mackenzie for the deaths of 123 followers. This ruling comes weeks after he was jailed for the mass murder of children. Mackenzie convinced his followers to starve themselves to death.",
+          "whyItMatters": "The ruling brings legal justice to families affected by one of the deadliest cult cases in recent history.",
+          "explainer": "Paul Mackenzie, a self-proclaimed pastor in Kenya, led a doomsday cult in a remote forest area. He instructed his followers to fast to death, telling them they would go to heaven before the world ended. Authorities later discovered hundreds of bodies buried in mass graves. Investigators found that many victims, including children, suffered extreme starvation. A Kenyan court has now found Mackenzie guilty of killing 123 followers in this latest trial. He was already serving prison time following a previous conviction for the mass murder of children.",
+          "keyTerms": [
+            {
+              "term": "Cult",
+              "definition": "A group with extreme beliefs led by a dominant leader."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 7,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fd53/live/e165d810-ea74-11f1-a828-d384c0290f6b.jpg",
+          "sources": [
+            {
+              "name": "BBC News",
+              "title": "Kenyan doomsday cult leader convicted over further 123 deaths",
+              "url": "https://www.bbc.co.uk/news/articles/cmy49de4xx1zo?at_medium=RSS&at_campaign=rss"
+            }
+          ]
+        },
+        {
+          "id": "top-world-3",
+          "headline": "Airline Norse Atlantic Files for Bankruptcy",
+          "summary": "Low-cost airline Norse Atlantic Airways filed for bankruptcy and cancelled all future flights. The company blamed rising fuel prices caused by the war in Iran for its financial failure. It told travelers not to go to airports.",
+          "whyItMatters": "Passengers with booked flights are left stranded or without travel plans and must seek refunds through bankruptcy.",
+          "explainer": "Norse Atlantic Airways was founded a few years ago to offer low-cost international flights. However, the airline struggled to make a profit and faced mounting financial pressure. Recent increases in aviation fuel prices, caused by war in Iran, pushed the company into insolvency. The airline stopped all operations immediately and cancelled all scheduled flights. Customers were warned not to come to airports, and stranded passengers must make other travel arrangements while applying for refunds through the court bankruptcy process.",
+          "keyTerms": [
+            {
+              "term": "Bankruptcy",
+              "definition": "A legal process for a person or company that cannot pay their debts."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 6,
+          "image": "https://i.guim.co.uk/img/media/e1f07f0b2a8329b3e1557eed373d0458f8cb7e9a/71_0_3289_2633/master/3289.jpg?width=140&quality=85&auto=format&fit=max&s=1922b72a5b6543a0da92f5e45741b64a",
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "title": "Norse Atlantic files for bankruptcy, halts flights and ticket sales",
+              "url": "https://www.aljazeera.com/economy/2026/11/27/norse-atlantic-files-for-bankruptcy-halts-flights-and-ticket-sales?traffic_source=rss"
+            },
+            {
+              "name": "The Guardian",
+              "title": "Norse Atlantic Airways files for bankruptcy and cancels all future flights",
+              "url": "https://www.theguardian.com/business/2026/nov/27/norse-atlantic-airways-files-for-bankruptcy-cancels-all-future-flights"
+            },
+            {
+              "name": "DW",
+              "title": "Airline Norse Atlantic files for bankruptcy, succumbing to aviation fuel costs",
+              "url": "https://www.dw.com/en/airline-norse-atlantic-files-for-bankruptcy-succumbing-to-aviation-fuel-costs/a-80076728?maca=en-rss-en-world-4025-rdf"
+            }
+          ]
+        },
+        {
+          "id": "top-world-4",
+          "headline": "US East Coast Recovers from Severe Thanksgiving Storms",
+          "summary": "Skies cleared along the US East Coast as crews restored power to hundreds of thousands of people. Heavy rains and strong winds caused flooding, downed power lines, and major travel chaos. Nearly a million customers lost power during the storm.",
+          "whyItMatters": "Power restoration and flood cleanups help families return to normal after holiday travel disruptions.",
+          "explainer": "Powerful storms swept through the eastern United States during the Thanksgiving holiday, bringing heavy rain and high winds from New York down to Virginia. The severe weather caused widespread flooding, knocked down trees, and snapped power lines. Emergency workers had to perform water rescues, while air and road travel suffered major delays. As the storm system passed, emergency crews worked to restore power to hundreds of thousands of customers who lost electricity during the peak of the storm.",
+          "keyTerms": [],
+          "disagreement": null,
+          "update": "Heavy rain and high winds cleared on the US East Coast as power was restored to hundreds of thousands of people affected by holiday storms.",
+          "importance": 6,
+          "image": "https://i.guim.co.uk/img/media/13899cb7af4121d5aac3418608943d1e81f34df4/95_0_2500_2001/master/2500.jpg?width=140&quality=85&auto=format&fit=max&s=c632060565bcd372c1823ea711eb5290",
+          "sources": [
+            {
+              "name": "The Guardian",
+              "title": "Eastern US recovers from storms that snarled Thanksgiving travel as flooding continues",
+              "url": "https://www.theguardian.com/us-news/2026/nov/27/heavy-rain-wind-flooding-us-thanksgiving"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "politics-world",
+      "title": "Politics · World",
+      "bricks": [
+        {
+          "id": "politics-world-0",
+          "headline": "EU leaders fail to agree on budget and Ukraine loan",
+          "summary": "European Union leaders could not reach a deal on a new seven-year budget and financial aid for Ukraine. Some countries opposed the proposal over its costs and tech tax plans. Leaders plan to meet again to continue negotiations.",
+          "whyItMatters": "Financial support for Ukraine affects European security and how EU governments spend shared tax money.",
+          "explainer": "European Union leaders met to discuss a long-term budget that included funding for Ukraine and a 3% tax on American technology companies. However, member nations remained divided on the proposal. Some governments argued the plan was too expensive and lacked focus on future needs, while others wanted options to opt out of the financial package. The bloc's spending package makes up about 1% to 1.2% of its total gross national income, representing how member states view their collective role in global politics. Because the summit ended without an agreement, leaders agreed to hold further talks to try to resolve their differences.",
+          "keyTerms": [
+            {
+              "term": "gross national income",
+              "definition": "The total money earned by a country's people and businesses."
+            },
+            {
+              "term": "bloc",
+              "definition": "A group of countries that work together for common goals."
+            }
+          ],
+          "disagreement": null,
+          "update": "EU leaders ended a summit without reaching a deal on Ukraine aid and the seven-year budget, but they plan to try again.",
+          "importance": 7,
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-26T235857Z_136047752_RC2ZVOAFBF85_RTRMADP_3_EU-SUMMIT-1024x684.jpg",
+          "sources": [
+            {
+              "name": "PBS NewsHour",
+              "title": "A Ukraine loan is in limbo after EU budget talks stall. Leaders will try again",
+              "url": "https://www.pbs.org/newshour/world/a-ukraine-loan-is-in-limbo-after-eu-budget-talks-stall-leaders-will-try-again"
+            },
+            {
+              "name": "DW",
+              "title": "Divisions deepen between EU member states after tense budget summit",
+              "url": "https://www.dw.com/en/divisions-deepen-between-eu-member-states-after-tense-budget-summit/a-80078599?maca=en-rss-en-world-4025-rdf"
+            }
+          ]
+        },
+        {
+          "id": "politics-world-1",
+          "headline": "Zelenskyy criticizes Trump's Putin comments and offers ceasefire",
+          "summary": "Ukrainian President Volodymyr Zelenskyy criticized U.S. President Donald Trump for calling Russian President Vladimir Putin a friend. Zelenskyy urged the United States to put more pressure on Russia during peace talks. Ukraine also offered a Black Sea ceasefire to protect grain exports.",
+          "whyItMatters": "Diplomatic relations between Ukraine and the U.S. shape the future of the war and global food supplies that rely on Black Sea grain.",
+          "explainer": "Ukrainian President Volodymyr Zelenskyy expressed frustration with the United States in a BBC interview, saying it is not pushing Russia hard enough in peace negotiations. He criticized U.S. President Donald Trump's friendly statements toward Russian President Vladimir Putin, comparing them to calling Adolf Hitler a friend during World War II. Meanwhile, Ukraine proposed a ceasefire in the Black Sea specifically aimed at protecting shipments of exported grain. Ukraine's military has continued to defend its front lines while Western allies discuss various proposals to end the war.",
+          "keyTerms": [
+            {
+              "term": "ceasefire",
+              "definition": "An agreement to temporarily stop fighting in a war."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 7,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fdee/live/21e805d0-ea60-11f1-99b6-a35a62fa4264.jpg",
+          "sources": [
+            {
+              "name": "BBC News",
+              "title": "Zelensky criticises 'strange' Trump-Putin friendship in BBC interview",
+              "url": "https://www.bbc.co.uk/news/articles/c820q9wgrpyyo?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "Al Jazeera",
+              "title": "Kyiv offers Black Sea ceasefire to protect grain exports",
+              "url": "https://www.aljazeera.com/news/2026/11/27/kyiv-offers-black-sea-ceasefire-as-putin-expands-russias-navy?traffic_source=rss"
+            },
+            {
+              "name": "PBS NewsHour",
+              "title": "Zelenskyy urges the U.S. to pressure Putin, calling Trump's 'my friend' remark strange",
+              "url": "https://www.pbs.org/newshour/world/zelenskyy-urges-the-u-s-to-pressure-putin-calling-trumps-my-friend-remark-strange"
+            }
+          ]
+        },
+        {
+          "id": "politics-world-2",
+          "headline": "Canada's highest court upholds Quebec religious symbol ban",
+          "summary": "Canada's Supreme Court ruled to keep Quebec's law banning public sector workers from wearing religious symbols on the job. The rule affects teachers, police officers, and other government workers who wear hijabs, turbans, or crucifixes. Opponents argue the law violates basic human rights.",
+          "whyItMatters": "Public employees in Quebec cannot wear visible religious items at work, highlighting the conflict between individual rights and secular laws.",
+          "explainer": "Canada's Supreme Court voted 6-1 to largely uphold a law in Quebec that bans public sector employees from wearing conspicuous religious symbols while working. The law applies to public servants such as teachers, police officers, and government workers. Critics, including Catholic, Muslim, and Sikh groups, challenged the rule by arguing it violates their fundamental rights and unfairly targets religious minorities. However, the court decided that the province has the authority to enforce secularism in public roles. The decision highlights ongoing debate in Canada over balancing minority rights against a government's power to enforce secular policies.",
+          "keyTerms": [
+            {
+              "term": "secularism",
+              "definition": "The idea that government and religious institutions should remain separate."
+            },
+            {
+              "term": "public sector",
+              "definition": "The part of an economy made up of government services and public institutions."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 6,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b5e9/live/7ddd01c0-ea82-11f1-a739-457c2295eaba.jpg",
+          "sources": [
+            {
+              "name": "BBC News",
+              "title": "Canada's top court largely upholds Quebec ban on religious symbols for public servants",
+              "url": "https://www.bbc.co.uk/news/articles/cq3dgpy9lem3o?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "The Guardian",
+              "title": "Canada’s top court upholds Quebec law barring public sector workers from wearing religious symbols",
+              "url": "https://www.theguardian.com/world/2026/nov/27/canadas-top-court-upholds-quebec-law-barring-public-sector-workers-from-wearing-religious-symbols"
+            },
+            {
+              "name": "Al Jazeera",
+              "title": "Canada’s top court largely upholds Quebec’s religious symbols ban",
+              "url": "https://www.aljazeera.com/news/2026/11/27/canadas-top-court-largely-upholds-quebecs-religious-symbols-ban?traffic_source=rss"
+            }
+          ]
+        },
+        {
+          "id": "politics-world-3",
+          "headline": "Trump backs Iraqi government crackdown on oil smuggling",
+          "summary": "U.S. President Donald Trump voiced support for Iraq's crackdown on oil smuggling. The central government in Baghdad closed border crossings to control trade. Kurdish leaders warned that these actions violate their constitutional rights and called for talks.",
+          "whyItMatters": "Control of oil and borders directly impacts economic stability and regional peace in Iraq.",
+          "explainer": "Tensions between Iraq's central government in Baghdad and the semiautonomous Kurdish region have grown over control of trade and resources. The Iraqi government closed border crossings as part of a campaign against illegal oil smuggling, which U.S. President Donald Trump publicly backed. Kurdish authorities argue that Baghdad's actions violate their constitutional rights and threaten their local autonomy. In response to the border closures and central government controls over oil fields, Kurdish officials have called for an urgent meeting to resolve the dispute peacefully.",
+          "keyTerms": [
+            {
+              "term": "semiautonomous",
+              "definition": "Having the power to govern some local affairs independently while remaining part of a larger country."
+            }
+          ],
+          "disagreement": null,
+          "update": "U.S. President Donald Trump publicly supported Iraq's crackdown on oil smuggling as Baghdad shut down border crossings.",
+          "importance": 6,
+          "image": null,
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "title": "Trump backs Iraqi PM’s oil smuggling crackdown",
+              "url": "https://www.aljazeera.com/news/2026/11/27/trump-backs-iraqi-pms-oil-smuggling-crackdown?traffic_source=rss"
+            }
+          ]
+        },
+        {
+          "id": "politics-world-4",
+          "headline": "Serbian student movement nominates university professor for president",
+          "summary": "A student movement in Serbia nominated chemistry professor Radomir Saicic to run for president. The election is set for December 27. The movement recently defeated the ruling party in a parliamentary vote.",
+          "whyItMatters": "A candidate backed by a student movement could change who leads Serbia's government and shape its political future.",
+          "explainer": "Serbia's student-led political movement has selected Radomir Saicic, a chemistry professor at Belgrade University, as its candidate for the upcoming presidential election on December 27. Saicic was among the first university professors to support the student movement. The nomination follows the movement's victory in an early parliamentary election on October 25, where it defeated former President Aleksandar Vucic's right-wing Serbian Progressive Party. The upcoming vote will determine whether the student movement can expand its political influence to the country's presidency.",
+          "keyTerms": [],
+          "disagreement": null,
+          "update": null,
+          "importance": 5,
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-27T125431Z_1080693986_RC2BWOAS6Y0B_RTRMADP_3_SERBIA-POLITICS-STUDENTS-2-1024x683.jpg",
+          "sources": [
+            {
+              "name": "PBS NewsHour",
+              "title": "Serbia's student movement proposes a chemistry professor for presidency ahead of Dec. 27 ballot",
+              "url": "https://www.pbs.org/newshour/world/serbias-student-movement-proposes-a-chemistry-professor-for-presidency-ahead-of-dec-27-ballot"
+            },
+            {
+              "name": "Al Jazeera",
+              "title": "Serbia’s student-led movement nominates chemistry professor for presidency",
+              "url": "https://www.aljazeera.com/news/2026/11/27/serbias-student-led-movement-nominates-chemistry-professor-for-presidency?traffic_source=rss"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "economy-world",
+      "title": "Economy · World",
+      "bricks": [
+        {
+          "id": "economy-world-0",
+          "headline": "China and Brazil Push Back Against Proposed US Tariffs",
+          "summary": "China and Brazil criticized proposed new US tariffs on 14 trading partners. China called the proposed taxes political manipulation and said it reserves the right to take action. Brazil said it will not give in to threats.",
+          "whyItMatters": "New trade tariffs and retaliatory actions can raise the prices of imported goods for consumers around the world.",
+          "explainer": "The United States government proposed new tariffs on 14 trading partners, including China and the European Union, set to start early next year. A tariff is a tax that a government places on goods brought in from other countries. In response, China stated that it reserves the right to take necessary measures to protect its interests. China described the proposed levies as political manipulation. Brazil also rejected the proposed tariffs, stating it would not yield to threats. Critics warn that trade disputes can disrupt international commerce, while supporters argue tariffs protect domestic industries.",
+          "keyTerms": [
+            {
+              "term": "tariff",
+              "definition": "A tax paid on goods imported from another country."
+            }
+          ],
+          "disagreement": null,
+          "update": "China and Brazil responded to proposed US tariffs, with China saying it reserves the right to take necessary action.",
+          "importance": 8,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a44e/live/be7b3450-e9af-11f1-859a-37130cd3a1d7.jpg",
+          "sources": [
+            {
+              "name": "BBC News",
+              "title": "Faisal Islam: Why Trump's new tariffs are less of a threat",
+              "url": "https://www.bbc.co.uk/news/articles/c6r7g4e3yep1o?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "The Guardian",
+              "title": "China reserves right to take ‘necessary measures’ after Trump’s new tariff proposals",
+              "url": "https://www.theguardian.com/us-news/2026/nov/26/brazil-china-react-to-new-trump-tariffs-threat"
+            }
+          ]
+        },
+        {
+          "id": "economy-world-1",
+          "headline": "Airline Norse Atlantic Files for Bankruptcy Over Rising Fuel Costs",
+          "summary": "Low-cost airline Norse Atlantic has suspended all flights and filed for bankruptcy. The Norwegian carrier was struggling to turn a profit before fuel prices spiked due to the war in Iran.",
+          "whyItMatters": "Flight cancellations and airline bankruptcies can leave travelers stranded and reduce affordable travel options.",
+          "explainer": "Norse Atlantic, a low-cost airline based in Norway, was founded a few years ago to offer budget flights. The company had already been struggling to make a profit when aviation fuel costs rose sharply due to the ongoing war in Iran. Unable to secure urgent funding, the airline suspended all flights and filed for bankruptcy. Aircraft fuel is one of the largest operating expenses for airlines, so sudden price surges can quickly push financially weak carriers out of business.",
+          "keyTerms": [
+            {
+              "term": "bankruptcy",
+              "definition": "A legal process for companies that cannot pay their debts."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 5,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/df47/live/6f07a020-e98c-11f1-9d1c-4dcc8fcde666.jpg",
+          "sources": [
+            {
+              "name": "DW",
+              "title": "Airline Norse Atlantic files for bankruptcy, succumbing to aviation fuel costs",
+              "url": "https://www.dw.com/en/airline-norse-atlantic-files-for-bankruptcy-succumbing-to-aviation-fuel-costs/a-80076728?maca=en-rss-en-bus-2091-rdf"
+            },
+            {
+              "name": "BBC News",
+              "title": "Norse Atlantic suspends all flights as it faces potential collapse",
+              "url": "https://www.bbc.co.uk/news/articles/c9kgmd0ldy0lo?at_medium=RSS&at_campaign=rss"
+            }
+          ]
+        },
+        {
+          "id": "economy-world-2",
+          "headline": "EU and Indonesia Finalize New Trade Agreement",
+          "summary": "The European Union and Indonesia have agreed on a trade deal to open new markets. The deal gives European companies better access to Indonesia's critical minerals and opens export opportunities for Jakarta.",
+          "whyItMatters": "Trade deals can create jobs and lower the cost of raw materials used in everyday products like electronics and batteries.",
+          "explainer": "The European Union and Indonesia have agreed to a new trade deal designed to boost trade and investment between the two regions. The agreement opens new market opportunities for Jakarta while granting European businesses better access to Indonesia's markets and critical minerals. Critical minerals are raw materials used in many high-tech products, including electric vehicle batteries and electronics. While the deal offers economic benefits, challenges remain for Indonesia to convert European commercial interest into long-term gains for its local economy.",
+          "keyTerms": [
+            {
+              "term": "critical minerals",
+              "definition": "Raw materials that are essential for technology and clean energy products."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 6,
+          "image": null,
+          "sources": [
+            {
+              "name": "DW",
+              "title": "EU-Indonesia trade deal opens new markets, but challenges remain",
+              "url": "https://www.dw.com/en/eu-indonesia-trade-deal-opens-new-markets-but-challenges-remain/a-80059568?maca=en-rss-en-bus-2091-rdf"
+            }
+          ]
+        },
+        {
+          "id": "economy-world-3",
+          "headline": "UK and EU Publish Details of New Treaty",
+          "summary": "The UK and the European Union have published the text of a new treaty. The agreement includes a 10-year termination clause and requires the UK to pay a fee to participate in EU deals.",
+          "whyItMatters": "International treaties between major trading partners affect business rules, trade, and economic cooperation.",
+          "explainer": "The United Kingdom and the European Union have released official legal documents for a new bilateral treaty. Legislation designed to enact most of the agreement was published alongside the main treaty text. Among the key details is a clause allowing either side to end the agreement after 10 years. The documents also show that the UK will pay a participation fee to cover running costs for delivering specific EU deals. Governments use such treaties to establish rules for economic and legal cooperation.",
+          "keyTerms": [
+            {
+              "term": "treaty",
+              "definition": "A formal written agreement between countries."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 6,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e264/live/8e58c180-e9e5-11f1-ab41-f1f84c0c758a.png",
+          "sources": [
+            {
+              "name": "BBC News",
+              "title": "UK to pay 'participation' fee to deliver EU deals",
+              "url": "https://www.bbc.co.uk/news/articles/ck2057x387ego?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "BBC News",
+              "title": "New UK-EU treaty has 10-year termination clause",
+              "url": "https://www.bbc.co.uk/news/articles/c98r7p65edvgo?at_medium=RSS&at_campaign=rss"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "region-africa",
+      "title": "World · Africa",
+      "bricks": [
+        {
+          "id": "region-africa-0",
+          "headline": "Guinea-Bissau Junta Delays Civilian Rule Until 2028",
+          "summary": "Military leaders in Guinea-Bissau say they will delay handing power back to a civilian government until 2028. The announcement comes one year after a military coup. The junta had previously promised to restore civilian rule within 12 months.",
+          "whyItMatters": "This decision extends military rule in the country, delaying democratic elections and full civilian governance.",
+          "explainer": "A military coup happens when armed forces forcibly take control of a country's government. In Guinea-Bissau, military leaders seized power a year ago and promised to return the country to elected civilian leadership within one year. However, the junta has now extended its control until 2028, postponing democratic elections for several more years. Political instability and military rule can disrupt public services, foreign aid, and democratic freedoms for citizens living in the West African nation.",
+          "keyTerms": [
+            {
+              "term": "junta",
+              "definition": "A group of military leaders who take control of a country by force."
+            },
+            {
+              "term": "civilian rule",
+              "definition": "A government led by elected citizens rather than military officers."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 7,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5f0c/live/9028aca0-ea3f-11f1-9fc4-ef897a334b75.jpg",
+          "sources": [
+            {
+              "name": "BBC News",
+              "title": "Guinea-Bissau's military leaders delay return to civilian rule until 2028",
+              "url": "https://www.bbc.co.uk/news/articles/cm879e5yxjq5o?at_medium=RSS&at_campaign=rss"
+            }
+          ]
+        },
+        {
+          "id": "region-africa-1",
+          "headline": "Uganda to Withdraw Troops From DR Congo Town",
+          "summary": "Uganda announced it will withdraw its military forces from a town in the Democratic Republic of Congo. The move comes during a diplomatic dispute between the two nations. Ugandan troops had been helping the Congolese military fight an Islamist militant group.",
+          "whyItMatters": "The troop withdrawal could weaken security efforts against armed groups fighting in eastern Democratic Republic of Congo.",
+          "explainer": "Uganda and the Democratic Republic of Congo have been working together to fight armed rebel groups in eastern Congo. However, recent diplomatic disputes between the two neighboring countries have strained this partnership. Uganda has now decided to pull its soldiers out of a Congolese town, which could disrupt joint operations against local insurgent forces. Security in eastern Congo directly affects millions of residents who face violence and displacement from ongoing fighting.",
+          "keyTerms": [
+            {
+              "term": "militant group",
+              "definition": "An armed organization that uses violence to pursue political or religious goals."
+            }
+          ],
+          "disagreement": null,
+          "update": "Uganda announced it will pull its soldiers out of a Congolese town amid growing diplomatic tensions.",
+          "importance": 6,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ed57/live/574552c0-ea45-11f1-9fc4-ef897a334b75.jpg",
+          "sources": [
+            {
+              "name": "BBC News",
+              "title": "Uganda to withdraw troops from DR Congo town amid diplomatic row",
+              "url": "https://www.bbc.co.uk/news/articles/cq4gnj2ldkyzo?at_medium=RSS&at_campaign=rss"
+            }
+          ]
+        },
+        {
+          "id": "region-africa-2",
+          "headline": "Kenyan Cult Leader Convicted Over 123 More Deaths",
+          "summary": "A court in Kenya found doomsday cult leader Paul Mackenzie guilty of killing 123 followers. The conviction comes just weeks after he was sentenced for the mass murder of children.",
+          "whyItMatters": "The court ruling holds a cult leader legally accountable for mass deaths that shocked the nation.",
+          "explainer": "Paul Mackenzie, the leader of a doomsday cult in Kenya, was accused of encouraging his followers to starve themselves to death. Authorities discovered mass graves containing hundreds of bodies in a coastal forest where the group met. A Kenyan court has now convicted Mackenzie in connection with 123 additional follower deaths, following a previous conviction related to the deaths of children. The case has raised major national concerns in Kenya about public safety and religious regulation.",
+          "keyTerms": [
+            {
+              "term": "doomsday cult",
+              "definition": "A religious group whose leader preaches that the end of the world is coming soon."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 6,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fd53/live/e165d810-ea74-11f1-a828-d384c0290f6b.jpg",
+          "sources": [
+            {
+              "name": "BBC News",
+              "title": "Kenyan doomsday cult leader convicted over further 123 deaths",
+              "url": "https://www.bbc.co.uk/news/articles/cmy49de4xx1zo?at_medium=RSS&at_campaign=rss"
+            }
+          ]
+        },
+        {
+          "id": "region-africa-3",
+          "headline": "Ex-Kenyan Governor Jailed 25 Years for Murder",
+          "summary": "A former governor in Kenya was sentenced to 25 years in prison for the murder of his pregnant girlfriend. The student was killed after meeting a journalist to discuss her affair with the politician.",
+          "whyItMatters": "The high-profile sentence shows a former top official being held accountable by the court system.",
+          "explainer": "A former governor in Kenya has been sentenced to 25 years in prison after being convicted in the murder of his pregnant girlfriend. The victim was a university student who had arranged to meet with a journalist to speak about her relationship with the politician before she went missing and was killed. The long prison sentence marks a rare legal outcome where a high-ranking political figure in Kenya is held legally responsible and jailed for a violent crime.",
+          "keyTerms": [],
+          "disagreement": null,
+          "update": null,
+          "importance": 5,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5f21/live/5d0dee20-ea85-11f1-a094-5fdc692f3e33.jpg",
+          "sources": [
+            {
+              "name": "BBC News",
+              "title": "Ex-Kenyan governor jailed for 25 years over pregnant girlfriend's murder",
+              "url": "https://www.bbc.co.uk/news/articles/crx209ekq5xdo?at_medium=RSS&at_campaign=rss"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "region-asia",
+      "title": "World · Asia & Pacific",
+      "bricks": [
+        {
+          "id": "region-asia-0",
+          "headline": "New Zealand Coalition Short of Majority in Final Election Results",
+          "summary": "Final election results show New Zealand's ruling right-leaning coalition fell one seat short of a parliamentary majority. Prime Minister Christopher Luxon's National Party needs support from a minor party to form a government. Without an agreement, the country could face another election.",
+          "whyItMatters": "The coalition talks will decide who leads New Zealand's government and shapes its public policies.",
+          "explainer": "New Zealand held a general election, and the final vote count showed that the ruling National Party and its coalition partners do not have enough seats to govern alone. Prime Minister Christopher Luxon's government needs the support of a smaller centrist party to reach a majority in parliament. If negotiations fail, voters may have to return to the polls for a new election. This political uncertainty comes after preliminary election results showed the right-leaning bloc coming close to securing power. Now, negotiations with minor party leaders will determine whether a stable government can be formed or if fresh elections will be required.",
+          "keyTerms": [
+            {
+              "term": "coalition",
+              "definition": "A group of political parties working together to form a government."
+            },
+            {
+              "term": "majority",
+              "definition": "Having more than half of the total seats in a parliament."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 6,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6f08/live/c2e7e400-ea01-11f1-976c-6d185a1abdb9.jpg",
+          "sources": [
+            {
+              "name": "BBC News",
+              "title": "New Zealand's ruling coalition falls short of parliamentary majority by one seat",
+              "url": "https://www.bbc.co.uk/news/articles/c670278qk879o?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "The Guardian",
+              "title": "New Zealand election: final results show ruling coalition needs minor party to govern",
+              "url": "https://www.theguardian.com/world/2026/nov/27/new-zealand-nz-election-2026-final-results"
+            }
+          ]
+        },
+        {
+          "id": "region-asia-1",
+          "headline": "Ousted Leader's Planned Return Raises Tensions in Bangladesh",
+          "summary": "Ousted Prime Minister Sheikh Hasina plans to return to Bangladesh in December. Her planned homecoming has heightened political tensions in the country. The situation also places neighboring India in a difficult diplomatic position.",
+          "whyItMatters": "Political instability in Bangladesh can lead to protests, economic disruption, and security concerns across the region.",
+          "explainer": "Former Prime Minister Sheikh Hasina was ousted from power in Bangladesh after mass protests earlier this year. Her announcement to return to Bangladesh in December has raised concerns about renewed political unrest and protests in the country. The plan also creates a diplomatic dilemma for neighboring India, which shares a border with Bangladesh and maintains strategic interest in regional stability. Officials in both Dhaka and New Delhi are closely monitoring developments as political groups in Bangladesh prepare for potential demonstrations surrounding her planned arrival.",
+          "keyTerms": [
+            {
+              "term": "ousted",
+              "definition": "Removed from a position of power or authority."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 6,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fe82/live/56152150-e9af-11f1-a094-5fdc692f3e33.jpg",
+          "sources": [
+            {
+              "name": "BBC News",
+              "title": "Sheikh Hasina's planned return puts Bangladesh on edge - and India in a bind",
+              "url": "https://www.bbc.co.uk/news/articles/cx30g71rev23o?at_medium=RSS&at_campaign=rss"
+            }
+          ]
+        },
+        {
+          "id": "region-asia-2",
+          "headline": "Taiwan Prepares for Local Elections Amid China Interference Concerns",
+          "summary": "Voters in Taiwan are preparing for local elections across 22 districts. Taiwanese officials raised concerns about political interference from China. The vote will measure support for the ruling Democratic Progressive Party.",
+          "whyItMatters": "Local election results can influence Taiwan's domestic political landscape and its relations with China.",
+          "explainer": "Taiwan is holding local elections to choose mayors and council members across 22 districts. While the elections focus on local administration, Taiwanese officials have warned that China is trying to interfere in the political process. The vote is seen as a key test of public confidence in the ruling Democratic Progressive Party as it manages complex international relations and ongoing pressure from Beijing. The election outcome could influence Taiwan's internal political balance and political strategy heading into future national contests.",
+          "keyTerms": [
+            {
+              "term": "interference",
+              "definition": "Unwanted involvement by one country in another country's political process."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 5,
+          "image": "https://i.guim.co.uk/img/media/46917c80b05c42e1fe661080ca09495a31ff79a7/387_0_3750_3000/master/3750.jpg?width=140&quality=85&auto=format&fit=max&s=fe609d22179f2bf0a6ec3accbe60b685",
+          "sources": [
+            {
+              "name": "The Guardian",
+              "title": "Threat from China looms large over Taiwan’s local elections",
+              "url": "https://www.theguardian.com/world/2026/nov/27/threat-from-china-looms-large-over-taiwan-local-elections"
+            }
+          ]
+        },
+        {
+          "id": "region-asia-3",
+          "headline": "UN Experts Call Activists' Detention in Vietnam Abduction",
+          "summary": "United Nations experts said the detention of three pro-democracy activists in Vietnam violates international law. The men disappeared from Cambodia in September. They include Australian and Norwegian citizens and face terrorism charges in Vietnam.",
+          "whyItMatters": "The case highlights international human rights concerns for activists and foreign citizens operating in Southeast Asia.",
+          "explainer": "Eleven United Nations experts issued a statement criticizing the detention of three pro-democracy activists held in Vietnam. The men, who include citizens of Australia and Norway, disappeared from neighboring Cambodia in September before being placed in Vietnamese custody. UN officials described the incident as an illegal cross-border abduction that breaches international human rights agreements. Vietnam has charged the three men with terrorism offenses as international human rights groups and foreign governments call for transparency regarding their legal status and treatment.",
+          "keyTerms": [
+            {
+              "term": "international law",
+              "definition": "A set of rules that countries agree to follow when dealing with each other."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 5,
+          "image": "https://i.guim.co.uk/img/media/d5859333c5bc71f954326769f3e831c67846767d/348_0_2389_1912/master/2389.jpg?width=140&quality=85&auto=format&fit=max&s=26bd4e04f03069928baf6258bc921e08",
+          "sources": [
+            {
+              "name": "The Guardian",
+              "title": "Detention of pro-democracy activists in Vietnam amounts to a ‘transboundary abduction’, UN experts say",
+              "url": "https://www.theguardian.com/world/2026/nov/27/australian-pro-democracy-activist-detained-vietnam-united-nations-statement-ntwnfb"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "region-europe",
+      "title": "World · Europe",
+      "bricks": [
+        {
+          "id": "region-europe-0",
+          "headline": "EU Leaders Fail to Agree on Budget and Ukraine Aid",
+          "summary": "European Union leaders could not agree on a new seven-year budget. Talks broke down over how to fund financial aid for Ukraine. The proposal also included a tax on large U.S. tech companies.",
+          "whyItMatters": "A delayed budget could slow down aid to Ukraine and affect how the EU funds public services and programs.",
+          "explainer": "Leaders of the 27 European Union countries met in Brussels to debate a new seven-year budget for the bloc. A major point of disagreement was a planned 45-billion-euro loan to support Ukraine in its war against Russia. German Chancellor Friedrich Merz pushed for all member states to back the loan, but divisions among leaders prevented a deal. The proposed budget also included a 3% tax on American technology firms to raise extra funds for the EU. Because EU budget decisions require agreement among member countries, the talks stalled, leaving the financial plan unresolved as leaders hope to finish negotiations by the end of the year.",
+          "keyTerms": [
+            {
+              "term": "budget",
+              "definition": "A plan for how much money a government or group will earn and spend."
+            }
+          ],
+          "disagreement": null,
+          "update": "EU leaders failed to reach an agreement as talks broke down over aid for Ukraine and proposed tech taxes.",
+          "importance": 7,
+          "image": "https://i.guim.co.uk/img/media/97b3ddc6aaa11f0ad62558d6d5f150837db7a46c/291_0_2859_2288/master/2859.jpg?width=140&quality=85&auto=format&fit=max&s=d016ed947539ab2a68f84890c70efd55",
+          "sources": [
+            {
+              "name": "DW",
+              "title": "Divisions deepen between EU member states after tense budget summit",
+              "url": "https://www.dw.com/en/divisions-deepen-between-eu-member-states-after-tense-budget-summit/a-80078599?maca=en-rss-en-world-4025-rdf"
+            },
+            {
+              "name": "The Guardian",
+              "title": "At critical juncture, Friedrich Merz finds Germans’ support for Ukraine wavering",
+              "url": "https://www.theguardian.com/world/2026/nov/27/at-critical-juncture-friedrich-merz-finds-germans-support-for-ukraine-wavering"
+            },
+            {
+              "name": "BBC News",
+              "title": "EU leaders fail to bridge budget splits as talks stall",
+              "url": "https://www.bbc.co.uk/news/articles/cw4gnm3m9deno?at_medium=RSS&at_campaign=rss"
+            }
+          ]
+        },
+        {
+          "id": "region-europe-1",
+          "headline": "Spain Prepares to Vote in General Election Amid Housing Crisis",
+          "summary": "People in Spain are preparing to vote in a national election on Sunday. Prime Minister Pedro Sánchez faces a challenge from conservative leaders. High housing costs have become the biggest issue for voters.",
+          "whyItMatters": "The election results will determine who leads Spain's government and how it addresses high housing costs for residents.",
+          "explainer": "Spain is holding a snap national election after years of Socialist-led rule. Prime Minister Pedro Sánchez is trying to stay in power against a challenge from Alberto Núñez Feijóo, who leads the conservative People's Party. The far-right Vox party is also aiming for a strong result that could allow it to form a coalition government with conservatives. The election campaign has focused heavily on economic conditions and a housing crisis, with high rents leaving many young adults unable to buy or rent their own places. Political leaders held their final debate this week before voters head to the polls on Sunday.",
+          "keyTerms": [
+            {
+              "term": "snap election",
+              "definition": "An election called earlier than expected instead of waiting for the full term to end."
+            },
+            {
+              "term": "coalition",
+              "definition": "A government formed by two or more political parties working together."
+            }
+          ],
+          "disagreement": null,
+          "update": "Political leaders held their final debate before Sunday's election, with housing costs remaining the main issue for voters.",
+          "importance": 7,
+          "image": "https://i.guim.co.uk/img/media/3b8d31f150e01e5b763ede39082829dcd3e49221/674_52_2022_1618/master/2022.jpg?width=140&quality=85&auto=format&fit=max&s=e0451af87ed7ddbb9844096f8792224d",
+          "sources": [
+            {
+              "name": "The Guardian",
+              "title": "Spanish prime minister Pedro Sánchez confident of election victory despite polls – as it happened",
+              "url": "https://www.theguardian.com/world/live/2026/nov/27/zelenskyy-putin-trump-comments-russia-ukraine-latest-news-updates"
+            },
+            {
+              "name": "BBC News",
+              "title": "Spanish election: What you need to know and what's at stake",
+              "url": "https://www.bbc.co.uk/news/articles/c6wy4ejnyvdyo?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "BBC News",
+              "title": "Who to watch in Spain's election race",
+              "url": "https://www.bbc.co.uk/news/articles/cxr5g4lyp94no?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "BBC News",
+              "title": "'It's impossible': Spain's young people on housing ahead of Sunday's election",
+              "url": "https://www.bbc.co.uk/news/videos/cm9w9y8947xqo?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "BBC News",
+              "title": "Leaders clash in final Spain election debate as housing dominates run-in",
+              "url": "https://www.bbc.co.uk/news/articles/ckr5gr4g8gn5o?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "The Guardian",
+              "title": "Why all of Europe should be watching as Spain’s far-right Vox closes in on power | Eoghan Gilmartin",
+              "url": "https://www.theguardian.com/commentisfree/2026/nov/27/spain-far-right-vox-europe-santiago-abascal-france-coalition"
+            }
+          ]
+        },
+        {
+          "id": "region-europe-2",
+          "headline": "Think Tank Warns of Rising Russian Sabotage Threat in Europe",
+          "summary": "A security report warns that Russian sabotage attacks in Europe are growing. Operatives are targeting infrastructure like railways. Experts say these attacks could cause severe harm and test European unity.",
+          "whyItMatters": "Attacks on public infrastructure like trains could disrupt daily travel and safety for ordinary people across Europe.",
+          "explainer": "The International Institute for Strategic Studies published a report warning about rising Russian sabotage operations across Europe. According to the think tank, Russian intelligence services and their proxies are using increasingly complex methods to target vital public infrastructure, including railway networks. The report warns that these activities are escalating and could eventually lead to an event with mass casualties. Security experts caution that such an event could spark calls for military or diplomatic retaliation and expose political divisions among European Union member states over how to respond to state-backed threats.",
+          "keyTerms": [
+            {
+              "term": "sabotage",
+              "definition": "Deliberate damage done to harm an enemy, country, or organization."
+            },
+            {
+              "term": "infrastructure",
+              "definition": "The basic physical systems of a country, such as roads, railways, and power grids."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 6,
+          "image": "https://i.guim.co.uk/img/media/ac30ecf5a3689253ee969b5e6a005cbe0512c77b/302_0_1473_1179/master/1473.jpg?width=140&quality=85&auto=format&fit=max&s=7c0a189365a04cbe9650cd1db53da869",
+          "sources": [
+            {
+              "name": "The Guardian",
+              "title": "‘Mass-casualty event’ in Europe possible amid rise in Russian sabotage, says thinktank",
+              "url": "https://www.theguardian.com/world/2026/nov/27/mass-casualty-event-europe-possible-russian-sabotage-says-thinktank"
+            }
+          ]
+        },
+        {
+          "id": "region-europe-3",
+          "headline": "Airline Norse Atlantic Files for Bankruptcy Over High Fuel Costs",
+          "summary": "Norwegian airline Norse Atlantic Airways has filed for bankruptcy and canceled all flights. The airline blamed high fuel costs caused by the war in Iran. Passengers were told not to go to airports.",
+          "whyItMatters": "The airline's sudden shutdown leaves travelers stranded and reduces options for long-distance international flights.",
+          "explainer": "Norse Atlantic Airways, a budget airline based in Norway, announced it has filed for insolvency and stopped operating immediately. The company canceled all future flights and told customers not to travel to airports, leaving many passengers stranded away from home. Founded just a few years ago, the low-cost carrier had struggled to make a profit. Company officials said a sudden surge in aviation fuel prices caused by the war involving Iran destroyed its finances. The shutdown marks one of the most prominent airline failures linked to recent global fuel price spikes.",
+          "keyTerms": [
+            {
+              "term": "bankruptcy",
+              "definition": "A legal process when a person or business cannot pay back their debts."
+            },
+            {
+              "term": "insolvency",
+              "definition": "A financial state where a company cannot pay its bills when they are due."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 6,
+          "image": "https://i.guim.co.uk/img/media/e1f07f0b2a8329b3e1557eed373d0458f8cb7e9a/71_0_3289_2633/master/3289.jpg?width=140&quality=85&auto=format&fit=max&s=1922b72a5b6543a0da92f5e45741b64a",
+          "sources": [
+            {
+              "name": "The Guardian",
+              "title": "Norse Atlantic Airways files for bankruptcy and cancels all future flights",
+              "url": "https://www.theguardian.com/business/2026/nov/27/norse-atlantic-airways-files-for-bankruptcy-cancels-all-future-flights"
+            },
+            {
+              "name": "DW",
+              "title": "Airline Norse Atlantic files for bankruptcy, succumbing to aviation fuel costs",
+              "url": "https://www.dw.com/en/airline-norse-atlantic-files-for-bankruptcy-succumbing-to-aviation-fuel-costs/a-80076728?maca=en-rss-en-world-4025-rdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "region-latam",
+      "title": "World · Latin America",
+      "bricks": [
+        {
+          "id": "region-latam-0",
+          "headline": "Mexico files complaint over US drug tip line",
+          "summary": "Mexico filed an official complaint with the United States about a DEA tip line for drug dealers. Mexican officials said the tip line violates the country's national sovereignty.",
+          "whyItMatters": "Diplomatic tensions over drug enforcement can affect security collaboration and border relations between the two neighbors.",
+          "explainer": "Mexico has formally complained to the United States regarding a tip line set up by the Drug Enforcement Administration to report suspected drug dealers. Mexican officials argue that the initiative undermines Mexico's sovereignty by allowing a foreign agency to operate outside official governmental channels. Mexico has urged the U.S. to respect its national borders and legal authority. The dispute highlights long-standing tensions between the two countries over how to handle drug cartels and cross-border law enforcement.",
+          "keyTerms": [
+            {
+              "term": "sovereignty",
+              "definition": "The independent authority of a nation to govern itself without foreign interference."
+            },
+            {
+              "term": "DEA",
+              "definition": "A United States government agency focused on enforcing drug laws."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 5,
+          "image": null,
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "title": "Mexico files complaint with US over DEA tip line on alleged drug dealers",
+              "url": "https://www.aljazeera.com/news/2026/11/27/mexico-files-complaint-with-us-over-tip-line-on-alleged-drug-traffickers?traffic_source=rss"
+            }
+          ]
+        },
+        {
+          "id": "region-latam-1",
+          "headline": "Brazil rejects French president's remarks on meat",
+          "summary": "Brazil has pushed back against comments by French President Emmanuel Macron calling Brazilian meat doped. His statement comes months after the European Union banned certain Brazilian beef and poultry products.",
+          "whyItMatters": "Trade disputes over meat exports can impact Brazil's agricultural economy and international trade agreements.",
+          "explainer": "Brazil's government has publicly rejected comments made by French President Emmanuel Macron, who described Brazilian meat products as doped while addressing French agricultural representatives. The criticism comes following earlier European Union actions that restricted imports of certain Brazilian beef and poultry products. Brazil defends the quality of its agricultural exports as a major source of economic revenue. The dispute reflects broader tensions between European leaders protecting domestic farmers and South American nations seeking access to European markets.",
+          "keyTerms": [
+            {
+              "term": "European Union",
+              "definition": "A group of European countries that cooperate on trade and economic policies."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 4,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/23bb/live/01c67d00-ea73-11f1-a828-d384c0290f6b.jpg",
+          "sources": [
+            {
+              "name": "BBC News",
+              "title": "Brazil pushes back on Macron calling its meat 'doped'",
+              "url": "https://www.bbc.co.uk/news/articles/c6rrg28npvzeo?at_medium=RSS&at_campaign=rss"
+            }
+          ]
+        },
+        {
+          "id": "region-latam-2",
+          "headline": "Costa Rica faces pressure over banning UN expert",
+          "summary": "Costa Rica is facing international criticism after barring United Nations expert Francesca Albanese from entering the country. Israel welcomed the decision, while critics press Costa Rica over the move.",
+          "whyItMatters": "The decision highlights how global geopolitical conflicts over the Middle East can influence diplomatic choices in Latin American nations.",
+          "explainer": "Costa Rica is under international pressure following its decision to bar Francesca Albanese, a United Nations expert who has documented human rights issues in Gaza. While Israeli officials celebrated the decision, critics have questioned Costa Rica's ban on a UN investigator. Albanese has been a prominent global figure reporting on the conflict in the Middle East. The controversy places Costa Rica at the center of international debates regarding diplomatic access and freedom of movement for international human rights monitors.",
+          "keyTerms": [
+            {
+              "term": "United Nations",
+              "definition": "An international organization formed to promote peace and cooperation among countries."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 4,
+          "image": null,
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "title": "Why is Israel celebrating Costa Rica’s ban on Francesca Albanese?",
+              "url": "https://www.aljazeera.com/news/2026/11/27/why-is-israel-celebrating-costa-ricas-ban-on-francesca-albanese?traffic_source=rss"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "region-mideast",
+      "title": "World · Middle East",
+      "bricks": [
+        {
+          "id": "region-mideast-0",
+          "headline": "Judges urge dropping Netanyahu corruption charges",
+          "summary": "Judges in Israeli Prime Minister Benjamin Netanyahu's corruption trial called on prosecutors to drop the charges against him. Netanyahu faces accusations of bribery, fraud, and breach of trust. The attorney general must now decide whether to end the case.",
+          "whyItMatters": "The decision could reshape Israel's government leadership and political future.",
+          "explainer": "Judges presiding over Prime Minister Benjamin Netanyahu's trial asked prosecutors to end proceedings. Netanyahu faces charges of bribery, fraud, and breach of trust across three criminal cases concerning his relations with telecom executives and media figures. It is an unusual intervention by judges during an ongoing trial. The decision now rests with Israel's attorney general, who faces intense political pressure. If the case is dropped, it would end years of legal battles that have deeply divided Israeli politics and influenced national elections. Critics warn that stopping the trial could set a damaging legal precedent.",
+          "keyTerms": [
+            {
+              "term": "bribery",
+              "definition": "Giving or receiving money or gifts to influence an official's actions."
+            },
+            {
+              "term": "breach of trust",
+              "definition": "Failing to carry out a public duty honestly or abusing official power."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 8,
+          "image": "https://i.guim.co.uk/img/media/4b6175712949d01a8b832dc4670e3721e65a6c17/221_138_2799_2239/master/2799.jpg?width=140&quality=85&auto=format&fit=max&s=419b706a76db966be7eccb86809c70d6",
+          "sources": [
+            {
+              "name": "The Guardian",
+              "title": "Momentous decision looms after judges call for Netanyahu charges to be dropped",
+              "url": "https://www.theguardian.com/world/2026/nov/27/israeli-justice-system-judges-call-drop-netanyahu-charges"
+            }
+          ]
+        },
+        {
+          "id": "region-mideast-1",
+          "headline": "US backs Iraq crackdown on Kurdish border oil trade",
+          "summary": "The Iraqi government closed border crossings in the Kurdish region as part of an oil smuggling crackdown. U.S. President Donald Trump voiced support for Iraq's prime minister. Kurdish leaders warned the move violates the constitution.",
+          "whyItMatters": "Control over oil and borders affects revenue, energy supplies, and regional stability for millions in Iraq.",
+          "explainer": "Tensions between Iraq's central government in Baghdad and leaders in the semi-autonomous Kurdish region have grown over control of border points and oil resources. The central government began shutting down crossings to stop illegal oil trading in the north. U.S. President Donald Trump backed the Iraqi government's crackdown. However, Kurdish leaders warned that Baghdad's actions violate the national constitution and called for an emergency meeting to resolve the crisis. The ongoing dispute highlights longstanding fights over oil revenues, regional governance, and authority between leaders in Baghdad and the Kurdish regional government in Erbil.",
+          "keyTerms": [
+            {
+              "term": "semi-autonomous",
+              "definition": "Having the power to govern itself in some areas while remaining part of a larger country."
+            }
+          ],
+          "disagreement": null,
+          "update": "U.S. President Donald Trump publicly supported Baghdad's oil crackdown as Iraq closed Kurdish border crossings.",
+          "importance": 7,
+          "image": null,
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "title": "Trump backs Iraqi PM’s oil smuggling crackdown",
+              "url": "https://www.aljazeera.com/news/2026/11/27/trump-backs-iraqi-pms-oil-smuggling-crackdown?traffic_source=rss"
+            }
+          ]
+        },
+        {
+          "id": "region-mideast-2",
+          "headline": "Iran denies role in Kuwait strike that killed two",
+          "summary": "Iran denied responsibility for a drone strike on a Kuwaiti air-defense station. The attack killed two Italian technicians working for a defense firm. Four other people were injured in the strike.",
+          "whyItMatters": "Escalating attacks on military facilities risk spreading conflict and endangering international workers in the Gulf.",
+          "explainer": "A drone strike targeted an air-defense post in Kuwait, killing two Italian contract workers and injuring four others. The killed technicians worked for a German defense company stationed at the site. Iranian officials denied involvement in the attack following public statements from the Kuwaiti army. The incident has raised security concerns in Kuwait, which hosts foreign military installations and defense contractors. Officials across the region are watching closely as tensions remain high and investigations into the origin of the drone strike continue.",
+          "keyTerms": [
+            {
+              "term": "air-defense",
+              "definition": "Weapons and equipment used to shoot down incoming enemy aircraft or missiles."
+            }
+          ],
+          "disagreement": null,
+          "update": "Iran denied responsibility for the drone strike that killed two Italian technicians in Kuwait.",
+          "importance": 7,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1ece/live/c83dee70-e9f4-11f1-9c56-b1b6306ef9e3.png",
+          "sources": [
+            {
+              "name": "BBC News",
+              "title": "Two Italians killed in strike in Kuwait, as Iran denies responsibility",
+              "url": "https://www.bbc.co.uk/news/articles/c39w9y5dx4k5o?at_medium=RSS&at_campaign=rss"
+            }
+          ]
+        },
+        {
+          "id": "region-mideast-3",
+          "headline": "Allies condemn Houthi strikes on Saudi Arabia",
+          "summary": "Officials from Saudi Arabia, Pakistan, and Turkey condemned recent Houthi attacks on the kingdom. The nations pledged to protect Saudi security. Daily life in the capital city of Riyadh has continued as normal.",
+          "whyItMatters": "Continued attacks on Saudi Arabia threaten regional security and could disrupt global energy markets.",
+          "explainer": "Allied nations met in Islamabad to address ongoing attacks launched by Houthi forces from Yemen against Saudi Arabia. Representatives from Pakistan, Saudi Arabia, and Turkey agreed to strengthen security cooperation to defend the kingdom. Despite the military strikes, public life in cities like Riyadh remains largely unaffected, with markets and restaurants open as residents express confidence in government defenses. The meeting highlights growing concern among regional allies about protecting critical infrastructure and maintaining stability in the Middle East.",
+          "keyTerms": [
+            {
+              "term": "Houthis",
+              "definition": "An armed political and military group based in Yemen."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 6,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/56c4/live/551558a0-e96f-11f1-99a1-253766e7ad8b.jpg",
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "title": "Mecca pact allies condemn ‘heinous’ Houthi attacks on Saudi Arabia",
+              "url": "https://www.aljazeera.com/news/2026/11/27/mecca-pact-allies-condemn-heinous-houthi-attacks-on-saudi-arabia?traffic_source=rss"
+            },
+            {
+              "name": "BBC News",
+              "title": "Inside Saudi Arabia, Houthi attacks test kingdom's image of security",
+              "url": "https://www.bbc.co.uk/news/articles/c6ly7jgv7jzdo?at_medium=RSS&at_campaign=rss"
+            }
+          ]
+        },
+        {
+          "id": "region-mideast-4",
+          "headline": "Human rights report accuses Israel of prisoner abuse",
+          "summary": "A human rights group reported that Israel systematically uses torture on Palestinian prisoners. The group reviewed dozens of complaints against interrogators over the past decade. It warned that forced confessions could lead to wrongful convictions.",
+          "whyItMatters": "The treatment of prisoners affects human rights protections and legal standards across the region.",
+          "explainer": "The Public Committee Against Torture in Israel released a report examining 42 complaints filed against intelligence interrogators over ten years. The organization concluded that Israeli authorities have institutionalized physical and psychological abuse to extract confessions from Palestinian detainees. In some instances, official records showed prior approval for harsh methods. The report warned that relying on forced confessions risks miscarriages of justice and violates international legal standards against torture. Human rights advocates are calling for independent reviews into interrogation practices.",
+          "keyTerms": [
+            {
+              "term": "interrogator",
+              "definition": "A person whose job is to formally question suspects or prisoners."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 6,
+          "image": "https://i.guim.co.uk/img/media/ec01d02a45dadf8945fff6e28597dcdf88dadec1/31_0_1932_1545/master/1932.jpg?width=140&quality=85&auto=format&fit=max&s=7a7e2fdcc88d332a5722cbe9a7230ba9",
+          "sources": [
+            {
+              "name": "The Guardian",
+              "title": "Israel ‘officially sanctions’ torture of Palestinian prisoners to extract confessions, report concludes",
+              "url": "https://www.theguardian.com/world/2026/nov/26/israel-officially-sanctions-torture-palestinian-prisoners-confessions-report"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "top-us",
+      "title": "Top Stories · United States",
+      "bricks": [
+        {
+          "id": "top-us-0",
+          "headline": "Storms Leave Hundreds of Thousands Without Power Across U.S.",
+          "summary": "Severe Thanksgiving storms knocked out power for hundreds of thousands of people across the United States. Heavy rain and high winds caused flooding, downed trees, and major travel delays on both coasts.",
+          "whyItMatters": "Power outages and storm damage affect heat, safety, and holiday travel plans for families.",
+          "explainer": "Severe weather hit both the East and West Coasts over the Thanksgiving holiday, causing wide travel disruptions and physical damage. High winds downed trees and power lines, leaving nearly one million customers without electricity at its peak. Hundreds of thousands of residents remained without power on Friday as emergency crews worked to restore services and perform water rescues in flooded areas stretching from New York to Virginia. The harsh weather also disrupted holiday events, forcing organizers to postpone the annual Macy's Thanksgiving Day Parade in New York City until Saturday.",
+          "keyTerms": [
+            {
+              "term": "power grid",
+              "definition": "The network of wires and equipment that delivers electricity to homes."
+            }
+          ],
+          "disagreement": null,
+          "update": "Hundreds of thousands of people remain without power as heavy rain begins to wind down.",
+          "importance": 7,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/318d/live/6be8b890-ea6b-11f1-99b6-a35a62fa4264.jpg",
+          "sources": [
+            {
+              "name": "BBC News",
+              "title": "Hundreds of thousands still without power after storms hit US on Thanksgiving",
+              "url": "https://www.bbc.co.uk/news/articles/cre3dj5n7dpwo?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "PBS NewsHour",
+              "title": "Heavy rain winds down as power remains out for hundreds of thousands on the East Coast",
+              "url": "https://www.pbs.org/newshour/nation/heavy-rain-winds-down-as-power-remains-out-for-hundreds-of-thousands-on-the-east-coast"
+            },
+            {
+              "name": "NPR",
+              "title": "Thanksgiving storm batters East Coast. And, Black Friday sales to hit record levels",
+              "url": "https://www.npr.org/2026/11/27/g-s1-156004/up-first-newsletter-thanksgiving-storm-black-friday-shopping-asylum-supreme-court"
+            },
+            {
+              "name": "NPR",
+              "title": "From Thanksgiving blackouts to Black Friday, a holiday hit by wild weather and economic woes",
+              "url": "https://www.npr.org/2026/11/27/nx-s1-6054884/thanksgiving-weather-black-friday"
+            },
+            {
+              "name": "NPR",
+              "title": "Morning news brief",
+              "url": "https://www.npr.org/2026/11/27/nx-s1-6047116/morning-news-brief"
+            },
+            {
+              "name": "PBS NewsHour",
+              "title": "Stormy Thanksgiving weather causes delays and damages for many Americans",
+              "url": "https://www.pbs.org/newshour/show/stormy-thanksgiving-weather-causes-delays-and-damages-for-many-americans"
+            },
+            {
+              "name": "BBC News",
+              "title": "Watch: Roofs torn off and streets under water as severe weather hits US",
+              "url": "https://www.bbc.co.uk/news/videos/cq808d704m22o?at_medium=RSS&at_campaign=rss"
+            }
+          ]
+        },
+        {
+          "id": "top-us-1",
+          "headline": "Supreme Court to Review Limits on U.S. Asylum Rights",
+          "summary": "The U.S. Supreme Court will consider whether recent immigration policies violate due process rights. Executive actions by the Trump administration have effectively ended asylum for migrants seeking protection in the country.",
+          "whyItMatters": "The decision will determine whether migrants fleeing danger can legally seek safety in the United States.",
+          "explainer": "Recent executive policy changes by the Trump administration included an asylum ban, mass firings, and new legal moves that effectively halted asylum at the southern border. Civil rights advocates turned to the legal system to challenge these rules. The Supreme Court agreed to consider whether the administration's policy shifts deny people their constitutional right to due process. Due process guarantees that the government must follow fair procedures before taking away legal rights or protection. The upcoming ruling will determine whether the administration's immigration restrictions can remain in place or if asylum processes must be restored.",
+          "keyTerms": [
+            {
+              "term": "asylum",
+              "definition": "Legal protection given by a country to someone fleeing danger in their home nation."
+            },
+            {
+              "term": "due process",
+              "definition": "The requirement that the government must follow fair legal rules for everyone."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 7,
+          "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5079x3386+0+0/resize/5079x3386!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F22%2F2e%2Fbd2ef7014b16a3b474a9ef7aad59%2Fgettyimages-2301934612.jpg",
+          "sources": [
+            {
+              "name": "NPR",
+              "title": "Trump effectively ended asylum. Advocates look to the Supreme Court to restore it",
+              "url": "https://www.npr.org/2026/11/27/nx-s1-6037854/trump-effectively-ended-asylum-supreme-court"
+            }
+          ]
+        },
+        {
+          "id": "top-us-2",
+          "headline": "Some Lawmakers Reconsider Tariffs After Election Losses",
+          "summary": "Some Republican lawmakers say they are open to reconsidering trade tariffs after recent election losses focused on rising costs. The shift gives Democrats an opening to challenge the administration's economic policies.",
+          "whyItMatters": "Changes to tariffs can affect prices for everyday goods bought by consumers.",
+          "explainer": "The Trump administration announced plans for new tariffs on products imported from China, the European Union, and 12 other countries. China faces taxes of 20% on most imported goods under the plan. Proponents say tariffs protect domestic industries, but critics argue they raise prices for consumers. Following election losses driven by voter concerns over high living costs, several Republican lawmakers said they are open to reconsidering some of the trade levies. Meanwhile, international trading partners are adjusting their trade strategies to lessen the impact of U.S. import taxes on their own economies.",
+          "keyTerms": [
+            {
+              "term": "tariff",
+              "definition": "A tax imposed by a government on products imported from other countries."
+            }
+          ],
+          "disagreement": null,
+          "update": "Some Republican lawmakers say they are open to rethinking tariffs after election losses centered on rising costs.",
+          "importance": 7,
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-11T141701Z_915037207_RC2PLOAJAKCL_RTRMADP_3_USA-CONGRESS-1024x683.jpg",
+          "sources": [
+            {
+              "name": "PBS NewsHour",
+              "title": "Republicans rethink tariffs, giving Democrats an opening to challenge Trump",
+              "url": "https://www.pbs.org/newshour/politics/republicans-rethink-tariffs-giving-democrats-an-opening-to-challenge-trump"
+            },
+            {
+              "name": "PBS NewsHour",
+              "title": "News Wrap: EPA reports 'zero' airborne lead in Iowa",
+              "url": "https://www.pbs.org/newshour/show/news-wrap-epa-reports-zero-airborne-lead-in-iowa"
+            },
+            {
+              "name": "BBC News",
+              "title": "Analysis: Why Trump's new tariffs are less of a threat",
+              "url": "https://www.bbc.co.uk/news/articles/c6r7g4e3yep1o?at_medium=RSS&at_campaign=rss"
+            }
+          ]
+        },
+        {
+          "id": "top-us-3",
+          "headline": "Americans Head to Stores for Record Black Friday Shopping",
+          "summary": "U.S. shoppers are expected to set spending records on Black Friday despite concerns about inflation. Stores saw heavy crowds as buyers looked for holiday discounts in person and online.",
+          "whyItMatters": "Holiday spending shows how ordinary families are managing their budgets amidst high prices.",
+          "explainer": "Black Friday traditionally marks the official start of the holiday shopping season in the United States. Despite ongoing worries about high inflation and rising prices, industry experts predict Americans will spend more than $1 trillion overall this holiday season. Technology tracking shows that physical retail stores still draw more foot traffic on Black Friday than any other day of the year, even with growing online competition. Retailers started offering early deals weeks in advance, and many shoppers are using artificial intelligence tools to compare prices and find the best discounts.",
+          "keyTerms": [
+            {
+              "term": "inflation",
+              "definition": "A general increase in prices that reduces what money can buy."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 6,
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-27T133701Z_868131490_RC27WOA9BNAF_RTRMADP_3_HOLIDAYSHOPPING-RETAIL-BLACK-FRIDAY-NEW-YORK-1024x683.jpg",
+          "sources": [
+            {
+              "name": "PBS NewsHour",
+              "title": "Weeks of hot deals are encouraging record Black Friday spending despite inflation concerns",
+              "url": "https://www.pbs.org/newshour/economy/before-sunrise-at-macys-a-familiar-black-friday-ritual-returns-despite-weeks-of-online-deals"
+            },
+            {
+              "name": "NPR",
+              "title": "Thanksgiving storm batters East Coast. And, Black Friday sales to hit record levels",
+              "url": "https://www.npr.org/2026/11/27/g-s1-156004/up-first-newsletter-thanksgiving-storm-black-friday-shopping-asylum-supreme-court"
+            },
+            {
+              "name": "NPR",
+              "title": "From Thanksgiving blackouts to Black Friday, a holiday hit by wild weather and economic woes",
+              "url": "https://www.npr.org/2026/11/27/nx-s1-6054884/thanksgiving-weather-black-friday"
+            },
+            {
+              "name": "NPR",
+              "title": "Morning news brief",
+              "url": "https://www.npr.org/2026/11/27/nx-s1-6047116/morning-news-brief"
+            },
+            {
+              "name": "PBS NewsHour",
+              "title": "The best strategies for holiday shopping in the age of AI",
+              "url": "https://www.pbs.org/newshour/show/the-best-strategies-for-holiday-shopping-in-the-age-of-ai"
+            }
+          ]
+        },
+        {
+          "id": "top-us-4",
+          "headline": "Federal Judge Allows Taxpayer-Funded Government Ads to Continue",
+          "summary": "A federal judge declined to issue a long-term ban on taxpayer-funded government advertisements. Critics and Democrats had argued the ads promoted partisan messages for President Donald Trump ahead of elections.",
+          "whyItMatters": "The ruling affects how federal tax dollars can be used for public advertising during election cycles.",
+          "explainer": "Ahead of recent elections, the federal government ran broadcast advertisements that critics described as partisan political propaganda promoting President Donald Trump. Democratic lawmakers filed a lawsuit seeking a long-term ban to stop the government from spending public funds on the ads. A federal judge ruled against extending a temporary injunction, allowing the government to keep running the commercials. The legal decision addresses the debate over where the law draws the line between official public announcements and political campaign advertising funded by taxpayers.",
+          "keyTerms": [
+            {
+              "term": "taxpayer-funded",
+              "definition": "Paid for using public money collected through taxes."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 5,
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-24T193133Z_1920881394_RC2JUOA900WS_RTRMADP_3_USA-TRUMP-1024x683.jpg",
+          "sources": [
+            {
+              "name": "PBS NewsHour",
+              "title": "Judge declines to issue a long-term ban on taxpayer-funded, pro-Trump ads critics called propaganda",
+              "url": "https://www.pbs.org/newshour/politics/judge-declines-to-issue-a-long-term-ban-on-taxpayer-funded-pro-trump-ads-critics-called-propaganda"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "politics-us",
+      "title": "Politics · United States",
+      "bricks": [
+        {
+          "id": "politics-us-0",
+          "headline": "Supreme Court to Review Trump Asylum Restrictions",
+          "summary": "President Trump's immigration policies have nearly ended asylum for people coming to the U.S. The Supreme Court will soon decide if these rules take away legal rights. Advocates want the court to restore asylum access.",
+          "whyItMatters": "The decision could determine whether people fleeing danger in other countries can seek legal protection in the United States.",
+          "explainer": "President Trump introduced major changes to immigration, including a broad asylum ban, mass firings, and new legal moves. These changes have made it almost impossible for migrants to seek asylum at the U.S. border. Civil rights advocates are asking the Supreme Court to step in. They argue that the government is denying migrants due process, which means fair legal treatment under the law. The Supreme Court will soon review whether the administration's actions follow constitutional rules and whether legal protections for asylum seekers must be restored.",
+          "keyTerms": [
+            {
+              "term": "asylum",
+              "definition": "Legal protection given by a country to someone who has fled danger in their home nation."
+            },
+            {
+              "term": "due process",
+              "definition": "The requirement that the government must respect all legal rights owed to a person under the law."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 7,
+          "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5079x3386+0+0/resize/5079x3386!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F22%2F2e%2Fbd2ef7014b16a3b474a9ef7aad59%2Fgettyimages-2301934612.jpg",
+          "sources": [
+            {
+              "name": "NPR",
+              "title": "Trump effectively ended asylum. Advocates look to the Supreme Court to restore it",
+              "url": "https://www.npr.org/2026/11/27/nx-s1-6037854/trump-effectively-ended-asylum-supreme-court"
+            }
+          ]
+        },
+        {
+          "id": "politics-us-1",
+          "headline": "Republicans Consider Rethinking Trump Tariff Proposal",
+          "summary": "President Trump proposed new taxes on imported goods. Democrats oppose the plan. Following recent election losses, some Republican lawmakers are now open to reconsidering these tariffs.",
+          "whyItMatters": "Tariffs can raise prices on everyday goods for shoppers and change how businesses buy products from other countries.",
+          "explainer": "President Trump wants to add new taxes, called tariffs, on goods brought into the U.S. from major trade partners like China and the European Union. He argues this will protect American industries. However, critics and Democratic lawmakers, including Senator Tim Kaine, say tariffs raise prices for everyday consumers. After recent election losses driven by voters' concerns over high costs, some Republican lawmakers are now willing to re-evaluate the trade plan rather than fully supporting it. Democrats hope to use this opportunity to challenge the administration's economic policies.",
+          "keyTerms": [
+            {
+              "term": "tariff",
+              "definition": "A tax placed by a government on goods imported from other countries."
+            }
+          ],
+          "disagreement": null,
+          "update": "Some Republican lawmakers are now open to reconsidering the proposed tariffs following recent election losses.",
+          "importance": 7,
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-11T141701Z_915037207_RC2PLOAJAKCL_RTRMADP_3_USA-CONGRESS-1024x683.jpg",
+          "sources": [
+            {
+              "name": "PBS NewsHour",
+              "title": "Republicans rethink tariffs, giving Democrats an opening to challenge Trump",
+              "url": "https://www.pbs.org/newshour/politics/republicans-rethink-tariffs-giving-democrats-an-opening-to-challenge-trump"
+            },
+            {
+              "name": "NPR",
+              "title": "Trump administration proposes new tariffs on goods from major U.S. trading partners",
+              "url": "https://www.npr.org/2026/11/26/nx-s1-6054103/trump-administration-proposes-new-tariffs-on-goods-from-major-u-s-trading-partners"
+            },
+            {
+              "name": "NPR",
+              "title": "Sen. Tim Kaine, D-Va., shares why he opposes Trump's proposed tariffs",
+              "url": "https://www.npr.org/2026/11/26/nx-s1-6053944/sen-tim-kaine-d-va-shares-why-he-opposes-trumps-proposed-tariffs"
+            }
+          ]
+        },
+        {
+          "id": "politics-us-2",
+          "headline": "Judge Allows Taxpayer-Funded Ads Promoting Trump",
+          "summary": "A federal judge ruled against Democrats who wanted to stop government-funded advertisements. Critics said the ads used public money to promote President Trump before elections. The judge refused to ban the ads long-term.",
+          "whyItMatters": "This decision affects how the federal government can spend public money on advertisements near election time.",
+          "explainer": "Democratic lawmakers challenged advertisements funded by federal taxpayers, arguing the messages were partisan propaganda meant to help President Donald Trump and his party before the midterm elections. They asked a federal court to permanently stop the government from airing them. However, a federal judge ruled against the Democrats on Wednesday and declined to extend a temporary ban. The decision allows the government to continue running the controversial messages using taxpayer money. Critics say the ads blur the line between official government work and political campaigning.",
+          "keyTerms": [
+            {
+              "term": "partisan",
+              "definition": "Strongly supporting one political party over others."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 6,
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-24T193133Z_1920881394_RC2JUOA900WS_RTRMADP_3_USA-TRUMP-1024x683.jpg",
+          "sources": [
+            {
+              "name": "PBS NewsHour",
+              "title": "Judge declines to issue a long-term ban on taxpayer-funded, pro-Trump ads critics called propaganda",
+              "url": "https://www.pbs.org/newshour/politics/judge-declines-to-issue-a-long-term-ban-on-taxpayer-funded-pro-trump-ads-critics-called-propaganda"
+            }
+          ]
+        },
+        {
+          "id": "politics-us-3",
+          "headline": "Trump to Visit Arizona for Computer Chip Factory",
+          "summary": "President Trump will travel to Arizona on Dec. 4. He will speak at a ceremony for a new computer chip factory. Trump says artificial intelligence is key to his economic plans.",
+          "whyItMatters": "Building computer chips in the U.S. can create local manufacturing jobs and increase domestic technology production.",
+          "explainer": "Taiwan Semiconductor Manufacturing Co., also known as TSMC, is building a new computer chip factory in Arizona. President Donald Trump plans to visit the state on Dec. 4 to speak at the groundbreaking ceremony for the new facility. Trump has made growing the artificial intelligence sector a main goal of his economic policy. Advanced computer chips are necessary to power artificial intelligence technology and modern electronics. The White House and TSMC both confirmed the upcoming presidential visit, highlighting the project as part of broader national economic plans.",
+          "keyTerms": [
+            {
+              "term": "foundry",
+              "definition": "A factory where microchips and semiconductor parts are manufactured."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 5,
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-25T104210Z_1395619294_RC2AQOALL05M_RTRMADP_3_USA-TRUMP-TARIFFS-1024x683.jpg",
+          "sources": [
+            {
+              "name": "PBS NewsHour",
+              "title": "Trump heads to Arizona next week for a high-stakes expansion of TSMC's computer chip factories",
+              "url": "https://www.pbs.org/newshour/politics/trump-heads-to-arizona-next-week-for-a-high-stakes-expansion-of-tsmcs-computer-chip-factories"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "economy-us",
+      "title": "Economy · United States",
+      "bricks": [
+        {
+          "id": "economy-us-0",
+          "headline": "Norse Atlantic Files for Bankruptcy",
+          "summary": "Budget airline Norse Atlantic filed for bankruptcy in Europe. The company said it failed to secure funding after high fuel costs hurt its business.",
+          "whyItMatters": "Passengers with future flights or gift cards may lose their money and need to find other ways to travel.",
+          "explainer": "Norse Atlantic is a budget airline that offered low-cost flights. Budget airlines operate on very tight profit margins, meaning even small increases in costs like fuel can cause major financial trouble. When a company files for bankruptcy, it usually stops normal operations while it tries to sort out its debts or shut down completely. This leaves travelers scrambling for alternate flights and raises concerns about travel costs.",
+          "keyTerms": [
+            {
+              "term": "Bankruptcy",
+              "definition": "A legal process for a company or person that cannot pay its debts."
+            },
+            {
+              "term": "Funding",
+              "definition": "Money raised to help a business operate or pay its bills."
+            }
+          ],
+          "disagreement": null,
+          "update": "The airline officially filed for bankruptcy in Europe after previously warning it might have to do so.",
+          "importance": 7,
+          "image": null,
+          "sources": [
+            {
+              "name": "CNBC",
+              "title": "Budget airline Norse Atlantic files for bankruptcy in Europe after failing to secure funding",
+              "url": "https://www.cnbc.com/2026/11/27/norse-atlantic-bankruptcy-fuel-costs.html"
+            }
+          ]
+        },
+        {
+          "id": "economy-us-1",
+          "headline": "Trump Calls Recent GDP Report Fake",
+          "summary": "President Donald Trump called a major upward revision of third-quarter economic growth a mistake. He demanded an immediate investigation into the Commerce Department.",
+          "whyItMatters": "Trust in official government economic data affects how everyday people view the health of the country's economy.",
+          "explainer": "Gross Domestic Product, or GDP, is a standard way to measure the total value of goods and services produced in a country. Governments and economists use GDP to determine if the economy is growing or shrinking. When these numbers are revised significantly, it can spark political debate about the accuracy and honesty of government reporting. President Trump claimed the original figures were purposely incorrect and called for an investigation.",
+          "keyTerms": [
+            {
+              "term": "GDP",
+              "definition": "Gross Domestic Product, the total value of all goods and services produced in a country."
+            },
+            {
+              "term": "Revision",
+              "definition": "A change or update made to data after new information is reviewed."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 6,
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-24T220218Z_1455087937_RC2KUOAYZ91P_RTRMADP_3_USA-TRUMP-1024x684.jpg",
+          "sources": [
+            {
+              "name": "CNBC",
+              "title": "Trump demands probe into 'record setting error' after third-quarter GDP data gets massive revision higher",
+              "url": "https://www.cnbc.com/2026/11/26/trump-gdp-revision-investigation.html"
+            },
+            {
+              "name": "PBS NewsHour",
+              "title": "Trump calls GDP figures 'fake' and demands an investigation of Commerce Department",
+              "url": "https://www.pbs.org/newshour/politics/trump-calls-gdp-figures-fake-and-demands-an-investigation-of-commerce-department"
+            }
+          ]
+        },
+        {
+          "id": "economy-us-2",
+          "headline": "Shoppers Hit Stores for Black Friday",
+          "summary": "Americans are expected to spend record amounts on Black Friday. High prices have not stopped shoppers from visiting physical stores.",
+          "whyItMatters": "Strong holiday spending helps retail businesses and employees, but can also add to personal debt for families.",
+          "explainer": "Black Friday is the day after Thanksgiving, traditionally marking the start of the holiday shopping season in the United States. Retailers offer large discounts to attract buyers looking for holiday gifts. Even though many families feel squeezed by inflation and higher everyday costs, foot traffic at physical stores remains high alongside online shopping. Retail experts watch these numbers closely to see how confident consumers feel about spending their money.",
+          "keyTerms": [
+            {
+              "term": "Black Friday",
+              "definition": "The busy shopping day after Thanksgiving known for major retail sales."
+            },
+            {
+              "term": "Inflation",
+              "definition": "The general increase in prices over time, which reduces the buying power of money."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 6,
+          "image": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-27T133701Z_868131490_RC27WOA9BNAF_RTRMADP_3_HOLIDAYSHOPPING-RETAIL-BLACK-FRIDAY-NEW-YORK-1024x683.jpg",
+          "sources": [
+            {
+              "name": "PBS NewsHour",
+              "title": "Weeks of hot deals are encouraging record Black Friday spending despite inflation concerns",
+              "url": "https://www.pbs.org/newshour/economy/before-sunrise-at-macys-a-familiar-black-friday-ritual-returns-despite-weeks-of-online-deals"
+            },
+            {
+              "name": "NPR",
+              "title": "Record spending expected on Black Friday",
+              "url": "https://www.npr.org/2026/11/27/nx-s1-6047460/record-spending-expected-on-black-friday"
+            },
+            {
+              "name": "NPR",
+              "title": "Why Americans are still Black Friday shopping despite strained wallets",
+              "url": "https://www.npr.org/2026/11/27/nx-s1-6054846/why-americans-are-still-black-friday-shopping-despite-strained-wallets"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-top",
+      "title": "Sports · Top Headlines",
+      "bricks": [
+        {
+          "id": "sports-top-0",
+          "headline": "MotoGP Champion Marc Marquez Announces Retirement",
+          "summary": "MotoGP champion Marc Marquez says he will retire from the sport. The announcement comes just days after he won a record-equalling eighth title.",
+          "whyItMatters": "Fans will no longer see one of the most successful riders of his generation compete in grand prix racing.",
+          "explainer": "Marc Marquez has decided to stop racing in MotoGP, the top level of motorcycle road racing. His choice comes right after he claimed his eighth world championship title, tying a major record in the sport. Over his career, Marquez became famous for his incredible skill and resilience through many injuries, making his departure a massive moment for motorcycle racing fans around the world.",
+          "keyTerms": [
+            {
+              "term": "MotoGP",
+              "definition": "The premier motorcycle racing world championship event."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 7,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0d31/live/04558090-ea58-11f1-89b9-f318b11567ea.jpg",
+          "sources": [
+            {
+              "name": "BBC Sport",
+              "title": "Eight-time champion Marquez to retire from MotoGP",
+              "url": "https://www.bbc.co.uk/sport/motorsport/articles/c539gd3r3mk2o?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "BBC Sport",
+              "title": "Watch the moment Marc Marquez announced his retirement from Moto GP",
+              "url": "https://www.bbc.co.uk/sport/motorsport/videos/c5n4e3pxnengo?at_medium=RSS&at_campaign=rss"
+            }
+          ]
+        },
+        {
+          "id": "sports-top-1",
+          "headline": "Tyson Fury Cleared to Fight Anthony Joshua",
+          "summary": "Tyson Fury has received medical clearance to fight Anthony Joshua in December. The bout was previously in doubt following claims regarding a health condition.",
+          "whyItMatters": "Boxing fans will get to see a long-anticipated heavyweight showdown between two British champions.",
+          "explainer": "Tyson Fury is officially allowed to step back into the boxing ring after passing his medical checks. The big heavyweight fight against Anthony Joshua had faced questions after claims were made about Fury's medical history, but those issues have cleared, allowing the December bout to move forward as planned.",
+          "keyTerms": [
+            {
+              "term": "Heavyweight",
+              "definition": "The heaviest weight class in professional boxing."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 6,
+          "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/016d/live/ebfae280-ea5a-11f1-89b9-f318b11567ea.jpg",
+          "sources": [
+            {
+              "name": "BBC Sport",
+              "title": "Fury cleared to fight Joshua after wife retracts schizophrenia claim",
+              "url": "https://www.bbc.co.uk/sport/boxing/articles/c539gd2x2ye1o?at_medium=RSS&at_campaign=rss"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-nfl",
+      "title": "Sports · NFL",
+      "bricks": [
+        {
+          "id": "sports-nfl-0",
+          "headline": "NFL Injury Updates: Bears and Jaguars Player News",
+          "summary": "Chicago Bears tight end Colston Loveland is waiting for a second opinion on his left knee. Meanwhile, Jacksonville Jaguars wide receiver Parker Washington is week-to-week with a shoulder injury.",
+          "whyItMatters": "Injuries affect team performance and player health during the football season.",
+          "explainer": "NFL teams must manage player injuries carefully as the season progresses. When key players like tight ends and wide receivers get hurt, teams have to rely on backup players to step up. Getting a second opinion helps players and medical staff figure out the best treatment plan for a safe return.",
+          "keyTerms": [],
+          "disagreement": null,
+          "update": "The Bears are holding off on placing Colston Loveland on injured reserve while he seeks a second opinion on his knee.",
+          "importance": 3,
+          "image": "https://a.espncdn.com/photo/2026/1126/r1751737_600x400_3-2.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Sources: Bears' Colston Loveland awaiting second opinion on knee",
+              "url": "https://www.espn.com/nfl/story/_/id/50612564/sources-bears-expected-place-te-colston-loveland-knee-ir"
+            },
+            {
+              "name": "ESPN",
+              "title": "Jaguars WR Parker Washington (shoulder) is 'week-to-week'",
+              "url": "https://www.espn.com/nfl/story/_/id/50612050/jaguars-wr-parker-washington-shoulder-week-week"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-nba",
+      "title": "Sports · NBA",
+      "bricks": [
+        {
+          "id": "sports-nba-0",
+          "headline": "LaMelo Ball Out With Ankle Sprain",
+          "summary": "LaMelo Ball is out for Friday's game due to a left ankle sprain. He was hurt late in a game against the Thunder.",
+          "whyItMatters": "Losing a star player hurts the team's chances to win games and changes the lineup fans see on the court.",
+          "explainer": "Minnesota Timberwolves star guard LaMelo Ball suffered a left ankle sprain during a game against the Thunder. After limping off the court, the team initially had no immediate update on his condition. Ahead of Friday night's NBA Cup game against the Memphis Grizzlies, the team officially downgraded him to out. Injuries to key players force teams to adjust their game plans and rely on other roster members to fill the scoring and defensive gaps left behind.",
+          "keyTerms": [],
+          "disagreement": null,
+          "update": "Ball has now been officially ruled out for Friday's game against the Grizzlies after getting hurt in the previous game.",
+          "importance": 4,
+          "image": "https://a.espncdn.com/photo/2026/1126/r1751519_600x400_3-2.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Timberwolves downgrade star LaMelo Ball to out with ankle sprain",
+              "url": "https://www.espn.com/nba/story/_/id/50613102/timberwolves-downgrade-lamelo-ball-ankle-sprain"
+            },
+            {
+              "name": "ESPN",
+              "title": "Timberwolves' LaMelo Ball limps off vs. OKC after hurting left ankle",
+              "url": "https://www.espn.com/nba/story/_/id/50601570/timberwolves-lamelo-ball-limps-hurting-left-ankle"
+            }
+          ]
+        },
+        {
+          "id": "sports-nba-1",
+          "headline": "76ers Play Without Jaylen Brown",
+          "summary": "Jaylen Brown will miss Friday's NBA Cup game with a hamstring injury. Joel Embiid is also questionable to play due to an illness.",
+          "whyItMatters": "When top players miss games, fans miss out on seeing their favorite stars, and the team faces a harder path to victory.",
+          "explainer": "The Philadelphia 76ers will be missing Jaylen Brown for their upcoming NBA Cup game against the Indiana Pacers due to a hamstring injury. Additionally, teammate Joel Embiid is listed as questionable to play because of an illness. Managing player health is a major part of the NBA season, as teams must constantly adapt their lineups when key contributors are sidelined by physical issues or sickness.",
+          "keyTerms": [],
+          "disagreement": null,
+          "update": "Brown is officially ruled out for today's game after suffering his hamstring injury earlier in the week.",
+          "importance": 4,
+          "image": "https://a.espncdn.com/photo/2026/1126/r1751810_2_600x400_3-2.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Jaylen Brown out against Pacers; Joel Embiid (illness) questionable",
+              "url": "https://www.espn.com/nba/story/_/id/50606614/76ers-jaylen-brown-hamstring-friday-pacers"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-wnba",
+      "title": "Sports · WNBA",
+      "bricks": [
+        {
+          "id": "sports-wnba-0",
+          "headline": "Search for New WNBA Commissioner Moves Forward",
+          "summary": "The search for a new WNBA commissioner is moving faster. Sources say several people are being looked at for the job.",
+          "whyItMatters": "The commissioner makes big decisions that affect the future of the league and its players.",
+          "explainer": "The search to find a new leader for the Women's National Basketball Association is picking up speed. Sources tell sports reporters that multiple candidates are now under serious consideration for the top post. The commissioner helps guide the direction of the league, manages business deals, and oversees rules. Finding the right person is an important step for the growth of professional women's basketball as the sport gains more fans and attention around the world.",
+          "keyTerms": [
+            {
+              "term": "Commissioner",
+              "definition": "The top leader in charge of running a sports league."
+            }
+          ],
+          "disagreement": null,
+          "update": "The search for a new leader has picked up speed with several candidates now under serious consideration.",
+          "importance": 5,
+          "image": "https://a.espncdn.com/photo/2026/0901/r1710037_600x400_3-2.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Search for new WNBA commissioner picks up steam, sources say",
+              "url": "https://www.espn.com/wnba/story/_/id/50596708/sources-ex-players-cash-feaster-wnba-commish-candidates"
+            }
+          ]
+        },
+        {
+          "id": "sports-wnba-1",
+          "headline": "WNBA Players Choose New Union Leader",
+          "summary": "Players in the WNBA chose Elizabeth Williams as their new union president. She takes over the job from Nneka Ogwumike, who led since 2016.",
+          "whyItMatters": "The union president helps players negotiate with the league on pay, safety, and working conditions.",
+          "explainer": "Players in the Women's National Basketball Association have a new leader to represent them. Elizabeth Williams, a center for the Chicago Sky, was elected to lead the Women's National Basketball Players Association. She replaces Nneka Ogwumike, who held the job starting in 2016. The union works to protect player rights, negotiate contracts, and make sure athletes have a strong voice in how the league operates.",
+          "keyTerms": [
+            {
+              "term": "Union",
+              "definition": "An organization of workers that helps protect their rights and negotiate pay."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 4,
+          "image": "https://a.espncdn.com/photo/2026/1124/r1750763_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "WNBA players elect Elizabeth Williams as union president",
+              "url": "https://www.espn.com/wnba/story/_/id/50585586/wnba-players-elect-elizabeth-williams-lead-players-union"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-mlb",
+      "title": "Sports · MLB",
+      "bricks": [
+        {
+          "id": "sports-mlb-0",
+          "headline": "MLB Teams Rush to Sign Players as Offseason Deals Continue",
+          "summary": "Major League Baseball teams are busy signing players to new contracts. Many clubs are locking in key roster spots before any potential league work stoppage happens.",
+          "whyItMatters": "These roster moves shape the teams that fans will watch and cheer for in the upcoming baseball season.",
+          "explainer": "Baseball teams are working quickly to add players to their rosters during the winter offseason. General managers are making deals with free agents, which are players whose old contracts have ended and are free to sign anywhere. These agreements involve millions of dollars and multi-year commitments as teams try to build winning squads. Fans watch these transactions closely to see how their favorite teams will perform when the new season begins.",
+          "keyTerms": [
+            {
+              "term": "free agent",
+              "definition": "A professional sports player whose contract has ended and who is free to sign with any team."
+            }
+          ],
+          "disagreement": null,
+          "update": "Teams continue to finalize major roster additions with numerous player agreements announced across the league.",
+          "importance": 5,
+          "image": "https://a.espncdn.com/photo/2026/1121/r1749073_600x400_3-2.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "A.J. Ewing finalizes 8-year, $95 million deal with Mets",
+              "url": "https://www.espn.com/mlb/story/_/id/50612781/aj-ewing-finalizes-8-year-95-million-deal-mets"
+            },
+            {
+              "name": "ESPN",
+              "title": "Reports: Foster Griffin agrees to 3-year, $48M deal to stay with Guardians",
+              "url": "https://www.espn.com/mlb/story/_/id/50600391/foster-griffin-agrees-3-year-48-million-deal-stay-guardians"
+            },
+            {
+              "name": "ESPN",
+              "title": "Sources: Rockies agree to deals with David Peterson, Patrick Sandoval",
+              "url": "https://www.espn.com/mlb/story/_/id/50599272/sources-rockies-agree-2-year-32m-deal-lhp-peterson"
+            },
+            {
+              "name": "ESPN",
+              "title": "Sources: Twins, reliever Kevin Ginkel agree to 2-year, $18 million deal",
+              "url": "https://www.espn.com/mlb/story/_/id/50602024/twins-kevin-ginkel-agree-2-year-18-million-deal"
+            },
+            {
+              "name": "ESPN",
+              "title": "Sources: Orioles to bring Luis Robert Jr. back on 1-year, $12M deal",
+              "url": "https://www.espn.com/mlb/story/_/id/50599469/sources-orioles-luis-robert-jr-agree-1-year-12m-deal"
+            },
+            {
+              "name": "ESPN",
+              "title": "Sources: Free agent Kevin Gausman, Tigers reach 1-year, $25M deal",
+              "url": "https://www.espn.com/mlb/story/_/id/50599090/sources-free-agent-kevin-gausman-tigers-reach-deal"
+            },
+            {
+              "name": "ESPN",
+              "title": "Source: Marlins agree to 1-year deal with catcher Gary Sanchez",
+              "url": "https://www.espn.com/mlb/story/_/id/50598771/source-marlins-agree-one-year-deal-gary-sanchez"
+            },
+            {
+              "name": "ESPN",
+              "title": "Free agent Alec Bohm reaches 2-year deal with Royals, reports say",
+              "url": "https://www.espn.com/mlb/story/_/id/50594322/reports-free-agent-alec-bohm-reaches-2-year-royals"
+            },
+            {
+              "name": "ESPN",
+              "title": "Sources: Reds catcher Tyler Stephenson staying on 3-year, $30 million deal",
+              "url": "https://www.espn.com/mlb/story/_/id/50589047/reds-c-tyler-stephenson-staying-30-million-3-year-deal"
+            },
+            {
+              "name": "ESPN",
+              "title": "Sources: White Sox, OF Tyrone Taylor agree to 2-year, $17 million deal",
+              "url": "https://www.espn.com/mlb/story/_/id/50587577/white-sox-tyrone-taylor-agree-2-year-17-million-deal"
+            },
+            {
+              "name": "ESPN",
+              "title": "Sources: Japanese righty Kaima Taira, Blue Jays agree to 5-year, $80M deal",
+              "url": "https://www.espn.com/mlb/story/_/id/50585003/sources-kaima-taira-blue-jays-agree-5-year-80m-deal"
+            },
+            {
+              "name": "ESPN",
+              "title": "Sources: Freddy Peralta stays in AL East, gets $125M deal to top Orioles rotation",
+              "url": "https://www.espn.com/mlb/story/_/id/50583512/sources-freddy-peralta-orioles-5-years-125-million"
+            },
+            {
+              "name": "ESPN",
+              "title": "Sources: Cubs agree to 6-year, $120M deal with Japan's Teruaki Sato",
+              "url": "https://www.espn.com/mlb/story/_/id/50583163/sources-cubs-teruaki-sato-reach-6-year-120m-deal"
+            },
+            {
+              "name": "ESPN",
+              "title": "Sources: Tigers, Ha-Seong Kim agree to 1-year, $5M contract",
+              "url": "https://www.espn.com/mlb/story/_/id/50584756/sources-tigers-ha-seong-kim-agree-1-year-5m-contract"
+            },
+            {
+              "name": "ESPN",
+              "title": "Sources: Guardians, lefty Kris Bubic agree to one-year, $17.5M deal",
+              "url": "https://www.espn.com/mlb/story/_/id/50583426/sources-guardians-lefty-kris-bubic-agree-one-year-deal"
+            },
+            {
+              "name": "ESPN",
+              "title": "Sources: Trevor Rogers, Cubs reach 5-year, $120M free agent deal",
+              "url": "https://www.espn.com/mlb/story/_/id/50579432/sources-free-agent-trevor-rogers-cubs-reach-5-year-deal"
+            },
+            {
+              "name": "ESPN",
+              "title": "Sources: Royals sign LHP Caleb Thielbar to 1-year, $3.25 million contract",
+              "url": "https://www.espn.com/mlb/story/_/id/50578048/royals-sign-pitcher-caleb-thielbar-1-year-contract"
+            },
+            {
+              "name": "ESPN",
+              "title": "Sources: Yankees agree to 1-year, $4M deal with reliever Suter",
+              "url": "https://www.espn.com/mlb/story/_/id/50576087/yankees-agree-1-year-4m-deal-reliever-suter"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-nhl",
+      "title": "Sports · NHL",
+      "bricks": [
+        {
+          "id": "sports-nhl-0",
+          "headline": "Devils Player Suspended Four Games for Illegal Hit",
+          "summary": "New Jersey Devils defenseman Brenden Dillon received a four-game suspension. The penalty follows an illegal hit to the head of Columbus Blue Jackets defenseman Denton Mateychuk.",
+          "whyItMatters": "This suspension affects the New Jersey Devils by removing a key defenseman from their lineup for several upcoming games.",
+          "explainer": "The National Hockey League Department of Player Safety announced that New Jersey Devils defenseman Brenden Dillon will miss four games. The discipline comes after a review of an illegal hit to the head delivered to Columbus Blue Jackets defenseman Denton Mateychuk. Player safety hearings are routine procedures used by the league to review dangerous on-ice contact and determine if supplemental discipline, such as fines or suspensions, is necessary to protect athletes.",
+          "keyTerms": [
+            {
+              "term": "Suspension",
+              "definition": "A penalty that forces a player to sit out a specific number of games without pay."
+            }
+          ],
+          "disagreement": null,
+          "update": "NHL officials suspended Brenden Dillon for four games following his hearing over the hit on Denton Mateychuk.",
+          "importance": 4,
+          "image": "https://a.espncdn.com/photo/2026/1126/r1751530_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Devils defenseman Brenden Dillon suspended 4 games for illegal hit to the head",
+              "url": "https://www.espn.com/nhl/story/_/id/50605811/devils-brenden-dillon-suspended-4-games-illegal-hit"
+            },
+            {
+              "name": "ESPN",
+              "title": "Devils' Brenden Dillon to have hearing for hit on Blue Jackets' Denton Mateychuk",
+              "url": "https://www.espn.com/nhl/story/_/id/50602167/devils-brenden-dillon-hearing-denton-mateychuk-hit"
+            }
+          ]
+        },
+        {
+          "id": "sports-nhl-1",
+          "headline": "Islanders Forward Kyle Palmieri Out 6-8 Months",
+          "summary": "New York Islanders forward Kyle Palmieri will miss six to eight months. He suffered a torn ACL and meniscus in his right knee.",
+          "whyItMatters": "The long-term injury removes a major forward from the New York Islanders' roster for the bulk of the season, impacting the team's scoring power.",
+          "explainer": "The New York Islanders announced that forward Kyle Palmieri faces a lengthy recovery of six to eight months. Palmieri sustained a torn anterior cruciate ligament and meniscus in his right knee. The ACL and meniscus are critical components that stabilize the knee joint, and repairing them typically requires extensive surgery and physical therapy before an athlete can safely return to professional contact sports.",
+          "keyTerms": [
+            {
+              "term": "ACL",
+              "definition": "A key ligament in the knee that helps keep the joint stable during movement."
+            },
+            {
+              "term": "Meniscus",
+              "definition": "A piece of cartilage in the knee that cushions the joint against impact."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 4,
+          "image": "https://a.espncdn.com/photo/2025/1130/r1582704_576x324_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Islanders forward Kyle Palmieri (ACL, meniscus) out 6-8 months",
+              "url": "https://www.espn.com/nhl/story/_/id/50612273/islanders-kyle-palmieri-acl-meniscus-6-8-months"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-cfb",
+      "title": "Sports · College Football",
+      "bricks": [
+        {
+          "id": "sports-cfb-0",
+          "headline": "Texas Tech Beats TCU 48-27 To Reach Big 12 Title Game",
+          "summary": "Thomas Castellanos threw for 374 yards and three touchdowns. No. 9 Texas Tech defeated TCU 48-27 on Thursday. The win secured a spot in the Big 12 championship game against No. 2 Utah.",
+          "whyItMatters": "This win advances Texas Tech to the conference title game and keeps their championship hopes alive.",
+          "explainer": "No. 9 Texas Tech secured a spot in the Big 12 title game by defeating TCU 48-27 on Thursday night. Quarterback Thomas Castellanos had a strong game, completing 20 of 25 passes for a career-high 374 yards. He threw three touchdown passes, with two coming in a quick four-play span late in the first half. Texas Tech will now face No. 2 Utah for the conference championship.",
+          "keyTerms": [
+            {
+              "term": "conference championship",
+              "definition": "A end-of-season game played between the top teams in a sports league to decide the champion."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 6,
+          "image": "https://s.espncdn.com/stitcher/sports/football/college-football/events/401856879.png?templateId=espn.applewatch.awayhome.1",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "No. 9 Texas Tech beats TCU 48-27 to secure spot against No. 2 Utah in Big 12 title game",
+              "url": "http://www.espn.com/ncf/recap?gameId=401856879"
+            }
+          ]
+        },
+        {
+          "id": "sports-cfb-1",
+          "headline": "Top Recruit D.J. Jacobs Commits To Miami",
+          "summary": "Five-star defensive end D.J. Jacobs changed his mind about playing for Ohio State. Just hours later, the top recruit committed to Miami. He is considered the No. 2 overall player in the 2027 class.",
+          "whyItMatters": "Recruiting changes can quickly alter the future success and talent level of a college football program.",
+          "explainer": "Five-star defensive end D.J. Jacobs, who is ranked as the No. 2 overall recruit in the 2027 class, has changed his college plans. Sources said he decommitted from Ohio State. Just hours after pulling his commitment, Jacobs announced he will commit to Miami instead. Several other schools, including Tennessee and Georgia, had also been in the running for the talented player.",
+          "keyTerms": [
+            {
+              "term": "commit",
+              "definition": "When a high school player officially chooses which college team they will play for."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 5,
+          "image": "https://a.espncdn.com/photo/2026/0217/r1616334_600x400_3-2.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Top DE D.J. Jacobs commits to Miami hours after pulling Ohio State commitment",
+              "url": "https://www.espn.com/college-football/story/_/id/50606746/top-de-recruit-dj-jacobs-commits-miami-hours-decommitting-ohio-state"
+            },
+            {
+              "name": "ESPN",
+              "title": "D.J. Jacobs decommits from Ohio State, sources say, making top DE available again",
+              "url": "https://www.espn.com/college-football/story/_/id/50606035/sources-de-dj-jacobs-decommits-ohio-state"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-cbb",
+      "title": "Sports · College Basketball",
+      "bricks": [
+        {
+          "id": "sports-cbb-0",
+          "headline": "No. 2 Virginia Beats Xavier 83-71",
+          "summary": "Sam Lewis scored 21 points for Virginia. The team beat Xavier to win the game. It was part of a sports series.",
+          "whyItMatters": "This win keeps the Virginia team moving forward in their season standings.",
+          "explainer": "The Virginia college basketball team secured an 83-71 win against Xavier on Friday during the Battle 4 Atlantis Signature Series. Sam Lewis led the team with 21 points, while teammate Elijah Gertrude added another 17 points coming off the bench. The victory adds another win to Virginia's season record as they continue to play through their early-season tournament games against tough college opponents.",
+          "keyTerms": [],
+          "disagreement": null,
+          "update": null,
+          "importance": 3,
+          "image": "https://s.espncdn.com/stitcher/sports/basketball/mens-college-basketball/events/401920429.png?templateId=espn.applewatch.awayhome.1",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Sam Lewis scores 21 points, Elijah Gertrude 17 and No. 2 Virginia handles Xavier 83-71",
+              "url": "http://www.espn.com/ncb/recap?gameId=401920429"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-mls",
+      "title": "Sports · MLS",
+      "bricks": [
+        {
+          "id": "sports-mls-0",
+          "headline": "MLS Owners Agree to New Playoff Format for 2027",
+          "summary": "MLS team owners have agreed to a new playoff format. The upcoming structure will feature 16 teams starting in the 2027-28 season.",
+          "whyItMatters": "This change affects how teams compete for the championship in future seasons.",
+          "explainer": "Major League Soccer team owners have decided to change how their postseason works. Starting with the 2027-28 season, the playoff format will feature 16 teams. This structure alters the path that clubs must take to reach the final and win the championship title. Sports leagues periodically adjust their postseason rules to change how teams qualify and compete for the league trophy.",
+          "keyTerms": [],
+          "disagreement": null,
+          "update": "Nothing new today beyond the agreement reached by team owners.",
+          "importance": 5,
+          "image": "https://a.espncdn.com/photo/2026/1125/r1751211_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Source: MLS owners agree new 16-team playoff format starting in 2027-28",
+              "url": "https://www.espn.com/soccer/story/_/id/50595745/mls-playoff-format-new-2027-2028-change-owners"
+            }
+          ]
+        },
+        {
+          "id": "sports-mls-1",
+          "headline": "Houston Midfielder Available for Playoff Opener Despite Probe",
+          "summary": "Houston Dynamo midfielder Héctor Herrera is available for the team's playoff opener. The league is gathering information after he was reportedly arrested on suspicion of driving while intoxicated.",
+          "whyItMatters": "It affects the team's lineup and performance in an important playoff game.",
+          "explainer": "Houston Dynamo FC midfielder Héctor Herrera is able to play in the team's upcoming playoff opener. This comes as Major League Soccer officials gather information regarding his reported arrest for suspicion of driving while intoxicated. Leagues typically look into off-field legal matters involving players to decide if any internal rules or disciplinary actions apply.",
+          "keyTerms": [],
+          "disagreement": null,
+          "update": "The league is continuing to gather information, but the player is available for the upcoming playoff game.",
+          "importance": 4,
+          "image": "https://a.espncdn.com/photo/2026/1123/r1750418_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Houston says Herrera available for Dynamo playoff opener amid MLS probe",
+              "url": "https://www.espn.com/soccer/story/_/id/50577651/houston-herrera-available-dynamo-playoff-opener-mls-probe"
+            }
+          ]
+        },
+        {
+          "id": "sports-mls-2",
+          "headline": "Orlando City Fires Interim Coaches After Playoff Exit",
+          "summary": "Orlando City SC fired interim head coach Martín Perelman and assistant coach Sebastián Setti. The team made the coaching change after losing to FC Cincinnati in a wild-card match.",
+          "whyItMatters": "It changes the leadership structure of the professional soccer club as it prepares for the next season.",
+          "explainer": "Orlando City SC has made a change to its coaching staff following a postseason loss. The club fired interim head coach Martín Perelman and interim assistant coach Sebastián Setti. The dismissal follows the team's defeat against FC Cincinnati in an MLS Cup Eastern Conference wild-card match, ending their run in the current tournament and prompting a search for new leadership.",
+          "keyTerms": [],
+          "disagreement": null,
+          "update": null,
+          "importance": 4,
+          "image": "https://a.espncdn.com/photo/2026/1123/r1750351_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Orlando City fires interim coach Perelman, assistant Setti after playoff exit",
+              "url": "https://www.espn.com/soccer/story/_/id/50576429/orlando-city-fires-perelman-playoff-exit"
+            }
+          ]
+        },
+        {
+          "id": "sports-mls-3",
+          "headline": "St. Louis City Beats LAFC in Playoff Opener",
+          "summary": "St. Louis City defeated Los Angeles FC 3-2 in the opening match of the Western Conference playoffs. St. Louis never trailed during the game.",
+          "whyItMatters": "The victory gives St. Louis City an early lead in the playoff series.",
+          "explainer": "St. Louis City secured a victory in the opening match of the MLS Cup Western Conference first round by defeating Los Angeles FC 3-2. St. Louis played a strong game and never trailed on the scoreboard. Winning the first game gives the team an early advantage in the multi-game playoff series.",
+          "keyTerms": [],
+          "disagreement": null,
+          "update": null,
+          "importance": 4,
+          "image": "https://s.espncdn.com/stitcher/sports/soccer/usa.1/events/401933728.png?templateId=espn.applewatch.awayhome.1",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "St. Louis City holds off LAFC in 3-2 victory to take first-round lead",
+              "url": "http://www.espn.com/soccer/report/_/gameId/401933728"
+            }
+          ]
+        },
+        {
+          "id": "sports-mls-4",
+          "headline": "FC Cincinnati to Honor Fiona the Hippo",
+          "summary": "FC Cincinnati will honor the Cincinnati Zoo's famous hippo, Fiona, with a special display. The animal died unexpectedly last week.",
+          "whyItMatters": "It is a local tribute that connects the soccer club to a popular community animal.",
+          "explainer": "FC Cincinnati plans to honor Fiona, the famous hippopotamus from the Cincinnati Zoo, following her unexpected death last week. The club will feature a tifo, which is a large visual display or banner made by fans in the stadium stands. Sports teams often use these displays to pay tribute to local figures or events that hold a special place in the community's heart.",
+          "keyTerms": [
+            {
+              "term": "tifo",
+              "definition": "A large banner or visual display shown by fans in the stands at a sports match."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 3,
+          "image": "https://a.espncdn.com/photo/2026/1124/r1750546_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Fiona the hippo to be honored by FC Cincinnati with tifo after untimely death",
+              "url": "https://www.espn.com/soccer/story/_/id/50581745/fiona-hippo-fc-cincinnati-tifo-death-honoured-mls"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-epl",
+      "title": "Sports · Premier League",
+      "bricks": [
+        {
+          "id": "sports-epl-0",
+          "headline": "Tottenham Loses Sávio for Season, Extends Teen Star",
+          "summary": "Tottenham will miss player Sávio for the rest of 2026 due to a hamstring injury. Meanwhile, teenager Luca Williams-Barnett has signed a new long-term contract with the club.",
+          "whyItMatters": "Losing a key player for the season hurts Tottenham's depth and chances in the standings.",
+          "explainer": "Tottenham Hotspur confirmed a major roster blow as Sávio will be sidelined for the remainder of 2026 due to a hamstring injury suffered late against Ipswich. On a brighter note for the club, 18-year-old rising star Luca Williams-Barnett has signed a new long-term contract following his impressive full debut. Fans hope the young talent can help fill the void left by injuries as the team pushes through the demanding Premier League schedule.",
+          "keyTerms": [
+            {
+              "term": "Hamstring",
+              "definition": "A group of muscles located at the back of the thigh."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 5,
+          "image": "https://a.espncdn.com/photo/2026/1127/r1752099_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Tottenham's Sávio out for rest of 2026 with hamstring injury - De Zerbi",
+              "url": "https://www.espn.com/soccer/story/_/id/50612479/tottenham-savio-roberto-de-zerbi"
+            },
+            {
+              "name": "ESPN",
+              "title": "Tottenham prodigy Luca Williams-Barnett, 18, signs new contract",
+              "url": "https://www.espn.com/soccer/story/_/id/50581320/tottenham-hotspur-luca-williams-barnett-18-new-contract"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-laliga",
+      "title": "Sports · La Liga",
+      "bricks": [
+        {
+          "id": "sports-laliga-0",
+          "headline": "Barcelona to Appeal Fermín López Ban",
+          "summary": "Barcelona plans to appeal a two-match ban given to Fermín López. He received a red card during a recent win over Villarreal.",
+          "whyItMatters": "This affects Barcelona's squad depth and player availability for upcoming league matches.",
+          "explainer": "Fermín López received a red card during Barcelona's comeback win against Villarreal last weekend. Because of this, the player was given a two-match suspension by the league. Barcelona sources indicate the club will appeal this decision so the player can return to the field sooner. Red cards and subsequent suspensions can significantly impact a team's strategy and performance in the standings when key players are forced to sit out.",
+          "keyTerms": [
+            {
+              "term": "Suspension",
+              "definition": "A rule that keeps a player from playing in games for a set period."
+            },
+            {
+              "term": "Appeal",
+              "definition": "A formal request to change a ruling or punishment."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 4,
+          "image": "https://a.espncdn.com/photo/2026/1125/r1751001_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Barcelona to appeal Fermín López's two-match ban - sources",
+              "url": "https://www.espn.com/soccer/story/_/id/50591588/fermin-lopez-barcelona-ban-appeal-sources"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-bundesliga",
+      "title": "Sports · Bundesliga",
+      "bricks": [
+        {
+          "id": "sports-bundesliga-0",
+          "headline": "Bayern Munich Faces Questions Over Jamal Musiala's Health",
+          "summary": "Bayern Munich player Joshua Kimmich criticized his club for its treatment of teammate Jamal Musiala. Musiala has a health condition that causes seizures. The club says his health is their top priority after holding meetings with his agents.",
+          "whyItMatters": "This story matters to fans because it affects team harmony and the health of a star player.",
+          "explainer": "Bayern Munich midfielder Joshua Kimmich criticized his club over how it handled teammate Jamal Musiala. Musiala has a medical condition that causes seizures. Kimmich called the situation an absolute no-go and said it was not like Bayern. In response, head coach Vincent Kompany and sporting director Christoph Freund said off-field issues are not a distraction for the team. The club also stated that Musiala's health is their top priority after holding a constructive meeting with the player's agents to discuss his health.",
+          "keyTerms": [],
+          "disagreement": null,
+          "update": "Coach Vincent Kompany says the team is not distracted by the issue and remains focused on their upcoming match against Hamburg.",
+          "importance": 5,
+          "image": "https://a.espncdn.com/photo/2026/1127/r1752044_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Vincent Kompany dismisses talk of Bayern unrest amid Jamal Musiala controversy",
+              "url": "https://www.espn.com/soccer/story/_/id/50611723/vincent-kompany-bayern-munich-jamal-musiala"
+            },
+            {
+              "name": "ESPN",
+              "title": "Joshua Kimmich blasts Bayern Munich over Jamal Musiala treatment: 'Absolute no-go'",
+              "url": "https://www.espn.com/soccer/story/_/id/50602935/bayern-munich-jamal-musiala-health-issues-kimmich"
+            },
+            {
+              "name": "ESPN",
+              "title": "Bayern Munich, Jamal Musiala mess shows German champs at their worst",
+              "url": "https://www.espn.com/soccer/story/_/id/50595091/bayern-munich-jamal-musiala-fainting-injuries"
+            },
+            {
+              "name": "ESPN",
+              "title": "Bayern Munich: Jamal Musiala's health 'top priority' amid contract doubts",
+              "url": "https://www.espn.com/soccer/story/_/id/50592045/jamal-musiala-bayern-munich-health"
+            },
+            {
+              "name": "ESPN",
+              "title": "Bayern hold 'constructive' talks with Musiala's agents over health, not money",
+              "url": "https://www.espn.com/soccer/story/_/id/50583931/bayern-munich-jamal-musiala-health-contract"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-seriea",
+      "title": "Sports · Serie A",
+      "bricks": [
+        {
+          "id": "sports-seriea-0",
+          "headline": "Lazio Leads Serie A Without Home Fans",
+          "summary": "Lazio is doing very well in Serie A this season. The team is winning games even though their fans refuse to go to home matches until the club is sold.",
+          "whyItMatters": "This story matters to Lazio fans who are protesting ticket sales and trying to change club ownership.",
+          "explainer": "Lazio is currently at the top of the Serie A standings. This success is remarkable because the team is playing its home games without its supporters in the stands. The fans are staging a boycott to protest the club's ownership and will not return until the team is sold to new owners.",
+          "keyTerms": [],
+          "disagreement": null,
+          "update": null,
+          "importance": 5,
+          "image": "https://a.espncdn.com/photo/2026/1124/r1750526_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Lazio are top of Serie A despite playing without their fans",
+              "url": "https://www.espn.com/soccer/story/_/id/50575536/lazio-serie-fan-protests-claudio-lotito"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-ligue1",
+      "title": "Sports · Ligue 1",
+      "bricks": [
+        {
+          "id": "sports-ligue1-0",
+          "headline": "PSG Moves Forward Despite Major Player Injuries",
+          "summary": "Paris Saint-Germain faces long-term injuries to key players Désiré Doué and Khvicha Kvaratskhelia. Manager Luis Enrique says the team will find a way to cope with these losses.",
+          "whyItMatters": "This affects the team's performance and strategy for upcoming matches this season.",
+          "explainer": "Paris Saint-Germain must deal with the absence of injured key players Désiré Doué and Khvicha Kvaratskhelia for a long period. Manager Luis Enrique stated that the team will not make excuses and will find a way to perform well without them. Fans will watch closely to see how the team adjusts its lineup and tactics during this difficult time.",
+          "keyTerms": [],
+          "disagreement": null,
+          "update": "PSG manager Luis Enrique stated the team will cope with the injuries without making excuses.",
+          "importance": 4,
+          "image": "https://a.espncdn.com/photo/2026/1124/r1750714_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Luis Enrique insists PSG won't 'start crying' over Doué, Kvaratskhelia injuries",
+              "url": "https://www.espn.com/soccer/story/_/id/50584788/psg-luis-enrique-injuries-desire-doue-khvicha-kvaratskhelia"
+            }
+          ]
+        },
+        {
+          "id": "sports-ligue1-1",
+          "headline": "PSG Reveals New 2026-27 Third Kit",
+          "summary": "Paris Saint-Germain released its new third kit for the 2026-27 season. The jersey is part of the club's latest collaboration with the Jordan brand.",
+          "whyItMatters": "This gives fans a new way to support their team and buy official merchandise.",
+          "explainer": "Three months into the season, Paris Saint-Germain finally showed off its new third kit. The jersey is the result of a special partnership with the Jordan brand. Supporters of the club can now purchase and wear the new design during games and in daily life.",
+          "keyTerms": [
+            {
+              "term": "kit",
+              "definition": "The official uniform worn by players during a match."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 3,
+          "image": "https://a.espncdn.com/photo/2026/1124/r1750534_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Paris Saint-Germain drop one of this season's best kits in latest Jordan collab",
+              "url": "https://www.espn.com/soccer/story/_/id/50581189/psg-kit-nike-jordan-champions-league"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-ucl",
+      "title": "Sports · Champions League",
+      "bricks": [
+        {
+          "id": "sports-ucl-0",
+          "headline": "Joshua Kimmich Criticizes Bayern Munich Over Jamal Musiala Treatment",
+          "summary": "Bayern Munich midfielder Joshua Kimmich criticized the club's treatment of teammate Jamal Musiala. Musiala deals with a condition that causes seizures, prompting concerns about how the club cares for its players.",
+          "whyItMatters": "It highlights how sports teams handle player health and medical privacy, affecting player safety and trust.",
+          "explainer": "Bayern Munich midfielder Joshua Kimmich spoke out against his club's handling of teammate Jamal Musiala. Musiala deals with a health condition that causes seizures. Kimmich called the club's behavior \"not Bayern-like\" and an \"absolute no-go.\" The dispute highlights tensions behind the scenes at the German club regarding player care and medical privacy.",
+          "keyTerms": [
+            {
+              "term": "Seizures",
+              "definition": "Sudden bursts of electrical activity in the brain that can cause shaking or loss of control."
+            }
+          ],
+          "disagreement": null,
+          "update": "Joshua Kimmich spoke out against Bayern Munich's handling of Jamal Musiala's health issues, calling the club's behavior unacceptable.",
+          "importance": 5,
+          "image": "https://a.espncdn.com/photo/2026/1126/r1751555_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Joshua Kimmich blasts Bayern Munich over Jamal Musiala treatment: 'Absolute no-go'",
+              "url": "https://www.espn.com/soccer/story/_/id/50602935/bayern-munich-jamal-musiala-health-issues-kimmich"
+            },
+            {
+              "name": "ESPN",
+              "title": "Bayern Munich, Jamal Musiala mess shows German champs at their worst",
+              "url": "https://www.espn.com/soccer/story/_/id/50595091/bayern-munich-jamal-musiala-fainting-injuries"
+            }
+          ]
+        },
+        {
+          "id": "sports-ucl-1",
+          "headline": "Manchester United Held to Draw After Goalkeeper Errors",
+          "summary": "Manchester United tied 2-2 with Sporting CP after costly errors by goalkeeper Senne Lammens. Bruno Fernandes scored a bizarre goal, but coach Mauricio Pochettino felt officials punished his team.",
+          "whyItMatters": "It affects Manchester United's standing in the tournament and tests the team's morale under their new coach.",
+          "explainer": "Manchester United's winless run continued with a 2-2 draw against Sporting CP in the UEFA Champions League. Goalkeeper Senne Lammens made costly mistakes that hurt the team, though his teammates rallied to support him. Meanwhile, coach Mauricio Pochettino felt officials treated his team unfairly. Bruno Fernandes managed to score a strange goal that helped United secure a tie.",
+          "keyTerms": [],
+          "disagreement": null,
+          "update": "Teammates have rallied to support goalkeeper Senne Lammens after his costly mistakes denied coach Mauricio Pochettino his first win.",
+          "importance": 5,
+          "image": "https://a.espncdn.com/photo/2026/1126/r1751550_2_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Joshua Zirkzee backs Senne Lammens: 'We didn't draw because of him'",
+              "url": "https://www.espn.com/soccer/story/_/id/50602701/joshua-zirkzee-senne-lammens-man-united"
+            },
+            {
+              "name": "ESPN",
+              "title": "Man United's costly errors overshadow early progress under Mauricio Pochettino",
+              "url": "https://www.espn.com/soccer/story/_/id/50598965/manchester-united-pochettino-champions-league-sporting"
+            },
+            {
+              "name": "ESPN",
+              "title": "Mauricio Pochettino: Man United were 'punished' by officials in Sporting draw",
+              "url": "https://www.espn.com/soccer/story/_/id/50599139/man-united-mauricio-pochettino-sporting-referee-var-goal"
+            },
+            {
+              "name": "ESPN",
+              "title": "Champions League recap: Another night of mayhem for Pochettino's Man United",
+              "url": "https://www.espn.com/soccer/story/_/id/50574274/uefa-champions-league-live-updates"
+            },
+            {
+              "name": "ESPN",
+              "title": "Lammens errors cost Man United win despite bizarre Fernandes goal",
+              "url": "http://www.espn.com/soccer/report/_/gameId/401915373"
+            }
+          ]
+        },
+        {
+          "id": "sports-ucl-2",
+          "headline": "Alexander Isak Leads Liverpool Past Club Brugge",
+          "summary": "Alexander Isak scored two goals to help Liverpool beat Club Brugge 3-0. The victory puts Liverpool back on track for a top-eight finish in the tournament.",
+          "whyItMatters": "It helps Liverpool improve its standing and boosts the team's chances of advancing in the tournament.",
+          "explainer": "Liverpool defeated Club Brugge 3-0 in the Champions League, thanks in large part to two goals from striker Alexander Isak. Coach Andoni Iraola praised Isak for being in great form. Teammate Florian Wirtz also played well, showing that big investments in the team's forward line are starting to pay off and helping Liverpool aim for a top-eight finish.",
+          "keyTerms": [],
+          "disagreement": null,
+          "update": "Coach Andoni Iraola praised striker Alexander Isak for his great form following the team's victory.",
+          "importance": 4,
+          "image": "https://a.espncdn.com/photo/2026/1125/r1751380_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Liverpool are all smiles as Florian Wirtz, Alexander Isak start to click",
+              "url": "https://www.espn.com/soccer/story/_/id/50598544/liverpool-champions-league-isak-wirtz-club-brugge"
+            },
+            {
+              "name": "ESPN",
+              "title": "Andoni Iraola: Alexander Isak in a 'great moment' after brace vs. Club Brugge",
+              "url": "https://www.espn.com/soccer/story/_/id/50598768/andoni-iraola-alexander-isak-great-moment-liverpool"
+            },
+            {
+              "name": "ESPN",
+              "title": "Alexander Isak nets brace as Liverpool comfortably beat Club Brugge",
+              "url": "http://www.espn.com/soccer/report/_/gameId/401915292"
+            }
+          ]
+        },
+        {
+          "id": "sports-ucl-3",
+          "headline": "Anthony Gordon Scores Twice as Barcelona Defeats Sabah",
+          "summary": "Anthony Gordon scored two goals to help Barcelona secure a 4-1 victory over Azerbaijani club Sabah FK in Baku. The win keeps Barcelona moving forward in the competition.",
+          "whyItMatters": "It highlights Barcelona's strong performance and the impact of key players in European competition.",
+          "explainer": "Barcelona traveled to Baku and secured a comfortable 4-1 victory over Azerbaijani team Sabah FK. England forward Anthony Gordon led the charge by scoring two goals. The win marks another strong performance in the Champions League for Barcelona as they continue group play.",
+          "keyTerms": [],
+          "disagreement": null,
+          "update": "Barcelona cruised past Sabah FK with a strong performance in Baku.",
+          "importance": 4,
+          "image": "https://a.espncdn.com/photo/2026/1125/r1751301_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Anthony Gordon enjoys 'very special' Baku again to lead Barcelona rout",
+              "url": "https://www.espn.com/soccer/story/_/id/50597280/anthony-gordon-barcelona-baku-sabah-fk-champions-league"
+            },
+            {
+              "name": "ESPN",
+              "title": "Gordon scores twice as Barcelona cruise in Azerbaijan",
+              "url": "http://www.espn.com/soccer/report/_/gameId/401915378"
+            }
+          ]
+        },
+        {
+          "id": "sports-ucl-4",
+          "headline": "PSG Streak Halted by Roma Draw",
+          "summary": "Paris Saint-Germain was held to a 2-2 draw by Roma in a hard-fought Champions League match. PSG coach Luis Enrique called Roma his team's toughest opponent this season.",
+          "whyItMatters": "It slows down PSG's winning momentum in the tournament standings.",
+          "explainer": "Paris Saint-Germain saw its winning streak come to an end after a 2-2 draw against Roma. PSG coach Luis Enrique admitted that Roma was the toughest match his team has faced this season. The hard-fought tie slowed down PSG's progress in the Champions League.",
+          "keyTerms": [],
+          "disagreement": null,
+          "update": "PSG coach Luis Enrique reflected on the hard-fought match, calling Roma his team's toughest opponent so far.",
+          "importance": 4,
+          "image": "https://a.espncdn.com/photo/2026/1126/r1751436_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Luis Enrique praises Roma after draw halts PSG's winning streak",
+              "url": "https://www.espn.com/soccer/story/_/id/50599458/luis-enrique-praises-roma-draw-halts-psg-winning-streak"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-ligamx",
+      "title": "Sports · Liga MX",
+      "bricks": []
+    },
+    {
+      "id": "sports-f1",
+      "title": "Sports · Formula 1",
+      "bricks": [
+        {
+          "id": "sports-f1-0",
+          "headline": "Williams and Alpine Fined by FIA for Budget Breaches",
+          "summary": "Formula 1 officials fined Williams and Alpine after finding money rule mistakes. Williams spent over the allowed limit last year.",
+          "whyItMatters": "This matters because all teams must follow strict spending limits to keep the sport fair for everyone.",
+          "explainer": "Formula 1 has strict rules about how much money teams can spend each year. This is called a cost cap. It stops rich teams from buying all the best parts to win every race. The sport's governing body, the FIA, checked the money books and found that Williams spent more than they were allowed to last year. Both Williams and Alpine also made paperwork errors. Because of these mistakes, the teams were given financial penalties.",
+          "keyTerms": [
+            {
+              "term": "cost cap",
+              "definition": "A rule that sets a strict spending limit for all racing teams."
+            }
+          ],
+          "disagreement": null,
+          "update": "Official records show Williams overspent by £627,000 last year.",
+          "importance": 5,
+          "image": "https://a.espncdn.com/photo/2026/1125/r1751158_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Williams, Alpine fined £627k by FIA for breaching F1's cost cap",
+              "url": "https://www.espn.com/f1/story/_/id/50594939/williams-alpine-fined-627k-fia-f1-cap"
+            }
+          ]
+        },
+        {
+          "id": "sports-f1-1",
+          "headline": "Ollie Bearman Confirmed to Stay at Haas for 2027",
+          "summary": "Driver Ollie Bearman will race for the Haas team next year. The team confirmed his spot after a short wait.",
+          "whyItMatters": "This update sets the driver lineup for fans watching the team's future seasons.",
+          "explainer": "Formula 1 teams often change their drivers or keep them based on how well they perform. The Haas team announced that Ollie Bearman will keep his seat for the 2027 season. This confirmation stops rumors about who would drive for the team next year and gives the driver a clear path forward.",
+          "keyTerms": [],
+          "disagreement": null,
+          "update": "Haas officially confirmed the driver will stay for 2027.",
+          "importance": 4,
+          "image": "https://a.espncdn.com/photo/2026/1126/r1751562_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Haas confirm Ollie Bearman will stay for F1 2027 after 'strange' contract delay",
+              "url": "https://www.espn.com/f1/story/_/id/50603078/ollie-bearman-haas-f1-2027"
+            }
+          ]
+        },
+        {
+          "id": "sports-f1-2",
+          "headline": "Charles Leclerc Asks Ferrari for Fix After Team Clashes",
+          "summary": "Ferrari driver Charles Leclerc says he and teammate Lewis Hamilton need to fix their on-track crashes. He admits it hurts the team mood.",
+          "whyItMatters": "Team friction can change race outcomes and affect how well the team works together.",
+          "explainer": "Having two top drivers on the same racing team can lead to heavy competition. Charles Leclerc stated that he and his Ferrari teammate, Lewis Hamilton, must find a fix for recent crashes during races. Leclerc noted that these troubles have hurt the positive mood inside the team garage, meaning they need to talk and work better together.",
+          "keyTerms": [],
+          "disagreement": null,
+          "update": "Leclerc says recent on-track incidents with Hamilton have damaged team morale.",
+          "importance": 4,
+          "image": "https://a.espncdn.com/photo/2026/1126/r1751694_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Charles Leclerc urges Ferrari to find 'solution' after clash with Lewis Hamilton",
+              "url": "https://www.espn.com/f1/story/_/id/50603941/charles-leclerc-lewis-hamilton-ferrari-qatar-grand-prix-formula-1"
+            }
+          ]
+        },
+        {
+          "id": "sports-f1-3",
+          "headline": "George Russell Brushes Off Criticism From Max Verstappen",
+          "summary": "Driver George Russell laughed off recent comments from Max Verstappen. He says he is ready to move on from their ongoing feud.",
+          "whyItMatters": "Driver rivalries add drama to the sport for fans who follow the personal relationships between racers.",
+          "explainer": "Formula 1 drivers often compete hard both on the track and in the media. Driver George Russell recently reacted to remarks made by Max Verstappen during race weekend. Russell called the comments amusing and stated he is ready to put the latest exchange behind him rather than keep arguing.",
+          "keyTerms": [],
+          "disagreement": null,
+          "update": null,
+          "importance": 3,
+          "image": "https://a.espncdn.com/photo/2026/1126/r1751680_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "George Russell breaks silence on Max Verstappen criticism: 'Amusing'",
+              "url": "https://www.espn.com/f1/story/_/id/50472135/george-russell-max-verstappen-rivalry-qatar-grand-prix-formula-1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-tennis",
+      "title": "Sports · Tennis",
+      "bricks": [
+        {
+          "id": "sports-tennis-0",
+          "headline": "Jannik Sinner to Miss Australian Open for Rehab",
+          "summary": "Tennis player Jannik Sinner will miss the Australian Open next year. He needs time to heal his right knee after surgery.",
+          "whyItMatters": "Fans will miss watching a top-ranked player compete in one of the sport's biggest tournaments.",
+          "explainer": "Tennis star Jannik Sinner has decided to skip the Australian Open next year. The decision comes as he continues to recover from a recent surgery on his right knee. Sinner, who is ranked No. 2, needs proper time to rehab and heal so he can return safely to professional competition. Missing a major tournament is a big step for any top athlete, as it impacts rankings and championship goals.",
+          "keyTerms": [
+            {
+              "term": "Rehab",
+              "definition": "Short for rehabilitation, it is the process of healing and doing exercises to recover from an injury or surgery."
+            },
+            {
+              "term": "Australian Open",
+              "definition": "One of the four major international tennis tournaments held every year."
+            }
+          ],
+          "disagreement": null,
+          "update": "Sinner will miss the event next year to focus fully on healing his knee after his recent surgery.",
+          "importance": 6,
+          "image": "https://a.espncdn.com/photo/2026/0712/r1688294_600x400_3-2.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "No. 2 Jannik Sinner missing 2027 Australian Open to rehab knee",
+              "url": "https://www.espn.com/tennis/story/_/id/50599895/jannik-sinner-missing-2027-australian-open-rehab-knee"
+            }
+          ]
+        },
+        {
+          "id": "sports-tennis-1",
+          "headline": "Alexander Zverev Not Worried About New Lawsuit",
+          "summary": "Tennis star Alexander Zverev says he is not worried about a new lawsuit. The suit claims he broke rules from an earlier settlement in an abuse case.",
+          "whyItMatters": "Legal troubles can affect an athlete's focus, career, and public reputation.",
+          "explainer": "Top-ranked tennis player Alexander Zverev has spoken out about a new lawsuit. A former partner filed the suit, accusing Zverev of breaking the terms of an out-of-court settlement related to an alleged abuse case. Zverev stated publicly that he is not too concerned about the legal action. Such cases draw significant attention from fans and the media, putting pressure on athletes off the court.",
+          "keyTerms": [
+            {
+              "term": "Lawsuit",
+              "definition": "A claim brought into a court of law by one person against another to be decided by a judge."
+            },
+            {
+              "term": "Settlement",
+              "definition": "An official agreement that ends a legal dispute without a full court trial."
+            }
+          ],
+          "disagreement": null,
+          "update": "Zverev stated publicly that he remains unconcerned regarding the new legal claims filed against him.",
+          "importance": 5,
+          "image": "https://a.espncdn.com/photo/2026/1029/r1738292_600x400_3-2.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Alexander Zverev: 'Not too concerned' with ex-partner's lawsuit",
+              "url": "https://www.espn.com/tennis/story/_/id/50595041/alexander-zverev-not-too-concerned-ex-partner-lawsuit"
+            }
+          ]
+        },
+        {
+          "id": "sports-tennis-2",
+          "headline": "Henry Patten Splits With Doubles Partner Harri Heliovaara",
+          "summary": "Tennis doubles player Henry Patten has split with his partner Harri Heliovaara. Patten will now team up with Neal Skupski instead.",
+          "whyItMatters": "Team changes can completely alter how doubles pairs perform in upcoming tennis tournaments and matches.",
+          "explainer": "Tennis doubles player Henry Patten has made a surprising change to his career. He has ended his partnership with Harri Heliovaara, even though they reached world No. 1 status together. Patten will now join forces with British compatriot Neal Skupski. In professional tennis doubles, players often switch partners to find new chemistry and improve their chances of winning championships.",
+          "keyTerms": [
+            {
+              "term": "Doubles",
+              "definition": "A tennis match played with two players on each side of the net instead of just one."
+            }
+          ],
+          "disagreement": null,
+          "update": "Patten officially ended his top-ranked partnership to begin playing alongside Neal Skupski.",
+          "importance": 4,
+          "image": "https://a.espncdn.com/photo/2026/1123/r1750396_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Henry Patten ends doubles partnership with Harri Heliovaara to join Neal Skupski",
+              "url": "https://www.espn.com/tennis/story/_/id/50577214/henry-patten-neal-skupski-harri-heliovaara"
+            }
+          ]
+        },
+        {
+          "id": "sports-tennis-3",
+          "headline": "Spain Beats Austria to Reach Davis Cup Semifinals",
+          "summary": "Spain won its Davis Cup quarterfinal against Austria 2-0. Daniel Merida and Rafael Jodar both won their singles matches to secure the victory.",
+          "whyItMatters": "This win advances Spain to the next round, bringing them closer to winning the international team competition.",
+          "explainer": "Spain secured a spot in the Davis Cup semifinals after defeating Austria 2-0 in the quarterfinals. Daniel Merida started the win for Spain by beating Austria's Joel Schwaerzler in two sets. Then, Rafael Jodar secured the overall victory by coming back from a set down to defeat Jurij Rodionov. Spain will now advance to face Britain in the next stage of the tournament.",
+          "keyTerms": [
+            {
+              "term": "Davis Cup",
+              "definition": "A major international team competition in men's tennis run by the International Tennis Federation."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 5,
+          "image": "https://a.espncdn.com/photo/2026/1126/r1751791_600x400_3-2.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Spain beats Austria 2-0 to set up Davis Cup semifinal vs. Britain",
+              "url": "https://www.espn.com/tennis/story/_/id/50606263/spain-beats-austria-set-davis-cup-semifinal-vs-britain"
+            }
+          ]
+        },
+        {
+          "id": "sports-tennis-4",
+          "headline": "Czech Republic Beats Canada to Reach Davis Cup Semifinals",
+          "summary": "The Czech Republic defeated Canada 2-0 to advance to the Davis Cup semifinals. Jiri Lehecka clinched the victory by beating Felix Auger-Aliassime.",
+          "whyItMatters": "The victory moves the Czech team one step closer to winning the prestigious international tennis trophy.",
+          "explainer": "The Czech Republic is moving on to the Davis Cup semifinals after a strong team performance. Jiri Lehecka led his country to victory by defeating Canada's Felix Auger-Aliassime in a close match. The win sealed a 2-0 series sweep for the Czech squad. The Davis Cup brings together the best national teams from around the world to compete for the annual championship.",
+          "keyTerms": [
+            {
+              "term": "Semifinals",
+              "definition": "The round of a competition that immediately comes before the final round."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 5,
+          "image": "https://a.espncdn.com/photo/2024/0112/r1276433_600x400_3-2.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Jiri Lehecka, Czechs beat Canada, reach Davis Cup semifinals",
+              "url": "https://www.espn.com/tennis/story/_/id/50585560/lehecka-czechs-beat-canada-reach-davis-cup-semifinals"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports-golf",
+      "title": "Sports · Golf",
+      "bricks": [
+        {
+          "id": "sports-golf-0",
+          "headline": "Brooks Koepka's Return Shifts FedEx Cup Standings",
+          "summary": "Three golfers moved up in the final FedEx Cup standings. Jason Day, Max McGreevy, and Pontus Nyholm improved their tour status because Brooks Koepka returned.",
+          "whyItMatters": "This shift in the standings gives these three golfers better playing status and more opportunities on the tour next season.",
+          "explainer": "The FedEx Cup is a season-long points competition on the Professional Golfers' Association tour. When players change their status or leave, it can alter the standings for others. In this case, the return of Brooks Koepka caused a ripple effect in the final points list. As a result, Jason Day, Max McGreevy, and Pontus Nyholm each moved up one spot, which helps them secure better placement and privileges for upcoming tour events.",
+          "keyTerms": [
+            {
+              "term": "FedEx Cup",
+              "definition": "A season-long points competition for professional golfers."
+            }
+          ],
+          "disagreement": null,
+          "update": null,
+          "importance": 3,
+          "image": "https://a.espncdn.com/photo/2026/0616/r1674391_1296x729_16-9.jpg",
+          "sources": [
+            {
+              "name": "ESPN",
+              "title": "Brooks Koepka's return helps 3 golfers improve 2027 status",
+              "url": "https://www.espn.com/golf/story/_/id/50583808/brooks-koepka-return-helps-3-golfers-improve-2027-status"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

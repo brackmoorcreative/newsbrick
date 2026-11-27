@@ -1,66 +1,66 @@
 {
-  "generatedAt": "2026-11-26T19:10:18.324Z",
-  "weekEnding": "2026-11-26",
+  "generatedAt": "2026-11-27T19:13:31.667Z",
+  "weekEnding": "2026-11-27",
   "questions": [
     {
       "storyId": "economy-world-0",
-      "question": "How large of an additional tax is the US proposing on Chinese imports?",
+      "question": "How large is the additional tax the US is proposing on Chinese imports?",
       "options": [
-        "An additional 10%",
-        "An additional 20%",
-        "An additional 30%",
-        "An additional 40%"
+        "10%",
+        "20%",
+        "30%",
+        "40%"
       ],
       "answer": 1,
-      "explanation": "The US is proposing an additional 20% tax on Chinese imports, bringing the total tax to 40%."
+      "explanation": "The US is proposing an additional 20% tax on Chinese imports."
     },
     {
       "storyId": "region-europe-0",
-      "question": "Why did Spain call an early general election?",
+      "question": "What is the main reason Spain called an early general election?",
       "options": [
-        "Mass protests over housing costs",
-        "A sudden change in the weather",
-        "A new space program",
-        "New rules for digital media"
+        "A national housing crisis",
+        "A sudden sports scandal",
+        "An election law change",
+        "A massive weather disaster"
       ],
       "answer": 0,
-      "explanation": "Spain called an early general election after facing mass protests and public pressure over a national housing crisis."
+      "explanation": "Spain called an early election after facing significant public pressure regarding a national housing crisis."
     },
     {
-      "storyId": "region-europe-0",
-      "question": "What military vehicle did Ukraine use to strike a Russian warship docked in Libya?",
+      "storyId": "top-world-0",
+      "question": "What weapon did Ukraine use to strike Russian vessels off the coast of Libya?",
       "options": [
         "Fighter jets",
         "Naval drones",
-        "Submarines",
-        "Helicopters"
+        "Long-range missiles",
+        "Submarines"
       ],
       "answer": 1,
-      "explanation": "Ukraine used naval drones to attack a Russian warship docked in Libya."
-    },
-    {
-      "storyId": "economy-world-1",
-      "question": "By what percentage are energy bills for millions of UK households expected to rise in January?",
-      "options": [
-        "10 percent",
-        "15 percent",
-        "26 percent",
-        "50 percent"
-      ],
-      "answer": 2,
-      "explanation": "UK energy bills are set to rise by 26 percent following a surge in global gas prices."
+      "explanation": "Ukraine used naval drones to strike a Russian warship docked in Libya."
     },
     {
       "storyId": "economy-us-0",
-      "question": "According to government data, what was the U.S. inflation rate in October?",
+      "question": "What was the U.S. inflation rate in October?",
       "options": [
-        "2.5 percent",
-        "3.6 percent",
-        "3.8 percent",
-        "4.2 percent"
+        "2.5%",
+        "3.6%",
+        "3.8%",
+        "4.2%"
       ],
       "answer": 2,
-      "explanation": "Government data shows consumer prices rose by 3.8% in October compared to the previous year."
+      "explanation": "Government data shows consumer prices rose 3.8% in October compared to last year."
+    },
+    {
+      "storyId": "region-mideast-0",
+      "question": "Judges in which country's leader's trial recently called for corruption charges to be dropped?",
+      "options": [
+        "Israel",
+        "Jordan",
+        "Egypt",
+        "Lebanon"
+      ],
+      "answer": 0,
+      "explanation": "Judges presiding over Israeli Prime Minister Benjamin Netanyahu's corruption trial called on prosecutors to drop the charges."
     }
   ]
 }
